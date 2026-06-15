@@ -80,19 +80,3 @@ Practical V1 recommendation:
 - Error Cases and review flags are expected evidence artifacts.
 - Large sample DBs, if distributed separately, are query demos more than
   ontology-mining demos.
-
-## Verification Before Release
-
-Final local release checks before packaging:
-
-```text
-Orchestrator credentials regression: 7 passed
-Semantic Control Kernel focused regression: 29 passed
-Client Frontend workflow/direct-message regression: 5 passed
-```
-
-Release branch:
-
-```text
-main
-```
