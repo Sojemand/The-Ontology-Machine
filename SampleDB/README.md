@@ -12,7 +12,7 @@ It contains a prepared Ontology Machine Artifact Tree and Corpus DB for the book
 
 ## Included Work
 
-**Bewusstseinsreisen** is an original book written by **Norman Weiss**, the author and rights holder of this sample material as well es the creator of the Ontology Machine.
+**Bewusstseinsreisen** is an original book written by **Norman Weiss**, the author and rights holder of this sample material as well as the creator of the Ontology Machine.
 
 The included PDF, rendered page images, extracted text, structured JSON, normalized artifacts, embeddings, ontology data, semantic release files, and corpus database are derived from that book and are included only so that users can test, inspect, and understand The Ontology Machine with a real prepared corpus.
 
@@ -63,9 +63,11 @@ The prepared demo currently contains:
 - 102 materialized page-level corpus records
 - 102 stored page images
 - 102 document embeddings
-- 1,167 embedding chunks
+- 993 document embedding chunks
+- 226 ontology embedding chunks
 - 1 active custom Semantic Release
-- 2 ontology lenses
+- 1 active primary ontology lens: `Theory of Mind Lens for Bewusstseinsreisen`
+- a refreshed Base Graph with source-document pages, structural units, structural relations, and source-document classifications
 
 ## Intended Purpose
 
