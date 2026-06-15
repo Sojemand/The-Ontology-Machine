@@ -53,16 +53,17 @@ roughly 100 to 200 pages if cost matters.
 
 ## Download
 
-The recommended user path is the GitHub Release installer, not cloning the repo.
+The recommended user path is the GitHub Release installer, not cloning the
+repo.
 
-Current local release build:
+Download the latest release from:
 
 ```text
-dist\all-in-one\installer\OntologyMachine-AllInOne-Setup-2026-06-15.exe
+https://github.com/Sojemand/The-Ontology-Machine/releases/latest
 ```
 
-For a public GitHub release, upload that installer as a release asset. A
-checksum is provided as a release asset alongside the installer.
+The release assets include the Windows installer, checksum file, Quickstart PDF
+and optional sample database archives.
 
 ## Quick Start
 
