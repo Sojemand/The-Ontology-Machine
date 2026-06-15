@@ -1,12 +1,16 @@
 # Dev Tests
 
-Gekapselte Node-Test-Suite fuer das Client Frontend.
+Encapsulated Node test suite for the Client Frontend.
 
-- Oeffentliche Test-Seams bleiben `src/*`, `src/main_app/*`, `src/ui/render.ts`, `server/*`, `server/chat_store/surface.js` sowie `client_frontend/runtime_paths.js` und `client_frontend/runtime_paths/*`.
-- Die eigentliche Implementierung liegt unter `client_frontend/`; Tests duerfen die pfadstabilen Wrapper und die explizit dokumentierten Runtime-Pfad-Seams weiter direkt importieren.
-- Die Suite ist nach Verhaltensclustern organisiert:
-  - Browser-App und Render-Surfaces
-  - Config- und Provider-Contract-Surfaces
-  - HTTP-, Security- und Session-Workflows
-  - Memory- und Minimal-Agent-Regressionspfade
-  - Runtime-, Deploy- und Installer-Vertrag
+- Public test seams remain `src/*`, `src/main_app/*`, `src/ui/render.ts`,
+  `server/*`, `server/chat_store/surface.js`,
+  `client_frontend/runtime_paths.js` and `client_frontend/runtime_paths/*`.
+- The actual implementation lives under `client_frontend/`; tests may keep
+  importing the path-stable wrappers and explicitly documented runtime-path
+  seams directly.
+- The suite is organized by behavior clusters:
+  - Browser app and render surfaces
+  - Config and provider contract surfaces
+  - HTTP, security and session workflows
+  - Memory and Minimal Agent regression paths
+  - Runtime, deploy and installer contract

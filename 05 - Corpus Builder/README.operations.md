@@ -1,17 +1,17 @@
 # README.operations
 
-Ergaenzende Betriebs- und Build-Hinweise fuer `05 - Corpus Builder`.
+Additional operation and build notes for `05 - Corpus Builder`.
 
-## Runtime und Build
+## Runtime And Build
 
-Lokaler Modulstart:
+Local module start:
 
 ```bat
 check-runtime.bat
 runtime\python\python.exe -m corpus_builder --help
 ```
 
-Portable Runtime bauen oder validieren:
+Build or validate the portable runtime:
 
 ```bat
 build-runtime.bat
@@ -20,16 +20,16 @@ build-runtime.bat --validate-only
 ..\tools\build-runtimes.bat --module "05 - Corpus Builder" --validate-only
 ```
 
-Erwartete Runtime-Pfade:
+Expected runtime paths:
 
 - `runtime/python`
 - `runtime/runtime-manifest.json`
-- mutable Produktdaten in `state/` und `output/`
+- mutable product data in `state/` and `output/`
 
 ## Development
 
-Die Produktquelle liegt nur unter dem Modul selbst. Nicht als Primaerquelle
-verwenden:
+Product source lives only under the module itself. Do not use these as primary
+source:
 
 - `dist/`
 - `runtime/`
@@ -40,78 +40,83 @@ verwenden:
 - `.pytest-tmp/`
 - `.tmp/`
 
-Tests lokal mit CPython `3.11.x`:
+Run local tests with CPython `3.11.x`:
 
 ```bat
 dev-tests\bootstrap.bat
 dev-tests\run-tests.bat
 ```
 
-Die Suite nutzt pro Lauf ein eigenes kurzes Basetemp unter `%TEMP%\om-cb-pytest-*`.
-`PYTEST_BASETEMP` kann diesen Pfad fuer gezielte lokale Diagnose ueberschreiben.
+The suite uses a short per-run basetemp under `%TEMP%\om-cb-pytest-*`.
+`PYTEST_BASETEMP` may override that path for targeted local diagnosis.
 
 ## Semantic Release
 
-- `load-release` staged nur einen exportierten `.json`-Release-Bundle
-- `apply-release` aktiviert den bereits publizierten Bundle-Stand fuer genau
-  diese `corpus.db`
-- Kernel-gestuetzte Attach-/Activation-Aufrufe koennen
-  `write_global_mirrors=false` setzen. Dann prueft der Corpus Builder den
-  uebergebenen Release und schreibt nur die zielbezogene DB-Aktivierung; die
-  owner-lokalen Published/Active/Report-Mirrors bleiben unveraendert.
-- `semantic_status` und `read_active_semantic_release` zeigen zusaetzlich, ob
-  aktive Release-Datei und `installation_state` der Datenbank zusammenpassen
-- bei Fingerprint-Aenderungen werden aktive Dokumente als `stale` markiert
-- danach sollte `backfill-stale` oder ein kompletter Rebuild folgen
+- `load-release` stages only an exported `.json` release bundle.
+- `apply-release` activates the already published bundle state for exactly one
+  `corpus.db`.
+- Kernel-backed attach/activation calls may set `write_global_mirrors=false`.
+  Then Corpus Builder validates the provided release and writes only the
+  target-specific DB activation; owner-local Published/Active/Report mirrors
+  remain unchanged.
+- `semantic_status` and `read_active_semantic_release` also report whether the
+  active release file and DB `installation_state` match.
+- Release fingerprint changes mark active documents as `stale`.
+- After that, run `backfill-stale` or perform a complete rebuild.
 
-Harte Schutzregeln:
+Hard guardrails:
 
-- kein Stage- oder Apply-Pfad fuer Verzeichnisse, YAML-Dateien oder andere
-  Nicht-`.json`-Release-Quellen
-- kein Stage- oder Apply-Pfad fuer Release-Bundles mit Fingerprint-Drift gegen
-  ihren Inhalt
-- kein `apply-release` fuer aktive Dokumente ohne `projection_id`
-- kein `apply-release` bei fehlenden Projectionen im neuen Release
-- kein `apply-release` ueber unterschiedliche Master-Taxonomy-Linien
-- normalized-first Loads werden ohne kompatiblen aktiven Release blockiert
+- No stage/apply path for directories, YAML files or other non-`.json` release
+  sources.
+- No stage/apply path for release bundles whose fingerprint drifts from their
+  content.
+- No `apply-release` for active documents without `projection_id`.
+- No `apply-release` when projections are missing in the new release.
+- No `apply-release` across different master taxonomy lines.
+- Normalized-first loads are blocked without a compatible active release.
 
-## Rebuild aus Artefakten
+## Rebuild From Artifacts
 
-Bevorzugter Rebuild-Pfad:
+Preferred rebuild input:
 
-- Artefaktordner mit `normalized/`, `structured/`, `validation/`
-- optional sibling `page_images/` fuer DB-Bildpersistenz
-- rekursiver Scan ueber Pipeline-Cluster wie `vision/...`
+- Artifact folder with `normalized/`, `structured/`, `validation/`.
+- Optional sibling `page_images/` for DB image persistence.
+- Recursive scan over pipeline clusters such as `vision/...`.
 
-Wichtige Regeln:
+Important rules:
 
-- `normalized` ist die primaere Rebuild-Basis
-- `structured` und `validation` werden nur als vollstaendiges Evidence-Paar
-  mitgenommen
-- `runtime\python\python.exe -m corpus_builder rebuild` bleibt der direkte CLI-Rebuild-Pfad
-- der Orchestrator Debug Host nutzt fuer dasselbe Artefaktmodell
-  `scan_debug_input` und `debug_run`
-- `debug_run` mit `mode=single` laedt genau ein
-  `*.structured.normalized.json` in eine frische Session-DB
-- `debug_run` mit `mode=batch` baut `outputs/corpus.db` aus einem
-  Artefaktordner neu auf
+- `normalized` is the primary rebuild basis.
+- `structured` and `validation` are included only as a complete evidence pair.
+- `runtime\python\python.exe -m corpus_builder rebuild` remains the direct CLI
+  rebuild path.
+- The Orchestrator Debug Host uses the same artifact model through
+  `scan_debug_input` and `debug_run`.
+- `debug_run` with `mode=single` loads exactly one
+  `*.structured.normalized.json` into a fresh session DB.
+- `debug_run` with `mode=batch` rebuilds `outputs/corpus.db` from an artifact
+  folder.
 
 ## Edit Suite Surface
 
-Die lokale GUI ist entfernt. Modulnahe Arbeitsflaechen fuer:
+The local GUI was removed. Module-near work surfaces for:
 
-- `Semantik`
-- `Suche`
-- `Statistiken`
-- `Export`
-- `Artefakt-Rebuild`
+- Semantics
+- Search
+- Statistics
+- Export
+- Artifact rebuild
 
-werden ueber den Corpus-Builder-Slot in `06 - Edit Suite` bereitgestellt.
-Der Orchestrator Debug Host bleibt fuer `scan_debug_input` und `debug_run`
-zustaendig. Die Edit Suite exponiert dabei nur noch die Surfaces
-`corpus_builder.settings`, `corpus_builder.embeddings_policy` und
-`corpus_builder.search_policy`; Semantic-Stage und -Aktivierung laufen als
-Actions ueber `Settings`.
+are provided through the Corpus Builder slot in `06 - Edit Suite`.
+The Orchestrator Debug Host remains responsible for `scan_debug_input` and
+`debug_run`.
+
+The Edit Suite exposes only:
+
+- `corpus_builder.settings`
+- `corpus_builder.embeddings_policy`
+- `corpus_builder.search_policy`
+
+Semantic stage and activation run as actions through `Settings`.
 
 ## Installer
 
@@ -120,5 +125,8 @@ build-installer.bat
 build-installer.bat --compile
 ```
 
-Der Installer bleibt auf user-writable Pfade unter
-`%LOCALAPPDATA%\Programs\Corpus Builder Vision` ausgelegt.
+The installer targets user-writable paths under:
+
+```text
+%LOCALAPPDATA%\Programs\Corpus Builder Vision
+```

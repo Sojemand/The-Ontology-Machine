@@ -1,14 +1,21 @@
 # Dev Tests
 
-Lokale Dev-Test-Suite fuer `01 - Optimizer`.
+Local development test suite for `01 - Optimizer`.
 
 ```bat
 bootstrap.bat
 run-tests.bat
 ```
 
-- Die Suite kombiniert Unit-/Contract-Tests mit einem kleinen versionierten Corpus unter `dev-tests/corpus/`.
-- Der Corpus deckt einen echten Markdown-End-to-End-Fall und einen anonymisierten Vision-Payload-Golden-Fall ab.
-- Packaging-/Runtime-Vertragstests pruefen zusaetzlich `check-runtime.bat`, `runtime/runtime-manifest.json`, `installer.bat`, `build-installer.bat` und den installierten Contract-only Slot ohne lokalen Launcher.
-- LLM-OCR-E2E mit echten Binaerdokumenten und Provider-Calls bleibt bewusst ausserhalb des Repos, damit die Suite offline und ohne Secrets reproduzierbar bleibt.
-- `dev-tests/.venv` ist die erwartete Dev-Test-Runtime; `.pytest-local-tmp` und `pytest-cache-files-*` im Modulroot sind disposable Local-Artefakte.
+- The suite combines unit/contract tests with a small versioned corpus under
+  `dev-tests/corpus/`.
+- The corpus covers one real Markdown end-to-end case and one anonymized
+  vision-payload golden case.
+- Packaging/runtime contract tests additionally check `check-runtime.bat`,
+  `runtime/runtime-manifest.json`, `installer.bat`, `build-installer.bat` and
+  the installed contract-only slot without a local launcher.
+- LLM OCR E2E with real binary documents and provider calls intentionally stays
+  outside the repo so the suite remains offline and reproducible without
+  secrets.
+- `dev-tests/.venv` is the expected dev-test runtime. `.pytest-local-tmp` and
+  `pytest-cache-files-*` in the module root are disposable local artifacts.

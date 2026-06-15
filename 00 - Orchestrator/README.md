@@ -1,20 +1,21 @@
 # Orchestrator
 
-Standalone-Orchestrator fuer die Vision Pipeline.
+Standalone Windows Orchestrator for The Ontology Machine pipeline.
 
 ## Runtime Build
 
-- Zielplattform: Windows x64
-- Gebuendelte Runtime: CPython 3.11 x64
-- Offline-Quelle fuer Runtime-Pakete: `runtime/wheelhouse`
-- Runtime-Vertrag: `runtime/runtime-manifest.json`
-- Build-Befehl:
+- Target platform: Windows x64.
+- Bundled runtime: CPython 3.11 x64.
+- Offline source for runtime packages: `runtime/wheelhouse`.
+- Runtime contract: `runtime/runtime-manifest.json`.
+
+Build runtime:
 
 ```bat
 build-runtime.bat
 ```
 
-- Portable Runtime pruefen:
+Check portable runtime:
 
 ```bat
 check-runtime.bat
@@ -22,441 +23,416 @@ check-runtime.bat
 
 ## Per-User Installation
 
-- Installationsziel: benutzerschreibbarer Ordner
-- Keine Adminrechte erforderlich
-- Kein vorinstalliertes Python erforderlich
-- Kein Internet fuer den Betrieb erforderlich
-- Inno-Setup-Stage oder Installer bauen:
+- Install target: user-writable folder.
+- No administrator rights required.
+- No preinstalled Python required.
+- No internet required for normal operation.
+
+Build Inno Setup stage or installer:
 
 ```bat
 build-installer.bat
 build-installer.bat --compile
 ```
 
-- Default-Ziel fuer den Installer: `%LOCALAPPDATA%\Programs\Vision Pipeline\00 - Orchestrator`
+Default installer target:
 
-Der Orchestrator bleibt bewusst ein **Modulslot** im Pipeline-Root. Auch nach Installation werden die in `module-registry.json` referenzierten Nachbarmodule relativ zum Orchestrator im selben Pipeline-Root erwartet.
+```text
+%LOCALAPPDATA%\Programs\Vision Pipeline\00 - Orchestrator
+```
+
+The Orchestrator intentionally remains a module slot inside the pipeline root.
+Even after installation, sibling modules referenced by `module-registry.json`
+are expected relative to the Orchestrator in the same pipeline root.
+
+## Product Role
+
+The Orchestrator is the local desktop control surface for direct pipeline
+operation and debugging. It owns:
+
+- GUI state and launcher workflow.
+- Pipeline queue, run lifecycle and reset actions.
+- Route/intake policy.
+- Module registry and sibling-module health checks.
+- Runtime credential resolution for pipeline runs.
+- Debug Host sessions for sibling-module contract debugging.
+- Artifact publication into `Documents/` and `Error Cases/`.
+
+It does not own the internal truth of Optimizer, Interpreter, Validator,
+Normalizer or Corpus Builder. Those modules are called through their contracts.
 
 ## Edit Contract
 
-- Der Produkt-Contract liegt unter `orchestrator.orchestrator_contract`.
-- Fuer die Edit Suite existiert zusaetzlich der owner-lokale, headless Contract `orchestrator.edit_contract`.
-- Aufruf:
+- Product contract: `orchestrator.orchestrator_contract`.
+- Owner-local headless Edit Suite contract: `orchestrator.edit_contract`.
+
+Call shape:
 
 ```bat
 python -m orchestrator.edit_contract --request <request.json> --response <response.json>
 ```
 
-- Der Edit-Contract beschreibt und bearbeitet ausschliesslich die vier owner-lokalen Policy-Surfaces:
-  - `orchestrator.route_intake_policy`
-  - `orchestrator.execution_policy`
-  - `orchestrator.health_dependency_policy`
-  - `orchestrator.artifact_publication_policy`
-- In der Edit Suite erscheinen diese vier Surfaces als gefuehrter Policy-Slot:
-  - Summary liefert die Snapshot-Karten `Routing Snapshot`, `Execution Snapshot`, `Health Profiles` und `Artifact Layout`
-  - Settings nutzt einen Guided-Editor mit Top-Level-Gruppen, Typed Inputs fuer einfache Werte und JSON-Teil-Editoren fuer verschachtelte Policy-Maps
-- GUI-State unter `state/ui_state.json`, `state/runtime_settings.json`, Credentials und Protokollkonstanten bleiben bewusst ausserhalb dieses Edit-Contracts.
-- Eine eng begrenzte Produkt-Contract-Action `activate_corpus_context` darf den Orchestrator-owned Corpus-Kontext setzen. Sie validiert, dass die Ziel-DB existiert, eine Datei ist und innerhalb des angegebenen `corpus_output_folder` liegt; danach setzt sie `selected_corpus_db_path`, `corpus_output_folder`, `semantic_release_mode=database_default` und leert `semantic_release_path`.
+The edit contract describes and edits only four owner-local policy surfaces:
 
-## Entwicklung
+- `orchestrator.route_intake_policy`
+- `orchestrator.execution_policy`
+- `orchestrator.health_dependency_policy`
+- `orchestrator.artifact_publication_policy`
 
-Lokale Dev-Test-Suite mit derselben Hauptversion wie die gebuendelte Runtime:
+GUI state under `state/ui_state.json`, `state/runtime_settings.json`,
+credentials and protocol constants remain outside this edit contract.
+
+The product contract action `activate_corpus_context` may set the
+Orchestrator-owned Corpus context. It validates that the target DB exists,
+points to a file and stays inside the provided `corpus_output_folder`; it then
+sets `selected_corpus_db_path`, `corpus_output_folder`,
+`semantic_release_mode=database_default` and clears `semantic_release_path`.
+
+## Development
+
+Local dev tests with the same major runtime version as the bundled runtime:
 
 ```bat
 dev-tests\bootstrap.bat
 dev-tests\run-tests.bat
 ```
 
-Alternativ laufen alle Suiten zentral ueber `run-dev-tests.bat --module "00 - Orchestrator"`.
+From the repository root:
 
-## Main-Architektur und Debug
+```bat
+run-dev-tests.bat --module "00 - Orchestrator"
+```
 
-- `orchestrator.main` ist jetzt die pfadstabile Package-Surface fuer den Startpfad des Moduls.
-- Die Main-Stufen sind explizit getrennt:
-  - `surface`: Parser-Bau und minimaler Entrypoint-Dispatch
-  - `workflow`: Logging-Setup, Startup-Prerequisites und GUI-Start
-- `python -m orchestrator`, `run.bat` und `from orchestrator import main` bleiben kompatibel.
-- Debugging entlang der Main-Stufen:
-  - Startparameter zuerst in `surface`
-  - Runtime-/GUI-Startprobleme in `workflow`
+## Main Architecture And Debugging
 
-## Regression-Layer
+`orchestrator.main` is the path-stable package surface for module startup.
 
-- Unter `dev-tests/fixtures/regression/` liegt eine kleine replay-basierte Regressionsebene mit kuratierten End-to-End-Faellen.
-- Die Regressionen laufen offline: der Orchestrator wird echt ausgefuehrt, die Stage-Artefakte kommen aber aus versionierten Replay-Files statt aus Live-Modulaufrufen.
-- Die ersten beiden Replay-Faelle basieren auf anonymisierten echten Kundenlaeufen und wurden fuer die Tests strukturerhaltend bereinigt.
-- Aktuell abgedeckte Faelle:
-  - `happy_path`: erfolgreicher Ein-Dokument-Run bis `corpus.db`
-  - `receipt_live`: Live-Capture eines synthetischen Kassenbons mit echten Schwester-Modulen, eingefroren als Replay-Fall
-  - `validator_fail`: wiederholter Validator-Fehler mit finalem Error-Case-Snapshot
-  - `interpreter_review`: synthetischer Interpreter-Review-Pfad mit finalem Error-Case-Snapshot nach drei Versuchen
-  - `normalizer_review`: synthetischer Normalizer-Review-Pfad mit finalem `needs_review`-Erfolg inklusive `normalized`-Artefakt
-- Der Reset-Roundtrip wird in derselben Suite gezielt auf Basis von `validator_fail` geprueft, damit Rueckverschiebung aus `Error Cases` sowie der Erhalt von Erfolgsartefakten und `corpus.db` gemeinsam regressionsstabil bleiben.
-- Ausfuehrung:
+Main stages:
+
+- `surface`: argument parsing and minimal entrypoint dispatch.
+- `workflow`: logging setup, startup prerequisites and GUI startup.
+
+Compatible entrypoints:
+
+- `python -m orchestrator`
+- `run.bat`
+- `from orchestrator import main`
+
+Debug routing:
+
+- Startup arguments: inspect `surface`.
+- Runtime or GUI startup issues: inspect `workflow`.
+
+## Runtime Model
+
+- The GUI works with exactly one `Artifact Folder`.
+- GUI settings are persisted debounce-style into `state/ui_state.json` without
+  a separate save step and are flushed at focus-out, tab change, run start and
+  app close.
+- Non-GUI policy defaults live owner-locally under `config/*.json`.
+- Persistent success artifacts are written route-locally under the Artifact
+  Folder:
+  - `Documents/originals/`
+  - `Documents/raw_extracts/`
+  - `Documents/page_images/`
+  - `Documents/requests/`
+  - `Documents/structured/`
+  - `Documents/validation/`
+  - `Documents/normalized/`
+  - `Documents/logs/`
+- Terminal failures, review cases and aborts are frozen under:
+  - `Error Cases/<ModuleName>/<RouteName>/...`
+- Document-scoped working artifacts are created during active runs under:
+  - `state/pipeline/runs/<run_id>/d.<hash>/...`
+
+There is no separate global Error Folder and no separate review collection path.
+
+Successful documents move their original into `Documents/originals/...` only at
+the end and publish raw extracts, page images, requests, structured,
+validation, normalized and per-document run logs at that point.
+
+Final error/review/abort cases move the original canonically into
+`Error Cases/<ModuleName>/<RouteName>/originals/...` and must not leave
+document-related artifacts in `Documents` after completion.
+
+## Reset Actions
+
+`Reset Error Bundle`:
+
+- Clears `Error Cases` plus a possible legacy `errors/` tree.
+- Moves archived originals back into the Input folder where possible.
+- Leaves `corpus.db`, success artifacts and successful state records unchanged.
+
+`Reset Pipeline Logs`:
+
+- Clears hidden run history under `state/pipeline/`.
+- Clears `state/orchestrator.log`, backups and legacy
+  `vision_orchestrator.log*`.
+- Does not touch artifacts, `corpus.db`, `debug_sessions/`, credentials or
+  settings.
+
+## Pipeline Stages
+
+Logical stages:
+
+- Intake
+- Optimizer
+- Request Enrichment
+- Interpreter
+- Validator
+- Normalizer
+- Corpus Builder
+- Embeddings
+
+Live federation modules:
+
+- `optimizer`
+- `interpreter`
+- `validator`
+- `normalizer`
+- `corpus_builder`
+
+Supported document route family:
+
+- `Documents`
+
+Supported extensions include common image formats, mail formats, Office/text
+formats and PDFs.
+
+PDF routing:
+
+- Born-digital PDF -> `optimizer_profile=file`, `interpreter_profile=file`.
+- Scan PDF -> `optimizer_profile=vision`, `interpreter_profile=vision`.
+
+Preflight runs in two phases:
+
+1. Discovery plus intake classification.
+2. Healthcheck only for live modules required by the actual ready queue.
+
+For `vision`, Optimizer OCR is required as an LLM OCR dependency. For `file`,
+route-specific required dependencies are scoped from the ready queue.
+
+## Runtime Layout
+
+| Path | Role | Mutable |
+| --- | --- | --- |
+| `orchestrator/` | Product code and package surfaces | no |
+| `config/` | Owner-local policy defaults for Edit Suite and runtime | yes |
+| `runtime/python` | Bundled CPython runtime | no |
+| `runtime/runtime-manifest.json` | Packaging and runtime provenance contract | no |
+| `runtime/wheelhouse` | Offline runtime rebuild source | no after build |
+| `state/` | Local UI, credential and GUI log state | yes |
+| `state/pipeline/` | `pipeline_state.json` plus transient active-run files | yes |
+| `<Artifact Folder>/Documents|Error Cases` | Persistent product artifacts | yes |
+
+`check-runtime.bat` validates only the local bundle and provenance contract.
+Sibling-module federation is checked separately at startup against
+`module-registry.json`.
+
+## Semantic Release
+
+- The GUI may point to an explicit `Semantic Release` file.
+- Before a run, the Orchestrator activates that release once for the target
+  `corpus.db`.
+- Without an explicit release file, the Orchestrator uses the already active
+  release state known by Corpus Builder.
+
+## Credentials Resolver
+
+`orchestrator.credentials` is the path-stable surface for central
+Orchestrator authentication ownership.
+
+Important state files:
+
+- `state/credentials_state.json`: non-sensitive credential metadata and
+  presence flags.
+- `state/model_catalog_state.json`: non-sensitive model catalog cache.
+- `state/keystore.enc` plus lock: DPAPI-protected API keys.
+- `state/oauth_token.enc` plus lock: DPAPI-protected OAuth session.
+- `state/oauth_latest_report.json`: sanitized OAuth report without token
+  values.
+
+Credential targets:
+
+- `llm_shared`: shared LLM credential for Interpreter and Normalizer.
+- `optimizer_ocr`: separate LLM credential for Optimizer OCR.
+- `embeddings`: separate credential for Corpus Builder embeddings.
+- `oauth`: browser/PKCE login with DPAPI cache and sanitized metadata.
+
+The Orchestrator remains the only auth owner. Sibling modules receive ephemeral
+runtime credentials through subprocess environment overlays, never through
+request JSON.
+
+Current LLM resolver semantics:
+
+- Active OpenAI OAuth session -> Interpreter, Normalizer and OpenAI
+  Optimizer OCR may run through OAuth.
+- Otherwise Interpreter and Normalizer use `llm_shared`.
+- `optimizer_ocr` uses its own credential target.
+- Embeddings stay logically separate; missing embedding credentials do not
+  block OAuth pipeline paths, but embeddings are skipped with a visible warning.
+
+## UI Architecture And Debugging
+
+`orchestrator.ui` is the path-stable desktop GUI surface. External import:
+
+```python
+from orchestrator.ui import OrchestratorApp
+```
+
+UI stages:
+
+- `surface`: thin `OrchestratorApp` entry and dispatch layer.
+- `repository`: `UiState` mapping and persistence.
+- `validation`: hard startup invariants.
+- `workflow`: worker start, abort, queue drain, finish and cleanup.
+- `debug_*`: generic Debug tab and session persistence.
+- `layout`, `credentials_layout`, `rendering`, `credentials_rendering`,
+  `dialogs`: Tk boundaries for visible UI.
+- `policy`: view-model formatting for status, colors and details.
+
+The startup path builds only shell plus `Status` immediately. `Debug`,
+`Credentials`, `Models` and `Log` are built lazily on first tab switch.
+
+## Models And State
+
+- `orchestrator.models` is the path-stable surface for shared Orchestrator
+  types.
+- `orchestrator.model_catalog` owns the non-sensitive model catalog cache and
+  provider-verified refreshes.
+- `orchestrator.state` owns UI and pipeline state persistence.
+- `orchestrator.credentials.repository` separately owns non-sensitive
+  credential resolver state.
+
+State layers:
+
+- `surface`: stable load/save API and `atomic_json_write`.
+- `repository`: `UiState` and `PipelineState` serialization.
+- `adapter`: raw JSON file I/O and atomic writes.
+
+## Worker And Integration Boundaries
+
+- `orchestrator.worker` owns worker start and process abort.
+- `orchestrator.integrations` owns sibling-module dispatch, healthcheck
+  orchestration and contract parsing.
+- Subprocess and response-file boundaries are kept inside integration adapters.
+- Contract failure text, result parsing and health coercion are kept separate
+  from stage dispatch.
+
+## Pipeline Architecture
+
+`orchestrator.pipeline` exposes `OrchestratorEngine`,
+`OrchestratorBusyError` and `OrchestratorCancelled`.
+
+Main cuts:
+
+- `surface`: engine construction and public methods.
+- `workflow`: run loop, queue build and reset orchestration.
+- `document_workflow`: per-record status setup and linear stage order.
+- `optimizer_workflow`, `interpreter_workflow`, `validator_workflow`,
+  `normalizer_workflow`, `corpus_workflow`: document stages.
+- `repository`: state, artifact and error-bundle mutation.
+- `validation`: hard UI/path/file invariants.
+- `policy`: output naming, review parsing and conflict suffixes.
+- `debug`: snapshot, stage and run-log control.
+
+Visible per-document flow:
+
+```text
+Input discovery -> Intake -> Optimizer -> Request Enrichment -> Interpreter -> Validator -> Normalizer -> Corpus Builder -> Embeddings -> Success or Error Case routing
+```
+
+After Optimizer, multipage sources are expanded into page-scoped work items.
+Each page flows independently through Request Enrichment, Interpreter,
+Validator, Normalizer and Corpus Builder. The `DocumentRecord` remains the
+aggregate for original file, publication, review state and final disposition.
+
+Retries after Optimizer are page-local. Exhausted single pages are frozen as
+diagnostic Error Case artifacts without moving the original; full document
+publication waits until all pages are terminal.
+
+## Bootstrap Architecture
+
+`orchestrator.bootstrap` owns registry, manifest and startup checks.
+
+Stages:
+
+- `surface`: stable bootstrap API and constants.
+- `adapter`: registry/manifest I/O, module-path resolution, Python candidates
+  and runtime dependency imports.
+- `runtime_report`: shared runtime/startup health report.
+- `validation`: hard manifest/runtime/actions/dependency invariants.
+- `workflow`: registry load, runtime spec build and startup prerequisites.
+- `types`: named bootstrap specs.
+
+## Contract Actions
+
+`module-manifest.json` points to `orchestrator.orchestrator_contract`.
+
+Supported product actions:
+
+- `run`
+- `reset`
+- `reset_pipeline_logs`
+- `embeddings`
+- `activate_corpus_context`
+- `inspect_source_document_sample`
+- `kernel_llm_runtime_profile`
+- `kernel_llm_generate`
+- `healthcheck`
+- `create_artifact_tree`
+- `validate_artifact_tree`
+- `create_pipeline_batch_manifest`
+- `finalize_pipeline_batch_manifest`
+
+`orchestrator.admin_contract` is the owner-clear headless admin surface for
+runtime settings, credential metadata/API-key management and explicit secret
+reveal.
+
+Admin actions:
+
+- `inspect_runtime`
+- `manage_runtime_settings`
+- `manage_credentials`
+- `reveal_secret`
+
+`reveal_secret` returns plaintext only with the explicit unlock phrase
+`REVEAL_SECRET:<target>` and writes an audit event to `state/admin_audit.jsonl`.
+
+## Installer And Packaging
+
+- `build-installer.bat` uses the module-local `installer/installer-manifest.json`.
+- The stage ships default policy files under `config/`.
+- The Inno installer treats `config/` like `state/` as persisted user data:
+  existing user-edited `config/*.json` files are not overwritten on reinstall.
+- The generated `dist/stage/release-manifest.json` declares mutable folders and
+  signing targets.
+- This module installer intentionally does not ship the complete pipeline
+  bundle. It installs only the Orchestrator module slot; sibling modules must
+  exist in the same pipeline root.
+
+## Regression Layer
+
+`dev-tests/fixtures/regression/` contains a small replay-based regression layer
+with curated end-to-end cases. Regression tests run offline: the Orchestrator is
+executed for real, but stage artifacts come from versioned replay files instead
+of live module calls.
+
+Representative cases:
+
+- `happy_path`: one-document success run to `corpus.db`.
+- `receipt_live`: live capture of a synthetic receipt with real sibling
+  modules, frozen as replay.
+- `validator_fail`: repeated Validator failure with final Error Case snapshot.
+- `interpreter_review`: synthetic Interpreter review path after three attempts.
+- `normalizer_review`: synthetic Normalizer review path with final
+  `needs_review` success and normalized artifact.
+
+Run:
 
 ```bat
 python -m pytest dev-tests\tests\test_pipeline_regression.py
 ```
-
-## Laufzeitmodell
-
-- Die GUI arbeitet mit genau einem `Artefakt Folder`.
-- GUI-Einstellungen werden ohne separaten `Speichern`-Schritt debounce-basiert in `state/ui_state.json` persistiert und spaetestens bei Focus-Out, Tabwechsel, Start und App-Close geflusht.
-- Nicht-GUI-Policy-Defaults liegen owner-lokal unter `config/*.json` und sind die einzige editierbare Truth fuer Routing-, Execution-, Health- und Artifact-Publication-Policy.
-- Unter diesem Root schreibt der Orchestrator die persistenten Erfolgsartefakte route-lokal:
-  - `Documents/originals/`, `raw_extracts/`, `page_images/`, `requests/`, `structured/`, `validation/`, `normalized/`, `logs/`
-  - `Error Cases/<Modulname>/<Route-Name>/originals|raw_extracts|page_images|requests|structured|validation|normalized|logs/`
-- Dokumentbezogene Working-Artefakte entstehen waehrend des aktiven Laufs run-scoped unter `state/pipeline/runs/<run_id>/d.<hash>/source|artifacts|requests|structured|validation|normalized|logs/`.
-- `requests`, `structured`, `validation`, `normalized` und der dokumentbezogene Run-Log liegen nicht global am Artefakt-Root; sie werden nur bei finalem Erfolg in die jeweilige Route publiziert oder bei finalem Fehler/Abbruch ausschliesslich im Error-Tree eingefroren.
-- Es gibt keinen separaten `Error Folder` und keinen separaten Review-Sammelpfad mehr.
-- Final erfolgreiche Dokumente verschieben ihr Original erst am Ende nach `Documents/originals/...` und publizieren erst dann `raw_extracts`, `page_images`, `requests`, `structured`, `validation`, `normalized` und den dokumentbezogenen Run-Log in `Documents`.
-- Finale Fehler-, Review- und Abbruchfaelle verschieben das Original kanonisch nach `Error Cases/<Modulname>/<Route-Name>/originals/...` und duerfen nach Abschluss keine dokumentbezogenen Artefakte in `Documents` hinterlassen.
-- Die manuelle `reset`-Action bzw. der Button `Reset Error Bundle` bereinigt nur `Error Cases` plus einen eventuellen Legacy-`errors/`-Baum, legt dort archivierte Originale nach Moeglichkeit ins Input-Verzeichnis zurueck und laesst `corpus.db`, Erfolgsartefakte sowie erfolgreiche State-Eintraege unveraendert.
-- Der zusaetzliche Status-Button `Reset Pipeline Logs` loescht die versteckte Run-Historie unter `state/pipeline/` sowie `state/orchestrator.log` inklusive Backups und Legacy-`vision_orchestrator.log*`, ohne Artefakte, `corpus.db`, `debug_sessions/`, Credentials oder Settings anzufassen.
-- `state/pipeline/pipeline_state.json` haelt den Pipeline-State ausserhalb des Artefakt-Roots; transiente per-run Dateien und Live-Run-Logs liegen unter `state/pipeline/runs/`, bis `Reset Pipeline Logs` diesen Bereich bewusst leerraeumt.
-- Kernel-owner Runs ueber den Produkt-Contract duerfen die Queue auf die vom
-  Kernel bestaetigten `input_files`-Content-Hashes beschraenken. Dadurch kann
-  die GUI weiterhin retrybare `pipeline_state.json`-Records einsammeln, aber
-  Kernel-gefuehrte Manual-Ingestion zieht keine Error-Case-Records heimlich aus
-  dem Pipeline-State nach.
-- Der Live-Snapshot fuer `Error Cases` zaehlt nur recoverbare Quelldateien
-  unter `Error Cases/**/originals/**`; eingefrorene Requests, Raw Extracts,
-  Structured/Validation-Dateien und Logs sind Diagnoseartefakte und zaehlen
-  nicht als Error-Case-Quellen.
-- Generische Debug-Sessions fuer Schwester-Module liegen getrennt davon unter `state/debug_sessions/<session_id>/<module_key>/` mit `request.json`, `response.json`, `snapshot.json`, `result.json`, append-only `run.log`, optional `cancel.request` und dauerhaften Testartefakten unter `outputs/`.
-- Der Debug Host besitzt eigene Eingabepfade in `state/debug_host_state.json`: `Source Path` fuer Single-Laeufe sowie `Input Path` fuer Scan/Batch. Diese Pfade werden beim Start nicht aus dem Haupttab-Input, Pipeline-State oder Kernel-Artefact-State abgeleitet.
-- Der Debug-Tab-Button `Reset Debug Output` loescht nur diesen `state/debug_sessions/`-Baum inklusive `outputs/`, `request.json`, `response.json`, `snapshot.json`, `result.json`, `run.log`, `home/` und `cancel.request`; Replay-Importe, `state/debug_host_state.json` und der normale Pipeline-Reset bleiben davon unberuehrt.
-
-## Route- und Intake-Policy
-
-- Logische Stages der Vision-Pipeline:
-  - `Intake`
-  - `Optimizer`
-  - `Request Enrichment`
-  - `Interpreter`
-  - `Validator`
-  - `Normalizer`
-  - `Corpus Builder`
-  - `Embeddings`
-- Live-Foederationsmodule:
-  - `optimizer`
-  - `interpreter`
-  - `validator`
-  - `normalizer`
-  - `corpus_builder`
-- Feste Route-Familien:
-  - `Documents`: `.jpg`, `.jpeg`, `.png`, `.tif`, `.tiff`, `.bmp`, `.webp`, `.eml`, `.emlx`, `.mbox`, `.msg`, `.oft`, `.pst`, `.ost`, `.doc`, `.docx`, `.odt`, `.rtf`, `.txt`, `.md`, `.markdown`, `.yaml`, `.yml`, `.toml`, `.ini`, `.cfg`, `.conf`, `.env`, `.properties`, `.pdf`
-- PDF-Regel:
-  - born-digital PDF -> `optimizer_profile=file` + `interpreter_profile=file`
-  - Scan-PDF -> `optimizer_profile=vision` + `interpreter_profile=vision`
-- Der Preflight arbeitet zweiphasig:
-  - zuerst Discovery plus Intake-Klassifikation
-  - danach Healthcheck nur fuer die in der Queue wirklich benoetigten Live-Module; fuer das `vision`-Profil des `optimizer` wird `optimizer_ocr` als LLM-OCR-Abhaengigkeit verlangt, fuer das file-Profil werden zusaetzlich feature-skopierte `required_dependencies` aus der Ready-Queue profiliert
-- Die GUI zeigt Auto-Routing read-only ueber `Route Family`, `Optimizer`, `Interpreter` und `Intake Reason`.
-
-## Runtime Layout
-
-| Pfad | Rolle | Mutable |
-| --- | --- | --- |
-| `orchestrator/` | Produktcode und package-surfaces | nein |
-| `config/` | owner-lokale Policy-Defaults fuer Edit Suite und Runtime | ja |
-| `runtime/python` | gebuendelte CPython-Runtime gemaess `module-manifest.json` | nein |
-| `runtime/runtime-manifest.json` | Packaging- und Runtime-Provenance-Vertrag | nein |
-| `runtime/wheelhouse` | Offline-Buildquelle fuer Runtime-Neubauten | nein nach Build |
-| `state/` | lokaler UI-, Credential- und GUI-Log-Zustand | ja |
-| `state/pipeline/` | `pipeline_state.json` plus transiente `runs/` fuer aktive Laeufe | ja |
-| `<Artefakt Folder>/Documents|Error Cases` | persistente Erfolgs- und Fehlerartefakte des Produktlaufs | ja |
-| `%LOCALAPPDATA%\Programs\Vision Pipeline\00 - Orchestrator` | installierter Modulslot fuer Endnutzer | ja fuer `state/` und `config/`, nein fuer Payload |
-
-`check-runtime.bat` validiert nur den lokalen Bundle- und Provenance-Vertrag. Die Foederations-Nachbarschaft bleibt separat und wird erst ueber den Startup-Preflight gegen `module-registry.json` geprueft.
-
-## Semantic Release
-
-- Optional kann in der GUI eine `Semantic Release`-Datei gesetzt werden.
-- Vor einem Run aktiviert der Orchestrator diesen Release einmalig fuer die Ziel-`corpus.db`.
-- Ohne gesetzte Release-Datei verwendet der Orchestrator den bereits aktiven Release-Stand des Corpus Builders.
-
-## Credentials Resolver
-
-- `orchestrator.credentials` ist die pfadstabile Surface fuer die zentrale Auth-Ownership des Orchestrators.
-- Der neue GUI-Tab `Credentials` liegt fest zwischen `Status` und `Log`; `Status` bleibt Default-Tab.
-- `state/ui_state.json` bleibt strikt credentials-frei und speichert weiterhin nur Pfad- und Mode-Felder der Hauptoberflaeche.
-- Nicht-sensitive Credential-Metadaten liegen separat in `state/credentials_state.json`:
-  - Presence-Flags fuer `llm_shared`, `optimizer_ocr` und `embeddings`
-  - OAuth-Status-Metadaten ohne Tokens oder Secrets
-  - Legacy-`auth_mode` bleibt lesbar, wird aber nicht mehr als user-owned Zustand persistiert
-- Nicht-sensitive Modellkatalog-Metadaten liegen separat in `state/model_catalog_state.json`:
-  - getrennte Gruppen `llm_shared`, `optimizer_ocr` und `embeddings`
-  - letzter erfolgreicher Provider-Refresh mit `models[]`, `refreshed_at` und `source`
-  - ohne erfolgreichen Refresh sichtbarer Seed aus `state/runtime_settings.json`
-- Secret-Material liegt ausschliesslich im lokalen Orchestrator-State:
-  - `state/keystore.enc` plus `state/keystore.lock` fuer Shared-LLM-, Optimizer-OCR- und Embeddings-API-Keys
-  - `state/oauth_token.enc` plus `state/oauth_token.lock` fuer die DPAPI-geschuetzte OAuth-Session
-  - `state/oauth_latest_report.json` nur als sanitiserter OAuth-Report ohne Tokenwerte
-- Aktuelle Resolver-Semantik:
-  - `llm_shared`: gemeinsamer OpenAI-Key fuer `interpreter` und `normalizer`
-  - `optimizer_ocr`: separater LLM-Key fuer die OCR-Kante des `optimizer`
-  - `embeddings`: separater OpenAI-Key fuer `corpus_builder`-Embeddings
-  - `oauth`: echter Browser-/PKCE-Login mit DPAPI-Cache, Refresh vor Laufzeitnutzung und sanitisierten Session-Metadaten
-- Der Orchestrator bleibt alleiniger Auth-Owner; Schwester-Module bekommen nur ephemere Laufzeit-Credentials ueber Subprocess-Env, nie ueber Request-JSON.
-- Die fruehere GUI-Annahme "OAuth ist nur Duplikat von API Keys" war falsch; der alte Schalter war funktional und wurde bewusst durch Auto-Fallback ersetzt.
-- Aktuelle LLM-Resolver-Semantik:
-  - aktive OpenAI-OAuth-Session -> `interpreter`, `normalizer` und OpenAI-`optimizer_ocr` laufen ueber OAuth
-  - sonst -> `interpreter` und `normalizer` nutzen `llm_shared`; `optimizer_ocr` nutzt sein eigenes Credential-Ziel
-- `optimizer_ocr` bleibt logisch getrennt:
-  - kein stiller Fallback auf `llm_shared` oder `embeddings`
-  - Env-Overlay an den Optimizer nutzt ausschliesslich `OPTIMIZER_OCR_*`
-  - Modell, max_output_tokens und timeout_seconds liegen in `state/runtime_settings.json` unter `optimizer_ocr`
-  - OpenAI-OAuth wird im Optimizer als derselbe ChatGPT/Codex-SSE-Backendcall
-    wie beim Interpreter ausgefuehrt; direkte Provider-Calls bleiben dem
-    API-Key-Modus vorbehalten
-- `embeddings` bleiben logisch getrennt:
-  - ein gesetzter Embeddings-Key schaltet `corpus_builder generate_embeddings` auch unter aktivem OAuth frei
-  - ein fehlender Embeddings-Key blockiert keinen OAuth-Laufpfad, sondern fuehrt nur zu einer sichtbaren Warnung und zum Ueberspringen der Embeddings-Stufe
-
-## UI-Architektur und Debug
-
-- `orchestrator.ui` ist jetzt die pfadstabile, flache Surface der Desktop-GUI; der externe Import bleibt `from orchestrator.ui import OrchestratorApp`.
-- Die GUI trennt die Stufen explizit innerhalb eines flachen UI-Pakets:
-  - `surface`: `OrchestratorApp` als duenne Eintrittsflaeche und Dispatch-Schicht
-  - `repository`: `UiState`-Mapping und Persistenz nach `state/ui_state.json`
-  - `validation`: harte Start-Invarianten fuer Pflichtpfade
-  - `workflow`: Worker-Start, Abort, Queue-Drain, Finish und Cleanup
-  - `debug_layout`, `debug_rendering`, `debug_actions`, `debug_repository`: generischer `Debug`-Tab mit eigener Persistenz in `state/debug_host_state.json`
-  - `layout`, `credentials_layout`, `rendering`, `credentials_rendering`, `dialogs`: sichtbare Tk-Boundaries fuer Widget-Aufbau, Credential-Tab, Snapshot-/Log-Ausgabe und Dialoge
-  - `policy`: `orchestrator.ui.view_model` fuer Status-, Farb- und Detailformatierung
-- Im `Debug Host` sitzt der destruktive Button `Reset Debug Output` bewusst getrennt neben der Ueberschrift und blockiert waehrend laufender Debug-Sessions; er bereinigt nur gespeicherte Debug-Artefakte unter `state/debug_sessions/`.
-- Der Startpfad baut nur Shell plus `Status` sofort; `Debug`, `Credentials`, `Modelle` und `Log` werden lazy beim ersten Tabwechsel aufgebaut.
-- Der fruehere Tiefenast `orchestrator.ui.app` existiert nicht mehr; die UI-Hilfsmodule liegen jetzt direkt unter `orchestrator/ui/`.
-- `orchestrator.debug_host` ist die generische Host-Surface fuer descriptor-gesteuerte Debugplaene, persistente Modulstarts und spaetere host-seitige Schritte wie `request_enrichment`.
-- Debugging entlang der UI-Stufen:
-  - Startprobleme zuerst in `validation` oder `repository`
-  - Credential-Modus-, Key- und OAuth-Probleme zuerst in `orchestrator.credentials` oder `credentials_rendering`
-  - Debug-Session-Start, Snapshot-Polling und Session-Cancel zuerst in `orchestrator.debug_host` oder `debug_rendering`
-  - Worker-/Lifecycle-Probleme in `workflow`
-  - Widget-Aufbau in `layout`, Snapshot-/Log-Darstellung in `rendering`, Dialoge in `dialogs`
-  - Laufende GUI- und Pipeline-Logs unter `state/orchestrator.log`
-  - `Reset Pipeline Logs` leert diese GUI-Logs im Hauptprozess und leert parallel die versteckte Pipeline-Historie unter `state/pipeline/`
-
-## Models-Architektur und Debug
-
-- `orchestrator.models` bleibt die pfadstabile Surface fuer gemeinsam genutzte Orchestrator-Typen.
-- `orchestrator.model_catalog` ist die pfadstabile Surface fuer den nicht-sensitiven Modellkatalog-Cache und provider-verifizierte Refreshes auf `GET /v1/models`.
-- Die Modellschichten sind explizit getrennt:
-  - `types`: persistente UI-, Dokument- und Pipeline-State-Traeger
-  - `snapshots`: sichtbare Pipeline-Stufen, Stage-Snapshots und Default-Stage-Map
-  - `results`: Run- und Reset-Zusammenfassungen
-  - `coercion`: best-effort Deserialisierung fuer gespeicherte JSON-Zustaende
-- Die GUI `Modelle`-Tab-Semantik:
-  - alle fuenf Modell-Slots sind provider-gestuetzte Dropdowns
-  - `Refresh Models` aktualisiert `llm_shared`, `optimizer_ocr` und `embeddings` getrennt
-  - OAuth-only refresht den LLM-Katalog nicht live, sondern faellt auf Cache/Seed zurueck, bis ein verifizierter OpenAI-Vertrag dafuer existiert
-- Debugging entlang der Modellschichten:
-  - Lade-/Persistenzprobleme zuerst in `types` oder `coercion`
-  - Snapshot- oder Stage-Reset-Verhalten in `snapshots`
-  - Action-Result-Zusammenfassungen in `results`
-
-## State-Architektur und Debug
-
-- `orchestrator.state` bleibt die pfadstabile Surface fuer UI- und Pipeline-State-Persistenz.
-- `orchestrator.credentials.repository` ist bewusst separat und verwaltet nur den nicht-sensitiven Resolver-State in `state/credentials_state.json`.
-- `orchestrator.model_catalog.repository` verwaltet separat den nicht-sensitiven Modellkatalog-State in `state/model_catalog_state.json`.
-- Die State-Stufen sind explizit getrennt:
-  - `surface`: stabile Load-/Save-API und `atomic_json_write`
-  - `repository`: `UiState`- und `PipelineState`-Serialisierung
-  - `adapter`: Raw-JSON-Datei-I/O und atomisches Schreiben
-- Debugging entlang der State-Stufen:
-  - Dateilesen/-schreiben sowie `state/pipeline/pipeline_state.json`- oder `state/pipeline/runs/`-Probleme zuerst in `adapter`
-  - Deserialisierung und Default-Fallbacks in `repository`
-  - Credential-Flags, OAuth-Metadaten und DPAPI-Key-Probleme in `orchestrator.credentials.repository` oder `orchestrator.credentials.keystore`
-
-## Worker-Architektur und Debug
-
-- `orchestrator.worker` bleibt die pfadstabile Surface fuer Worker-Start und Prozessabbruch.
-- Die Worker-Stufen sind explizit getrennt:
-  - `surface`: stabile API und kompatible Test-Seams
-  - `workflow`: Action-Dispatch, Queue-Events, Engine-Lifecycle
-  - `runtime`: plattformneutrale Terminierungslogik
-  - `adapter`: Win32-/POSIX-Prozessgrenzen und Low-Level-OS-Zugriffe
-- Debugging entlang der Worker-Stufen:
-  - Action-Dispatch oder Queue-Ereignisse zuerst in `workflow`
-  - Harter Prozessabbruch in `runtime`
-  - Plattform- oder Win32-Sonderfaelle in `adapter`
-
-## Integrations-Architektur und Debug
-
-- `orchestrator.integrations` bleibt die pfadstabile Surface fuer den Produktcode.
-- Die Integrationsstufen sind explizit getrennt:
-  - `surface`: Re-Exports der stabilen Produkt-API
-  - `registry`: einzige Quelle fuer sibling module order, Required-Actions, Stage-Namen und Timeouts
-  - `workflow`: Stage-Dispatch und Healthcheck-Orchestrierung auf Basis der Registry
-  - `adapter`: pfadstabile Subprocess-/Contract-Boundary fuer synchrone Contract-Calls und persistente Debug-Prozessstarts ueber `launch_contract_process(...)`
-  - `contract_parsing`: Contract-Fehlertext, Result-Parsing und Health-Koerzierung
-  - `validation`: harte Runtime- und Response-Invarianten
-  - `policy`: weiche Koerzierung fuer best-effort Contract-Felder
-  - `types`: benannte Stage-Result- und Health-Traeger
-- Debugging entlang der Integrationsstufen:
-  - Runtime-/Manifest-Probleme zuerst in `validation`
-  - Subprocess-/Response-Datei- und Env-Overlay-Probleme in `adapter`
-  - Contract-Failure-Text und Feldkoerzierung in `contract_parsing`
-  - Payload-Dispatch, Runtime-Credential-Aufloesung und Stage-Zuordnung in `workflow`
-  - feldweise Fallbacks oder Health-Koerzierung in `policy`
-
-## Pipeline-Architektur und Debug
-
-- `orchestrator.pipeline` bleibt die pfadstabile Surface fuer `OrchestratorEngine`, `OrchestratorBusyError` und `OrchestratorCancelled`.
-- Die Pipeline-Stufen sind explizit geschnitten:
-  - `surface`: Engine-Konstruktion und oeffentliche Methoden
-  - `workflow`: Run-Loop, Queue-Aufbau und Reset-Orchestrierung
-  - `document_workflow`: duenne per-record Surface fuer Status-Setup und lineare Stage-Reihenfolge
-  - `optimizer_workflow`, `interpreter_workflow`, `validator_workflow`, `normalizer_workflow`, `corpus_workflow`: klar getrennte Dokumentstufen
-  - `repository`: State-, Artefakt- und Error-Bundle-Mutationen
-  - `validation`: harte UI-, Pfad- und Datei-Invarianten
-  - `policy`: Output-Naming, Review-Parsing und Konflikt-Suffixe
-  - `debug`: Snapshot-, Stage- und Run-Log-Steuerung
-- Sichtbarer Datenfluss pro Dokument:
-  - Input-Discovery
-  - Intake
-  - route-aware Preflight-Healthcheck mit `optimizer_ocr` fuer Vision-OCR und feature-skopiertem file-Profil des `optimizer` aus der Ready-Queue
-  - Optimizer
-  - Request Enrichment
-  - Interpreter
-  - Validator
-  - Normalizer
-  - Corpus Builder
-  - Embeddings
-  - Success- oder Error-Case-Routing
-- Das kanonische Optimizer-Raw-Evidence liegt waehrend der Verarbeitung run-scoped unter `state/pipeline/runs/<run_id>/.../artifacts/raw_extracts/` und wird erst bei finalem Erfolg nach `Documents/raw_extracts/*.raw.json` publiziert.
-- Der Request-Trace besteht aus `ocr.request.json`, `interpreter.request.json` und `normalizer.request.json`. OCR- und Normalizer-Requests werden als auditierbare Call-Inputs persistiert; `Request Enrichment` baut zwischen Optimizer und Interpreter das kanonische `interpreter.request.json`, validiert den `projection_catalog` fail-closed und rewritet Source/Page-Backlinks fuer die finale Publikation.
-- `interpreter` konsumiert dieses kanonische `interpreter.request.json` fuer beide Profile direkt; ein interpreter-seitiger Raw-Staging-Pfad existiert nicht mehr.
-- Nach dem Optimizer fannt `stage_scheduler` mehrseitige Quellen in page-scoped Work Items auf. Jede Page laeuft einzeln durch Request Enrichment, Interpreter, Validator, Normalizer und Corpus Builder; der `DocumentRecord` bleibt nur Aggregat fuer Original, Publikation, Review-State und finale Disposition.
-- Fuer das file-Profil reicht `validator_workflow` exakt den page-scoped Optimizer-`raw_path` fail-closed an den Validator weiter; ohne gueltiges Raw-Evidence startet die Validator-Stufe fuer diese Page nicht.
-- Retries sind nach dem Optimizer page-local. Ein Interpreter-/Validator-/Normalizer-/Corpus-Fehler setzt dieselbe Page priorisiert zurueck in die passende Stage; ein Validator-FAIL setzt die betroffene Page beim Interpreter wieder ein. Erschoepfte Einzelpages werden unter `Error Cases/<Modulname>/<Route>/...` als Diagnoseartefakte ohne `originals`-Move eingefroren; page-scoped Raw-, Request-, Debug- und Manifest-Artefakte muessen dabei ihren `pNNN.ofMMM` Suffix behalten, damit mehrere fehlgeschlagene Pages desselben Dokuments einander nicht ueberschreiben. Erst wenn alle Pages terminal sind, laufen Embeddings, Erfolgspublikation und Original-Archivierung; komplett fehlgeschlagene Dokumente nutzen den normalen Dokument-Error-Bundle-Pfad.
-- Debugging entlang der Pipeline-Stufen:
-  - Queue-/Retry-Probleme zuerst in `workflow` oder `record_repository`
-  - Dokumentstufen isoliert in den jeweiligen `*_workflow`-Modulen
-  - Dateisystem-, Route- und Error-Case-Probleme in `artifact_repository` oder `bundle_repository`
-  - Pfad- und Contract-Grenzen in `validation`
-  - Review-, Naming- und Konfliktverhalten in `policy`
-  - Snapshot- oder Run-Log-Verhalten in `debug`
-
-## Bootstrap-Architektur und Debug
-
-- `orchestrator.bootstrap` bleibt die pfadstabile Surface fuer Registry-, Manifest- und Startup-Pruefungen.
-- Die Bootstrap-Stufen sind explizit getrennt:
-  - `surface`: re-exportiert Konstanten, Exceptions und die stabile Bootstrap-API
-  - `adapter`: Registry-/Manifest-I/O, Modulpfad-Aufloesung, Python-Candidates und Runtime-Dependency-Import
-  - `runtime_report`: gemeinsamer Runtime-/Startup-Health-Report fuer `check-runtime.bat`, Packaging-Tests und installierte Modulslots
-  - `validation`: harte Manifest-, `runtime_dir`-, Actions- und Dependency-Invarianten
-  - `workflow`: Registry-Laden, Runtime-Spec-Aufbau und Startup-Prerequisites
-  - `types`: benannte Bootstrap-Specs fuer Manifest und Runtime
-- Debugging entlang der Bootstrap-Stufen:
-  - Registry-/Manifest-Fehler zuerst in `validation` oder `workflow`
-  - Packaging- oder Provenance-Probleme zuerst in `runtime_report`
-  - Runtime-Pfad- und Bundled-Python-Probleme in `adapter` oder `workflow`
-  - UI-Runtime-Abhaengigkeiten wie `customtkinter` in `adapter`
-
-## Contract
-
-- `module-manifest.json` referenziert die sichtbare Package-Surface `orchestrator.orchestrator_contract`.
-- `orchestrator.edit_contract` ist additiv und aendert den Produkt-Contract nicht.
-- Die Contract-Stufen sind explizit getrennt:
-  - `surface`: `orchestrator.orchestrator_contract` als stabile Patch- und Entry-Surface
-  - `adapter`: Request-/Response-I/O
-  - `validation`: harte Action- und Payload-Grenzen
-  - `workflow`: `run`, `reset`, `reset_pipeline_logs`, `embeddings` und `healthcheck`
-  - `types`: zentrale Action-Literale fuer Contract-, Worker- und UI-Dispatch
-- Unterstuetzte Actions:
-  - `run`
-  - `reset`
-  - `reset_pipeline_logs`
-  - `embeddings`
-  - `activate_corpus_context`
-  - `inspect_source_document_sample`
-  - `kernel_llm_runtime_profile`
-  - `kernel_llm_generate`
-  - `healthcheck`
-  - `create_artifact_tree`
-  - `validate_artifact_tree`
-  - `create_pipeline_batch_manifest`
-  - `finalize_pipeline_batch_manifest`
-- `reset_pipeline_logs` leert die versteckte Erfolgs-/Run-Historie unter `state/pipeline/` und die globalen GUI-Logdateien unter `state/`, damit ein geloeschter Artefaktbaum auch wirklich ohne alte Run-Spuren neu gestartet werden kann.
-- `run` kann fuer Kernel-gesteuerte Pipeline Manager Laeufe eine
-  `snapshot_path`, `workflow_run_id`, `pipeline_batch_id` und
-  `target_identity` erhalten. Der Orchestrator schreibt dort
-  Fortschritts-Snapshots und liefert im Owner-Response Input-Dispositionen,
-  Output-Artefakte, materialisierte Records, Record Counts und Run-Refs fuer
-  Kernel-Batch-Korrelation.
-- `embeddings` triggert den manuellen Corpus-Embeddings-Lauf fuer bereits vorhandene Corpus-Artefakte, ohne den normalen Dokument-Run umzubenennen.
-- `activate_corpus_context` ist die einzige headless Owner-Action fuer den Orchestrator-Run-Zielkontext. Direkte MCP- oder Edit-Suite-Schreibzugriffe auf `state/ui_state.json` bleiben gesperrt.
-- `inspect_source_document_sample` bleibt eine nicht materialisierende
-  Optimizer-Inspektion fuer einzelne Quelldokumente. Die Antwort enthaelt nun
-  zusaetzlich `output_refs.raw_extract_paths`, damit der Semantic Control
-  Kernel raw sample documents ueber die bestehende Optimizer-Kante in
-  `kernel.analyze_sample.input.v1` normalisieren kann.
-  Die Inspection startet den Optimizer mit `SubmodulePipelineModules`, damit
-  Runtime Settings, OAuth/API-Key-Credentials und das separate `optimizer_ocr`
-  Modell-Overlay auch fuer Kernel-Sample-Inspections gelten.
-- `kernel_llm_runtime_profile` und `kernel_llm_generate` sind die Host-Bruecke
-  fuer den Semantic Control Kernel. Der Orchestrator nimmt dafuer das
-  Interpreter-Profil aus `state/runtime_settings.json`, loest die
-  Interpreter-Credentials ueber `orchestrator.credentials` und ruft danach
-  ausschliesslich die Interpreter-Action `generate_llm` mit ephemerem
-  `env_overlay` auf. Secret-Werte werden nicht in Requests, State oder
-  Kernel-Profile gespiegelt.
-- `create_pipeline_batch_manifest` und `finalize_pipeline_batch_manifest`
-  koennen vom Kernel bereits validierte Pending-/Final-Manifeste erhalten.
-  Der Orchestrator schreibt dann genau diese Manifestform und echoet die
-  Kernel-Zielidentitaet, statt eine zweite Batch-Wahrheit zu erzeugen.
-- `orchestrator.admin_contract` ist die owner-klare headless Admin-Surface fuer Runtime-Settings, Credential-Metadaten/API-Key-Verwaltung und explizites Secret-Reveal.
-- Admin-Actions:
-  - `inspect_runtime`
-  - `manage_runtime_settings`
-  - `manage_credentials`
-  - `reveal_secret`
-- `manage_runtime_settings` liest, ersetzt oder setzt Defaults fuer `state/runtime_settings.json` nur ueber `RuntimeSettingsState`-Validierung.
-- `manage_credentials` setzt oder loescht API-Keys nur ueber `orchestrator.credentials`; Secret-Werte werden nicht in State-JSON gespiegelt.
-- `reveal_secret` gibt Plaintext nur mit expliziter Unlock-Phrase `REVEAL_SECRET:<target>` zurueck und schreibt ein Audit-Event nach `state/admin_audit.jsonl`.
-- Fuer `healthcheck` bleibt `scope="pipeline_run"` stabil; das vision-Profil des `optimizer` erhaelt bei OCR-Bedarf `optimizer_ocr`, und das file-Profil erhaelt bei route-spezifischem Preflight optional weitere `required_dependencies`.
-- `run.bat` und `python -m orchestrator --gui` bleiben unveraenderte Produkt-Entry-Points fuer die Desktop-Nutzung.
-
-## Installer und Packaging
-
-- `build-installer.bat` nutzt denselben Root-Staging-/Compile-Pfad wie `05 - Corpus Builder`, aber mit modul-lokalem `installer/installer-manifest.json`.
-- Die Stage liefert die vier Default-Policy-Dateien unter `config/` mit aus.
-- Der Inno-Installer behandelt `config/` wie `state/` als persistierte User-Daten: das Verzeichnis bleibt bei Reinstall erhalten, und vorhandene user-editierte `config/*.json` werden nicht ueberschrieben.
-- Das generierte `dist/stage/release-manifest.json` weist explizit aus:
-  - `mutable_dirs=["state"]`
-  - `excluded_runtime_paths=["runtime\\wheelhouse"]`
-  - `sign_targets` fuer Batch- und Manifest-Surfaces
-- Der Installer bringt bewusst **kein komplettes Pipeline-Bundle** mit. Er installiert nur den Orchestrator-Modulslot; Schwester-Module muessen separat im selben Pipeline-Root liegen.
-
-## Abweichungslog
-
-- `SHOULD: Regressionen mit realistischen oder echten Artefakten`
-  - Aktueller Stand: kleiner Replay-Korpus mit anonymisierten Kundenfaellen, einem Live-Capture aus einem synthetischen Kassenbon und synthetischen Review-/Retry-Faellen vorhanden, aber noch kein breiter anonymisierter Produktionskorpus und keine regelmaessigen Live-Sibling-End-to-End-Regressionslaeufe.
-  - Grund: offline reproduzierbare Dev-Suite und deterministische Handover-Basis haben Vorrang; zusaetzliche reale Faelle muessen weiterhin kuratiert und datenschutzsauber bereinigt werden.
-  - Risiko wenn offen: Drift gegen weitere Schwester-Modul-Ausgaben oder seltene reale Dokumentvarianten kann spaeter auftreten, obwohl die lokale Replay-Suite gruen bleibt.
-- `MUST: Installations- und Packaging-Pfade muessen die Foederationsgrenze sichtbar machen`
-  - Aktueller Stand: der neue Installer ist absichtlich nur ein Modulslot-Installer; die Nachbarmodule bleiben externe Voraussetzung im selben Pipeline-Root.
-  - Grund: `module-registry.json` und relative Schwesterpfade bleiben der sichtbare Foederationsvertrag; der Installer darf diese Struktur nicht still lokal uminterpretieren.
-  - Risiko wenn offen: isolierte Einzelinstallationen starten lokal sauber, scheitern aber spaeter am fehlenden Schwesterverbund, wenn diese Grenze nicht im Handover sichtbar bleibt.
-- `SHOULD: Signierung oder zentrale Sign-Pipeline sichtbar machen`
-  - Aktueller Stand: `sign_targets` werden im generierten `release-manifest.json` dokumentiert und getestet, aber es gibt noch kein foederationsweites Tooling, das diese Liste automatisch signiert oder verifiziert.
-  - Grund: im Root existiert noch kein gemeinsamer Signatur- oder Bootstrapper-Pfad fuer alle Module.
-  - Risiko wenn offen: Trust-Grenzen fuer Batch-Wrapper und Manifestdateien bleiben dokumentiert, aber noch nicht zentral technisch durchgesetzt.
-- `SHOULD: unsupported Intake-Fehler ohne vierte Route-Familie ablegen`
-  - Aktueller Stand: unsupported Formate behalten `route_family=""`, werden fuer Error-Cases aber unter `Error Cases/Intake/Unrouted/` abgelegt.
-  - Grund: der Blueprint verlangt keine vierte serialisierte Route-Familie; fuer finale Intake-Fehler braucht der Orchestrator dennoch einen stabilen Bundle-Root ausserhalb von `Images|Files`.
-  - Risiko wenn offen: unsupported Sonderfaelle haben einen sichtbaren Bundle-Pfad ausserhalb des Zwei-Familien-Schemas, obwohl die serialisierte Route-Matrix stabil nur `Images|Files` kennt.
-- `MUST: Action-Namen folgen im Verband normalerweise dem Muster <verb>_document oder healthcheck`
-  - Aktueller Stand: der Orchestrator behaelt bewusst die operativen Top-Level-Actions `run`, `reset`, `reset_pipeline_logs`, `embeddings` und `healthcheck`, weil er keine Schwester-Stufe der Dokumentpipeline ist, sondern deren zentrale Steuerflaeche.
-  - Grund: Worker-, UI- und Subprocess-Dispatch teilen dieselben Action-Literale; ein Umbenennen nur fuer die Pattern-Treue wuerde den sichtbaren Bedienvertrag aendern, ohne die Foederationsgrenze zu verbessern.
-  - Risiko wenn offen: Der Orchestrator bleibt terminologisch eine Sonderrolle gegenueber Schwester-Modulen; ohne explizite Doku wirkt das wie zufaellige Drift statt wie eine bewusste Ausnahme.
-- `MUST: Die Desktop-Surface des Orchestrators als Sonderrolle gegenueber headless Schwester-Modulen sichtbar halten`
-  - Aktueller Stand: `run.bat` und `python -m orchestrator --gui` bleiben bewusst erhalten, waehrend die vom Orchestrator geladenen Schwester-Module headless bleiben.
-  - Grund: die SPEC stellt fuer orchestratorgebundene Schwester-Module auf headless Betrieb um; der Orchestrator selbst bleibt aber die zentrale Bedien- und Kontrollsurface des Verbands.
-  - Risiko wenn offen: Ohne diese Klarstellung wirkt die lokale Desktop-Surface wie ein Policy-Verstoss statt wie die dokumentierte Sonderrolle des zentralen Host-Moduls.
 
 ## Phase 19 Owner Contracts
 
@@ -464,22 +440,27 @@ python -m pytest dev-tests\tests\test_pipeline_regression.py
 - Public owner actions:
   - `create_artifact_tree`
   - `validate_artifact_tree`
-- Request fields include the shared Phase 19 owner envelope plus:
-  - `artifact_root_parent`, `artifact_root_name`, `create_mode`, `folder_contract_version`
-  - or `artifact_root_path` for validation
-- Response detail includes canonical `Input`, `Corpus`, `Documents`, `Error Cases` and `Semantic Release` paths, stable path hashes, missing-path diagnostics and folder-contract fingerprints.
-- Path safety rule: every created or validated path must stay inside the selected artifact root.
-
-- `orchestrator/pipeline_batches/` owns traceable batch identity and finalization.
+- `orchestrator/pipeline_batches/` owns traceable batch identity and
+  finalization.
 - Public owner actions:
   - `create_pipeline_batch_manifest`
   - `finalize_pipeline_batch_manifest`
 - Canonical manifest location:
-  - `<artifact_root>/Documents/logs/pipeline_batches/<pipeline_batch_id>/pipeline_batch_manifest.json`
-- Pending manifests stay in the same batch folder under `pending_pipeline_batch_manifest.json`.
-- Finalization returns manifest fingerprint, cleanup eligibility and correlation-report refs.
-- Kernel owner-run evidence correlates materialized DB rows from active `documents`
-  entries by exact materialized hash when available, otherwise by the governed
-  source file name from the Input/original refs. This keeps scan PDFs and
-  page-wise documents valid when Corpus Builder stores per-page/content hashes
-  instead of the original file byte hash.
+
+```text
+<artifact_root>/Documents/logs/pipeline_batches/<pipeline_batch_id>/pipeline_batch_manifest.json
+```
+
+Kernel owner-run evidence correlates materialized DB rows from active
+`documents` entries by exact materialized hash when available, otherwise by the
+governed source file name from Input/original refs. This keeps scan PDFs and
+page-wise documents valid when Corpus Builder stores per-page/content hashes
+instead of the original file byte hash.
+
+## Deviation Log
+
+The Orchestrator remains a special case in the federation: it has a desktop GUI
+and owns pipeline control, while sibling modules are headless processing slots.
+That is intentional. Action names such as `run`, `reset`, `embeddings` and
+`healthcheck` remain stable because UI, worker and subprocess dispatch share
+the same public action literals.

@@ -1,6 +1,6 @@
 # Dojo Fixtures
 
-Dieses Verzeichnis ist fuer isolierte Testdokumente, Replay-Antworten,
-Test-Corpora, Semantic-Releases und UI-State-Fixtures reserviert.
+This directory is reserved for isolated test documents, replay responses, test
+corpora, Semantic Releases and UI-state fixtures.
 
-Produktive User-Daten und echte Secrets duerfen hier nicht abgelegt werden.
+Do not store production user data or real secrets here.

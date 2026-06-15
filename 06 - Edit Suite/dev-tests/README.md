@@ -1,14 +1,17 @@
 # Edit Suite Dev Tests
 
-- bootstrappt eine suite-lokale `.venv` aus `../runtime/python`
-- installiert `pytest` offline aus `wheelhouse/`
-- nutzt `python_path = [".."]`, damit der Modulcode direkt aus der Produktquelle importiert wird
-- friert den produktiven Owner-Contract-Stand von `01 - Optimizer` unter `fixtures/as_built/` als Migrationsreferenz ein
-- prueft Runtime-/Installer-Preflight, Live-Registry, Owner-Bundles und Failure-Klassen wie korrupten Cache, Timeout und State-Pfad-Ausbruch
+- Bootstraps a suite-local `.venv` from `../runtime/python`.
+- Installs `pytest` offline from `wheelhouse/`.
+- Uses `python_path = [".."]` so module code imports directly from product
+  source.
+- Freezes the productive owner-contract state of `01 - Optimizer` under
+  `fixtures/as_built/` as a migration reference.
+- Checks runtime/installer preflight, live registry, owner bundles and failure
+  classes such as corrupt cache, timeout and state path escape.
 
-## As-Built Fixtures refreshen
+## Refresh As-Built Fixtures
 
-Nach absichtlichen Contract-Aenderungen an `01 - Optimizer`:
+After intentional contract changes in `01 - Optimizer`:
 
 ```bat
 dev-tests\.venv\Scripts\python.exe dev-tests\tools\refresh_as_built_fixtures.py

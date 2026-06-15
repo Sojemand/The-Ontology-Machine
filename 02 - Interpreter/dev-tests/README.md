@@ -1,12 +1,12 @@
 # Dev Tests
 
-Lokale Dev-Test-Suite fuer `02 - Interpreter`.
+Local development test suite for `02 - Interpreter`.
 
-Die Suite prueft den Shared-API-/OAuth-Providerpfad, die entfernten lokalen
-Auth-Surfaces und den Runtime-/Packaging-Vertrag. Modul-lokale `.env`-Dateien
-werden dabei nur als nicht-sensitive Runtime-Konfiguration behandelt; das
-Mutable-Home folgt `%INTERPRETER_HOME%`, `%LOCALAPPDATA%\Enterprise Stack\Interpreter`
-oder dem Quellslot-Fallback `.appdata\`.
+The suite checks the shared API/OAuth provider path, the removed local auth
+surfaces and the runtime/packaging contract. Module-local `.env` files are
+treated only as non-sensitive runtime configuration. Mutable home follows
+`%INTERPRETER_HOME%`, `%LOCALAPPDATA%\Enterprise Stack\Interpreter` or the
+source-slot fallback `.appdata\`.
 
 ```bat
 bootstrap.bat

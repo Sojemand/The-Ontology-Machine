@@ -1,13 +1,13 @@
 # Vision Pipeline Test Dojo
 
-Das Test Dojo ist die geplante Root-Surface fuer produktionsnahe End-to-End-,
-GUI-, Contract-, MCP- und Browser-Tests der Vision Pipeline.
+The Test Dojo is the planned root surface for production-near end-to-end, GUI,
+contract, MCP and browser tests of The Ontology Machine pipeline.
 
-Aktueller Stand: Skelett. Der Einstieg kann Suiten listen, Suite-Manifeste
-validieren und Trockenlauf-Reports erzeugen. Die fachliche Zielarchitektur und
-die Abnahmekriterien stehen in `SPEC.md`.
+Current status: skeleton. The entrypoint can list suites, validate suite
+manifests and produce dry-run reports. Target architecture and acceptance
+criteria live in `SPEC.md`.
 
-## Einstieg
+## Entry
 
 ```bat
 tools\run-test-dojo.bat list
@@ -15,7 +15,7 @@ tools\run-test-dojo.bat inspect --suite all
 tools\run-test-dojo.bat run --suite orchestrator-ui
 ```
 
-Reports entstehen unter:
+Reports are written under:
 
 ```text
 .tmp/test-dojo/reports/<run_id>/

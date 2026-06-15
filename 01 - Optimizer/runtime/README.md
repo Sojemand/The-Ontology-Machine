@@ -1,8 +1,15 @@
+# Optimizer Runtime
+
 Portable module runtime for `01 - Optimizer`.
 
-- `runtime/python` ist die immutable Core-CPython-Runtime des Moduls.
-- `runtime/runtime-manifest.json` beschreibt den pruefbaren Core-Vertrag.
-- `check-runtime.bat` validiert die portable Python-Provenance, das Lockfile, die erforderlichen Contract-Dateien und den Import des oeffentlichen Optimizer-Contracts inklusive File-Profil.
-- `tools/build-runtime.bat` aktualisiert die Runtime nur fuer Dev-/Packaging-Laeufe und validiert danach sofort.
-- Mutable Laufzeitdaten leben unter `%OPTIMIZER_HOME%` oder `%LOCALAPPDATA%\Enterprise Stack\Optimizer`.
-- Fuer schlanke Installer-Layouts darf das Wheelhouse als `runtime/wheelhouse.zip` vorliegen; `runtime/wheelhouse/` ist kein Laufzeitvertrag.
+- `runtime/python` is the immutable core CPython runtime of the module.
+- `runtime/runtime-manifest.json` describes the checkable core contract.
+- `check-runtime.bat` validates portable Python provenance, the lockfile,
+  required contract files and import of the public Optimizer contract including
+  the file profile.
+- `tools/build-runtime.bat` updates the runtime only for development/packaging
+  runs and validates it immediately afterward.
+- Mutable runtime data lives under `%OPTIMIZER_HOME%` or
+  `%LOCALAPPDATA%\Enterprise Stack\Optimizer`.
+- Slim installer layouts may ship the wheelhouse as `runtime/wheelhouse.zip`;
+  `runtime/wheelhouse/` is not a runtime contract.

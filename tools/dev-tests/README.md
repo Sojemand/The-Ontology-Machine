@@ -1,4 +1,3 @@
-﻿# Dev Tests
+# Dev Tests
 
-Root-Suite fuer gemeinsame Pipeline-Tooling-Tests.
-
+Root suite for shared pipeline tooling tests.

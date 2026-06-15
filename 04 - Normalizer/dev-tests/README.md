@@ -1,9 +1,8 @@
-﻿# Dev Tests
+# Dev Tests
 
-Lokale Dev-Test-Suite fuer `04 - Normalizer`.
+Local development test suite for `04 - Normalizer`.
 
 ```bat
 bootstrap.bat
 run-tests.bat
 ```
-

@@ -1,23 +1,27 @@
 # Edit Suite
 
-Eigenstaendige Windows-Desktop-App der Vision Pipeline fuer Readiness-, Drift- und spaetere Config-Surfaces.
+Standalone Windows desktop surface for module readiness, drift inspection and
+owner-local configuration surfaces.
 
-## Rolle
+## Role
 
-- Federation-Modul unter `06 - Edit Suite`
-- user-facing Desktop-App
-- generische Edit-Shell, kein Run-/Debug-Host
-- startet bewusst auch ohne migrierte `edit_contract`-faehige Module
-- Governance-Archetyp: `frontend_module` / owner-lokale Desktop-Control-Surface
+- Federation module under `06 - Edit Suite`.
+- User-facing desktop application.
+- Generic edit shell, not a pipeline runner and not a debug host.
+- Starts even when some sibling modules do not yet expose migrated
+  `edit_contract` surfaces.
+- Governance role: `frontend_module` / owner-local desktop control surface.
 
 ## Runtime Build
 
-- Zielplattform: Windows x64
-- gebuendelte Runtime: CPython 3.11 x64
-- Offline-Quelle fuer Runtime-Pakete: `runtime/wheelhouse`
-- Runtime-Vertrag: `runtime/runtime-manifest.json`
-- Runtime-Preflight: `run.bat` prueft vor dem GUI-Start die gebuendelte Runtime-Provenance.
-- Owner-Contract-Timeout: Standard `1800` Sekunden, ueberschreibbar mit `EDIT_SUITE_OWNER_CONTRACT_TIMEOUT_SECONDS`.
+- Target platform: Windows x64.
+- Bundled runtime: CPython 3.11 x64.
+- Offline source for runtime packages: `runtime/wheelhouse`.
+- Runtime contract: `runtime/runtime-manifest.json`.
+- Runtime preflight: `run.bat` checks bundled runtime provenance before the GUI
+  starts.
+- Owner contract timeout: default `1800` seconds, override with
+  `EDIT_SUITE_OWNER_CONTRACT_TIMEOUT_SECONDS`.
 
 ```bat
 build-runtime.bat
@@ -26,64 +30,76 @@ check-runtime.bat
 
 ## Per-User Installation
 
-- Installationsziel: `%LOCALAPPDATA%\Programs\Vision Pipeline\06 - Edit Suite`
-- keine Adminrechte erforderlich
-- kein Host-Python fuer den Betrieb erforderlich
-- `state/` bleibt mutable und upgrade-stabil
+- Install target: `%LOCALAPPDATA%\Programs\Vision Pipeline\06 - Edit Suite`.
+- No administrator rights required.
+- No host Python required for operation.
+- `state/` remains mutable and upgrade-stable.
 
 ```bat
 build-installer.bat
 build-installer.bat --compile
 ```
 
-## Verhalten in Welle 1
+## Behavior
 
-- Live-Discovery unmittelbarer Sibling-Module `00` bis `07`; `06 - Edit Suite` und `Client Frontend` werden bewusst ausgeschlossen
-- cached-first Start aus `state/registry_cache.json` plus suite-lokalem Bundle-Cache unter `state/bundles/*.json`
-- Live-Discovery und owner-lokales Surface-Refresh laufen asynchron im Hintergrund; die Shell bleibt beim ersten Klick renderbar
-- `read_bundle` wird owner-lokal bevorzugt und faellt fuer Legacy-Module automatisch auf `describe_surfaces` plus `read_surface` zurueck
-- echte `read_bundle`-Contract-Fehler bleiben sichtbar und werden nicht als Legacy-Fallback versteckt
-- sichtbare Readiness-/Drift-Zustaende plus lazy geladene owner-provided Edit-Surfaces fuer `ready`-Module
-- Optimizer wird in der neuen Owner-Form wie der Interpreter abgebildet: vollstaendige gruppierte `optimizer.settings`-Form, editierbarer `optimizer.ocr_prompt`, read-only `optimizer.output_contract_preview`, read-only `optimizer.debug_capabilities`
-- Contract-/Bundle-Fehler werden sichtbar im GUI gerendert statt als leerer Tab-Zustand verborgen
-- keine Fremdmodul-Writes
-- suite-lokale Persistenz nur unter `state/`
-- Scrollen ist auf das gehoverte Scroll-Fenster begrenzt; verschachtelte Tabs scrollen nicht mehr gleichzeitig mit
-- Owner-Aktionen laufen als UI-Background-Jobs mit Token-basiertem Stale-Result-Schutz; die harte Laufzeitgrenze bleibt der Owner-Contract-Timeout.
-- Lange UI-Scans, insbesondere Semantic-Release-Artifact-Scans, laufen bounded/asynchron und melden Scan-Grenzen sichtbar statt die Shell zu blockieren.
+- Discovers direct sibling modules `00` through `07`; `06 - Edit Suite` and
+  `Client Frontend` are intentionally excluded from owner-module discovery.
+- Starts cached-first from `state/registry_cache.json` and the suite-local
+  bundle cache under `state/bundles/*.json`.
+- Live discovery and owner-local surface refresh run asynchronously in the
+  background, so the shell remains renderable during startup.
+- Prefers owner-local `read_bundle`; legacy modules fall back to
+  `describe_surfaces` plus `read_surface`.
+- Real `read_bundle` contract errors remain visible and are not hidden as
+  legacy fallback.
+- Shows visible readiness/drift states plus lazy-loaded owner-provided edit
+  surfaces for ready modules.
+- Renders contract and bundle errors in the GUI instead of hiding them behind an
+  empty tab state.
+- Never writes into foreign module state directly.
+- Persists suite-local state only under `state/`.
+- Runs owner actions as UI background jobs with token-based stale-result
+  protection. The hard runtime boundary remains the owner contract timeout.
+- Long UI scans, especially Semantic Release artifact scans, are bounded and
+  asynchronous; scan limits are reported visibly instead of blocking the shell.
 
-## Entwicklung
+## Mutable Truths
+
+- `state/ui_state.json`: window state, selection and operational form context.
+- `state/registry_cache.json`: cached-first discovery state; corrupt JSON
+  triggers live rebuild.
+- `state/bundles/*.json`: cached owner bundles; corrupt JSON triggers live
+  reload.
+- `state/corpus-db-confirmations/` and `state/merge-confirmations/`:
+  suite-local, path-validated owner-action confirmation artifacts.
+- `state/edit-contract-*`: temporary contract I/O directories; old leftovers
+  are cleaned best-effort.
+
+## Development
 
 ```bat
 dev-tests\bootstrap.bat
 dev-tests\run-tests.bat
 ```
 
-Alternativ:
+Or from the repository root:
 
 ```bat
 ..\run-dev-tests.bat --module "06 - Edit Suite"
 ```
 
-## Mutable Truths
-
-- `state/ui_state.json`: runtime truth fuer Fensterzustand, Auswahl und operationale Formular-Kontexte.
-- `state/registry_cache.json`: runtime truth fuer cached-first Discovery; bei korruptem JSON wird live neu aufgebaut.
-- `state/bundles/*.json`: runtime truth fuer cached owner bundles; bei korruptem JSON wird live neu geladen.
-- `state/corpus-db-confirmations/` und `state/merge-confirmations/`: owner-action Confirmation-Artefakte, suite-lokal und pfadvalidiert.
-- `state/edit-contract-*`: temporaere Contract-I/O-Verzeichnisse; alte Reste werden best-effort bereinigt.
-
 ## Golden-Path Evidence
 
-- Contract-Surface: `dev-tests/tests/test_contract.py`
-- Runtime/Installer: `dev-tests/tests/test_packaging.py`
-- Live Registry: `dev-tests/tests/test_registry.py`
-- Owner-Bundles: `dev-tests/tests/test_as_built_blueprint.py`, `test_orchestrator_contract.py`, `test_interpreter_vision_contract.py`, `test_validator_contract.py`, `test_normalizer_contract.py`, `test_corpus_builder_contract.py`, `test_mcp_server_contract.py`
-- UI Action/State Safety: `test_operation_runner.py`, `test_repository.py`, `test_surfaces_read_bundle.py`
+- Contract surface: `dev-tests/tests/test_contract.py`.
+- Runtime and installer: `dev-tests/tests/test_packaging.py`.
+- Live registry: `dev-tests/tests/test_registry.py`.
+- Owner bundles: `test_as_built_blueprint.py`,
+  `test_orchestrator_contract.py`, `test_interpreter_vision_contract.py`,
+  `test_validator_contract.py`, `test_normalizer_contract.py`,
+  `test_corpus_builder_contract.py`, `test_mcp_server_contract.py`.
+- UI action and state safety: `test_operation_runner.py`,
+  `test_repository.py`, `test_surfaces_read_bundle.py`.
 
-## Abweichungslog
+## Deviation Log
 
-| Regel | Abweichung | Grund | Follow-up | Risiko wenn offen |
-| --- | --- | --- | --- | --- |
-
-Aktuell keine offenen Edit-Suite-Abweichungen gegen den Blueprint.
+No open Edit Suite deviations are currently documented in this README.

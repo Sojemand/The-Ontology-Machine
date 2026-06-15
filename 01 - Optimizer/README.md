@@ -1,167 +1,150 @@
 # Optimizer
 
-`01 - Optimizer` ist das zusammengefuehrte Optimizer-Modul der Vision Pipeline.
-Es besitzt genau einen oeffentlichen Modulslot mit `module_key = "optimizer"`
-und verarbeitet Dokumente ueber zwei Profile:
+`01 - Optimizer` is the unified Optimizer module of The Ontology Machine
+pipeline. It owns a single public federation slot with
+`module_key = "optimizer"` and processes documents through two profiles:
 
-- `vision`: bild- und scanlastige Dokumente, LLM-OCR ueber `optimizer_ocr`, fail-closed
-  `runtime_policy_path`
-- `file`: born-digital PDF, Office, Mail, Text und andere dateibasierte
-  Extraktionspfade
+- `vision`: image-heavy and scan-heavy documents, with LLM OCR through the
+  orchestrator-owned `optimizer_ocr` runtime edge.
+- `file`: born-digital PDFs, Office files, mail formats, Markdown, plain text
+  and other file-native extraction paths.
 
-## Package-Struktur
+## Package Structure
 
-Die drei sichtbaren Package-Namen sind aktuelle Architektur, keine Legacy-Reste:
+The three visible package names are current architecture, not legacy leftovers:
 
-- `ingestion_layer_vision` ist der Bearbeitungspfad fuer Scan-, Bild- und
-  visuell gerenderte Inputs. Dieser Pfad besitzt den oeffentlichen
-  Orchestrator-Contract und entscheidet ueber Profilwahl und Dispatch.
-- `ingestion_layer_file` ist der Bearbeitungspfad fuer born-digital Files:
-  native PDF-Texte, Office-Dateien, Mailformate, Markdown/Text und Plugin-
-  Extraktion.
-- `optimizer_ocr` ist der Vision-Layer-Port fuer den Modell-/Vision-Call. Er
-  kapselt die LLM-OCR-Normalisierung und wird vom Vision-Pfad fuer Page-Assets,
-  Scan-Backup-OCR und eingebettete Bildrouten genutzt.
+- `ingestion_layer_vision`: scan, image and visually rendered input path. It
+  owns the public Orchestrator contract and dispatches profile selection.
+- `ingestion_layer_file`: born-digital file path for native PDF text, Office,
+  mail, Markdown/text and plugin extraction.
+- `optimizer_ocr`: vision-layer port for model-backed OCR calls. It normalizes
+  LLM OCR output and is used for page assets, scan fallback OCR and embedded
+  image routes.
 
-Historisch waren Vision- und File-Pfad getrennte Module. Sie sind in diesem
-Modul zusammengefuehrt, weil Classification, Artifact-Policy, Runtime-
-Packaging, Debug-Vertrag und Downstream-Raw-Surface im Kern dieselbe
-Optimizer-Verantwortung sind. Die Trennung bleibt deshalb intern als zwei
-Bearbeitungspfade sichtbar, waehrend der Foederationsslot nach aussen genau
-`optimizer` bleibt.
+Vision and file handling used to be separate modules. They are now merged
+because classification, artifact policy, runtime packaging, debug contracts and
+downstream raw evidence are all Optimizer responsibilities. The split remains
+visible internally as processing paths; externally the federation slot is still
+only `optimizer`.
 
 ## Contract
 
-- Entry-Point: `ingestion_layer_vision.orchestrator_contract`
+- Entry point: `ingestion_layer_vision.orchestrator_contract`.
 - Actions:
   - `classify_document`
   - `extract_document`
   - `healthcheck`
   - `scan_debug_input`
   - `debug_run`
-- Kanonischer Raw-Output:
-  - Vision-Profil: `schema_version = "optimizer_raw_v2"`
-  - Vision-Raw enthaelt nur `source`, `extraction`, `metadata`, `context`
-    und `ocr_reference.blocks`
-  - Pflichtfeld `optimizer_profile = "vision" | "file"`
 
-`classify_document` ist das oeffentliche Profil-Gate. Die Action prueft den
-`source_path` und liefert das empfohlene `optimizer_profile` fuer den folgenden
-`extract_document`-Run zurueck: Bilddateien gehen ins `vision`-Profil,
-Scan-PDFs gehen ins `vision`-Profil, born-digital PDFs und dateibasierte
-Formate gehen ins `file`-Profil. `extract_document` dispatcht intern auf das
-passende Profil. Der Vision-Pfad erzwingt `runtime_policy_path` fail-closed; der
-File-Pfad benoetigt diesen Wert nicht. In produktiven `extract_document`-
-Aufrufen werden `source_path`, `raw_output_path` und `page_assets_dir` strikt
-innerhalb der vom Orchestrator uebergebenen Root-Pfade gehalten. Im
-`debug_run`-Single-Modus ist `source_path` die alleinige Eingabewahrheit; ein
-staler oder fehlender `input_root` darf diesen isolierten Debuglauf nicht
-blockieren. Scan- und Batch-Debug benoetigen weiterhin einen gueltigen
-`input_root`. Single-Debug-Zielpfade fuer Raw-JSON und Page-Assets werden fuer
-Windows-Pfadgrenzen budgetiert; Stage-Verzeichnisse verwenden kurze
-`.stage.*.tmp` Namen und duerfen den Dokumentnamen nicht wiederholen.
-`runtime_policy_path` zeigt auf ein `runtime_semantic_assets_v1`-Bundle; der
-Optimizer konsumiert daraus im Vision-Profil nur Scan-, Vision-Route- und
-Renderentscheidungen. Die produktive OCR-Engine kommt nicht mehr aus der
-Runtime-Policy, sondern aus dem Orchestrator-Env-Overlay `optimizer_ocr`.
+Canonical raw output:
 
-Der Vision-Response liefert:
+- Vision profile: `schema_version = "optimizer_raw_v2"`.
+- Vision raw contains only `source`, `extraction`, `metadata`, `context` and
+  `ocr_reference.blocks`.
+- Required field: `optimizer_profile = "vision" | "file"`.
+
+`classify_document` is the public profile gate. It validates `source_path` and
+returns the recommended `optimizer_profile` for the following
+`extract_document` run. Image files and scan PDFs go through `vision`;
+born-digital PDFs and file-native formats go through `file`.
+
+Production `extract_document` calls keep `source_path`, `raw_output_path` and
+`page_assets_dir` strictly inside the roots provided by the Orchestrator. The
+single-file `debug_run` mode treats `source_path` as the only input truth and
+must not be blocked by stale or missing `input_root`. Scan and batch debug
+modes still require a valid `input_root`.
+
+The vision response returns:
 
 - `document_raw_path`
 - `page_raw_paths`
 - `page_asset_paths`
 
-`page_asset_paths` sind working paths fuer den laufenden Interpreter-Durchlauf
-und werden nicht in den persistenten Raw-Dateien serialisiert.
+`page_asset_paths` are working paths for the active Interpreter run. They are
+not serialized into the persistent raw files.
 
-Im File-Profil bleibt nativer Extractor-Text die einzige Textautoritaet.
-Renderer- und Zwischen-PDF-Texte duerfen nur fuer Page-Assets und
-textneutrale `position.page`/`page_span`-Zuordnung verwendet werden. Wenn ein
-Renderer grobe Seiten-Textbloecke liefert, werden native Absatzbloecke anhand
-normalisierter Textenthaltung bzw. benachbarter Seitenreferenzen zugeordnet;
-der native `value` wird dabei nicht ersetzt.
+In the file profile, native extractor text remains the only text authority.
+Renderer text may be used only for page assets and text-neutral page/span
+assignment; it must not replace the native extracted value.
 
 ## Runtime
 
-- Immutable Payload:
-  - `ingestion_layer_vision/`
-  - `ingestion_layer_file/`
-  - `runtime/`
-  - `plugins/`
-  - `tools/`
-  - `module-manifest.json`
-- Mutable Laufzeitdaten:
-  - `%OPTIMIZER_HOME%`
-  - `%LOCALAPPDATA%\Enterprise Stack\Optimizer`
-  - Quellslot-Fallback `.appdata/`
-- Erwartete mutable Pfade:
-  - `config/`
-  - `state/`
-  - `output/`
-  - `logs/`
+Immutable payload:
 
-`runtime/python` ist die lokale portable CPython-Runtime. `check-runtime.bat`
-validiert den Runtime-Vertrag. `tools/build-runtime.bat` ist nur Dev- und
-Packaging-Tooling. Das Modul bleibt headless; es gibt keinen lokalen
-Produktlauncher.
+- `ingestion_layer_vision/`
+- `ingestion_layer_file/`
+- `runtime/`
+- `plugins/`
+- `tools/`
+- `module-manifest.json`
+
+Mutable runtime data:
+
+- `%OPTIMIZER_HOME%`
+- `%LOCALAPPDATA%\Enterprise Stack\Optimizer`
+- source-slot fallback `.appdata/`
+
+Expected mutable folders:
+
+- `config/`
+- `state/`
+- `output/`
+- `logs/`
+
+`runtime/python` is the local portable CPython runtime. `check-runtime.bat`
+validates the runtime contract. `tools/build-runtime.bat` is development and
+packaging tooling only. The module is headless and has no local product
+launcher.
 
 ## Edit Suite
 
-Owner-lokale Surfaces fuer `06 - Edit Suite`:
+Owner-local surfaces for `06 - Edit Suite`:
 
 - `optimizer.settings`
 - `optimizer.ocr_prompt`
 - `optimizer.output_contract_preview`
 - `optimizer.debug_capabilities`
 
-`optimizer.settings` wird als gruppierte Form angezeigt: Processing
-(`max_file_size_mb`, `max_blocks_per_file`, `max_cell_text_length`,
-`processing_order`, `plugin_timeout_seconds`, `parallel_workers`) und
-Rendering/Layout (`render_dpi`, `render_width_px`, `render_height_px`,
-`page_margin_pt`, `default_font_size_pt`, `code_font_size_pt`,
-`heading_font_size_pt`).
-`optimizer.ocr_prompt` editiert `config/optimizer_ocr_prompt.md`; der Prompt
-muss `{page_count}` behalten und kann `{source_filename}` oder
-`{source_filename_sentence}` nutzen.
-`optimizer.output_contract_preview` ist read-only und spiegelt Raw-Schema,
-Profil-Selector, Response-Pfade, Page-Asset-Policy und die `optimizer_ocr`
-Owner-Grenze. Runtime-Policy im Vision-Profil transportiert nur technische
-Scan-, Route- und Renderparameter. Projection-Kataloge, fachliche
-Routing-Signale, Provider-/Modellwahl und OCR-Secrets bleiben orchestrator-
-bzw. downstream-owned.
+`optimizer.settings` is shown as a grouped form for processing and rendering
+settings. `optimizer.ocr_prompt` edits `config/optimizer_ocr_prompt.md`; the
+prompt must keep `{page_count}` and may use `{source_filename}` or
+`{source_filename_sentence}`.
 
-## LLM-OCR
+`optimizer.output_contract_preview` is read-only and mirrors raw schema,
+profile selection, response paths, page-asset policy and the `optimizer_ocr`
+owner boundary. Projection catalogs, domain routing signals, provider/model
+selection and OCR secrets remain Orchestrator-owned or downstream-owned.
 
-Produktive OCR laeuft zentral ueber `optimizer_ocr`:
+## LLM OCR
 
-- Vision-Bildrouten, Scan-Backup-OCR, Mail-Child-OCR und DOCX Embedded Image OCR
-  nutzen denselben Port `optimizer_ocr.extract_page_assets`.
-- Der Port erwartet gerenderte Page-Assets und normalisiert den Modelloutput in
-  den bestehenden OCR-Result-Payload (`status`, `blocks`, `metadata`, `errors`,
-  `processing_time_ms`, `needs_ocr`).
-- Persistente `ocr_reference.blocks` bleiben token-schlank: `id`, `type`,
-  `value`, optionale Layout-/Confidence-Hints und `formatting` nur bei
-  `bold=true`; `position` und `value_type=text` werden nicht ausgeschrieben.
-- Lokale OCR-Pluginordner, GPU-/CPU-Pfade und die alte Runtime-Readiness fuer
-  lokale OCR sind entfernt.
-- Provider, Modell, Tokenbudget, Timeout und Secret kommen ausschliesslich
-  ephemer ueber `OPTIMIZER_OCR_*` aus dem Orchestrator.
-- Bei OpenAI-OAuth nutzt `optimizer_ocr` denselben ChatGPT/Codex-SSE-Backendcall
-  wie der Interpreter. API-Key-Modi nutzen weiterhin den konfigurierten
-  Provider-Endpunkt (`/responses` oder `/chat/completions`).
+Production OCR runs through the central `optimizer_ocr` port:
+
+- Vision image routes, scan fallback OCR, mail-child OCR and DOCX embedded image
+  OCR use `optimizer_ocr.extract_page_assets`.
+- The port expects rendered page assets and normalizes model output into the
+  existing OCR result payload.
+- Persistent `ocr_reference.blocks` remain token-light: `id`, `type`, `value`,
+  optional layout/confidence hints and `formatting` only when `bold=true`.
+- Local OCR plugin folders, GPU/CPU paths and old local OCR readiness rules were
+  removed.
+- Provider, model, token budget, timeout and secret arrive only through
+  ephemeral `OPTIMIZER_OCR_*` environment values from the Orchestrator.
+- OpenAI OAuth uses the same ChatGPT/Codex SSE backend call shape as the
+  Interpreter. API-key modes use the configured provider endpoint
+  (`/responses` or `/chat/completions`).
 
 ## Packaging
 
-- Per-user-Installationsziel:
-  - `%LOCALAPPDATA%\Enterprise Stack\Optimizer\app`
-- Installer und Runtime pruefen Quellslot und Zielinstallation ueber
-  `installer.bat`, `check-runtime.bat` und `build-installer.bat`.
-- OCR ist eine LLM-Abhaengigkeit des `vision`-Profils (`optimizer_ocr`).
-  Der Installer prueft nur noch den portablen Runtime-Vertrag; es gibt keine
-  lokale GPU-/OCR-Pruefung mehr.
-- `.pst` und `.ost` laufen bevorzugt ueber die gebuendelte
-  `mail-outlook-store`-Plugin-Runtime mit `pypff`; Outlook/MAPI bleibt nur
-  ein optionaler Fallback des `file`-Profils.
+- Per-user install target:
+  `%LOCALAPPDATA%\Enterprise Stack\Optimizer\app`.
+- `installer.bat`, `check-runtime.bat` and `build-installer.bat` validate source
+  slot and target installation.
+- OCR is an LLM dependency of the `vision` profile (`optimizer_ocr`). The
+  installer validates only the portable runtime contract; there is no local GPU
+  or OCR check.
+- `.pst` and `.ost` prefer the bundled `mail-outlook-store` plugin runtime with
+  `pypff`; Outlook/MAPI remains only an optional file-profile fallback.
 
 ## Tests
 
@@ -170,5 +153,5 @@ dev-tests\bootstrap.bat
 dev-tests\run-tests.bat
 ```
 
-Die Dev-Suite prueft Contract, Packaging, Runtime und ausgewaehlte
-Raw-/Routing-Invarianten des vereinten Moduls.
+The development suite checks contract behavior, packaging, runtime and selected
+raw/routing invariants of the unified module.

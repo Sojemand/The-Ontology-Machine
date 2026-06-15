@@ -1,58 +1,64 @@
 # Interpreter
 
-`02 - Interpreter` ist das zusammengefuehrte Interpreter-Modul der Vision
-Pipeline. Es besitzt genau einen oeffentlichen Modulslot mit
-`module_key = "interpreter"` und verarbeitet einen kanonischen
-`interpreter.request.json`-Vertrag fuer zwei fachliche Profile:
+`02 - Interpreter` is the unified Interpreter module of The Ontology Machine
+pipeline. It owns a single public federation slot with
+`module_key = "interpreter"` and consumes the canonical
+`interpreter.request.json` contract for two profiles:
 
-- `vision`: bild- und OCR-lastige Requests
-- `file`: born-digital und dateibasierte Requests
+- `vision`: image-heavy and OCR-heavy requests.
+- `file`: born-digital and file-native requests.
 
-Das Downstream-Feld `processing.interpreter_profile` bleibt bewusst stabil und
-ist weiterhin `vision` oder `file`.
+The downstream field `processing.interpreter_profile` intentionally remains
+stable and is still either `vision` or `file`.
 
 ## Contract
 
-- Entry-Point: `llm_interpreter.orchestrator_contract`
+- Entry point: `llm_interpreter.orchestrator_contract`.
 - Actions:
   - `interpret_document`
   - `healthcheck`
   - `debug_run`
   - `generate_llm`
 
-Der produktive Request ist vereinheitlicht. Legacy-Shapes wie `pages` und
-`file_reference` gehoeren nicht mehr zum produktiven Vertrag.
-`generate_llm` ist eine generische Provider-Bruecke fuer den Semantic Control
-Kernel. Sie nimmt Messages, optionales JSON-Schema und Runtime-Settings vom
-Orchestrator entgegen, nutzt nur die ephemer injizierte Orchestrator-Auth und
-liefert eine `kernel.llm_provider_response.v1`-kompatible Antwort zurueck.
+The production request shape is unified. Legacy request shapes such as `pages`
+and `file_reference` are no longer part of the product contract.
+
+`generate_llm` is the generic provider bridge used by the Semantic Control
+Kernel. It accepts messages, optional JSON schema and runtime settings from the
+Orchestrator, uses only ephemeral Orchestrator-injected authentication and
+returns a `kernel.llm_provider_response.v1` compatible response.
 
 ## Runtime
 
-- Immutable Payload:
-  - `llm_interpreter/`
-  - `runtime/`
-  - `tools/`
-  - `module-manifest.json`
-- Mutable Laufzeitdaten:
-  - `%INTERPRETER_HOME%`
-  - `%LOCALAPPDATA%\Enterprise Stack\Interpreter`
-  - Quellslot-Fallback `.appdata/`
-- Erwartete mutable Pfade:
-  - `config/`
-  - `state/`
-  - `output/`
-  - `logs/`
+Immutable payload:
 
-`config/.env` enthaelt nur owner-lokale, nicht-sensitive Runtime- und
-Limit-Werte. Auth, Modellwahl und `max_output_tokens` bleiben
-orchestrator-owned. Auch `generate_llm` darf keine modul-lokalen Credentials
-lesen oder persistieren, sondern laeuft ueber dieselbe `VISION_PROVIDER_*`-Env
-wie `interpret_document` und `healthcheck`.
+- `llm_interpreter/`
+- `runtime/`
+- `tools/`
+- `module-manifest.json`
+
+Mutable runtime data:
+
+- `%INTERPRETER_HOME%`
+- `%LOCALAPPDATA%\Enterprise Stack\Interpreter`
+- source-slot fallback `.appdata/`
+
+Expected mutable folders:
+
+- `config/`
+- `state/`
+- `output/`
+- `logs/`
+
+`config/.env` contains only owner-local, non-sensitive runtime and limit
+values. Authentication, model selection and `max_output_tokens` remain
+Orchestrator-owned. `generate_llm` must not read or persist module-local
+credentials; it runs through the same `VISION_PROVIDER_*` environment contract
+as `interpret_document` and `healthcheck`.
 
 ## Edit Suite
 
-Owner-lokale Surfaces fuer `06 - Edit Suite`:
+Owner-local surfaces for `06 - Edit Suite`:
 
 - `interpreter.runtime_policy_env`
 - `interpreter.execution_limits`
@@ -60,20 +66,22 @@ Owner-lokale Surfaces fuer `06 - Edit Suite`:
 - `interpreter.output_contract_preview`
 - `interpreter.debug_capabilities`
 
-Diese Surfaces gelten fuer beide Profile des vereinten Moduls. Profilunterschiede
-leben in der Interpreter-Logik und im Request, nicht in getrennten
-Modulslots. Das editierbare Prompt-Bundle liegt unter `config\prompt_bundle\`.
+These surfaces apply to both profiles of the unified module. Profile
+differences live in Interpreter logic and in the request payload, not in
+separate module slots. The editable prompt bundle lives under
+`config\prompt_bundle\`.
 
 ## Packaging
 
-- Per-user-Installationsziel:
-  - `%LOCALAPPDATA%\Enterprise Stack\Interpreter\app`
-- `tools\build-runtime.bat` baut und validiert die portable Runtime fuer
-  Dev- und Packaging-Laeufe.
-- `installer.bat`, `check-runtime.bat` und `build-installer.bat` validieren
-  Quellslot und Zielinstallation.
-- Die Runtime bleibt headless und shippt kein Tcl/Tk.
-- Das Modul erwartet produktive Auth nur ueber orchestrator-owned Runtime-Env.
+- Per-user install target:
+  `%LOCALAPPDATA%\Enterprise Stack\Interpreter\app`.
+- `tools\build-runtime.bat` builds and validates the portable runtime for
+  development and packaging.
+- `installer.bat`, `check-runtime.bat` and `build-installer.bat` validate source
+  slot and target installation.
+- The runtime remains headless and ships no Tcl/Tk.
+- Production authentication is expected only through Orchestrator-owned runtime
+  environment.
 
 ## Tests
 
@@ -82,5 +90,5 @@ dev-tests\bootstrap.bat
 dev-tests\run-tests.bat
 ```
 
-Die Dev-Suite prueft Contract, Prompt-Bundle, Runtime, Packaging und den
-vereinheitlichten Edit-Contract.
+The development suite checks contract behavior, prompt bundle handling,
+runtime, packaging and the unified edit contract.

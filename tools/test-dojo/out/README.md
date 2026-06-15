@@ -1,4 +1,4 @@
 # Dojo Out
 
-Lokaler Platzhalter fuer manuelle Dojo-Ausgaben. Automatische Runs schreiben
-standardmaessig nach `.tmp/test-dojo/`.
+Local placeholder for manual Dojo output. Automatic runs write to
+`.tmp/test-dojo/` by default.

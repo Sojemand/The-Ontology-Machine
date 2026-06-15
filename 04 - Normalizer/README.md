@@ -1,25 +1,38 @@
 # 04 - Normalizer
-`04 - Normalizer` liest `*.structured.json`, waehlt eine Taxonomie-Projektion und schreibt pro Eingabedatei genau eine `*.structured.normalized.json`.
-## Zweck
-- kanonische Zweitsicht fuer Retrieval, Validation und Corpus-Building
-- release-owned Projection-Routing aus lokalen Projection-Assets
-- Semantic Release und Runtime Semantic Assets fuer nachgelagerte Module
-- headless Betrieb ueber den Orchestrator-Contract
+
+`04 - Normalizer` reads `*.structured.json`, selects a taxonomy projection and
+writes exactly one `*.structured.normalized.json` per input file.
+
+## Purpose
+
+- Canonical second view for retrieval, validation and Corpus building.
+- Release-owned projection routing from local projection assets.
+- Semantic Release and Runtime Semantic Assets for downstream modules.
+- Headless operation through the Orchestrator contract.
 
 ## Projection Release Contract
-- `SPEC_Projection_Release.md` ist die Root-Ausfuehrungsgrundlage fuer das release-getriebene Projection-Routing.
-- Die release-owned Routingmarker liegen in den Projection-Dateien unter `routing.surface_signals`.
-- `surface_signals` fuehrt genau `text_markers`, `domain_markers`, `section_roles` und `party_roles`.
-- `build_semantic_release` validiert diese Projection-Signale fail-closed.
-- `build_runtime_semantic_assets` kompiliert daraus `semantic_extraction_policy_v2`, ohne das Top-Level-Format `runtime_semantic_assets_v1` zu aendern.
-- Die OCR-Defaults des Runtime-Bundles deklarieren nur den Orchestrator-gefuehrten LLM-OCR-Port `optimizer-llm-ocr` sowie Scan-, Vision-Route- und Renderparameter; lokale Paddle-, GPU-/CPU- und Device-Fallback-Policies sind ungueltige Altlasten.
-- `projection_routing` steuert die Arbitration zwischen lokaler Evidenz und
-  Interpreter-Hints.
-- `projection_hint_mode=advisory` bleibt der Default.
-- `projection.selection.reason` ist die sichtbare Begruendungssurface fuer lokale Score-Lage, Hint-Prior und Rejection-Grund.
+
+- `SPEC_Projection_Release.md` is the root execution basis for release-driven
+  projection routing.
+- Release-owned routing markers live in projection files under
+  `routing.surface_signals`.
+- `surface_signals` contains exactly `text_markers`, `domain_markers`,
+  `section_roles` and `party_roles`.
+- `build_semantic_release` validates these projection signals fail-closed.
+- `build_runtime_semantic_assets` compiles them into
+  `semantic_extraction_policy_v2` without changing the top-level
+  `runtime_semantic_assets_v1` format.
+- Runtime bundle OCR defaults declare only the Orchestrator-governed
+  `optimizer-llm-ocr` port plus scan, vision-route and rendering parameters.
+  Local Paddle/GPU/CPU/device fallback policies are invalid legacy state.
+- `projection_routing` arbitrates between local evidence and Interpreter hints.
+- `projection_hint_mode=advisory` remains the default.
+- `projection.selection.reason` is the visible explanation surface for local
+  score state, hint priority and rejection reason.
 
 ## Public Contract
-`module-manifest.json` exponiert diese Actions:
+
+`module-manifest.json` exposes these actions:
 
 - `normalize_document`
 - `build_projection_catalog`
@@ -31,36 +44,38 @@
 - `healthcheck`
 - `debug_run`
 
-Wesentliche Invarianten:
+Important invariants:
 
-- keine Manifest- oder Action-Drift
-- unbekannte Request-Felder werden fuer alle Public-Contract-Actions abgelehnt
-- `normalize_document`, `healthcheck` und `debug_run` verlangen `runtime_settings`
-- `normalize_document.structured_path` muss auf `*.structured.json` enden; `normalized_output_path` muss eine JSON-Datei sein
-- `debug_run` akzeptiert keine Debug-Roots auf `config/`, `runtime/`, `vendor/` oder dem Modulroot
-- `build_runtime_semantic_assets` akzeptiert nur `action` plus vollstaendigen Semantic-Release-Payload
-- `publish_semantic_release` exportiert ausschliesslich aus gespeicherten Owner-Dateien
-- `create_zero_shot_working_release` leitet das Working Package aus einem immutable Blueprint ab, kompiliert es und exportiert ein Release-Bundle ohne Corpus- oder Orchestrator-State zu schreiben
-- Kernel-owned detached custom releases werden nicht ueber `publish_semantic_release` gebaut. Der Edit-Contract action `materialize_semantic_release_candidate` schreibt aus Kernel-`release_ref`, Base-Release und Projection-Update-State ein vollstaendiges `release.json` inklusive `projection_catalog` und `runtime_semantic_assets`. Das Bundle enthaelt top-level `fingerprint` und den aliasgleichen `release_fingerprint`, damit Merge- und Rebuild-Kernelpfade dieselbe Release-Identitaet pruefen koennen.
-- Kernel-owned database merges verwenden `merge_semantic_release_candidates`
-  mit vollstaendigen `source_release_refs`. Die Action dedupliziert gleiche
-  Taxonomy-/Projection-Identitaeten mit gleichem Fingerprint, meldet gleiche
-  IDs mit abweichendem Fingerprint als Collision und fuehrt unterschiedliche
-  Taxonomien additiv zu einem reconciled `taxonomy_ref` zusammen. Das Ergebnis
-  enthaelt `reconciled_taxonomy_ref` und `reconciled_projection_refs` top-level
-  sowie dieselben Refs im `semantic_merge_package`, damit der Kernel daraus
-  ohne Chat-Pfade eine neue Custom Semantic Release bauen kann.
-- Preview-, Single-Run- und Batch-Routing nutzen dieselbe Arbitration-Logik
-- Modellantworten muessen die Top-Level-Sektionen `processing`, `classification`, `context` und `content` als JSON-Objekte liefern; fehlende Sektionen werden nicht still auf `{}` normalisiert
+- No manifest or action drift.
+- Unknown request fields are rejected for all public contract actions.
+- `normalize_document`, `healthcheck` and `debug_run` require
+  `runtime_settings`.
+- `normalize_document.structured_path` must end in `*.structured.json`;
+  `normalized_output_path` must be a JSON file.
+- `debug_run` rejects debug roots under `config/`, `runtime/`, `vendor/` or the
+  module root.
+- `build_runtime_semantic_assets` accepts only `action` plus a complete Semantic
+  Release payload.
+- `publish_semantic_release` exports only from saved owner files.
+- Preview, single-run and batch routing use the same arbitration logic.
+- Model responses must provide top-level `processing`, `classification`,
+  `context` and `content` sections as JSON objects; missing sections are not
+  silently normalized to `{}`.
 
-Schema-Modi:
+Schema modes:
 
-- API-Key Provider nutzen `json_schema` mit `strict=true`, wenn das aktive Schema strict-kompatibel ist.
-- Wenn strict Schema vom Transport nicht angenommen wird, faellt der Provider fuer diesen Versuch auf `json_object` zurueck; der lokale Parser bleibt trotzdem hart gegen fehlende Top-Level-Sektionen.
-- OpenAI OAuth laeuft ueber den orchestrator-owned Backend-Transport aktuell mit `json_object`; Auth, Modell und Tokenbudget bleiben request-owned und werden nicht lokal persistiert.
+- API-key providers use `json_schema` with `strict=true` when the active schema
+  is strict-compatible.
+- If a strict schema is rejected by the transport, that attempt falls back to
+  `json_object`; the local parser still fails hard on missing top-level
+  sections.
+- OpenAI OAuth currently runs through the Orchestrator-owned backend transport
+  with `json_object`; auth, model and token budget remain request-owned and are
+  not persisted locally.
 
-## Lokale Config und Assets
-`config/config.yaml` enthaelt nur projektlokale Werte:
+## Local Config And Assets
+
+`config/config.yaml` contains only project-local values:
 
 - `timeout_seconds`
 - `max_retries`
@@ -74,28 +89,33 @@ Schema-Modi:
 - `projection_hint_mode`
 - `projection_routing.*`
 
-Lokale Assets unter `config/`:
+Local assets under `config/`:
 
 - `prompt_bundle.json`
 - `prompt_overrides.json`
 - `taxonomy_sources/<release_id>/`
 - `semantic_release.recipe.json`
 
-Release-bezogene Aussagen:
+Release-related truth:
 
-- `config/taxonomy_sources/<release_id>/` ist die neue source-first Authoring-Primarschicht fuer Release, Master und Projection-Texte/Core.
-- Schritt 3 kompiliert dieses Source-Paket fail-closed zu release-faehigen Payloads im Speicher.
-- Die release recipe bleibt die Legacy-Aktivierungssurface; `release_id`, `release_version` und `projection_ids` muessen zum aktiven `release.yaml` passen.
-- Runtime-Felder wie `model`, `max_output_tokens` und Auth bleiben request-owned und werden nicht lokal gespeichert.
+- `config/taxonomy_sources/<release_id>/` is the source-first authoring layer
+  for release, master and projection core/text files.
+- Step 3 compiles this source package fail-closed into release-ready payloads in
+  memory.
+- The release recipe remains the legacy activation surface; `release_id`,
+  `release_version` and `projection_ids` must match the active `release.yaml`.
+- Runtime fields such as `model`, `max_output_tokens` and auth remain
+  request-owned and are not stored locally.
 
 ## Edit Contract
-Entry-Point:
+
+Entry point:
 
 ```bat
 python -m normalizer_vision.edit_contract --request <request.json> --response <response.json>
 ```
 
-Sichtbare Surfaces:
+Visible surfaces:
 
 - `normalizer.settings`
 - `normalizer.prompt_overrides`
@@ -106,81 +126,96 @@ Sichtbare Surfaces:
 - `normalizer.semantic_release_authoring`
 - `normalizer.debug_capabilities`
 
-Owner-Regeln:
+Owner rules:
 
-- `normalizer.settings` owns `projection_hint_mode` und `projection_routing.*`
-- `config/taxonomy_sources/<release_id>/` ist die Authoring-Wahrheit fuer release-getriebene Builds.
-- `normalizer.taxonomy_master` schreibt `master.core.yaml` plus `master.text.en.yaml`; `normalizer.taxonomy_profiles` schreibt `projections/<projection_id>.core.yaml` plus `.text.en.yaml`.
-- `normalizer.translation_glossary` schreibt optional `translation_glossary.en.yaml` als eigene `authoring_only` Surface fuer englische Control-Terminologie.
-- `normalizer.semantic_release_authoring` schreibt `release.yaml` und synchronisiert additiv `config/semantic_release.recipe.json`; Export bleibt damit kompatibel, und `activate_semantic_release` ist als Edit-Contract-Proxy verfuegbar, waehrend die Aktivierungs-Ownership fachlich bei `05` bleibt.
-- `Export Semantic Release` und `Activate Semantic Release` validieren zuerst das Source-Paket, kompilieren dann release-faehige Payloads im Speicher und uebergeben nur exportierte `.json`-Release-Bundles an `05 - Corpus Builder`.
-- Taxonomie-Surfaces zeigen source-layer Slot-Metadaten und triggern `Preview Impact`, `Review Bootstrap`, `Bootstrap Package`, `Review Data-Informed`, `Refine From Sample`, `Validate Package`, `Compile Package` und `Export Semantic Release`; die Semantic-Release-Surface bietet additiv `Activate Semantic Release` mit `release_path` und `corpus_db_path`.
-- `Review Bootstrap` und `Review Data-Informed` bleiben read-only; sie laufen auf derselben Draft-Planungslogik wie `Bootstrap Package` und `Refine From Sample`, schreiben aber nichts.
-- `Bootstrap Package` und `Refine From Sample` mutieren strikt source-first nur `config/taxonomy_sources/<release_id>/`; exportierte Semantic-Release-Artefakte aendern sich erst nach `Validate Package` und `Compile Package`.
-- `create_projection_draft` erstellt aus einer Template-Projection in einem Schritt einen gespeicherten Draft fuer Core-Coverage, Routing-Text und Routing-Lexikon; der Draft bleibt source-first lokal, bis spaeter validiert und kompiliert wird.
-- `set_locale_text` und `set_routing_lexicon` arbeiten nur auf der kanonischen Control-Locale `en`; andere Taxonomy-/Runtime-Locales werden fail-closed abgewiesen.
-- `compile_release_package(target_locale?: str)` und `export_semantic_release(target_locale?: str)` akzeptieren nur `en` als expliziten Override. Ohne Override verwenden beide `default_runtime_locale` aus dem Source Package, aktuell `en`. Diese Locale ist die interne Control-Sprache fuer Labels, Guidance und Runtime Assets, nicht die Sprache jedes Quelldokuments; mehrsprachige Dokumente werden in diese Control-Sprache normalisiert.
-- `create_minimal_custom_release` ersetzt das aktive Working Source Package bewusst durch ein kleines Custom Package fuer ein Spezialarchiv; danach sind Validate, Compile, Export und Corpus-Aktivierung weiterhin getrennte Schritte.
-- `materialize_semantic_release_candidate` ist die Kernel-Owner-Aktion fuer detached Custom-Release-Bundles. Sie liest ein bereits geschriebenes Base-Release, materialisiert die Custom Projection aus Kernel-Update-State und schreibt ein Corpus-Builder-faehiges Release-Bundle, ohne das aktive Working Source Package zu ersetzen.
-- Custom Projection Materialisierung konsumiert `projection_precursors` aus dem Kernel-Update-State als Identitaets- und Include-Quelle. Phase-19-Platzhalter wie `projection_phase19` duerfen nur in Tests auftauchen, wenn sie explizit im Payload stehen, nicht als erzwungener Runtime-Fallback.
-- `create_and_activate_new_corpus_db` exportiert ein validiertes Release-Bundle und delegiert fail-closed an `05 - Corpus Builder`; ohne dessen gebuendelte Runtime gibt es keinen Fallback auf den Normalizer-Python.
-- `normalizer.debug_capabilities` bleibt read-only
+- `normalizer.settings` owns `projection_hint_mode` and
+  `projection_routing.*`.
+- `config/taxonomy_sources/<release_id>/` is the authoring truth for
+  release-driven builds.
+- `normalizer.taxonomy_master` writes `master.core.yaml` and
+  `master.text.en.yaml`.
+- `normalizer.taxonomy_profiles` writes
+  `projections/<projection_id>.core.yaml` and `.text.en.yaml`.
+- `normalizer.translation_glossary` may write
+  `translation_glossary.en.yaml` as an `authoring_only` surface for English
+  control terminology.
+- `normalizer.semantic_release_authoring` writes `release.yaml` and syncs
+  `config/semantic_release.recipe.json` additively.
+- Export and activation validate the source package first, compile
+  release-ready payloads in memory and pass only exported `.json` release
+  bundles to `05 - Corpus Builder`.
+- Bootstrap and data-informed review tools remain read-only. Apply tools mutate
+  only the source-first working package. Exported Semantic Release artifacts
+  change only after validate/compile/export steps.
+- Locale tools currently accept only the internal control locale `en`.
+- `normalizer.debug_capabilities` is read-only.
 
-## Debug- und Orchestrator-Pfade
-- Der produktive Betrieb laeuft ausschliesslich ueber `normalizer_vision.orchestrator_contract`.
-- `debug_run` ist die einzige Run-/Debug-Surface fuer den Orchestrator-Host.
-- `build_projection_catalog` bleibt ein lokaler Legacy-/Admin-/Debug-Pfad fuer source-backed Release-Analysen.
-- Der generische Debug-Host entdeckt die Capabilities rein ueber
-  `module-manifest.json`.
+## Debug And Orchestrator Paths
 
-## Runtime und Packaging
-- `build-runtime.bat` baut `runtime/python` offline aus mitgelieferten Artefakten.
-- `check-runtime.bat` validiert Runtime und Modulvertrag.
-- `installer.bat` installiert den Modulslot unter `%LOCALAPPDATA%\Programs\Vision Pipeline\04 - Normalizer`.
-- Mutable Daten bleiben `config/config.yaml`, `output/` und `state/`.
-- `runtime/` ist kein Owner fuer Projection-Routing und wird von diesem Umbau nicht manuell gepflegt.
+- Product operation runs only through
+  `normalizer_vision.orchestrator_contract`.
+- `debug_run` is the only run/debug surface for the Orchestrator host.
+- `build_projection_catalog` remains a local legacy/admin/debug path for
+  source-backed release analysis.
+- The generic Debug Host discovers capabilities through `module-manifest.json`.
+
+## Runtime And Packaging
+
+- `build-runtime.bat` builds `runtime/python` offline from shipped artifacts.
+- `check-runtime.bat` validates runtime and module contract.
+- `installer.bat` installs the module slot under
+  `%LOCALAPPDATA%\Programs\Vision Pipeline\04 - Normalizer`.
+- Mutable data remains `config/config.yaml`, `output/` and `state/`.
+- `runtime/` is not the owner for projection routing and is not maintained
+  manually for that semantics.
 
 ## Production Readiness
-- `check-runtime.bat` und `dev-tests\run-tests.bat` bilden die Runtime-/Dev-Gates.
-- LOC-Governance haelt Produkt-, Test- und dev-tool-Python-Dateien unter 200 LOC.
-- Lokale mutable Artefakte unter `output/`, `state/`, `.tmp` und pytest-Cache-Ordnern sind nicht Teil des Installer-/Runtime-Vertrags und werden nicht automatisch geloescht.
+
+- `check-runtime.bat` and `dev-tests\run-tests.bat` are the runtime/dev gates.
+- Local mutable artifacts under `output/`, `state/`, `.tmp` and pytest cache
+  folders are not part of the installer/runtime contract and are not deleted
+  automatically.
 
 ## Tests
+
 ```bat
 dev-tests\bootstrap.bat && dev-tests\run-tests.bat
 ```
 
-Direkt mit dem Suite-Python:
+Directly with the suite Python:
 
 ```bat
 dev-tests\.venv\python.exe -m pytest dev-tests\tests
 ```
 
-Die Suite deckt ab:
+The suite covers:
 
-- Semantic Release, Runtime Semantic Assets, Projection Routing und Hint-Arbitration
-- Edit Contract sowie Contract-/Packaging-Grenzen
+- Semantic Release, Runtime Semantic Assets, Projection Routing and hint
+  arbitration.
+- Edit Contract and contract/packaging boundaries.
 
-Cross-Module-Ratchets in `tools/dev-tests` pruefen zusaetzlich:
+Cross-module ratchets in `tools/dev-tests` additionally check:
 
-- `04`-Compiler-Ergebnis gegen die eingecheckte `01`-Fixture und die publizierten `05`-Release-Spiegel
-- Terminologie- und LOC-Drift zwischen SPEC, README und Edit Contract
+- The `04` compiler result against the checked-in `01` fixture and the
+  published `05` release mirrors.
+- Terminology and LOC drift between SPEC, README and Edit Contract.
 
 ## Governance
-- README, Edit Contract, Slot-Summary und Tooling verwenden dieselbe Begriffswelt: `routing.surface_signals`, `semantic_extraction_policy_v2`, `projection_routing`, `projection_hint_mode=advisory`, `projection.selection.reason`.
-- `runtime/` und andere Spiegel bleiben fuer diese Routing-Semantik unberuehrt.
-- Solange die Cross-Module-Ratchets fuer `04 -> 01` oder `04 -> 05` rot sind, gelten spaetere Robustheits-, Verifizierungs- oder Ratchet-Claims nicht als freigegeben.
-- Schwester-Module konsumieren nur `runtime_semantic_assets_v1`, `projection_catalog`, `context.projection_hint` und `projection.selection`.
 
-## Abweichungslog
-| Modul | Regel | Abweichung | Grund | Owner | Follow-up Datum | Risiko wenn offen |
-| --- | --- | --- | --- | --- | --- | --- |
-| 04 - Normalizer | SHOULD: lokale Maintenance-Pfade bleiben minimal | `build_projection_catalog` bleibt als Legacy-/Admin-/Debug-Surface sichtbar, obwohl der Normalpfad ueber Semantic Release und Runtime Assets laeuft | Orchestrator, Debug-Host und Owner-Workflows brauchen einen gespeicherten Discovery-Pfad ohne Run | Codex | 2026-05-08 | lokale Maintenance und Produktpfad koennen sonst begrifflich auseinanderlaufen |
-| 04 - Normalizer | SHOULD: Modellwahl bleibt voll owner-lokal editierbar | produktive Runtime-Felder bleiben request-owned und sind bewusst nicht Teil des Edit Contracts | Modellwahl und Auth sind orchestrator-owned, nicht normalizer-owned | Plattform | 2026-05-08 | lokale Konfigurationswahrheit wuerde wieder in Richtung Hidden Runtime Defaults driften |
+- README, Edit Contract, slot summary and tooling use the same vocabulary:
+  `routing.surface_signals`, `semantic_extraction_policy_v2`,
+  `projection_routing`, `projection_hint_mode=advisory`,
+  `projection.selection.reason`.
+- `runtime/` and other mirrors remain untouched by this routing semantics.
+- Sibling modules consume only `runtime_semantic_assets_v1`,
+  `projection_catalog`, `context.projection_hint` and
+  `projection.selection`.
 
 ## Phase 19 Semantic Release Domain Service
+
 - The Phase 19 owner lives only in `normalizer_vision`.
-- No `normalizer_file` owner exists and no database attach/activate step moved into the Normalizer.
+- No `normalizer_file` owner exists and no database attach/activate step moved
+  into the Normalizer.
 - Edit-contract owner actions:
   - `materialize_custom_taxonomy_artifact`
   - `materialize_custom_projection_artifact`
@@ -191,6 +226,8 @@ Cross-Module-Ratchets in `tools/dev-tests` pruefen zusaetzlich:
   - `validate_projection_binding`
   - `compile_semantic_release_candidate`
   - `merge_semantic_release_candidates`
-- Creation precursor payloads are accepted only by `materialize_*`; executable mutation payloads only by `apply_*_update_state`.
-- Family-confused payloads fail closed; Normalizer owner outputs return detached refs, diagnostics and fingerprints only and do not mutate Corpus Builder database state.
-- `compile_semantic_release_candidate` returns the complete custom release identity in nested `release_ref`. Top-level `semantic_release_id` and `semantic_release_version` are compatibility aliases; Kernel merge finalization must treat `release_ref` as the canonical proof so taxonomy/projection refs survive materialization.
+- Creation precursor payloads are accepted only by `materialize_*`; executable
+  mutation payloads only by `apply_*_update_state`.
+- Family-confused payloads fail closed.
+- Normalizer owner outputs return detached refs, diagnostics and fingerprints
+  only and do not mutate Corpus Builder database state.

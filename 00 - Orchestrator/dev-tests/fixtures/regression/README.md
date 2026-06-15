@@ -1,43 +1,57 @@
 # Regression Fixtures
 
-Replay-basierte End-to-End-Regressionsfaelle fuer `00 - Orchestrator`.
+Replay-based end-to-end regression cases for `00 - Orchestrator`.
 
 - `happy_path`
-  - Ein erfolgreicher Ein-Dokument-Run auf Basis eines anonymisierten radiologischen Ein-Seiten-Befunds mit Golden-Erwartungen fuer State, Artefakte und `corpus.db`.
+  - Successful one-document run based on an anonymized one-page radiology
+    finding with golden expectations for state, artifacts and `corpus.db`.
 - `receipt_live`
-  - Ein erfolgreicher Replay-Fall auf Basis eines echten Live-Captures eines synthetischen Kassenbons mit echten Schwester-Modulen.
+  - Successful replay case based on a real live capture of a synthetic receipt
+    with real sibling modules.
 - `validator_fail`
-  - Ein wiederholter Validator-Fehler auf Basis einer anonymisierten Ein-Seiten-Rechnung, der nach drei Versuchen in ein finales Error-Bundle laeuft.
+  - Repeated Validator failure based on an anonymized one-page invoice, ending
+    in a final Error Bundle after three attempts.
 - `interpreter_review`
-  - Ein synthetischer Interpreter-Review-Fall, der den fruehen Review-/Error-Pfad inklusive Retry-Logik abdeckt.
+  - Synthetic Interpreter review case covering the early review/error path and
+    retry logic.
 - `normalizer_review`
-  - Ein synthetischer Normalizer-Review-Fall, der drei Normalizer-Retries und das finale Bundle mit `normalized`-Artefakt abdeckt.
+  - Synthetic Normalizer review case covering three Normalizer retries and the
+    final bundle with normalized artifact.
 - `synthetic_scan_pdf_multipage`
-  - Ein synthetischer, aus Produktions-Artefaktformen abgeleiteter Mehrseiten-Scan-PDF-Fall mit page-scoped Raw-, Request-, Structured-, Validation- und Normalized-Artefakten.
+  - Synthetic multipage scan-PDF case derived from production artifact shapes
+    with page-scoped raw, request, structured, validation and normalized
+    artifacts.
 - `synthetic_born_digital_pdf_table`
-  - Ein synthetischer born-digital PDF-Tabellenfall fuer das `file`-Profil.
+  - Synthetic born-digital PDF table case for the `file` profile.
 - `synthetic_docx_file_profile`
-  - Ein synthetischer DOCX-Fall fuer den file-basierten Dokumentpfad.
+  - Synthetic DOCX case for the file-based document path.
 - `synthetic_msg_thread_file_profile`
-  - Ein synthetischer MSG/E-Mail-Thread-Fall mit mehreren Seitenassets.
+  - Synthetic MSG/email thread case with multiple page assets.
 - `synthetic_text_file_profile`
-  - Ein synthetischer TXT-Fall mit mehrseitiger File-Profil-Struktur.
+  - Synthetic TXT case with multipage file-profile structure.
 - `synthetic_png_vision_profile`
-  - Ein synthetischer PNG-/Rasterbildfall fuer das Vision-Profil.
-- Reset-Roundtrip
-  - Wird in `test_pipeline_regression.py` bewusst auf Basis von `validator_fail` geprueft, damit der Reset nur `Error Cases` entfernt, Quellen ins Input zuruecklegt und Erfolgsablage plus `corpus.db` unberuehrt laesst.
+  - Synthetic PNG/raster-image case for the vision profile.
+- Reset roundtrip
+  - Tested in `test_pipeline_regression.py` intentionally from
+    `validator_fail`, so reset removes only `Error Cases`, returns sources to
+    Input and leaves successful artifacts plus `corpus.db` untouched.
 
-Die Fixtures enthalten:
+Fixtures contain:
 
 - `input/`
-  - realistisch benannte Eingabedateien
+  - realistically named input files
 - `replay/`
-  - versionierte Stage-Artefakte wie `raw.json`, `structured.json`,
-    `*.vision_validation_report.json` oder `*.files_validation_report.json`,
+  - versioned stage artifacts such as `raw.json`, `structured.json`,
+    `*.vision_validation_report.json`, `*.files_validation_report.json` and
     `normalized.json`
-  - Inhalte sind strukturerhaltend anonymisiert, nicht 1:1 aus dem Quelldokument uebernommen
-  - `synthetic_*`-Faelle enthalten keine Produktionsinhalte und uebernehmen nur Format-, Profil-, Seitenzahl- und Artefaktstruktur-Muster aus einem lokalen Artefaktordner
+  - structure-preserving anonymized content, not a 1:1 copy of source documents
+  - `synthetic_*` cases contain no production content and reproduce only
+    format, profile, page-count and artifact-structure patterns
 - `case.json`
-  - Stage-Szenario und Golden-Erwartungen
+  - stage scenario and golden expectations
 
-Die zugehoerigen Tests laufen unter `dev-tests/tests/test_pipeline_regression.py`.
+The related tests live under:
+
+```text
+dev-tests/tests/test_pipeline_regression.py
+```

@@ -1,5 +1,4 @@
 # Dojo Cases
 
-Dieses Verzeichnis ist fuer spaetere ausfuehrbare Case-Definitionen gedacht.
-Die aktuellen Suite-Manifeste definieren nur das Skelett und die erwarteten
-Case-IDs.
+This directory is reserved for future executable case definitions. The current
+suite manifests define only the skeleton and expected case IDs.
