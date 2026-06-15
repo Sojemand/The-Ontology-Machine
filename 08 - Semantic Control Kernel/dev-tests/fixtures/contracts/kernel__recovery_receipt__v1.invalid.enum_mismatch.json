@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-05-05T00:00:00Z",
+  "mirror_event_id": "mirror_event_id_example",
+  "mutated_refs": [],
+  "recovery_event_id": "recovery_event_id_example",
+  "recovery_id": "recovery_id_example",
+  "recovery_receipt_id": "recovery_receipt_id_example",
+  "recovery_state": "__invalid_enum__",
+  "result_status": "applied",
+  "schema_version": "kernel.recovery_receipt.v1",
+  "selected_recovery_option": {
+    "owner": "kernel_dialog",
+    "recovery_id": "recovery_id_example"
+  },
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "support_bundle_ref": {},
+  "target_identity_after": {
+    "artifact_root_path_hash": "path_example",
+    "created_from": "fixture",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "schema_version": "state.target_identity.v1",
+    "target_hash": "tgt_after_example"
+  },
+  "target_identity_before": {
+    "artifact_root_path_hash": "path_example",
+    "created_from": "fixture",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "schema_version": "state.target_identity.v1",
+    "target_hash": "tgt_before_example"
+  },
+  "user_confirmation_refs": [],
+  "workflow_run_id": "workflow_run_id_example",
+  "written_refs": []
+}

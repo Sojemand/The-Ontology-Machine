@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=048-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:c8ad118b68fc8dbef21adb3c64b3e36de9c841c2b5ac0496d49a92663d7ffc12",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 48,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=048-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 48,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_048.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page48_para_0",
+        "type": "paragraph",
+        "value": "Moment darüber freuen und uns wundern, wie leicht es doch war, so haben wir es im nächsten",
+        "position": {
+          "page": 48,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page48_para_1",
+        "type": "paragraph",
+        "value": "Moment schon wieder vergessen und ärgern uns, dass wir trotz aller Mühe nichts erreicht",
+        "position": {
+          "page": 48,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page48_para_2",
+        "type": "paragraph",
+        "value": "haben und die Anstrengung für die Katz war.",
+        "position": {
+          "page": 48,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page48_para_3",
+        "type": "paragraph",
+        "value": "Dann sagt ihr euch vielleicht, dass ihr es später nochmal versuchen wollt und kurz darauf",
+        "position": {
+          "page": 48,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page48_para_4",
+        "type": "paragraph",
+        "value": "schon habt ihr auch eure Anstrengung vergessen und wisst nicht einmal mehr was ihr euch",
+        "position": {
+          "page": 48,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page48_para_5",
+        "type": "paragraph",
+        "value": "vorgenommen habt.",
+        "position": {
+          "page": 48,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page48_para_6",
+        "type": "paragraph",
+        "value": "Es ist wie mit dem extrem kurzen Moment, in dem ich Muster auf Kennzeichen erkenne. Ein",
+        "position": {
+          "page": 48,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page48_para_7",
+        "type": "paragraph",
+        "value": "einzelnes Mal ist sofort wieder vergessen. Aber irgendwann, nach unzähligen Malen dann fällt",
+        "position": {
+          "page": 48,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page48_para_8",
+        "type": "paragraph",
+        "value": "mir einmal auf, dass das ein sehr merkwürdiger Vorgang ist und dann benötige ich nochmal an",
+        "position": {
+          "page": 48,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page48_para_9",
+        "type": "paragraph",
+        "value": "die hundert weiterer solcher Begegnungen, bis ich mich durch den Dschungel des Vergessens",
+        "position": {
+          "page": 48,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page48_para_10",
+        "type": "paragraph",
+        "value": "geschlagen habe und aus allen geretteten Bruchstücken ein Bild zusammensetzen kann. Jetzt,",
+        "position": {
+          "page": 48,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page48_para_11",
+        "type": "paragraph",
+        "value": "wenn mir etwas Ähnliches wieder passiert, was zugegeben recht selten ist, da ich lange nicht",
+        "position": {
+          "page": 48,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page48_para_12",
+        "type": "paragraph",
+        "value": "mehr so viel auf Autobahnen unterwegs bin, vergesse ich nichts mehr davon, noch werde ich",
+        "position": {
+          "page": 48,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page48_para_13",
+        "type": "paragraph",
+        "value": "davon überrascht. Das Vergessen ist ein furchtbarer Gegner, dem wir hilflos ausgeliefert sind",
+        "position": {
+          "page": 48,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page48_para_14",
+        "type": "paragraph",
+        "value": "und dem nur durch Hartnäckigkeit beizukommen ist. Wie halt mit allem im Leben was sich lohnt.",
+        "position": {
+          "page": 48,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page48_para_15",
+        "type": "paragraph",
+        "value": "Perlen in der Dunkelheit",
+        "position": {
+          "page": 48,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page48_para_16",
+        "type": "paragraph",
+        "value": "Aber nicht nur das peinliche Gefühl sich reden zu hören ist eine Erfahrung, welche sich durch",
+        "position": {
+          "page": 48,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page48_para_17",
+        "type": "paragraph",
+        "value": "ein zweigleisiges Gewahrsein einstellen kann. Es gibt auch noch eine andere, ebenso",
+        "position": {
+          "page": 48,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page48_para_18",
+        "type": "paragraph",
+        "value": "interessante Eigenschaft, die ein solch geweitetes Gewahrsein mit sich bringt. Auch dieser",
+        "position": {
+          "page": 48,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page48_para_19",
+        "type": "paragraph",
+        "value": "Hinweis stammt aus einer Überlieferung Ouspenskys, der ihn während eines Gespräches mit",
+        "position": {
+          "page": 48,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page48_para_20",
+        "type": "paragraph",
+        "value": "Gurdjieff aufschnappte. Ich nenne ihn deshalb, weil ich bestätigen kann, dass es sich genau so",
+        "position": {
+          "page": 48,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page48_para_21",
+        "type": "paragraph",
+        "value": "zuträgt und ich diesen Umstand zahlreiche Male selbst beobachtet habe.",
+        "position": {
+          "page": 48,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page48_para_22",
+        "type": "paragraph",
+        "value": "Es beginnt mit dem Hinweis, dass sich unsere Erinnerungen an unser Leben doch recht",
+        "position": {
+          "page": 48,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page48_para_23",
+        "type": "paragraph",
+        "value": "spärlich darstellen. Jeder, der versucht sich an sein Leben zu erinnern, der wird feststellen,",
+        "position": {
+          "page": 48,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page48_para_24",
+        "type": "paragraph",
+        "value": "dass da nicht viel ist, gemessen an dem was er wirklich schon alles erlebt hat. Unsere",
+        "position": {
+          "page": 48,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page48_para_25",
+        "type": "paragraph",
+        "value": "Erinnerung besteht hauptsächlich aus einzelnen Episoden mit viel Leere dazwischen.",
+        "position": {
+          "page": 48,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page48_para_26",
+        "type": "paragraph",
+        "value": "Allerdings gibt es in unseren Erinnerungen Gegebenheiten, die sich förmlich eingebrannt zu",
+        "position": {
+          "page": 48,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page48_para_27",
+        "type": "paragraph",
+        "value": "haben scheinen. Es gibt zwei deutlich unterschiedliche Qualitäten von Erinnerungen. Jene, die",
+        "position": {
+          "page": 48,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page48_para_28",
+        "type": "paragraph",
+        "value": "verschwommen sind, sich zeitlich nicht recht zuordnen lassen und auch sonst sehr",
+        "position": {
+          "page": 48,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page48_para_29",
+        "type": "paragraph",
+        "value": "eindimensional sind. Etwa wie das, was letzte Woche so alles im Büro passiert ist, oder wie dir",
+        "position": {
+          "page": 48,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page48_para_30",
+        "type": "paragraph",
+        "value": "das Essen gestern geschmeckt hat, wie genau die Urlaubsreise letztes Jahr verlief oder welche",
+        "position": {
+          "page": 48,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=025-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:57e49b6e95c8fa50525ded687c69fc947c20adf2f4e13c3f04725d3fd26f1625",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 25,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=025-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 25,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_025.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page25_para_0",
+        "type": "paragraph",
+        "value": "Die wundervolle Welt des verborgenen Supercomputers – Emotionale\nKaskaden",
+        "position": {
+          "page": 25,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page25_para_1",
+        "type": "paragraph",
+        "value": "Es gibt wohl nur sehr wenige Dinge, die wir Menschen mehr schätzen und hegen als das was",
+        "position": {
+          "page": 25,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page25_para_2",
+        "type": "paragraph",
+        "value": "wir fühlen, oder zu fühlen glauben. Wir versuchen permanent negativen Gefühlen aus dem Weg",
+        "position": {
+          "page": 25,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page25_para_3",
+        "type": "paragraph",
+        "value": "zu gehen und nach positiven Gefühlen zu streben. Oder kurz, wir vermeiden Schmerz und",
+        "position": {
+          "page": 25,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page25_para_4",
+        "type": "paragraph",
+        "value": "suchen die Lust. Unsere ganze Maschine ist dazu geschaffen, uns mit angenehmen Gefühlen",
+        "position": {
+          "page": 25,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page25_para_5",
+        "type": "paragraph",
+        "value": "zu belohnen, wenn wir unserer biologischen Primärfunktion erfolgreich nachkommen und dabei",
+        "position": {
+          "page": 25,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page25_para_6",
+        "type": "paragraph",
+        "value": "möglichst wenig Energie aufwenden. Ihr ist es dabei auch relativ egal, dass uns viele ihrer",
+        "position": {
+          "page": 25,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page25_para_7",
+        "type": "paragraph",
+        "value": "Funktionen Heute mehr schaden als nutzen. Wir sollten nicht vergessen, dass die Strukturen",
+        "position": {
+          "page": 25,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page25_para_8",
+        "type": "paragraph",
+        "value": "die wir hier behandeln viele Millionen Jahre alt sind und sich auch nicht verändert haben seit wir",
+        "position": {
+          "page": 25,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page25_para_9",
+        "type": "paragraph",
+        "value": "von dem Bäumen stiegen. Sie werden sich auch nicht ändern, nur weil wir auf einmal in",
+        "position": {
+          "page": 25,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page25_para_10",
+        "type": "paragraph",
+        "value": "Metallröhren fliegen und die Affen gelernt haben, mit anderen Affen auf der anderen Seite der",
+        "position": {
+          "page": 25,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page25_para_11",
+        "type": "paragraph",
+        "value": "Welt zu reden während sie kreischend Videos und Bilder teilen, auf denen sie sich gegenseitig",
+        "position": {
+          "page": 25,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page25_para_12",
+        "type": "paragraph",
+        "value": "mit Fäkalien bewerfen. Unser emotionales System ist das älteste, zusammen mit der",
+        "position": {
+          "page": 25,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page25_para_13",
+        "type": "paragraph",
+        "value": "Mustererkennung und ist ähnlich mächtig und verborgen, auch wenn seine Auswirkungen uns",
+        "position": {
+          "page": 25,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page25_para_14",
+        "type": "paragraph",
+        "value": "mehr oder weniger direkt zu Bewusstsein kommen. Jeder weiß was er fühlt, zumindest grob,",
+        "position": {
+          "page": 25,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page25_para_15",
+        "type": "paragraph",
+        "value": "aber keiner weiß warum er fühlt. Hin und wieder ist man vielleicht in der Lage, bestimmten",
+        "position": {
+          "page": 25,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page25_para_16",
+        "type": "paragraph",
+        "value": "Situationen bestimmte Gefühle zuzuordnen, aber im Großen und Ganzen sind sie für uns ein",
+        "position": {
+          "page": 25,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page25_para_17",
+        "type": "paragraph",
+        "value": "Mysterium. Wir sind uns völlig im Unklaren darüber, wie unsere Maschine auf die Welt reagiert",
+        "position": {
+          "page": 25,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page25_para_18",
+        "type": "paragraph",
+        "value": "und wie sie entscheidet und Gewichtet, welche Gefühle wo angebracht sind und welchen",
+        "position": {
+          "page": 25,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page25_para_19",
+        "type": "paragraph",
+        "value": "Zweck sie verfolgen. Wir sind uns vollständig unbewusst darüber, wo eine emotionale Kaskade",
+        "position": {
+          "page": 25,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page25_para_20",
+        "type": "paragraph",
+        "value": "ihren Ursprung hat und wir haben keinen Einfluss darauf, was ein bestimmtes Gefühl am Ende",
+        "position": {
+          "page": 25,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page25_para_21",
+        "type": "paragraph",
+        "value": "dieser Kette genau auslöst.",
+        "position": {
+          "page": 25,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page25_para_22",
+        "type": "paragraph",
+        "value": "Wir mögen uns darüber klar sein, dass eine haarige Spinne Abscheu und Angst auslöst,",
+        "position": {
+          "page": 25,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page25_para_23",
+        "type": "paragraph",
+        "value": "Gefahr ausstrahlt, aber weder kennen wir den Auslöser in uns selbst, noch haben wir Kontrolle",
+        "position": {
+          "page": 25,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page25_para_24",
+        "type": "paragraph",
+        "value": "über das Gefühl der Gefahr und der Abscheu. Wir mögen uns klar darüber sein, dass ein",
+        "position": {
+          "page": 25,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page25_para_25",
+        "type": "paragraph",
+        "value": "Welpe süß und knuddelig ist, aber, naja ihr wisst ja. Was wir hier haben sind allesamt Auslöser,",
+        "position": {
+          "page": 25,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page25_para_26",
+        "type": "paragraph",
+        "value": "die Dinge tun auf die wir nur sehr eingeschränkt Einfluss nehmen können. Wie eingeschränkt,",
+        "position": {
+          "page": 25,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page25_para_27",
+        "type": "paragraph",
+        "value": "das sehen wir uns einmal anhand eines Extrembeispiels an.",
+        "position": {
+          "page": 25,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page25_para_28",
+        "type": "paragraph",
+        "value": "Stellt euch vor ihr geht vor eure Tür, nichts böses ahnend und auf einmal blickt ihr in den Lauf",
+        "position": {
+          "page": 25,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page25_para_29",
+        "type": "paragraph",
+        "value": "einer Waffe und jemand schreit euch an „rück die Kohle raus!“. Bevor dir überhaupt klar wird",
+        "position": {
+          "page": 25,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page25_para_30",
+        "type": "paragraph",
+        "value": "was da gerade passiert, innerhalb der ersten Sekunde dieser Begegnung, hat deine",
+        "position": {
+          "page": 25,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

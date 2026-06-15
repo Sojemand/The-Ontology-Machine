@@ -1,0 +1,164 @@
+body.theme-light {
+  color-scheme: light;
+  --bg: #e8e2d6;
+  --panel: rgba(255, 251, 244, 0.94);
+  --border: rgba(58, 46, 28, 0.1);
+  --border-strong: rgba(58, 46, 28, 0.18);
+  --text: #1e1c18;
+  --text-muted: #6a6459;
+  --accent-soft: rgba(199, 116, 34, 0.12);
+  --shadow: 0 18px 52px rgba(88, 72, 42, 0.12);
+}
+
+body[data-density="compact"] {
+  --body-font-size: 14px;
+  --ui-gap: 12px;
+  --shell-pad: 12px;
+  --panel-radius: 20px;
+  --panel-pad-y: 14px;
+  --panel-pad-y-tight: 12px;
+  --panel-pad-x: 16px;
+  --button-pad-y: 8px;
+  --button-pad-x: 12px;
+  --button-font-size: 0.88rem;
+  --message-pad-y: 13px;
+  --message-pad-x: 15px;
+  --message-max-width: 86%;
+  --table-font-size: 0.9rem;
+  --table-min-width: 440px;
+  --input-min-height: 76px;
+  --viewer-min-height: 280px;
+  --viewer-stage-pad: 14px;
+  --source-card-pad: 14px;
+}
+
+body[data-density="dense"] {
+  --body-font-size: 13px;
+  --ui-gap: 10px;
+  --shell-pad: 10px;
+  --panel-radius: 18px;
+  --panel-pad-y: 12px;
+  --panel-pad-y-tight: 10px;
+  --panel-pad-x: 14px;
+  --button-pad-y: 7px;
+  --button-pad-x: 11px;
+  --button-font-size: 0.84rem;
+  --badge-font-size: 0.76rem;
+  --message-gap: 10px;
+  --message-pad-y: 12px;
+  --message-pad-x: 13px;
+  --message-radius: 16px;
+  --message-max-width: 92%;
+  --table-font-size: 0.86rem;
+  --table-min-width: 360px;
+  --composer-gap: 10px;
+  --input-min-height: 64px;
+  --viewer-min-height: 220px;
+  --viewer-stage-pad: 12px;
+  --source-card-pad: 12px;
+}
+
+.workspace-nav-button:hover,
+.ghost-button:hover,
+.primary-button:hover {
+  transform: translateY(-1px);
+}
+
+.workspace-nav-button[aria-pressed="true"] {
+  background: linear-gradient(135deg, rgba(216, 139, 49, 0.92), rgba(177, 92, 28, 0.96));
+  color: #fff9f0;
+}
+
+.pane-resizer:hover::before,
+.pane-resizer:focus-visible::before {
+  background: color-mix(in srgb, var(--accent) 42%, var(--border-strong));
+  transform: scaleX(1.4);
+}
+
+.ghost-button:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.primary-button:disabled,
+.ghost-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+  transform: none;
+}
+
+.status-pill[data-state="ok"] {
+  background: rgba(58, 162, 109, 0.16);
+  color: #7ee2a8;
+}
+
+.status-pill[data-state="error"] {
+  background: rgba(211, 90, 74, 0.16);
+  color: #ff9f93;
+}
+
+.status-pill[data-state="warning"] {
+  background: rgba(199, 116, 34, 0.18);
+  color: #f6bb72;
+}
+
+body.theme-light .status-pill[data-state="warning"] {
+  color: #8a4a10;
+}
+
+.source-card.active {
+  border-color: rgba(199, 116, 34, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(199, 116, 34, 0.25);
+}
+
+.config-form.locked {
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+.history-panel:not([hidden]) {
+  display: flex;
+  flex-direction: column;
+}
+
+.history-panel:not([hidden]) ~ .messages {
+  display: none;
+}
+
+.history-entry:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border-color: var(--accent);
+}
+
+.turn-counter[data-state="warning"],
+.token-counter[data-state="warning"] {
+  color: var(--accent);
+  border-color: rgba(199, 116, 34, 0.4);
+  background: var(--accent-soft);
+}
+
+.turn-counter[data-state="over"],
+.token-counter[data-state="over"] {
+  color: var(--danger);
+  border-color: rgba(211, 90, 74, 0.4);
+  background: rgba(211, 90, 74, 0.12);
+}
+
+@media (max-width: 640px) {
+  .workspace-nav-button {
+    padding: 9px 10px;
+  }
+
+  .source-topline,
+  .source-meta,
+  .composer-footer {
+    flex-wrap: wrap;
+  }
+
+  .message-table {
+    min-width: 100%;
+  }
+
+  .grid-two {
+    grid-template-columns: 1fr;
+  }
+}

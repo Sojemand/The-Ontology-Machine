@@ -1,0 +1,19 @@
+{
+  "schema_version": "normalized_v1",
+  "normalized_at": "2026-04-01T00:00:02+00:00",
+  "source_file": "synthetic_vendor_brief.docx",
+  "document_type": "briefing",
+  "category": "business",
+  "title": "Synthetic vendor brief",
+  "facts": {
+    "reference_number": "SYN-REG-001",
+    "contains_real_data": false,
+    "fixture_policy": "synthetic_from_artifact_shape_only"
+  },
+  "items": [
+    {
+      "label": "synthetic_id",
+      "value": "SYN-REG-001"
+    }
+  ]
+}

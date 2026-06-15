@@ -1,0 +1,289 @@
+[
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.context.document_page_count",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.context.page_number",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.context.page_source_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.context.source_document_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].layout_label",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].position.col",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].position.page",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].position.paragraph_index",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].position.row",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].position.table_index",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].value",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.ocr_reference.blocks[].value_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.page_assets[].media_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.page_assets[].page",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.page_assets[].path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.catalog_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.master_taxonomy_release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].avoid_when",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].example_document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].field_slot_map",
+    "value_kind": "empty_object",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].label",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].promotion_rules[].slot",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].promotion_rules[].source_paths[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.projections[].when_to_use",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.release_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.release_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.projection_catalog.runtime_locale",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.content_hash",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.document_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.file_ext",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.file_name",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.file_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.language",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  },
+  {
+    "artifact_kind": "request_envelope_01_02",
+    "json_path": "$.source.page_count",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "upstream_request"
+  }
+]

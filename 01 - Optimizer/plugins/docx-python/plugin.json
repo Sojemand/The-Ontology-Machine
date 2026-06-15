@@ -1,0 +1,42 @@
+{
+  "name": "docx-python",
+  "version": "1.0.0",
+  "description": "Word-Extraktor fuer .docx/.doc mit Source-First-OOXML-Parsing und eingebetteter LLM-Bild-OCR",
+  "author": "",
+  "formats": [".docx", ".doc"],
+  "also_handles": [],
+  "capabilities": ["text", "tables", "headings", "embedded_image_ocr"],
+  "priority": 10,
+  "python_version": ">=3.10",
+  "system_dependencies": [
+    "LibreOffice fuer Legacy-.doc-Konvertierung"
+  ],
+  "config_schema": {
+    "libreoffice_path": {
+      "type": "string",
+      "default": "",
+      "description": "Optionaler Pfad zu soffice/libreoffice fuer Legacy-.doc-Konvertierung"
+    },
+    "libreoffice_timeout_seconds": {
+      "type": "integer",
+      "default": 60,
+      "description": "Timeout fuer Legacy-.doc-Konvertierung via LibreOffice"
+    },
+    "embedded_image_ocr_enabled": {
+      "type": "boolean",
+      "default": true,
+      "description": "OCR fuer in DOCX eingebettete Bilder im Source-First-Schritt aktivieren"
+    },
+    "embedded_image_ocr_timeout_seconds": {
+      "type": "integer",
+      "default": 120,
+      "description": "Timeout fuer eingebettete Bild-OCR"
+    }
+  },
+  "config": {
+    "libreoffice_path": "",
+    "libreoffice_timeout_seconds": 60,
+    "embedded_image_ocr_enabled": true,
+    "embedded_image_ocr_timeout_seconds": 120
+  }
+}

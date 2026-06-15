@@ -1,0 +1,338 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=071-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:7cde44669d5b33f16ae04411f5f298528d6c6d74197a9e4eb20cc37f0ce3b0b4",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 71,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=071-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page71_para_0",
+        "type": "paragraph",
+        "value": "tägliches Leben schleicht, auch wenn wir ihnen keine wirklich schlüssigen Wirkmechanismen",
+        "position": {
+          "page": 71,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page71_para_1",
+        "type": "paragraph",
+        "value": "zuordnen können. Bei allen Bezeichnungen, die mittlerweile dazu existieren und den Anschein",
+        "position": {
+          "page": 71,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page71_para_2",
+        "type": "paragraph",
+        "value": "erwecken, sie hätten irgendeine belastbare Basis in der Wirklichkeit, so täuscht uns dieses",
+        "position": {
+          "page": 71,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page71_para_3",
+        "type": "paragraph",
+        "value": "Sprachgewirr wieder einmal über die simple Tatsache hinweg, dass keine Theorie einer",
+        "position": {
+          "page": 71,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page71_para_4",
+        "type": "paragraph",
+        "value": "echten Erklärung auch nur ansatzweise nahekommt. Allesamt benötigen sie hypothetische",
+        "position": {
+          "page": 71,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page71_para_5",
+        "type": "paragraph",
+        "value": "Überbauten, die nicht weniger suspekt daher kommen, als Sheldrakes morphogenetische",
+        "position": {
+          "page": 71,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page71_para_6",
+        "type": "paragraph",
+        "value": "Felder. Ideen wie die Existenz eines kollektiven Gedächtnisses, welches die Informationen auf",
+        "position": {
+          "page": 71,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page71_para_7",
+        "type": "paragraph",
+        "value": "Quantenebene der Epigenetik permanent aufprägt und sie so durch die Äonen überraschend",
+        "position": {
+          "page": 71,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page71_para_8",
+        "type": "paragraph",
+        "value": "selektiv über die ganze Welt verbreitet, hat ebenso viele Lücken wie anzunehmen, man könne",
+        "position": {
+          "page": 71,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page71_para_9",
+        "type": "paragraph",
+        "value": "dies mit der kollektiven Aufrechterhaltung simpler kultureller Eigenheiten vergleichen.",
+        "position": {
+          "page": 71,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page71_para_10",
+        "type": "paragraph",
+        "value": "Wie gesagt, das ähnelt alles sehr den Konversationen der Traumphilosophen. Keine dieser",
+        "position": {
+          "page": 71,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page71_para_11",
+        "type": "paragraph",
+        "value": "Ansätze, auch wenn sie wie die Neurowissenschaft nach messbaren Strukturen sucht, kommt",
+        "position": {
+          "page": 71,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page71_para_12",
+        "type": "paragraph",
+        "value": "letztendlich nicht ohne eine wie auch immer geartete magische Zutat aus, die das alles erst so",
+        "position": {
+          "page": 71,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page71_para_13",
+        "type": "paragraph",
+        "value": "wie erdacht funktionieren lässt. Wir pochen immer allzu gerne auf das Prinzip der",
+        "position": {
+          "page": 71,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page71_para_14",
+        "type": "paragraph",
+        "value": "Sparsamkeit, auf Ockhams berühmtes Rasiermesser, wenn es uns opportun erscheint,",
+        "position": {
+          "page": 71,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page71_para_15",
+        "type": "paragraph",
+        "value": "ignorieren es aber, wenn es nur mehr Rätsel aufzugeben scheint als es löst. Wie wäre es also",
+        "position": {
+          "page": 71,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page71_para_16",
+        "type": "paragraph",
+        "value": "einmal anzunehmen, dass Strukturen wie Archetypen sich überhaupt nicht durch eine Art",
+        "position": {
+          "page": 71,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page71_para_17",
+        "type": "paragraph",
+        "value": "spukhafte Fernwirkung im Außen verbreiten und dauerhaft erhalten, sondern ihr Ursprung in",
+        "position": {
+          "page": 71,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page71_para_18",
+        "type": "paragraph",
+        "value": "uns selbst zu vermuten ist, der auf Regeln basiert, die uns aus den bereits beschriebenen",
+        "position": {
+          "page": 71,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page71_para_19",
+        "type": "paragraph",
+        "value": "Gründen nicht zugänglich sind? Wir wundern uns auch nicht darüber, dass sich die",
+        "position": {
+          "page": 71,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page71_para_20",
+        "type": "paragraph",
+        "value": "Konstruktion von Flugzeugen weltweit so ähnelt, denn wir verstehen die Gesetze der",
+        "position": {
+          "page": 71,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page71_para_21",
+        "type": "paragraph",
+        "value": "Aerodynamik und aus ihnen ergibt sich schließlich das Design. Es gibt kein kollektives",
+        "position": {
+          "page": 71,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page71_para_22",
+        "type": "paragraph",
+        "value": "Unbewusstes, welches uns dazu bewegt, Flugzeuge so zu bauen wie wir sie bauen.",
+        "position": {
+          "page": 71,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page71_para_23",
+        "type": "paragraph",
+        "value": "Ein externer Beobachter, der die Aerodynamik nicht kennt, mag wohl auf die Idee eines",
+        "position": {
+          "page": 71,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page71_para_24",
+        "type": "paragraph",
+        "value": "kollektiven Unbewussten kommen, um die Ähnlichkeit von Fluggeräten zu erklären. Aber egal",
+        "position": {
+          "page": 71,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page71_para_25",
+        "type": "paragraph",
+        "value": "wie tief er in den Gehirnen seiner Probanden auch graben würde und wie viele",
+        "position": {
+          "page": 71,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page71_para_26",
+        "type": "paragraph",
+        "value": "unterschiedliche Wirkmechanismen er sich auch ausdenken mag, nichts davon wird ihm die",
+        "position": {
+          "page": 71,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page71_para_27",
+        "type": "paragraph",
+        "value": "Anwesenheit des Gesetzes der Aerodynamik enthüllen. Alles was er täte, wäre, der Arbeit",
+        "position": {
+          "page": 71,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page71_para_28",
+        "type": "paragraph",
+        "value": "eines Traumphilosophen nachzugehen. Welches Gesetz müsste es also geben, welches uns",
+        "position": {
+          "page": 71,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page71_para_29",
+        "type": "paragraph",
+        "value": "selbst bewegt, immer nach ähnlichen Mustern zu handeln? Sehen wir uns dazu den",
+        "position": {
+          "page": 71,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page71_para_30",
+        "type": "paragraph",
+        "value": "berühmtesten Archetyp einmal genauer an, welchen wir die „Heldenfahrt“ oder den",
+        "position": {
+          "page": 71,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page71_para_31",
+        "type": "paragraph",
+        "value": "„Monomythos“ nennen. Unser Dank muss dabei Joseph Campbell im Besonderen gelten,",
+        "position": {
+          "page": 71,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page71_para_32",
+        "type": "paragraph",
+        "value": "denn war er es doch, der ihn erst für uns so leicht verdaulich aufgearbeitet hat.",
+        "position": {
+          "page": 71,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=008-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:91beaaa4935329dca70df37034aa977ca093af8e1954858512c06ef9926abcb7",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 8,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=008-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page8_para_0",
+        "type": "paragraph",
+        "value": "wie sie ihm den Muskelkater beschert den er so gut kennt, besonders an seinen Füßen.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page8_para_1",
+        "type": "paragraph",
+        "value": "Nachdem er diesen Traum abgeschüttelt hat macht er sich wieder auf den Weg und reiht sich",
+        "position": {
+          "page": 8,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page8_para_2",
+        "type": "paragraph",
+        "value": "ein in die Schar der Wanderer auf der großen Straße.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page8_para_3",
+        "type": "paragraph",
+        "value": "Doch als er bereits alles wieder vergessen hat, da fällt er erneut. Und wieder durchlebt er",
+        "position": {
+          "page": 8,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page8_para_4",
+        "type": "paragraph",
+        "value": "diesen Alptraum. Worte können sein Grauen nicht beschreiben welches über ihn kommt als er",
+        "position": {
+          "page": 8,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page8_para_5",
+        "type": "paragraph",
+        "value": "sich erinnert, dass er dies schon zuvor einmal erlebt hat. Doch auch dieses mal schließt er die",
+        "position": {
+          "page": 8,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page8_para_6",
+        "type": "paragraph",
+        "value": "Augen wieder und betet, dass sein Herr in retten und ihn wieder Nachhause bringen möge.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page8_para_7",
+        "type": "paragraph",
+        "value": "Und auch diesmal findet er sich im wärmenden Licht der golden Straße wieder, kurz",
+        "position": {
+          "page": 8,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page8_para_8",
+        "type": "paragraph",
+        "value": "erleichtert und dann schnell alles vergessend was ihn da heimgesucht hat.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page8_para_9",
+        "type": "paragraph",
+        "value": "So vergeht eine geraume Weile, während er immer wieder aufs Neue fiel und sich in einer",
+        "position": {
+          "page": 8,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page8_para_10",
+        "type": "paragraph",
+        "value": "Welt aus Verfall und Schmerzen wiederfand. Und jedes mal kehrte er wieder zurück, nur um",
+        "position": {
+          "page": 8,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page8_para_11",
+        "type": "paragraph",
+        "value": "erneut zu vergessen und seinen Weg fortzusetzen. Doch irgendwann, da verschwand die",
+        "position": {
+          "page": 8,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page8_para_12",
+        "type": "paragraph",
+        "value": "Erinnerung an diese Dunkelheit jedoch nicht mehr vollends. Ein Teil davon blieb in ihm zurück,",
+        "position": {
+          "page": 8,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page8_para_13",
+        "type": "paragraph",
+        "value": "auch als er scherzend und lachend mit anderen Wanderern auf der goldenen Straße über die",
+        "position": {
+          "page": 8,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page8_para_14",
+        "type": "paragraph",
+        "value": "Mühen des Lebens philosophierte. Dieser dunkle Teil in ihm wuchs stetig bis an einen Punkt,",
+        "position": {
+          "page": 8,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page8_para_15",
+        "type": "paragraph",
+        "value": "an dem er begann, andere Wanderer zu fragen, ob ihnen Ähnliches auch schon einmal",
+        "position": {
+          "page": 8,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page8_para_16",
+        "type": "paragraph",
+        "value": "widerfuhr. Doch er erntete nur Unverständnis. Warum sollte man sich an solch grausame",
+        "position": {
+          "page": 8,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page8_para_17",
+        "type": "paragraph",
+        "value": "Dinge überhaupt erinnern wollen? Sie machen das ohnehin bereits mühsame Leben doch nur",
+        "position": {
+          "page": 8,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page8_para_18",
+        "type": "paragraph",
+        "value": "noch schwerer, wenn es sie denn gäbe.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page8_para_19",
+        "type": "paragraph",
+        "value": "Eines Tages wandte er sich zu einem alten Mann, der zu seiner Rechten ging. Er konnte sich",
+        "position": {
+          "page": 8,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page8_para_20",
+        "type": "paragraph",
+        "value": "nicht genau erinnern, wie lange sich dieser Mann bereits so an seiner Seite aufhielt. Er nutzte",
+        "position": {
+          "page": 8,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page8_para_21",
+        "type": "paragraph",
+        "value": "einen Gehstock um sich das Laufen zu erleichtern und er fragte diesen Alten, ob er schon",
+        "position": {
+          "page": 8,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page8_para_22",
+        "type": "paragraph",
+        "value": "einmal von einem Traum gehört hat, wie er ihn hin und wieder durchlebte. Der Mann blickte",
+        "position": {
+          "page": 8,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page8_para_23",
+        "type": "paragraph",
+        "value": "ihn an und sagte „kann schon sein, warum fragst du?“ Er erklärte ihm, dass er es merkwürdig",
+        "position": {
+          "page": 8,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page8_para_24",
+        "type": "paragraph",
+        "value": "findet, scheinbar der Einzige zu sein der von solchen Alpträumen heimgesucht wird und er",
+        "position": {
+          "page": 8,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page8_para_25",
+        "type": "paragraph",
+        "value": "fürchte, dass mit ihm etwas nicht stimmt. Der alte Mann lächelte und sagte „nun, erinnerst du",
+        "position": {
+          "page": 8,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page8_para_26",
+        "type": "paragraph",
+        "value": "dich, du hattest Zweifel, ob du je an dein Ziel gelangen würdest. Deine Zweifel waren so groß,",
+        "position": {
+          "page": 8,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page8_para_27",
+        "type": "paragraph",
+        "value": "dass selbst ich sie sehen konnte, also tat ich dir einen kleinen Gefallen“ und noch bevor er",
+        "position": {
+          "page": 8,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page8_para_28",
+        "type": "paragraph",
+        "value": "fragen konnte, was er denn damit meinte, hielt der alte Mann den Gehstock zwischen seine",
+        "position": {
+          "page": 8,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page8_para_29",
+        "type": "paragraph",
+        "value": "Beine und wieder fiel er.",
+        "position": {
+          "page": 8,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page8_para_30",
+        "type": "paragraph",
+        "value": "An diesem Punkt endet die Geschichte, und das Wissen, was letztendlich aus diesem",
+        "position": {
+          "page": 8,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

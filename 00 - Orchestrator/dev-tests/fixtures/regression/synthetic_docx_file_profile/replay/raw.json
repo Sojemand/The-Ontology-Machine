@@ -1,0 +1,51 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "fixture-synthetic_docx_file_profile",
+    "file_name": "synthetic_vendor_brief.docx",
+    "file_path": "C:/synthetic/input/synthetic_vendor_brief.docx",
+    "relative_path": "C:/synthetic/input/synthetic_vendor_brief.docx",
+    "file_ext": ".docx",
+    "content_hash": "sha256:docx0file0profile00000000000000000000000000000000000000000000000",
+    "page_count": 1,
+    "document_type": "briefing",
+    "language": "de"
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:/synthetic/input/synthetic_vendor_brief.docx",
+    "page_source_path": "C:/synthetic/input/synthetic_vendor_brief.docx::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "p001_b0000",
+        "type": "paragraph",
+        "value": "Synthetic vendor brief page 1",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "p001_b0001",
+        "type": "paragraph",
+        "value": "This fake page preserves only the document shape for regression testing.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      }
+    ]
+  }
+}

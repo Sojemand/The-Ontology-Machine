@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:05:30.944599+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 95,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=095-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.93,
+      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "philosophical writing",
+        "continuous paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page95_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 95,
+        "sequence": 1,
+        "text": "uns selbst zu belügen, zu überhöhen und zu separieren, unseren eigenen Vorstellungen mehr Realität zuzuordnen als ihnen gebührt, nur um letztendlich zu Traumphilosophen zu werden, die nichts anderes tun als an ihren eigenen Fürzen zu riechen ist ein furchtbar einfacher Weg, den wir nur allzu gerne gehen. Die Frage, wie man so etwas verhindert, ist schon für sich allein genommen eine monumentale Aufgabe. Wie können wir die Einschränkung umgehen, nicht „nach oben“ schauen zu können?",
+        "function": "problem_framing",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page95_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 95,
+        "sequence": 2,
+        "text": "Diese Einschränkung bezieht sich nicht nur auf die Phasen, welches ein Bewusstsein durchlaufen kann und welche die Blindheit gegenüber sich selbst mit sich bringt, sie dehnt sich schließlich auch auf den Umgang zwischen zwei Menschen aus. So wie die Allegorie des Lehrers und Schülers, so stehen sich auch zwei Menschen gegenüber, die keinen solchen gegenseitigen Maßstab besitzen, um bewerten zu können, ob das Gegenüber Unsinn redet oder man selbst es ist, der nur Unsinn hört weil es an Verständnis mangelt. Unsere Primärmotivation, Widersprüche stets im Außen zu vermuten ist es dann auch, welche uns erstere Möglichkeit vorzugsweise als die wahrscheinlichste erscheinen lässt. Dabei können wir es überhaupt nicht wissen, solange wir uns nicht auf einen Maßstab geeinigt haben, an dem wir beide dann die Frage klären können. So bleibt es beim simplen „ich hab recht und du bist doof“ Geplänkel, welches uns keinen Schritt weiter bringt.",
+        "function": "interpersonal_application",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page95_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 95,
+        "sequence": 3,
+        "text": "So lange wir keine Strategie haben, die das Ego hinten an stellt und mit derer wir herausfinden können, wer warum was nicht sehen oder verstehen kann und wer es kann und warum er es kann, solange sind wir im Teufelskreis des „sich gegenseitig überzeugen wollens“ gefangen. Dabei haben wir nicht nur das Problem, dass wir nach „oben“ hin blind sind, sondern, wie gesagt, auch unsere Neigung, ein solches Defizit als verletzend unserem eigenen Ego gegenüber zu empfinden spielt hier mit hinein. Der Spruch „nichts ist auf der Welt am gerechtesten verteilt als die Intelligenz, denn jeder denkt, er hätte genug davon“ illustriert diesen Punkt besser als alles andere. Man überlege sich die Entrüstung, würde ein Mensch mit einem IQ von 140 einem Menschen mit einem IQ von 100 sagen, dass er einem geistig Behinderten näher stünde als ihm selbst. Obwohl diese Aussage objektiv wahr ist, der Mensch mit einem IQ von 140 diesen Graben sehr wohl sehen kann und auch um die Wahrheit dieser Aussage weiß, so ist diese für den Menschen mit einem IQ von 100 äußerst verletzend und er wird diese Aussage sicher so nicht akzeptieren. Er kann es nicht, weil er eben diesen Graben, der für den anderen offensichtlich ist, nicht sehen und verstehen kann. Auf der anderen Seite kann er sehr wohl den Graben zwischen sich selbst und einem Menschen mit einem IQ von 60 sehen und es sollte für ihn machbar sein, diesen Graben, den",
+        "function": "illustrative_argument",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Philosophischer Fließtext über Blindheit, Ego, Maßstäbe und Verständigungsprobleme"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=095-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:19af34d9656a44f670ee217c6e4c5580ddcfd131baaedac6f9d3e62c256605a2",
+    "created_at": null,
+    "modified_at": null
+  }
+}

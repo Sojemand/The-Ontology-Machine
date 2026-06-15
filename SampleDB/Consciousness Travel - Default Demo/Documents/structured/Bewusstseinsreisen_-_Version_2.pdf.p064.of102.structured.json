@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:53:11.840444+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 64,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=064-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A philosophical nonfiction book page is visible with continuous prose and a section heading.",
+      "matched_signals": [
+        "continuous prose",
+        "section heading",
+        "nonfiction book page"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page64_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 64,
+        "sequence": 1,
+        "text": "die Rückseite sehen werden. Wir können durch Photomanipulationen zwar Bilder erzeugen, die ein Objekt in Gänze zeigen oder 360 Grad Panoramaaufnahmen auf einem Bild erfassbar zusammenschneiden, aber alle solche Versuche münden in stark verzerrten Darstellungen, die unserer Wahrnehmung Schwierigkeiten bereiten.",
+        "function": "limitation_of_visual_representation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page64_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 64,
+        "sequence": 2,
+        "text": "Nun gibt es aber Berichte, und ich kann diese durch eigene Erfahrung bestätigen, die beschreiben, wie das Bewusstsein sich plötzlich in die Lage versetzt sieht, einen dreidimensionalen Raum in Gänze wahrnehmen zu können. Was ungefähr so viel bedeutet wie, aus allen Richtungen gleichzeitig, alle Seiten eines Objektes oder eines ganzen Raumes erfassen zu können, oder wie in meinem Fall, den Raum nebenan gleich noch mit. Der Großteil solcher Berichte geht mit außerkörperlichen Erfahrungen einher oder werden als kurze, visionenartige Episoden beschrieben. Auch geht hier wieder nach dem Ende dieses Zustandes die Fähigkeit verloren, diesen Moment in der Erinnerung korrekt nachzuerleben. Es bleibt nur die Verwunderung zurück, etwas im Grunde Unmögliches erlebt zu haben. Auch hier ließe sich wieder anführen, dass dies alles nur auf Täuschung beruhe und man schließlich keine Informationen aufnehmen könne, die die Augen nicht sehen. Wie sollte man also etwas visuell wahrnehmen, wenn die Informationen dazu uns nicht erreichen? Das verletzt klar die Kausalität und muss daher kategorisch verworfen werden.",
+        "function": "describes_extraordinary_spatial_perception_and_objection",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page64_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 64,
+        "sequence": 3,
+        "text": "Auch wenn ich Täuschungen niemals völlig ausschließen will, so bin ich dennoch einigermaßen fest davon überzeugt, es diesmal nicht damit zu tun zu haben. Geometrie, die sich nicht an unsere dreidimensionale Vorstellung hält und räumliche Wahrnehmung, die dies ebenfalls nicht tut und dann auch noch das Auftreten unter völlig unterschiedlichen Voraussetzungen und in den Berichten immer gleich erscheinend. Dies lässt für mich den Schluss naheliegen, es hier mit einer tatsächlichen Fähigkeit unserer Wahrnehmung zu tun zu haben, auf die wir bewusst scheinbar nicht zugreifen können. Was für mich wiederum ein weiteres Argument ist, dass wir es uns in der Tat leisten können, über solche und weitergehende Überlegungen nicht nur zu spekulieren, sondern ihnen auch handfest nachzugehen. Anhaltspunkte gibt es derer ja mittlerweile genug.",
+        "function": "argues_for_real_perceptual_capacity",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page64_Segment4",
+        "unit_kind": "title_line",
+        "page": 64,
+        "sequence": 4,
+        "text": "Wir irren umher",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page64_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 64,
+        "sequence": 5,
+        "text": "Ich habe das Rad ja nicht neu erfunden und was ich hier beschreibe, haben schon viele vor mir versucht zu ergründen. Dies ist der Hauptgrund, warum sich überhaupt erst geschlossene okkulte Gruppen bilden, oder warum es Religionen gibt, die sich der Meisterschaft bestimmter",
+        "function": "introduces_historical_and_social_context",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Bewusstsein, räumliche Wahrnehmung, Täuschung, Abschnitt „Wir irren umher“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=064-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:0e62c2598811f07cca580b02ccbe099143fef7ae6824f644a77a96eaa18ac334",
+    "created_at": null,
+    "modified_at": null
+  }
+}

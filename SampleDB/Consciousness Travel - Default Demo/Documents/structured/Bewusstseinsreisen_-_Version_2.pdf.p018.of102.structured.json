@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:34:25.443956+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.86,
+    "category": "book",
+    "subcategory": "nonfiction",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.82,
+      "reason": "A born-digital book page in philosophical or reflective prose is visible, with a single paragraph and no form or transactional structure.",
+      "matched_signals": [
+        "book page",
+        "reflective prose",
+        "single paragraph"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 18,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=018-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_block_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page18_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 18,
+        "sequence": 1,
+        "text": "Unser Körper ist ein Gigant. Ein dunkler Gigant, der hinter uns steht und den wir nur all zu gerne ignorieren und klein reden, zu unserem Nachteil wie wir sehen werden.",
+        "function": "metaphorical_characterization",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Körper als dunkler Gigant"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=018-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:b55486da44a2ba67f29a09c7a2a6065993d8e8ee4231d8710497fc810b9f3769",
+    "created_at": null,
+    "modified_at": null
+  }
+}

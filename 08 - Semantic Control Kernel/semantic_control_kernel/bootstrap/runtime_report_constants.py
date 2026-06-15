@@ -1,0 +1,4 @@
+MODULE_KEY = "semantic_control_kernel"
+REQUIRED_MANIFEST_STATUS = "agent_surface_shell"
+REQUIRED_CONTRACT_VERSION = 1
+REQUIRED_ACTION_COUNT = 16

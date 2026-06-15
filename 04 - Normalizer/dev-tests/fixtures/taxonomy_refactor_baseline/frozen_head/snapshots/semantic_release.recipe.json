@@ -1,0 +1,18 @@
+{
+  "release_id": "semantic_release.default",
+  "release_version": "2026-03-28.v6",
+  "projection_ids": [
+    "business.customer.communication.default.v1",
+    "community.spiritual.default.v1",
+    "finance.default.v1",
+    "health.care.default.v1",
+    "housing.default.v1",
+    "legal.public_admin.default.v1",
+    "operations.default.v1",
+    "people.identity.default.v1",
+    "personal.expression.default.v1",
+    "personal.wellbeing.default.v1",
+    "technical.default.v1"
+  ],
+  "materialization_version": "1"
+}

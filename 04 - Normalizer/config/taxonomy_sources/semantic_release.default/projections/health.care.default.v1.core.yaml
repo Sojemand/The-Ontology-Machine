@@ -1,0 +1,125 @@
+projection_id: health.care.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- health
+- people
+- administrative
+- finance
+include_document_types:
+- prescription
+- certificate
+- form
+- statement
+- schedule
+- report
+- policy
+- application
+- general_letter
+- other
+include_categories:
+- health
+- people
+- administrative
+- finance
+- other
+include_subcategories:
+- care_administration
+- medical_certificate
+- treatment_plan
+- medication
+- insurance_health
+- benefit_case
+- official_notice
+- general_correspondence
+- form_submission
+- other
+include_field_codes:
+- patient_name
+- provider_name
+- insurance_number
+- diagnosis
+- care_level
+- medication_name
+- appointment_date
+- document_date
+- person_name
+- sender
+- recipient
+- authority_name
+- case_id
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- line_item
+- participant_list
+- timeline_entry
+- contact_block
+- other
+include_cell_codes:
+- description
+- scheduled_date
+- dosage
+- frequency
+- quantity
+- unit
+- status
+- name
+- note
+- identifier
+- other
+promotion_rules:
+- slot: person_name
+  source_paths:
+  - content.fields.patient_name
+  - content.fields.person_name
+- slot: provider_name
+  source_paths:
+  - content.fields.provider_name
+- slot: primary_party
+  source_paths:
+  - content.fields.provider_name
+  - content.fields.authority_name
+  - content.fields.sender
+- slot: recipient_party
+  source_paths:
+  - content.fields.recipient
+- slot: document_identifier
+  source_paths:
+  - content.fields.insurance_number
+  - content.fields.customer_number
+- slot: case_identifier
+  source_paths:
+  - content.fields.case_id
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+- slot: appointment_date
+  source_paths:
+  - content.fields.appointment_date
+compatibility: {}
+routing:
+  example_document_types:
+  - prescription
+  - certificate
+  - statement
+  - schedule
+  - form
+  section_roles:
+  - header
+  - form
+  - participants
+  party_roles:
+  - patient
+  - sender
+  - recipient

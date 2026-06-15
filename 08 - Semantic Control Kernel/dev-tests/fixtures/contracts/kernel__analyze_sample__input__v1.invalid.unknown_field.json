@@ -1,0 +1,16 @@
+{
+  "completeness": {
+    "example": true
+  },
+  "document": {
+    "example": true
+  },
+  "route": "route_example",
+  "sample_id": "sample_id_example",
+  "schema_version": "kernel.analyze_sample.input.v1",
+  "source_ref": {
+    "kind": "interpreter_request_view_vision.v1",
+    "ref": "refs/interpreter_view.json"
+  },
+  "unexpected_phase2_field": "example"
+}

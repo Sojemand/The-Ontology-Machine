@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:55:57.139923+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.92,
+      "reason": "A prose book page in philosophical/nonfiction style is visible, consisting of continuous paragraphs without form elements.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "book page layout",
+        "philosophical discussion"
+      ]
+    },
+    "page_number": 71,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=071-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page71_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 71,
+        "sequence": 1,
+        "text": "tägliches Leben schleicht, auch wenn wir ihnen keine wirklich schlüssigen Wirkmechanismen zuordnen können. Bei allen Bezeichnungen, die mittlerweile dazu existieren und den Anschein erwecken, sie hätten irgendeine belastbare Basis in der Wirklichkeit, so täuscht uns dieses Sprachgewirr wieder einmal über die simple Tatsache hinweg, dass keine Theorie einer echten Erklärung auch nur ansatzweise nahekommt. Allesamt benötigen sie hypothetische Überbauten, die nicht weniger suspekt daher kommen, als Sheldrakes morphogenetische Felder. Ideen wie die Existenz eines kollektiven Gedächtnisses, welches die Informationen auf Quantenebene der Epigenetik permanent aufprägt und sie so durch die Äonen überraschend selektiv über die ganze Welt verbreitet, hat ebenso viele Lücken wie anzunehmen, man könne dies mit der kollektiven Aufrechterhaltung simpler kultureller Eigenheiten vergleichen.",
+        "function": "critique_of_speculative_explanations",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page71_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 71,
+        "sequence": 2,
+        "text": "Wie gesagt, das ähnelt alles sehr den Konversationen der Traumphilosophen. Keine dieser Ansätze, auch wenn sie wie die Neurowissenschaft nach messbaren Strukturen sucht, kommt letztendlich nicht ohne eine wie auch immer geartete magische Zutat aus, die das alles erst so wie erdacht funktionieren lässt. Wir pochen immer allzu gerne auf das Prinzip der Sparsamkeit, auf Ockhams berühmtes Rasiermesser, wenn es uns opportun erscheint, ignorieren es aber, wenn es nur mehr Rätsel aufzugeben scheint als es löst. Wie wäre es also einmal anzunehmen, dass Strukturen wie Archetypen sich überhaupt nicht durch eine Art spukhafte Fernwirkung im Außen verbreiten und dauerhaft erhalten, sondern ihr Ursprung in uns selbst zu vermuten ist, der auf Regeln basiert, die uns aus den bereits beschriebenen Gründen nicht zugänglich sind? Wir wundern uns auch nicht darüber, dass sich die Konstruktion von Flugzeugen weltweit so ähnelt, denn wir verstehen die Gesetze der Aerodynamik und aus ihnen ergibt sich schließlich das Design. Es gibt kein kollektives Unbewusstes, welches uns dazu bewegt, Flugzeuge so zu bauen wie wir sie bauen.",
+        "function": "alternative_explanatory_proposal",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page71_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 71,
+        "sequence": 3,
+        "text": "Ein externer Beobachter, der die Aerodynamik nicht kennt, mag wohl auf die Idee eines kollektiven Unbewussten kommen, um die Ähnlichkeit von Fluggeräten zu erklären. Aber egal wie tief er in den Gehirnen seiner Probanden auch graben würde und wie viele unterschiedliche Wirkmechanismen er sich auch ausdenken mag, nichts davon wird ihm die Anwesenheit des Gesetzes der Aerodynamik enthüllen. Alles was er täte, wäre, der Arbeit eines Traumphilosophen nachzugehen. Welches Gesetz müsste es also geben, welches uns selbst bewegt, immer nach ähnlichen Mustern zu handeln? Sehen wir uns dazu den berühmtesten Archetyp einmal genauer an, welchen wir die „Heldenfahrt“ oder den „Monomythos“ nennen. Unser Dank muss dabei Joseph Campbell im Besonderen gelten, denn war er es doch, der ihn erst für uns so leicht verdaulich aufgearbeitet hat.",
+        "function": "transition_to_next_example",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Kritik an kollektiven Erklärungsmodellen, Archetypen, Aerodynamik-Vergleich, Übergang zum Monomythos"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=071-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:7cde44669d5b33f16ae04411f5f298528d6c6d74197a9e4eb20cc37f0ce3b0b4",
+    "created_at": null,
+    "modified_at": null
+  }
+}

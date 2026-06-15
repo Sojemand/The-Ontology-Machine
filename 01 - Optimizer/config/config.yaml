@@ -1,0 +1,14 @@
+# Optimizer configuration
+max_file_size_mb: 100
+max_blocks_per_file: 50000
+max_cell_text_length: 8000
+processing_order: "input"  # "input" | "format" | "size_asc" | "size_desc"
+plugin_timeout_seconds: 120
+parallel_workers: 4  # 1 = sequentiell, >1 = parallele Verarbeitung (ThreadPoolExecutor)
+render_dpi: 150
+render_width_px: 1240
+render_height_px: 1754
+page_margin_pt: 54
+default_font_size_pt: 10
+code_font_size_pt: 9
+heading_font_size_pt: 16

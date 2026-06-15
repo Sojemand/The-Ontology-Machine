@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:29:03.053248+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.9,
+      "reason": "A prose-style philosophical book page is visible with continuous paragraphs and closing lines typical of a preface or introductory section.",
+      "matched_signals": [
+        "continuous paragraphs",
+        "book page layout",
+        "philosophical prose"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 5,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=005-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page5_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 5,
+        "sequence": 1,
+        "text": "nehmen, was vor uns liegt und schon immer vor uns lag und das wahre Mysterium wird sich als die banale Frage enthüllen, was uns davon abhält es einfach zu tun.",
+        "function": "reflection",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page5_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 5,
+        "sequence": 2,
+        "text": "Und so wird dieses Buch sich hauptsächlich darauf konzentrieren, in dem Leser genau jene Frage aufkommen zu lassen. Ich kann nicht sagen, was wir damit anstellen können, noch warum wir die vielen Seltsamen Dinge überhaupt können, welche hier angesprochen werden, aber, dass wir sie können, diesen Zweifel möchte ich ein für alle mal ausräumen. Was wir damit an Schluss anstellen, das kann ich nicht beantworten.",
+        "function": "purpose_statement",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page5_Segment3",
+        "unit_kind": "instruction_step",
+        "page": 5,
+        "sequence": 3,
+        "text": "So lasst uns also beginnen.",
+        "function": "transition_to_beginning",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page5_Segment4",
+        "unit_kind": "summary_block",
+        "page": 5,
+        "sequence": 4,
+        "text": "Viel Spaß",
+        "function": "closing_wish",
+        "confidence": 0.99
+      }
+    ],
+    "free_text": "Einleitende Buchseite mit Reflexion, Zielsetzung und Abschluss."
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=005-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:3062f202eb614b840c98148a127c59d3346de4b75d911101ea0e8cda83922dee",
+    "created_at": null,
+    "modified_at": null
+  }
+}

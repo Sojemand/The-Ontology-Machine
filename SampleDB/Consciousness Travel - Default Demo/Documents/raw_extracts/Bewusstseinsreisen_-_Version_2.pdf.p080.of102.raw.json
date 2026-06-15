@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=080-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:2a453ca4933a437a9caae04da3c868192f23c5af7be43feaf42ffdd279dd84dc",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 80,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=080-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page80_para_0",
+        "type": "paragraph",
+        "value": "welche Geschichten er erzählen muss um die gewünschte Wirkung zu erzielen.",
+        "position": {
+          "page": 80,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page80_para_1",
+        "type": "paragraph",
+        "value": "So können wir sehen, wie sich die Wirklichkeit ändert, wenn wir die symbolische Welt",
+        "position": {
+          "page": 80,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page80_para_2",
+        "type": "paragraph",
+        "value": "verändern. Wenn ich mit der symbolischen Welt eines Menschen herumspiele, und das ist",
+        "position": {
+          "page": 80,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page80_para_3",
+        "type": "paragraph",
+        "value": "sehr viel leichter als man meinen könnte, dann kann ich ihn zu Handlungen bewegen, die er",
+        "position": {
+          "page": 80,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page80_para_4",
+        "type": "paragraph",
+        "value": "vorher nie auch nur im Traum in Betracht gezogen hätte. Sei es an der Front bis zum Endsieg",
+        "position": {
+          "page": 80,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page80_para_5",
+        "type": "paragraph",
+        "value": "zu kämpfen, oder aus Furcht eine Maske zu tragen. Dabei wird er überzeugt sein, all diese",
+        "position": {
+          "page": 80,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page80_para_6",
+        "type": "paragraph",
+        "value": "Dinge aus freiem Willen zu tun. Deshalb sagte ich am Anfang auch, dass die symbolische",
+        "position": {
+          "page": 80,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page80_para_7",
+        "type": "paragraph",
+        "value": "Welt eines Menschen in gewisser Weise für ihn realer ist als die wirkliche Welt. So funktioniert",
+        "position": {
+          "page": 80,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page80_para_8",
+        "type": "paragraph",
+        "value": "Propaganda und so manipuliert Politik ihre Wähler. So ist es dann auch nicht weiter schwer,",
+        "position": {
+          "page": 80,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page80_para_9",
+        "type": "paragraph",
+        "value": "uns vorzustellen, dass auch Archetypen auf die gleiche Weise wirken, allerdings nicht von",
+        "position": {
+          "page": 80,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page80_para_10",
+        "type": "paragraph",
+        "value": "Außen induziert, sondern von uns selbst erzeugt, durchgesickert aus einer Sphäre, die wir",
+        "position": {
+          "page": 80,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page80_para_11",
+        "type": "paragraph",
+        "value": "nicht sehen können.",
+        "position": {
+          "page": 80,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page80_para_12",
+        "type": "paragraph",
+        "value": "Ob wir uns das eingestehen wollen oder nicht, unsere innere Welt lässt sich stets auf solch",
+        "position": {
+          "page": 80,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page80_para_13",
+        "type": "paragraph",
+        "value": "einfache Fragen herunterbrechen wie: Welche Götter rufst du an und gegen welche Monster",
+        "position": {
+          "page": 80,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page80_para_14",
+        "type": "paragraph",
+        "value": "kämpfst du gerade? Besonders in unruhigen Zeiten wird das nur allzu deutlich. Auch wenn die",
+        "position": {
+          "page": 80,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page80_para_15",
+        "type": "paragraph",
+        "value": "meisten Probleme damit haben dürften, eine Antwort auf diese Frage zu artikulieren weil sie",
+        "position": {
+          "page": 80,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page80_para_16",
+        "type": "paragraph",
+        "value": "sich selbst über ihre Grundmotivationen nicht wirklich im Klaren sind, so spricht ihr Handeln",
+        "position": {
+          "page": 80,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page80_para_17",
+        "type": "paragraph",
+        "value": "doch Bände. Selbst diejenige Person, die sich an der rationalen Welt der Fakten zu orientieren",
+        "position": {
+          "page": 80,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page80_para_18",
+        "type": "paragraph",
+        "value": "glaubt, gründet ihr Weltbild zuerst in ihrer symbolischen Welt und erst dann richtet sie sich",
+        "position": {
+          "page": 80,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page80_para_19",
+        "type": "paragraph",
+        "value": "nach dem, was sie als Fakten ansieht. Dabei meine ich keineswegs, dass alles nur in ihrer",
+        "position": {
+          "page": 80,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page80_para_20",
+        "type": "paragraph",
+        "value": "Einbildung entsteht. Die Welt um uns herum überflutet uns permanent mit objektiven Daten,",
+        "position": {
+          "page": 80,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page80_para_21",
+        "type": "paragraph",
+        "value": "Reizen und Mustern und niemand ist in der Lage, sie alle in ihrer Gesamtheit zu verarbeiten.",
+        "position": {
+          "page": 80,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page80_para_22",
+        "type": "paragraph",
+        "value": "Wir können nur Prioritäten formulieren, anhand derer wir diese Flut dann filtern und genau",
+        "position": {
+          "page": 80,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page80_para_23",
+        "type": "paragraph",
+        "value": "jener Filter hat seinen Ursprung in unserer eigenen übergeordneten Symbolik und nicht in der",
+        "position": {
+          "page": 80,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page80_para_24",
+        "type": "paragraph",
+        "value": "tatsächlichen Welt der Fakten.",
+        "position": {
+          "page": 80,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page80_para_25",
+        "type": "paragraph",
+        "value": "Das lässt sich sehr einfach einsehen, wenn man bedenkt, wie unterschiedlich sich die Welt für",
+        "position": {
+          "page": 80,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page80_para_26",
+        "type": "paragraph",
+        "value": "zwei Personen darstellt, die gleiche Intelligenz besitzen, ein gleiches Auffassungsvermögen",
+        "position": {
+          "page": 80,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page80_para_27",
+        "type": "paragraph",
+        "value": "aufweisen, die gleichen moralischen Grundwerte ihr Eigen nennen und sich nur in der Art ihres",
+        "position": {
+          "page": 80,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page80_para_28",
+        "type": "paragraph",
+        "value": "Berufsweges unterscheiden. Erstere mag eine wissenschaftliche Laufbahn eingeschlagen",
+        "position": {
+          "page": 80,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page80_para_29",
+        "type": "paragraph",
+        "value": "haben und Letztere ein Psychologe sein. Beide haben das gleiche Potential, die Welt um sie",
+        "position": {
+          "page": 80,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page80_para_30",
+        "type": "paragraph",
+        "value": "herum auf die exakt gleiche Weise wahrzunehmen und zu verstehen, aber sie tun es nicht.",
+        "position": {
+          "page": 80,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

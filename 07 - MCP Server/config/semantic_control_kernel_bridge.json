@@ -1,0 +1,10 @@
+{
+  "schema_version": "mcp.semantic_control_kernel_bridge.v1",
+  "enabled": true,
+  "semantic_control_kernel": {
+    "module_root": "../08 - Semantic Control Kernel",
+    "contract_module": "semantic_control_kernel.orchestrator_contract",
+    "call_timeout_seconds": 120,
+    "startup_timeout_seconds": 15
+  }
+}

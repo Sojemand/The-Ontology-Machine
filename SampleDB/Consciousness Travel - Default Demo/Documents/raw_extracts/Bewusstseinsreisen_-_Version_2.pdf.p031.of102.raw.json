@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=031-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:809f7eb322dcc77020e1b755ddb80d146c38071c4e7cf3baaf669fbd9811c2e1",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 31,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=031-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page31_para_0",
+        "type": "paragraph",
+        "value": "Du erkennst mit Entsetzen, dass sich die Welt um dich herum in ein Kriegsgebiet verwandelt",
+        "position": {
+          "page": 31,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page31_para_1",
+        "type": "paragraph",
+        "value": "und wenn du stehen bleibst wird das dein Ende sein. Du rennst und rennst, immer den Tod im",
+        "position": {
+          "page": 31,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page31_para_2",
+        "type": "paragraph",
+        "value": "Nacken. Du isst nichts und trinkst nichts, dazu ist keine Zeit, keine Zeit zu rasten oder zu",
+        "position": {
+          "page": 31,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page31_para_3",
+        "type": "paragraph",
+        "value": "Besinnung zu kommen. Einen ganzen Tag lang, dann zwei, dann drei. Du spürst wie du dir",
+        "position": {
+          "page": 31,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page31_para_4",
+        "type": "paragraph",
+        "value": "Schäden an deinen Muskeln zuziehst, wie der Wassermangel beginnt deine Sinne zu trüben",
+        "position": {
+          "page": 31,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page31_para_5",
+        "type": "paragraph",
+        "value": "und der Schlafmangel es dir immer schwerer macht klar zu denken. Aber stehen bleiben ist",
+        "position": {
+          "page": 31,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page31_para_6",
+        "type": "paragraph",
+        "value": "keine Option. Deine Häscher sind dir auf den Fersen. Du kannst sie hören, ja fast riechen.",
+        "position": {
+          "page": 31,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page31_para_7",
+        "type": "paragraph",
+        "value": "Deine Maschine peitscht dich immer weiter und weiter und du hast längst die Schwelle",
+        "position": {
+          "page": 31,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page31_para_8",
+        "type": "paragraph",
+        "value": "überschritten, an der du beginnst von deiner eigenen Substanz zu zehren. Doch noch ist die",
+        "position": {
+          "page": 31,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page31_para_9",
+        "type": "paragraph",
+        "value": "Gefahr nicht vorüber. Du kannst zwar schon lange nicht mehr rennen, aber laufen kannst du",
+        "position": {
+          "page": 31,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page31_para_10",
+        "type": "paragraph",
+        "value": "noch und du läufst und läufst und läufst. Irgendwann bist du nicht mehr wirklich bei",
+        "position": {
+          "page": 31,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page31_para_11",
+        "type": "paragraph",
+        "value": "Bewusstsein, du weißt nicht mehr wirklich was du tust oder wo du bist. Du näherst dich dem",
+        "position": {
+          "page": 31,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page31_para_12",
+        "type": "paragraph",
+        "value": "Punkt, an dem deine Energie aufgebraucht ist und diesmal steht an dessen Ende nicht die",
+        "position": {
+          "page": 31,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page31_para_13",
+        "type": "paragraph",
+        "value": "wohlige Erschöpfung eines intensiven Trainings, an dieser Schwelle wartet der Tod auf dich.",
+        "position": {
+          "page": 31,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page31_para_14",
+        "type": "paragraph",
+        "value": "Doch bevor dich dieses Schicksal ereilt, brichst du an einem Bachlauf zusammen, gerade noch",
+        "position": {
+          "page": 31,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page31_para_15",
+        "type": "paragraph",
+        "value": "fähig ein wenig Wasser zu trinken und zu erkennen, dass du endlich in Sicherheit bis. Und dann",
+        "position": {
+          "page": 31,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page31_para_16",
+        "type": "paragraph",
+        "value": "lässt dich deine Maschine endlich in die lang ersehnte Dunkelheit der Ohnmacht stürzen. An",
+        "position": {
+          "page": 31,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page31_para_17",
+        "type": "paragraph",
+        "value": "diesem Punkt hat sich deine Maschine selbst so stark geschädigt, dass du dich wahrscheinlich",
+        "position": {
+          "page": 31,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page31_para_18",
+        "type": "paragraph",
+        "value": "nie wieder in Gänze davon erholen wirst. Aber du lebst, und das ist alles was für die Maschine",
+        "position": {
+          "page": 31,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page31_para_19",
+        "type": "paragraph",
+        "value": "zählt.",
+        "position": {
+          "page": 31,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page31_para_20",
+        "type": "paragraph",
+        "value": "Du kannst vielleicht deinen Körper dazu bewegen, einen winzigen Teil seiner Ressourcen für",
+        "position": {
+          "page": 31,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page31_para_21",
+        "type": "paragraph",
+        "value": "ein Training herzugeben, aber wenn er denkt es sei genug, dann dreht er den Hahn ab und es",
+        "position": {
+          "page": 31,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page31_para_22",
+        "type": "paragraph",
+        "value": "gibt nichts was du tun kannst, um ihm noch einen Tropfen mehr abzuringen. Auf das echte",
+        "position": {
+          "page": 31,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page31_para_23",
+        "type": "paragraph",
+        "value": "Reservoire wirst du niemals bewusst zugreifen können, aus gutem Grund. Das kleine Bisschen",
+        "position": {
+          "page": 31,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page31_para_24",
+        "type": "paragraph",
+        "value": "Energie, welches du abrufen kannst ist völlig ungefährlich für die Maschine. Sie kann sie",
+        "position": {
+          "page": 31,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page31_para_25",
+        "type": "paragraph",
+        "value": "problemlos ersetzen, ohne Schäden zu riskieren. Das große Lager allerdings, das zapft man",
+        "position": {
+          "page": 31,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page31_para_26",
+        "type": "paragraph",
+        "value": "nur mit Konsequenzen an und die Nutzung geht mit echten Risiken einher. Mit einer solchen",
+        "position": {
+          "page": 31,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page31_para_27",
+        "type": "paragraph",
+        "value": "Verantwortung wird der Zwerg, also du, niemals betraut werden, weil er damit überhaupt nicht",
+        "position": {
+          "page": 31,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page31_para_28",
+        "type": "paragraph",
+        "value": "umgehen könnte. Für einen Zwerg reicht auch ein Fingerhut. Der Jumbobecher bleibt derweil",
+        "position": {
+          "page": 31,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page31_para_29",
+        "type": "paragraph",
+        "value": "unter Verschluss, bis er wirklich gebraucht wird.",
+        "position": {
+          "page": 31,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page31_para_30",
+        "type": "paragraph",
+        "value": "Ein Mensch, der unter einer solchen Situation agiert, bekommt die geballte Macht seiner",
+        "position": {
+          "page": 31,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page31_para_31",
+        "type": "paragraph",
+        "value": "Biologie zu spüren. Etwas, was wir für gewöhnlich niemals in unserem normalen Leben",
+        "position": {
+          "page": 31,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

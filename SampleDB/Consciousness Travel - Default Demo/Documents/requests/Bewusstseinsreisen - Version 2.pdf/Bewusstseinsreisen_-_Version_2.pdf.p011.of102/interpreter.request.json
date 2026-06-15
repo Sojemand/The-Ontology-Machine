@@ -1,0 +1,390 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=011-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:fbf13c80c94d5c1f359c2295b17c0ce481f370e5ee5225ad4531a45c0db10004",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 11,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=011-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 11,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_011.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page11_para_0",
+        "type": "paragraph",
+        "value": "Diese Dinge sind Produkte deines Denkens und wie wir sahen, kannst du nicht über dein",
+        "position": {
+          "page": 11,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page11_para_1",
+        "type": "paragraph",
+        "value": "Denken nachdenken. Wir sind uns gegenüber auf einer fundamentalen Ebene blind, denn ein",
+        "position": {
+          "page": 11,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page11_para_2",
+        "type": "paragraph",
+        "value": "singuläres Denken kann nur dann Unterschiede in sich selbst erkennen, wenn es sich mit den",
+        "position": {
+          "page": 11,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page11_para_3",
+        "type": "paragraph",
+        "value": "inneren Vorgängen eines anderen Denkens vergleichen kann, das heißt, mit dem Denken",
+        "position": {
+          "page": 11,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page11_para_4",
+        "type": "paragraph",
+        "value": "eines anderen Menschen.",
+        "position": {
+          "page": 11,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page11_para_5",
+        "type": "paragraph",
+        "value": "Dein Unvermögen ab einem gewissen Punkt, ab einer gewissen Tiefe deiner inneren Welt,",
+        "position": {
+          "page": 11,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page11_para_6",
+        "type": "paragraph",
+        "value": "noch irgendetwas verstehen zu können, gar sehen zu können, ist es auch, was es uns",
+        "position": {
+          "page": 11,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page11_para_7",
+        "type": "paragraph",
+        "value": "unmöglich macht zu entscheiden, welche der beiden Welten in der Geschichte die reale ist.",
+        "position": {
+          "page": 11,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page11_para_8",
+        "type": "paragraph",
+        "value": "Wir nennen diese Tiefen unser „Unterbewusstsein“. Dieses Unterbewusstsein ist eine dunkle",
+        "position": {
+          "page": 11,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page11_para_9",
+        "type": "paragraph",
+        "value": "Welt voller unbekannter Geräusche, die aus unbekannten Richtungen zu unbekannten",
+        "position": {
+          "page": 11,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page11_para_10",
+        "type": "paragraph",
+        "value": "Zwecken auf uns einströmen und uns in einem für uns unbekannten Maß beeinflussen und",
+        "position": {
+          "page": 11,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page11_para_11",
+        "type": "paragraph",
+        "value": "steuern.",
+        "position": {
+          "page": 11,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page11_para_12",
+        "type": "paragraph",
+        "value": "Wir wissen es nicht, weil all diese Dinge unserem Bewusstsein gegenüber verborgen sind, sie",
+        "position": {
+          "page": 11,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page11_para_13",
+        "type": "paragraph",
+        "value": "sind unbewusst, für uns nicht existent. Doch, als du der Geschichte lauschtest, so wurde sie",
+        "position": {
+          "page": 11,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page11_para_14",
+        "type": "paragraph",
+        "value": "doch nicht nur von deinem Bewusstsein gehört, oder von dem, was du für dein Bewusstsein",
+        "position": {
+          "page": 11,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page11_para_15",
+        "type": "paragraph",
+        "value": "hältst, sondern sie schallte über die gesamte Landschaft deines Wesens hinweg und auch",
+        "position": {
+          "page": 11,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page11_para_16",
+        "type": "paragraph",
+        "value": "durch alle dunklen Gefilde und Gewölbe, die sich da in dir verbergen. Und sie ließ in ihnen",
+        "position": {
+          "page": 11,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page11_para_17",
+        "type": "paragraph",
+        "value": "zahllose Dinge klacken, rumoren, walten und schalten und am Ende wurden sie zu dem, was",
+        "position": {
+          "page": 11,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page11_para_18",
+        "type": "paragraph",
+        "value": "du mit „wie ich die Geschichte fand“ bezeichnen würdest.",
+        "position": {
+          "page": 11,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page11_para_19",
+        "type": "paragraph",
+        "value": "So frage ich dich noch einmal: Wer bist du wirklich? Du kannst auf diese Frage so wenig mit",
+        "position": {
+          "page": 11,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page11_para_20",
+        "type": "paragraph",
+        "value": "Gewissheit antworten, wie der Rechtschaffene nicht bestimmen kann, welche Welt die echte",
+        "position": {
+          "page": 11,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page11_para_21",
+        "type": "paragraph",
+        "value": "ist, aus den exakt gleichen Gründen. Dir fehlt es an Maßstäben. Aber nicht nur das, du willst",
+        "position": {
+          "page": 11,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page11_para_22",
+        "type": "paragraph",
+        "value": "überhaupt keine Maßstäbe haben. Du weißt sie von dir wann immer das Leben dir einen",
+        "position": {
+          "page": 11,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page11_para_23",
+        "type": "paragraph",
+        "value": "anbietet und die lehnst sie ab, weil sie dich schmerzen, wann immer das Leben dir einen",
+        "position": {
+          "page": 11,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page11_para_24",
+        "type": "paragraph",
+        "value": "davon aufzwingt.",
+        "position": {
+          "page": 11,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page11_para_25",
+        "type": "paragraph",
+        "value": "Das Problem des sich automatisch schützenden Selbstbildes",
+        "position": {
+          "page": 11,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page11_para_26",
+        "type": "paragraph",
+        "value": "Unser Verlangen, dass unser Innerstes stets widerspruchsfrei uns selbst gegenüber",
+        "position": {
+          "page": 11,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page11_para_27",
+        "type": "paragraph",
+        "value": "erscheinen muss, geht direkt auf diese Blindheit gegenüber uns selbst zurück und unserer",
+        "position": {
+          "page": 11,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page11_para_28",
+        "type": "paragraph",
+        "value": "Weigerung, eben jene Maßstäbe anzunehmen. Es ist wichtig zu verstehen, dass",
+        "position": {
+          "page": 11,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page11_para_29",
+        "type": "paragraph",
+        "value": "Widerspruchsfreiheit gleich Schmerzfreiheit ist und wir streben stets danach Schmerzen zu",
+        "position": {
+          "page": 11,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

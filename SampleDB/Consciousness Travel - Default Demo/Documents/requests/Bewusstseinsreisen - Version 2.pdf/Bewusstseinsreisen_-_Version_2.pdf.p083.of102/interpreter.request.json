@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=083-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:0be4e42e079079e0c2bbbeb6f2488cb85e95274532274b335c51a576419b6d1a",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 83,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=083-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 83,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_083.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page83_para_0",
+        "type": "paragraph",
+        "value": "eine flache Erde zu glauben. Diese Symbolik hat nichts mit Fakten zu tun, nichts mit Physik",
+        "position": {
+          "page": 83,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page83_para_1",
+        "type": "paragraph",
+        "value": "oder Mathematik sondern mit den Prinzipien, nach denen wir die Wichtigkeit dieser Konzepte",
+        "position": {
+          "page": 83,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page83_para_2",
+        "type": "paragraph",
+        "value": "für die Aufrechterhaltung unserer Widerspruchsfreiheit bewerten. Die Gewichtung ist es, die",
+        "position": {
+          "page": 83,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page83_para_3",
+        "type": "paragraph",
+        "value": "bestimmt wie wir die Welt sehen, nicht die Dinge, die wir damit wiegen.",
+        "position": {
+          "page": 83,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page83_para_4",
+        "type": "paragraph",
+        "value": "Wer die Ergebnisse eines Eratosthenes, der den Umfang der Erde mittels des Schattenwurfes",
+        "position": {
+          "page": 83,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page83_para_5",
+        "type": "paragraph",
+        "value": "eines einfachen Stabes schon vor über 2000 Jahren berechnete, als Beweis für eine",
+        "position": {
+          "page": 83,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page83_para_6",
+        "type": "paragraph",
+        "value": "Kugelgestalt der Welt betrachtet, hat bereits den ersten Fehler gemacht. Die wahre Frage ist,",
+        "position": {
+          "page": 83,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page83_para_7",
+        "type": "paragraph",
+        "value": "wie wichtig ist dieses kleine Detail der Antike für mich? Ich war nicht dabei, kann nicht einmal",
+        "position": {
+          "page": 83,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page83_para_8",
+        "type": "paragraph",
+        "value": "mit Sicherheit sagen, ob das jemals wirklich so stattgefunden hat und wenn ja, dann könnte er",
+        "position": {
+          "page": 83,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page83_para_9",
+        "type": "paragraph",
+        "value": "auch etwas völlig anderes gemessen haben. Ich kann meine Gewichtung dieser Dinge so weit",
+        "position": {
+          "page": 83,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page83_para_10",
+        "type": "paragraph",
+        "value": "abändern, bis sie für mich keine Relevanz mehr besitzen. Alle Versuche der Neuzeit, die dies",
+        "position": {
+          "page": 83,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page83_para_11",
+        "type": "paragraph",
+        "value": "auf die gleiche Weise tun, kann ich damit begründen, dass es eine unbekannte Variable gibt,",
+        "position": {
+          "page": 83,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page83_para_12",
+        "type": "paragraph",
+        "value": "die dieses Ergebnis erzeugt und die weder mir noch anderen bisher bekannt ist. Ich muss zu",
+        "position": {
+          "page": 83,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page83_para_13",
+        "type": "paragraph",
+        "value": "Hödur werden, dem blinden Sohn Wotans, der nur nach inneren Werten urteilt, zu Dionysos",
+        "position": {
+          "page": 83,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page83_para_14",
+        "type": "paragraph",
+        "value": "der sich bei den Musen versteckt und Wahrheit in Ekstase sucht und letztendlich muss ich zu",
+        "position": {
+          "page": 83,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page83_para_15",
+        "type": "paragraph",
+        "value": "Samael werden, der die Rebellion gegen die Ordnung Gottes anführt. Denn die Ordnung ist",
+        "position": {
+          "page": 83,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page83_para_16",
+        "type": "paragraph",
+        "value": "es, welche ich ablehne und von der ich überzeugt bin, dass sie Lüge ist, dass sie mich einengt",
+        "position": {
+          "page": 83,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page83_para_17",
+        "type": "paragraph",
+        "value": "und mich von einer tieferen Wahrheit abhält.",
+        "position": {
+          "page": 83,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page83_para_18",
+        "type": "paragraph",
+        "value": "Selbstverständlich muss man nicht gleich zu Satan persönlich werden, aber das Symbol,",
+        "position": {
+          "page": 83,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page83_para_19",
+        "type": "paragraph",
+        "value": "welches sein Wesen charakterisiert und seine Handlungen begründet, kann auch auf Dinge",
+        "position": {
+          "page": 83,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page83_para_20",
+        "type": "paragraph",
+        "value": "wie die Skepsis und Ablehnung der wissenschaftlich geprägten Grundordnung angewendet",
+        "position": {
+          "page": 83,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page83_para_21",
+        "type": "paragraph",
+        "value": "und gelebt werden. Diese Einstellung ist genauso legitim wie jede andere. Darauf lässt sich",
+        "position": {
+          "page": 83,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page83_para_22",
+        "type": "paragraph",
+        "value": "dann auch völlig widerspruchsfrei eine flache Erde mit all ihren Argumenten konstruieren.",
+        "position": {
+          "page": 83,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page83_para_23",
+        "type": "paragraph",
+        "value": "Freilich benötigt man dazu auch noch das Wissen über den „Argumentationsraum“ der",
+        "position": {
+          "page": 83,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page83_para_24",
+        "type": "paragraph",
+        "value": "Flacherdler, was bedeutet, sich über längere Zeit eingehend mit ihren Argumenten",
+        "position": {
+          "page": 83,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page83_para_25",
+        "type": "paragraph",
+        "value": "auseinandersetzen zu müssen. Mit „auseinandersetzen“ meine ich nicht, sie widerlegen zu",
+        "position": {
+          "page": 83,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page83_para_26",
+        "type": "paragraph",
+        "value": "wollen, sondern sie in ihrer Gesamtheit zu verstehen, den „Raum“ abzugrenzen, in dem sie",
+        "position": {
+          "page": 83,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page83_para_27",
+        "type": "paragraph",
+        "value": "sich bewegen und sie so zu sehen, wie Flacherdler sie sehen. So kann man, wenn man das",
+        "position": {
+          "page": 83,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page83_para_28",
+        "type": "paragraph",
+        "value": "wirklich will, Stück für Stück, seine innere Symbolik entsprechend umbauen, sie mit dem",
+        "position": {
+          "page": 83,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page83_para_29",
+        "type": "paragraph",
+        "value": "„Argumentationsraum“ verknüpfen und am Ende selbst zu einem Flacherdler werden. Jeder",
+        "position": {
+          "page": 83,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page83_para_30",
+        "type": "paragraph",
+        "value": "Flacherdler tat und tut das unbewusst, weil die Welt seiner eigenen Symbolik schon von Natur",
+        "position": {
+          "page": 83,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page83_para_31",
+        "type": "paragraph",
+        "value": "aus affin zu dem entsprechenden Argumentationsraum ist und sie somit keine Widersprüche",
+        "position": {
+          "page": 83,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page83_para_32",
+        "type": "paragraph",
+        "value": "bei einer Annäherung und weitergehenden Adaptierung erzeugt.",
+        "position": {
+          "page": 83,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

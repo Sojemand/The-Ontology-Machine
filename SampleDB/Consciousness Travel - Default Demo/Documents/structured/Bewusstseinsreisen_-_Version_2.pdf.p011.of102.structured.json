@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:31:44.818988+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 11,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=011-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.95,
+      "reason": "The page is a nonfiction book page in philosophical writing, with continuous paragraphs and a section heading.",
+      "matched_signals": [
+        "continuous philosophical prose",
+        "section heading",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page11_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 11,
+        "sequence": 1,
+        "text": "Diese Dinge sind Produkte deines Denkens und wie wir sahen, kannst du nicht über dein Denken nachdenken. Wir sind uns gegenüber auf einer fundamentalen Ebene blind, denn ein singuläres Denken kann nur dann Unterschiede in sich selbst erkennen, wenn es sich mit den inneren Vorgängen eines anderen Denkens vergleichen kann, das heißt, mit dem Denken eines anderen Menschen.",
+        "function": "argument_about_self_blindness",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page11_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 11,
+        "sequence": 2,
+        "text": "Dein Unvermögen ab einem gewissen Punkt, ab einer gewissen Tiefe deiner inneren Welt, noch irgendetwas verstehen zu können, gar sehen zu können, ist es auch, was es uns unmöglich macht zu entscheiden, welche der beiden Welten in der Geschichte die reale ist. Wir nennen diese Tiefen unser „Unterbewusstsein“. Dieses Unterbewusstsein ist eine dunkle Welt voller unbekannter Geräusche, die aus unbekannten Richtungen zu unbekannten Zwecken auf uns einströmen und uns in einem für uns unbekannten Maß beeinflussen und steuern.",
+        "function": "description_of_subconscious_influence",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page11_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 11,
+        "sequence": 3,
+        "text": "Wir wissen es nicht, weil all diese Dinge unserem Bewusstsein gegenüber verborgen sind, sie sind unbewusst, für uns nicht existent. Doch, als du der Geschichte lauschtest, so wurde sie doch nicht nur von deinem Bewusstsein gehört, oder von dem, was du für dein Bewusstsein hältst, sondern sie schallte über die gesamte Landschaft deines Wesens hinweg und auch durch alle dunklen Gefilde und Gewölbe, die sich da in dir verbergen. Und sie ließ in ihnen zahllose Dinge klacken, rumoren, walten und schalten und am Ende wurden sie zu dem, was du mit „wie ich die Geschichte fand“ bezeichnen würdest.",
+        "function": "explanation_of_hidden_inner_processing",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page11_Segment4",
+        "unit_kind": "question_prompt",
+        "page": 11,
+        "sequence": 4,
+        "text": "So frage ich dich noch einmal: Wer bist du wirklich?",
+        "function": "self_inquiry",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page11_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 11,
+        "sequence": 5,
+        "text": "Du kannst auf diese Frage so wenig mit Gewissheit antworten, wie der Rechtschaffene nicht bestimmen kann, welche Welt die echte ist, aus den exakt gleichen Gründen. Dir fehlt es an Maßstäben. Aber nicht nur das, du willst überhaupt keine Maßstäbe haben. Du weißt sie von dir wann immer das Leben dir einen anbietet und die lehnst sie ab, weil sie dich schmerzen, wann immer das Leben dir einen davon aufzwingt.",
+        "function": "diagnosis_of_resistance_to_standards",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page11_Segment6",
+        "unit_kind": "title_line",
+        "page": 11,
+        "sequence": 6,
+        "text": "Das Problem des sich automatisch schützenden Selbstbildes",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page11_Segment7",
+        "unit_kind": "narrative_paragraph",
+        "page": 11,
+        "sequence": 7,
+        "text": "Unser Verlangen, dass unser Innerstes stets widerspruchsfrei uns selbst gegenüber erscheinen muss, geht direkt auf diese Blindheit gegenüber uns selbst zurück und unserer Weigerung, eben jene Maßstäbe anzunehmen. Es ist wichtig zu verstehen, dass Widerspruchsfreiheit gleich Schmerzfreiheit ist und wir streben stets danach Schmerzen zu",
+        "function": "introduction_of_section_argument",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Philosophische Buchseite über Unterbewusstsein, Selbstblindheit und Selbstbild"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=011-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:fbf13c80c94d5c1f359c2295b17c0ce481f370e5ee5225ad4531a45c0db10004",
+    "created_at": null,
+    "modified_at": null
+  }
+}

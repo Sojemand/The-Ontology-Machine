@@ -1,0 +1,35 @@
+label: Personal Development Default v1
+description: Default projection for personal reflection, habit tracking, and development
+  records.
+routing:
+  when_to_use: Wellbeing plans, self-reflection, habit logs, coaching support, and
+    everyday personal support.
+  avoid_when: Not for formal medical administration, finance, legal notices, or membership
+    registers.
+routing_lexicon:
+  text_markers:
+  - diary
+  - journal
+  - story
+  - fiction
+  - fanfiction
+  - chapter
+  - summary
+  - author
+  - introspection
+  - reflection
+  domain_markers:
+    people:
+    - author
+    - letter
+    - relationship
+    community:
+    - pastoral
+    - support
+    - reflection
+    personal:
+    - diary
+    - journal
+    - introspection
+    - reflection
+    - self_help

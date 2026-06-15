@@ -1,0 +1,131 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "99999999-8888-7777-6666-555555555555",
+    "file_name": "dental_invoice.pdf",
+    "file_path": "C:\\anonymized\\input\\dental_invoice.pdf",
+    "relative_path": "C:\\anonymized\\input\\dental_invoice.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+    "page_count": 1,
+    "document_type": "rechnung",
+    "language": "de"
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:\\anonymized\\input\\dental_invoice.pdf",
+    "page_source_path": "C:\\anonymized\\input\\dental_invoice.pdf::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page1_para_1",
+        "type": "paragraph",
+        "value": "Praxis am Park & Kollegen, Beispielweg 3, 12345 Beispielstadt",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page1_para_2",
+        "type": "paragraph",
+        "value": "Herrn Alex Beispiel, Musterallee 7, 12345 Beispielstadt",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page1_para_3",
+        "type": "paragraph",
+        "value": "Rechnung RE-2048",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page1_para_4",
+        "type": "paragraph",
+        "value": "Rechnungsdatum: 04.04.2013",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page1_para_5",
+        "type": "paragraph",
+        "value": "Behandelte Person: Alex Beispiel, Geburtsdatum: 01.09.1980",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page1_para_6",
+        "type": "paragraph",
+        "value": "<table><tr><td>Datum</td><td>Region</td><td>Nr.</td><td>Leistungsbeschreibung/Auslagen</td><td>Faktor</td><td>Anz.</td><td>EUR</td></tr><tr><td>26.03.13</td><td>18-28</td><td>1040</td><td>Professionelle Zahnreinigung</td><td>1,1615</td><td>16</td><td>30,60</td></tr><tr><td>26.03.13</td><td>38-48</td><td>1040</td><td>Professionelle Zahnreinigung</td><td>1,1615</td><td>16</td><td>30,60</td></tr></table>",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page1_para_7",
+        "type": "paragraph",
+        "value": "Rechnungsbetrag: 61,20",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page1_para_8",
+        "type": "paragraph",
+        "value": "Umsatzsteuerfrei nach Paragraf 4 Nr.14a UStG. USt-IdNr.: DE123456789",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page1_para_9",
+        "type": "paragraph",
+        "value": "Bitte zahlen Sie den Rechnungsbetrag bis zum 18.04.2013",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page1_para_10",
+        "type": "paragraph",
+        "value": "Bankverbindung: Musterbank / IBAN: DE12 3456 7890 1234 5678 90 / SWIFT: TESTDEFFXXX",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 9
+        }
+      }
+    ]
+  }
+}

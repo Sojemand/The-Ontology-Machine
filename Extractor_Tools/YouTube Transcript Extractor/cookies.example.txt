@@ -1,0 +1,17 @@
+# This is only a harmless example file.
+# Do not paste real cookies into this file if you plan to commit or share it.
+#
+# To use cookie-file mode:
+# 1. Export YouTube/browser cookies in Netscape cookie-file format.
+# 2. Save the exported file as:
+#
+#    cookies.txt
+#
+# 3. Put cookies.txt directly next to this example file in the
+#    YouTube Transcript Extractor folder.
+#
+# The real cookies.txt file is ignored by git on purpose because it contains
+# private browser/session data.
+#
+# Netscape cookie-file header usually starts like this:
+# Netscape HTTP Cookie File

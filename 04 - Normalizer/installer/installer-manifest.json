@@ -1,0 +1,25 @@
+{
+  "default_install_dir": "%LOCALAPPDATA%\\Programs\\Vision Pipeline\\04 - Normalizer",
+  "mutable_dirs": [
+    "output",
+    "state"
+  ],
+  "mutable_files": [
+    "config\\config.yaml",
+    "config\\prompt_bundle.json",
+    "config\\prompt_overrides.json",
+    "config\\semantic_release.recipe.json"
+  ],
+  "mutable_globs": [],
+  "excluded_runtime_paths": [
+    ".env",
+    "runtime\\wheelhouse"
+  ],
+  "sign_targets": [
+    "check-runtime.bat",
+    "installer.bat",
+    "install-user.bat",
+    "module-manifest.json",
+    "runtime\\runtime-manifest.json"
+  ]
+}

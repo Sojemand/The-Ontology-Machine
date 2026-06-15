@@ -1,0 +1,13 @@
+.env
+.appdata/
+dist/
+output/
+runtime/*
+!runtime/README.md
+!runtime/requirements.lock.txt
+!runtime/runtime-manifest.json
+state/
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

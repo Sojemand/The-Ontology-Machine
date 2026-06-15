@@ -1,0 +1,14 @@
+{
+  "name": "mail-outlook-msg",
+  "version": "1.0.0",
+  "description": "Outlook-Mail-Extraktor fuer .msg/.oft mit Bundle-Ausgabe fuer den internen Mail-Compound-Pfad",
+  "author": "",
+  "formats": [".msg", ".oft"],
+  "also_handles": [],
+  "capabilities": ["text", "email_container", "attachments", "subprocess_runtime"],
+  "priority": 10,
+  "python_version": ">=3.10",
+  "system_dependencies": ["extract-msg"],
+  "config_schema": {},
+  "config": {}
+}

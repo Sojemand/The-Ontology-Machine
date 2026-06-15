@@ -1,0 +1,226 @@
+[
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.compatibility",
+    "value_kind": "empty_object",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.description",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.domain_ids[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.extends",
+    "value_kind": "empty_list",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_categories[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_cell_codes[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_field_codes[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_row_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.include_subcategories[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.label",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "target_source": "compiled_only"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "target_source": "compiled_only"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.materialization_profile_id",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.projection_family",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.projection_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "target_source": "compiled_only"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.projection_version",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.promotion_rules[].slot",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.promotion_rules[].source_paths[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.avoid_when",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.example_document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.domain_markers.property[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.domain_markers.technical[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "projections/housing.default.v1.core.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.surface_signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.routing.when_to_use",
+    "value_kind": "string",
+    "classification": "text",
+    "target_source": "projections/housing.default.v1.text.en.yaml"
+  },
+  {
+    "artifact_kind": "projection",
+    "json_path": "$.schema_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "target_source": "compiled_only"
+  }
+]

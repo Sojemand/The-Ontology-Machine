@@ -1,0 +1,27 @@
+{
+  "analysis_run_id": "analysis_run_id_example",
+  "analysis_scope": "sample_set",
+  "kernel_policy": {
+    "example": true
+  },
+  "sample_ids": [],
+  "schema_version": "kernel.create_taxonomy_update_state.input.v1",
+  "semantic_binding": {
+    "example": true
+  },
+  "source_artifacts": [],
+  "source_schema_version": "kernel.taxonomy_to_sample_analyses.v1",
+  "taxonomy_core": {
+    "example": true
+  },
+  "taxonomy_identity": {
+    "example": true
+  },
+  "taxonomy_text": {
+    "example": true
+  },
+  "validation_stamp": {
+    "example": true
+  },
+  "unexpected_phase2_field": "example"
+}

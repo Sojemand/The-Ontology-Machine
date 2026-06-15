@@ -1,0 +1,16 @@
+{
+  "script_name": "ValidatorVision.iss",
+  "mutable_dirs": [
+    "output",
+    "state"
+  ],
+  "mutable_files": [],
+  "excluded_runtime_paths": [
+    "runtime\\wheelhouse"
+  ],
+  "sign_targets": [
+    "check-runtime.bat",
+    "module-manifest.json",
+    "runtime\\runtime-manifest.json"
+  ]
+}

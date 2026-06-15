@@ -1,0 +1,20 @@
+{
+  "allowed_codes": [
+    "amount_due",
+    "description",
+    "finance",
+    "invoice",
+    "issuer",
+    "line_item",
+    "other",
+    "payment_reference",
+    "receipt",
+    "obsolete_code"
+  ],
+  "fallback_codes": [
+    "other"
+  ],
+  "runtime_locale": "en",
+  "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+  "taxonomy_id": "default.taxonomy.v1"
+}

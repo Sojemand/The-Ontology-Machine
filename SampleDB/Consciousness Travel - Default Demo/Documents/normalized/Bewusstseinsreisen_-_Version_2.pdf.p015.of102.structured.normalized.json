@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:33:40Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "nonfiction_book_page",
+    "document_type_confidence": 0.96,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A philosophical nonfiction discussion contrasts psychology with neuroscience and introduces research on free will. It cites Libet’s 1970s experiments and Haynes’ later fMRI-based predictions of decisions several seconds before conscious choice.",
+    "tags": [
+      "neuroscience",
+      "free will",
+      "philosophy",
+      "decision making",
+      "Libet",
+      "Haynes"
+    ],
+    "people": [
+      "Benjamin Libet",
+      "John-Dylan Haynes",
+      "Daniel Kahneman",
+      "Timothy D. Wilson"
+    ],
+    "organizations": [
+      "Max Planck Institute for Human Cognitive and Brain Sciences"
+    ],
+    "locations": [
+      "Leipzig"
+    ],
+    "date_range": {
+      "from": "1970s",
+      "to": "2008"
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_philosophical_writing"
+    },
+    "normalization_notes": [
+      "Section heading normalized from German: 'Der Tag an dem der freie Wille starb'.",
+      "Title inferred from source document path.",
+      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 15,
+      "section_heading": "The Day Free Will Died",
+      "topic_keywords": [
+        "neuroscience",
+        "free will",
+        "decision making",
+        "brain activity",
+        "philosophical discussion"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "The page transitions from psychology to neuroscience as the preferred lens for the discussion. It summarizes Libet’s 1970s findings and Haynes’ later brain-imaging results suggesting decisions can be predicted seconds before conscious awareness, framing free will as a major philosophical controversy."
+      }
+    ],
+    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Neuroscience and free will discussion. Libet and Haynes are cited to argue that brain activity may precede conscious decision making."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+    }
+  }
+}

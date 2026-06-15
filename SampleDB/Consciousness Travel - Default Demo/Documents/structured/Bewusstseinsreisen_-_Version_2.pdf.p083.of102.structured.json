@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:00:45.148649+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 83,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=083-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous prose paragraphs",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page83_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 83,
+        "sequence": 1,
+        "text": "eine flache Erde zu glauben. Diese Symbolik hat nichts mit Fakten zu tun, nichts mit Physik oder Mathematik sondern mit den Prinzipien, nach denen wir die Wichtigkeit dieser Konzepte für die Aufrechterhaltung unserer Widerspruchsfreiheit bewerten. Die Gewichtung ist es, die bestimmt wie wir die Welt sehen, nicht die Dinge, die wir damit wiegen.",
+        "function": "epistemic_reframing",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page83_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 83,
+        "sequence": 2,
+        "text": "Wer die Ergebnisse eines Eratosthenes, der den Umfang der Erde mittels des Schattenwurfes eines einfachen Stabes schon vor über 2000 Jahren berechnete, als Beweis für eine Kugelgestalt der Welt betrachtet, hat bereits den ersten Fehler gemacht. Die wahre Frage ist, wie wichtig ist dieses kleine Detail der Antike für mich? Ich war nicht dabei, kann nicht einmal mit Sicherheit sagen, ob das jemals wirklich so stattgefunden hat und wenn ja, dann könnte er auch etwas völlig anderes gemessen haben. Ich kann meine Gewichtung dieser Dinge so weit abändern, bis sie für mich keine Relevanz mehr besitzen. Alle Versuche der Neuzeit, die dies auf die gleiche Weise tun, kann ich damit begründen, dass es eine unbekannte Variable gibt, die dieses Ergebnis erzeugt und die weder mir noch anderen bisher bekannt ist. Ich muss zu Hödur werden, dem blinden Sohn Wotans, der nur nach inneren Werten urteilt, zu Dionysos der sich bei den Musen versteckt und Wahrheit in Ekstase sucht und letztendlich muss ich zu Samael werden, der die Rebellion gegen die Ordnung Gottes anführt. Denn die Ordnung ist es, welche ich ablehne und von der ich überzeugt bin, dass sie Lüge ist, dass sie mich einengt und mich von einer tieferen Wahrheit abhält.",
+        "function": "argument_by_radical_subjectivization",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page83_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 83,
+        "sequence": 3,
+        "text": "Selbstverständlich muss man nicht gleich zu Satan persönlich werden, aber das Symbol, welches sein Wesen charakterisiert und seine Handlungen begründet, kann auch auf Dinge wie die Skepsis und Ablehnung der wissenschaftlich geprägten Grundordnung angewendet und gelebt werden. Diese Einstellung ist genauso legitim wie jede andere. Darauf lässt sich dann auch völlig widerspruchsfrei eine flache Erde mit all ihren Argumenten konstruieren. Freilich benötigt man dazu auch noch das Wissen über den „Argumentationsraum“ der Flacherdler, was bedeutet, sich über längere Zeit eingehend mit ihren Argumenten auseinandersetzen zu müssen. Mit „auseinandersetzen“ meine ich nicht, sie widerlegen zu wollen, sondern sie in ihrer Gesamtheit zu verstehen, den „Raum“ abzugrenzen, in dem sie sich bewegen und sie so zu sehen, wie Flacherdler sie sehen. So kann man, wenn man das wirklich will, Stück für Stück, seine innere Symbolik entsprechend umbauen, sie mit dem „Argumentationsraum“ verknüpfen und am Ende selbst zu einem Flacherdler werden. Jeder Flacherdler tat und tut das unbewusst, weil die Welt seiner eigenen Symbolik schon von Natur aus affin zu dem entsprechenden Argumentationsraum ist und sie somit keine Widersprüche bei einer Annäherung und weitergehenden Adaptierung erzeugt.",
+        "function": "explaining_conversion_of_belief",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "philosophische Prosa über Symbolik, Flacherdler, Argumentationsraum"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=083-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:0be4e42e079079e0c2bbbeb6f2488cb85e95274532274b335c51a576419b6d1a",
+    "created_at": null,
+    "modified_at": null
+  }
+}

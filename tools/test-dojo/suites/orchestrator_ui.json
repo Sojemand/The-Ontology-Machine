@@ -1,0 +1,56 @@
+{
+  "name": "orchestrator-ui",
+  "display_name": "00 - Orchestrator UI",
+  "module": "00 - Orchestrator",
+  "kind": "desktop_ui",
+  "driver": "desktop_ctk",
+  "inventory_gate": true,
+  "modes": ["deterministic", "inventory-only", "smoke"],
+  "sandbox": {
+    "state_root": "state/orchestrator",
+    "artifact_root": "output/orchestrator-artifacts"
+  },
+  "expected_inventory": [
+    {
+      "action_key": "orchestrator.status.start_processing",
+      "label": "Verarbeite",
+      "surface": "Status",
+      "coverage": "covered_by_workflow"
+    },
+    {
+      "action_key": "orchestrator.status.reset_error_bundle",
+      "label": "Reset Error Bundle",
+      "surface": "Status",
+      "coverage": "tested_action"
+    },
+    {
+      "action_key": "orchestrator.status.reset_pipeline_logs",
+      "label": "Reset Pipeline Logs",
+      "surface": "Status",
+      "coverage": "tested_action"
+    }
+  ],
+  "cases": [
+    {
+      "id": "status_run_control",
+      "title": "Status tab run controls",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["orchestrator.status.start_processing", "orchestrator.status.abort_processing"]
+    },
+    {
+      "id": "reset_error_bundle_diff",
+      "title": "Reset Error Bundle only touches error artifacts",
+      "type": "button_action",
+      "risk": "high",
+      "expected_actions": ["orchestrator.status.reset_error_bundle"]
+    },
+    {
+      "id": "reset_pipeline_logs_diff",
+      "title": "Reset Pipeline Logs preserves artifacts and credentials",
+      "type": "button_action",
+      "risk": "high",
+      "expected_actions": ["orchestrator.status.reset_pipeline_logs"]
+    }
+  ]
+}

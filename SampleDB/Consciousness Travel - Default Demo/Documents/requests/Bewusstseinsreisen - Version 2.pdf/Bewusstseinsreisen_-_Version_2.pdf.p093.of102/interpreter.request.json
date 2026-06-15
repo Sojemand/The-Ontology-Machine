@@ -1,0 +1,363 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=093-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:2af9dbdd22a358d4d0d9a7a7c597eb49f0641cce33999762bbd947b98e5fd457",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 93,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=093-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 93,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_093.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page93_para_0",
+        "type": "paragraph",
+        "value": "Dann stellt sich natürlich die Frage, wie belastend ein solch dauerhafter Zustand für unser",
+        "position": {
+          "page": 93,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page93_para_1",
+        "type": "paragraph",
+        "value": "Gehirn ist. Wenn ein solcher Dauerzustand möglich wäre, würde man das überhaupt wollen?",
+        "position": {
+          "page": 93,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page93_para_2",
+        "type": "paragraph",
+        "value": "Kann das Gehirn damit umgehen oder würde ein permanent „luzides Wachen“ irgendwann im",
+        "position": {
+          "page": 93,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page93_para_3",
+        "type": "paragraph",
+        "value": "Wahnsinn münden?",
+        "position": {
+          "page": 93,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page93_para_4",
+        "type": "paragraph",
+        "value": "Wie können wir das Vergessen umgehen?",
+        "position": {
+          "page": 93,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page93_para_5",
+        "type": "paragraph",
+        "value": "Und dann stellt sich unweigerlich die Frage, wie wir das Vergessen umgehen können, welches",
+        "position": {
+          "page": 93,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page93_para_6",
+        "type": "paragraph",
+        "value": "solche Dinge umgehend wieder aus der Erinnerung wischt. Wenn wir etwas zu ergründen",
+        "position": {
+          "page": 93,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page93_para_7",
+        "type": "paragraph",
+        "value": "versuchen, was uns wie Nebel durch die Finger gleitet, wie soll man damit umgehen? Kann",
+        "position": {
+          "page": 93,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page93_para_8",
+        "type": "paragraph",
+        "value": "man das irgendwie extern aufzeichnen, um es im Nachhinein untersuchen zu können? Wie",
+        "position": {
+          "page": 93,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page93_para_9",
+        "type": "paragraph",
+        "value": "kann man Menschen von etwas überzeugen, was sie nicht nur ständig vergessen, sondern es",
+        "position": {
+          "page": 93,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page93_para_10",
+        "type": "paragraph",
+        "value": "nicht einmal als Teil ihres Selbst begreifen, selbst wenn man es ihnen vor Augen führt? Von all",
+        "position": {
+          "page": 93,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page93_para_11",
+        "type": "paragraph",
+        "value": "den Dingen die uns hindern, mehr darüber in Erfahrung zu bringen, ist es das Vergessen,",
+        "position": {
+          "page": 93,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page93_para_12",
+        "type": "paragraph",
+        "value": "welches uns die größte Barriere beschert.",
+        "position": {
+          "page": 93,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page93_para_13",
+        "type": "paragraph",
+        "value": "Wie können wir die Sprachbarrieren überwinden?",
+        "position": {
+          "page": 93,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page93_para_14",
+        "type": "paragraph",
+        "value": "Dazu stellt sich ja auch noch in den Weg, dass wir überhaupt keine wirkliche Möglichkeit haben,",
+        "position": {
+          "page": 93,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page93_para_15",
+        "type": "paragraph",
+        "value": "sicher zu gehen, dass wir über die gleichen Dinge reden. Wir mögen einen Sachverhalt genau",
+        "position": {
+          "page": 93,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page93_para_16",
+        "type": "paragraph",
+        "value": "so sehen wie unser Gegenüber, aber wir benutzen verschiedene Wörter dafür, die uns dann",
+        "position": {
+          "page": 93,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page93_para_17",
+        "type": "paragraph",
+        "value": "vorgaukeln, wir würden über verschiedene Dinge reden und dann reden wir im Kreis und am",
+        "position": {
+          "page": 93,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page93_para_18",
+        "type": "paragraph",
+        "value": "Ende aneinander vorbei, oder umgekehrt. Erschwerend kommt noch hinzu, dass wir für Vieles,",
+        "position": {
+          "page": 93,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page93_para_19",
+        "type": "paragraph",
+        "value": "was über unser tägliches Erfahren der Welt hinaus geht, überhaupt keine Worte haben und",
+        "position": {
+          "page": 93,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page93_para_20",
+        "type": "paragraph",
+        "value": "man kann nun mal nicht über etwas nachdenken und reden, für das man keine Namen hat.",
+        "position": {
+          "page": 93,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page93_para_21",
+        "type": "paragraph",
+        "value": "Ohne Kategorien und Label funktioniert unser Denk- und Kommunikationsapparat nicht.",
+        "position": {
+          "page": 93,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page93_para_22",
+        "type": "paragraph",
+        "value": "Das zwingt einen förmlich dazu, wieder eigene Definitionen und einen eigenen Sprachkodex",
+        "position": {
+          "page": 93,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page93_para_23",
+        "type": "paragraph",
+        "value": "zu entwickeln, um sich sinnvoll austauschen zu können. Zwangsläufig bildet sich dann wieder",
+        "position": {
+          "page": 93,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page93_para_24",
+        "type": "paragraph",
+        "value": "ein abgeschlossener Kosmos, den man einem Außenstehenden erst einmal erklären muss,",
+        "position": {
+          "page": 93,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page93_para_25",
+        "type": "paragraph",
+        "value": "damit er überhaupt Zugang dazu finden kann. Das ist so ziemlich das Gegenteil von dem,",
+        "position": {
+          "page": 93,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page93_para_26",
+        "type": "paragraph",
+        "value": "was man eigentlich bräuchte.",
+        "position": {
+          "page": 93,
+          "paragraph_index": 26
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:01:56.405548+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 86,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=086-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.97,
+      "reason": "A nonfiction book page in philosophical writing is visible, with a heading and multiple reflective paragraphs.",
+      "matched_signals": [
+        "heading",
+        "paragraphs",
+        "philosophical writing",
+        "book page"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page86_Segment1",
+        "unit_kind": "title_line",
+        "page": 86,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Die Hände die uns führen",
+        "function": "section_title",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page86_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 86,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Was sagt uns das jetzt alles? Dieses kleine Beispiel der flachen Erde ist zugegeben recht extrem, aber die Mechanik dahinter ist universell. Jeder Mensch agiert auf diese Weise in der externen Welt und so sieht er auch alle andere Menschen. Jede Einstellung und Meinung entsteht aus dem Zusammenspiel mit der eignen Symbolik und des eigenen Argumentationsraumes, der diese Symbolik mit der wirklichen Welt lückenlos und Widerspruchsfrei verknüpft. Hat man das einmal verstanden, erkennt man auch, wie schwer es ist, sich wahrhaftig den „Schuh des Anderen“ anzuziehen und ein paar Meilen darin zu gehen. Auch versöhnt es das Ich ein wenig mit der Frustration, wenn man den Irrsinn der Welt betrachtet. Es zeigt uns auch, dass, egal ob man Verschwörungstheoretiker, Priester oder Chefarzt ist, wenn sich die Symbolik ändert, ändert sich der Argumentationsraum und letztendlich das Verhalten in der Welt bei jedem Menschen, egal ob man ihn versteht oder nicht.",
+        "function": "philosophical_reflection",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page86_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 86,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Wenn man eine solche Reise öfter unternimmt, wird man bemerken, wie einerseits die Aversion des „zwischen den Stühlen sitzen“ oder der „Reise durch den Leerraum“ abnimmt und andererseits sich die alte Symbolik als etwas erhält, zu der man mühelos wieder zurückkehren kann. Im Gegensatz zu einem Atheisten, der zum Beispiel durch eine starke religiöse Erfahrung von seiner alten Symbolik, mehr oder minder unfreiwillig, in die des Glaubens gestoßen wurde und sein altes Leben anschließend für sich strikt ablehnt, erzeugt eine bewusste Reise keine derartige Ablehnung. Im Grunde erschafft man dadurch in sich parallel existierende Symbolwelten und Realitätsmodelle, die man miteinander vergleichen kann. Man kann sozusagen auf ein gerade nicht gelebtes Modell „hinunter“ blicken und die Widersprüche erkennen, die es im gerade gelebten auslöst. Anschließend kann man die Postion des anderen einnehmen und die Widersprüche erkennen, die das zurückgelassene erzeugt. Irgendwann wird man deutlich erkennen, dass, egal welche Position man einnimmt, die Widersprüche augenscheinlich stets nur von dem ausgehen, was man gerade betrachtet.",
+        "function": "method_reflection",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page86_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 86,
+        "sequence": 4,
+        "section": null,
+        "label": null,
+        "text": "Damit kann man für sich selbst den Beweis erbringen, dass unser innerer Drang nach Widerspruchsfreiheit und das daraus entstehende Unverständnis oder gar die Ablehnung für das Sein im Gegenüber nur ein Schatten unseres Selbst ist, der stets nur auf Andere fällt, aber von uns selbst geworfen wird. Man wird letztendlich einsehen, der böse Mensch, der bin ich selbst.",
+        "function": "conclusion_reflection",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Kapitelüberschrift und philosophische Reflexion über Symbolik, Perspektivwechsel und Widersprüche"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=086-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:cc4efeac042ff13efc6526be8c4150121d51ffb7f1035384654a2de123e74fe0",
+    "created_at": null,
+    "modified_at": null
+  }
+}

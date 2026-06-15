@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:29:29.472084+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.98,
+      "reason": "A philosophical book page is visible with a chapter heading, a section heading, and continuous prose paragraphs.",
+      "matched_signals": [
+        "Kapitel 1",
+        "chapter heading",
+        "section heading",
+        "continuous prose paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 6,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=006-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page6_Segment1",
+        "unit_kind": "title_line",
+        "page": 6,
+        "sequence": 1,
+        "section": "Kapitel 1",
+        "label": null,
+        "text": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht",
+        "function": "chapter_title",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page6_Segment2",
+        "unit_kind": "title_line",
+        "page": 6,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Wer bist du wirklich?",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page6_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 6,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Nun finden wir uns also am Beginn einer Reise, an dem euer Reiseleiter in euch die unterschiedlichsten Erwartungen geweckt haben mag. Doch so höret meine Worte „Lasst, die ihr eintretet, alle Hoffnung fahren!“, denn wir alle sind nur Gottes Komödianten, dessen Mitleid mit uns sich doch arg in Grenzen hält. Wir werden hier nicht in süßem Drachenblut baden, sondern nur durch den Staub der Erde wandern und die Bitterkeit unserer eigenen Früchte kosten.",
+        "function": "expectation_reset",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page6_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 6,
+        "sequence": 4,
+        "section": null,
+        "label": null,
+        "text": "Erkennt das Verlangen, welches euch hier her geführt hat. Ein ganz besonderes menschliches Verlangen ist dies, welches ganze Regale in Buchläden füllt. Sie schafft Märkte für Selbsthilfe Bücher, Lebensratgeber und offenbart dir die 10 Geheimnisse für die ultimative Karriere und Formeln, welche dir versprechen dir den wirklichen Sinn deines Lebens zu offenbaren, oder dir zumindest Hilfe anbieten selbigen selbst zu finden.",
+        "function": "diagnosis_of_seeking",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page6_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 6,
+        "sequence": 5,
+        "section": null,
+        "label": null,
+        "text": "All diese Bücher, alle diese Ratgeber und Artikel in Zeitungen und den kurzlebigen Feeds der sozialen Medien, nähren sich an diesem inhärenten Verlangen, am Wunsch nach innerer Erfüllung. Dieser Wunsch steht stets und unverrückbar zwischen uns selbst und unserem Blick hinein, in die unbekannten Tiefen unserer inneren Welt und er flüstert uns zu, dass es doch nur ein kleiner Sprung ist und die Glückseligkeit sei endlich in greifbarer Nähe. Wenn diese innere Stimme nur nicht so sprunghaft wäre, sie nicht ständig ihre Meinung ändern würde. Wenn sie doch endlich aufhören würde mir den Topf voll Gold am Ende des Regenbogens zu verheißen. Wenn ich doch nur wüsste was ich wirklich will, dann, ja dann könnte ich wahrlich glücklich sein.",
+        "function": "analysis_of_inner_longing",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page6_Segment6",
+        "unit_kind": "reflective_passage",
+        "page": 6,
+        "sequence": 6,
+        "section": null,
+        "label": null,
+        "text": "Und vielleicht dachtet ihr, dieses Buch sei ein weiterer Stein auf dieser endlosen Straße, auf der ihr Tag ein, Tag aus mit leeren Händen und leerem Magen wandert, ohne je anzukommen. Nein, da muss ich euch enttäuschen, denn auch ich habe euch nur leere Hände und knurrende Mägen anzubieten. Ich rufe euch zu, doch endlich aufzuhören im Kreis zu laufen. Ihr habt schon solch tiefe Furchen in den schlammigen Boden getreten, dass sich der Regen darin sammelt und die Nässe die Fäulnis an euren Füßen fressen lässt. Doch ihr hört mich nicht. In euren Augen glänzt das Licht des Goldes und ein jeder Schritt trägt euch weiter hinein in eure Träume, wandelnd auf Straßen aus härtstem Granit, gemacht aus Hoffnung und",
+        "function": "rejection_of_false_promise",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Kapitel 1, Sinnsuche, innere Erfüllung, Kritik an Selbsthilfeversprechen"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=006-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:5ef56462a39671756201152ca367ccca73a410ee5523c29229b7dbb58957188d",
+    "created_at": null,
+    "modified_at": null
+  }
+}

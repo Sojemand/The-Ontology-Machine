@@ -1,0 +1,392 @@
+{
+  "schema_version": "mcp.phase14_legacy_cleanup_inventory.v1",
+  "generated_at": "2026-05-07T07:49:14.661694Z",
+  "generated_by": "semantic_control_kernel_legacy_inventory",
+  "source_module": "../07 - MCP Server",
+  "cutover_phase": 14,
+  "items": [
+    {
+      "path": "dev-tests/tests/test_contract_healthcheck.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase15_no_old_kernel_imports.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "mcp_server.semantic_kernel",
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel",
+        "KERNEL_TOOL_NAMES"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase15_old_tools_retired.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_handlers_semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase15_product_semantics_no_workflow_family_ids.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "workflow_family_id",
+        "recommended_first_workflow_family_id",
+        "related_workflow_family_ids",
+        "safe_next_kernel_workflows"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase15_runtime_manifest_unlinked.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_client_frontend_blocker_scan.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "llm_action_catalog",
+        "open_workflow",
+        "inspect_workflow",
+        "workflow_family_id",
+        "action_token"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_dead_code_scans.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel",
+        "KERNEL_TOOL_NAMES",
+        "llm_action_catalog",
+        "open_workflow",
+        "inspect_workflow",
+        "interrupt_workflow",
+        "close_workflow",
+        "workflow_family_id",
+        "workflow_revision",
+        "action_token",
+        "recommended_first_workflow_family_id",
+        "related_workflow_family_ids",
+        "safe_next_kernel_workflows"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_docs_product_semantics_clean.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel",
+        "llm_action_catalog",
+        "open_workflow",
+        "inspect_workflow",
+        "interrupt_workflow",
+        "close_workflow"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_import_start_smoke.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "mcp_server.semantic_kernel",
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel",
+        "llm_action_catalog",
+        "open_workflow"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_new_kernel_surface_regression.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "open_workflow",
+        "inspect_workflow",
+        "workflow_family_id",
+        "recommended_first_workflow_family_id",
+        "related_workflow_family_ids",
+        "safe_next_kernel_workflows"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_phase15_unlink_regression.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "workflow_family_id"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_phase16_runtime_manifest_clean.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "mcp_server.semantic_kernel",
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_control_kernel_handler_errors.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "inspect_workflow"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_control_kernel_legacy_invisibility.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "mcp_server.semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_control_kernel_mcp_visibility.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "open_workflow"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_control_kernel_runtime_manifest.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "tool_catalog_semantic_kernel",
+        "tool_handlers_semantic_kernel"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "dev-tests/tests/test_tool_handlers_product_advisory.py",
+      "item_type": "test_file",
+      "legacy_symbols": [
+        "workflow_family_id",
+        "recommended_first_workflow_family_id",
+        "related_workflow_family_ids",
+        "safe_next_kernel_workflows"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "visible",
+      "required_action": "rewrite_in_phase_15",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel tests still reference retired surfaces.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "state/semantic_kernel/",
+      "item_type": "state_path",
+      "legacy_symbols": [
+        "action_token",
+        "llm_action_catalog",
+        "safe_next_kernel_workflows",
+        "workflow_family_id",
+        "workflow_revision"
+      ],
+      "classification": "legacy_runtime_payload",
+      "status_after_phase14": "hidden",
+      "required_action": "archive_or_ignore_state",
+      "owner_phase": 15,
+      "reason": "Legacy Kernel runtime state remains on disk for audit only.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": null
+    },
+    {
+      "path": "mcp_server/tool_catalog_semantic_kernel.py",
+      "item_type": "catalog_file",
+      "legacy_symbols": [
+        "execute_readonly_workflow_action",
+        "execute_author_workflow_action",
+        "execute_operator_workflow_action",
+        "execute_admin_workflow_action"
+      ],
+      "classification": "legacy_old_kernel_surface",
+      "status_after_phase14": "hidden",
+      "required_action": "delete_in_phase_16",
+      "owner_phase": 16,
+      "reason": "Required retired Kernel symbols must remain explicitly inventoried even after live source cleanup stops mentioning them verbatim.",
+      "test_refs": [
+        "test_semantic_control_kernel_legacy_inventory.py",
+        "test_semantic_control_kernel_legacy_invisibility.py"
+      ],
+      "replacement": "mcp_server/tool_catalog_semantic_control_kernel.py"
+    }
+  ],
+  "counts": {
+    "total_items": 19,
+    "rewrite_in_phase_15": 17,
+    "delete_in_phase_16": 1,
+    "keep_as_non_kernel": 0,
+    "state_archive_or_ignore": 1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.74,
+    "needs_review": true,
+    "review_reason": "Normalizer review",
+    "vision_used": false,
+    "processed_at": "2026-03-25T18:10:03Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "letter",
+    "document_type_confidence": 0.74,
+    "category": "other",
+    "subcategory": "generic_letter",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Synthetic Example",
+    "document_date": "2026-03-25",
+    "document_title": "Beispielschreiben",
+    "normalization_notes": [
+      "Synthetischer Review-Fall fuer den Regressionstest."
+    ]
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "free_text": "Normalizer review path coverage."
+  },
+  "relations": [],
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-24.v3",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:3333333333333333333333333333333333333333333333333333333333333333",
+    "materialization_profile_id": "document_entities.v1"
+  }
+}

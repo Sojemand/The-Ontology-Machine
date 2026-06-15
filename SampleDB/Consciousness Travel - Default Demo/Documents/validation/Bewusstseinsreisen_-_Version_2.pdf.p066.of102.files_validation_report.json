@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "interpreter_profile": "file",
+  "file_name": "Bewusstseinsreisen - Version 2.pdf",
+  "file_path": "C:\\Users\\Norma\\Workspace\\The Ontology Machine\\00 - Orchestrator\\state\\pipeline\\runs\\2026-06-12T08-25-10.810996+00-00\\d.53d5cf65\\structured\\Bewusstseinsreisen_-_Version_2.pdf.p066.of102.structured.json",
+  "content_hash": "sha256:2979f9db1cb5dcf6fa4a04d47645b4af37f6fc047f81eda81a4317c24df664cb",
+  "validated_at": "2026-06-12T08:54:00.470842+00:00",
+  "validator_version": "1.3.1",
+  "processing_time_ms": 7,
+  "result": "PASS",
+  "needs_review": false,
+  "summary": {
+    "total_issues": 0,
+    "fail_count": 0,
+    "warn_count": 0,
+    "checked_values": 0,
+    "valid_values": 0
+  },
+  "checks": {
+    "numeric_claims": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 0,
+      "valid": 0
+    }
+  },
+  "issues": []
+}

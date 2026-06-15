@@ -1,0 +1,30 @@
+{
+  "agent_instruction": "Call kernel_continue_resumable_workflow with this exact resume_option_ref.",
+  "agent_tool": "kernel_continue_resumable_workflow",
+  "continuation_workflow_tool": "empty_database_default_taxonomy_default_projections",
+  "description": "Continue the existing empty database workflow by exporting, writing, attaching and activating the default taxonomy and projections.",
+  "effect": "database_creation_resumed_to_default_ready_database",
+  "label": "Attach and activate the default Semantic Release",
+  "resume_family": "database_creation",
+  "resume_option_ref": "opaque:resume_option_fixture",
+  "risk_class": "low",
+  "schema_version": "kernel.resume_option.v1",
+  "source_workflow_tool": "empty_database_no_semantic_release",
+  "state_snapshot_id": "ss_0001",
+  "status": "available",
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  },
+  "target_summary": {
+    "artifact_root_name": "Artifact Tree",
+    "database_name": "Artifact Tree.db",
+    "final_state": "no_semantic_release",
+    "target_hash": "tgt_example"
+  },
+  "workflow_ref": "opaque:workflow_fixture"
+}

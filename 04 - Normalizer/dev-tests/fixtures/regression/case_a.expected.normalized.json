@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.91,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-03-27T00:00:00Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "utility_cost_statement",
+    "document_type_confidence": 0.91,
+    "category": "finance",
+    "subcategory": "utilities",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Acme Heat GmbH",
+    "document_date": "2024-01-15",
+    "document_title": "Cost overview 2023",
+    "description": "Annual heating statement.",
+    "tags": [
+      "utility cost statement",
+      "heating"
+    ],
+    "people": [
+      "Alice Beispiel"
+    ],
+    "organizations": [
+      "Acme Heat GmbH"
+    ],
+    "locations": [
+      "Leipzig"
+    ],
+    "date_range": {
+      "from": "2023-01-01",
+      "to": "2023-12-31"
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": 123.45,
+    "taxonomy_profile_id": "housing.default.v1",
+    "raw_classification": {
+      "document_type": "report",
+      "category": "finance",
+      "subcategory": "other"
+    },
+    "normalization_notes": [
+      "Raw document_type 'report' normalized to 'utility_cost_statement'."
+    ],
+    "recipient_primary": "Alice Beispiel",
+    "property_address": "Beispielweg 1, Leipzig"
+  },
+  "content": {
+    "structure": {
+      "type": "form_with_table",
+      "columns": [
+        "description",
+        "building_total_heating_cost",
+        "tenant_share_heating_cost"
+      ],
+      "form_fields": [
+        "issuer",
+        "document_date"
+      ]
+    },
+    "fields": {
+      "issuer": "Acme Heat GmbH",
+      "document_date": "2024-01-15"
+    },
+    "rows": [
+      {
+        "_row_type": "cost_breakdown_history",
+        "_row_index": 0,
+        "description": "Heating costs",
+        "building_total_heating_cost": 523.45,
+        "tenant_share_heating_cost": 123.45,
+        "_units": {
+          "building_total_heating_cost": "EUR",
+          "tenant_share_heating_cost": "EUR"
+        }
+      }
+    ],
+    "free_text": "finance utilities utility_cost_statement heating cost statement 2024-01-15 123.45 EUR"
+  },
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-28.v6",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:2ca8ddbb989d20d2a3e4b87450aa25e31ec8dc18121a5fb87433569748c93ca2",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "fallback",
+      "hint_projection_id": null,
+      "hint_confidence": null,
+      "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+      "reason": "No projection_hint in input; local routing remains below the release threshold (best=housing.default.v1 score=12, next_score=12, required_min_score=4, required_margin=3, delta=0); using configured fallback profile. signals=[document_type:report, category:finance, field:issuer, cell:description]"
+    }
+  }
+}

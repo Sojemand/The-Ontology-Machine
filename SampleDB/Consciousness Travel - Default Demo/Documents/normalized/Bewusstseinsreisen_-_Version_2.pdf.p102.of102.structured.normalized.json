@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T09:10:12Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.92,
+    "category": "book_back_matter",
+    "subcategory": "reference_section",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": null,
+    "description": "Reference section titled \"Quellen\" listing the works and authors cited for the book. The entries include psychology, consciousness, philosophy, religion, anthropology, UFOs, nutrition, and critical theory sources, followed by a few general mentions of broader philosophical, popular-science, and academic reading.",
+    "tags": [
+      "sources",
+      "references",
+      "bibliography",
+      "psychology",
+      "consciousness",
+      "philosophy",
+      "spirituality",
+      "anthropology",
+      "nutrition"
+    ],
+    "people": [
+      "Timothy D. Wilson",
+      "Daniel Kahneman",
+      "David McRaney",
+      "Martha Stout",
+      "Hervey Cleckley",
+      "Andrzej Lobaczewski",
+      "Bob Altemeyer",
+      "Aleta Edwards",
+      "Alice Miller",
+      "Gustave Le Bon",
+      "Laura Knight-Jadczyk",
+      "P.D. Ouspensky",
+      "Boris Mouravieff",
+      "G.I. Gurdjieff",
+      "Fulcanelli",
+      "Marc Bloch",
+      "Thomas L. Thompson",
+      "John Keel",
+      "Mircea Eliade",
+      "Manly Hall",
+      "Barbara Marciniack",
+      "Carla Rueckert",
+      "Don Elkins",
+      "Jim McCarty",
+      "Rupert Sheldrake",
+      "Joseph Campbell",
+      "Alexander Solschenizyn",
+      "Adolf Hitler",
+      "Stephen W. Porges",
+      "Jaak Panksepp",
+      "Lucy Biven",
+      "Warren Farrell",
+      "Andreas Bunkahle",
+      "Umberto Eco",
+      "Morri Jessup",
+      "Robert Monroe",
+      "Nora T. Gedgaudas",
+      "Christian B. Allan",
+      "Wolfgang Lutz",
+      "Catherine Shanahan",
+      "Luke Shanahan",
+      "Mark Hyman",
+      "Stephanie Donaldson-Pressman",
+      "Robert M. Pressman",
+      "Elan Golomb",
+      "Carlos Castaneda",
+      "Erich von Däniken",
+      "Karla Turner",
+      "David Icke",
+      "Stephen Hawking",
+      "Richard Dawkins",
+      "Brian Greene"
+    ],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "sources_page"
+    },
+    "normalization_notes": [
+      "German section heading translated as \"Sources\".",
+      "Source entries normalized as a reference list for the book's back matter."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "list",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "language",
+        "page_number",
+        "section_title",
+        "topic_keywords",
+        "work_title"
+      ]
+    },
+    "fields": {
+      "language": "de",
+      "page_number": 102,
+      "section_title": "Sources",
+      "topic_keywords": [
+        "sources",
+        "references",
+        "bibliography",
+        "psychology",
+        "consciousness",
+        "philosophy",
+        "spirituality",
+        "anthropology",
+        "nutrition"
+      ],
+      "work_title": "Bewusstseinsreisen - Version 2"
+    },
+    "rows": [
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 0,
+        "paragraph_text": "Sources list for the book, covering psychology, consciousness, philosophy, religion, anthropology, UFO studies, nutrition, and related academic and popular-science reading."
+      }
+    ],
+    "free_text": "book_page book_back_matter reference_section Sources section from Bewusstseinsreisen - Version 2, page 102. Reference list of books and authors spanning psychology, consciousness, philosophy, religion, anthropology, UFO studies, nutrition, and academic reading."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.88,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+    }
+  }
+}

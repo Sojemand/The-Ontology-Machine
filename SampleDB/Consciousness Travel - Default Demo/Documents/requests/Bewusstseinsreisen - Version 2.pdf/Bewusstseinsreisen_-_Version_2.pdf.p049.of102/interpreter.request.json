@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=049-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:521598bd9d0a41133285afa691e69c73626f9e4f08924d0f929e4a68731fdcfa",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 49,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=049-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 49,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_049.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page49_para_0",
+        "type": "paragraph",
+        "value": "Filme du wann gesehen hast. Das sind alles Dinge an die man sich halbwegs erinnern kann",
+        "position": {
+          "page": 49,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page49_para_1",
+        "type": "paragraph",
+        "value": "oder auch nicht. Sie haben alle eine verschwommene, „wattige“ Qualität. Dann gibt es jene, die",
+        "position": {
+          "page": 49,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page49_para_2",
+        "type": "paragraph",
+        "value": "sich wie eingebrannt festgesetzt haben. Sie haben eine sehr solide, sehr bunte und",
+        "position": {
+          "page": 49,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page49_para_3",
+        "type": "paragraph",
+        "value": "facettenreiche Qualität. Wenn man sich an sie erinnert, dann sieht man nichts, oder nur sehr",
+        "position": {
+          "page": 49,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page49_para_4",
+        "type": "paragraph",
+        "value": "wenig verschwommen. Du kannst deine Gefühle beschreiben, was du dachtest, wie deine",
+        "position": {
+          "page": 49,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page49_para_5",
+        "type": "paragraph",
+        "value": "Umgebung aussah und wie alles zusammenspielte. Von jenen Erinnerungen gibt es nur sehr",
+        "position": {
+          "page": 49,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page49_para_6",
+        "type": "paragraph",
+        "value": "wenige, was sie umso mehr herausstechen lässt. Ich bin mir sicher jeder, der ein wenig in",
+        "position": {
+          "page": 49,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page49_para_7",
+        "type": "paragraph",
+        "value": "seinem Geist forscht, wird eine Hand voll davon finden. Sie sind und bleiben lebendig, auch",
+        "position": {
+          "page": 49,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page49_para_8",
+        "type": "paragraph",
+        "value": "wenn sie sich bereits weit zurück in der Kindheit zugetragen haben. Selbst moderne Theorien",
+        "position": {
+          "page": 49,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page49_para_9",
+        "type": "paragraph",
+        "value": "können nicht wirklich erklären, warum und wodurch sie entstehen. Man nimmt an, dass sich",
+        "position": {
+          "page": 49,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page49_para_10",
+        "type": "paragraph",
+        "value": "besonders emotionsbelastete Umstände so festsetzen, wie etwa ein Trauma oder wenn man",
+        "position": {
+          "page": 49,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page49_para_11",
+        "type": "paragraph",
+        "value": "besonders aufgeregt ist, naja, was sich Psychologen halt so ausdenken wenn sie Langeweile",
+        "position": {
+          "page": 49,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page49_para_12",
+        "type": "paragraph",
+        "value": "haben. Allerdings wurde noch kein wirkliches Muster oder Mechanismus entdeckt, was uns",
+        "position": {
+          "page": 49,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page49_para_13",
+        "type": "paragraph",
+        "value": "eine schlüssige Begründung liefert. Diese Art Erinnerung ist weiterhin ein Mysterium für alle",
+        "position": {
+          "page": 49,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page49_para_14",
+        "type": "paragraph",
+        "value": "Beteiligten.",
+        "position": {
+          "page": 49,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page49_para_15",
+        "type": "paragraph",
+        "value": "Und mit Sicherheit wird es auch Leser geben, die solche Erinnerungen haben, die weder mit",
+        "position": {
+          "page": 49,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page49_para_16",
+        "type": "paragraph",
+        "value": "einem Trauma, noch mit Aufregung oder sonst was in Verbindung zu stehen scheinen. In der",
+        "position": {
+          "page": 49,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page49_para_17",
+        "type": "paragraph",
+        "value": "Tat erscheinen sie zufällig, genau wie das Erlebnis sich selbst reden zu hören, das ähnlich",
+        "position": {
+          "page": 49,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page49_para_18",
+        "type": "paragraph",
+        "value": "starke Erinnerungen schafft, denn sonst könnte man sich ja nicht daran erinnern richtig? Diese",
+        "position": {
+          "page": 49,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page49_para_19",
+        "type": "paragraph",
+        "value": "Erinnerungen entstehen und können bewusst erschaffen werden durch eine Eigenschaft des",
+        "position": {
+          "page": 49,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page49_para_20",
+        "type": "paragraph",
+        "value": "Gewahrseins, wie sollte es auch anders sein. Der Mechanismus des zufälligen Entstehens",
+        "position": {
+          "page": 49,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page49_para_21",
+        "type": "paragraph",
+        "value": "solcher Erinnerungen ist so interessant, dass er eine eigene Erwähnung verdient.",
+        "position": {
+          "page": 49,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page49_para_22",
+        "type": "paragraph",
+        "value": "Unsere Maschine mit all ihren Systemen ist sehr effizient. Sie hat für alles Schablonen und",
+        "position": {
+          "page": 49,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page49_para_23",
+        "type": "paragraph",
+        "value": "vorgefertigte Abläufe und je älter wir werden, desto mehr Schablonen und Automatismen",
+        "position": {
+          "page": 49,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page49_para_24",
+        "type": "paragraph",
+        "value": "werden angehäuft, ganz so wie der Wanderer im Dschungel fleißig sein Zauberbuch mit neuen",
+        "position": {
+          "page": 49,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page49_para_25",
+        "type": "paragraph",
+        "value": "Sprüchen und Ritualen füllt. Nicht umsonst erscheinen wir umso sturer je älter wir sind. Wenn",
+        "position": {
+          "page": 49,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page49_para_26",
+        "type": "paragraph",
+        "value": "die Maschine sich in einer Situation befindet, wofür sie bereits eine bewährte Schablone hat,",
+        "position": {
+          "page": 49,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page49_para_27",
+        "type": "paragraph",
+        "value": "wir diese einfach abgespielt und sie ist glücklich. Schablonen werden für alles erstellt. Für",
+        "position": {
+          "page": 49,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page49_para_28",
+        "type": "paragraph",
+        "value": "Arbeitsabläufe im Beruf, für Verhaltensabläufe in sozialen Situationen, für Fertigkeiten wie das",
+        "position": {
+          "page": 49,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page49_para_29",
+        "type": "paragraph",
+        "value": "Radfahren oder Laufen, für politische Weltanschauungen oder bevorzugte Philosophien,",
+        "position": {
+          "page": 49,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page49_para_30",
+        "type": "paragraph",
+        "value": "einfach für alles was eine Reaktion der Maschine auf Reize erfordert. Vorgefertigte Schablonen",
+        "position": {
+          "page": 49,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page49_para_31",
+        "type": "paragraph",
+        "value": "sind um so vieles effizienter als jedes mal alles neu zu berechnen. Und unsere Maschine ist so",
+        "position": {
+          "page": 49,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page49_para_32",
+        "type": "paragraph",
+        "value": "gut darin Schablonen zu schaffen, dass sie auch leicht andere für neue Situationen nahezu",
+        "position": {
+          "page": 49,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

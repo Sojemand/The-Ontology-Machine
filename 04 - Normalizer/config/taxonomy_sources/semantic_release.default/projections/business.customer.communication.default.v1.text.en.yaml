@@ -1,0 +1,40 @@
+label: Customer Communication Default v1
+description: Default projection for customer-facing service, contract, and account
+  communication without full invoice structure.
+routing:
+  when_to_use: Customer letters, account notices, welcome messages, service updates,
+    and provider communication.
+  avoid_when: Not for full invoices, detailed account statements, housing management,
+    official notices, medical administration, or technical asset documentation.
+routing_lexicon:
+  text_markers:
+  - customer number
+  - customer service
+  - welcome
+  - contract number
+  - customer account
+  - mail forwarding
+  - phone number
+  - customer care
+  - welcome message
+  - address change
+  domain_markers:
+    business:
+    - customer number
+    - customer account
+    - customer care
+    - welcome message
+    - customer service
+    - welcome
+    administrative:
+    - address change
+    - address
+    - notice
+    - service
+    finance:
+    - customer account
+    - payment
+    - amount
+    legal:
+    - contract number
+    - contract

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:38:37.463423+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "A philosophical/nonfiction book page with continuous prose and an in-text section heading is visible.",
+      "matched_signals": [
+        "continuous prose",
+        "section heading",
+        "book page"
+      ]
+    },
+    "page_number": 28,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=028-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page28_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 28,
+        "sequence": 1,
+        "text": "naher Zukunft wirklich mit dem Sensenmann tanzen geht. Nichts motiviert mehr als die Gewissheit am Morgen gehängt zu werden. Wir können uns leicht vorstellen, wie ein solcher jemand plötzlich Energien in sich entdeckt, von denen er vorher keine Ahnung hatte. Wir können uns auch gut vorstellen, wie er alles daran setzen wird, dem Schnitter so lange es geht zu entkommen, auch wenn er sich dazu in einer Art quälen muss die er früher niemals freiwillig in Kauf genommen hätte. Aber wisst ihr, diese Entscheidung hat nicht er getroffen. Sie wurde für ihn getroffen und seine Emotionen sind es, die ihn nun vor sich her treiben, in der Angst vor dem Schmerz der da lauert wenn er innehält. Da fragt man sich doch schon wieder, wer hier wirklich das Sagen hat.",
+        "function": "argues_for_emotional_control",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page28_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 28,
+        "sequence": 2,
+        "text": "Und erneut sehen wir, dass unser bewusstes Ich, im Vergleich mit dem was sich im Dunkel um uns herum abspielt ein Zwerg auf der Schulter eines Riesen ist. Aber damit sind wir noch lange nicht am Ende. Deine Mustererkennung mag dir die Welt so zeigen, wie sie das für richtig hält und dein emotionales System mag deine Gefühle steuern wie ein Puppenspieler seine Figuren, aber da ist noch ein anderer Riese der sich hinter dir verbirgt und der sich darum kümmert, dass du nicht auf der Stelle tot umfällst:",
+        "function": "introduces_hidden_regulation",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page28_Segment3",
+        "unit_kind": "title_line",
+        "page": 28,
+        "sequence": 3,
+        "text": "Homöostase Die wunderbare Welt des verborgenen Supercomputers – Überlegene Selbsterhaltung",
+        "function": "section_heading",
+        "confidence": 0.93
+      },
+      {
+        "segment_id": "Page28_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 28,
+        "sequence": 4,
+        "text": "Sind sich die meisten Menschen eigentlich darüber im Klaren, dass ihr Körper ständig eine Temperatur zwischen 36.5 und 37.5 Grad Celsius aufrecht erhält? Kann schon sein, ist aber jetzt auch keine große Überraschung, wir sind ja Säugetiere und das ist halt was Säugetiere so tun. Allerdings muss man auch erwähnen, unter welchen Umständen der Körper das zu tun in der Lage ist. Völlig egal ob draußen nun -40 oder +50 Grad herrschen, unserer eigener Körper pendelt immer in diesem winzigen Wohlfühlfenster umher. Das ist an sich schon bemerkenswert und deutet an, dass hier unter der Haube einiges mehr los ist als es den Anschein hat.",
+        "function": "explains_temperature_homeostasis",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page28_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 28,
+        "sequence": 5,
+        "text": "Unser Körper hat ganze 16 Subsysteme, die nur dazu da sind, das delikate Gleichgewicht der Homöostase aufrecht zu erhalten. Darunter Osmoseregulation, Blutdruck, Hormone, Thermo- und Energiehaushalt, Nährstoffbalance, Schlafregulation, Säure-Basen Haushalt und der gleichen mehr. Unter normalen Umständen bemerken wir davon reichlich wenig, sollte aber einmal etwas in Schieflage geraten, haben wir ganz schnell ein wirkliches Problem, welches auch mal schnell den Tod zur Folge haben kann.",
+        "function": "describes_homeostatic_subsystems",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page28_Segment6",
+        "unit_kind": "narrative_paragraph",
+        "page": 28,
+        "sequence": 6,
+        "text": "In unserem täglichen Leben handeln wir zwar nicht bewusst im Auftrag dieser Systeme, sie",
+        "function": "continued_argument",
+        "confidence": 0.9
+      }
+    ],
+    "free_text": "Bewusstsein, Emotionen, Homöostase, Selbsterhaltung, Körpertemperatur, Subsysteme"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=028-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:136276bdc7d1f43afb1d3ec11d8ddb2df20274562d6bead09eb47800e4a66860",
+    "created_at": null,
+    "modified_at": null
+  }
+}

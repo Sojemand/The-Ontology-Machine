@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:54:24.916861+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 67,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=067-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.93,
+      "reason": "A philosophical nonfiction book page with continuous argumentative paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "philosophical writing",
+        "continuous paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page67_Segment1",
+        "unit_kind": "argumentative_paragraph",
+        "page": 67,
+        "sequence": 1,
+        "text": "Das gründet auf der einfachen Tatsache, dass sich zum Beispiel auf Grundlage der Traumregeln eine augenscheinlich widerspruchsfreie Konversation über das Mysterium des Universums entspinnen kann. Alle Beteiligten können Bücher und Gedanken und Theorien schreiben und wälzen und sich ob ihrer eigenen Klugheit erhaben fühlen. Niemand nimmt dabei Anstoß an den irrationalen Regeln des Traumes an sich. Dabei bedürfte es nur einen kurzen Blick aus der Warte des Wachzustandes, um zu erkennen, dass keine Idee und keine Philosophie je im Erkennen des Vorhandenseins eines Wachbewusstseins münden wird. Ja mehr noch, alle Vorstellungen über Moral und des Seins an sich, müssen aus der Warte des Wachbewusstseins absurd erscheinen, da es die Welt nach untergeordneteren, „echteren“ Regeln gliedert, die den Traumphilosophen nicht zugänglich sind.",
+        "function": "contrast_dream_reasoning_with_waking_awareness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page67_Segment2",
+        "unit_kind": "argumentative_paragraph",
+        "page": 67,
+        "sequence": 2,
+        "text": "Die einzige Möglichkeit der Traumphilosophen bestünde darin, sich zu einigen, nur das als Gegenstand einer Diskussion anzuerkennen, was für alle gleich erscheint. Vielleicht würden sie es schaffen zu erkennen, dass die Welt und ihre Regeln sehr merkwürdig sind und es nur sehr wenige Dinge gibt, die Allen gleich erscheinen und das alles was ihnen gleich erscheint, durch kein Modell ihrer Welt erklärt werden kann. Ob sie von dieser Erkenntnis den Sprung hin zum postulieren eines Wachbewusstseins schaffen würden ist eine andere Frage.",
+        "function": "propose_shared_observation_as_method",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page67_Segment3",
+        "unit_kind": "reflective_paragraph",
+        "page": 67,
+        "sequence": 3,
+        "text": "Wir als waches Volk haben uns zwar bereits auf ein solches Vorgehen geeinigt, wenn es um die Phänomene der Natur geht, und haben es Wissenschaft genannt, mit spektakulären Erfolgen, aber wir beharren immer noch auf der Subjektivität des Erlebens als Grundlage für das Verständnis unseres eigenen Seins und seinen Möglichkeiten. Mir fällt dazu kein guter Grund ein, außer unserer Angst vor der Offenlegung der eigenen Widersprüche, die da unweigerlich folgen würde, sähe man nur das als wirklichen Teil unseres Selbst an, was uns allen gleich erscheint. So müssten wir anerkennen, dass wir alle uns wie Ratten vor dem Licht scheuen zuzugeben, wie sehr wir uns doch davor fürchten, der Welt unsere Unvollständigkeit, unsere Selbstbezogenheit und unseren permanenten Drang über Alles und Jeden zu lügen, offenzulegen, nur um unser eigenes Selbstbild zu schützen.",
+        "function": "criticize_subjective_self_understanding",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page67_Segment4",
+        "unit_kind": "argumentative_paragraph",
+        "page": 67,
+        "sequence": 4,
+        "text": "Aber um nicht noch weiter abzuschweifen, kommen wir wieder zurück auf die Frage, ob wir es uns überhaupt erlauben können, Vergleiche und Spekulationen zu etwas anzustellen, was zwar nicht unmöglich erscheint, aber dennoch an Bereiche rührt, die uns kaum zugänglich sind. Wir können uns in endlosen Debatten ergehen, welche Philosophie nun einen passenderen Ausgangspunkt bietet oder welche Religion hier die Nase vorne haben könnte. Vielleicht gibt es eine, vielleicht auch nicht. Wer mag das beurteilen. Fakt ist, dass unser",
+        "function": "return_to_guiding_question",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Philosophische Buchseite über Traum, Wachbewusstsein, Wissenschaft und Subjektivität"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=067-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:5c603934888441e016745b32b1d1fbcdc00a38b0c5bad0ca0639f26fab059943",
+    "created_at": null,
+    "modified_at": null
+  }
+}

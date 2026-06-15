@@ -1,0 +1,211 @@
+{
+  "schema_version": "mcp.phase15_legacy_test_disposition.v1",
+  "generated_at": "2026-05-06T12:00:00Z",
+  "source_module": "../07 - MCP Server",
+  "entries": [
+    {
+      "path": "dev-tests/tests/test_agent_permissions.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_permissions_semantic_control_kernel.py"],
+      "reason": "The test still proves MCP permission policy behavior after removing old Kernel tool names."
+    },
+    {
+      "path": "dev-tests/tests/test_contract_healthcheck.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_runtime_manifest_unlinked.py"],
+      "reason": "The test still proves runtime-manifest and healthcheck behavior after unlinking the legacy Kernel payload."
+    },
+    {
+      "path": "dev-tests/tests/test_protocol.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_old_tools_retired.py"],
+      "reason": "The protocol test now validates the visible MCP surface without legacy Kernel names."
+    },
+    {
+      "path": "dev-tests/tests/test_tool_handlers_product_advisory.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_product_semantics_no_workflow_family_ids.py"],
+      "reason": "The advisory test now proves canonical Kernel tool names and separated non-Kernel MCP recommendations."
+    },
+    {
+      "path": "dev-tests/tests/test_tool_subprocess_core.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_non_kernel_tool_regression.py"],
+      "reason": "The subprocess catalog test remains valid after swapping the old Kernel surface for the Semantic Control Kernel surface."
+    },
+    {
+      "path": "dev-tests/tests/test_tool_contract_matrix_golden.py",
+      "disposition": "keep_non_kernel_test_after_rewrite",
+      "replacement_tests": ["dev-tests/tests/test_phase15_registry_unlinked.py"],
+      "reason": "The golden matrix remains a non-Kernel MCP regression test after removing the old catalog dependency."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_capabilities.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers old in-MCP semantic_kernel capabilities and workflow-family execution mechanics only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_catalog.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired action-catalog and workflow-family descriptor package only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_current_environment.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the old MCP-hosted Kernel state/session path and workflow-family surface only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_document_set_refinement.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the old document_set_release_refinement workflow-family implementation only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_end_to_end.py",
+      "disposition": "replace_with_new_phase14_or_phase15_test",
+      "replacement_tests": [
+        "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py",
+        "dev-tests/tests/test_semantic_control_kernel_mcp_dispatch.py",
+        "dev-tests/tests/test_phase15_registry_unlinked.py",
+        "dev-tests/tests/test_phase15_runtime_manifest_unlinked.py"
+      ],
+      "reason": "The old end-to-end file mixes retired catalog, workflow-family and execute-level behavior now covered by Phase 14 and Phase 15 bridge tests."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_errors.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers old semantic_kernel error types, tokens and workflow revisions only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_event_log.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired MCP-hosted Kernel event log only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_execute.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers permission-level execute tools, workflow revisions and action tokens only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_exports.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the old action-catalog export surface only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_human_response.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired human-response helper bound to the old action-catalog surface only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_inspector.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired open/inspect workflow session surface only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_inspector_authority.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers inspector authority rules for the retired workflow-family session model only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_inspector_guards.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers guards for the retired inspect/open workflow surface only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_intake_policy.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers old semantic_kernel intake helpers that no longer participate in the MCP bridge."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_interrupts.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers retired interrupt/close workflow behavior bound to workflow sessions and action tokens only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_mcp_surface.py",
+      "disposition": "replace_with_new_phase14_or_phase15_test",
+      "replacement_tests": [
+        "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py",
+        "dev-tests/tests/test_semantic_control_kernel_mcp_dispatch.py",
+        "dev-tests/tests/test_semantic_control_kernel_mcp_visibility.py",
+        "dev-tests/tests/test_phase15_old_tools_retired.py",
+        "dev-tests/tests/test_phase15_registry_unlinked.py"
+      ],
+      "reason": "The old MCP surface file targeted the retired action-catalog/open/inspect/execute routing."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_product_advisory.py",
+      "disposition": "replace_with_new_phase14_or_phase15_test",
+      "replacement_tests": [
+        "dev-tests/tests/test_tool_handlers_product_advisory.py",
+        "dev-tests/tests/test_phase15_product_semantics_no_workflow_family_ids.py"
+      ],
+      "reason": "The old advisory test targeted workflow-family outputs that were replaced with canonical tool-name advice."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_races.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers race handling in the retired MCP-hosted Kernel state/session store only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_release_refinement.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired release refinement workflow-family implementation only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_roundtrip.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers roundtrip behavior of the retired semantic_kernel response and state models only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_secret_execute.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers execute_admin_workflow_action and old authority tokens only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_secret_fingerprints.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers retired semantic_kernel fingerprint helpers only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_source_fit.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers old source-fit routing through workflow-family selections only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_state.py",
+      "disposition": "delete_in_phase_16",
+      "replacement_tests": [],
+      "reason": "Covers the retired MCP-hosted Kernel state store under `state/semantic_kernel` only."
+    },
+    {
+      "path": "dev-tests/tests/test_semantic_kernel_tool_coverage.py",
+      "disposition": "replace_with_new_phase14_or_phase15_test",
+      "replacement_tests": [
+        "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py",
+        "dev-tests/tests/test_phase15_registry_unlinked.py",
+        "dev-tests/tests/test_phase15_permissions_semantic_control_kernel.py"
+      ],
+      "reason": "The old coverage file targeted the retired semantic_kernel catalog and workflow-family coverage table."
+    }
+  ]
+}

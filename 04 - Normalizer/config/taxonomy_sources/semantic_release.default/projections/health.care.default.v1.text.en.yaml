@@ -1,0 +1,30 @@
+label: Health and Care Default v1
+description: Default projection for medical administration, care, and health-related
+  records.
+routing:
+  when_to_use: Medical administration, treatment plans, prescriptions, health insurance,
+    care levels, and medical certificates.
+  avoid_when: Not for pure identity files, pure financial reimbursements, technical
+    maintenance logs, or community records.
+routing_lexicon:
+  text_markers:
+  - patient
+  - diagnosis
+  - medication
+  - therapy
+  - prescription
+  - insurance
+  domain_markers:
+    health:
+    - patient
+    - therapy
+    - medication
+    people:
+    - insured person
+    - date of birth
+    administrative:
+    - prescription
+    - certificate
+    finance:
+    - reimbursement
+    - invoice

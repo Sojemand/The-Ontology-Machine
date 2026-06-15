@@ -1,0 +1,18 @@
+{
+  "module_key": "semantic_control_kernel",
+  "status": "agent_surface_shell",
+  "contract_version": 1,
+  "runtime_kind": "python",
+  "runtime_path": "runtime/python",
+  "python_version": "3.11",
+  "build_status": "buildable",
+  "normal_operation_requires_host_python": false,
+  "runtime_builder": "root_tools_build_runtimes",
+  "runtime_check_module": "semantic_control_kernel.bootstrap.runtime_report",
+  "notes": [
+    "runtime/runtime-manifest.json is source documentation.",
+    "runtime/python is generated runtime payload, not source truth.",
+    "The runtime contract tracks the active module surface and must stay aligned with module-manifest.json.",
+    "Public workflow execution and release readiness are proven by the phase test matrix, not by this runtime manifest alone."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "<INGEST_ID>",
+    "file_name": "invoice.md",
+    "file_path": "<SOURCE_PATH>",
+    "relative_path": "invoice.md",
+    "file_ext": ".md",
+    "content_hash": "<CONTENT_HASH>",
+    "document_type": "text",
+    "size_bytes": 57,
+    "is_scan": false
+  },
+  "extraction": {
+    "plugin_name": "markdown-text",
+    "plugin_version": "2.0.0",
+    "processing_time_ms": 0,
+    "ocr_used": false
+  },
+  "metadata": {
+    "word_count": 8,
+    "line_count": 6,
+    "heading_count": 1,
+    "headings": "Rechnung RE-2026-001",
+    "has_code_blocks": false,
+    "code_block_count": 0,
+    "list_item_count": 0,
+    "is_markdown": true
+  },
+  "context": {
+    "source_document_path": "invoice.md"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "heading_0",
+        "type": "header",
+        "value": "Rechnung RE-2026-001",
+        "formatting": {
+          "bold": true
+        }
+      },
+      {
+        "id": "para_0",
+        "type": "paragraph",
+        "value": "Muster GmbH"
+      },
+      {
+        "id": "para_1",
+        "type": "paragraph",
+        "value": "Gesamt: 1200,00 EUR"
+      }
+    ]
+  }
+}

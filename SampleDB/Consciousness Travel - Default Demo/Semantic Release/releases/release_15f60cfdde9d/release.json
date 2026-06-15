@@ -1,0 +1,1411 @@
+{
+  "schema_version": "1.0",
+  "release_id": "release_15f60cfdde9d",
+  "release_version": "custom.v1",
+  "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+  "master_taxonomy_version": "merged.v1",
+  "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+  "runtime_locale": "en",
+  "projection_ids": [
+    "merged.projection.e06f90b85302"
+  ],
+  "materialization_version": "1",
+  "created_at": "2026-06-12T08:15:00Z",
+  "fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+  "master_taxonomy": {
+    "categories": [
+      {
+        "aliases": [],
+        "code": "book_front_matter",
+        "description": "Front-of-book content such as preface, introduction, or contents pages in a coherent nonfiction work.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Book front matter",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "book_body_content",
+        "description": "Main argumentative, explanatory, or thematic chapter prose in the body of the nonfiction book.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Book body content",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "book_back_matter",
+        "description": "Back-of-book reference or closing material such as sources, notes, or similar supporting sections.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Book back matter",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback category for in-scope content that does not match a more specific category.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "book_content",
+        "description": "Primary authored content of a book page rather than front matter, index, reference apparatus, or transactional material.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Book Content",
+        "status": "active"
+      }
+    ],
+    "cell_codes": [
+      {
+        "aliases": [],
+        "code": "page_number_ref",
+        "description": "Referenced page number associated with a table of contents entry or similar navigational listing.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Page number reference",
+        "semantic_binding": {
+          "attribute_code": "page_number_ref",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_number_ref",
+        "description": "Referenced chapter number associated with a chapter listing or heading reference.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Chapter number reference",
+        "semantic_binding": {
+          "attribute_code": "chapter_number_ref",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback cell code for row-level values that do not match a more specific cell code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "semantic_binding": {
+          "attribute_code": "other",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "prose_text",
+          "paragraph_content"
+        ],
+        "code": "paragraph_text",
+        "description": "The extracted prose text carried by a paragraph block row, including reflective or argumentative narrative content.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Paragraph Text",
+        "semantic_binding": {
+          "attribute_code": "paragraph_text",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      }
+    ],
+    "document_types": [
+      {
+        "aliases": [],
+        "allowed_categories": [
+          "book_body_content",
+          "other"
+        ],
+        "allowed_subcategories": [
+          "chapter_section",
+          "other"
+        ],
+        "code": "nonfiction_book_page",
+        "description": "A scanned or extracted prose page from a structured nonfiction book.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Nonfiction book page",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "contents page"
+        ],
+        "allowed_categories": [
+          "book_front_matter",
+          "other"
+        ],
+        "allowed_subcategories": [
+          "table_of_contents",
+          "other"
+        ],
+        "code": "book_table_of_contents_page",
+        "description": "A table of contents page listing chapters or sections with page references within the book.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Book table of contents page",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "allowed_categories": [
+          "other"
+        ],
+        "allowed_subcategories": [
+          "other"
+        ],
+        "code": "other",
+        "description": "Fallback document type for in-family pages that do not match a more specific document type.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "scanned_book_page"
+        ],
+        "allowed_categories": [
+          "book_content",
+          "other"
+        ],
+        "allowed_subcategories": [
+          "chapter_page",
+          "closing_section",
+          "question_section",
+          "theoretical_discussion",
+          "other"
+        ],
+        "code": "book_page",
+        "description": "A single page from a book, typically scanned or extracted, containing prose and optional chapter or section headings.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Book Page",
+        "status": "active"
+      }
+    ],
+    "domains": [
+      {
+        "aliases": [],
+        "code": "book_content",
+        "description": "Book-like textual content pages from a coherent authored work, including front matter, body prose, contents, and back matter.",
+        "label": "Book content",
+        "parent_id": null,
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback domain for terms that do not belong to a more specific semantic domain.",
+        "label": "Other",
+        "parent_id": null,
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "reflective_nonfiction"
+        ],
+        "code": "philosophical_writing",
+        "description": "Long-form reflective or philosophical prose discussing ideas, inner experience, symbols, and conceptual inquiry.",
+        "label": "Philosophical Writing",
+        "parent_id": null,
+        "status": "active"
+      }
+    ],
+    "entity_types": [
+      {
+        "code": "document_fact",
+        "label": "Document Fact"
+      }
+    ],
+    "fallback_codes": {
+      "category": "other",
+      "cell_code": "other",
+      "document_type": "other",
+      "field_code": "other",
+      "row_type": "other",
+      "subcategory": "other"
+    },
+    "field_codes": [
+      {
+        "aliases": [
+          "book title"
+        ],
+        "code": "work_title",
+        "description": "Title of the book or authored work represented by the page.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Work title",
+        "promotion_slot": "title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "work_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "language",
+        "description": "Language of the page text or the work as a whole.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Language",
+        "promotion_slot": "language",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "language"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "page_number",
+        "description": "Current page number within the source work.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Page number",
+        "promotion_slot": "page_number",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "page_number"
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_title",
+        "description": "Title of a chapter when explicitly present or reliably inferable from page headings or contents structure.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Chapter title",
+        "promotion_slot": "chapter_title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "section_title",
+        "description": "Title of a section or subsection within a chapter when explicitly present.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Section title",
+        "promotion_slot": "section_title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "section_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_number",
+        "description": "Number of a chapter when explicitly shown on the page or in associated structure.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Chapter number",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_number"
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback scalar field for extracted document-level values that do not match a more specific field code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "other"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "title_of_book",
+          "work_title"
+        ],
+        "code": "book_title",
+        "description": "Title of the book or work represented by the page set, usually inferred from file naming or repeated document context.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Book Title",
+        "promotion_slot": "title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "book_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "chapter_marker"
+        ],
+        "code": "chapter_label",
+        "description": "Literal chapter marker text such as 'Kapitel' that signals chapter framing without itself being the chapter title.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Chapter Label",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_label"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "subsection_heading",
+          "heading"
+        ],
+        "code": "section_heading",
+        "description": "Subsection or standalone heading within the prose flow that frames the surrounding discussion.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Section Heading",
+        "promotion_slot": "section_heading",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "section_heading"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "topics",
+          "keywords"
+        ],
+        "code": "topic_keywords",
+        "description": "Recurring conceptual topics named or strongly implied by the page text, such as consciousness, dreams, symbolism, or archetypes.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Topic Keywords",
+        "promotion_slot": "topic_keywords",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "topic_keywords"
+        },
+        "status": "active",
+        "value_type": "string"
+      }
+    ],
+    "promotion_slots": [
+      {
+        "cardinality": "single",
+        "description": "Primary work title of the nonfiction book represented by the scanned page.",
+        "display_rank": 10,
+        "label": "Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Language of the page or work for the scanned book content.",
+        "display_rank": 20,
+        "label": "Language",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "language",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Page number of the current page within the source work.",
+        "display_rank": 30,
+        "label": "Page Number",
+        "query_role": "display",
+        "scope": "document",
+        "slot": "page_number",
+        "value_type": "number_or_string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit chapter title associated with the current page when present.",
+        "display_rank": 40,
+        "label": "Chapter Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "chapter_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit section or subsection title associated with the current page when present.",
+        "display_rank": 50,
+        "label": "Section Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "section_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Chapter number or ordinal used to identify the chapter containing the page.",
+        "display_rank": 30,
+        "label": "Chapter Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "chapter_number",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Visible section or subsection heading that frames the current page content.",
+        "display_rank": 50,
+        "label": "Section Heading",
+        "query_role": "display",
+        "scope": "document",
+        "slot": "section_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "multi",
+        "description": "Recurring conceptual topics emphasized by the page text, useful for retrieval and grouping.",
+        "display_rank": 60,
+        "label": "Topic Keywords",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "topic_keywords",
+        "value_type": "string"
+      }
+    ],
+    "role_types": [
+      {
+        "code": "table_of_contents_entry",
+        "label": "Table Of Contents Entry"
+      },
+      {
+        "code": "prose_paragraph",
+        "label": "Prose Paragraph"
+      },
+      {
+        "code": "other",
+        "label": "Other"
+      }
+    ],
+    "row_types": [
+      {
+        "aliases": [
+          "contents entry"
+        ],
+        "code": "table_of_contents_entry",
+        "description": "A repeated navigational row listing a chapter or section title with a page reference.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Table of contents entry",
+        "recommended_cell_codes": [
+          "chapter_number_ref",
+          "page_number_ref"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "table_of_contents_entry",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "paragraph"
+        ],
+        "code": "prose_paragraph",
+        "description": "A paragraph of continuous nonfiction prose or argumentative text.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Prose paragraph",
+        "recommended_cell_codes": [],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "prose_paragraph",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback row type for repeated structures that do not match a more specific row type.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "recommended_cell_codes": [
+          "other"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "other",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "paragraph",
+          "prose_block"
+        ],
+        "code": "paragraph_block",
+        "description": "A continuous prose paragraph or grouped prose block that carries the substantive argument, reflection, or exposition on the page.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Paragraph Block",
+        "recommended_cell_codes": [
+          "paragraph_text"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "paragraph_block",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      }
+    ],
+    "schema_version": "1.0",
+    "subcategories": [
+      {
+        "aliases": [
+          "preface",
+          "introduction"
+        ],
+        "code": "preface_or_introduction",
+        "description": "Opening framing material before the main chapter body, such as a preface or introduction.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Preface or introduction",
+        "parent_category": "book_front_matter",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "inhaltsverzeichnis",
+          "contents"
+        ],
+        "code": "table_of_contents",
+        "description": "Navigational contents listing of chapters and sections in the book.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Table of contents",
+        "parent_category": "book_front_matter",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_section",
+        "description": "Main chapter-section prose within the body of the book.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Chapter section",
+        "parent_category": "book_body_content",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "sources",
+          "references"
+        ],
+        "code": "reference_section",
+        "description": "Sources, references, or other reference-oriented closing material in the work.",
+        "domains": [
+          "book_content"
+        ],
+        "label": "Reference section",
+        "parent_category": "book_back_matter",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback subcategory for in-scope content that does not match a more specific subcategory.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "parent_category": "other",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_page",
+        "description": "A page that visibly begins a chapter or presents clear chapter framing.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Chapter Page",
+        "parent_category": "book_content",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "conclusion_section",
+          "end_section"
+        ],
+        "code": "closing_section",
+        "description": "A concluding or end-focused section that reflects on closure, summary, or final considerations near the end of the work.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Closing Section",
+        "parent_category": "book_content",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "open_questions",
+          "questions_page"
+        ],
+        "code": "question_section",
+        "description": "A page organized around explicit open questions, unresolved inquiry, or reflective prompts.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Question Section",
+        "parent_category": "book_content",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "conceptual_discussion",
+          "essay_discussion"
+        ],
+        "code": "theoretical_discussion",
+        "description": "A page primarily devoted to conceptual argument, explanation, interpretation, or reflective theoretical exposition.",
+        "domains": [
+          "philosophical_writing"
+        ],
+        "label": "Theoretical Discussion",
+        "parent_category": "book_content",
+        "status": "active"
+      }
+    ],
+    "taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "taxonomy_version": "merged.v1"
+  },
+  "projections": [
+    {
+      "schema_version": "1.0",
+      "projection_id": "merged.projection.e06f90b85302",
+      "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+      "description": "Projection for Book Page, Book table of contents page and Nonfiction book page in Book content and Philosophical Writing. It covers Chapter Page, Chapter section, Closing Section and Preface or introduction. It normalizes scalar fields such as Book Title, Chapter number, Chapter title, Language and Page number, repeated rows such as Paragraph Block, Prose paragraph and Table of contents entry and cells such as Chapter number reference, Page number reference and Paragraph T...",
+      "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+      "master_taxonomy_version": "merged.v1",
+      "domain_ids": [
+        "book_content",
+        "other",
+        "philosophical_writing"
+      ],
+      "projection_family": "custom",
+      "projection_version": "merged.v1",
+      "extends": [],
+      "materialization_profile_id": "document_entities.v1",
+      "compatibility": {
+        "source_projection_ids": [
+          "philosophical_book_page.passages.v1",
+          "reflective_nonfiction_book.custom.v1"
+        ]
+      },
+      "promotion_rules": [
+        {
+          "slot": "title",
+          "source_paths": [
+            "content.fields.work_title",
+            "content.fields.book_title"
+          ]
+        },
+        {
+          "slot": "language",
+          "source_paths": [
+            "content.fields.language"
+          ]
+        },
+        {
+          "slot": "page_number",
+          "source_paths": [
+            "content.fields.page_number"
+          ]
+        },
+        {
+          "slot": "chapter_title",
+          "source_paths": [
+            "content.fields.chapter_title"
+          ]
+        },
+        {
+          "slot": "section_title",
+          "source_paths": [
+            "content.fields.section_title"
+          ]
+        },
+        {
+          "slot": "chapter_number",
+          "source_paths": [
+            "content.fields.chapter_number"
+          ]
+        },
+        {
+          "slot": "section_heading",
+          "source_paths": [
+            "content.fields.section_heading"
+          ]
+        },
+        {
+          "slot": "topic_keywords",
+          "source_paths": [
+            "content.fields.topic_keywords"
+          ]
+        }
+      ],
+      "routing": {
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "party_roles": [
+          "other"
+        ],
+        "section_roles": [
+          "heading",
+          "list_item",
+          "paragraph"
+        ],
+        "surface_signals": {
+          "text_markers": [
+            "archetypen",
+            "bewusstsein",
+            "die quelle des lichts",
+            "die wundervolle welt des verborgenen supercomputers",
+            "fragen",
+            "gewahrsein",
+            "inhaltsverzeichnis",
+            "kapitel",
+            "kapitel 1",
+            "kapitel 2",
+            "luzide",
+            "perlen in der dunkelheit",
+            "quellen",
+            "schau in den spiegel",
+            "symbolik",
+            "träume",
+            "vorwort",
+            "wache welt",
+            "über-ich"
+          ],
+          "domain_markers": {
+            "book_content": [
+              "bewusstseinsreisen",
+              "die quelle des lichts",
+              "inhaltsverzeichnis",
+              "kapitel",
+              "perlen in der dunkelheit",
+              "quellen",
+              "vorwort"
+            ],
+            "philosophical_writing": [
+              "archetypen",
+              "bewusstsein",
+              "fragen",
+              "gewahrsein",
+              "kapitel",
+              "luzide",
+              "quellen",
+              "symbolik",
+              "träume",
+              "wache welt",
+              "über-ich"
+            ]
+          },
+          "section_roles": [
+            "heading",
+            "list_item",
+            "paragraph"
+          ],
+          "party_roles": [
+            "other"
+          ]
+        },
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort."
+      },
+      "include_document_types": [
+        "book_page",
+        "book_table_of_contents_page",
+        "nonfiction_book_page",
+        "other"
+      ],
+      "include_categories": [
+        "book_back_matter",
+        "book_body_content",
+        "book_content",
+        "book_front_matter",
+        "other"
+      ],
+      "include_subcategories": [
+        "chapter_page",
+        "chapter_section",
+        "closing_section",
+        "other",
+        "preface_or_introduction",
+        "question_section",
+        "reference_section",
+        "table_of_contents",
+        "theoretical_discussion"
+      ],
+      "include_field_codes": [
+        "book_title",
+        "chapter_number",
+        "chapter_title",
+        "language",
+        "other",
+        "page_number",
+        "section_heading",
+        "section_title",
+        "topic_keywords",
+        "work_title"
+      ],
+      "include_row_types": [
+        "other",
+        "paragraph_block",
+        "prose_paragraph",
+        "table_of_contents_entry"
+      ],
+      "include_cell_codes": [
+        "chapter_number_ref",
+        "other",
+        "page_number_ref",
+        "paragraph_text"
+      ],
+      "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba"
+    }
+  ],
+  "analysis": {
+    "summary": {
+      "taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+      "taxonomy_version": "merged.v1",
+      "projection_count": 1,
+      "field_code_count": 11,
+      "row_type_count": 4,
+      "cell_code_count": 4,
+      "field_binding_coverage": 1.0
+    },
+    "suitability": {
+      "entity_model_ready": true,
+      "projection_growth_ready": true,
+      "on_prem_versioning_ready": false,
+      "deterministic_materialization_ready": true
+    },
+    "issues": [],
+    "warnings": [
+      "Es existiert derzeit nur ein reales Projection-Profil.",
+      "Es existiert noch keine Projection-Komposition ueber extends."
+    ],
+    "recommendations": [
+      "Projection files should actively use extends and compatibility metadata.",
+      "Promotion rules should remain explicitly versioned per projection.",
+      "New domains should grow through projection families instead of special-purpose paths."
+    ]
+  },
+  "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  },
+  "runtime_semantic_assets": {
+    "schema_version": "runtime_semantic_assets_v1",
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "promotion_slots": [
+      {
+        "cardinality": "single",
+        "description": "Primary work title of the nonfiction book represented by the scanned page.",
+        "display_rank": 10,
+        "label": "Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Language of the page or work for the scanned book content.",
+        "display_rank": 20,
+        "label": "Language",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "language",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Page number of the current page within the source work.",
+        "display_rank": 30,
+        "label": "Page Number",
+        "query_role": "display",
+        "scope": "document",
+        "slot": "page_number",
+        "value_type": "number_or_string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit chapter title associated with the current page when present.",
+        "display_rank": 40,
+        "label": "Chapter Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "chapter_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit section or subsection title associated with the current page when present.",
+        "display_rank": 50,
+        "label": "Section Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "section_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Chapter number or ordinal used to identify the chapter containing the page.",
+        "display_rank": 30,
+        "label": "Chapter Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "chapter_number",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Visible section or subsection heading that frames the current page content.",
+        "display_rank": 50,
+        "label": "Section Heading",
+        "query_role": "display",
+        "scope": "document",
+        "slot": "section_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "multi",
+        "description": "Recurring conceptual topics emphasized by the page text, useful for retrieval and grouping.",
+        "display_rank": 60,
+        "label": "Topic Keywords",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "topic_keywords",
+        "value_type": "string"
+      }
+    ],
+    "projection_catalog": {
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "release_id": "release_15f60cfdde9d",
+      "release_version": "custom.v1",
+      "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+      "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+      "master_taxonomy_version": "merged.v1",
+      "projections": [
+        {
+          "projection_id": "merged.projection.e06f90b85302",
+          "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+          "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+          "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+          "example_document_types": [
+            "book_page",
+            "book_table_of_contents_page",
+            "nonfiction_book_page"
+          ],
+          "promotion_rules": [
+            {
+              "slot": "title",
+              "source_paths": [
+                "content.fields.work_title",
+                "content.fields.book_title"
+              ]
+            },
+            {
+              "slot": "language",
+              "source_paths": [
+                "content.fields.language"
+              ]
+            },
+            {
+              "slot": "page_number",
+              "source_paths": [
+                "content.fields.page_number"
+              ]
+            },
+            {
+              "slot": "chapter_title",
+              "source_paths": [
+                "content.fields.chapter_title"
+              ]
+            },
+            {
+              "slot": "section_title",
+              "source_paths": [
+                "content.fields.section_title"
+              ]
+            },
+            {
+              "slot": "chapter_number",
+              "source_paths": [
+                "content.fields.chapter_number"
+              ]
+            },
+            {
+              "slot": "section_heading",
+              "source_paths": [
+                "content.fields.section_heading"
+              ]
+            },
+            {
+              "slot": "topic_keywords",
+              "source_paths": [
+                "content.fields.topic_keywords"
+              ]
+            }
+          ],
+          "field_slot_map": {
+            "work_title": "title",
+            "language": "language",
+            "page_number": "page_number",
+            "chapter_title": "chapter_title",
+            "section_title": "section_title",
+            "book_title": "title",
+            "section_heading": "section_heading",
+            "topic_keywords": "topic_keywords"
+          }
+        }
+      ],
+      "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+      "runtime_locale": "en"
+    },
+    "vision_policy_bundle": {
+      "bundle_version": "vision_policy_bundle_v1",
+      "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+      "ocr_policy": {
+        "policy_version": "ocr_policy_v1",
+        "source_mode": "release_domain_merge",
+        "defaults": {
+          "profile_id": "balanced_text_v1",
+          "scan": {
+            "min_chars_per_page": 50,
+            "use_has_images": true
+          },
+          "vision_route": {
+            "images_always_vision": true,
+            "pdf_scans_use_vision": true
+          },
+          "ocr_plugin": {
+            "preferred_plugin": "optimizer-llm-ocr",
+            "force_backup_on_scan": true
+          },
+          "render": {
+            "page_image_dpi": 150,
+            "page_image_quality": 95,
+            "serializer_quality_mode": "balanced",
+            "ocr_render_dpi": 300
+          }
+        }
+      },
+      "semantic_extraction_policy": {
+        "policy_version": "semantic_extraction_policy_v2",
+        "source_mode": "release_projection_compile",
+        "defaults": {
+          "fallback_projection_id": "merged.projection.e06f90b85302",
+          "resolution": {
+            "min_score": 7,
+            "document_type_weight": 6,
+            "field_weight": 1,
+            "table_role_weight": 2,
+            "field_signal_limit": 4,
+            "table_signal_limit": 3
+          },
+          "default_profile": {
+            "projection_id": "merged.projection.e06f90b85302",
+            "signals": {
+              "document_types": [
+                "book.page",
+                "book.table.of.contents.page",
+                "nonfiction.book.page",
+                "other"
+              ],
+              "field_labels": [
+                "book.title",
+                "chapter.number",
+                "chapter.title",
+                "language",
+                "other",
+                "page.number",
+                "section.heading",
+                "section.title",
+                "topic.keywords",
+                "work.title"
+              ],
+              "table_roles": [
+                "other",
+                "paragraph.block",
+                "prose.paragraph",
+                "table.of.contents.entry"
+              ],
+              "domains": [
+                "book.content",
+                "other",
+                "philosophical.writing",
+                "book.back.matter",
+                "book.body.content",
+                "book.front.matter"
+              ],
+              "text_markers": [
+                "archetypen",
+                "bewusstsein",
+                "die.quelle.des.lichts",
+                "die.wundervolle.welt.des.verborgenen.supercomputers",
+                "fragen",
+                "gewahrsein",
+                "inhaltsverzeichnis",
+                "kapitel",
+                "kapitel.1",
+                "kapitel.2",
+                "luzide",
+                "perlen.in.der.dunkelheit",
+                "quellen",
+                "schau.in.den.spiegel",
+                "symbolik",
+                "träume",
+                "vorwort",
+                "wache.welt",
+                "über-ich"
+              ],
+              "domain_markers": {
+                "book.content": [
+                  "bewusstseinsreisen",
+                  "die.quelle.des.lichts",
+                  "inhaltsverzeichnis",
+                  "kapitel",
+                  "perlen.in.der.dunkelheit",
+                  "quellen",
+                  "vorwort"
+                ],
+                "philosophical.writing": [
+                  "archetypen",
+                  "bewusstsein",
+                  "fragen",
+                  "gewahrsein",
+                  "kapitel",
+                  "luzide",
+                  "quellen",
+                  "symbolik",
+                  "träume",
+                  "wache.welt",
+                  "über-ich"
+                ]
+              },
+              "section_roles": [
+                "heading",
+                "list.item",
+                "paragraph"
+              ],
+              "party_roles": [
+                "other"
+              ]
+            },
+            "budgets": {
+              "max_sections": 6,
+              "max_section_chars": 850,
+              "max_facts": 9,
+              "max_tables": 1,
+              "max_table_rows": 5
+            },
+            "allowed_section_roles": [
+              "header",
+              "summary",
+              "body",
+              "details",
+              "table",
+              "line_items",
+              "billing",
+              "payment",
+              "notice",
+              "timeline",
+              "participants",
+              "contact_block",
+              "metadata",
+              "vision_section",
+              "ocr_chunk",
+              "other"
+            ],
+            "allowed_synthetic_section_roles": [
+              "header"
+            ],
+            "allowed_fact_families": [
+              "document",
+              "reference",
+              "counterparty",
+              "money",
+              "date",
+              "payment",
+              "contact",
+              "other"
+            ],
+            "rescue_families": {
+              "document_header": true,
+              "invoice_financial": false,
+              "payment": false
+            },
+            "table_compaction": {
+              "drop_text_only_rows": true,
+              "max_rows_per_table": 5
+            }
+          }
+        },
+        "projection_overrides": {}
+      }
+    },
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

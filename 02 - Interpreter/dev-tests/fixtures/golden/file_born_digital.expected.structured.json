@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.87,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "model": "gpt-5.4",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "contract",
+    "document_type_confidence": 0.89,
+    "category": "legal",
+    "subcategory": null,
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "document_title": "Golden Datei",
+    "date_range": {"from": null, "to": null},
+    "case_id": "golden-file",
+    "reference_number": "A-1",
+    "document_number": "A-1",
+    "invoice_number": "A-1"
+  },
+  "content": {
+    "structure": {"type": "contract", "columns": [], "form_fields": []},
+    "fields": {"reference_number": "A-1"},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page1_Segment1",
+        "unit_kind": "clause",
+        "page": 1,
+        "sequence": 1,
+        "text": "Golden Datei Klausel A"
+      }
+    ],
+    "free_text": "Golden Datei"
+  },
+  "source": {
+    "file_name": "golden_file.pdf",
+    "file_path": "golden_file.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:golden-file",
+    "created_at": null,
+    "modified_at": null
+  }
+}

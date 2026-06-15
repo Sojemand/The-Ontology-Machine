@@ -1,0 +1,12 @@
+{
+  "drift_preflight": "build_plan_authority_applied",
+  "phase": "Phase 1 - Runtime, Dev-Test Wiring And Fail-Closed Contract Shell",
+  "authority": "SPEC_Semantic_Control_Kernel_Build.md",
+  "referenced_specs": [
+    {
+      "path": "../Semantic Kernel SPEC/01_kernel_scope_state_terminology.md",
+      "result": "omits_phase1_runtime_manifest_devtest_and_subprocess_shell_details",
+      "implemented_detail_source": "build_plan_phase_1"
+    }
+  ]
+}

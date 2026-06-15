@@ -1,0 +1,22 @@
+{
+  "acquired_at": "2026-05-05T00:00:00Z",
+  "expiry_policy": {
+    "expires_at": "2026-05-05T12:00:00Z",
+    "heartbeat_required": true,
+    "ttl_seconds": 43200
+  },
+  "lock_id": "lock_id_example",
+  "lock_type": "database",
+  "owner_workflow_run_id": "owner_workflow_run_id_example",
+  "schema_version": "kernel.lock_state.v1",
+  "status": "active",
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "database",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  },
+  "unexpected_phase2_field": "example"
+}

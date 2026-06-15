@@ -1,0 +1,100 @@
+{
+  "stages": {
+    "extract": {
+      "status": "ok",
+      "raw_fixture": "raw.json",
+      "page_fixtures": [
+        "page_001.jpg"
+      ]
+    },
+    "interpret": {
+      "status": "ok",
+      "structured_fixture": "structured.json",
+      "needs_review": false,
+      "review_reason": ""
+    },
+    "validate": [
+      {
+        "status": "FAIL",
+        "report_fixture": "validation_report.json",
+        "needs_review": true,
+        "detail": "FAIL (issues=1, fail=1, warn=0)"
+      },
+      {
+        "status": "FAIL",
+        "report_fixture": "validation_report.json",
+        "needs_review": true,
+        "detail": "FAIL (issues=1, fail=1, warn=0)"
+      },
+      {
+        "status": "FAIL",
+        "report_fixture": "validation_report.json",
+        "needs_review": true,
+        "detail": "FAIL (issues=1, fail=1, warn=0)"
+      }
+    ]
+  },
+  "expected": {
+    "summary": {
+      "total": 1,
+      "success": 0,
+      "errors": 1,
+      "needs_review": 0,
+      "retries": 2
+    },
+    "record": {
+      "status": "error",
+      "final_disposition": "error",
+      "current_location": "error_bundle",
+      "last_stage": "Validator",
+      "attempts": 1,
+      "failed_attempts": 3,
+      "review_reason": ""
+    },
+    "suffixes": {
+      "source_path": "Error Cases/Validator/Documents/originals/dental_invoice.pdf",
+      "artifacts.bundle_dir": "Error Cases/Validator/Documents",
+      "artifacts.bundle_manifest_path": "Error Cases/Validator/Documents/logs/dental_invoice.pdf.error_manifest.json"
+    },
+    "present": [
+      "Error Cases/Validator/Documents/logs/dental_invoice.pdf.error_manifest.json",
+      "Error Cases/Validator/Documents/logs/dental_invoice.pdf.run.log",
+      "Error Cases/Validator/Documents/originals/dental_invoice.pdf",
+      "Error Cases/Validator/Documents/raw_extracts/dental_invoice.pdf.raw.json",
+      "Error Cases/Validator/Documents/structured/dental_invoice.pdf.structured.json",
+      "Error Cases/Validator/Documents/validation/dental_invoice.pdf.files_validation_report.json"
+    ],
+    "absent": [
+      "Documents/raw_extracts/dental_invoice.pdf.raw.json",
+      "Documents/page_images/dental_invoice.pdf.{hash8}/page_001.jpg",
+      "Documents/structured/dental_invoice.pdf.structured.json",
+      "Documents/validation/dental_invoice.pdf.files_validation_report.json",
+      "Documents/normalized/dental_invoice.pdf.structured.normalized.json",
+      "Documents/originals/dental_invoice.pdf",
+      "Documents/logs/dental_invoice.pdf.run.log"
+    ],
+    "corpus_db": false,
+    "manifest": {
+      "path": "Error Cases/Validator/Documents/logs/dental_invoice.pdf.error_manifest.json",
+      "fields": {
+        "bundle_module": "Validator",
+        "bundle_stage": "Validator",
+        "bundle_reason": "FAIL (issues=1, fail=1, warn=0) (max 3 errors reached)",
+        "bundle_disposition": "error",
+        "final_disposition": "error",
+        "last_stage": "Validator"
+      }
+    }
+  },
+  "expected_reset": {
+    "cleared_records": 1,
+    "restored_sources": 1,
+    "renamed_conflicts": 0,
+    "min_removed_targets": 1,
+    "source_restored": "dental_invoice.pdf",
+    "removed_artifact_paths": [
+      "Error Cases"
+    ],
+    "removed_corpus_files": []
+  }
+}

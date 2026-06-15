@@ -1,0 +1,394 @@
+[
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.category",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.document_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.document_type_confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.has_handwriting",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.is_scan",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.language",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.page_count",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.classification.subcategory",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.fields.document_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.fields.other.recipient_primary",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.free_text",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.rows[]._row_index",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.rows[]._row_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.rows[].other.betrag",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.rows[].other.position",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.structure.columns[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.structure.form_fields[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.content.structure.type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.company",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.currencies[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.date_range.from",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.date_range.to",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.description",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.document_date",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.document_title",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.locations[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.normalization_notes[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.organizations[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.people",
+    "value_kind": "empty_list",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.raw_classification.category",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.raw_classification.document_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.raw_classification.subcategory",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.recipient_primary",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.tags[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.taxonomy_profile_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.context.total_monetary_value",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.model",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.model_confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.needs_review",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.processed_at",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.provider",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.review_reason",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.processing.vision_used",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.materialization_profile_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.projection_family",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.projection_fingerprint",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.projection_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.selection.catalog_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.selection.hint_confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.selection.hint_projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.selection.mode",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.projection.selection.reason",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "downstream_payload"
+  },
+  {
+    "artifact_kind": "normalized_output_04_downstream",
+    "json_path": "$.schema_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "downstream_payload"
+  }
+]

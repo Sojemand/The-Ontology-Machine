@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=041-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:985041baa0f381da1ba749390c05c82db1bee282ccf88639e5a1da35c995f17f",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 41,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=041-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page41_para_0",
+        "type": "paragraph",
+        "value": "Atmung“ überhaupt gibt. Wir erinnern uns jedes mal auf Neue, dass wir bewusst atmen können,",
+        "position": {
+          "page": 41,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page41_para_1",
+        "type": "paragraph",
+        "value": "wenn unser Hirn uns die Kontrolle aufdrängt, weil wir doch bitte stärker und tiefer atmen sollen,",
+        "position": {
+          "page": 41,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page41_para_2",
+        "type": "paragraph",
+        "value": "oder wir uns bewusst entscheiden es zu tun. Das hört sich verrückt an, ist aber eine tägliche",
+        "position": {
+          "page": 41,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page41_para_3",
+        "type": "paragraph",
+        "value": "Realität und ein netter Beweis, wie blind wir gegenüber uns selbst sind.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page41_para_4",
+        "type": "paragraph",
+        "value": "Wenn also etwas in den Kreis unseres Gewahrseins tritt, befindet es sich innerhalb des",
+        "position": {
+          "page": 41,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page41_para_5",
+        "type": "paragraph",
+        "value": "Zaunes und damit innerhalb unserer Welt. Wir können es betrachten, es darin festhalten, uns",
+        "position": {
+          "page": 41,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page41_para_6",
+        "type": "paragraph",
+        "value": "daran erinnern, es benennen und wenn es etwas ist was wir kontrollieren können, auch damit",
+        "position": {
+          "page": 41,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page41_para_7",
+        "type": "paragraph",
+        "value": "herumspielen. Driftet es aus diesem Kreis hinaus, so verschwindet es im Dunkel und es hört",
+        "position": {
+          "page": 41,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page41_para_8",
+        "type": "paragraph",
+        "value": "für unser Gewahrsein auf zu existieren. Wir können es nicht mehr sehen, es nicht mehr",
+        "position": {
+          "page": 41,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page41_para_9",
+        "type": "paragraph",
+        "value": "benennen und auch nicht mehr kontrollieren, selbst wenn es etwas ist, was wir prinzipiell",
+        "position": {
+          "page": 41,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page41_para_10",
+        "type": "paragraph",
+        "value": "beeinflussen könnten, wie etwa unsere Atmung. Ja wir können uns nicht einmal mehr daran",
+        "position": {
+          "page": 41,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page41_para_11",
+        "type": "paragraph",
+        "value": "erinnern, dass es jemals existiert hat. Ein wenig so wie die „Stille“ aus Doktor Who. Es ist das",
+        "position": {
+          "page": 41,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page41_para_12",
+        "type": "paragraph",
+        "value": "gleiche Dilemma welches mir verbietet herauszufinden, ob ich denn nun ständig jedes",
+        "position": {
+          "page": 41,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page41_para_13",
+        "type": "paragraph",
+        "value": "Nummernschild unbewusst ansehe oder nicht.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page41_para_14",
+        "type": "paragraph",
+        "value": "Unsere Atmung ist deshalb ein so gutes Beispiel, weil sie so häufig in unser Gewahrsein hinein",
+        "position": {
+          "page": 41,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page41_para_15",
+        "type": "paragraph",
+        "value": "und wieder hinaus treibt, wie kaum etwas anderes und uns ohne Umwege immer zugänglich ist.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page41_para_16",
+        "type": "paragraph",
+        "value": "Es täuscht uns aber auch ein Wenig über die wahre Natur dieses Dilemmas hinweg. Wie es",
+        "position": {
+          "page": 41,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page41_para_17",
+        "type": "paragraph",
+        "value": "sich tatsächlich darstellt und was dieser Zaun tatsächlich ist, das erschließt sich uns dadurch",
+        "position": {
+          "page": 41,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page41_para_18",
+        "type": "paragraph",
+        "value": "nicht wirklich. Dazu müssen wir etwas weiter ausholen und ein besseres Bild entwerfen.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page41_para_19",
+        "type": "paragraph",
+        "value": "Stellt euch dazu vor, ihr seid ein Wissenschaftler, der einen Dschungel erforschen will, welcher",
+        "position": {
+          "page": 41,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page41_para_20",
+        "type": "paragraph",
+        "value": "sich auf einer riesigen Ebene erstreckt. Ihr wisst allerdings nicht, dass es sich dabei um einen",
+        "position": {
+          "page": 41,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page41_para_21",
+        "type": "paragraph",
+        "value": "magischen Dschungel handelt. Ihr macht euch also frohen Mutes daran, ihn zu erforschen.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page41_para_22",
+        "type": "paragraph",
+        "value": "Anfangs seid ihr euch noch darüber im Klaren, euch durch ein riesiges Gebiet zu bewegen,",
+        "position": {
+          "page": 41,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page41_para_23",
+        "type": "paragraph",
+        "value": "welches weit über das hinaus reicht, was ihr in dem Dickicht aus Pflanzen um euch tatsächlich",
+        "position": {
+          "page": 41,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page41_para_24",
+        "type": "paragraph",
+        "value": "sehen könnt. Ihr wisst, dass ihr euch durch den Dschungel bewegt und die Veränderungen der",
+        "position": {
+          "page": 41,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page41_para_25",
+        "type": "paragraph",
+        "value": "Umgebung auf eure eigene Bewegung durch eben jenes Gebilde zurückzuführen sind. Jeder",
+        "position": {
+          "page": 41,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page41_para_26",
+        "type": "paragraph",
+        "value": "Schritt trägt euch an einen anderen Ort. Diese Einsicht ist für euch die natürlichste der Welt. Mit",
+        "position": {
+          "page": 41,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page41_para_27",
+        "type": "paragraph",
+        "value": "der Zeit allerdings geschieht mit euch Seltsames. Ihr beginnt langsam zu vergessen, wie groß",
+        "position": {
+          "page": 41,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page41_para_28",
+        "type": "paragraph",
+        "value": "der Dschungel ist. Die Vorstellung über die tatsächliche Größe des Gebietes schrumpft in",
+        "position": {
+          "page": 41,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page41_para_29",
+        "type": "paragraph",
+        "value": "eurem Kopf völlig unbemerkt von euch immer weiter, bis an einen Punkt, an dem ihr überzeugt",
+        "position": {
+          "page": 41,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page41_para_30",
+        "type": "paragraph",
+        "value": "seid, die Welt um euch herum sei exakt genau so groß wie eure Augen reichen.",
+        "position": {
+          "page": 41,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

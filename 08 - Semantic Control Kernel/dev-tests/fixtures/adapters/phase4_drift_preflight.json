@@ -1,0 +1,21 @@
+{
+  "details": [
+    {
+      "documents": [
+        "Semantic Kernel SPEC/11_kernel_internal_data_contracts.md",
+        "SPEC_Semantic_Control_Kernel_Build.md#Phase 4 - Pipeline Adapter Boundary"
+      ],
+      "reason": "Spec 11 omits Phase 4-local adapter.call_request.v1, adapter.call_response.v1, adapter.call_result.v1 and adapter.missing_capability_blocker.v1 because the build plan keeps them out of the Phase 2 Kernel contract registry."
+    },
+    {
+      "documents": [
+        "00 - Orchestrator/module-manifest.json",
+        "05 - Corpus Builder/module-manifest.json",
+        "04 - Normalizer/module-manifest.json",
+        "SPEC_Semantic_Control_Kernel_Build.md#Phase 4 - Pipeline Adapter Boundary"
+      ],
+      "reason": "Owner manifests now expose the Phase 19 owner-domain actions for artifact-tree hardening, database-analysis evidence, semantic-release mutation, batch/reingest and multi-source merge; Phase 4 therefore treats supported happy paths as owner-backed and reserves typed blockers for incomplete request context or unproven mutation targets."
+    }
+  ],
+  "status": "drift_preflight: build_plan_authority_applied"
+}

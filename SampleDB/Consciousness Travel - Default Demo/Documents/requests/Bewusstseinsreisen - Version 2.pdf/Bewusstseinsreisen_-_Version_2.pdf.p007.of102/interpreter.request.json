@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=007-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:871363251d5a622a50978eaa65e43e5bf2561a7451d96371a182db9dad7f4a65",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 7,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=007-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 7,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_007.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page7_para_0",
+        "type": "paragraph",
+        "value": "Gewissheit.",
+        "position": {
+          "page": 7,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page7_para_1",
+        "type": "paragraph",
+        "value": "Ich möchte euch eine kleine Geschichte erzählen, von einem rechtschaffenen Mann, der harte",
+        "position": {
+          "page": 7,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page7_para_2",
+        "type": "paragraph",
+        "value": "Arbeit und Ehrlichkeit seine Tugenden nennt. Auch er beschreitet seinen eigenen Weg, der",
+        "position": {
+          "page": 7,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page7_para_3",
+        "type": "paragraph",
+        "value": "ihm Mühsal abringt und der ihm irgendwann das bescheren soll, nach was er sich so sehnt:",
+        "position": {
+          "page": 7,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page7_para_4",
+        "type": "paragraph",
+        "value": "Freiheit und Erfüllung. Ein Mann, der das Joch freiwillig auf sich nahm mit dem Versprechen,",
+        "position": {
+          "page": 7,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page7_para_5",
+        "type": "paragraph",
+        "value": "dass er am Ende seines Weges die Belohnung für seine Mühen erhalten möge.",
+        "position": {
+          "page": 7,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page7_para_6",
+        "type": "paragraph",
+        "value": "Er ist ein stoischer Mann, der genau weiß, dass es sich lohnt das Heute für ein besseres",
+        "position": {
+          "page": 7,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page7_para_7",
+        "type": "paragraph",
+        "value": "Morgen zu opfern. Und wenn der Morgen anbricht, so verlangt der neue Tag ein neues Opfer",
+        "position": {
+          "page": 7,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page7_para_8",
+        "type": "paragraph",
+        "value": "für ein neues Morgen. So vergehen die Jahre und das Joch beugt ihn tiefer und tiefer hinab",
+        "position": {
+          "page": 7,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page7_para_9",
+        "type": "paragraph",
+        "value": "und jeder Schritt kostet ihn stetig mehr Kraft als der letzte. Er beginnt zu zweifeln, je an sein",
+        "position": {
+          "page": 7,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page7_para_10",
+        "type": "paragraph",
+        "value": "Ziel gelangen zu können, doch alle um ihn herum scheinen solche Zweifel nicht zu kennen.",
+        "position": {
+          "page": 7,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page7_para_11",
+        "type": "paragraph",
+        "value": "Alle laufen scheinbar mit tiefster Gewissheit gesegnet in die gleiche Richtung, mit Gold",
+        "position": {
+          "page": 7,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page7_para_12",
+        "type": "paragraph",
+        "value": "glänzenden Augen der gleichen Verheißung folgend. Wie konnte er nur zweifeln.",
+        "position": {
+          "page": 7,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page7_para_13",
+        "type": "paragraph",
+        "value": "Eines Tage dann stolpert er über etwas was er nicht sehen konnte. Er fällt und anstatt auf",
+        "position": {
+          "page": 7,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page7_para_14",
+        "type": "paragraph",
+        "value": "harten Granit zu prallen, tauchen seine Hände in kalten und nassen Erdboden. Auf einmal",
+        "position": {
+          "page": 7,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page7_para_15",
+        "type": "paragraph",
+        "value": "verschwimmt das Bild vor seinen Augen und er sieht an sich herab, nur um einen in Lumpen",
+        "position": {
+          "page": 7,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page7_para_16",
+        "type": "paragraph",
+        "value": "gekleideten, von Schlamm verschmierten und mit eiternden Geschwüren überzogenen Leib",
+        "position": {
+          "page": 7,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page7_para_17",
+        "type": "paragraph",
+        "value": "zu entdecken, der ihm nur noch entfernt bekannt vorkommt. Entsetzen durchströmt ihn als er",
+        "position": {
+          "page": 7,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page7_para_18",
+        "type": "paragraph",
+        "value": "erkennt, woher die Schmerzen die er fühlt wirklich stammen. All dies muss ein böser Traum",
+        "position": {
+          "page": 7,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page7_para_19",
+        "type": "paragraph",
+        "value": "sein denkt er, denn wie sollte er sonst hier hin gekommen sein? Er blickt auf und blickt umher",
+        "position": {
+          "page": 7,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page7_para_20",
+        "type": "paragraph",
+        "value": "und sieht andere geschundene Gestalten mit Gold leuchtenden Augen die wie er an Ketten",
+        "position": {
+          "page": 7,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page7_para_21",
+        "type": "paragraph",
+        "value": "Lasten in Kreisen schleppen. Er sieht und hört das Stöhnen und Klagen der Seelen um sich",
+        "position": {
+          "page": 7,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page7_para_22",
+        "type": "paragraph",
+        "value": "und hier und da liegen Tote herum, teilweise frisch, teilweise bereits schon lange verweste",
+        "position": {
+          "page": 7,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page7_para_23",
+        "type": "paragraph",
+        "value": "und von Aasfressern abgenagte Knochen. Ein fauliger Geruch liegt in der Luft der keinen",
+        "position": {
+          "page": 7,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page7_para_24",
+        "type": "paragraph",
+        "value": "Zweifel lässt, dass hier Tod und Krankheit gierige Ernte halten.",
+        "position": {
+          "page": 7,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page7_para_25",
+        "type": "paragraph",
+        "value": "Was er sieht ist ein Bild des Grauens. Das muss die Hölle sein denkt er. Er kann dieses Bild",
+        "position": {
+          "page": 7,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page7_para_26",
+        "type": "paragraph",
+        "value": "keine Sekunde länger mehr ertragen und so schließt er seine Augen und fleht, dass dieser",
+        "position": {
+          "page": 7,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page7_para_27",
+        "type": "paragraph",
+        "value": "Alptraum doch endlich ein Ende haben möge. Als er die Augen wieder öffnet, da findet er sich",
+        "position": {
+          "page": 7,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page7_para_28",
+        "type": "paragraph",
+        "value": "wieder auf der goldenen Straße stehend, genau dort wo dieser Alptraum seinen Anfang",
+        "position": {
+          "page": 7,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page7_para_29",
+        "type": "paragraph",
+        "value": "nahm. Zu seinen Füßen liegt sein schweres Bündel und zu tiefst erleichtert nimmt er es",
+        "position": {
+          "page": 7,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page7_para_30",
+        "type": "paragraph",
+        "value": "wieder auf und er spürt wie die Last auf ihm ruht, wie sie an altbekannten Stellen drückt und",
+        "position": {
+          "page": 7,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

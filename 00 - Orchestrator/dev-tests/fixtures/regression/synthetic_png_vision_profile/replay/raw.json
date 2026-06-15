@@ -1,0 +1,61 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "fixture-synthetic_png_vision_profile-p001",
+    "file_name": "synthetic_form_capture.png",
+    "file_path": "C:/synthetic/input/synthetic_form_capture.png",
+    "relative_path": "C:/synthetic/input/synthetic_form_capture.png",
+    "file_ext": ".png",
+    "content_hash": "sha256:png0vision0profile0000000000000000000000000000000000000000000000",
+    "page_count": 1,
+    "document_type": "form",
+    "language": "de"
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:/synthetic/input/synthetic_form_capture.png",
+    "page_source_path": "C:/synthetic/input/synthetic_form_capture.png::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page1_para_1",
+        "type": "paragraph",
+        "value": "Synthetic image form capture page 1 paragraph 1.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page1_para_2",
+        "type": "paragraph",
+        "value": "Synthetic image form capture page 1 paragraph 2.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page1_para_3",
+        "type": "paragraph",
+        "value": "Synthetic image form capture page 1 paragraph 3.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=065-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:fa4c9a4320aae35adca7bd897f16c940a507a023b8aeedcdce4674cef38814b5",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 65,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=065-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 65,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_065.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page65_para_0",
+        "type": "paragraph",
+        "value": "Aspekte der Physis und des Geistes verschrieben haben. Auch ist dies der Antrieb und die",
+        "position": {
+          "page": 65,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page65_para_1",
+        "type": "paragraph",
+        "value": "Verheißung hinter dem Gedanken, man könne sich durch bestimmte Praktiken einer Magie",
+        "position": {
+          "page": 65,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page65_para_2",
+        "type": "paragraph",
+        "value": "bedienen, um der Wirklichkeit seinen Willen aufzuprägen. Oder man wendet sich ob des",
+        "position": {
+          "page": 65,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page65_para_3",
+        "type": "paragraph",
+        "value": "eigenen Unvermögens, die Mysterien zu ergründen, an Schulen, die die Genügsamkeit des",
+        "position": {
+          "page": 65,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page65_para_4",
+        "type": "paragraph",
+        "value": "Seins lehren um das Mysterium Mysterium sein zu lassen. Ein verlockender Gedanke, der mir",
+        "position": {
+          "page": 65,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page65_para_5",
+        "type": "paragraph",
+        "value": "nicht nur einmal in den Sinn kam. Oder wir verschreiben uns der Wissenschaft, um dem",
+        "position": {
+          "page": 65,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page65_para_6",
+        "type": "paragraph",
+        "value": "Universum und uns selbst die Geheimnisse zu entreißen.",
+        "position": {
+          "page": 65,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page65_para_7",
+        "type": "paragraph",
+        "value": "Welche Art des Umgangs mit dem Mysterium wir nun individuell bevorzugen, so müssen wir",
+        "position": {
+          "page": 65,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page65_para_8",
+        "type": "paragraph",
+        "value": "uns doch mit einem Problem herum schlagen, welches diese Suche unnötig erschwert und",
+        "position": {
+          "page": 65,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page65_para_9",
+        "type": "paragraph",
+        "value": "einen nicht unerheblichen Teil zu unserer Verwirrung beiträgt. Jeder, der einmal zwei",
+        "position": {
+          "page": 65,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page65_para_10",
+        "type": "paragraph",
+        "value": "Religionen miteinander vergleicht wird feststellen, dass sie an mindestens einem Punkt ihrer",
+        "position": {
+          "page": 65,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page65_para_11",
+        "type": "paragraph",
+        "value": "Geschichte einmal voneinander geborgt haben, die Eine aus der Anderen hervor ging oder",
+        "position": {
+          "page": 65,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page65_para_12",
+        "type": "paragraph",
+        "value": "sich abgespalten haben. Katholiken oder Evangelisten, Juden oder Christen, Sufis oder",
+        "position": {
+          "page": 65,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page65_para_13",
+        "type": "paragraph",
+        "value": "Sunniten, die Theravada oder das Mahayana oder tausend andere Strömungen, die auf",
+        "position": {
+          "page": 65,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page65_para_14",
+        "type": "paragraph",
+        "value": "irgendeine Art sich von den ihn nahe stehenden Systemen zu unterscheiden versuchen. Sie",
+        "position": {
+          "page": 65,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page65_para_15",
+        "type": "paragraph",
+        "value": "alle entwickeln ihre eigene Sprache, um die ihnen inne wohnenden Ideen oder Erkenntnisse",
+        "position": {
+          "page": 65,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page65_para_16",
+        "type": "paragraph",
+        "value": "Anderen zu vermitteln. Sie entwickeln eigene Termini, eigne Bedeutungen, eigene Regeln",
+        "position": {
+          "page": 65,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page65_para_17",
+        "type": "paragraph",
+        "value": "und Mythen, gleich so als müssten sie sich ihre eigne Existenz erkämpfen, um sich von der",
+        "position": {
+          "page": 65,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page65_para_18",
+        "type": "paragraph",
+        "value": "Masse abzuheben, einen Glanz der Exklusivität ausstrahlen und dabei um Aufmerksamkeit",
+        "position": {
+          "page": 65,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page65_para_19",
+        "type": "paragraph",
+        "value": "und Anerkennung ob ihrer Schönheit zu haschen. Was sie zugegeben sehr gut vermögen.",
+        "position": {
+          "page": 65,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page65_para_20",
+        "type": "paragraph",
+        "value": "Das hat nicht nur was evolutionäres wenn ihr mich fragt, das ist eine wahre Sprachverwirrung,",
+        "position": {
+          "page": 65,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page65_para_21",
+        "type": "paragraph",
+        "value": "würdig eines Turmbaus zu Babel. Ich kann überhaupt nicht zum Ausdruck bringen wie",
+        "position": {
+          "page": 65,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page65_para_22",
+        "type": "paragraph",
+        "value": "frustrierend es ist, wenn sich solche Barrieren als unüberwindbar für eine einzelne Person wie",
+        "position": {
+          "page": 65,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page65_para_23",
+        "type": "paragraph",
+        "value": "mich heraus stellen. Schon größere Gruppen sind daran gescheitert, wie es die",
+        "position": {
+          "page": 65,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page65_para_24",
+        "type": "paragraph",
+        "value": "Theosophische Gesellschaft so traurig bewiesen hat und sie ist bei weitem nicht die einzige.",
+        "position": {
+          "page": 65,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page65_para_25",
+        "type": "paragraph",
+        "value": "Dabei gibt es doch einfache und universelle Konstanten, an denen wir unser Verständnis der",
+        "position": {
+          "page": 65,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page65_para_26",
+        "type": "paragraph",
+        "value": "Dinge nicht nur selbst abgleichen können, sondern die auch jeder andere Mensch auf gleiche",
+        "position": {
+          "page": 65,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page65_para_27",
+        "type": "paragraph",
+        "value": "Art wahrnimmt und egal welche Sprache er spricht oder welcher Religion oder Philosophie er",
+        "position": {
+          "page": 65,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page65_para_28",
+        "type": "paragraph",
+        "value": "anhängt, unabhängig davon zur Kenntnis nimmt. Die Wissenschaftliche Methode hat doch",
+        "position": {
+          "page": 65,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page65_para_29",
+        "type": "paragraph",
+        "value": "darauf nicht die Exklusivrechte gepachtet.",
+        "position": {
+          "page": 65,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page65_para_30",
+        "type": "paragraph",
+        "value": "Niemand würde auf die Idee kommen, die Sonne als etwas anderes zu sehen und zu",
+        "position": {
+          "page": 65,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page65_para_31",
+        "type": "paragraph",
+        "value": "beschreiben als ein helles Objekt welches uns wärmt. Egal ob wir sie Feuerrad, Himmelsbarke",
+        "position": {
+          "page": 65,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

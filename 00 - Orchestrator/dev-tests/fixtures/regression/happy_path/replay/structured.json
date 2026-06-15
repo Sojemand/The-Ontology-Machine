@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-03-25T18:33:26.499922+00:00",
+    "model": "gpt-5.4-2026-03-05",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "report",
+    "document_type_confidence": 0.95,
+    "category": "other",
+    "subcategory": "radiology_report",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": true,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Praxisverbund Nord",
+    "company_source_refs": [
+      "page1_para_2"
+    ],
+    "document_date": "04.10.2024",
+    "document_date_source_refs": [
+      "page1_para_1",
+      "page1_para_7"
+    ],
+    "document_title": "MRT des rechten Knies nativ vom 04.10.2024",
+    "document_title_source_refs": [
+      "page1_para_7"
+    ],
+    "description": "Radiologischer Befund zum rechten Knie.",
+    "tags": [
+      "MRT",
+      "rechtes Knie",
+      "Befund"
+    ],
+    "people": [
+      "Alex Beispiel",
+      "Dr. Jana Winter",
+      "Dr. Mara Beispiel"
+    ],
+    "organizations": [
+      "Praxisverbund Nord",
+      "Orthopaedie Musterstadt"
+    ],
+    "locations": [
+      "12345 Musterstadt"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "reference_number": "RV-1088845",
+    "document_number": "RV-1088845",
+    "invoice_number": "RV-1088845"
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "patient_name": "Alex Beispiel",
+      "patient_name_source_refs": [
+        "page1_para_5"
+      ],
+      "geburtsdatum": "01.09.1980",
+      "geburtsdatum_source_refs": [
+        "page1_para_5"
+      ],
+      "patientennummer": "RV-1088845",
+      "patientennummer_source_refs": [
+        "page1_para_5"
+      ],
+      "adressat": "Herr Dr. Jana Winter",
+      "adressat_source_refs": [
+        "page1_para_4"
+      ],
+      "indikation": "Verdacht auf mediale Meniskopathie rechtes Knie",
+      "indikation_source_refs": [
+        "page1_para_6"
+      ],
+      "untersuchung": "MRT des rechten Knies nativ vom 04.10.2024",
+      "untersuchung_source_refs": [
+        "page1_para_7"
+      ],
+      "geraet": "MR System 1,5 T",
+      "geraet_source_refs": [
+        "page1_para_7"
+      ],
+      "bilddokumentation": "Bilddaten im Patientenportal verfuegbar.",
+      "bilddokumentation_source_refs": [
+        "page1_para_10"
+      ],
+      "unterzeichner": "Dr. Mara Beispiel",
+      "unterzeichner_source_refs": [
+        "page1_para_12"
+      ]
+    },
+    "rows": [],
+    "free_text": "Praxisverbund Nord Radiologiebericht rechtes Knie. Patient Alex Beispiel, geb. 01.09.1980, Fallnummer RV-1088845. Indikation mediale Meniskopathie. MRT vom 04.10.2024 mit Innenmeniskus-Einriss, geringem Gelenkerguss und sonst unauffaelligem Befund."
+  },
+  "relations": [],
+  "source": {
+    "file_name": "mri_report.pdf",
+    "file_path": "C:\\anonymized\\input\\mri_report.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "created_at": null,
+    "modified_at": null
+  }
+}

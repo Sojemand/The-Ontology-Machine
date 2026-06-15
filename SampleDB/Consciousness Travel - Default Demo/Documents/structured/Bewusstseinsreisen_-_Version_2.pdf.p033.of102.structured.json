@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:40:43.892373+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 33,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=033-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "A nonfiction book page with a section heading and continuous philosophical prose is visible.",
+      "matched_signals": [
+        "section heading",
+        "continuous paragraph prose",
+        "philosophical reflection",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page33_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 33,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Grunde keine Möglichkeit habe, an dieser Balance etwas grundlegend zu ändern, wie kann ich dann annehmen, ich hätte irgendeine Art Kontrolle über mich selbst? Und wieder muss ich mir die Frage stellen wer hier wirklich das Sagen hat.",
+        "function": "rhetorical_self_questioning",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page33_Segment2",
+        "unit_kind": "title_line",
+        "page": 33,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Wo stehen wir?",
+        "function": "section_transition",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page33_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 33,
+        "sequence": 3,
+        "section": "Wo stehen wir?",
+        "label": null,
+        "text": "Alle drei bisher behandelten Systeme, sind allesamt so verflochten und beeinflussen sich gegenseitig auf so vielen Ebenen, wo sollte man da einen Hebel ansetzen?",
+        "function": "problem_framing",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page33_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 33,
+        "sequence": 4,
+        "section": "Wo stehen wir?",
+        "label": null,
+        "text": "Wenn wir wirklich ehrlich zu uns sind und uns im Angesicht dieser drei Giganten fragen, wer wir wirklich sind, dann müssen wir zugeben, dass das, was wir als unser Ich empfinden, die Gesamtsumme aller Aktivitäten dessen ist, was wir als unseren Körper bezeichnen, nicht nur des Gehirns, sondern von Allem, vom kleinen Zeh bis zur Haarwurzel. Wir müssen auch zugeben, dass nicht wir es sind, die entscheiden wer wir sind und unser Körper diesem Diktat dann folgt, sonder der Körper es ist, der durch die Art seiner Funktion die Form des Ichs bestimmt. Ich weiß, das widerspricht unserer eigenen Selbstwahrnehmung. Das rührt auch an der Frage nach einer Seele, nach einem unabhängigen Geist, nach einer Existenz jenseits des Materiellen.",
+        "function": "argument_about_body_and_self",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page33_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 33,
+        "sequence": 5,
+        "section": "Wo stehen wir?",
+        "label": null,
+        "text": "Ich bin keineswegs ein Verfechter der Idee, es gäbe nur die Materie und sonst nichts. Allerdings möchte ich auch klar machen, dass die Materie sehr viel mehr kann als wir es vielleicht vermuten, der Beispiele habe ich hoffentlich genug erbracht. Was mir durch die Jahre klar geworden ist und was ich in diesem Buch zum Ausdruck bringen möchte ist, zu zeigen, wie viel noch in uns verborgen liegt, was unser Geist tatsächlich im Stande ist zu leisten, wenn er denn durch die mit ihm verbundene Physis korrekt genährt wird. Wir mögen zwar in unserem jetzigen Zustand erbärmlich hilflos sein, was aber nicht heißt, dass dies so bleiben muss. Es hilft uns allerdings auch nicht, unsere Hilflosigkeit zu verleugnen, nur weil uns das nicht gefällt.",
+        "function": "qualification_and_thesis_statement",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page33_Segment6",
+        "unit_kind": "reflective_passage",
+        "page": 33,
+        "sequence": 6,
+        "section": "Wo stehen wir?",
+        "label": null,
+        "text": "Ich bin zu der Einsicht gelangt, dass der Geist nicht über den Körper siegen kann, zumindest nicht in einem Maße, die ihm die Herrschaft über das Fleisch an seinen Wurzeln erringen ließe. Die Annahme, der kleine Wicht auf der Schulter dieses Giganten könnte ihn zu irgendetwas zwingen, wäre doch zu vermessen. Wie könnte er auch? Dieser Gigant bietet uns doch so viele Möglichkeiten, von denen wir bisher nur spärlich Gebrauch gemacht haben, warum nehmen wir sein Angebot nicht einfach an und beginnen uns an den Ressourcen zu",
+        "function": "argument_for_accepting_bodily_limits",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Philosophische Buchseite über Körper, Geist, Ich und Hilflosigkeit"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=033-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:0dfa2e43bf17a6d744488dcb25c7b5afd9134f633e0023ec7a3fb561ae092abe",
+    "created_at": null,
+    "modified_at": null
+  }
+}

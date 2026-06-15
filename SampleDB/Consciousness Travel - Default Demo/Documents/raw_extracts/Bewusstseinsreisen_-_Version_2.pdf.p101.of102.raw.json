@@ -1,0 +1,257 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:7f70b6d073bff3363b725eae236c52fd838548c03a6647f4d9b543b7cea5a58f",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 101,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page101_para_0",
+        "type": "paragraph",
+        "value": "Überlegungen zum Ende",
+        "position": {
+          "page": 101,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page101_para_1",
+        "type": "paragraph",
+        "value": "Wer dieses kleine Werk bis hier hin gelesen hat, der kann sich meines Dankes gewiss sein",
+        "position": {
+          "page": 101,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page101_para_2",
+        "type": "paragraph",
+        "value": "und ich will an dieser Stelle zum Abschluss noch eine kleine Anmerkung los werden, die für",
+        "position": {
+          "page": 101,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page101_para_3",
+        "type": "paragraph",
+        "value": "mich eine besondere Bedeutung hat.",
+        "position": {
+          "page": 101,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page101_para_4",
+        "type": "paragraph",
+        "value": "Viele der Fragen, die sich mir noch immer stellen, kann ich nicht beantworten und wenn sich",
+        "position": {
+          "page": 101,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page101_para_5",
+        "type": "paragraph",
+        "value": "mehrere Menschen zusammentun um sich diesen zu widmen, dann Endet das meist in",
+        "position": {
+          "page": 101,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page101_para_6",
+        "type": "paragraph",
+        "value": "unfruchtbaren Versuchen, zugrunde gerichtet durch unser eigenes Wesen. Ich habe das in",
+        "position": {
+          "page": 101,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page101_para_7",
+        "type": "paragraph",
+        "value": "der Vergangenheit so oft beobachtet, dass es mir fast die Hoffnung raubt und ich bin bisher zu",
+        "position": {
+          "page": 101,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page101_para_8",
+        "type": "paragraph",
+        "value": "keiner Einsicht gelangt, wie man das anders handhaben könnte. Diese Dinge scheinen an",
+        "position": {
+          "page": 101,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page101_para_9",
+        "type": "paragraph",
+        "value": "etwas zu rühren, wogegen wir uns auf eine Art zu wehren scheinen, die uns weder direkt",
+        "position": {
+          "page": 101,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page101_para_10",
+        "type": "paragraph",
+        "value": "bewusst, noch irgendwie zu umgehen ist. Ich frage mich schon lange, ob es überhaupt",
+        "position": {
+          "page": 101,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page101_para_11",
+        "type": "paragraph",
+        "value": "Menschen gibt, die sich mit diesen Dingen ernsthaft beschäftigen oder beschäftigen wollen.",
+        "position": {
+          "page": 101,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page101_para_12",
+        "type": "paragraph",
+        "value": "Traumphilosophen gibt es wahrlich genug und sie preisen ihre Pamphlete an jeder Ecke",
+        "position": {
+          "page": 101,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page101_para_13",
+        "type": "paragraph",
+        "value": "lautstark an, doch was hat es uns bisher genutzt?",
+        "position": {
+          "page": 101,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page101_para_14",
+        "type": "paragraph",
+        "value": "Nichts. Und so endet dieses kleine Buch, mit dem Wissen, dass wir uns am Ende genau dort",
+        "position": {
+          "page": 101,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page101_para_15",
+        "type": "paragraph",
+        "value": "wiederfinden, wo wir begannen.",
+        "position": {
+          "page": 101,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page101_para_16",
+        "type": "paragraph",
+        "value": "Willkommen in der wirklichen Welt und nun geht eurer Wege, die Zukunft wartet.",
+        "position": {
+          "page": 101,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page101_para_17",
+        "type": "paragraph",
+        "value": "Und wie versprochen, für jeden den es interessiert, nachfolgend einige Quellen, aus denen ich",
+        "position": {
+          "page": 101,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page101_para_18",
+        "type": "paragraph",
+        "value": "über die Jahre Inspiration geschöpft habe. Sie sind nicht vollständig, weil ich bestimmt das ein",
+        "position": {
+          "page": 101,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page101_para_19",
+        "type": "paragraph",
+        "value": "oder andere Buch schon vergessen habe und sie beinhaltet auch nicht die unzähligen",
+        "position": {
+          "page": 101,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page101_para_20",
+        "type": "paragraph",
+        "value": "Interviews und Podcasts mit prominenten Persönlichkeiten aus diesen und angrenzenden",
+        "position": {
+          "page": 101,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page101_para_21",
+        "type": "paragraph",
+        "value": "Bereichen und auch nicht meine eigenen Reisen durch die Welt der Menschen. Aus legalen",
+        "position": {
+          "page": 101,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page101_para_22",
+        "type": "paragraph",
+        "value": "Gründen natürlich auch nicht meine eigenen Erfahrungen mit allerlei psychoaktiven",
+        "position": {
+          "page": 101,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page101_para_23",
+        "type": "paragraph",
+        "value": "Substanzen in teils aberwitzigen Dosierungen.",
+        "position": {
+          "page": 101,
+          "paragraph_index": 23
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "vision_allowed_source_roles": [
+    "header",
+    "party_panel",
+    "form",
+    "line_items",
+    "totals"
+  ],
+  "vision_prompt_allowed_roles": [
+    "header",
+    "party_panel",
+    "form",
+    "line_items",
+    "totals"
+  ],
+  "vision_repeated_zone_min_pages": 2,
+  "vision_top_band_ratio": 0.16,
+  "vision_bottom_band_ratio": 0.84,
+  "vision_section_terms": {
+    "party_panel": [
+      "an:",
+      "an ",
+      "empfaenger",
+      "auftraggeber",
+      "kunde",
+      "customer",
+      "bill to",
+      "ship to",
+      "firma",
+      "adressat",
+      "supplier",
+      "lieferant"
+    ],
+    "totals": [
+      "summe",
+      "gesamt",
+      "total",
+      "subtotal",
+      "betrag",
+      "brutto",
+      "netto",
+      "mwst",
+      "ust",
+      "tax",
+      "amount due",
+      "zu zahlen"
+    ],
+    "legal": [
+      "allgemeine geschaeftsbedingungen",
+      "agb",
+      "haftung",
+      "datenschutz",
+      "eigentumsvorbehalt",
+      "gerichtsstand",
+      "es gelten",
+      "servicebedingungen",
+      "terms and conditions",
+      "liability",
+      "warranty",
+      "reminders need"
+    ],
+    "footer": [
+      "iban",
+      "bic",
+      "ust",
+      "steuer",
+      "registergericht",
+      "hrb",
+      "telefon",
+      "telefax",
+      "fax",
+      "email",
+      "www.",
+      "web:",
+      "homepage"
+    ],
+    "line_items": [
+      "position",
+      "beschreibung",
+      "betrag",
+      "preis",
+      "menge",
+      "datum",
+      "stunden",
+      "hours",
+      "taetigkeit",
+      "description",
+      "quantity",
+      "amount"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:43:01.009963+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 39,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=039-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "This page is a prose-heavy philosophical book page with continuous reflective paragraphs.",
+      "matched_signals": [
+        "book page",
+        "philosophical writing",
+        "continuous paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page39_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 39,
+        "sequence": 1,
+        "text": "Ihr erinnert euch an den Moment, an dem euer Bewusstsein nicht mehr in der Lage zu sein schien einen eigenen Gedanken zu formen? Was blieb da übrig? Ihr hattet währenddessen nicht das Gefühl, irgendetwas verloren zu haben richtig? Und doch war etwas nicht mehr da. Die Stimme der Maschine verschwand, denn eure Gedanken sind eben auch nur ein Produkt derselben. Zurück blieb nur noch Gewahrsein in seiner reinsten Form. Dieses Gewahrsein bist du.",
+        "function": "introducing_pure_awareness",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page39_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 39,
+        "sequence": 2,
+        "text": "Dies ist das wahre Unteilbare. Das, nach dem jeder Meditierende strebt. Das ist das „Dao“ der Daoisten, die höchste Wirklichkeit des Seins, das „Christbewusstsein“ der abrahamischen Religionen, das „Sama“ der Sufisten, das „Ich bin“ Gurdjieffs, die „Quelle der Magie“ Don Juan’s, das „Allsehende Auge“ des Re’s und das grundlegende Mysterium so gut wie aller anderen okkulten, religiösen und traditionellen Lehren aller Zeiten. Wenn wir in den Spiegel blicken und das Auge sich sieht, dann sehen wir zurück an den Anfang dessen was uns erst zu bewussten Wesen macht.",
+        "function": "cross_tradition_equivalence_claim",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page39_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 39,
+        "sequence": 3,
+        "text": "Und das ist es dann auch, wodurch uns die Informationen der Maschine gewahr werden, dieses gedankenlose, ziellose und formlose Etwas, welches wir „Gewahrsein“ nennen und die Quelle bildet an der alles beginnt. Und ich weiß auch, dass ich mir hier sicher Widerspruch von gewissen Seiten einhandeln werde wenn ich sage, dass dieses Gewahrsein nicht nur eine exklusive Eigenschaft des Zwerges ist, die als einzige nicht aus der Maschine heraus entsteht, noch ihr unterliegt, sondern auch, dass dieses Etwas unabhängig davon existiert. Wie dem auch sei, das ist ein Punkt über den sich streiten lässt, der aber im Folgenden von keinerlei Bedeutung ist. Also lassen wir den Streit über eine Seele doch beiseite und konzentrieren wir uns auf das was da vor uns liegt. Du siehst also die Welt nicht „durch“ deine Augen, riechst sie nicht durch deine Nase, hörst sie nicht durch deine Ohren und fühlst sie nicht durch deinen Tastsinn. Dies sind nur die Kanäle, durch die Reize von der äußeren Welt in die Maschine hinein fließen, und nachdem die Maschine mit all ihren dunklen Systemen all das gefiltert, bewertet, sortiert und neu zusammengesetzt hat, präsentiert sie deinem Gewahrsein ein Bild, welches dann zu deiner Realität wird.",
+        "function": "explaining_perception_model",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page39_Segment4",
+        "unit_kind": "question_prompt",
+        "page": 39,
+        "sequence": 4,
+        "text": "Hast du dich noch nie gefragt, warum du scheinbar riechen kannst, ohne den Signalfluss von deinen 10 Millionen Riechzellen in die betreffenden Hirnregionen zu bemerken? Oder warum nur dein kleiner Zeh schmerzt wenn du ihn an einer Ecke stößt, der Signalstrom dieses",
+        "function": "raising_followup_questions",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Gewahrsein, Maschine, Wahrnehmung, philosophische Reflexion"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=039-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:ae7d58bed54f333a0d82b849d6199ecdd4764023fbdef2982ab66d5f7dda80df",
+    "created_at": null,
+    "modified_at": null
+  }
+}

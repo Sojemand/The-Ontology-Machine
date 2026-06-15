@@ -1,0 +1,390 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=072-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:9c15ab4cfe756612e8f91d6ca12f28447709fb4ec9e531844cd29fd0a3af8bee",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 72,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=072-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 72,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_072.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page72_para_0",
+        "type": "paragraph",
+        "value": "Der Weg des Helden",
+        "position": {
+          "page": 72,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page72_para_1",
+        "type": "paragraph",
+        "value": "Die Reise ist schnell erzählt. Ein gewöhnlicher Mensch erfährt einen Ruf, eine Aufgabe. Er",
+        "position": {
+          "page": 72,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page72_para_2",
+        "type": "paragraph",
+        "value": "entscheidet sich nach einigem Hin und Her diesem Ruf zu folgen und trifft dabei auf",
+        "position": {
+          "page": 72,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page72_para_3",
+        "type": "paragraph",
+        "value": "Widerstände, die er durch seine Kraft überwindet, er erfährt eine Prüfung nach der Nächsten",
+        "position": {
+          "page": 72,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page72_para_4",
+        "type": "paragraph",
+        "value": "und wird mit Versuchungen aller Art konfrontiert. Dann erkennt er, dass er es ist, den es wirklich",
+        "position": {
+          "page": 72,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page72_para_5",
+        "type": "paragraph",
+        "value": "zu besiegen gilt und nachdem er sich selbst gestellt hat, sich besiegt hat und gestorben ist,",
+        "position": {
+          "page": 72,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page72_para_6",
+        "type": "paragraph",
+        "value": "erfährt er eine Wiederauferstehung und erlangt einen Segen oder Schatz. Er wird sich bewusst,",
+        "position": {
+          "page": 72,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page72_para_7",
+        "type": "paragraph",
+        "value": "dass er zurückkehren muss und nimmt letztendlich seine Verantwortung wahr, wieder in die",
+        "position": {
+          "page": 72,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page72_para_8",
+        "type": "paragraph",
+        "value": "Welt aus der er kam zurückzugehen, um mit Hilfe des Geschenkes seine Heimat zum Besseren",
+        "position": {
+          "page": 72,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page72_para_9",
+        "type": "paragraph",
+        "value": "zu verändern. Auf seiner Reise erfährt er allerlei Hilfen von verschiedenen Seiten und muss mit",
+        "position": {
+          "page": 72,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page72_para_10",
+        "type": "paragraph",
+        "value": "Gegenspielern ringen, die ihn von seinem Weg abbringen wollen. Doch letztendlich kehrt er",
+        "position": {
+          "page": 72,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page72_para_11",
+        "type": "paragraph",
+        "value": "siegreich Heim als neuer Mensch, der eine neue Energie in sich trägt, die er vorher nicht besaß.",
+        "position": {
+          "page": 72,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page72_para_12",
+        "type": "paragraph",
+        "value": "Im Groben spielt sich das stets so ab, auch wenn sich die Geschichte noch um Einiges",
+        "position": {
+          "page": 72,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page72_para_13",
+        "type": "paragraph",
+        "value": "ausschmücken ließe, aber für unsere Zwecke reicht die Beschreibung vollkommen aus. Nun",
+        "position": {
+          "page": 72,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page72_para_14",
+        "type": "paragraph",
+        "value": "stellt sich die Frage, wo diese Geschichte denn außerhalb von Hollywood Filmen, in unserem",
+        "position": {
+          "page": 72,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page72_para_15",
+        "type": "paragraph",
+        "value": "wirklichen Leben, vorkommt? Sicher hat sich kein Leser dieses Buches bereits einmal selbst",
+        "position": {
+          "page": 72,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page72_para_16",
+        "type": "paragraph",
+        "value": "im Kampf besiegt und wie Jesus eine Wiederauferstehung von den Toten erfahren, nur um mit",
+        "position": {
+          "page": 72,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page72_para_17",
+        "type": "paragraph",
+        "value": "einem göttlichen Geschenk gesegnet, als Held zurückzukehren. Niemand hat je eine",
+        "position": {
+          "page": 72,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page72_para_18",
+        "type": "paragraph",
+        "value": "Heldenreise im wörtlichen Sinne beschritten, was es ja gerade so schwierig macht, ihre",
+        "position": {
+          "page": 72,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page72_para_19",
+        "type": "paragraph",
+        "value": "symbolischen Komponenten in den praktischen Handlungen und dem mentalen Erleben eines",
+        "position": {
+          "page": 72,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page72_para_20",
+        "type": "paragraph",
+        "value": "Menschen zu identifizieren. Wenn es so einfach wäre, würde es sicherlich öfter heißen „Chef,",
+        "position": {
+          "page": 72,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page72_para_21",
+        "type": "paragraph",
+        "value": "ich geh mal schnell einen Mythos ausleben, eine Woche Urlaub sollte reichen“. So einfach",
+        "position": {
+          "page": 72,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page72_para_22",
+        "type": "paragraph",
+        "value": "macht es uns das Universum dann doch nicht.",
+        "position": {
+          "page": 72,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page72_para_23",
+        "type": "paragraph",
+        "value": "Die Symbolik kann so verschiedene Ausprägungen annehmen, wie man Umstände erfinden",
+        "position": {
+          "page": 72,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page72_para_24",
+        "type": "paragraph",
+        "value": "kann, die auf die Beschreibung des sich auf festen Bahnen schnell bewegenden Todes",
+        "position": {
+          "page": 72,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page72_para_25",
+        "type": "paragraph",
+        "value": "zutreffen würden. Ob es nun Elefanten, Autos oder Kometen sind, die man damit letztendlich",
+        "position": {
+          "page": 72,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page72_para_26",
+        "type": "paragraph",
+        "value": "meint, so kann man solche Symbolik doch immer nur im Gesamtkontext der Dinge an der",
+        "position": {
+          "page": 72,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page72_para_27",
+        "type": "paragraph",
+        "value": "Wirklichkeit festmachen, niemals an ihren Einzelheiten. Da nun die Heldenreise aus so vielen",
+        "position": {
+          "page": 72,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page72_para_28",
+        "type": "paragraph",
+        "value": "einzelnen Aspekten besteht, die nur in ihrem Zusammenspiel und Reihenfolge ihres",
+        "position": {
+          "page": 72,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page72_para_29",
+        "type": "paragraph",
+        "value": "Auftretens eine solche ergeben, hat wohl noch niemand einen Menschen und dessen Handeln",
+        "position": {
+          "page": 72,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

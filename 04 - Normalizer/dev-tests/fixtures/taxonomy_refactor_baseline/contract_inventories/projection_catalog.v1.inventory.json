@@ -1,0 +1,114 @@
+[
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.catalog_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.master_taxonomy_release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].avoid_when",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].example_document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].field_slot_map",
+    "value_kind": "empty_object",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].label",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].promotion_rules[].slot",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].promotion_rules[].source_paths[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.projections[].when_to_use",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.release_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.release_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "compiled_projection"
+  },
+  {
+    "artifact_kind": "projection_catalog_v1",
+    "json_path": "$.runtime_locale",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "compiled_projection"
+  }
+]

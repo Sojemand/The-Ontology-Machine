@@ -1,0 +1,138 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=102-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:106974a6f49148bbfc589f2ed2abd196086ff1e7c4dff398acad72388eef0947",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 102,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=102-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 102,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_102.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page102_para_0",
+        "type": "paragraph",
+        "value": "Quellen",
+        "position": {
+          "page": 102,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page102_para_1",
+        "type": "paragraph",
+        "value": "Strangers to Ourselves: Discovering the Adaptive Unconscious - Timothy D. Wilson\nThinking, Fast and Slow - Daniel Kahneman\nYou Are Not So Smart - David McRaney\nThe Sociopath Next Door - Martha Stout\nThe Mask of Sanity - Hervey Cleckley\nPolitical Ponerology - Andrzej Lobaczewski\nThe Authoritarians - Bob Altemeyer\nPropaganda als Machtinstrument – Alexandra Bleyer\nFear of the Abyss: Healing the Wounds of Shame & Perfectionism - Aleta Edwards\nThe Caricature of Love - Hervey Cleckley\nThe Drama of the Gifted Child: The Search for the True Self - Alice Miller\nThe Crowd: A Study of the Popular Mind - Gustave Le Bon\nThe Wave Series - Laura Knight-Jadczyk\nIn Search of the Miraculous: Fragments of an Unknown Teaching - P.D. Ouspensky\nGnosis - Boris Mouravieff\nMeetings with Remarkable Men - G.I. Gurdjieff\nLife is Real Only Then, when \"I am\" - G.I. Gurdjieff\nThe Fourth Way - P.D. Ouspensky\nTertium Organum - P.D. Ouspensky\nThe Mystery of the Cathedrals - Fulcanelli\nThe Dwellings of the Philosophers - Fulcanelli\nThe Historian's Craft - Marc Bloch\nThe Mythic Past - Thomas L. Thompson\nOperation Trojan Horse - John Keel\nShamanism - Mircea Eliade\nThe Sacred and the Profane - Mircea Eliade\nThe Secret Teachings of All Ages - Manly Hall\nBringers of the Dawn – Barbara Marciniack\nThe Ra Material - Carla Rueckert, Don Elkins, and Jim McCarty\nThe Science Delusion/Science Set Free - Rupert Sheldrake\nThe Hero With a Thousand Faces - Joseph Campbell\nDer Archipel Gulag – Alexander Solschenizyn\nMein Kampf – Adolf Hitler\nThe Polyvagal Theory – Stephen W. Porges\nThe Archeology of Mind – Jaak Panksepp, Lucy Biven\nThe Myth of Male Power – Warren Farrell\nDie Archetypen des Tarot – Andreas Bunkahle\nFoucaults Pendulum - Umberto Eco\nCase for the UFO – Morri Jessup\nJourneys Out of the Body - Robert Monroe\nPrimal Body, Primal Mind - Nora T. Gedgaudas\nLife Without Bread - Christian B. Allan & Wolfgang Lutz\nDeep Nutrition: Why Your Genes Need Traditional Food - Catherine Shanahan & Luke Shanahan The\nUltraMind Solution - Mark Hyman\nThe Myth of Sanity: Divided Consciousness and the Promise of Awareness - Martha Stout\nThe Narcissistic Family - Stephanie Donaldson-Pressman and Robert M. Pressman\nTrapped in the Mirror: Adult Children of Narcissists in their Struggle for Self - Elan Golomb\nAlle Werke von Carlos Castaneda\nAlle Werke von Erich von Däniken\nAlle Werke von Karla Turner\nEin Wenig David Icke\nPhilosophien von Aristoteles bis Nietzsche, mal hier mal da.\nPopulärwissenschaftliche Bücher von Stephen Hawking, Richard Dawkins, Brian Greene etc.\nWissenschaftliche Papers zu jedem Thema das mich interessierte",
+        "position": {
+          "page": 102,
+          "paragraph_index": 1
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

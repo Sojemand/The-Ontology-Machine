@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:58:20.864462+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.93,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 77,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=077-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "A continuous nonfiction book page in philosophical writing is visible, consisting of prose paragraphs discussing abstract concepts and exemplification.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "nonfiction book page",
+        "philosophical discussion"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page77_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 77,
+        "sequence": 1,
+        "text": "kennen den Beginn, ihren Ablauf und das Ergebnis. Wir können also davon ausgehen, dass das Ergebnis beabsichtigt ist, ohne jetzt genau zu verstehen, wer oder was diese Absicht genau hegt und warum. Damit steht auch zu vermuten, dass diese Absicht bereits zu Beginn der Reise bestand, denn sonst gäbe es ja keinen Grund, diese zu beginnen. Dementsprechend sind auch die Elemente der Reise ein Ausdruck jener Absicht und der Motivation, diese Reise aufrecht zu erhalten.",
+        "function": "argument_about_intentional_structure",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page77_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 77,
+        "sequence": 2,
+        "text": "Wenn die Reise zum Abschluss gelangt und wir den Beginn mit dem Ende vergleichen, so müssen wir die Feststellung treffen, dass der Reisende etwas erlangt hat, was er vorher nicht besaß. Wir wissen zwar nicht, warum er dieses Etwas überhaupt erlangen wollte, aber am Ende hat er es und das müssen wir erst einmal so anerkennen. Ein spezielles Element ist dabei besonders interessant. Der Abgrund, der Tod und die Wiedergeburt. Alle Elemente vor Erreichen dieses Punktes sind so strukturiert und erwecken den Eindruck, als wären sie nur dort, um den Reisenden zu diesem Punkt zu leiten. An diesem Punkt angekommen, sieht der Held sich mit der Herausforderung konfrontiert, die er in seinem vorherigen Leben nie vorgefunden hat. Das gängigste Bild ist das Besiegen eines Gegners, welcher das Wesen des Helden gegen ihn selbst wendet und es ausnutzt, um ihn so besiegen zu wollen. Wie dabei dieser Wesenszug stirbt und der Gegner damit die Macht über den Helden verliert, dieser dadurch neu und verändert ersteht. Es stellt sich als eine Art Apotheose durch irgendeine Art Prüfung dar, die eine spezielle Überwindung kostet, doch mit etwas belohnt wird, was anders nicht zu erringen ist. Fast so, als würde die Welt sich gegen den Reisenden verschwören um ihn auch gegen seinen Willen mit seinen inneren Widersprüchen so lange zu konfrontieren, bis er sie anerkennt und letztendlich auflöst.",
+        "function": "analysis_of_transformation_through_trial",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page77_Segment3",
+        "unit_kind": "descriptive_passage",
+        "page": 77,
+        "sequence": 3,
+        "text": "Ein schöner Epos in diesem Zusammenhang ist auch der älteste uns bekannte: Gilgamesch. Nach all der Jagt und nach allen Gefahren und Prüfungen und schon mit der Gewissheit, die Unsterblichkeit in Händen zu halten, verliert er sie und alles was zurück bleibt ist die Erkenntnis, dass nur er selbst und seine Taten es sein können, die ihn zu dem großen König werden lassen, der er schon immer sein wollte. Keine Magie, auch nicht für den größten aller Könige. Das finde ich schon sehr interessant. Er begann die Reise als schlechter König mit allen Motivationen die damit einher gingen. Keine Spur von Heldentum. Am Ende, nachdem er alles verloren hat was ihm seine ursprünglichen Ziele und Motivationen erst eingebrockt haben, kehrt er ohne sie wieder zurück und wird das, was er die ganze Zeit schon hätte sein können: Ein guter König.",
+        "function": "illustrative_example_of_inner_transformation",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Reise, Transformation, Tod und Wiedergeburt, Gilgamesch, guter König"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=077-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:7bb499c422daab7782472d3fd26de81c3b44a5e83499e34903fa3baa738e0488",
+    "created_at": null,
+    "modified_at": null
+  }
+}

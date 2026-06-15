@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "vision",
+    "model_confidence": 0.92,
+    "needs_review": false
+  },
+  "classification": {
+    "document_type": "minutes",
+    "category": "administration",
+    "language": "de",
+    "page_count": 1
+  },
+  "context": {
+    "company": "Kleingartenverein Abendrot e.V.",
+    "document_date": "2024-05-10",
+    "document_title": "Protokoll Vorstandssitzung",
+    "reference_number": "PROT-2024-05"
+  },
+  "content": {
+    "structure": {
+      "type": "text"
+    },
+    "fields": {
+      "meeting_id": "PROT-2024-05",
+      "chairperson": "Anna Berger"
+    },
+    "rows": [
+      {
+        "position": "TOP 1 Begruessung"
+      },
+      {
+        "position": "TOP 2 Wasserzaehler"
+      }
+    ],
+    "free_text": "Kleingartenverein Abendrot e.V.\nProtokoll Vorstandssitzung\nSitzung vom 10.05.2024\nProtokollnummer PROT-2024-05\nAnna Berger leitet die Sitzung.\nTOP 1 Begruessung\nTOP 2 Wasserzaehler"
+  },
+  "relations": [],
+  "source": {
+    "file_name": "minutes_ok.pdf",
+    "content_hash": "sha256:minutesok"
+  }
+}

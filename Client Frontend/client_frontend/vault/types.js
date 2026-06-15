@@ -1,0 +1,12 @@
+export const ENCRYPTED_SECRET_PREFIX = "enc:";
+export const CURRENT_SECRET_PREFIX = "enc:v2:aes256gcm:";
+export const LEGACY_SECRET_PREFIX = "enc:v1:aes256gcm:";
+export const PORTABLE_KEY_CONTEXT = "vision-pipeline-client-frontend";
+export const DEFAULT_SCOPE = "default";
+export const PBKDF2_ITERATIONS = 100000;
+export const DERIVED_KEY_BYTES = 32;
+export const SALT_BYTES = 32;
+export const AES_GCM_IV_BYTES = 12;
+export const AES_GCM_TAG_BYTES = 16;
+export const SIGNATURE_HEX_LENGTH = 64;
+export const SALT_FILENAME = ".salt";

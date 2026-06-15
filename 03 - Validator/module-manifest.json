@@ -1,0 +1,21 @@
+{
+  "module_key": "validator",
+  "display_name": "Validator Vision",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "validator_vision",
+  "contract_module": "validator_vision.orchestrator_contract",
+  "edit_contract_module": "validator_vision.edit_contract",
+  "actions": ["validate_document", "healthcheck", "debug_run"],
+  "edit_surfaces": ["validator.settings", "validator.report_preview_policy", "validator.debug_capabilities"],
+  "debug_surface": {
+    "supports_batch": true,
+    "supports_single": true,
+    "supports_scan": false,
+    "input_source": "module_selected_input",
+    "output_source": "orchestrator_assigned_output",
+    "controls": ["mode", "raw_evidence", "check_toggles"],
+    "artifacts": ["validation_reports", "config_snapshot", "report_index"]
+  },
+  "external_dependencies": []
+}

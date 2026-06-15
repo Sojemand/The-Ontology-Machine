@@ -1,0 +1,8 @@
+{
+  "vision_excluded_roles": [
+    "legal",
+    "footer",
+    "noise",
+    "ocr_fragment"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.9,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:25:45.979513+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_cover_page",
+    "document_type_confidence": 0.91,
+    "category": "book",
+    "subcategory": "cover",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 1,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=001-of-102",
+    "interpreter_profile": "file",
+    "document_title": "BEWUSSTSEINSREISEN"
+  },
+  "content": {
+    "structure": {
+      "type": "cover_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "title": "BEWUSSTSEINSREISEN",
+      "subtitle": "GRENZEN DES SEINS"
+    },
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page1_Segment1",
+        "unit_kind": "title_line",
+        "page": 1,
+        "sequence": 1,
+        "section": null,
+        "label": "title",
+        "text": "BEWUSSTSEINSREISEN",
+        "function": "document_title",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page1_Segment2",
+        "unit_kind": "title_line",
+        "page": 1,
+        "sequence": 2,
+        "section": null,
+        "label": "subtitle",
+        "text": "GRENZEN DES SEINS",
+        "function": "document_subtitle",
+        "confidence": 0.99
+      }
+    ],
+    "free_text": "Cover mit Kristallmotiv, Titel und Untertitel"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=001-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:b9334875e081f7e384d5c4c5f1d467b439568402585dd19309c0157d48ad02e7",
+    "created_at": null,
+    "modified_at": null
+  }
+}

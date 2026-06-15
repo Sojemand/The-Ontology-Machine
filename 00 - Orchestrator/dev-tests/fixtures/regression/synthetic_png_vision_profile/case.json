@@ -1,0 +1,75 @@
+{
+  "stages": {
+    "extract": {
+      "status": "ok",
+      "raw_fixture": "raw.json",
+      "page_fixtures": [
+        "page_001.jpg"
+      ]
+    },
+    "interpret": {
+      "status": "ok",
+      "structured_fixture": "structured.json",
+      "needs_review": false,
+      "review_reason": ""
+    },
+    "validate": {
+      "status": "PASS",
+      "report_fixture": "validation_report.json",
+      "needs_review": false,
+      "detail": "PASS"
+    },
+    "normalize": {
+      "status": "OK",
+      "output_fixture": "normalized.json",
+      "needs_review": false,
+      "message": "normalized"
+    },
+    "load": {
+      "status": "loaded",
+      "reason": "Synthetic document loaded into corpus"
+    },
+    "embeddings": {
+      "status": "skipped",
+      "count": 0,
+      "reason": "Synthetic replay skips embeddings."
+    }
+  },
+  "expected": {
+    "summary": {
+      "total": 1,
+      "success": 1,
+      "errors": 0,
+      "needs_review": 0,
+      "retries": 0
+    },
+    "record": {
+      "status": "success",
+      "final_disposition": "success",
+      "current_location": "originals_archive",
+      "last_stage": "Corpus Builder",
+      "attempts": 1,
+      "failed_attempts": 0,
+      "review_reason": ""
+    },
+    "suffixes": {
+      "source_path": "Documents/originals/synthetic_form_capture.png",
+      "artifacts.structured_path": "Documents/structured/synthetic_form_capture.png.structured.json",
+      "artifacts.validation_report_path": "Documents/validation/synthetic_form_capture.png.vision_validation_report.json",
+      "artifacts.normalized_path": "Documents/normalized/synthetic_form_capture.png.structured.normalized.json"
+    },
+    "present": [
+      "Documents/raw_extracts/synthetic_form_capture.png.raw.json",
+      "Documents/requests/synthetic_form_capture.png/interpreter.request.json",
+      "Documents/structured/synthetic_form_capture.png.structured.json",
+      "Documents/validation/synthetic_form_capture.png.vision_validation_report.json",
+      "Documents/normalized/synthetic_form_capture.png.structured.normalized.json",
+      "Documents/originals/synthetic_form_capture.png",
+      "Documents/logs/synthetic_form_capture.png.run.log"
+    ],
+    "absent": [
+      "Error Cases/Validator/Documents/logs/synthetic_form_capture.png.error_manifest.json"
+    ],
+    "corpus_db": true
+  }
+}

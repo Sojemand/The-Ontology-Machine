@@ -1,0 +1,38 @@
+{
+  "name": "client-frontend-ui",
+  "display_name": "Client Frontend Browser UI",
+  "module": "Client Frontend",
+  "kind": "browser_ui",
+  "driver": "browser_playwright",
+  "inventory_gate": true,
+  "modes": ["deterministic", "smoke", "live-canary"],
+  "sandbox": {
+    "state_root": "state/client-frontend",
+    "artifact_root": "output/client-frontend"
+  },
+  "expected_inventory": [
+    {
+      "action_key": "client_frontend.config.save",
+      "label": "Save config",
+      "surface": "Config",
+      "coverage": "deferred_with_issue",
+      "issue": "DOJO-TODO-client-frontend-inventory"
+    }
+  ],
+  "cases": [
+    {
+      "id": "server_health",
+      "title": "Start server and validate health/API surface",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["client_frontend.server.start", "client_frontend.api.health"]
+    },
+    {
+      "id": "chat_with_test_corpus",
+      "title": "Chat workflow against isolated test corpus",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["client_frontend.corpus.select", "client_frontend.chat.ask"]
+    }
+  ]
+}

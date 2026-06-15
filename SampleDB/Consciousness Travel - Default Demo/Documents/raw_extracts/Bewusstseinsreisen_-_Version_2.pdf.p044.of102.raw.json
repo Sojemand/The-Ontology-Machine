@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=044-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:742d2f23cbec5e299b8b2550d129ba37c59520a3419f87a915cce7242b5e19ec",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 44,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=044-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page44_para_0",
+        "type": "paragraph",
+        "value": "ein „Dschungel“ ist und was sollte es euch nützen, mehr von etwas zu sehen oder von etwas",
+        "position": {
+          "page": 44,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page44_para_1",
+        "type": "paragraph",
+        "value": "zu entkommen, was es für euch überhaupt nicht gibt?",
+        "position": {
+          "page": 44,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page44_para_2",
+        "type": "paragraph",
+        "value": "Dieser Jemand kann so lange er will versuchen euch zu erklären, dass ihr ständig im Kreis lauft",
+        "position": {
+          "page": 44,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page44_para_3",
+        "type": "paragraph",
+        "value": "und niemals dort hin gelangt, wo ihr eigentlich hin wollt, ihr werdet kein Wort davon verstehen.",
+        "position": {
+          "page": 44,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page44_para_4",
+        "type": "paragraph",
+        "value": "Was wäre aber nun, wenn er euer Dilemma erkennt? Wie er zu verstehen beginnt, dass die",
+        "position": {
+          "page": 44,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page44_para_5",
+        "type": "paragraph",
+        "value": "Geister des Dschungels euren Verstand verwirrt haben, sie euch in ihrem Bann halten und er",
+        "position": {
+          "page": 44,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page44_para_6",
+        "type": "paragraph",
+        "value": "euch stattdessen sagen würde, dass ihr die Grenzen eurer Welt beliebig ausdehnen oder auch",
+        "position": {
+          "page": 44,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page44_para_7",
+        "type": "paragraph",
+        "value": "schrumpfen lassen könntet, wenn ihr nur wollt? Das würdet ihr verstehen und ihn sicher fragen,",
+        "position": {
+          "page": 44,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page44_para_8",
+        "type": "paragraph",
+        "value": "welche Art Magie ihr dazu anwenden müsstet um diese phantastische Macht zu erlangen,",
+        "position": {
+          "page": 44,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page44_para_9",
+        "type": "paragraph",
+        "value": "während ihr voller Erwartung euer Zauberbuch hervorholt und euch bereit macht, ein neues",
+        "position": {
+          "page": 44,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page44_para_10",
+        "type": "paragraph",
+        "value": "Ritual in eure Sammlung aufzunehmen, diesmal hoffentlich eines, welches auch zuverlässig",
+        "position": {
+          "page": 44,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page44_para_11",
+        "type": "paragraph",
+        "value": "funktioniert. Wenn dieser jemand euch dann anschaut und sagt, dass es keine Magie gibt die",
+        "position": {
+          "page": 44,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page44_para_12",
+        "type": "paragraph",
+        "value": "ihr anwenden könntet und diese Vorstellung nur eine Illusion sei, geboren durch eine falsche",
+        "position": {
+          "page": 44,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page44_para_13",
+        "type": "paragraph",
+        "value": "Vorstellung über die Natur der Wirklichkeit, dann versteht ihr wieder kein Wort und hört nur",
+        "position": {
+          "page": 44,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page44_para_14",
+        "type": "paragraph",
+        "value": "Ausflüchte und die Weigerung euch die Geheimnisse zu verraten. Und wenn er euch dann",
+        "position": {
+          "page": 44,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page44_para_15",
+        "type": "paragraph",
+        "value": "grinsend fragt, ob ihr denkt es sei Luft was ihr da gerade atmet, dann würdet ihr ihn wohl erbost",
+        "position": {
+          "page": 44,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page44_para_16",
+        "type": "paragraph",
+        "value": "mit einem Fußtritt zu verscheuchen versuchen. Was fällt ihm auch ein sich über euch lustig zu",
+        "position": {
+          "page": 44,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page44_para_17",
+        "type": "paragraph",
+        "value": "machen. Erst redet er Unfug, dann verspricht er euch Macht und wenn ihr Beweise wollt hält er",
+        "position": {
+          "page": 44,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page44_para_18",
+        "type": "paragraph",
+        "value": "euch auch noch zum Narren. Zum Teufel mit ihm.",
+        "position": {
+          "page": 44,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page44_para_19",
+        "type": "paragraph",
+        "value": "Könntet ihr es diesem Jemand dann verdenken, wenn er sich kopfschüttelnd umdrehen würde",
+        "position": {
+          "page": 44,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page44_para_20",
+        "type": "paragraph",
+        "value": "um wieder seiner Wege zu gehen? Jeder sucht sich schließlich seine eigene Hölle aus. Stellt",
+        "position": {
+          "page": 44,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page44_para_21",
+        "type": "paragraph",
+        "value": "euch nur euren verwirrten Blick vor, wenn dieser Jemand euch auch noch erzählen würde, die",
+        "position": {
+          "page": 44,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page44_para_22",
+        "type": "paragraph",
+        "value": "Universität hätte ihn geschickt, weil ihr euch schon so lange nicht gemeldet habt und man sich",
+        "position": {
+          "page": 44,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page44_para_23",
+        "type": "paragraph",
+        "value": "sorgt, ihr hättet euch verlaufen. Der Dschungel ist schließlich ein gefährlicher Ort und eure",
+        "position": {
+          "page": 44,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page44_para_24",
+        "type": "paragraph",
+        "value": "Kollegen warten schon mit Spannung auf eure Forschungsergebnisse. Kein Zweifel, dieser",
+        "position": {
+          "page": 44,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page44_para_25",
+        "type": "paragraph",
+        "value": "Jemand muss den Bezug zur Wirklichkeit völlig verloren haben, denn aus seinem Mund kommt",
+        "position": {
+          "page": 44,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page44_para_26",
+        "type": "paragraph",
+        "value": "nur unzusammenhängendes Gebrabbel. Vielleicht würden ein paar starke Medikamente oder",
+        "position": {
+          "page": 44,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page44_para_27",
+        "type": "paragraph",
+        "value": "ein Besuch beim Psychologen das wieder richten?",
+        "position": {
+          "page": 44,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page44_para_28",
+        "type": "paragraph",
+        "value": "Also was soll ich tun? Sollte ich euch Magie lehren um euch die Macht über eure Welt zu",
+        "position": {
+          "page": 44,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page44_para_29",
+        "type": "paragraph",
+        "value": "verleihen, oder doch lieber darauf bestehen, dass es keine Magie gibt und eure Illusionen es",
+        "position": {
+          "page": 44,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page44_para_30",
+        "type": "paragraph",
+        "value": "sind, die euch gefangen halten? Das Dumme ist nur, Ersteres kann ich nicht und Letzteres",
+        "position": {
+          "page": 44,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page44_para_31",
+        "type": "paragraph",
+        "value": "nutzt euch nichts. Wie also gelangen wir aus den Zustand des ständigen Vergessens und des",
+        "position": {
+          "page": 44,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

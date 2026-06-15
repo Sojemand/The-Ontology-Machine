@@ -1,0 +1,31 @@
+{
+  "phase": "Phase 11 - Manual Pipeline Run And Batch Manifest Provenance",
+  "drift_preflight": "build_plan_authority_applied",
+  "date": "2026-05-06",
+  "authority": {
+    "governance": "SPEC_Handover_Blueprint.md",
+    "build_plan": "SPEC_Semantic_Control_Kernel_Build.md#Phase 11"
+  },
+  "findings": [
+    {
+      "source": "22_mcp_kernel_pipeline_function_contract.md",
+      "finding": "The referenced spec once included cleanup/reingest owner services. The live Kernel now keeps only manual pipeline run and batch manifest provenance.",
+      "applied_detail": "PipelineBatchAdapter exposes create_batch_manifest and finalize_batch_manifest only."
+    },
+    {
+      "source": "23_agent_facing_pipeline_manager_tools.md",
+      "finding": "The referenced spec lists pipeline-facing surfaces, while the live surface removes continuation-scoped reingest.",
+      "applied_detail": "No reingest or cleanup tool is exposed through permanent, event-scoped or host-only Kernel surfaces."
+    },
+    {
+      "source": "11_kernel_internal_data_contracts.md",
+      "finding": "The referenced internal contracts include the final batch manifest.",
+      "applied_detail": "Current Phase 11 fixtures cover pending/final batch manifest, correlation report and database reset manifest only."
+    },
+    {
+      "source": "SPEC_Vision_Pipeline_Current_Architecture_And_Contracts.md",
+      "finding": "Current Pipeline architecture supports the manifest provenance path required by manual_pipeline_run.",
+      "applied_detail": "Retired cleanup/reingest gaps are no longer modeled as missing capabilities."
+    }
+  ]
+}

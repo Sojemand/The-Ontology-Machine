@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:54:00.249105+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.92,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous paragraph prose",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 66,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=066-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page66_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 66,
+        "sequence": 1,
+        "text": "oder Fusionsofen nennen, sie wird immer und für jeden ein blendend helles Objekt bleiben. Das war sie schon als wir noch keine Sprache hatten und wird es auch dann noch sein, wenn wir in tausend Jahren Cthulhu huldigen, mit Aliens über interdimensionale Geistesreisen diskutieren oder wieder in Höhlen hausen. Einmal selbst wahrgenommen, besteht kein Zweifel mehr an den Berichten von Anderen, dass die Sonne wirklich sehr hell und warm ist.",
+        "function": "experiential_example",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page66_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 66,
+        "sequence": 2,
+        "text": "Und verhält es sich nicht auch so mit Träumen? Egal ob du Buddhist oder Astronom bist, sind denn nicht Träume das Gleiche für beide von uns? Und können wir uns beide denn nicht darüber auf Augenhöhe unterhalten, egal ob du sie für Visionen aus einer anderen Dimension und ich sie für Wahnvorstellungen eines schizophrenen Affen halte? Was ich meine ist, es gibt ein universelles Verständnis der Dinge, welches weder Kontext, noch Erklärung benötigt wenn es Teil der Erfahrungswelt ist. Ein Gesetz, welches sich bereits durch das Erleben jenes Gesetzes dem Erlebenden völlig erschließt, benötigt weder Erklärung, noch Kontext, um von Jedem auf die gleiche Weise verstanden zu werden. Nicht zu verwechseln mit der inneren Logik eines Systems wie der Mathematik zum Beispiel. Zwar wird jede Gleichung von jedem Mathematiker auf die Gleiche Art verstanden werden, aber um zu diesem Verständnis zu gelangen, wird ausreichendes Verständnis der Mathematik vorausgesetzt. Die Sonne ist grell und warm für einen Analphabeten, wie für den intelligentesten Menschen der Welt.",
+        "function": "argument_for_universal_understanding",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page66_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 66,
+        "sequence": 3,
+        "text": "Auch möchte ich mich von den gängigen philosophischen Strömungen distanzieren und klar stellen, dass dieses direkte Verstehen nichts mit der Phänomenologie Hegels oder Husserls zu tun hat, auch wenn es auf den ersten Blick so scheinen mag. Ein solch direktes Verstehen muss sich weder mit der schwammigen Beschreibung von Vernunft auseinandersetzen, noch muss es dem Geist Sittlichkeit zuordnen. Es fragt nicht nach der Herkunft des Selbstbewusstseins oder der Existenz eines Seienden. Es schert sich nicht um ontologische Differenzen und benötigt nicht einen Tropfen des Gehirndurchfalls der Existenzphilosophie im Allgemeinen. Es will aus dem Verstehen weder Ethik noch Moral ableiten und erst recht nicht in die Gefilde eines Derrida oder Foucault abgleiten. Nein, ich weigere mich Teil des menschlichen Tausendfüßlers zu sein, der die Worte Aristoteles verdaut und sie dann als eigene Exkremente zur weiteren Verdauung der nächsten Generation geistiger Denker vorstetzt. Vielleicht bin ich zu harsch in meinen Betrachtungen, aber alles was direktes Verstehen tut, ist zu fragen: Erscheint es dir so wie mir? Wenn ja, erscheint es auch allen anderen so wie uns? Sollte an einem Punkt ein Nein auftreten, so muss es verworfen werden. Nicht mehr und nicht weniger.",
+        "function": "philosophical_distancing_and_criterion",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Philosophische Prosa über Träume, direktes Verstehen und Abgrenzung von Philosophie"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=066-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:2979f9db1cb5dcf6fa4a04d47645b4af37f6fc047f81eda81a4317c24df664cb",
+    "created_at": null,
+    "modified_at": null
+  }
+}

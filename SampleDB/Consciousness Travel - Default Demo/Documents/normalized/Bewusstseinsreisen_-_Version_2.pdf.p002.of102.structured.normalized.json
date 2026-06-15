@@ -1,0 +1,386 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.99,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:28:24Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_table_of_contents_page",
+    "document_type_confidence": 0.99,
+    "category": "book_front_matter",
+    "subcategory": "table_of_contents",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Inhaltsverzeichnis",
+    "description": "German table of contents for the book Bewusstseinsreisen - Version 2. It lists a preface, six chapters, and source notes, with chapter themes centered on consciousness, self-image, awareness, symbols, and questions about dreams and waking perception.",
+    "tags": [
+      "table of contents",
+      "preface",
+      "chapters",
+      "consciousness",
+      "awareness",
+      "symbols",
+      "dreams",
+      "sources"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_table_of_contents_page",
+      "category": "book",
+      "subcategory": "table_of_contents"
+    },
+    "normalization_notes": [
+      "Translated visible German headings to English for retrieval fields while preserving the original document title in context.document_title."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "list",
+      "columns": [
+        "page_number_ref",
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 2,
+      "section_heading": "Contents",
+      "topic_keywords": [
+        "self-image",
+        "free will",
+        "pattern recognition",
+        "emotional cascades",
+        "awareness",
+        "dreams",
+        "symbols",
+        "hero's journey",
+        "questions"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 0,
+        "page_number_ref": "3",
+        "paragraph_text": "Preface"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 1,
+        "page_number_ref": "6",
+        "paragraph_text": "Chapter 1: The eye that tries to see itself"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 2,
+        "page_number_ref": "6",
+        "paragraph_text": "Who are you really?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 3,
+        "page_number_ref": "10",
+        "paragraph_text": "Look in the mirror"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 4,
+        "page_number_ref": "11",
+        "paragraph_text": "The problem of the self-image that automatically protects itself"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 5,
+        "page_number_ref": "14",
+        "paragraph_text": "The problem of self-definition"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 6,
+        "page_number_ref": "15",
+        "paragraph_text": "The day free will died"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 7,
+        "page_number_ref": "19",
+        "paragraph_text": "Chapter 2: Know your machine"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 8,
+        "page_number_ref": "19",
+        "paragraph_text": "The wonderful world of the invisible supercomputer: pattern recognition"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 9,
+        "page_number_ref": "25",
+        "paragraph_text": "The wonderful world of the hidden supercomputer: emotional cascades"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 10,
+        "page_number_ref": "30",
+        "paragraph_text": "The giant's fist"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 11,
+        "page_number_ref": "33",
+        "paragraph_text": "Where are we?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 12,
+        "page_number_ref": "35",
+        "paragraph_text": "Chapter 3: The light of awareness"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 13,
+        "page_number_ref": "35",
+        "paragraph_text": "The excited monkey"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 14,
+        "page_number_ref": "38",
+        "paragraph_text": "The source of light"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 15,
+        "page_number_ref": "40",
+        "paragraph_text": "What the light illuminates is"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 16,
+        "page_number_ref": "45",
+        "paragraph_text": "Dual-track awareness"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 17,
+        "page_number_ref": "48",
+        "paragraph_text": "Pearls in the dark"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 18,
+        "page_number_ref": "51",
+        "paragraph_text": "Practice makes free"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 19,
+        "page_number_ref": "54",
+        "paragraph_text": "Chapter 4: When consciousness leaps"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 20,
+        "page_number_ref": "54",
+        "paragraph_text": "Dreams and other delusions"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 21,
+        "page_number_ref": "56",
+        "paragraph_text": "Up and down, again and again"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 22,
+        "page_number_ref": "59",
+        "paragraph_text": "The urge upward"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 23,
+        "page_number_ref": "61",
+        "paragraph_text": "Not all that glitters is gold"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 24,
+        "page_number_ref": "62",
+        "paragraph_text": "Impossible views"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 25,
+        "page_number_ref": "64",
+        "paragraph_text": "We wander around"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 26,
+        "page_number_ref": "69",
+        "paragraph_text": "Chapter 5: The symbolic world"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 27,
+        "page_number_ref": "69",
+        "paragraph_text": "Understanding symbols"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 28,
+        "page_number_ref": "72",
+        "paragraph_text": "The hero's journey"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 29,
+        "page_number_ref": "76",
+        "paragraph_text": "What is the hero planning?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 30,
+        "page_number_ref": "79",
+        "paragraph_text": "Of gods and monsters"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 31,
+        "page_number_ref": "81",
+        "paragraph_text": "Of wanting and being able"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 32,
+        "page_number_ref": "86",
+        "paragraph_text": "The hands that guide us"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 33,
+        "page_number_ref": "92",
+        "paragraph_text": "Chapter 6: There are only questions left"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 34,
+        "page_number_ref": "92",
+        "paragraph_text": "No answers"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 35,
+        "page_number_ref": "92",
+        "paragraph_text": "How can dual-track awareness be reliably achieved?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 36,
+        "page_number_ref": "93",
+        "paragraph_text": "How can we overcome forgetting?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 37,
+        "page_number_ref": "93",
+        "paragraph_text": "How can we overcome language barriers?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 38,
+        "page_number_ref": "94",
+        "paragraph_text": "How do we calm our aversion to engaging with such things at all?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 39,
+        "page_number_ref": "96",
+        "paragraph_text": "How can the boundary between dream and waking consciousness be precisely defined?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 40,
+        "page_number_ref": "97",
+        "paragraph_text": "Could an MRI pattern be identified in all people who change their awareness?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 41,
+        "page_number_ref": "97",
+        "paragraph_text": "Why can our brain invent constructs that it later no longer understands itself?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 42,
+        "page_number_ref": "98",
+        "paragraph_text": "How much influence does nutrition have on the connection between machine and awareness?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 43,
+        "page_number_ref": "99",
+        "paragraph_text": "Why do so many interested readers become dream philosophers?"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 44,
+        "page_number_ref": "101",
+        "paragraph_text": "Reflections on the end"
+      },
+      {
+        "_row_type": "table_of_contents_entry",
+        "_row_index": 45,
+        "page_number_ref": "102",
+        "paragraph_text": "Sources"
+      }
+    ],
+    "free_text": "book_table_of_contents_page book_front_matter table_of_contents Table of contents for Bewusstseinsreisen - Version 2, with a preface, six chapters, and sources. Themes include self-image, free will, awareness, dreams, symbols, the hero's journey, and open questions."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.99,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=19; confidence=0.99 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=22; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-22."
+    }
+  }
+}

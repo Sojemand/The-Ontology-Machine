@@ -1,0 +1,1532 @@
+description: English master taxonomy for the Vision Pipeline Normalizer.
+domains:
+  finance:
+    label: Finance
+    description: Invoices, statements, payments, and costs.
+  property:
+    label: Property Management
+    description: Housing, tenancy, and property management.
+  legal:
+    label: Legal
+    description: Contracts, notices, and legal communication.
+  administrative:
+    label: Administration
+    description: Authorities, forms, and general administration.
+  technical:
+    label: Technical
+    description: Technology, assets, quality, and measurements.
+  operations:
+    label: Operations
+    description: Operations, logistics, procurement, and deployment planning.
+  personal:
+    label: Personal
+    description: Personal reflection, habits, and development planning.
+  business:
+    label: Business
+    description: Business communication, governance, and administration.
+  people:
+    label: People
+    description: Identity, personnel files, and personal records.
+  health:
+    label: Health
+    description: Medical administration, treatment, and care.
+  community:
+    label: Community
+    description: Membership, community, donations, and pastoral care.
+  other:
+    label: Other
+    description: Fallback domain.
+document_types:
+  invoice:
+    label: Invoice
+    description: Invoice with a concrete payment request.
+    aliases:
+    - invoice
+  credit_note:
+    label: Credit Note
+    description: Credit note or correction document.
+    aliases:
+    - credit note
+  receipt:
+    label: Receipt
+    description: Payment or receipt confirmation.
+    aliases:
+    - receipt
+    - proof of payment
+  quote:
+    label: Quote
+    description: Quote or cost estimate.
+    aliases:
+    - quote
+    - estimate
+  payment_notice:
+    label: Payment Notice
+    description: Payment notice without full invoice structure.
+    aliases:
+    - payment notice
+    - payment request
+  reminder:
+    label: Reminder
+    description: Payment reminder or overdue notice.
+    aliases:
+    - reminder
+    - payment reminder
+  advance_payment:
+    label: Advance Payment
+    description: Advance or installment payment document.
+    aliases:
+    - advance payment
+    - installment payment
+    - prepayment
+  utility_cost_statement:
+    label: Utility Cost Statement
+    description: Utility, heating, or service charge statement.
+    aliases:
+    - utility cost statement
+    - heating cost statement
+    - service charge statement
+  rent_statement:
+    label: Rent Statement
+    description: Rent account or rent statement.
+    aliases:
+    - rent statement
+    - rent account
+  cost_analysis:
+    label: Cost Analysis
+    description: Cost or usage analysis without a direct payment request.
+    aliases:
+    - cost analysis
+    - usage analysis
+  delivery_note:
+    label: Delivery Note
+    description: Delivery note or goods receipt document.
+    aliases:
+    - delivery note
+    - shipping note
+  order:
+    label: Order
+    description: Order or procurement request.
+    aliases:
+    - order
+    - purchase order
+  contract:
+    label: Contract
+    description: Contract.
+    aliases:
+    - contract
+    - agreement
+  contract_addendum:
+    label: Contract Addendum
+    description: Amendment or addendum to a contract.
+    aliases:
+    - contract addendum
+    - amendment
+  termination_notice:
+    label: Termination Notice
+    description: Termination or discontinuation notice.
+    aliases:
+    - termination notice
+    - cancellation notice
+  authority_notice:
+    label: Authority Notice
+    description: Official notice or administrative decision.
+    aliases:
+    - authority notice
+    - official notice
+  application:
+    label: Application
+    description: Application or form to be submitted.
+    aliases:
+    - application
+    - request form
+  general_letter:
+    label: General Letter
+    description: General letter or written communication.
+    aliases:
+    - letter
+    - general letter
+    - notice
+  minutes_record:
+    label: Meeting Minutes
+    description: Meeting minutes or written record.
+    aliases:
+    - minutes
+    - meeting minutes
+  report:
+    label: Report
+    description: Report or factual analysis.
+    aliases:
+    - report
+  specification:
+    label: Specification
+    description: Technical specification or requirement.
+    aliases:
+    - specification
+    - technical specification
+    - technical_specification
+    - technical specification
+  inspection_report:
+    label: Inspection Report
+    description: Inspection or site visit report.
+    aliases:
+    - inspection report
+  energy_certificate:
+    label: Energy Certificate
+    description: Energy certificate or energy label.
+    aliases:
+    - energy certificate
+  meter_reading:
+    label: Meter Reading
+    description: Meter reading or usage capture.
+    aliases:
+    - meter reading
+    - usage reading
+  certificate:
+    label: Certificate
+    description: Certificate or proof.
+    aliases:
+    - certificate
+    - attestation
+    - proof
+  form:
+    label: Form
+    description: General form.
+    aliases:
+    - form
+  statement:
+    label: Statement
+    description: Account, service, or overview statement.
+    aliases:
+    - statement
+    - account statement
+    - overview
+  payslip:
+    label: Payslip
+    description: Salary or wage statement.
+    aliases:
+    - payslip
+    - pay statement
+    - salary statement
+  policy:
+    label: Policy
+    description: Policy or rules document.
+    aliases:
+    - policy
+    - guideline
+  schedule:
+    label: Schedule
+    description: Schedule, timeline, or treatment plan.
+    aliases:
+    - schedule
+    - plan
+  prescription:
+    label: Prescription
+    description: Prescription or medical order.
+    aliases:
+    - prescription
+    - medical order
+  membership_record:
+    label: Membership Record
+    description: Membership-related record or proof.
+    aliases:
+    - membership record
+    - membership proof
+  profile:
+    label: Profile
+    description: Profile or master data record.
+    aliases:
+    - profile
+    - master record
+  other:
+    label: Other
+    description: Fallback document type for unclear cases.
+    aliases: []
+  narrative_text:
+    label: Narrative Text
+    description: Narrative, reflective, or creative text without a strict administrative
+      purpose.
+    aliases:
+    - geschichte
+    - erzaehlung
+    - story
+    - literary_text
+    - literary text
+    - creative_writing
+    - creative writing
+    - fiction
+    - fanfiction
+    - tagebuch
+    - journal
+categories:
+  finance:
+    label: Finance
+    description: Invoices, statements, payments, and costs.
+    aliases:
+    - finance
+    - accounting
+  property:
+    label: Property Management
+    description: Housing, tenancy, and property management.
+    aliases:
+    - property management
+    - housing
+    - property
+  legal:
+    label: Legal
+    description: Contracts, notices, and legal communication.
+    aliases:
+    - legal
+  administrative:
+    label: Administration
+    description: Authorities, forms, and general administration.
+    aliases:
+    - administration
+    - official
+  technical:
+    label: Technical
+    description: Technology, assets, quality, and measurements.
+    aliases:
+    - technical
+  operations:
+    label: Operations
+    description: Operations, logistics, procurement, and deployment planning.
+    aliases:
+    - operations
+  personal:
+    label: Personal
+    description: Personal reflection, habits, and development planning.
+    aliases:
+    - personal
+    - creative_writing
+    - creative writing
+  business:
+    label: Business
+    description: Business communication, governance, and administration.
+    aliases:
+    - business
+    - corporate
+  people:
+    label: People
+    description: Identity, personnel files, and personal records.
+    aliases:
+    - people
+  health:
+    label: Health
+    description: Medical administration, treatment, and care.
+    aliases:
+    - health
+  community:
+    label: Community
+    description: Membership, community, donations, and pastoral care.
+    aliases:
+    - community
+  other:
+    label: Other
+    description: Fallback category.
+    aliases: []
+subcategories:
+  accounts_payable:
+    label: Accounts Payable
+    description: Subcategory for Accounts Payable.
+    aliases: []
+  accounts_receivable:
+    label: Accounts Receivable
+    description: Subcategory for Accounts Receivable.
+    aliases: []
+  utilities:
+    label: Utilities
+    description: Subcategory for Utilities.
+    aliases:
+    - utility costs
+    - heating costs
+    - service charges
+  rent:
+    label: Rent
+    description: Subcategory for Rent.
+    aliases:
+    - rent
+  budget_quote:
+    label: Budget Quote
+    description: Subcategory for Budget Quote.
+    aliases:
+    - quote
+  payment_followup:
+    label: Payment Follow-Up
+    description: Subcategory for Payment Follow-Up.
+    aliases:
+    - reminder
+  payment_schedule:
+    label: Payment Schedule
+    description: Subcategory for Payment Schedule.
+    aliases:
+    - installment plan
+    - payment plan
+    - repayment plan
+    - advance payment
+  advance_payment_adjustment:
+    label: Advance Payment Adjustment
+    description: Subcategory for Advance Payment Adjustment.
+    aliases:
+    - advance payment adjustment
+    - prepayment adjustment
+    - utility prepayment
+    - utility prepayments
+  financial_summary:
+    label: Financial Summary
+    description: Subcategory for Financial Summary.
+    aliases:
+    - financial overview
+  tenant_communication:
+    label: Tenant Communication
+    description: Subcategory for Tenant Communication.
+    aliases:
+    - tenant communication
+  tenant_application:
+    label: Tenant Application
+    description: Subcategory for Tenant Application.
+    aliases: []
+  owner_communication:
+    label: Owner Communication
+    description: Subcategory for Owner Communication.
+    aliases: []
+  maintenance:
+    label: Maintenance
+    description: Subcategory for Maintenance.
+    aliases:
+    - maintenance
+  damage:
+    label: Damage
+    description: Subcategory for Damage.
+    aliases:
+    - damage
+  handover:
+    label: Handover
+    description: Subcategory for Handover.
+    aliases:
+    - handover
+  metering:
+    label: Metering
+    description: Subcategory for Metering.
+    aliases:
+    - metering
+  property_information:
+    label: Property Information
+    description: Subcategory for Property Information.
+    aliases: []
+  service_provider_communication:
+    label: Service Provider Communication
+    description: Subcategory for Service Provider Communication.
+    aliases:
+    - service provider communication
+  contract:
+    label: Contract
+    description: Subcategory for Contract.
+    aliases:
+    - contract
+    - liability and damages agreement
+  contract_change:
+    label: Contract Change
+    description: Subcategory for Contract Change.
+    aliases:
+    - addendum
+  termination:
+    label: Termination
+    description: Subcategory for Termination.
+    aliases:
+    - termination
+  legal_correspondence:
+    label: Legal Correspondence
+    description: Subcategory for Legal Correspondence.
+    aliases:
+    - legal correspondence
+  application:
+    label: Application
+    description: Subcategory for Application.
+    aliases:
+    - application
+  official_notice:
+    label: Official Notice
+    description: Subcategory for Official Notice.
+    aliases:
+    - official notice
+  general_correspondence:
+    label: General Correspondence
+    description: Subcategory for General Correspondence.
+    aliases:
+    - correspondence
+  minutes:
+    label: Minutes
+    description: Subcategory for Minutes.
+    aliases:
+    - minutes
+  form_submission:
+    label: Form Submission
+    description: Subcategory for Form Submission.
+    aliases:
+    - form
+  inspection:
+    label: Inspection
+    description: Subcategory for Inspection.
+    aliases:
+    - inspection
+  measurement:
+    label: Measurement
+    description: Subcategory for Measurement.
+    aliases:
+    - measurement
+  energy:
+    label: Energy
+    description: Subcategory for Energy.
+    aliases:
+    - energy
+  technical_correspondence:
+    label: Technical Correspondence
+    description: Subcategory for Technical Correspondence.
+    aliases: []
+  technical_specification:
+    label: Technical Specification
+    description: Subcategory for Technical Specification.
+    aliases:
+    - handover_blueprint
+    - handover blueprint
+    - serviceanforderungen
+    - software module description
+    - software_module_description
+  feasibility_study:
+    label: Feasibility Study
+    description: Subcategory for Feasibility Study.
+    aliases:
+    - feasibility study
+  logistics:
+    label: Logistics
+    description: Subcategory for Logistics.
+    aliases:
+    - transport order / delivery note
+    - transport order
+    - delivery note
+  procurement:
+    label: Procurement
+    description: Subcategory for Procurement.
+    aliases:
+    - order
+    - purchase order
+  execution_plan:
+    label: Execution Plan
+    description: Subcategory for Execution Plan.
+    aliases:
+    - execution plan
+    - deployment plan
+  travel_instruction:
+    label: Travel Instruction
+    description: Subcategory for Travel Instruction.
+    aliases: []
+  site_access_compliance:
+    label: Site Access Compliance
+    description: Subcategory for Site Access Compliance.
+    aliases:
+    - permit form
+    - safety instruction
+  inventory:
+    label: Inventory
+    description: Subcategory for Inventory.
+    aliases:
+    - machine list
+    - inventory_list
+    - inventory list
+  recovery_plan:
+    label: Recovery Plan
+    description: Subcategory for Recovery Plan.
+    aliases: []
+  business_correspondence:
+    label: Business Correspondence
+    description: Subcategory for Business Correspondence.
+    aliases:
+    - business correspondence
+  corporate_profile:
+    label: Corporate Profile
+    description: Subcategory for Corporate Profile.
+    aliases:
+    - company profile
+    - corporate profile
+  governance:
+    label: Governance
+    description: Subcategory for Governance.
+    aliases:
+    - articles of association
+  customer_account:
+    label: Customer Account
+    description: Subcategory for Customer Account.
+    aliases:
+    - customer account
+  vendor_management:
+    label: Vendor Management
+    description: Subcategory for Vendor Management.
+    aliases:
+    - vendor account
+  policy_compliance:
+    label: Policy Compliance
+    description: Subcategory for Policy Compliance.
+    aliases:
+    - policy compliance
+  payroll_accounting:
+    label: Payroll Accounting
+    description: Subcategory for Payroll Accounting.
+    aliases:
+    - payslip
+    - payroll statement
+  budget_planning:
+    label: Budget Planning
+    description: Subcategory for Budget Planning.
+    aliases: []
+  tax_reporting:
+    label: Tax Reporting
+    description: Subcategory for Tax Reporting.
+    aliases:
+    - tax
+  expense_reimbursement:
+    label: Expense Reimbursement
+    description: Subcategory for Expense Reimbursement.
+    aliases:
+    - expenses
+    - reimbursement
+  compliance_notice:
+    label: Compliance Notice
+    description: Subcategory for Compliance Notice.
+    aliases:
+    - requirement
+  court_case:
+    label: Court Case
+    description: Subcategory for Court Case.
+    aliases:
+    - court case
+  permit_license:
+    label: Permit and License
+    description: Subcategory for Permit and License.
+    aliases:
+    - permit
+    - license
+  registration_record:
+    label: Registration Record
+    description: Subcategory for Registration Record.
+    aliases:
+    - registration
+    - register entry
+  civic_service:
+    label: Civic Service
+    description: Subcategory for Civic Service.
+    aliases:
+    - citizen service
+    - municipal
+  benefit_case:
+    label: Benefit Case
+    description: Subcategory for Benefit Case.
+    aliases:
+    - benefit case
+    - claim
+  identity_verification:
+    label: Identity Verification
+    description: Subcategory for Identity Verification.
+    aliases:
+    - identity verification
+    - KYC
+  asset_documentation:
+    label: Asset Documentation
+    description: Subcategory for Asset Documentation.
+    aliases:
+    - asset documentation
+    - equipment documentation
+  maintenance_protocol:
+    label: Maintenance Protocol
+    description: Subcategory for Maintenance Protocol.
+    aliases:
+    - maintenance log
+    - service log
+  incident_diagnosis:
+    label: Incident Diagnosis
+    description: Subcategory for Incident Diagnosis.
+    aliases:
+    - fault
+    - fault diagnosis
+  quality_assurance:
+    label: Quality Assurance
+    description: Subcategory for Quality Assurance.
+    aliases:
+    - quality assurance
+    - QA
+  engineering_change:
+    label: Engineering Change
+    description: Subcategory for Engineering Change.
+    aliases:
+    - change notice
+  identity_record:
+    label: Identity Record
+    description: Subcategory for Identity Record.
+    aliases:
+    - person record
+  employment:
+    label: Employment
+    description: Subcategory for Employment.
+    aliases:
+    - employment relationship
+    - employment
+  personnel_request:
+    label: Personnel Request
+    description: Subcategory for Personnel Request.
+    aliases:
+    - personnel request
+  education_record:
+    label: Education Record
+    description: Subcategory for Education Record.
+    aliases:
+    - qualification record
+    - education record
+  care_administration:
+    label: Care Administration
+    description: Subcategory for Care Administration.
+    aliases:
+    - care administration
+    - care provision administration
+  medical_certificate:
+    label: Medical Certificate
+    description: Subcategory for Medical Certificate.
+    aliases:
+    - medical certificate
+    - doctor's certificate
+  treatment_plan:
+    label: Treatment Plan
+    description: Subcategory for Treatment Plan.
+    aliases:
+    - treatment plan
+    - therapy plan
+  medication:
+    label: Medication
+    description: Subcategory for Medication.
+    aliases:
+    - medication
+    - pharmaceutical
+  insurance_health:
+    label: Health Insurance
+    description: Subcategory for Health Insurance.
+    aliases:
+    - health insurance
+    - coverage approval
+  wellbeing_plan:
+    label: Wellbeing Plan
+    description: Subcategory for Wellbeing Plan.
+    aliases:
+    - wellbeing
+  self_reflection:
+    label: Self-Reflection
+    description: Subcategory for Self-Reflection.
+    aliases:
+    - self-reflection
+  habit_tracking:
+    label: Habit Tracking
+    description: Subcategory for Habit Tracking.
+    aliases: []
+  coaching_support:
+    label: Coaching Support
+    description: Subcategory for Coaching Support.
+    aliases: []
+  membership:
+    label: Membership
+    description: Subcategory for Membership.
+    aliases:
+    - membership
+  community_event:
+    label: Community Event
+    description: Subcategory for Community Event.
+    aliases:
+    - event
+  spiritual_guidance:
+    label: Spiritual Guidance
+    description: Subcategory for Spiritual Guidance.
+    aliases:
+    - spiritual guidance
+    - liturgy
+  pastoral_care:
+    label: Pastoral Care
+    description: Subcategory for Pastoral Care.
+    aliases:
+    - pastoral care
+  donation_support:
+    label: Donation Support
+    description: Subcategory for Donation Support.
+    aliases:
+    - donation
+  other:
+    label: Other
+    description: Fallback subcategory.
+    aliases: []
+  creative_writing:
+    label: Kreatives Schreiben
+    description: Narrative, fictional or literary subcategory.
+    aliases:
+    - fiction
+    - fanfiction
+    - fantasy_story
+    - fantasy story
+    - erzaehlung
+    - geschichte
+    - literarisch
+field_codes:
+  issuer:
+    label: Issuer
+    description: Extracted field for Issuer.
+    aliases: []
+  sender:
+    label: Sender
+    description: Extracted field for Sender.
+    aliases:
+    - organization
+    - company department name
+  sender_address:
+    label: Sender Address
+    description: Extracted field for Sender Address.
+    aliases: []
+  recipient:
+    label: Recipient
+    description: Extracted field for Recipient.
+    aliases: []
+  recipient_address:
+    label: Recipient Address
+    description: Extracted field for Recipient Address.
+    aliases:
+    - address
+    - mailing address
+  recipient_primary:
+    label: Primary Recipient
+    description: Extracted field for Primary Recipient.
+    aliases: []
+  customer_name:
+    label: Customer Name
+    description: Extracted field for Customer Name.
+    aliases:
+    - customer
+  customer_number:
+    label: Customer Number
+    description: Extracted field for Customer Number.
+    aliases: []
+  tenant_name:
+    label: Tenant Name
+    description: Extracted field for Tenant Name.
+    aliases:
+    - tenant
+  owner_name:
+    label: Owner Name
+    description: Extracted field for Owner Name.
+    aliases:
+    - owner
+  property_manager_name:
+    label: Property Manager Name
+    description: Extracted field for Property Manager Name.
+    aliases:
+    - property management
+  property_address:
+    label: Property Address
+    description: Extracted field for Property Address.
+    aliases: []
+  property_manager_internal_id:
+    label: Property Manager Internal ID
+    description: Extracted field for Property Manager Internal ID.
+    aliases: []
+  document_number:
+    label: Document Number
+    description: Extracted field for Document Number.
+    aliases:
+    - delivery note number
+    - transport order number
+    - form identifier
+  our_reference:
+    label: Our Reference
+    description: Extracted field for Our Reference.
+    aliases: []
+  your_reference:
+    label: Your Reference
+    description: Extracted field for Your Reference.
+    aliases:
+    - your reference
+  subject:
+    label: Subject
+    description: Extracted field for Subject.
+    aliases:
+    - title
+    - instruction
+    - topic
+  salutation:
+    label: Salutation
+    description: Extracted field for Salutation.
+    aliases: []
+  closing:
+    label: Closing
+    description: Extracted field for Closing.
+    aliases:
+    - closing formula
+  signoff:
+    label: Sign-Off
+    description: Extracted field for Sign-Off.
+    aliases: []
+  invoice_number:
+    label: Invoice Number
+    description: Extracted field for Invoice Number.
+    aliases: []
+  contract_number:
+    label: Contract Number
+    description: Extracted field for Contract Number.
+    aliases: []
+  account_number:
+    label: Account Number
+    description: Extracted field for Account Number.
+    aliases:
+    - customer account
+  document_date:
+    label: Document Date
+    description: Extracted field for Document Date.
+    aliases:
+    - date
+    - posting date
+  period_from:
+    label: Period Start
+    description: Extracted field for Period Start.
+    aliases: []
+  period_to:
+    label: Period End
+    description: Extracted field for Period End.
+    aliases: []
+  service_end_date:
+    label: Service End Date
+    description: Extracted field for Service End Date.
+    aliases:
+    - service end
+  due_date:
+    label: Due Date
+    description: Extracted field for Due Date.
+    aliases:
+    - due date
+  currency:
+    label: Currency
+    description: Extracted field for Currency.
+    aliases: []
+  reference_amount:
+    label: Reference Amount
+    description: Extracted field for Reference Amount.
+    aliases:
+    - reference amount
+    - guidance amount
+  total_amount:
+    label: Total Amount
+    description: Extracted field for Total Amount.
+    aliases:
+    - total amount
+    - total
+  net_amount:
+    label: Net Amount
+    description: Extracted field for Net Amount.
+    aliases:
+    - net amount
+    - net
+  tax_amount:
+    label: Tax Amount
+    description: Extracted field for Tax Amount.
+    aliases:
+    - VAT
+  balance_amount:
+    label: Balance Amount
+    description: Extracted field for Balance Amount.
+    aliases:
+    - balance
+  bank_name:
+    label: Bank Name
+    description: Extracted field for Bank Name.
+    aliases:
+    - bank
+  iban:
+    label: IBAN
+    description: Extracted field for IBAN.
+    aliases: []
+  bic:
+    label: BIC
+    description: Extracted field for BIC.
+    aliases: []
+  phone:
+    label: Phone
+    description: Extracted field for Phone.
+    aliases:
+    - contact phone
+  fax:
+    label: Fax
+    description: Extracted field for Fax.
+    aliases:
+    - fax
+    - fax number
+  email:
+    label: Email
+    description: Extracted field for Email.
+    aliases:
+    - email address
+  website:
+    label: Website
+    description: Extracted field for Website.
+    aliases:
+    - homepage
+    - website
+    - url
+  mobile_number:
+    label: Mobile Number
+    description: Extracted field for Mobile Number.
+    aliases:
+    - mobile number
+    - mobile phone number
+    - phone number
+    - cell phone
+  access_code:
+    label: Access Code
+    description: Extracted field for Access Code.
+    aliases:
+    - access code
+    - activation code
+  contact_person:
+    label: Contact Person
+    description: Extracted field for Contact Person.
+    aliases:
+    - contact person
+  signatory:
+    label: Signatory
+    description: Extracted field for Signatory.
+    aliases: []
+  signatory_role:
+    label: Signatory Role
+    description: Extracted field for Signatory Role.
+    aliases:
+    - signatory role
+    - signing role
+  carrier_name:
+    label: Carrier Name
+    description: Extracted field for Carrier Name.
+    aliases:
+    - carrier
+  vehicle_registration:
+    label: Vehicle Registration
+    description: Extracted field for Vehicle Registration.
+    aliases:
+    - license plate
+  loading_address:
+    label: Loading Address
+    description: Extracted field for Loading Address.
+    aliases:
+    - loading address
+  transfer_address:
+    label: Transfer Address
+    description: Extracted field for Transfer Address.
+    aliases:
+    - transfer address
+  unloading_address:
+    label: Unloading Address
+    description: Extracted field for Unloading Address.
+    aliases:
+    - unloading address
+  register_court:
+    label: Register Court
+    description: Extracted field for Register Court.
+    aliases: []
+  commercial_register:
+    label: Commercial Register
+    description: Extracted field for Commercial Register.
+    aliases:
+    - commercial register
+    - company register
+  tax_id:
+    label: Tax ID
+    description: Extracted field for Tax ID.
+    aliases:
+    - tax ID
+    - VAT ID
+  page_indicator:
+    label: Page Indicator
+    description: Extracted field for Page Indicator.
+    aliases: []
+  meter_id:
+    label: Meter ID
+    description: Extracted field for Meter ID.
+    aliases:
+    - meter number
+  case_id:
+    label: Case ID
+    description: Extracted field for Case ID.
+    aliases:
+    - case number
+  asset_id:
+    label: Asset ID
+    description: Extracted field for Asset ID.
+    aliases: []
+  serial_number:
+    label: Serial Number
+    description: Extracted field for Serial Number.
+    aliases: []
+  site_name:
+    label: Site Name
+    description: Extracted field for Site Name.
+    aliases:
+    - site
+    - plant
+  department_name:
+    label: Department Name
+    description: Extracted field for Department Name.
+    aliases:
+    - department
+  cost_center:
+    label: Cost Center
+    description: Extracted field for Cost Center.
+    aliases: []
+  employee_id:
+    label: Employee ID
+    description: Extracted field for Employee ID.
+    aliases:
+    - employee number
+  job_title:
+    label: Job Title
+    description: Extracted field for Job Title.
+    aliases:
+    - job title
+    - role
+  person_name:
+    label: Person Name
+    description: Extracted field for Person Name.
+    aliases:
+    - full name
+  personal_id_number:
+    label: Personal ID Number
+    description: Extracted field for Personal ID Number.
+    aliases:
+    - ID number
+    - identity card number
+  date_of_birth:
+    label: Date of Birth
+    description: Extracted field for Date of Birth.
+    aliases: []
+  place_of_birth:
+    label: Place of Birth
+    description: Extracted field for Place of Birth.
+    aliases: []
+  nationality:
+    label: Nationality
+    description: Extracted field for Nationality.
+    aliases: []
+  authority_name:
+    label: Authority Name
+    description: Extracted field for Authority Name.
+    aliases:
+    - authority
+    - agency
+  permit_number:
+    label: Permit Number
+    description: Extracted field for Permit Number.
+    aliases:
+    - license number
+    - permit number
+  patient_name:
+    label: Patient Name
+    description: Extracted field for Patient Name.
+    aliases:
+    - patient
+  provider_name:
+    label: Provider Name
+    description: Extracted field for Provider Name.
+    aliases:
+    - practice
+    - therapist
+    - provider
+  insurance_number:
+    label: Insurance Number
+    description: Extracted field for Insurance Number.
+    aliases:
+    - insurance number
+    - health insurance number
+  diagnosis:
+    label: Diagnosis
+    description: Extracted field for Diagnosis.
+    aliases:
+    - finding
+  care_level:
+    label: Care Level
+    description: Extracted field for Care Level.
+    aliases: []
+  medication_name:
+    label: Medication Name
+    description: Extracted field for Medication Name.
+    aliases:
+    - medication
+    - pharmaceutical
+  appointment_date:
+    label: Appointment Date
+    description: Extracted field for Appointment Date.
+    aliases:
+    - appointment date
+    - treatment date
+  community_name:
+    label: Community Name
+    description: Extracted field for Community Name.
+    aliases:
+    - congregation
+    - association
+    - group
+  membership_id:
+    label: Membership ID
+    description: Extracted field for Membership ID.
+    aliases: []
+  event_name:
+    label: Event Name
+    description: Extracted field for Event Name.
+    aliases: []
+  other:
+    label: Other
+    description: Extracted field for other content.
+    aliases: []
+row_types:
+  line_item:
+    label: Line Item
+    description: Row type for Line Item.
+  cost_breakdown_current:
+    label: Current Cost Breakdown
+    description: Row type for Current Cost Breakdown.
+  cost_breakdown_history:
+    label: Historical Cost Breakdown
+    description: Row type for Historical Cost Breakdown.
+  consumption_current:
+    label: Current Consumption
+    description: Row type for Current Consumption.
+  consumption_history:
+    label: Historical Consumption
+    description: Row type for Historical Consumption.
+  payment_schedule:
+    label: Payment Schedule
+    description: Row type for Payment Schedule.
+  account_entry:
+    label: Account Entry
+    description: Row type for Account Entry.
+  meter_reading_series:
+    label: Meter Reading Series
+    description: Row type for Meter Reading Series.
+  participant_list:
+    label: Participant List
+    description: Row type for Participant List.
+  contact_block:
+    label: Contact Block
+    description: Row type for Contact Block.
+  timeline_entry:
+    label: Timeline Entry
+    description: Row type for Timeline Entry.
+  other:
+    label: Other
+    description: Row type for other content.
+cell_codes:
+  description:
+    label: Description
+    description: Cell value for Description.
+    aliases:
+    - text
+    - description
+    - item
+    - line items
+  quantity:
+    label: Quantity
+    description: Cell value for Quantity.
+    aliases:
+    - quantity
+    - count
+  unit:
+    label: Unit
+    description: Cell value for Unit.
+    aliases: []
+  scheduled_date:
+    label: Scheduled Date
+    description: Cell value for Scheduled Date.
+    aliases:
+    - scheduled date
+    - due date
+    - installment on
+    - date
+  position:
+    label: Position
+    description: Cell value for Position.
+    aliases: []
+  unit_price:
+    label: Unit Price
+    description: Cell value for Unit Price.
+    aliases: []
+  line_total:
+    label: Line Total
+    description: Cell value for Line Total.
+    aliases: []
+  base_amount:
+    label: Base Amount
+    description: Cell value for Base Amount.
+    aliases:
+    - base amount
+    - amount before adjustment
+  adjustment_amount:
+    label: Adjustment Amount
+    description: Cell value for Adjustment Amount.
+    aliases:
+    - adjustment amount
+    - delta
+  gross_amount:
+    label: Gross Amount
+    description: Cell value for Gross Amount.
+    aliases:
+    - gross amount
+    - gross
+  building_total_cost:
+    label: Total Building Cost
+    description: Cell value for Total Building Cost.
+    aliases: []
+  building_total_heating_cost:
+    label: Total Building Heating Cost
+    description: Cell value for Total Building Heating Cost.
+    aliases:
+    - total building heating cost
+  building_total_warmwater_cost:
+    label: Total Building Hot Water Cost
+    description: Cell value for Total Building Hot Water Cost.
+    aliases: []
+  tenant_share_cost:
+    label: Tenant Cost Share
+    description: Cell value for Tenant Cost Share.
+    aliases: []
+  tenant_share_heating_cost:
+    label: Tenant Heating Cost Share
+    description: Cell value for Tenant Heating Cost Share.
+    aliases:
+    - tenant heating cost share
+  tenant_share_warmwater_cost:
+    label: Tenant Hot Water Cost Share
+    description: Cell value for Tenant Hot Water Cost Share.
+    aliases: []
+  building_total_usage:
+    label: Total Building Usage
+    description: Cell value for Total Building Usage.
+    aliases: []
+  tenant_share_usage:
+    label: Tenant Usage Share
+    description: Cell value for Tenant Usage Share.
+    aliases: []
+  average_building_usage:
+    label: Average Building Usage
+    description: Cell value for Average Building Usage.
+    aliases:
+    - average building usage
+    - average property usage
+  average_tenant_usage:
+    label: Average Tenant Usage
+    description: Cell value for Average Tenant Usage.
+    aliases:
+    - your average usage
+    - recipient average usage
+  usage_unit:
+    label: Usage Unit
+    description: Cell value for Usage Unit.
+    aliases:
+    - usage unit
+  average_usage_unit:
+    label: Average Usage Unit
+    description: Cell value for Average Usage Unit.
+    aliases:
+    - average unit
+    - average usage unit
+  percentage_share:
+    label: Percentage Share
+    description: Cell value for Percentage Share.
+    aliases:
+    - percentage share
+  account_delta:
+    label: Account Delta
+    description: Cell value for Account Delta.
+    aliases:
+    - posting amount
+    - account entry
+    - booking delta
+    - delta amount
+  amount_due:
+    label: Amount Due
+    description: Cell value for Amount Due.
+    aliases:
+    - amount due
+  amount_paid:
+    label: Amount Paid
+    description: Cell value for Amount Paid.
+    aliases:
+    - amount paid
+    - paid
+  balance:
+    label: Balance
+    description: Cell value for Balance.
+    aliases: []
+  net_amount:
+    label: Net Amount
+    description: Cell value for Net Amount.
+    aliases:
+    - net amount
+    - net
+  tax_amount:
+    label: Tax Amount
+    description: Cell value for Tax Amount.
+    aliases:
+    - VAT
+    - sales tax
+  participant_role:
+    label: Participant Role
+    description: Cell value for Participant Role.
+    aliases:
+    - role
+  name:
+    label: Name
+    description: Cell value for Name.
+    aliases: []
+  note:
+    label: Note
+    description: Cell value for Note.
+    aliases: []
+  section:
+    label: Section
+    description: Cell value for Section.
+    aliases: []
+  drawing_reference:
+    label: Drawing Reference
+    description: Cell value for Drawing Reference.
+    aliases: []
+  material:
+    label: Material
+    description: Cell value for Material.
+    aliases: []
+  dimension:
+    label: Dimension
+    description: Cell value for Dimension.
+    aliases: []
+  signature_marker:
+    label: Signature Marker
+    description: Cell value for Signature Marker.
+    aliases:
+    - signature
+  status:
+    label: Status
+    description: Cell value for Status.
+    aliases:
+    - status
+    - state
+  identifier:
+    label: Identifier
+    description: Cell value for Identifier.
+    aliases:
+    - identifier
+    - number
+  rate:
+    label: Rate
+    description: Cell value for Rate.
+    aliases:
+    - rate
+    - tariff
+  hours:
+    label: Hours
+    description: Cell value for Hours.
+    aliases:
+    - hours
+    - working time
+  dosage:
+    label: Dosage
+    description: Cell value for Dosage.
+    aliases:
+    - dosage
+    - dose
+  frequency:
+    label: Frequency
+    description: Cell value for Frequency.
+    aliases:
+    - frequency
+    - interval
+  other:
+    label: Other
+    description: Cell value for other content.
+    aliases: []
+entity_types:
+  party:
+    label: Party
+    description: Entity type for Party.
+  address:
+    label: Address
+    description: Entity type for Address.
+  identifier:
+    label: Identifier
+    description: Entity type for Identifier.
+  financial_amount:
+    label: Financial Amount
+    description: Entity type for Financial Amount.
+  period:
+    label: Period
+    description: Entity type for Period.
+  property:
+    label: Property
+    description: Entity type for Property.
+  document_fact:
+    label: Document Fact
+    description: Entity type for Document Fact.
+  line_item:
+    label: Line Item
+    description: Entity type for Line Item.
+  measurement:
+    label: Measurement
+    description: Entity type for Measurement.
+  event:
+    label: Event
+    description: Entity type for Event.
+role_types:
+  issuer:
+    label: Issuer
+  sender:
+    label: Sender
+  recipient:
+    label: Recipient
+  recipient_primary:
+    label: Primary Recipient
+  customer:
+    label: Customer
+  tenant:
+    label: Tenant
+  owner:
+    label: Owner
+  property_manager:
+    label: Property Manager
+  property_address:
+    label: Property Address
+  contact_person:
+    label: Contact Person
+  signatory:
+    label: Signatory
+  carrier:
+    label: Carrier
+  loading:
+    label: Loading
+  transfer:
+    label: Transfer
+  unloading:
+    label: Unloading
+  our_reference:
+    label: Our Reference
+  your_reference:
+    label: Your Reference
+  vehicle_registration:
+    label: Vehicle Registration
+  schedule_entry:
+    label: Schedule Entry
+  account_entry:
+    label: Account Entry
+  measurement_entry:
+    label: Measurement Entry
+  timeline_entry:
+    label: Timeline Entry
+relation_types:
+  normalized_from:
+    label: Normalized From
+  document_has_entity:
+    label: Document Has Entity
+  entity_reference:
+    label: Entity Reference

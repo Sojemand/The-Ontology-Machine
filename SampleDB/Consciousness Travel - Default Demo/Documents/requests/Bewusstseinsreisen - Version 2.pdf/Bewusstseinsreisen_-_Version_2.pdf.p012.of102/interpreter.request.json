@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=012-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:1d9f7e638c5935720234d8ff35abe9417e1fed59f643e31d346438cbe2f40a4f",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 12,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=012-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 12,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_012.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page12_para_0",
+        "type": "paragraph",
+        "value": "entgehen wo immer es geht. Im Laufe dieses Buches wird diese Eigenschaft unseres Geistes",
+        "position": {
+          "page": 12,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page12_para_1",
+        "type": "paragraph",
+        "value": "immer wieder auftauchen.",
+        "position": {
+          "page": 12,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page12_para_2",
+        "type": "paragraph",
+        "value": "Jede Aktion, jede Entscheidung und jedes Wort muss immer und unter allen Umständen im",
+        "position": {
+          "page": 12,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page12_para_3",
+        "type": "paragraph",
+        "value": "Einklang mit deiner eigenen Selbstwahrnehmung stehen. Ist es das nicht, so leiden wir",
+        "position": {
+          "page": 12,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page12_para_4",
+        "type": "paragraph",
+        "value": "solange mentale (bisweilen auch körperliche) Schmerzen, bis eine neue Absprache, eine",
+        "position": {
+          "page": 12,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page12_para_5",
+        "type": "paragraph",
+        "value": "neue Widerspruchsfreiheit hergestellt wurde. Das ist eine gar furchtbare Eigenschaft des",
+        "position": {
+          "page": 12,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page12_para_6",
+        "type": "paragraph",
+        "value": "Geistes, welche ganze Fitnessstudios am Leben hält, obwohl dort nie jemand auftaucht und",
+        "position": {
+          "page": 12,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page12_para_7",
+        "type": "paragraph",
+        "value": "ein jedes Mitglied fest davon überzeugt ist, eines Tages dort zu erscheinen um sein Leben",
+        "position": {
+          "page": 12,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page12_para_8",
+        "type": "paragraph",
+        "value": "endlich umzukrempeln. Nur gerade jetzt nicht, wo noch so viel Arbeit auf dem Tisch liegt oder",
+        "position": {
+          "page": 12,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page12_para_9",
+        "type": "paragraph",
+        "value": "diese Serie läuft die man endlich ansehen will, man gerade zu müde ist, schlechtes Wetter",
+        "position": {
+          "page": 12,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page12_para_10",
+        "type": "paragraph",
+        "value": "herrscht, es zu heiß oder zu kalt ist. Aber irgendwann, ja, irgendwann ist es soweit und dann",
+        "position": {
+          "page": 12,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page12_para_11",
+        "type": "paragraph",
+        "value": "kann ich einfach dort hinein marschieren und loslegen, dann steht mir nichts mehr im Weg.",
+        "position": {
+          "page": 12,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page12_para_12",
+        "type": "paragraph",
+        "value": "Diese Gewissheit aufrecht zu erhalten, das ist mir der monatliche Mitgliedsbeitrag wert. Schon",
+        "position": {
+          "page": 12,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page12_para_13",
+        "type": "paragraph",
+        "value": "lustig wie das funktioniert. Und ja, dies war eine Parodie.",
+        "position": {
+          "page": 12,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page12_para_14",
+        "type": "paragraph",
+        "value": "Weniger lustig wird es, wenn es um ernstere Dinge geht. Wenn es darum geht, an einem",
+        "position": {
+          "page": 12,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page12_para_15",
+        "type": "paragraph",
+        "value": "Investment festzuhalten, welches Stück für Stück die Ersparnisse eines ganzen Lebens",
+        "position": {
+          "page": 12,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page12_para_16",
+        "type": "paragraph",
+        "value": "zerstört. Wenn man an einem Beruf festhält, der dich innerlich zerfrisst oder eine Ehe führt, die",
+        "position": {
+          "page": 12,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page12_para_17",
+        "type": "paragraph",
+        "value": "dir dein Leben zur Hölle macht. All das lebt davon, dass wir so verzweifelt daran festhalten",
+        "position": {
+          "page": 12,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page12_para_18",
+        "type": "paragraph",
+        "value": "müssen, in uns und unserem Handeln keine Widersprüche aufdecken zu müssen die uns",
+        "position": {
+          "page": 12,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page12_para_19",
+        "type": "paragraph",
+        "value": "zeigen, dass wir es selbst sind die all das herbei geführt haben was uns so schmerzt. Wenn",
+        "position": {
+          "page": 12,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page12_para_20",
+        "type": "paragraph",
+        "value": "es denn nur dabei bleiben würde, könnte man sich noch damit abfinden und dies als Tragik",
+        "position": {
+          "page": 12,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page12_para_21",
+        "type": "paragraph",
+        "value": "des Lebens hinnehmen. Tut es aber nicht, denn genau dieses unkontrollierbare Verlangen ist",
+        "position": {
+          "page": 12,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page12_para_22",
+        "type": "paragraph",
+        "value": "es auch, was unsere Wahrnehmung des Bösen bestimmt.",
+        "position": {
+          "page": 12,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page12_para_23",
+        "type": "paragraph",
+        "value": "Das Verlangen uns gegenüber Widerspruchsfrei zu sein ist es auch, was andere uns",
+        "position": {
+          "page": 12,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page12_para_24",
+        "type": "paragraph",
+        "value": "gegenüber als Böse erscheinen lässt. Ich würde all meine Ersparnisse darauf verwetten, dass,",
+        "position": {
+          "page": 12,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page12_para_25",
+        "type": "paragraph",
+        "value": "wenn ich mir eine zufällige Person von der Straße greifen und sie fragen würde, ob sie glaube",
+        "position": {
+          "page": 12,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page12_para_26",
+        "type": "paragraph",
+        "value": "sie sei böse, sie mir entrüstet oder verwirrt entgegnete „Natürlich nicht!“. Würde ich die gleiche",
+        "position": {
+          "page": 12,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page12_para_27",
+        "type": "paragraph",
+        "value": "Person nun fragen, ob sie glaube es gäbe böse Menschen, die Antwort wäre wohl ein",
+        "position": {
+          "page": 12,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page12_para_28",
+        "type": "paragraph",
+        "value": "überzeugtes „Ja“. Aber wenn jeder denkt er sei kein böser Mensch, wo sind dann all die bösen",
+        "position": {
+          "page": 12,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page12_para_29",
+        "type": "paragraph",
+        "value": "Menschen? Nun, sie existieren nicht in dem Sinne wie wir es denken. Böse sind stets die",
+        "position": {
+          "page": 12,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page12_para_30",
+        "type": "paragraph",
+        "value": "Anderen. „Böse“ in diesem Kontext bedeutet, bewusst etwas Falsches zu tun. Allerdings",
+        "position": {
+          "page": 12,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page12_para_31",
+        "type": "paragraph",
+        "value": "kannst du nichts tun, was in deinen Augen bewusst falsch ist, das können nur Andere.",
+        "position": {
+          "page": 12,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

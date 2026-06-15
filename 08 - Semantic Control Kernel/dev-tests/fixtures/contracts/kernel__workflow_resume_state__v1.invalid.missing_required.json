@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-05-05T00:00:00Z",
+  "held_lock_refs": [],
+  "next_expected_transition": "next_expected_transition_example",
+  "paused_function": "paused_function_example",
+  "pending_confirmation_refs": [],
+  "selected_targets": [],
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "updated_at": "2026-05-05T00:00:00Z",
+  "workflow_run_id": "workflow_run_id_example"
+}

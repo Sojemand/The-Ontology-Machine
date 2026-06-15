@@ -1,0 +1,5 @@
+# This module bundles no third-party Python packages.
+# The bundled Python runtime is stdlib-only and only used by the isolated
+# read-only workbench runner for the minimal-agent tooling.
+# Keep this file comment-only so the central runtime builder treats the
+# frontend Python bundle as package-free.

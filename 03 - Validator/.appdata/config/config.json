@@ -1,0 +1,57 @@
+{
+  "checks": {
+    "free_text": true,
+    "context_scalars": true,
+    "content_fields": true,
+    "rows": true
+  },
+  "match": {
+    "scalar_level": "FAIL",
+    "row_level": "WARN",
+    "require_free_text": true,
+    "number_tolerance_absolute": 0.01,
+    "min_string_length": 4,
+    "min_compact_length": 5,
+    "context_fields": [
+      "company",
+      "document_date",
+      "document_title",
+      "total_monetary_value",
+      "total_hours",
+      "tax_amount",
+      "net_amount",
+      "reference_number",
+      "due_date",
+      "counterparty",
+      "opening_balance",
+      "closing_balance",
+      "document_number",
+      "recipient_name",
+      "customer_number"
+    ],
+    "skip_content_fields": [
+      "_source_refs"
+    ],
+    "skip_row_fields": [
+      "_source_refs",
+      "page",
+      "sequence",
+      "confidence"
+    ],
+    "row_anchor_keys": [
+      "position",
+      "description",
+      "label",
+      "item",
+      "title",
+      "name",
+      "question",
+      "text",
+      "content",
+      "value",
+      "summary"
+    ]
+  },
+  "flag_needs_review": true,
+  "max_issues_per_check": 20
+}

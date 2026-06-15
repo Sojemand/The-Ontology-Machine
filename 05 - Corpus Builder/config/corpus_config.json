@@ -1,0 +1,31 @@
+{
+  "database": {
+    "corpus_db": "./output/corpus.db"
+  },
+  "embeddings": {
+    "dimensions": 1536,
+    "batch_size": 50,
+    "max_text_chars": 12000
+  },
+  "archive": {
+    "enabled": true,
+    "keep_archived": true
+  },
+  "fts": {
+    "enabled": true,
+    "tokenizer": "unicode61"
+  },
+  "source": {
+    "page_images_dir": "",
+    "persist_page_images_in_db": true,
+    "persist_original_artifact_in_db": false,
+    "max_original_artifact_bytes": 52428800,
+    "max_page_image_bytes": 10485760,
+    "max_page_image_total_bytes": 104857600
+  },
+  "semantic": {
+    "published_release_path": "./config/semantic_release.default.json",
+    "active_release_path": "./state/semantic_release.active.json",
+    "release_report_path": "./state/semantic_release_report.json"
+  }
+}

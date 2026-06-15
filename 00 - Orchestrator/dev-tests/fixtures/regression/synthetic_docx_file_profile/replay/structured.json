@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.93,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "interpreter_profile": "file",
+    "processed_at": "2026-04-01T00:00:00+00:00",
+    "model": "synthetic-fixture-model",
+    "provider": "fixture"
+  },
+  "classification": {
+    "document_type": "briefing",
+    "document_type_confidence": 0.91,
+    "category": "business",
+    "subcategory": "synthetic_regression",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Synthetic Example GmbH",
+    "document_date": "2026-04-01",
+    "document_title": "Synthetic vendor brief",
+    "description": "Fully synthetic regression replay fixture.",
+    "tags": [
+      "synthetic",
+      "regression",
+      "docx"
+    ],
+    "people": [
+      "Example Person"
+    ],
+    "organizations": [
+      "Synthetic Example GmbH"
+    ],
+    "locations": [
+      "Example City"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "reference_number": "SYN-REG-001",
+    "document_number": "SYN-REG-001",
+    "invoice_number": "SYN-REG-001"
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "synthetic_subject": "Synthetic vendor brief",
+      "synthetic_status": "ready",
+      "synthetic_amount": "123.45"
+    },
+    "rows": [
+      {
+        "cells": {
+          "label": "synthetic_id",
+          "value": "SYN-REG-001"
+        }
+      },
+      {
+        "cells": {
+          "label": "source_policy",
+          "value": "no real data copied"
+        }
+      }
+    ],
+    "free_text": "Synthetic vendor brief. This text is fabricated for regression coverage."
+  },
+  "relations": [],
+  "source": {
+    "file_name": "synthetic_vendor_brief.docx",
+    "file_path": "C:/synthetic/input/synthetic_vendor_brief.docx",
+    "file_ext": "docx",
+    "size_bytes": 0,
+    "content_hash": "sha256:docx0file0profile00000000000000000000000000000000000000000000000",
+    "created_at": null,
+    "modified_at": null
+  }
+}

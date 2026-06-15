@@ -1,0 +1,26 @@
+# Optimizer Edit Contract
+
+- Entry-Point: `python -m ingestion_layer_vision.edit_contract --request <request.json> --response <response.json>`
+- Produkt-Contract und `module-manifest.json` bleiben unveraendert; `read_bundle` ist nur eine additive Owner-Action fuer `06 - Edit Suite`.
+- Sichtbare Actions:
+  - `describe_surfaces`
+  - `read_bundle`
+  - `read_surface`
+  - `validate_surface`
+  - `write_surface`
+- Sichtbare Surfaces:
+  - `optimizer.settings`
+  - `optimizer.ocr_prompt`
+  - `optimizer.output_contract_preview`
+  - `optimizer.debug_capabilities`
+- `read_bundle` liefert dieselben Descriptoren wie `describe_surfaces` plus inline `value` oder per-surface `load_error`.
+- `optimizer.settings` ist eine gruppierte Form-Surface:
+  - Processing: `max_file_size_mb`, `max_blocks_per_file`, `max_cell_text_length`, `processing_order`, `plugin_timeout_seconds`, `parallel_workers`
+  - Rendering/Layout: `render_dpi`, `render_width_px`, `render_height_px`, `page_margin_pt`, `default_font_size_pt`, `code_font_size_pt`, `heading_font_size_pt`
+- `optimizer.ocr_prompt` editiert `config/optimizer_ocr_prompt.md`; der Prompt muss `{page_count}` behalten, `{source_filename}` und `{source_filename_sentence}` sind optionale Runtime-Platzhalter.
+- `optimizer.output_contract_preview` ist read-only und zeigt `optimizer_raw_v2`, `optimizer_profile`, Response-Pfade, Page-Asset-Policy und die `optimizer_ocr`-Owner-Grenze.
+- Der Edit Contract authorisiert keine lokalen Regelassets, Projection-Kataloge oder fachlichen Routing-Signale.
+- Provider, Modell, Auth, Tokenbudget, Timeout und Secrets fuer LLM-OCR bleiben Orchestrator-owned und werden nicht in der Optimizer-Edit-Suite bearbeitet.
+- Runtime-Policy im Vision-Profil transportiert nur technische Scan-, Route- und Renderparameter.
+- `runtime_policy_path` verweist raw-first auf ein `runtime_semantic_assets_v1`-Bundle; der Edit Contract bearbeitet diese Runtime-Surface nicht.
+- `processed_hashes.json` bleibt bewusst ausserhalb der Edit-Contract-Schreibpfade.

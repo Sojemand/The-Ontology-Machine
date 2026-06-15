@@ -1,0 +1,63 @@
+{
+  "module_key": "corpus_builder",
+  "display_name": "Corpus Builder Vision",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "corpus_builder",
+  "contract_module": "corpus_builder.orchestrator_contract",
+  "actions": [
+    "load_document",
+    "activate_semantic_release",
+    "activate_corpus_context",
+    "create_empty_corpus_db",
+    "reset_active_corpus_db",
+    "create_and_activate_new_corpus_db",
+    "activation_preflight",
+    "generate_embeddings",
+    "healthcheck",
+    "scan_debug_input",
+    "debug_run",
+    "semantic_status",
+    "read_active_semantic_release",
+    "load_semantic_release",
+    "semantic_audit",
+    "backfill_stale",
+    "merge_preflight",
+    "merge_corpus_databases",
+    "validate_artifact_tree",
+    "read_database_analysis_evidence",
+    "inspect_latest_pipeline_batch",
+    "extract_sample_files_for_reingest",
+    "restore_pipeline_batch_originals",
+    "cleanup_pipeline_batch_materialization",
+    "reingest_pipeline_batch",
+    "multi_source_merge_preflight",
+    "multi_source_merge_databases",
+    "write_merge_reconciliation_manifest",
+    "backfill_sql_from_merge_artifacts",
+    "search",
+    "stats",
+    "export",
+    "preview_rebuild_from_artifacts",
+    "rebuild_from_artifacts",
+    "create_and_rebuild_new_corpus_db",
+    "basic_relation_mining"
+  ],
+  "debug_surface": {
+    "supports_scan": true,
+    "supports_single": true,
+    "supports_batch": true,
+    "input_source": "module_selected_input",
+    "output_source": "orchestrator_assigned_output",
+    "controls": ["mode", "persist_page_images"],
+    "artifacts": ["corpus_db", "preview_report", "load_report"]
+  },
+  "external_dependencies": [
+    {
+      "name": "embedding_provider",
+      "kind": "service",
+      "required": false,
+      "detail": "Optionale, orchestrator-owned Runtime-Capability fuer Embeddings. Ohne diese Capability bleibt der Corpus-Load fachlich gueltig und schreibt nur ohne Embeddings."
+    }
+  ]
+}

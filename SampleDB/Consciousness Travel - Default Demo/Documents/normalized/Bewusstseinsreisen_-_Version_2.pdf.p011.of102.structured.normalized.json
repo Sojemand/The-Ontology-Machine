@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:31:54Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A philosophical discussion of self-blindness, the subconscious, and how inner processes shape self-understanding. It asks who a person really is and argues that people lack stable standards for judging themselves because inner contradictions are often defended against. The visible section frames this as the problem of an automatically protecting self-image.",
+    "tags": [
+      "subconscious",
+      "self-blindness",
+      "self-image",
+      "inner conflict",
+      "philosophical discussion"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "philosophical_writing"
+    },
+    "normalization_notes": [
+      "Translated visible German prose into English retrieval summary.",
+      "Promoted the visible section heading as the section_heading field."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 11,
+      "section_heading": "Das Problem des sich automatisch schützenden Selbstbildes",
+      "topic_keywords": [
+        "subconscious",
+        "self-blindness",
+        "self-image",
+        "standards",
+        "self-inquiry"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "The text argues that people are blind to their own thinking and can only recognize differences in themselves by comparing with another mind. It presents the subconscious as a dark, hidden force that shapes perception and behavior, then turns to the question of who a person really is. The section says people reject standards that expose pain or contradiction, linking this to an automatically protecting self-image."
+      }
+    ],
+    "free_text": "book_page book_body_content theoretical_discussion Philosophical book page on subconscious influence, self-blindness, and the problem of an automatically protecting self-image."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+    }
+  }
+}

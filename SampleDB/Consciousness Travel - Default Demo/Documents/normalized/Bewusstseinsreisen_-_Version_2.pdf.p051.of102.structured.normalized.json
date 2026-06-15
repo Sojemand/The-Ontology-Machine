@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:48:00Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A philosophical nonfiction page on perception and attention, arguing that bodily reactions and forgetting can shape how a young man experiences desire. It introduces the section \"Üben mach frei\" and gives a guided exercise for separating eye movement from awareness by fixing the gaze on a distant point while attention shifts across a lively public space.",
+    "tags": [
+      "perception",
+      "attention",
+      "awareness",
+      "desire",
+      "exercise"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_philosophical_writing"
+    },
+    "normalization_notes": [
+      "Translated section heading and page summary into English control language.",
+      "Promoted the visible section heading as a chapter-style section marker."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "mixed",
+      "columns": [],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 51,
+      "section_heading": "Üben mach frei",
+      "topic_keywords": [
+        "perception",
+        "attention",
+        "awareness",
+        "desire",
+        "forgetting",
+        "exercise"
+      ]
+    },
+    "rows": [],
+    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2, page 51, in German. Section heading \"Üben mach frei\"; philosophical discussion of perception, attention, awareness, desire, forgetting, and a guided attention exercise."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.94,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+    }
+  }
+}

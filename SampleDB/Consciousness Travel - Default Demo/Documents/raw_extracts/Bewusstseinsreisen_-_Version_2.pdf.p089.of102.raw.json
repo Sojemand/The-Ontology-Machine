@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=089-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5ff0d30b7c2903e08a871d37daad8025b454dac381ba90b62bbe2f3a0c77af10",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 89,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=089-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page89_para_0",
+        "type": "paragraph",
+        "value": "Maße beeinflussen können, haben diese Veränderungen keine verortbaren Ursachen. Sie",
+        "position": {
+          "page": 89,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page89_para_1",
+        "type": "paragraph",
+        "value": "beginnen, verändern unsere symbolische Welt, veranlassen uns zu Handlungssträngen die",
+        "position": {
+          "page": 89,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page89_para_2",
+        "type": "paragraph",
+        "value": "Mustern folgen und münden in beschreibbaren Ergebnissen.",
+        "position": {
+          "page": 89,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page89_para_3",
+        "type": "paragraph",
+        "value": "Wie man dieses Wirken am besten studieren könnte, darüber bin ich mir nicht im Klaren.",
+        "position": {
+          "page": 89,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page89_para_4",
+        "type": "paragraph",
+        "value": "Allerdings bin ich mit einiger Gewissheit davon überzeugt, dass ein einzelner Mensch, sollte",
+        "position": {
+          "page": 89,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page89_para_5",
+        "type": "paragraph",
+        "value": "er es versuchen, dies überhaupt nicht kann, da er zu vielen Beschränkungen unterliegt und er",
+        "position": {
+          "page": 89,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page89_para_6",
+        "type": "paragraph",
+        "value": "selbst diese Muster stets unbewusst auslebt, egal wie sehr er auch bemüht ist, diese zu",
+        "position": {
+          "page": 89,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page89_para_7",
+        "type": "paragraph",
+        "value": "erkennen. Neue Methoden der Beobachtung müssten geschaffen werden, die es jetzt noch",
+        "position": {
+          "page": 89,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page89_para_8",
+        "type": "paragraph",
+        "value": "nicht gibt. Was wir aber tun können ist, die Wege zumindest hierarchisch zu organisieren und",
+        "position": {
+          "page": 89,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page89_para_9",
+        "type": "paragraph",
+        "value": "sie somit für uns verdaulich zu systematisieren.",
+        "position": {
+          "page": 89,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page89_para_10",
+        "type": "paragraph",
+        "value": "Alle drei Wege lassen sich demnach auch in Komplexitätsstufen einteilen. Der erste Weg, die",
+        "position": {
+          "page": 89,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page89_para_11",
+        "type": "paragraph",
+        "value": "externe Veranlassung, erzeugt nur relative einfache Konzepte, die einfache, eindimensionale",
+        "position": {
+          "page": 89,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page89_para_12",
+        "type": "paragraph",
+        "value": "Handlungsmuster hervor bringen können und kaum über denen von instinktiv gesteuerten",
+        "position": {
+          "page": 89,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page89_para_13",
+        "type": "paragraph",
+        "value": "Reaktionen liegen. Sie sind wie die ungeschriebenen Gesetze kultureller Handlungsoptionen,",
+        "position": {
+          "page": 89,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page89_para_14",
+        "type": "paragraph",
+        "value": "die den Rahmen des Akzeptierten abstecken. Sie sind einfach und besitzen keine größeren",
+        "position": {
+          "page": 89,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page89_para_15",
+        "type": "paragraph",
+        "value": "Handlungsbögen. Sie sind in der Tat so einfach und in sich geschlossen, dass sie selbst",
+        "position": {
+          "page": 89,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page89_para_16",
+        "type": "paragraph",
+        "value": "einem Traumphilosophen einsichtig erscheinen müssten.",
+        "position": {
+          "page": 89,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page89_para_17",
+        "type": "paragraph",
+        "value": "Der zweite Weg, die bewusste und aktive Veränderung, eröffnet schon größere",
+        "position": {
+          "page": 89,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page89_para_18",
+        "type": "paragraph",
+        "value": "Handlungsstränge, die sich über Themenkomplexe erstrecken und bei entsprechender Mühe",
+        "position": {
+          "page": 89,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page89_para_19",
+        "type": "paragraph",
+        "value": "Zugang zu Weltbildern außerhalb des Eigenen ermöglicht. Er ist bereits so komplex, dass ein",
+        "position": {
+          "page": 89,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page89_para_20",
+        "type": "paragraph",
+        "value": "Traumphilosoph ihn wohl nicht mehr verstehen könnte, denn er setzt zumindest ein",
+        "position": {
+          "page": 89,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page89_para_21",
+        "type": "paragraph",
+        "value": "rudimentäres Verständnis der Funktionsweise der eigenen symbolischen Welt voraus. Diese",
+        "position": {
+          "page": 89,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page89_para_22",
+        "type": "paragraph",
+        "value": "Gesetze sind einem Traumphilosophen nicht mehr zugänglich. Tatsächlich passt dieser Weg",
+        "position": {
+          "page": 89,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page89_para_23",
+        "type": "paragraph",
+        "value": "sehr gut in unsere wache Welt, bildet er doch vollständig die Wahrnehmung unseres",
+        "position": {
+          "page": 89,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page89_para_24",
+        "type": "paragraph",
+        "value": "Wachzustandes und dessen eigene Gesetze ab und auch das, was wir selbst noch in der",
+        "position": {
+          "page": 89,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page89_para_25",
+        "type": "paragraph",
+        "value": "Lage sind zu verstehen und zu überblicken.",
+        "position": {
+          "page": 89,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page89_para_26",
+        "type": "paragraph",
+        "value": "Der dritte Weg, der Weg der Archetypen, bildet eine noch weitere Stufe der Komplexität, die",
+        "position": {
+          "page": 89,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page89_para_27",
+        "type": "paragraph",
+        "value": "uns in unserem Wachbewusstsein nicht mehr zugänglich ist. Die Veränderungen, die durch",
+        "position": {
+          "page": 89,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page89_para_28",
+        "type": "paragraph",
+        "value": "diese Muster in dem Leben eines Menschen hervorgerufen werden, beschränken sich nicht",
+        "position": {
+          "page": 89,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page89_para_29",
+        "type": "paragraph",
+        "value": "auf das Erkennen und Verstehen der verschiedenen Sinneserfahrungen und",
+        "position": {
+          "page": 89,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page89_para_30",
+        "type": "paragraph",
+        "value": "Weltanschauungen des Selbst oder anderer Menschen, sondern erzeugt aktiv Handlungen,",
+        "position": {
+          "page": 89,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

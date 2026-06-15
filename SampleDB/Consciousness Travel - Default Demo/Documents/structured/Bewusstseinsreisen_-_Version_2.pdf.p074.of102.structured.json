@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:57:10.886478+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 74,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=074-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "The page is a prose-heavy philosophical book page with continuous paragraphs and reflective argumentation.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "philosophical argumentation",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "prose_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page74_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 74,
+        "sequence": 1,
+        "text": "Zukunft vornehmen, wie ein Eichhörnchen Nüsse für den Winter vergräbt oder eine Amsel ein Nest für das Brüten baut. Ich meine das Entwerfen großer Vorhaben, welche mehrere Handlungsstränge über mehrere Zeitebenen miteinander vereint, um sie am Ende in ein einziges Ergebnis münden zu lassen. Wie gut wir darin sind, beweist die Existenz von „EUV Lithografie“ Maschinen zur Herstellung unserer Mikrochips im einstelligen Nanometer Bereich und der große Hadronen Beschleuniger am Cern. Diese beiden Dinge nehmen zurzeit wohl zurecht die Krone menschlicher Schöpfung für sich in Anspruch wenn es darum geht, Wissen und Können koordiniert auf einen Zweck auszurichten.",
+        "function": "illustrates_complex_human_planning",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page74_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 74,
+        "sequence": 2,
+        "text": "Nüsse zu vergraben, weil man im Winter überleben will und die halbe Welt einzuspannen, um ein paar atomare Teilchen im Kreis fliegen zu lassen, das sind zwei verschiedene Dinge. Das erste können wir auch in unseren Träumen verfolgen und verstehen, Letzteres können wir nur überblicken, wenn wir uns im Wachzustand über alle notwendigen Gesetze, die wir dafür einhalten müssen, im Klaren sind und peinlich genau einhalten. Aber wo genau ist denn die Grenze zwischen dem, was wir noch in Träumen folgerichtig überblicken können und jenen Dingen, die nur unser Wachbewusstsein vollständig erfassen kann? Denn, dass es eine solche Grenze geben muss, darüber sind wir uns hoffentlich einig. Wir erforschen diese Frage zwar nicht aktiv, was mich persönlich aber nicht daran hindert, dieser nachzugehen, denn sie kann uns Einiges darüber verraten, wie sich unsere Motivationen, größere Vorhaben zu verwirklichen, in unseren Träumen darstellt. Vielleicht gibt uns das einen Hinweis, wie sich die Motivationen eines hypothetischen Über-Ichs in unserem Wachbewusstsein darstellen?",
+        "function": "poses_boundary_between_dream_and_waking_understanding",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page74_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 74,
+        "sequence": 3,
+        "text": "Unser Unvermögen, Gesetze und Muster zu verstehen, die sich außerhalb des Zaunes unseres Gewahrseins befinden, haben wir ja bereits hingenommen, aber wir haben auch gesehen, wie solche Dinge ihren Schatten werfen können, zum Beispiel vom Wachbewusstsein in unsere Träume hinein. Aus der Perspektive eines Traumphilosophen können diese Schatten dann auch gesehen werden und wenn er genug davon beisammen hat, dann wird er auch in der Lage sein zu verstehen, dass sie scheinbaren Gesetzmäßigkeiten folgen. Nur wird er frustriert feststellen, wie er diese Muster zwar erkennen kann, sie aber für ihn keinen offensichtlichen Ursprung haben. Ein Mensch mag in seinem Wachzustand stets davon angetrieben sein, Reichtum und Bekanntheit zu erlangen und ständig Pläne wälzen, wie er dies erreichen kann. Ein anderer Mensch mag von der Motivation leben, immer neue Orte auf der Welt bereisen zu wollen und auch er wird seine eigenen Pläne darauf ausrichten. Die Traumphilosophen werden nach langer Beobachtung bei Ersterem feststellen, dass seine Träume oft Elemente von wertvollen Dingen enthalten die",
+        "function": "develops_shadow_motif_of_hidden_motivations",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Traumphilosophie, Wachbewusstsein, Motivation, große Vorhaben"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=074-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:972108c6c783384d43644692618dc1ac7df0de4a549967b14a692e5fe708ca34",
+    "created_at": null,
+    "modified_at": null
+  }
+}

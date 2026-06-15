@@ -1,0 +1,227 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "legal.public_admin.default.v1",
+  "label": "Legal and Public Administration Default v1",
+  "description": "Default projection for legal, authority, and administrative files.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "legal",
+    "administrative",
+    "business",
+    "people"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.authority_name",
+        "content.fields.sender"
+      ]
+    },
+    {
+      "slot": "recipient_party",
+      "source_paths": [
+        "content.fields.recipient"
+      ]
+    },
+    {
+      "slot": "person_name",
+      "source_paths": [
+        "content.fields.person_name",
+        "content.fields.contact_person"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.document_number",
+        "content.fields.contract_number",
+        "content.fields.permit_number",
+        "content.fields.personal_id_number",
+        "content.fields.customer_number",
+        "content.fields.commercial_register",
+        "content.fields.tax_id"
+      ]
+    },
+    {
+      "slot": "case_identifier",
+      "source_paths": [
+        "content.fields.case_id"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Contracts, notices, permits, registrations, enforcement matters, citizen services, and benefit cases.",
+    "avoid_when": "Not for utility statements, logistics evidence, pure payroll, or personal reflection journals.",
+    "example_document_types": [
+      "contract",
+      "authority_notice",
+      "application",
+      "certificate",
+      "form"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "authority",
+        "case reference",
+        "notice",
+        "reminder",
+        "payment tracking",
+        "enforcement",
+        "arrears",
+        "claim",
+        "treasury reference"
+      ],
+      "domain_markers": {
+        "legal": [
+          "notice",
+          "enforcement",
+          "claim",
+          "fee notice"
+        ],
+        "administrative": [
+          "authority",
+          "case reference",
+          "treasury reference",
+          "payment tracking"
+        ],
+        "business": [
+          "account statement",
+          "balance",
+          "payment received"
+        ],
+        "people": [
+          "applicant",
+          "affected person",
+          "date of birth"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "notice",
+        "timeline",
+        "participants"
+      ],
+      "party_roles": [
+        "sender",
+        "recipient",
+        "contact_person"
+      ]
+    }
+  },
+  "include_document_types": [
+    "contract",
+    "contract_addendum",
+    "termination_notice",
+    "authority_notice",
+    "application",
+    "general_letter",
+    "certificate",
+    "form",
+    "policy",
+    "statement",
+    "report",
+    "profile",
+    "other"
+  ],
+  "include_categories": [
+    "legal",
+    "administrative",
+    "business",
+    "people",
+    "finance",
+    "other"
+  ],
+  "include_subcategories": [
+    "contract",
+    "contract_change",
+    "termination",
+    "legal_correspondence",
+    "application",
+    "official_notice",
+    "form_submission",
+    "general_correspondence",
+    "policy_compliance",
+    "compliance_notice",
+    "court_case",
+    "permit_license",
+    "registration_record",
+    "civic_service",
+    "benefit_case",
+    "identity_verification",
+    "other"
+  ],
+  "include_field_codes": [
+    "sender",
+    "sender_address",
+    "recipient",
+    "recipient_address",
+    "document_number",
+    "our_reference",
+    "your_reference",
+    "subject",
+    "contract_number",
+    "document_date",
+    "authority_name",
+    "permit_number",
+    "case_id",
+    "person_name",
+    "personal_id_number",
+    "date_of_birth",
+    "place_of_birth",
+    "nationality",
+    "register_court",
+    "commercial_register",
+    "tax_id",
+    "contact_person",
+    "phone",
+    "customer_number",
+    "service_end_date",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "signoff",
+    "signatory",
+    "signatory_role",
+    "other"
+  ],
+  "include_row_types": [
+    "participant_list",
+    "contact_block",
+    "timeline_entry",
+    "line_item",
+    "other"
+  ],
+  "include_cell_codes": [
+    "description",
+    "scheduled_date",
+    "participant_role",
+    "name",
+    "note",
+    "status",
+    "identifier",
+    "signature_marker",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:d7bb3a68579bb03596e5320ecbd7027f1e53583300c405db18f38417b355af93"
+}

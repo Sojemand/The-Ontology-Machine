@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:45:51.848519+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "A continuous nonfiction book page with philosophical/explanatory prose in paragraph form is visible.",
+      "matched_signals": [
+        "continuous paragraph prose",
+        "nonfiction book page",
+        "philosophical writing"
+      ]
+    },
+    "page_number": 46,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=046-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page46_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 46,
+        "sequence": 1,
+        "text": "„Bandbreitenbeschränkung“ wie sie unsere Gedanken oder Gefühle haben. Wir schränken es freiwillig ein und halten es auf einem Niveau, welches wir als angebracht empfinden. Wir weigern uns förmlich unser Gewahrsein auszudehnen, weil wir sehr wohl wissen, dass wir damit Brüche in unserer inneren Widerspruchsfreiheit heraufbeschwören würden. Wir sind da wie ein Hund der sich selbst an der Leine führt. Wie sollte es auch anders sein, denn es gibt ja schließlich keine Magie die uns unsere Existenz aufzwingt und uns unter ihrer Knute hält. Wir tun das alles selbst ganz gut alleine.",
+        "function": "self_limitation_of_awareness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page46_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 46,
+        "sequence": 2,
+        "text": "Das zieht allerdings auch eine weitere zwingende Frage nach sich. Über was kann ich mir denn alles gewahr werden? Na über alles natürlich. Wie gesagt, keine Bandbreitenbeschränkung. Praktisch gesehen laufen wir dabei aber in ein Problem der Biologie und unseres Realitätsmodells, aber da sind wir noch nicht. Was wir an diesem Punkt verstehen können ist, was zweigleisiges Gewahrsein bedeutet. Zweigleisig deswegen, weil es simultan die innere wie äußere Welt abdecken kann. Es ist durchaus möglich, um mal bei dem Beispiel eines Gespräches zu bleiben, sich seiner Umwelt gewahr zu sein, was vor sich geht, was gesagt wird, wie es gesagt wird, wie die Körpersprache des Gegenübers sich ausdrückt und welche Gefühle er versucht zu vermitteln. Gleichzeitig kann man sich selbst gewahr sein, welche Eindrücke die Umgebung in einem selbst hervorruft, welche Empfindungen das Gesagte in einem selbst auslöst, wie der Sprecher und seine Intention in uns ankommt. Kurz, wie sich das Spiegelbild der äußeren Welt in uns selbst darstellt und was es mit uns macht, mit allen Gefühlen und Gedanken die es erzeugt.",
+        "function": "explanation_of_dual_awareness",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page46_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 46,
+        "sequence": 3,
+        "text": "Wir haben die Fähigkeit, gleichzeitig nach Außen, wie nach Innen zu blicken und dies in einem universellen Gewahrsein zu vereinen. Das mag für manche jetzt unglaubwürdig klingen, aber ist das wirklich so abwegig im Angesicht dessen, was wir bisher so alles behandelt haben? Die meisten Menschen werden sich mit der Beschreibung dieses zweigleisigen Gewahrseins nicht identifizieren können, da sie denken, sie hätten eine solche Erfahrung noch nie gemacht. Aber ist das so? Nun ja, würde es helfen wenn ich einfach sage, dass jeder eine solche Erfahrung bereits mehrfach gemacht hat? Wahrscheinlich nicht. Die Umstände unter denen so etwas auftritt sind natürlich individuell und zufällig und es fällt leider auch sehr schnell wieder der Vergessenheit anheim. So ist die Natur des Gewahrseins. Schrumpft der Zaun wieder zurück auf seine ursprüngliche Größe, so hat er sich für uns nie verändert. Zurück bleibt vielleicht eine etwas merkwürdige Erinnerung, die sich nicht so recht in unser eigenes Verständnis der Welt einfügen will, eine Kuriosität sozusagen.",
+        "function": "normalization_of_overlooked_experience",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Gewahrsein, Bandbreitenbeschränkung, zweigleisiges Gewahrsein, innere und äußere Welt"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=046-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:87f038845ac41594893d3ca1075a477ddc4fe7d97bd2a9152625fdb529595428",
+    "created_at": null,
+    "modified_at": null
+  }
+}

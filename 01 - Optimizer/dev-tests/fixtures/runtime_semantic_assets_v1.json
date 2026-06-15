@@ -1,0 +1,381 @@
+{
+  "schema_version": "runtime_semantic_assets_v1",
+  "release_id": "semantic_release.default",
+  "release_version": "2026-03-28.v6",
+  "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "promotion_slots": [
+    {
+      "slot": "document_title",
+      "label": "Document Title",
+      "description": "Human-readable document title or subject when available.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 10
+    },
+    {
+      "slot": "primary_party",
+      "label": "Primary Party",
+      "description": "Main organization, authority, sender, issuer or counterparty anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 20
+    },
+    {
+      "slot": "recipient_party",
+      "label": "Recipient Party",
+      "description": "Recipient, addressee or target party named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 30
+    },
+    {
+      "slot": "person_name",
+      "label": "Person Name",
+      "description": "Main natural person, patient, member, employee or profile subject.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 40
+    },
+    {
+      "slot": "document_identifier",
+      "label": "Document Identifier",
+      "description": "Stable document, account, invoice, contract, membership, asset or customer identifier.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 50
+    },
+    {
+      "slot": "case_identifier",
+      "label": "Case Identifier",
+      "description": "Case, permit, authority, legal or insurance reference identifier.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 60
+    },
+    {
+      "slot": "document_date",
+      "label": "Document Date",
+      "description": "Primary date printed on or assigned to the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 70
+    },
+    {
+      "slot": "due_date",
+      "label": "Due Date",
+      "description": "Payment, response or action due date when available.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 80
+    },
+    {
+      "slot": "period_start",
+      "label": "Period Start",
+      "description": "Start date of the period covered by the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 90
+    },
+    {
+      "slot": "period_end",
+      "label": "Period End",
+      "description": "End date of the period covered by the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 100
+    },
+    {
+      "slot": "total_amount",
+      "label": "Total Amount",
+      "description": "Total, gross or payable monetary amount selected for document-level search and filtering.",
+      "value_type": "number_or_money_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 110
+    },
+    {
+      "slot": "balance_amount",
+      "label": "Balance Amount",
+      "description": "Remaining balance or outstanding amount when available.",
+      "value_type": "number_or_money_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 120
+    },
+    {
+      "slot": "property_address",
+      "label": "Property Address",
+      "description": "Property, residence, site or real-estate address anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 130
+    },
+    {
+      "slot": "site_name",
+      "label": "Site Name",
+      "description": "Technical, operational or business site name anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 140
+    },
+    {
+      "slot": "event_name",
+      "label": "Event Name",
+      "description": "Community, personal, schedule or narrative event named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 150
+    },
+    {
+      "slot": "appointment_date",
+      "label": "Appointment Date",
+      "description": "Health, personal, coaching, pastoral or community appointment date.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 160
+    },
+    {
+      "slot": "provider_name",
+      "label": "Provider Name",
+      "description": "Service, health, coaching, care or support provider named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 170
+    },
+    {
+      "slot": "tenant_name",
+      "label": "Tenant Name",
+      "description": "Tenant or primary resident named by a housing or property document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 180
+    }
+  ],
+  "projection_catalog": {
+    "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+    "release_id": "semantic_release.default",
+    "release_version": "2026-03-28.v6",
+    "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-28.v6",
+    "projections": [
+      {
+        "projection_id": "finance.default.v1",
+        "label": "Finance Default v1",
+        "when_to_use": "Invoices, statements, payslips, taxes, reimbursements, as well as customer or vendor accounts and budget planning.",
+        "avoid_when": "Not for rent, utility charges, tenant or property management, technical specifications, identity files, or personal development records.",
+        "example_document_types": [
+          "invoice",
+          "statement",
+          "payslip",
+          "quote",
+          "policy"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.issuer",
+              "content.fields.sender",
+              "content.fields.customer_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.invoice_number",
+              "content.fields.document_number",
+              "content.fields.account_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "due_date",
+            "source_paths": [
+              "content.fields.due_date"
+            ]
+          },
+          {
+            "slot": "period_start",
+            "source_paths": [
+              "content.fields.period_from"
+            ]
+          },
+          {
+            "slot": "period_end",
+            "source_paths": [
+              "content.fields.period_to"
+            ]
+          },
+          {
+            "slot": "total_amount",
+            "source_paths": [
+              "content.fields.total_amount",
+              "content.fields.reference_amount"
+            ]
+          },
+          {
+            "slot": "balance_amount",
+            "source_paths": [
+              "content.fields.balance_amount"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "legal.public_admin.default.v1",
+        "label": "Legal and Public Administration Default v1",
+        "when_to_use": "Contracts, notices, permits, registrations, enforcement matters, citizen services, and benefit cases.",
+        "avoid_when": "Not for utility statements, logistics evidence, pure payroll, or personal reflection journals.",
+        "example_document_types": [
+          "contract",
+          "authority_notice",
+          "application",
+          "certificate",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.authority_name",
+              "content.fields.sender"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.permit_number",
+              "content.fields.personal_id_number",
+              "content.fields.customer_number",
+              "content.fields.commercial_register",
+              "content.fields.tax_id"
+            ]
+          },
+          {
+            "slot": "case_identifier",
+            "source_paths": [
+              "content.fields.case_id"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      }
+    ],
+    "master_taxonomy_release_id": "sha256:6a985ff34e3398e024bf7ff25a8d1d25520ea2e31836999ef7bf452c2d1071d2",
+    "runtime_locale": "en"
+  },
+  "vision_policy_bundle": {
+    "bundle_version": "vision_policy_bundle_v1",
+    "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+    "ocr_policy": {
+      "policy_version": "ocr_policy_v1",
+      "source_mode": "release_domain_merge",
+      "defaults": {
+        "profile_id": "layout_fidelity_v1",
+        "scan": {
+          "min_chars_per_page": 80,
+          "use_has_images": true
+        },
+        "vision_route": {
+          "images_always_vision": true,
+          "pdf_scans_use_vision": true
+        },
+        "ocr_plugin": {
+          "preferred_plugin": "optimizer-llm-ocr",
+          "force_backup_on_scan": true
+        },
+        "render": {
+          "page_image_dpi": 150,
+          "page_image_quality": 95,
+          "serializer_quality_mode": "best_quality",
+          "ocr_render_dpi": 450
+        }
+      }
+    }
+  },
+  "master_taxonomy_release_id": "sha256:6a985ff34e3398e024bf7ff25a8d1d25520ea2e31836999ef7bf452c2d1071d2",
+  "runtime_locale": "en"
+}

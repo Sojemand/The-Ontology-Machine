@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=047-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:eda7774e3a0783ee62d9c01dea94c3f9278268845b157fce2e77660be1fc70a6",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 47,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=047-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page47_para_0",
+        "type": "paragraph",
+        "value": "Ouspensky hatte für diese Art der Erinnerung eine sehr gute Beschreibung parat als er sagte,",
+        "position": {
+          "page": 47,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page47_para_1",
+        "type": "paragraph",
+        "value": "dass sich jeder bestimmt an eine Situation erinnern kann, währenddessen er sich selbst hat",
+        "position": {
+          "page": 47,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page47_para_2",
+        "type": "paragraph",
+        "value": "reden hören. Eine Situation, während einer Konversation, in derer man sich plötzlich bewusst",
+        "position": {
+          "page": 47,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page47_para_3",
+        "type": "paragraph",
+        "value": "wird, dass man Unsinn redet, aber man sich selbst nicht rechtzeitig stoppen kann. Man ist dann",
+        "position": {
+          "page": 47,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page47_para_4",
+        "type": "paragraph",
+        "value": "mit einem mal eine Art Beobachter, der sieht und hört was vor sich geht, im Außen wie im",
+        "position": {
+          "page": 47,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page47_para_5",
+        "type": "paragraph",
+        "value": "Innen. Man sieht sein Gegenüber, wie er auf das Gesagte reagiert und man sieht sich selbst,",
+        "position": {
+          "page": 47,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page47_para_6",
+        "type": "paragraph",
+        "value": "wie man redet und ist dabei peinlich berührt, weil man weiß, man redet Unsinn, aber der",
+        "position": {
+          "page": 47,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page47_para_7",
+        "type": "paragraph",
+        "value": "Autopilot plappert es dennoch heraus.",
+        "position": {
+          "page": 47,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page47_para_8",
+        "type": "paragraph",
+        "value": "Alles, was nach solch einem Erlebnis zurück bleibt, ist das merkwürdige Gefühl, sich selbst",
+        "position": {
+          "page": 47,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page47_para_9",
+        "type": "paragraph",
+        "value": "reden gehört zu haben und ein Gefühl der Beschämung ob des Unsinns, welchen man da von",
+        "position": {
+          "page": 47,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page47_para_10",
+        "type": "paragraph",
+        "value": "sich gegeben hat. Wo dieses „sich reden hören“ herkam, das vergessen wir wieder sobald der",
+        "position": {
+          "page": 47,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page47_para_11",
+        "type": "paragraph",
+        "value": "Moment vorüber ist, aber das Gefühl der Beschämung verbleibt aus einem sehr einfachen",
+        "position": {
+          "page": 47,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page47_para_12",
+        "type": "paragraph",
+        "value": "Grund. Wir fühlen Scham, weil wir unsere innere Widerspruchsfreiheit verletzt haben. Wir",
+        "position": {
+          "page": 47,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page47_para_13",
+        "type": "paragraph",
+        "value": "haben unser Gewahrsein in diesem Moment nicht absichtlich aufgespalten, das ist zufällig",
+        "position": {
+          "page": 47,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page47_para_14",
+        "type": "paragraph",
+        "value": "geschehen und wir wurden ungewollt in eine Situation gebracht, in der wir uns nicht mehr vor",
+        "position": {
+          "page": 47,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page47_para_15",
+        "type": "paragraph",
+        "value": "unseren eigenen Widersprüchen verschließen konnten und sie uns gezwungenermaßen",
+        "position": {
+          "page": 47,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page47_para_16",
+        "type": "paragraph",
+        "value": "gewahr wurden. Das meine ich wenn ich sage, dass wir freiwillig unser Gewahrsein auf einem",
+        "position": {
+          "page": 47,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page47_para_17",
+        "type": "paragraph",
+        "value": "für uns angenehmen Maß belassen, denn schon solch kleine ungewollten Ausflüge können uns",
+        "position": {
+          "page": 47,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page47_para_18",
+        "type": "paragraph",
+        "value": "Schmerzen bereiten, die unsere Funktionsfähigkeit bedrohen. Stellt euch mal vor, ihr wäret",
+        "position": {
+          "page": 47,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page47_para_19",
+        "type": "paragraph",
+        "value": "spontan mit all euren inneren Widersprüchen konfrontiert. Ihr würdet kein Wort mehr heraus",
+        "position": {
+          "page": 47,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page47_para_20",
+        "type": "paragraph",
+        "value": "bringen ohne dabei vor Scham im Boden versinken zu wollen oder schlimmer, ihr wäret unfähig",
+        "position": {
+          "page": 47,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page47_para_21",
+        "type": "paragraph",
+        "value": "noch irgendetwas zu tun.",
+        "position": {
+          "page": 47,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page47_para_22",
+        "type": "paragraph",
+        "value": "Deshalb tun wir das nicht und wer einmal ganz tief in sich hinein hört, der weiß das auch selbst",
+        "position": {
+          "page": 47,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page47_para_23",
+        "type": "paragraph",
+        "value": "sehr genau.",
+        "position": {
+          "page": 47,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page47_para_24",
+        "type": "paragraph",
+        "value": "Aber hey, vielleicht seid ihr ja mutig und schreckt auch nicht vor euren eigenen Abgründen",
+        "position": {
+          "page": 47,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page47_para_25",
+        "type": "paragraph",
+        "value": "zurück, oder redet euch das zumindest ein, und ihr fragt euch, warum ihr dennoch nicht in der",
+        "position": {
+          "page": 47,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page47_para_26",
+        "type": "paragraph",
+        "value": "Lage seid, euer Gewahrsein freiwillig zu weiten? Nun, das ist wie Gewicht heben. Niemand wird",
+        "position": {
+          "page": 47,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page47_para_27",
+        "type": "paragraph",
+        "value": "Weltmeister im Reißen wenn alles was er je getan hat darin bestand, eine Kiste Wasser ins",
+        "position": {
+          "page": 47,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page47_para_28",
+        "type": "paragraph",
+        "value": "Auto zu heben. Unser Gewahrsein ist wie ein Gummiband, welches immer wieder auf seine",
+        "position": {
+          "page": 47,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page47_para_29",
+        "type": "paragraph",
+        "value": "Ausgangsposition, auf die angenehme Position, zurück schnellen will, weil wir es so wollen.",
+        "position": {
+          "page": 47,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page47_para_30",
+        "type": "paragraph",
+        "value": "Aber es hindert euch auch nichts daran es zu tun. Eurer größter Feind ist euer Vergessen. Wir",
+        "position": {
+          "page": 47,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page47_para_31",
+        "type": "paragraph",
+        "value": "vergessen zu schnell und wenn wir einmal das Band ein wenig geweitet haben und uns in dem",
+        "position": {
+          "page": 47,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

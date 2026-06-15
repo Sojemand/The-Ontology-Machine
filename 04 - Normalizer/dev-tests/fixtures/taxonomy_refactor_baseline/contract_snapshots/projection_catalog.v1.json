@@ -1,0 +1,781 @@
+{
+  "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+  "release_id": "semantic_release.default",
+  "release_version": "2026-03-28.v6",
+  "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "projections": [
+    {
+      "projection_id": "business.customer.communication.default.v1",
+      "label": "Customer Communication Default v1",
+      "when_to_use": "Customer letters, account notices, welcome messages, service updates, and provider communication.",
+      "avoid_when": "Not for full invoices, detailed account statements, housing management, official notices, medical administration, or technical asset documentation.",
+      "example_document_types": [
+        "general_letter",
+        "payment_notice",
+        "statement",
+        "policy",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.issuer",
+            "content.fields.sender",
+            "content.fields.customer_name"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient_primary",
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.document_number",
+            "content.fields.contract_number",
+            "content.fields.account_number",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "due_date",
+          "source_paths": [
+            "content.fields.due_date"
+          ]
+        },
+        {
+          "slot": "period_start",
+          "source_paths": [
+            "content.fields.period_from"
+          ]
+        },
+        {
+          "slot": "period_end",
+          "source_paths": [
+            "content.fields.period_to"
+          ]
+        },
+        {
+          "slot": "total_amount",
+          "source_paths": [
+            "content.fields.total_amount",
+            "content.fields.reference_amount"
+          ]
+        },
+        {
+          "slot": "balance_amount",
+          "source_paths": [
+            "content.fields.balance_amount"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "community.spiritual.default.v1",
+      "label": "Community and Pastoral Care Default v1",
+      "when_to_use": "Memberships, community events, donations, pastoral care, and spiritual guidance for groups, associations, or congregations.",
+      "avoid_when": "Not for technical records, formal identity files, medical prescriptions, or property management.",
+      "example_document_types": [
+        "membership_record",
+        "statement",
+        "schedule",
+        "general_letter",
+        "certificate"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject",
+            "content.fields.event_name",
+            "content.fields.community_name"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.community_name",
+            "content.fields.sender"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.person_name",
+            "content.fields.contact_person"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.membership_id",
+            "content.fields.customer_number",
+            "content.fields.account_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "event_name",
+          "source_paths": [
+            "content.fields.event_name"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "finance.default.v1",
+      "label": "Finance Default v1",
+      "when_to_use": "Invoices, statements, payslips, taxes, reimbursements, as well as customer or vendor accounts and budget planning.",
+      "avoid_when": "Not for rent, utility charges, tenant or property management, technical specifications, identity files, or personal development records.",
+      "example_document_types": [
+        "invoice",
+        "statement",
+        "payslip",
+        "quote",
+        "policy"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.issuer",
+            "content.fields.sender",
+            "content.fields.customer_name"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.invoice_number",
+            "content.fields.document_number",
+            "content.fields.account_number",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "due_date",
+          "source_paths": [
+            "content.fields.due_date"
+          ]
+        },
+        {
+          "slot": "period_start",
+          "source_paths": [
+            "content.fields.period_from"
+          ]
+        },
+        {
+          "slot": "period_end",
+          "source_paths": [
+            "content.fields.period_to"
+          ]
+        },
+        {
+          "slot": "total_amount",
+          "source_paths": [
+            "content.fields.total_amount",
+            "content.fields.reference_amount"
+          ]
+        },
+        {
+          "slot": "balance_amount",
+          "source_paths": [
+            "content.fields.balance_amount"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "health.care.default.v1",
+      "label": "Health and Care Default v1",
+      "when_to_use": "Medical administration, treatment plans, prescriptions, health insurance, care levels, and medical certificates.",
+      "avoid_when": "Not for pure identity files, pure financial reimbursements, technical maintenance logs, or community records.",
+      "example_document_types": [
+        "prescription",
+        "certificate",
+        "statement",
+        "schedule",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.patient_name",
+            "content.fields.person_name"
+          ]
+        },
+        {
+          "slot": "provider_name",
+          "source_paths": [
+            "content.fields.provider_name"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.provider_name",
+            "content.fields.authority_name",
+            "content.fields.sender"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.insurance_number",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "case_identifier",
+          "source_paths": [
+            "content.fields.case_id"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "appointment_date",
+          "source_paths": [
+            "content.fields.appointment_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "housing.default.v1",
+      "label": "Housing and Property Management Default v1",
+      "when_to_use": "Housing, utility, tenancy, and property management documents with tenant, cost, or authority context.",
+      "avoid_when": "Not for logistics, procurement, technical execution plans, site access, or personal development plans.",
+      "example_document_types": [
+        "invoice",
+        "advance_payment",
+        "utility_cost_statement",
+        "contract",
+        "general_letter"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.property_manager_name",
+            "content.fields.issuer",
+            "content.fields.sender",
+            "content.fields.owner_name"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient_primary",
+            "content.fields.tenant_name",
+            "content.fields.recipient",
+            "content.fields.customer_name"
+          ]
+        },
+        {
+          "slot": "tenant_name",
+          "source_paths": [
+            "content.fields.tenant_name"
+          ]
+        },
+        {
+          "slot": "property_address",
+          "source_paths": [
+            "content.fields.property_address"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.invoice_number",
+            "content.fields.document_number",
+            "content.fields.contract_number",
+            "content.fields.account_number",
+            "content.fields.property_manager_internal_id",
+            "content.fields.meter_id",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "case_identifier",
+          "source_paths": [
+            "content.fields.case_id"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "due_date",
+          "source_paths": [
+            "content.fields.due_date"
+          ]
+        },
+        {
+          "slot": "period_start",
+          "source_paths": [
+            "content.fields.period_from"
+          ]
+        },
+        {
+          "slot": "period_end",
+          "source_paths": [
+            "content.fields.period_to"
+          ]
+        },
+        {
+          "slot": "total_amount",
+          "source_paths": [
+            "content.fields.total_amount",
+            "content.fields.reference_amount"
+          ]
+        },
+        {
+          "slot": "balance_amount",
+          "source_paths": [
+            "content.fields.balance_amount"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "legal.public_admin.default.v1",
+      "label": "Legal and Public Administration Default v1",
+      "when_to_use": "Contracts, notices, permits, registrations, enforcement matters, citizen services, and benefit cases.",
+      "avoid_when": "Not for utility statements, logistics evidence, pure payroll, or personal reflection journals.",
+      "example_document_types": [
+        "contract",
+        "authority_notice",
+        "application",
+        "certificate",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.authority_name",
+            "content.fields.sender"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.person_name",
+            "content.fields.contact_person"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.document_number",
+            "content.fields.contract_number",
+            "content.fields.permit_number",
+            "content.fields.personal_id_number",
+            "content.fields.customer_number",
+            "content.fields.commercial_register",
+            "content.fields.tax_id"
+          ]
+        },
+        {
+          "slot": "case_identifier",
+          "source_paths": [
+            "content.fields.case_id"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "operations.default.v1",
+      "label": "Operations and Deployment Default v1",
+      "when_to_use": "Logistics, procurement, technical execution, deployment planning, travel instructions, access forms, and inventories.",
+      "avoid_when": "Not for tenancy, utility charges, or property management communication.",
+      "example_document_types": [
+        "delivery_note",
+        "order",
+        "specification",
+        "report",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.sender",
+            "content.fields.carrier_name"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.document_number",
+            "content.fields.contract_number",
+            "content.fields.vehicle_registration",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "people.identity.default.v1",
+      "label": "People Identity Default v1",
+      "when_to_use": "Identity documents, master records, employment documents, education records, and personal certificates.",
+      "avoid_when": "Not for financial invoices, technical asset files, medical treatment plans, or community events.",
+      "example_document_types": [
+        "profile",
+        "payslip",
+        "certificate",
+        "application",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.person_name",
+            "content.fields.contact_person"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.sender",
+            "content.fields.authority_name"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.personal_id_number",
+            "content.fields.employee_id",
+            "content.fields.membership_id",
+            "content.fields.document_number",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "personal.expression.default.v1",
+      "label": "Personal Development Default v1",
+      "when_to_use": "Wellbeing plans, self-reflection, habit logs, coaching support, and everyday personal support.",
+      "avoid_when": "Not for formal medical administration, finance, legal notices, or membership registers.",
+      "example_document_types": [
+        "narrative_text",
+        "general_letter",
+        "report",
+        "profile"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject",
+            "content.fields.event_name"
+          ]
+        },
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.person_name",
+            "content.fields.contact_person"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.provider_name",
+            "content.fields.community_name"
+          ]
+        },
+        {
+          "slot": "event_name",
+          "source_paths": [
+            "content.fields.event_name"
+          ]
+        },
+        {
+          "slot": "appointment_date",
+          "source_paths": [
+            "content.fields.appointment_date"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "personal.wellbeing.default.v1",
+      "label": "Personal Development Default v1",
+      "when_to_use": "Wellbeing plans, self-reflection, habit logs, coaching support, and everyday personal support.",
+      "avoid_when": "Not for formal medical administration, finance, legal notices, or membership registers.",
+      "example_document_types": [
+        "schedule",
+        "profile",
+        "policy",
+        "report",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject",
+            "content.fields.event_name"
+          ]
+        },
+        {
+          "slot": "person_name",
+          "source_paths": [
+            "content.fields.person_name",
+            "content.fields.contact_person"
+          ]
+        },
+        {
+          "slot": "provider_name",
+          "source_paths": [
+            "content.fields.provider_name"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.provider_name",
+            "content.fields.community_name"
+          ]
+        },
+        {
+          "slot": "event_name",
+          "source_paths": [
+            "content.fields.event_name"
+          ]
+        },
+        {
+          "slot": "appointment_date",
+          "source_paths": [
+            "content.fields.appointment_date"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    },
+    {
+      "projection_id": "technical.default.v1",
+      "label": "Technical and Asset Management Default v1",
+      "when_to_use": "Specifications, inspections, maintenance, asset or site documentation, engineering changes, quality assurance, and equipment files.",
+      "avoid_when": "Not for property management, pure financial records, formal identity files, or pastoral and wellbeing-related records.",
+      "example_document_types": [
+        "specification",
+        "inspection_report",
+        "meter_reading",
+        "report",
+        "form"
+      ],
+      "promotion_rules": [
+        {
+          "slot": "document_title",
+          "source_paths": [
+            "content.fields.subject"
+          ]
+        },
+        {
+          "slot": "primary_party",
+          "source_paths": [
+            "content.fields.issuer",
+            "content.fields.sender"
+          ]
+        },
+        {
+          "slot": "recipient_party",
+          "source_paths": [
+            "content.fields.recipient"
+          ]
+        },
+        {
+          "slot": "document_identifier",
+          "source_paths": [
+            "content.fields.document_number",
+            "content.fields.contract_number",
+            "content.fields.meter_id",
+            "content.fields.asset_id",
+            "content.fields.serial_number",
+            "content.fields.customer_number"
+          ]
+        },
+        {
+          "slot": "case_identifier",
+          "source_paths": [
+            "content.fields.case_id"
+          ]
+        },
+        {
+          "slot": "document_date",
+          "source_paths": [
+            "content.fields.document_date"
+          ]
+        },
+        {
+          "slot": "site_name",
+          "source_paths": [
+            "content.fields.site_name"
+          ]
+        }
+      ],
+      "field_slot_map": {}
+    }
+  ],
+  "master_taxonomy_release_id": "sha256:6a985ff34e3398e024bf7ff25a8d1d25520ea2e31836999ef7bf452c2d1071d2",
+  "runtime_locale": "en"
+}

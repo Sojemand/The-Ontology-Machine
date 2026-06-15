@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:33:51.686608+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 16,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=016-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "The page is a born-digital philosophical/nonfiction book page composed of continuous prose paragraphs.",
+      "matched_signals": [
+        "born-digital book page",
+        "continuous prose paragraphs",
+        "philosophical/nonfiction writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page16_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 16,
+        "sequence": 1,
+        "text": "Das eigene Realitätsmodell wird da sicher nicht schadlos davon kommen. Der Übersichtlichkeit halber begnüge ich mich hier damit, einmal den derzeitigen Konsens dieser Disziplinen zu beschreiben, wenn es um die Frage geht, wer wir wirklich sind.",
+        "function": "scene_setting",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page16_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 16,
+        "sequence": 2,
+        "text": "Um es kurz zu fassen, wir sind unsere eigenen Börsenkommentatoren. Jemand, der aufmerksam den Nachrichtenstrom der Finanzmärkte beobachtet, wird mit dieser besonderen Spezies vertraut sein. Sie wissen stets mit Gewissheit, warum sich die Kurse so bewegt haben, wie sie sich bewegt haben, nachdem sie sich bewegt haben. Niemals hat sich je ein solcher Kommentator damit hervor getan zu kommentieren, wie sich die Kurse bewegen werden. Das mag jetzt nicht sonderlich spektakulär klingen, aber denkt mal einen Moment darüber nach, was dies wirklich bedeutet.",
+        "function": "analogy_introduction",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page16_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 16,
+        "sequence": 3,
+        "text": "Wenn ein Börsenkommentator im Nachhinein stets genau sagen kann, warum sich ein Kurs so bewegt hat wie er sich bewegt hat, so impliziert er damit ein Wissen über die Finanzmärkte, welches es ihm mit Leichtigkeit ermöglichen sollte, auch Aussagen zu treffen, wie sich der Kurs bewegen wird, denn ein Großteil der Informationen, die nach der Ansicht des Kommentators die Kurse bewegen, sind ihm ja bereits, zumindest theoretisch, zugänglich, noch bevor sie die Kurse beeinflussen. Er könnte sich also ohne Weiteres in kurzer Zeit zum Millionär aufschwingen. Die Tatsache, dass noch kein Börsenkommentator so zu Reichtum gelangte, sollte uns etwas stutzig machen ob der zur Schau gestellten Gewissheit über die tatsächlichen Beweggründe der Börsenkurse.",
+        "function": "critique_of_claimed_certainty",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page16_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 16,
+        "sequence": 4,
+        "text": "Was er tut ist etwas anderes. Ein Börsenkommentator konstruiert im Nachhinein eine plausible Geschichte, die die Bewegungen der Kurse schlüssig erklärt, unabhängig davon, was sie wirklich bewegt hat. Der Beruf des Börsenkommentators existiert nur deshalb, weil wir selbst die Plausibilität der Unsicherheit vorziehen und da die Bewegungen der Finanzmärkte eben Reichtum bergen, so hört man jenen Kommentatoren gerne zu, in der Hoffnung, selbst zu verstehen, wie sich die Kurse bewegen werden um so Gewinne zu erzeugen. Wir sehen den Widerspruch hierin nicht, weil wir unser gesamtes Leben auf die exakt gleiche Art betrachten.Egal ob es um die Frage geht, welchen Kaffee man bevorzugt, warum man diese oder jene Berufsentscheidung getroffen, oder eben nicht getroffen hat, warum man diese oder jene Frau ehelichte, warum man diese oder jene Marke bevorzugt, welcher Philosophie, welcher politischen Strömung oder welche Ideologie man anhängt, wir all diese Dinge im Nachhinein erst mit einer schlüssigen Erklärung uns und der Welt gegenüber versehen. Es ist auch recht einfach zu verstehen, weshalb das so ist.",
+        "function": "generalization_to_self_interpretation",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Philosophischer Buchtext über Selbstdeutung, Börsenkommentatoren, nachträgliche Erklärungen"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=016-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:1c337ff152cbbaf5c858798e87739f73d14b0b44d7265d80323337ae206b20ff",
+    "created_at": null,
+    "modified_at": null
+  }
+}

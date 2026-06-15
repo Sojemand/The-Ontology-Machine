@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:43:25.418409+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 40,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=040-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.9,
+      "reason": "The page is a born-digital nonfiction book page with philosophical prose, a section heading, and continuous paragraphs.",
+      "matched_signals": [
+        "book page",
+        "philosophical prose",
+        "section heading",
+        "continuous paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page40_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 40,
+        "sequence": 1,
+        "text": "unerhörten Schmerzes sich aber scheinbar unsichtbar und unfühlbar vom Ort des Geschehens bis in dein Hirn fortpflanzt? Deine Maschine spürt und sieht all diese Dinge sehr wohl, aber dieses Verkehrsrauschen hat für die Funktion des Zwerges keine Relevanz und somit ist es auch nicht Teil des Bildes, welches du dir als deine „Realität“ am Ende dieser langen Kette der Verhackstückelung der Wirklichkeit gewahr wirst. Deine Maschine konstruiert die Welt und dein Gewahrsein macht daraus dein „Ich“. Es bescheint sozusagen von hinten das Filmband, welches der Projektor abspielt und die Leinwand wird damit zu deinem Leben, buchstäblich. Somit erreichen dich Informationen ausschließlich durch die Eigenschaft dieses Lichtes, da sie ja erst dann Informationen für dich sind, wenn du dir ihnen gewahr wirst.",
+        "function": "explaining_conscious_perception",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page40_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 40,
+        "sequence": 2,
+        "text": "So mysteriös, unfassbar und unteilbar unser Gewahrsein auch scheinen mag, so ist es doch nicht statisch. Das, was den blinden jungen Mann von jenem unterschied, der sehen konnte, ist das Maß an Gewahrsein, welches letzterer aufzubringen vermag. Stellt euch dieses Maß als eine Art Zaun vor. Alles, was sich innerhalb dieses Zaunes befindet ist Bestandteil eurer Welt, Teil des Films auf der Leinwand, und alles was sich außerhalb davon befindet existiert für euch nicht. Aber was bedeutet das genau?",
+        "function": "defining_scope_of_awareness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page40_Segment3",
+        "unit_kind": "title_line",
+        "page": 40,
+        "sequence": 3,
+        "text": "Was das Licht bescheint, das ist",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page40_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 40,
+        "sequence": 4,
+        "text": "Jeder kann das im Grunde sehr einfach an sich selbst beobachten, zum Beispiel wenn es um unsere Atmung geht. Man kann bewusst atmen, oder man kann die Maschine die ganze Arbeit machen lassen. Beides funktioniert hervorragend und wir wechseln zwischen diesen beiden Arten ständig hin und her ohne uns groß darüber zu wundern. Richten wir nun unsere Aufmerksamkeit bewusst auf unsere Atmung und übernehmen wir die Kontrolle, so erzeugt dies eine Erinnerungsspur, die genau an dem Punkt beginnt, an dem wir eben jene Kontrolle übernommen haben. Wir können uns also sehr gut an den Moment erinnern, an dem dies geschehen ist. Was nicht verwunderlich ist, denn wir sind uns ja dessen gewahr geworden. Umgekehrt sieht die Sache aber anders aus. Wir können zwar die Kontrolle bewusst übernehmen, sie aber nicht wieder bewusst aufgeben. Wir können uns dessen nicht absichtlich „un-gewahr“ werden. Die einzige Möglichkeit, die Atmung wieder der Maschine zu überlassen ist, dass sich unser Gewahrsein auf andere Dinge richtet und wir „vergessen“ zu atmen. Deshalb können wir uns daran erinnern, wann wir die Kontrolle übernommen haben, aber nicht, an welchem Punkt wir sie wieder aufgegeben haben, denn Vergessen erzeugt schließlich keine Erinnerungen. Noch interessanter wird es zu bemerken, dass, wenn wir die Maschine für uns atmen lassen, wir uns noch nicht einmal darüber gewahr sind, dass es so etwas wie „bewusste",
+        "function": "illustrating_awareness_with_breathing",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Gewahrsein, Realität, Licht-Metapher, Atmung, Erinnerung"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=040-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:6d05a8f8af9937f28756d748c7031f51a3fc35d61eec6fd3ede8af4aca1c8cdb",
+    "created_at": null,
+    "modified_at": null
+  }
+}

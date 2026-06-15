@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-03-25T22:47:23Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "receipt",
+    "document_type_confidence": 0.91,
+    "category": "finance",
+    "subcategory": "financial_summary",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "ALDI",
+    "document_date": null,
+    "document_title": "IHRE AUFLADENUMMER:",
+    "description": "ALDI TALK Guthaben-Aufladebon",
+    "tags": [
+      "ALDI TALK",
+      "Aufladebetrag",
+      "Aufladenummer"
+    ],
+    "people": [],
+    "organizations": [
+      "ALDI",
+      "MEDIONmobile",
+      "E-Plus Service GmbH",
+      "E-Plus Service GmbH & Co. KG"
+    ],
+    "locations": [
+      "GERICHTSWIESEN GRIMMA"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": 30,
+    "taxonomy_profile_id": "housing.default.v1",
+    "raw_classification": {
+      "document_type": "receipt",
+      "category": "finance",
+      "subcategory": null
+    },
+    "normalization_notes": [
+      "Klassifikation als Zahlungs-/Guthabennachweis ohne weitere Belegelemente.",
+      "Subcategory auf financial_summary normalisiert, da kein kostenbezogener Wohnungs- oder Vertragskontext vorliegt."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "mixed",
+      "columns": [],
+      "form_fields": [
+        "issuer",
+        "sender",
+        "subject",
+        "currency",
+        "reference_amount",
+        "total_amount",
+        "net_amount",
+        "tax_amount",
+        "phone",
+        "other"
+      ]
+    },
+    "fields": {
+      "issuer": "ALDI",
+      "sender": "ALDI",
+      "subject": "ALDI TALK Guthaben-Aufladebon",
+      "currency": "EUR",
+      "reference_amount": "EUR 30,00",
+      "total_amount": 30,
+      "net_amount": 30,
+      "tax_amount": 0,
+      "phone": "1155",
+      "other": "store: GERICHTSWIESEN GRIMMA; opening_hours: MO.-SA. 8.00 UHR - 20.00 UHR; aufladenummer: 6193 1152 7965 3340; node_id: 10021014; trace_nr: 31865; serien_nr: 0063123400011548"
+    },
+    "rows": [],
+    "free_text": "financial_summary receipt finance ALDI TALK Guthaben-Aufladebon EUR 30,00 Netto 30,00 MwSt 0,00 % Telefon 1155 Aufladenummer 6193 1152 7965 3340"
+  },
+  "relations": [
+    {
+      "type": "normalized_from",
+      "file_name": "scan.pdf.structured.json",
+      "content_hash": "sha256:df779795e3c61b6f90fc9582c3696f93e5e00caf3bb58866fabf10f938080bb6"
+    }
+  ],
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-24.v3",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:882a612d7f3c68577ba34c9c452289e0ac69ffd7cb06f186da6cac817353ceb3",
+    "materialization_profile_id": "document_entities.v1"
+  }
+}

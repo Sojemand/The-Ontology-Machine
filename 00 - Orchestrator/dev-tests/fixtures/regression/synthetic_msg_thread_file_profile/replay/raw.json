@@ -1,0 +1,71 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "fixture-synthetic_msg_thread_file_profile",
+    "file_name": "synthetic_project_thread.msg",
+    "file_path": "C:/synthetic/input/synthetic_project_thread.msg",
+    "relative_path": "C:/synthetic/input/synthetic_project_thread.msg",
+    "file_ext": ".msg",
+    "content_hash": "sha256:msg0thread0file0profile00000000000000000000000000000000000000000",
+    "page_count": 2,
+    "document_type": "email_thread",
+    "language": "de"
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 2,
+    "source_document_path": "C:/synthetic/input/synthetic_project_thread.msg",
+    "page_source_path": "C:/synthetic/input/synthetic_project_thread.msg::page=001-of-002"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "p001_b0000",
+        "type": "paragraph",
+        "value": "Synthetic mail thread page 1",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "p001_b0001",
+        "type": "paragraph",
+        "value": "This fake page preserves only the document shape for regression testing.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "p002_b0000",
+        "type": "paragraph",
+        "value": "Synthetic mail thread page 2",
+        "value_type": "text",
+        "position": {
+          "page": 2,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "p002_b0001",
+        "type": "paragraph",
+        "value": "This fake page preserves only the document shape for regression testing.",
+        "value_type": "text",
+        "position": {
+          "page": 2,
+          "paragraph_index": 1
+        }
+      }
+    ]
+  }
+}

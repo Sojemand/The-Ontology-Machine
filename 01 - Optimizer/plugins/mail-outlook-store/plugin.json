@@ -1,0 +1,34 @@
+{
+  "name": "mail-outlook-store",
+  "version": "1.0.0",
+  "description": "Outlook-Store-Extraktor fuer .pst/.ost mit Bundle-Ausgabe fuer den internen Mail-Compound-Pfad",
+  "author": "",
+  "formats": [".pst", ".ost"],
+  "also_handles": [],
+  "capabilities": ["text", "email_container", "attachments", "archive_container", "subprocess_runtime"],
+  "priority": 10,
+  "python_version": ">=3.9",
+  "system_dependencies": ["bevorzugt gebuendelte Python-3.9-Embed-Runtime mit libpff; optional Outlook COM als Fallback ueber gebuendeltes pywin32"],
+  "config_schema": {
+    "preferred_backend": {
+      "type": "string",
+      "default": "pypff",
+      "description": "Bevorzugtes Backend fuer .pst/.ost: pypff oder outlook_com"
+    },
+    "allow_com_fallback": {
+      "type": "boolean",
+      "default": true,
+      "description": "Erlaubt Outlook COM/MAPI als Fallback, wenn pypff nicht verfuegbar ist"
+    },
+    "vendor_path": {
+      "type": "string",
+      "default": "",
+      "description": "Optionaler relativer oder absoluter Pfad zu einem vendorten pypff-Paket"
+    }
+  },
+  "config": {
+    "preferred_backend": "pypff",
+    "allow_com_fallback": true,
+    "vendor_path": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "allowed_codes": {
+    "example": true
+  },
+  "budget_policy": {
+    "example": true
+  },
+  "fallback_codes": {
+    "example": true
+  },
+  "promotion_slots": "promotion_slots_example",
+  "schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+  "taxonomy_ref": {
+    "example": true
+  },
+  "term_summaries": {
+    "example": true
+  }
+}

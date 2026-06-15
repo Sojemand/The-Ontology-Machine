@@ -1,0 +1,21 @@
+{
+  "prompt_excluded_sheet_roles": ["lookup", "noise"],
+  "prompt_excluded_quality_flags": [
+    "formula_only",
+    "mostly_zero",
+    "repeated_support_table",
+    "likely_lookup"
+  ],
+  "prompt_low_priority_sheet_roles": ["supporting"],
+  "prompt_lookup_sheet_patterns": [
+    "*dropdown*",
+    "*lookup*",
+    "*mapping*",
+    "*stammdaten*"
+  ],
+  "prompt_noise_sheet_patterns": [
+    "*formel*",
+    "*formula*",
+    "*calc*"
+  ]
+}

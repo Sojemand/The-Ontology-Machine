@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=042-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:c1e082fd7717f3d75f27dfa4e31e74cc4185904aaf8804347e0f5254cc1bc192",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 42,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=042-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 42,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_042.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page42_para_0",
+        "type": "paragraph",
+        "value": "An diesem Punkt ist euch auch nicht mehr klar, dass die Veränderungen der Umgebung nicht",
+        "position": {
+          "page": 42,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page42_para_1",
+        "type": "paragraph",
+        "value": "mehr durch euer Umherlaufen im Dschungel verursacht werden, sondern ihr erlebt diese",
+        "position": {
+          "page": 42,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page42_para_2",
+        "type": "paragraph",
+        "value": "Veränderungen in einer Art, die euch vorgaukelt, ihr würdet diese selbst durch eure",
+        "position": {
+          "page": 42,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page42_para_3",
+        "type": "paragraph",
+        "value": "Anstrengungen erst erzeugen, da ihr euch ja stets im Mittelpunk eurer Welt aufhaltet. Ihr",
+        "position": {
+          "page": 42,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page42_para_4",
+        "type": "paragraph",
+        "value": "entwickelt also selbst eine Art magisches Denken, welches erklärt, wie die Veränderungen um",
+        "position": {
+          "page": 42,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page42_para_5",
+        "type": "paragraph",
+        "value": "euch herum zustande kommen. Ihr habt schlussendlich nur noch Rituale, die ihr ausführen",
+        "position": {
+          "page": 42,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page42_para_6",
+        "type": "paragraph",
+        "value": "müsst um die gewünschten Veränderungen eurer Welt zu bewirken, denn wie gesagt, eure",
+        "position": {
+          "page": 42,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page42_para_7",
+        "type": "paragraph",
+        "value": "Welt ist immer nur so groß wie eure Augen gerade reichen. Was sich dahinter befindet existiert",
+        "position": {
+          "page": 42,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page42_para_8",
+        "type": "paragraph",
+        "value": "für euch nicht. Manchmal erzeugen die Rituale das gewünschte Ergebnis, manchmal nicht und",
+        "position": {
+          "page": 42,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page42_para_9",
+        "type": "paragraph",
+        "value": "dann bist du überzeugt, etwas falsch gemacht zu haben oder jemand oder etwas hat dich aktiv",
+        "position": {
+          "page": 42,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page42_para_10",
+        "type": "paragraph",
+        "value": "davon abgehalten, das gewünschte Ergebnis zu erzeugen. Vielleicht vermutest du dann böse",
+        "position": {
+          "page": 42,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page42_para_11",
+        "type": "paragraph",
+        "value": "Mächte, die aktiv gegen dich arbeiten und du beginnst nur umso ausgefeiltere Rituale und",
+        "position": {
+          "page": 42,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page42_para_12",
+        "type": "paragraph",
+        "value": "stärkere Magie anzurufen um endlich das zu bekommen was du dir so sehnlichst wünscht.",
+        "position": {
+          "page": 42,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page42_para_13",
+        "type": "paragraph",
+        "value": "Dass du in Wirklichkeit nur in einem Dschungel umherstolperst und dabei lächerliche",
+        "position": {
+          "page": 42,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page42_para_14",
+        "type": "paragraph",
+        "value": "Bewegungen ausführst, die jeden Beobachter an deinem Verstand zweifeln lassen würden, das",
+        "position": {
+          "page": 42,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page42_para_15",
+        "type": "paragraph",
+        "value": "erkennst du nicht.",
+        "position": {
+          "page": 42,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page42_para_16",
+        "type": "paragraph",
+        "value": "Die Welt, die sich vor deinen Augen aus dem Nichts schält und die sich hinter dir wieder ins",
+        "position": {
+          "page": 42,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page42_para_17",
+        "type": "paragraph",
+        "value": "Nichts verflüchtigt ist das, worüber du dir in jedem Augenblick gerade gewahr bist. Es gibt",
+        "position": {
+          "page": 42,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page42_para_18",
+        "type": "paragraph",
+        "value": "keinen Dschungel als unabhängiges, statisches Gebilde mehr und das Konzept des „im Kreis",
+        "position": {
+          "page": 42,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page42_para_19",
+        "type": "paragraph",
+        "value": "laufen“ kannst du nicht mal mehr verstehen, selbst wenn jemand versuchen würde es dir zu",
+        "position": {
+          "page": 42,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page42_para_20",
+        "type": "paragraph",
+        "value": "erklären. Der Baum, welcher sich gerade, angetrieben durch deine eigene Magie, an dir vorbei",
+        "position": {
+          "page": 42,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page42_para_21",
+        "type": "paragraph",
+        "value": "bewegt, war schon immer da und wenn er aus deinen Augen verschwindet, so hat er nie",
+        "position": {
+          "page": 42,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page42_para_22",
+        "type": "paragraph",
+        "value": "existiert. Stolperst du dann wieder einen Schritt zurück und der gleiche Baum betritt wieder",
+        "position": {
+          "page": 42,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page42_para_23",
+        "type": "paragraph",
+        "value": "deine Welt, so ist er für dich ein neues Objekt, welches noch nie Teil dein Welt war und er nur",
+        "position": {
+          "page": 42,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page42_para_24",
+        "type": "paragraph",
+        "value": "deshalb dort erscheint wo er erscheint, weil deine Rituale ihn dort manifestiert haben. Stolperst",
+        "position": {
+          "page": 42,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page42_para_25",
+        "type": "paragraph",
+        "value": "du nun zwei Schritte nach vorne und versuchst dann einen neuen Baum auf die gleiche Weise",
+        "position": {
+          "page": 42,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page42_para_26",
+        "type": "paragraph",
+        "value": "zu manifestieren, du also einen Schritt zurück stolperst, wird diesmal kein Baum erscheinen, da",
+        "position": {
+          "page": 42,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page42_para_27",
+        "type": "paragraph",
+        "value": "er schließlich noch einen weiteren Schritt entfernt liegt. Aber anstatt dies zu verstehen, haben",
+        "position": {
+          "page": 42,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page42_para_28",
+        "type": "paragraph",
+        "value": "für dich einfach nur deine Rituale versagt, das beabsichtigte Ergebnis hervorzubringen.",
+        "position": {
+          "page": 42,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page42_para_29",
+        "type": "paragraph",
+        "value": "Deine Welt ist auf diese Art voll von den kompliziertesten Ritualen, Bewegungsabläufen und",
+        "position": {
+          "page": 42,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page42_para_30",
+        "type": "paragraph",
+        "value": "Zaubersprüchen, die du während deiner Existenz in diesem Dschungel angehäuft hast, so dass",
+        "position": {
+          "page": 42,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page42_para_31",
+        "type": "paragraph",
+        "value": "ein externer Beobachter deine Aktionen nur als sinnlos und verrückt bezeichnen kann. Du bist",
+        "position": {
+          "page": 42,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page42_para_32",
+        "type": "paragraph",
+        "value": "in diesem Dschungel gefangen und niemals wieder kannst aus eigener Kraft einen Weg hinaus",
+        "position": {
+          "page": 42,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

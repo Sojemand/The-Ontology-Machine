@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "file_name": "kostenplan.xlsx",
+  "file_path": "C:/docs/kostenplan.xlsx",
+  "content_hash": "sha256:legacy-report-hash",
+  "result": "warn",
+  "summary": {
+    "total_issues": 2,
+    "fail_count": 0,
+    "warn_count": 2
+  },
+  "issues": [
+    {"field": "content.free_text", "level": "WARN"}
+  ]
+}

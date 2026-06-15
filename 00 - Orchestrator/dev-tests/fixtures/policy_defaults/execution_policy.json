@@ -1,0 +1,78 @@
+{
+  "pipeline_stage_names": [
+    "Intake",
+    "Runtime Semantics",
+    "Optimizer",
+    "Request Enrichment",
+    "Interpreter",
+    "Validator",
+    "Normalizer",
+    "Corpus Builder",
+    "Embeddings"
+  ],
+  "global_required_modules": [
+    "validator",
+    "normalizer",
+    "corpus_builder"
+  ],
+  "healthcheck_timeout_seconds": 60,
+  "projection_catalog_timeout_seconds": 60,
+  "modules": {
+    "optimizer": {
+      "display_name": "Optimizer",
+      "stage_role": "Optimizer",
+      "required_actions": [
+        "classify_document",
+        "extract_document",
+        "healthcheck"
+      ]
+    },
+    "interpreter": {
+      "display_name": "Interpreter",
+      "stage_role": "Interpreter",
+      "required_actions": [
+        "interpret_document",
+        "healthcheck"
+      ]
+    },
+    "validator": {
+      "display_name": "Validator",
+      "stage_role": "Validator",
+      "required_actions": [
+        "validate_document",
+        "healthcheck"
+      ]
+    },
+    "normalizer": {
+      "display_name": "Normalizer",
+      "stage_role": "Normalizer",
+      "required_actions": [
+        "normalize_document",
+        "build_projection_catalog",
+        "build_runtime_semantic_assets",
+        "healthcheck"
+      ]
+    },
+    "corpus_builder": {
+      "display_name": "Corpus Builder",
+      "stage_role": "Corpus Builder",
+      "required_actions": [
+        "load_document",
+        "activate_semantic_release",
+        "read_active_semantic_release",
+        "generate_embeddings",
+        "healthcheck"
+      ]
+    }
+  },
+  "operation_timeouts_seconds": {
+    "extract_document": 1800,
+    "classify_document": 600,
+    "interpret_document": 1800,
+    "validate_document": 600,
+    "normalize_document": 1800,
+    "load_document": 600,
+    "activate_semantic_release": 600,
+    "generate_embeddings": 1800
+  }
+}

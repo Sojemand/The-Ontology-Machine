@@ -1,0 +1,29 @@
+label: People Identity Default v1
+description: Default projection for identity, employment, and personal proof records.
+routing:
+  when_to_use: Identity documents, master records, employment documents, education
+    records, and personal certificates.
+  avoid_when: Not for financial invoices, technical asset files, medical treatment
+    plans, or community events.
+routing_lexicon:
+  text_markers:
+  - ID card
+  - employee number
+  - date of birth
+  - identity
+  - passport number
+  - nationality
+  domain_markers:
+    people:
+    - ID card
+    - date of birth
+    - identity
+    business:
+    - employee number
+    - employee
+    administrative:
+    - identification
+    - certificate
+    legal:
+    - identity proof
+    - register

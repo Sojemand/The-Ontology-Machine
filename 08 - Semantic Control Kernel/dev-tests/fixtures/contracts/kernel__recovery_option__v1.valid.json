@@ -1,0 +1,29 @@
+{
+  "description": "description_example",
+  "effect": "effect_example",
+  "expires_at": "2099-01-01T00:00:00Z",
+  "agent_tool": null,
+  "kernel_dialog_action": null,
+  "label": "label_example",
+  "continuation_workflow_tool": null,
+  "owner": "kernel_dialog",
+  "recovery_event_id": "recovery_event_id_example",
+  "recovery_action_type": "reopen_dialog",
+  "recovery_id": "recovery_id_example",
+  "requires_confirmation": false,
+  "risk_class": "read_only",
+  "schema_version": "kernel.recovery_option.v1",
+  "starts_new_workflow": false,
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:35:27Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.9,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A German nonfiction page reflects on repeated sightings of license plates with 666 on German highways and the growing realization that attention changed how often they appeared. It develops an explanation of an unusual perception process, asking how the brain could recognize the pattern within a very brief and blurred visual moment.",
+    "tags": [
+      "perception",
+      "attention",
+      "license plates",
+      "666",
+      "German highways",
+      "reflection"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "German highways"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_book_page"
+    },
+    "normalization_notes": [
+      "English control-language summary; source text is German.",
+      "No chapter or section heading was visible."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 20,
+      "topic_keywords": [
+        "perception",
+        "attention",
+        "license plates",
+        "666",
+        "visual field",
+        "reflection"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "Retrospective reflection on repeated sightings of license plates with 666 and how reduced attention made the sightings less frequent."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Describes driving on German highways, noticing 666 on passing cars, and recalling the usual brief, forgettable pattern of each encounter."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Questions how the brain could recognize the 666 pattern in under two seconds despite blurred vision and a very short visual window."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Concludes that many similar encounters must have happened before and begins to outline the underlying process."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "Estimates less than two seconds from the car entering the edge of the visual field to the eye movement toward the license plate, suggesting the impulse was not consciously initiated."
+      }
+    ],
+    "free_text": "book_page book_body_content theoretical_discussion German nonfiction reflection on perception and attention. Repeated 666 license plate sightings on German highways prompt a discussion of rapid, partly unconscious visual recognition and the short time span of the eye movement response."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.81,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.81 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+    }
+  }
+}

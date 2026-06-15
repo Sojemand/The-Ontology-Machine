@@ -1,0 +1,29 @@
+{
+  "name": "pipeline-e2e",
+  "display_name": "Pipeline End-to-End",
+  "module": "Vision Pipeline",
+  "kind": "pipeline_e2e",
+  "driver": "python_contract",
+  "inventory_gate": false,
+  "modes": ["deterministic", "live-canary"],
+  "sandbox": {
+    "state_root": "state/pipeline-e2e",
+    "artifact_root": "output/pipeline-e2e"
+  },
+  "cases": [
+    {
+      "id": "happy_path_replay",
+      "title": "Replay one document through the full pipeline to corpus.db",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["pipeline.run.replay", "corpus_builder.write_db"]
+    },
+    {
+      "id": "validator_failure_error_case",
+      "title": "Validator failure publishes only Error Cases artifacts",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["pipeline.run.validator_fail", "orchestrator.error_case.publish"]
+    }
+  ]
+}

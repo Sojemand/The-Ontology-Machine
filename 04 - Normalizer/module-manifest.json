@@ -1,0 +1,26 @@
+{
+  "module_key": "normalizer",
+  "display_name": "Normalizer",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "normalizer_vision",
+  "contract_module": "normalizer_vision.orchestrator_contract",
+  "actions": ["normalize_document", "build_projection_catalog", "build_runtime_semantic_assets", "publish_semantic_release", "list_default_blueprints", "export_default_blueprint_release", "create_zero_shot_working_release", "healthcheck", "debug_run"],
+  "debug_surface": {
+    "supports_single": true,
+    "supports_batch": true,
+    "supports_scan": false,
+    "input_source": "module_selected_input",
+    "output_source": "orchestrator_assigned_output",
+    "controls": ["mode", "worker_count"],
+    "artifacts": ["normalized_outputs"]
+  },
+  "external_dependencies": [
+    {
+      "name": "llm_provider",
+      "kind": "service",
+      "required": true,
+      "detail": "Normalizer-Provider mit orchestrator-owned Runtime-Auth und verpflichtenden runtime_settings { model, max_output_tokens }; api_keys und oauth werden nur ephemer fuer Contract-Runs injiziert."
+    }
+  ]
+}

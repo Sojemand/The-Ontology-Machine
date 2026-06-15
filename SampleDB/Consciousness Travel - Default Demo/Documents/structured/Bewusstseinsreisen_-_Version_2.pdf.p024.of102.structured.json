@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:36:54.177938+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "A prose nonfiction book page with continuous philosophical/explanatory paragraphs is visible.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "nonfiction book page",
+        "philosophical/explanatory writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 24,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=024-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page24_Segment1",
+        "unit_kind": "question_prompt",
+        "page": 24,
+        "sequence": 1,
+        "text": "Nun war es allerdings so, dass auch während solchen Situationen Mustererkennungen nach dem gleichen Schema stattfanden. Auch dann noch, wenn sich das betreffende Muster innerhalb einer Kolonne anderer Fahrzeuge befand, wie es im dichten Verkehr relativ oft der Fall ist. Ich habe also eine für mich kritische Verkehrssituation vor mir und neben mir fließt Kolonnenverkehr und selbst dann noch taucht das Muster nach bekanntem Schema auf. Können sich meine Augen überhaupt so schnell bewegen um alle Nummernschilder der Kolonne zu scannen während ich versuche Auffahrunfälle zu vermeiden?",
+        "function": "problem_statement",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page24_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 24,
+        "sequence": 2,
+        "text": "Wie ich es auch drehe und wende, entweder kann meine Mustererkennung auf mein gesamtes Gesichtsfeld zugreifen und unterliegt dabei nicht dem „blurry“ Effekt den ich erfahre wenn ich Dinge außerhalb meines Fokus zu sehen versuche, oder meine Augen rennen permanent umher wie ein Hase auf Koks und ich leide dabei unter schwerer Amnesie. Beide Alternativen klingen für mich gleich absurd und irgendwie unglaubwürdig, aber eine davon muss es wohl sein und egal welche es nun ist, müssen wir anerkennen, dass wir es hier mit einem wahren Goliath eines Mechanismus zu tun haben, der Dinge tut und kann, die unserem Wachbewusstsein völlig unmöglich sind. Er arbeitet permanent und vollständig verborgen vor dem Licht unseres eigenen Gewahrseins. Dieser Mechanismus ist nicht nur da um Spaß an Nummernschildern zu haben, er erstreckt sich über alle Bereiche unseres Lebens und er hat überall seine Finger drin, wenn es darum geht, Sinn aus dem Chaos der Signale zu formen, die uns über unsere Sinne zuströmen. Wir entwickeln überhaupt erst ein Konzept der Welt um uns herum, weil dieser Mechanismus unserer Welt ihre Kategorien verleiht und erst dadurch Sinn entsteht.",
+        "function": "argumentative_reflection",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page24_Segment3",
+        "unit_kind": "descriptive_passage",
+        "page": 24,
+        "sequence": 3,
+        "text": "Welchen Umfang allein dieses System umfasst, könnte man sich vielleicht mit dem Bild vorstellen, welches Neo aus dem Film „Matrix“ sieht, wenn er am Ende des ersten Teils in den Korridor blickt und den Maschinencode sieht, der die gesamte Welt überzieht. Könnten wir sehen, was unsere Mustererkennung sieht, die Welt um uns herum würde uns wohl in einem ähnlichen Licht erscheinen. Unsere Welt wäre zwar nicht durch und durch grün, aber alles darin wäre ebenfalls mit dem „Code“ unserer Mustererkennung auf die gleiche Art durchdrungen. Sie steuert allerdings nicht nur mühelos und nahezu nahtlos, worauf wir unsere Aufmerksamkeit richten, sie löst auch permanent andere Systeme aus und dazu gehören auch die Trigger unserer Emotionen.",
+        "function": "illustrative_explanation",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Mustererkennung, Aufmerksamkeit, Wahrnehmung, Matrix-Vergleich, Emotionstrigger"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=024-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:06f40ade9ce82ee0ba7b5480aa917caacaacb59bb1cb87cf7da1e44d5551ba5b",
+    "created_at": null,
+    "modified_at": null
+  }
+}

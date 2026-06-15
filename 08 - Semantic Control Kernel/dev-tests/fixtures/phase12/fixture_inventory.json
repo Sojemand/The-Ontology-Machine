@@ -1,0 +1,28 @@
+{
+  "schema_version": "phase12.fixture_inventory.v1",
+  "fixtures": [
+    "empty_merge_two_sources_no_collision",
+    "empty_merge_semantic_collision",
+    "filled_merge_two_sources_no_collision",
+    "filled_merge_batch_collision",
+    "filled_merge_document_duplicate_keep_both",
+    "filled_merge_duplicate_collapse_blocked",
+    "filled_merge_artifact_name_collision",
+    "filled_merge_missing_materialization_ref",
+    "filled_merge_batch_collision_global_detection",
+    "mixed_empty_filled_selection",
+    "merge_existing_target_confirmation_required",
+    "merge_owner_forged_collision_resolution",
+    "source_identity_without_durable_id",
+    "source_identity_import_local_resume_reuse",
+    "rebuild_happy_path",
+    "rebuild_overwrite_confirmation",
+    "rebuild_invalid_target_name",
+    "rebuild_missing_loaded_release_identity",
+    "rebuild_incomplete_release_package",
+    "rebuild_missing_semantic_release",
+    "rebuild_embedding_unconfigured_optional_skip",
+    "stale_merge_reconciliation_receipt",
+    "frozen_operational_workflows"
+  ]
+}

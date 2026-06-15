@@ -1,0 +1,28 @@
+{
+  "party_role_patterns": {
+    "supplier": [
+      "^(?:lieferant|supplier|vendor|seller)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "customer": [
+      "^(?:kunde|customer|client|buyer)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "employee": [
+      "^(?:mitarbeiter|employee|reisender|traveler|traveller)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "contract_party_a": [
+      "^(?:vertragspartner\\s*a|party\\s*a|auftraggeber)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "contract_party_b": [
+      "^(?:vertragspartner\\s*b|party\\s*b|auftragnehmer|contractor)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "approver": [
+      "^(?:genehmigt\\s*durch|approved\\s*by|freigegeben\\s*von)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "sender": [
+      "^(?:absender|sender|from|rechnungssteller|aussteller)\\b\\s*[:\\-]?\\s*(.*)$"
+    ],
+    "recipient": [
+      "^(?:an|to|empf(?:aenger|\\u00e4nger)|rechnungsempf(?:aenger|\\u00e4nger)|recipient|bill\\s*to|ship\\s*to)\\b\\s*[:\\-]?\\s*(.*)$"
+    ]
+  }
+}

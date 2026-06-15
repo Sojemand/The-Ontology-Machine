@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:33f15ff0d1e2ecc681d494f2aad4c06d0da76535990b64bd504fc823a16b49be",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 84,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 84,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_084.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page84_para_0",
+        "type": "paragraph",
+        "value": "Dieser Weg, will man ihn denn beschreiten, ist ein langfristiger und recht mühsamer Prozess,",
+        "position": {
+          "page": 84,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page84_para_1",
+        "type": "paragraph",
+        "value": "besonders wenn die eigene Symbolik alles andere als kompatibel zur Zielsymbolik ist. Dank",
+        "position": {
+          "page": 84,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page84_para_2",
+        "type": "paragraph",
+        "value": "der Magie unseres eigenen Dranges nach innerer Widerspruchsfreiheit, wird man merken, wie",
+        "position": {
+          "page": 84,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page84_para_3",
+        "type": "paragraph",
+        "value": "sich der Glaube an eine flache Erde irgendwann nicht mehr so verrückt anfühlt und man sogar",
+        "position": {
+          "page": 84,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page84_para_4",
+        "type": "paragraph",
+        "value": "beginnt, Verständnis zu entwickeln. Wenn man dies bewusst tut, wird man irgendwann",
+        "position": {
+          "page": 84,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page84_para_5",
+        "type": "paragraph",
+        "value": "bemerken, wie man plötzlich ein neues Wollen in sich geschaffen hat, welches vorher nicht da",
+        "position": {
+          "page": 84,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page84_para_6",
+        "type": "paragraph",
+        "value": "war. Wenn man diesen Weg bewusst geht, verändert man sich nicht unbewusst zu einem",
+        "position": {
+          "page": 84,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page84_para_7",
+        "type": "paragraph",
+        "value": "Flacherdler und beginnt den Globus anzuzweifeln, sondern man erkennt, zu was man werden",
+        "position": {
+          "page": 84,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page84_para_8",
+        "type": "paragraph",
+        "value": "muss, um ein solcher sein zu wollen. Man sieht, dass man wollen könnte, was man wollen",
+        "position": {
+          "page": 84,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page84_para_9",
+        "type": "paragraph",
+        "value": "müsste, wenn man wollte. Damit hat man sich das symbolische Wesen zu eigen gemacht, es",
+        "position": {
+          "page": 84,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page84_para_10",
+        "type": "paragraph",
+        "value": "sich zugänglich und verständlich gemacht und dann erkennt man auch, wie sinnlos es ist, Zeit",
+        "position": {
+          "page": 84,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page84_para_11",
+        "type": "paragraph",
+        "value": "mit den Versuchen zu verschwenden, auf die Widersprüche der Argumente hinzuweisen und",
+        "position": {
+          "page": 84,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page84_para_12",
+        "type": "paragraph",
+        "value": "so einen Flacherdler „bekehren“ zu wollen, denn dort gibt es nichts, was sich bekehren ließe.",
+        "position": {
+          "page": 84,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page84_para_13",
+        "type": "paragraph",
+        "value": "Auf diese Weise kann man sich buchstäblich jedes Weltbild zu eigen machen. Man kann damit",
+        "position": {
+          "page": 84,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page84_para_14",
+        "type": "paragraph",
+        "value": "die gesamte innere Struktur und deren Widerspruchsfreiheit erfahren und verstehen, wie ein",
+        "position": {
+          "page": 84,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page84_para_15",
+        "type": "paragraph",
+        "value": "Bewusstsein das betreffende Model als eigene Grundlage nutzt. Wenn man sich als Atheist",
+        "position": {
+          "page": 84,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page84_para_16",
+        "type": "paragraph",
+        "value": "sieht und Probleme hat zu begreifen, wie jemand tief religiös sein kann, dann kann man damit",
+        "position": {
+          "page": 84,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page84_para_17",
+        "type": "paragraph",
+        "value": "sein eigenes symbolisches Gebäude veranlassen und beginnen sich eines göttlichen",
+        "position": {
+          "page": 84,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page84_para_18",
+        "type": "paragraph",
+        "value": "Vertrauens zu bedienen, um damit seine eigene Existenz zu rechtfertigen. Umgekehrt",
+        "position": {
+          "page": 84,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page84_para_19",
+        "type": "paragraph",
+        "value": "funktioniert das natürlich genauso. Der Erfolg lässt sich daran bemessen, wie konsistent",
+        "position": {
+          "page": 84,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page84_para_20",
+        "type": "paragraph",
+        "value": "einem selbst die Zielsymbolik mit der Zeit erscheint und wie bereit man selbst ist, auf selbiger",
+        "position": {
+          "page": 84,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page84_para_21",
+        "type": "paragraph",
+        "value": "seine eigene Persönlichkeit zu gründen.",
+        "position": {
+          "page": 84,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page84_para_22",
+        "type": "paragraph",
+        "value": "Ein lustiger Nebeneffekt ist dabei, dass man, während man auf dem Weg von einer Symbolik",
+        "position": {
+          "page": 84,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page84_para_23",
+        "type": "paragraph",
+        "value": "zur nächsten ist, eine merkwürdige Art der Schizophrenie erleben kann. Irgendwann ist man",
+        "position": {
+          "page": 84,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page84_para_24",
+        "type": "paragraph",
+        "value": "zum Beispiel kein richtiger Atheist mehr, aber auch noch kein wirklich religiöser Mensch.",
+        "position": {
+          "page": 84,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page84_para_25",
+        "type": "paragraph",
+        "value": "Unser Sein kann Unsicherheit, wenn es um sein eigenes Fundament geht, nicht ertragen und",
+        "position": {
+          "page": 84,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page84_para_26",
+        "type": "paragraph",
+        "value": "so findet man sich dabei zwischen zwei Stühlen sitzend wider an einem Ort, an dem man nicht",
+        "position": {
+          "page": 84,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page84_para_27",
+        "type": "paragraph",
+        "value": "verharren kann. Vielleicht entdeckt man unterwegs Symboliken, die einem auf einmal viel",
+        "position": {
+          "page": 84,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page84_para_28",
+        "type": "paragraph",
+        "value": "näher stehen als jene, die man verlassen hat und zu der man reisen wollte.",
+        "position": {
+          "page": 84,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page84_para_29",
+        "type": "paragraph",
+        "value": "Vielleicht beginnt man auf einmal Worte wie „Agnostiker“ zu verwenden und man findet sich",
+        "position": {
+          "page": 84,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page84_para_30",
+        "type": "paragraph",
+        "value": "unversehens als Fan von Henry Huxley wieder. Dann ist die Gefahr groß zu vergessen, wo",
+        "position": {
+          "page": 84,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

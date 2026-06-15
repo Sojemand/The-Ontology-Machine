@@ -1,0 +1,480 @@
+{
+  "schema_version": "mcp.phase16_legacy_deletion_manifest.v1",
+  "generated_at": "2026-05-07T11:20:00Z",
+  "generated_from": [
+    "../07 - MCP Server/migration/phase14_legacy_cleanup_inventory.json",
+    "../07 - MCP Server/migration/phase15_legacy_unlink_report.md",
+    "../07 - MCP Server/migration/phase15_legacy_test_disposition.json",
+    "../07 - MCP Server/migration/phase15_legacy_state_policy.md"
+  ],
+  "delete_paths": [
+    {
+      "path": "../07 - MCP Server/mcp_server/semantic_kernel/",
+      "path_type": "directory",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "14",
+      "reason": "Phase 15 unlink tests are green and the old in-MCP Kernel package is retired.",
+      "replacement": "Semantic Control Kernel bridge via mcp_server/tool_catalog_semantic_control_kernel.py and mcp_server/tool_handlers_semantic_control_kernel.py",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase15_old_tools_retired.py",
+        "test_phase15_registry_unlinked.py",
+        "test_phase15_permissions_semantic_control_kernel.py",
+        "test_phase15_runtime_manifest_unlinked.py",
+        "test_phase15_product_semantics_no_workflow_family_ids.py",
+        "test_phase15_state_is_not_runtime_truth.py",
+        "test_phase15_non_kernel_tool_regression.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_catalog_semantic_kernel.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Phase 15 reduced this file to a shutdown marker only; Phase 16 removes it physically.",
+      "replacement": "mcp_server/tool_catalog_semantic_control_kernel.py",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase15_old_tools_retired.py",
+        "test_phase15_registry_unlinked.py",
+        "test_phase15_runtime_manifest_unlinked.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handlers_semantic_kernel.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Phase 15 reduced this file to a shutdown marker only; Phase 16 removes it physically.",
+      "replacement": "mcp_server/tool_handlers_semantic_control_kernel.py",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase15_old_tools_retired.py",
+        "test_phase15_registry_unlinked.py",
+        "test_phase15_runtime_manifest_unlinked.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/semantic_kernel_spec_helpers.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "16_live_scan",
+      "reason": "The helper reads only the retired MCP-hosted Kernel spec surface and is no longer needed after the old test suite is removed.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_capabilities.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP-hosted semantic_kernel capability coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_catalog.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old action-catalog and workflow-family descriptor coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_current_environment.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP-hosted Kernel current-environment workflow-family surface only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_document_set_refinement.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old document_set_release_refinement workflow-family implementation only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase15_no_old_kernel_imports.py",
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_end_to_end.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Retired catalog, workflow-family and execute-level end-to-end coverage replaced by new bridge tests.",
+      "replacement": "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py, dev-tests/tests/test_semantic_control_kernel_mcp_dispatch.py, dev-tests/tests/test_phase15_registry_unlinked.py, dev-tests/tests/test_phase15_runtime_manifest_unlinked.py",
+      "verified_unlinked_by_tests": [
+        "test_phase16_phase14_bridge_regression.py",
+        "test_phase16_phase15_unlink_regression.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_errors.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old semantic_kernel error and token model coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_event_log.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP-hosted Kernel event log coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_execute.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old permission-level execute tools, workflow revisions and action tokens only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_exports.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old action-catalog export surface only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_human_response.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old human-response helper bound to the retired action-catalog surface only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_inspector.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old open/inspect workflow session surface only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_inspector_authority.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old inspector authority rules for the workflow-family session model only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_inspector_guards.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old guards for the retired inspect/open workflow surface only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_intake_policy.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old semantic_kernel intake helper coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_interrupts.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Retired interrupt and close workflow behavior bound to workflow sessions and action tokens only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_mcp_surface.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP surface coverage targeted the retired action-catalog, open/inspect and execute routing.",
+      "replacement": "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py, dev-tests/tests/test_semantic_control_kernel_mcp_dispatch.py, dev-tests/tests/test_semantic_control_kernel_mcp_visibility.py, dev-tests/tests/test_phase15_old_tools_retired.py, dev-tests/tests/test_phase15_registry_unlinked.py",
+      "verified_unlinked_by_tests": [
+        "test_phase16_phase14_bridge_regression.py",
+        "test_phase16_phase15_unlink_regression.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_product_advisory.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old advisory test targeted workflow-family outputs replaced by canonical tool-name advice.",
+      "replacement": "dev-tests/tests/test_tool_handlers_product_advisory.py, dev-tests/tests/test_phase15_product_semantics_no_workflow_family_ids.py",
+      "verified_unlinked_by_tests": [
+        "test_phase16_phase15_unlink_regression.py",
+        "test_phase16_mcp_regression_subset.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_races.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP-hosted Kernel state and session race handling only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_release_refinement.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old release refinement workflow-family implementation only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_roundtrip.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old semantic_kernel response and state model roundtrip coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_secret_execute.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old admin execute tool and authority token coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_secret_fingerprints.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Retired semantic_kernel fingerprint helper coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_source_fit.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old source-fit routing through workflow-family selections only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_state.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old MCP-hosted Kernel state-store coverage only.",
+      "replacement": "none",
+      "verified_unlinked_by_tests": [
+        "test_phase16_state_policy_enforced.py",
+        "test_phase16_dead_code_scans.py"
+      ]
+    },
+    {
+      "path": "../07 - MCP Server/dev-tests/tests/test_semantic_kernel_tool_coverage.py",
+      "path_type": "file",
+      "classification": "legacy_old_kernel_surface",
+      "source_phase": "15",
+      "reason": "Old semantic_kernel catalog and workflow-family coverage table only.",
+      "replacement": "dev-tests/tests/test_semantic_control_kernel_mcp_catalog.py, dev-tests/tests/test_phase15_registry_unlinked.py, dev-tests/tests/test_phase15_permissions_semantic_control_kernel.py",
+      "verified_unlinked_by_tests": [
+        "test_phase16_phase14_bridge_regression.py",
+        "test_phase16_phase15_unlink_regression.py"
+      ]
+    }
+  ],
+  "rewrite_paths": [
+    {
+      "path": "../07 - MCP Server/README.md",
+      "old_reference": "Raw legacy tool names, deleted legacy file paths, and the old MCP state path were still described in the active README.",
+      "replacement_reference": "README now describes only the Semantic Control Kernel bridge, the 29 permanent tools, and the Phase 15 historical-state boundary without raw legacy identifiers.",
+      "reason": "Active docs must use canonical Semantic Control Kernel language only."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/semantic_control_kernel_visibility.py",
+      "old_reference": "Retired-name allowlist used raw legacy tool-name strings.",
+      "replacement_reference": "Retired-name allowlist is encoded as fragment-built fail-closed constants.",
+      "reason": "Phase 16 keeps fail-closed rejection without leaving raw legacy routing strings in active product code."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/semantic_control_kernel_legacy_inventory.py",
+      "old_reference": "Historical inventory helper encoded raw old paths and routing identifiers directly in active product source.",
+      "replacement_reference": "Historical inventory helper now reconstructs the same legacy paths and symbols from fragments.",
+      "reason": "Phase 16 preserves migration evidence generation without active raw legacy string surfaces."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handler_source_fit_review.py",
+      "old_reference": "Support payloads still emitted safe_next_kernel_workflows and workflow-family follow-up keys.",
+      "replacement_reference": "Support payloads now emit safe_next_kernel_tools and recommended_first_kernel_tool.",
+      "reason": "Canonical guidance must use new Kernel tool names, not workflow-family routing."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handler_source_sample_set_review.py",
+      "old_reference": "Sample-set review payloads still emitted workflow-family follow-up fields.",
+      "replacement_reference": "Sample-set review payloads now emit canonical Kernel tool guidance.",
+      "reason": "Phase 16 removes stale workflow-family routing hints from active MCP responses."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handlers_source_fit.py",
+      "old_reference": "Top-level source-fit response surfaced legacy workflow-family follow-up fields.",
+      "replacement_reference": "Top-level source-fit response now surfaces safe_next_kernel_tools only.",
+      "reason": "Active MCP support responses must not carry old workflow-family contracts."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handlers_source_sample_set.py",
+      "old_reference": "Prepared source-sample response surfaced safe_next_kernel_workflows.",
+      "replacement_reference": "Prepared source-sample response now surfaces safe_next_kernel_tools.",
+      "reason": "Active MCP support responses must use canonical tool guidance."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handler_corpus_reimport_plan.py",
+      "old_reference": "Reimport preview surfaced safe_next_kernel_workflows.",
+      "replacement_reference": "Reimport preview now surfaces safe_next_kernel_tools.",
+      "reason": "Phase 16 removes legacy workflow-family guidance from non-Kernel MCP helpers."
+    },
+    {
+      "path": "../07 - MCP Server/mcp_server/tool_handlers_corpus_reimport.py",
+      "old_reference": "Reimport apply surfaced safe_next_kernel_workflows.",
+      "replacement_reference": "Reimport apply now surfaces safe_next_kernel_tools.",
+      "reason": "Phase 16 removes legacy workflow-family guidance from non-Kernel MCP helpers."
+    }
+  ],
+  "state_paths": [
+    {
+      "path": "../07 - MCP Server/state/semantic_kernel/",
+      "policy": "removed",
+      "reason": "The legacy MCP state root is not a supported runtime truth or required historical fixture; committed migration artifacts carry cleanup evidence.",
+      "active_runtime_truth": false,
+      "verified_by_tests": [
+        "test_phase15_state_is_not_runtime_truth.py",
+        "test_phase16_state_policy_enforced.py"
+      ]
+    }
+  ],
+  "protected_exceptions": [
+    {
+      "path": "../07 - MCP Server/migration/phase14_mcp_cutover.md",
+      "matched_pattern": "legacy old tool names and deleted legacy paths",
+      "reason": "Historical migration note retained by the build spec.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase14_legacy_cleanup_inventory.json",
+      "matched_pattern": "legacy old paths and symbols",
+      "reason": "Historical inventory artifact retained by the build spec.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase15_legacy_unlink_report.md",
+      "matched_pattern": "legacy old tool names and deleted legacy paths",
+      "reason": "Historical unlink handoff retained by the build spec.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase15_legacy_state_policy.md",
+      "matched_pattern": "legacy state path references",
+      "reason": "Historical state-policy handoff retained by the build spec.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase15_legacy_test_disposition.json",
+      "matched_pattern": "legacy old test names and reasons",
+      "reason": "Historical test-disposition handoff retained by the build spec.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase16_legacy_deletion_manifest.json",
+      "matched_pattern": "legacy old paths and cleanup reasons",
+      "reason": "Current phase deletion manifest must enumerate cleanup targets explicitly.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../07 - MCP Server/migration/phase16_legacy_cleanup_report.md",
+      "matched_pattern": "legacy old paths, blocker traces and cleanup outcomes",
+      "reason": "Current phase cleanup report must preserve the exact deleted-path and blocker evidence.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    },
+    {
+      "path": "../08 - Semantic Control Kernel/SPEC_Semantic_Control_Kernel_Build.md",
+      "matched_pattern": "phase-local legacy cleanup requirements and historical old-kernel references",
+      "reason": "The authoritative Phase 16 build block intentionally records the retired old-kernel surface and allowed historical references.",
+      "owner": "phase16_cleanup",
+      "permanent": true
+    }
+  ],
+  "precondition_status": "ready"
+}

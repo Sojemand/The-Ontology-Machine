@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:01:09.616904+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 84,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous prose paragraphs",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page84_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 84,
+        "sequence": 1,
+        "text": "Dieser Weg, will man ihn denn beschreiten, ist ein langfristiger und recht mühsamer Prozess, besonders wenn die eigene Symbolik alles andere als kompatibel zur Zielsymbolik ist. Dank der Magie unseres eigenen Dranges nach innerer Widerspruchsfreiheit, wird man merken, wie sich der Glaube an eine flache Erde irgendwann nicht mehr so verrückt anfühlt und man sogar beginnt, Verständnis zu entwickeln. Wenn man dies bewusst tut, wird man irgendwann bemerken, wie man plötzlich ein neues Wollen in sich geschaffen hat, welches vorher nicht da war. Wenn man diesen Weg bewusst geht, verändert man sich nicht unbewusst zu einem Flacherdler und beginnt den Globus anzuzweifeln, sondern man erkennt, zu was man werden muss, um ein solcher sein zu wollen. Man sieht, dass man wollen könnte, was man wollen müsste, wenn man wollte. Damit hat man sich das symbolische Wesen zu eigen gemacht, es sich zugänglich und verständlich gemacht und dann erkennt man auch, wie sinnlos es ist, Zeit mit den Versuchen zu verschwenden, auf die Widersprüche der Argumente hinzuweisen und so einen Flacherdler „bekehren“ zu wollen, denn dort gibt es nichts, was sich bekehren ließe.",
+        "function": "explains_symbolic_identification",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page84_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 84,
+        "sequence": 2,
+        "text": "Auf diese Weise kann man sich buchstäblich jedes Weltbild zu eigen machen. Man kann damit die gesamte innere Struktur und deren Widerspruchsfreiheit erfahren und verstehen, wie ein Bewusstsein das betreffende Model als eigene Grundlage nutzt. Wenn man sich als Atheist sieht und Probleme hat zu begreifen, wie jemand tief religiös sein kann, dann kann man damit sein eigenes symbolisches Gebäude veranlassen und beginnen sich eines göttlichen Vertrauens zu bedienen, um damit seine eigene Existenz zu rechtfertigen. Umgekehrt funktioniert das natürlich genauso. Der Erfolg lässt sich daran bemessen, wie konsistent einem selbst die Zielsymbolik mit der Zeit erscheint und wie bereit man selbst ist, auf selbiger seine eigene Persönlichkeit zu gründen.",
+        "function": "generalizes_method_and_gives_example",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page84_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 84,
+        "sequence": 3,
+        "text": "Ein lustiger Nebeneffekt ist dabei, dass man, während man auf dem Weg von einer Symbolik zur nächsten ist, eine merkwürdige Art der Schizophrenie erleben kann. Irgendwann ist man zum Beispiel kein richtiger Atheist mehr, aber auch noch kein wirklich religiöser Mensch. Unser Sein kann Unsicherheit, wenn es um sein eigenes Fundament geht, nicht ertragen und so findet man sich dabei zwischen zwei Stühlen sitzend wider an einem Ort, an dem man nicht verharren kann. Vielleicht entdeckt man unterwegs Symboliken, die einem auf einmal viel näher stehen als jene, die man verlassen hat und zu der man reisen wollte.",
+        "function": "describes_transitional_instability",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page84_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 84,
+        "sequence": 4,
+        "text": "Vielleicht beginnt man auf einmal Worte wie „Agnostiker“ zu verwenden und man findet sich unversehens als Fan von Henry Huxley wieder. Dann ist die Gefahr groß zu vergessen, wo",
+        "function": "introduces_example_and_carries_forward",
+        "confidence": 0.9
+      }
+    ],
+    "free_text": "Philosophischer Fließtext über Symbolik, Weltbilder, Atheismus, Religiosität, Agnostiker"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:33f15ff0d1e2ecc681d494f2aad4c06d0da76535990b64bd504fc823a16b49be",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=037-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:2cd35a3db337e18f0f9f2568115b1e69eaa29daf6aaea70181e9278cec913cb7",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 37,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=037-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 37,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_037.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page37_para_0",
+        "type": "paragraph",
+        "value": "und Motivationen.",
+        "position": {
+          "page": 37,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page37_para_1",
+        "type": "paragraph",
+        "value": "All das sieht er.",
+        "position": {
+          "page": 37,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page37_para_2",
+        "type": "paragraph",
+        "value": "Was denkt ihr, wenn ihr dieser junge Mann wärt und ihr würdet all das sehen was er sieht, wie",
+        "position": {
+          "page": 37,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page37_para_3",
+        "type": "paragraph",
+        "value": "würdet ihr entscheiden? Weitergehen oder den Versuch wagen?",
+        "position": {
+          "page": 37,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page37_para_4",
+        "type": "paragraph",
+        "value": "Wären alle Voraussetzungen die gleichen, so würdet ihr, selbst mit dem Vorhandensein dieser",
+        "position": {
+          "page": 37,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page37_para_5",
+        "type": "paragraph",
+        "value": "zusätzlichen Informationen, wieder die gleiche Entscheidung treffen. Wie sollte es auch anders",
+        "position": {
+          "page": 37,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page37_para_6",
+        "type": "paragraph",
+        "value": "sein? Es hat sich ja nichts wirklich verändert. Die Regeln haben sich nicht verändert und ihr",
+        "position": {
+          "page": 37,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page37_para_7",
+        "type": "paragraph",
+        "value": "habt keine Informationen erlangt, die euch neue Handlungsoptionen eröffnet hätten. Der Grad",
+        "position": {
+          "page": 37,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page37_para_8",
+        "type": "paragraph",
+        "value": "an freiem Willen hat sich nicht verändert. Wozu sollte das Ganze also gut sein? Nun, ihr habt",
+        "position": {
+          "page": 37,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page37_para_9",
+        "type": "paragraph",
+        "value": "zwar neue Informationen erhalten, sie aber nicht genutzt! Ihr habt neue Informationsströme",
+        "position": {
+          "page": 37,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page37_para_10",
+        "type": "paragraph",
+        "value": "aus dem Riesen gezapft, allerdings sagt er euch nicht, was ihr damit anstellen könnt. Das ist",
+        "position": {
+          "page": 37,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page37_para_11",
+        "type": "paragraph",
+        "value": "nicht seine Aufgabe, weil er das nicht kann. Er kann das nicht, weil die Evolution solche Dinge",
+        "position": {
+          "page": 37,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page37_para_12",
+        "type": "paragraph",
+        "value": "nicht vorgesehen hat.",
+        "position": {
+          "page": 37,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page37_para_13",
+        "type": "paragraph",
+        "value": "Zugang zu solcherart Informationen zu haben, ist aus der Sicht des Riesen nutzlos, nicht aber",
+        "position": {
+          "page": 37,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page37_para_14",
+        "type": "paragraph",
+        "value": "für den Zwerg. Der Zwerg, also ihr, könnt mit diesen Informationen etwas anstellen. Nicht viel,",
+        "position": {
+          "page": 37,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page37_para_15",
+        "type": "paragraph",
+        "value": "zumindest jetzt noch nicht, aber ihr könntet sie nutzen um euch in der beschriebenen",
+        "position": {
+          "page": 37,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page37_para_16",
+        "type": "paragraph",
+        "value": "hypothetischen Situation eine neue Handlungsoption zu schaffen, die es vorher für euch nicht",
+        "position": {
+          "page": 37,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page37_para_17",
+        "type": "paragraph",
+        "value": "gab. Ihr könnt nämlich, dank eures Gewahrseins über die Details der Erscheinung der Frau und",
+        "position": {
+          "page": 37,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page37_para_18",
+        "type": "paragraph",
+        "value": "was sie alles an sich verändert hat um so zu erscheinen wie sie euch erscheint, diese Dinge im",
+        "position": {
+          "page": 37,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page37_para_19",
+        "type": "paragraph",
+        "value": "Geiste zum Beispiel rückgängig machen. Ihr könntet alle Signale, die sie durch ihre",
+        "position": {
+          "page": 37,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page37_para_20",
+        "type": "paragraph",
+        "value": "Erscheinung ausstrahlt, also Makeup, Kleidung, Körperhaltung, subtrahieren und so ein Bild",
+        "position": {
+          "page": 37,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page37_para_21",
+        "type": "paragraph",
+        "value": "von ihr im Geiste erschaffen, wie sie ohne „Upgrades“ euch erscheinen würde, also so wie sie",
+        "position": {
+          "page": 37,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page37_para_22",
+        "type": "paragraph",
+        "value": "wirklich ist. Damit reduziert ihr auch eure eigenen instinktiven Reaktionen auf die übersteigert",
+        "position": {
+          "page": 37,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page37_para_23",
+        "type": "paragraph",
+        "value": "zur Schau gestellten Signale. Damit könnt ihr dann die Erscheinung vor euren Augen mit der",
+        "position": {
+          "page": 37,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page37_para_24",
+        "type": "paragraph",
+        "value": "Erscheinung vor eurem geistigen Auge vergleichen. Vielleicht fällt euch dabei auf, dass die",
+        "position": {
+          "page": 37,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page37_para_25",
+        "type": "paragraph",
+        "value": "„zurechtgestutzte“ Version für euch deutlich weniger attraktiv erscheint und sich damit auch",
+        "position": {
+          "page": 37,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page37_para_26",
+        "type": "paragraph",
+        "value": "eure Einschätzung darüber ändert, ob die Investition den zu erwartenden Mehrwert für euch",
+        "position": {
+          "page": 37,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page37_para_27",
+        "type": "paragraph",
+        "value": "noch immer rechtfertigt. Vielleicht verschiebt sich dadurch die Gewichtung so sehr, dass ihr auf",
+        "position": {
+          "page": 37,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page37_para_28",
+        "type": "paragraph",
+        "value": "einmal entscheidet weiterzugehen. Vielleicht aber auch nicht, wer kann das schon sagen.",
+        "position": {
+          "page": 37,
+          "paragraph_index": 28
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

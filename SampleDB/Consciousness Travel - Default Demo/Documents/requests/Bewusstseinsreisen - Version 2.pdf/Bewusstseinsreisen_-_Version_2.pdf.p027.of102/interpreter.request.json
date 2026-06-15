@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=027-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:e0adbd798be028e9b1509ed1b86dcd502f8732c96fcbffda647d192a0d5926b7",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 27,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=027-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 27,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_027.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page27_para_0",
+        "type": "paragraph",
+        "value": "Intensität und Ausrichtung zwischen den Menschen und auch zwischen den Geschlechtern gibt,",
+        "position": {
+          "page": 27,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page27_para_1",
+        "type": "paragraph",
+        "value": "aber am Ende des Tages sind wir doch alle nur Marionetten des gleichen Systems.",
+        "position": {
+          "page": 27,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page27_para_2",
+        "type": "paragraph",
+        "value": "Auch unsere Emotionen beteiligen sich an dem Zirkelschluss, welcher unser Selbstbild formt",
+        "position": {
+          "page": 27,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page27_para_3",
+        "type": "paragraph",
+        "value": "und der sich nicht darum schert, was sich in Wirklichkeit vor unserer Nase zuträgt. Unsere",
+        "position": {
+          "page": 27,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page27_para_4",
+        "type": "paragraph",
+        "value": "Emotionen sind es, die uns den Schmerz vermitteln, wenn unsere innere Widerspruchsfreiheit",
+        "position": {
+          "page": 27,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page27_para_5",
+        "type": "paragraph",
+        "value": "in Gefahr gerät. Sie sind es, die uns dazu motivieren, Dinge zu tun, die unseren Zielen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page27_para_6",
+        "type": "paragraph",
+        "value": "abträglich sind, die wir uns in unserem Bewusstsein zurecht legen und die wir unsere Ideale",
+        "position": {
+          "page": 27,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page27_para_7",
+        "type": "paragraph",
+        "value": "nennen. Sie sind es auch, die uns vorgeben in welchem Licht wir die Welt um uns herum",
+        "position": {
+          "page": 27,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page27_para_8",
+        "type": "paragraph",
+        "value": "betrachten, was wir in einem beliebigen Moment als wichtig oder unwichtig erleben und sie",
+        "position": {
+          "page": 27,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page27_para_9",
+        "type": "paragraph",
+        "value": "bestimmen auch wie wir die Zukunft als auch unsere Vergangenheit betrachten.",
+        "position": {
+          "page": 27,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page27_para_10",
+        "type": "paragraph",
+        "value": "Sie haben uns nicht nur fest im Griff wenn uns Unheil droht, sondern sie flüstern uns",
+        "position": {
+          "page": 27,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page27_para_11",
+        "type": "paragraph",
+        "value": "permanent zu, wer wir sind, zu sein haben und sein wollen und praktisch niemals stimmen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page27_para_12",
+        "type": "paragraph",
+        "value": "diese drei Dinge miteinander überein, oder haben gar eine Grundlage in der Wirklichkeit.",
+        "position": {
+          "page": 27,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page27_para_13",
+        "type": "paragraph",
+        "value": "Daraus erwachsen dann unsere Motivationen, der Griff ins Regal der Lebensratgeber und die",
+        "position": {
+          "page": 27,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page27_para_14",
+        "type": "paragraph",
+        "value": "Suche nach Erfüllung, nur um etwas zu werden wovon wir denken, es würde uns die endgültige",
+        "position": {
+          "page": 27,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page27_para_15",
+        "type": "paragraph",
+        "value": "Erlösung von diesen Widersprüchen bescheren. Dabei sind sie doch die Quelle, die uns erst",
+        "position": {
+          "page": 27,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page27_para_16",
+        "type": "paragraph",
+        "value": "dazu antreibt uns zu bewegen. Ohne sie wären wir nur ein bewegungsloser Fleischklops, der in",
+        "position": {
+          "page": 27,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page27_para_17",
+        "type": "paragraph",
+        "value": "der Sonne verfault. Vielleicht ein durch und durch rationaler Klops, aber nichtsdestoweniger nur",
+        "position": {
+          "page": 27,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page27_para_18",
+        "type": "paragraph",
+        "value": "ein Klops ohne jeglichen Antrieb.",
+        "position": {
+          "page": 27,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page27_para_19",
+        "type": "paragraph",
+        "value": "Vielleicht wäre zum Schluss ein weiteres kleines Beispiel angebracht. Könnt ihr euch vorstellen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page27_para_20",
+        "type": "paragraph",
+        "value": "wie schwer es jemandem fällt sich sportlich zu betätigen, der ausgesprochen übergewichtig ist?",
+        "position": {
+          "page": 27,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page27_para_21",
+        "type": "paragraph",
+        "value": "Es bedarf einer gehörigen Portion Ansporn, um ein dauerhaftes Ergebnis zu erzielen, weit mehr",
+        "position": {
+          "page": 27,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page27_para_22",
+        "type": "paragraph",
+        "value": "als jemand aufbringen muss, dessen Körperstruktur körperlichen Anstrengungen besser",
+        "position": {
+          "page": 27,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page27_para_23",
+        "type": "paragraph",
+        "value": "angepasst ist. Jemand der so „aus der Form“ ist, allerdings keine größeren Beeinträchtigungen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page27_para_24",
+        "type": "paragraph",
+        "value": "dadurch erfährt, wird es kaum schaffen diesen Zustand aus sich selbst heraus zu ändern. Er",
+        "position": {
+          "page": 27,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page27_para_25",
+        "type": "paragraph",
+        "value": "fühlt nicht genug Schmerz. Vielleicht wird er irgendwann die Schnauze so voll davon haben,",
+        "position": {
+          "page": 27,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page27_para_26",
+        "type": "paragraph",
+        "value": "dauernd außer Atem zu sein, ständig schmerzende Knie zu haben, sich nicht bewegen zu",
+        "position": {
+          "page": 27,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page27_para_27",
+        "type": "paragraph",
+        "value": "können, dass er die Willenskraft aufbringt, etwas dagegen zu tun. Er wird sich vielleicht quälen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page27_para_28",
+        "type": "paragraph",
+        "value": "und fluchen und vielleicht schafft er es, vielleicht auch nicht.",
+        "position": {
+          "page": 27,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page27_para_29",
+        "type": "paragraph",
+        "value": "Was aber, wenn er auf einmal einen Herzinfarkt erleidet. Wenn der Tod ihm für einen kurzen",
+        "position": {
+          "page": 27,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page27_para_30",
+        "type": "paragraph",
+        "value": "Moment eiskalt in den Nacken atmet und er klar erkennt, dass, wenn er jetzt nichts tut, er in",
+        "position": {
+          "page": 27,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

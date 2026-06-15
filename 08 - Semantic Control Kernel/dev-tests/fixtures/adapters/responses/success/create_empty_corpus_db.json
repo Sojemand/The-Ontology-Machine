@@ -1,0 +1,14 @@
+{
+  "detail": {
+    "created": true
+  },
+  "diagnostics": [],
+  "message": "created",
+  "owner_action": "create_empty_corpus_db",
+  "owner_module": "fake_corpus_builder",
+  "schema_version": "fake_owner_response.v1",
+  "status": "ok",
+  "target_identity_proof": {
+    "database_path_hash": "database_hash_123"
+  }
+}

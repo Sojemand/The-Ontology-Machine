@@ -1,0 +1,61 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "fixture-synthetic_scan_pdf_multipage-p003",
+    "file_name": "synthetic_scan_packet.pdf",
+    "file_path": "C:/synthetic/input/synthetic_scan_packet.pdf",
+    "relative_path": "C:/synthetic/input/synthetic_scan_packet.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:scan0pdf0multipage0000000000000000000000000000000000000000000000",
+    "page_count": 1,
+    "document_type": "statement",
+    "language": "de"
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 3,
+    "document_page_count": 1,
+    "source_document_path": "C:/synthetic/input/synthetic_scan_packet.pdf",
+    "page_source_path": "C:/synthetic/input/synthetic_scan_packet.pdf::page=003-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page3_para_1",
+        "type": "paragraph",
+        "value": "Synthetic scan packet page 3 paragraph 1.",
+        "value_type": "text",
+        "position": {
+          "page": 3,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page3_para_2",
+        "type": "paragraph",
+        "value": "Synthetic scan packet page 3 paragraph 2.",
+        "value_type": "text",
+        "position": {
+          "page": 3,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page3_para_3",
+        "type": "paragraph",
+        "value": "Synthetic scan packet page 3 paragraph 3.",
+        "value_type": "text",
+        "position": {
+          "page": 3,
+          "paragraph_index": 2
+        }
+      }
+    ]
+  }
+}

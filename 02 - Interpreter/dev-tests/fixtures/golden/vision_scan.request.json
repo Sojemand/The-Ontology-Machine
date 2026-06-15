@@ -1,0 +1,50 @@
+{
+  "source": {
+    "file_name": "golden_scan.pdf",
+    "file_path": "golden_scan.pdf",
+    "file_ext": "pdf",
+    "content_hash": "sha256:golden-scan",
+    "page_count": 1,
+    "document_type": "rechnung",
+    "language": "de",
+    "is_scan": true
+  },
+  "context": {
+    "case_id": "golden-vision"
+  },
+  "page_assets": [
+    {
+      "page": 1,
+      "path": "__PAGE_IMAGE__",
+      "media_type": "image/png"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "scan_header",
+        "type": "paragraph",
+        "layout_label": "header",
+        "value": "Golden Rechnung",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "golden.v1",
+    "master_taxonomy_version": "golden-taxonomy.v1",
+    "projections": [
+      {
+        "projection_id": "finance.default.v1",
+        "label": "Finance Default",
+        "when_to_use": "Invoices and statements.",
+        "avoid_when": "Non-financial documents.",
+        "example_document_types": ["invoice"]
+      }
+    ]
+  }
+}

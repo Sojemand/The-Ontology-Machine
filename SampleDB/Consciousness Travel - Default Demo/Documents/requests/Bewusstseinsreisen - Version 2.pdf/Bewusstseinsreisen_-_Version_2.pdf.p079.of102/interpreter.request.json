@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:f3f2cbd68110cb6beb348d5bda758392dbaf68f31ff76418a4b8c2a72c1e2114",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 79,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 79,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_079.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page79_para_0",
+        "type": "paragraph",
+        "value": "Nun bestehen aber auch nicht alle Archetypen nur aus der Heldenreise und weisen auch nicht",
+        "position": {
+          "page": 79,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page79_para_1",
+        "type": "paragraph",
+        "value": "die selbe Struktur auf. Aber allen gemein ist, dass sie eine Art „überpersönliches“ Handeln",
+        "position": {
+          "page": 79,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page79_para_2",
+        "type": "paragraph",
+        "value": "abbilden und wir dieses Handeln dann mit Symbolen verknüpfen, die uns diese Handlungen",
+        "position": {
+          "page": 79,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page79_para_3",
+        "type": "paragraph",
+        "value": "und Eigenschaften leichter verstehen lassen. Sie alle manifestieren sich in",
+        "position": {
+          "page": 79,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page79_para_4",
+        "type": "paragraph",
+        "value": "Handlungssträngen, die wir ohne unser bewusstes Zutun ausleben. Wozu sie das tun, was der",
+        "position": {
+          "page": 79,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page79_para_5",
+        "type": "paragraph",
+        "value": "Plan dahinter ist, ob es überhaupt einen Plan gibt oder ob das nur Bruchstücke eines noch",
+        "position": {
+          "page": 79,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page79_para_6",
+        "type": "paragraph",
+        "value": "schlafenden und lebhaft träumenden Über-Ichs sind, wer kann das schon sagen. Aber",
+        "position": {
+          "page": 79,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page79_para_7",
+        "type": "paragraph",
+        "value": "zumindest für mich bedarf es wesentlich weniger Annahmen, wenn ich davon ausgehe, das",
+        "position": {
+          "page": 79,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page79_para_8",
+        "type": "paragraph",
+        "value": "der Impetus eines Archetypen nicht vererbt oder irgendwo in einem wie auch immer gearteten",
+        "position": {
+          "page": 79,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page79_para_9",
+        "type": "paragraph",
+        "value": "„kollektiven Etwas“ gespeichert ist, sondern Handlungsstränge des eignen Ichs darstellen, die",
+        "position": {
+          "page": 79,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page79_para_10",
+        "type": "paragraph",
+        "value": "etwas bewirken sollen und auf Regeln basieren, zu deren Verständnis wir in unserem",
+        "position": {
+          "page": 79,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page79_para_11",
+        "type": "paragraph",
+        "value": "Wachbewusstsein nicht fähig sind. Kurz, wir sind einfach zu verschlafen um uns selbst zu",
+        "position": {
+          "page": 79,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page79_para_12",
+        "type": "paragraph",
+        "value": "erkennen.",
+        "position": {
+          "page": 79,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page79_para_13",
+        "type": "paragraph",
+        "value": "Von Göttern und Monstern",
+        "position": {
+          "page": 79,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page79_para_14",
+        "type": "paragraph",
+        "value": "Wenn wir Heute Ikonografien und religiöse Bildnisse betrachten, dann sehen wir darin meist",
+        "position": {
+          "page": 79,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page79_para_15",
+        "type": "paragraph",
+        "value": "nur die Handwerkskunst und Relikte vergangener Zeiten. Menschen, die sich mit dem",
+        "position": {
+          "page": 79,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page79_para_16",
+        "type": "paragraph",
+        "value": "symbolischen Hintergrund dieser Kunstwerke beschäftigen, können zwar noch deuten, welche",
+        "position": {
+          "page": 79,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page79_para_17",
+        "type": "paragraph",
+        "value": "Botschaften sich hinter den Bildern verbergen und wie sie im Bezug zum dargestellten",
+        "position": {
+          "page": 79,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page79_para_18",
+        "type": "paragraph",
+        "value": "Glauben stehen, aber am Ende des Tages, da sind diese Symbole doch nur Bildnisse einer",
+        "position": {
+          "page": 79,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page79_para_19",
+        "type": "paragraph",
+        "value": "Vorstellungswelt, derer wir uns entwachsen glauben. Wie falsch wir damit liegen, beweist uns",
+        "position": {
+          "page": 79,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page79_para_20",
+        "type": "paragraph",
+        "value": "doch gerade die Vergangenheit immer und immer wieder. Niemand kann eine Nation einen,",
+        "position": {
+          "page": 79,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page79_para_21",
+        "type": "paragraph",
+        "value": "sie in einen Krieg führen, Kulturen schaffen und Gemeinschaft schmieden, mit dem sachlichen",
+        "position": {
+          "page": 79,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page79_para_22",
+        "type": "paragraph",
+        "value": "Hinweis, dass es objektiv besser wäre, wenn wir weniger Fleisch essen würden.",
+        "position": {
+          "page": 79,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page79_para_23",
+        "type": "paragraph",
+        "value": "Mit Sachlichkeit und Argumenten kann man weder eine Nation noch einen Stamm",
+        "position": {
+          "page": 79,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page79_para_24",
+        "type": "paragraph",
+        "value": "zusammenhalten. Mit dem Hinweis auf Ursache und Wirkung hat noch niemand einen Krieg",
+        "position": {
+          "page": 79,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page79_para_25",
+        "type": "paragraph",
+        "value": "beginnen oder beenden können. Erst kommen die Symbole, dann die Geschichten, dann die",
+        "position": {
+          "page": 79,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page79_para_26",
+        "type": "paragraph",
+        "value": "Gemeinschaft, dann der Zusammenhalt und dann, ganz am Schluss, da kommt die",
+        "position": {
+          "page": 79,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page79_para_27",
+        "type": "paragraph",
+        "value": "Wirklichkeit, da kommt Ursache und Wirkung. Jeder Führer mit großen Ambitionen wusste",
+        "position": {
+          "page": 79,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page79_para_28",
+        "type": "paragraph",
+        "value": "schon immer um die Macht der Symbole, wie sie die Geschichte dahinter in die Köpfe der",
+        "position": {
+          "page": 79,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page79_para_29",
+        "type": "paragraph",
+        "value": "Menschen transportiert, wie sie anschließend zur Grundlage einer Gemeinschaft werden und",
+        "position": {
+          "page": 79,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page79_para_30",
+        "type": "paragraph",
+        "value": "wie ihre Kraft diese Gemeinschaft dann zusammenzuschweißen vermag. Wer die Masse der",
+        "position": {
+          "page": 79,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page79_para_31",
+        "type": "paragraph",
+        "value": "Menschen bewegen will, der muss sehr genau wissen, welche Symbole er nutzen muss und",
+        "position": {
+          "page": 79,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

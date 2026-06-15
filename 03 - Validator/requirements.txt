@@ -1,0 +1,1 @@
+# Host-only validator slot: no product runtime dependencies beyond the bundled Python runtime.

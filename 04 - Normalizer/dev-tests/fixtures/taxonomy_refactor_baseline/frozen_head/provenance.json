@@ -1,0 +1,6 @@
+{
+  "source_ref": "HEAD",
+  "git_commit": "e8f36fd0b39c77399d509555649e34d32bd1a119",
+  "generated_at": "2026-05-07T19:51:05Z",
+  "snapshot_root": "dev-tests/fixtures/taxonomy_refactor_baseline/frozen_head"
+}

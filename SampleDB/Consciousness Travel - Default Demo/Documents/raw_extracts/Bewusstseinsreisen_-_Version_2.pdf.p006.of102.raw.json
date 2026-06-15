@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=006-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5ef56462a39671756201152ca367ccca73a410ee5523c29229b7dbb58957188d",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 6,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=006-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page6_para_0",
+        "type": "paragraph",
+        "value": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht",
+        "position": {
+          "page": 6,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page6_para_1",
+        "type": "paragraph",
+        "value": "Wer bist du wirklich?",
+        "position": {
+          "page": 6,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page6_para_2",
+        "type": "paragraph",
+        "value": "Nun finden wir uns also am Beginn einer Reise, an dem euer Reiseleiter in euch die",
+        "position": {
+          "page": 6,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page6_para_3",
+        "type": "paragraph",
+        "value": "unterschiedlichsten Erwartungen geweckt haben mag. Doch so höret meine Worte „Lasst, die",
+        "position": {
+          "page": 6,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page6_para_4",
+        "type": "paragraph",
+        "value": "ihr eintretet, alle Hoffnung fahren!“, denn wir alle sind nur Gottes Komödianten, dessen Mitleid",
+        "position": {
+          "page": 6,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page6_para_5",
+        "type": "paragraph",
+        "value": "mit uns sich doch arg in Grenzen hält. Wir werden hier nicht in süßem Drachenblut baden,",
+        "position": {
+          "page": 6,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page6_para_6",
+        "type": "paragraph",
+        "value": "sondern nur durch den Staub der Erde wandern und die Bitterkeit unserer eigenen Früchte",
+        "position": {
+          "page": 6,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page6_para_7",
+        "type": "paragraph",
+        "value": "kosten.",
+        "position": {
+          "page": 6,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page6_para_8",
+        "type": "paragraph",
+        "value": "Erkennt das Verlangen, welches euch hier her geführt hat. Ein ganz besonderes",
+        "position": {
+          "page": 6,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page6_para_9",
+        "type": "paragraph",
+        "value": "menschliches Verlangen ist dies, welches ganze Regale in Buchläden füllt. Sie schafft Märkte",
+        "position": {
+          "page": 6,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page6_para_10",
+        "type": "paragraph",
+        "value": "für Selbsthilfe Bücher, Lebensratgeber und offenbart dir die 10 Geheimnisse für die ultimative",
+        "position": {
+          "page": 6,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page6_para_11",
+        "type": "paragraph",
+        "value": "Karriere und Formeln, welche dir versprechen dir den wirklichen Sinn deines Lebens zu",
+        "position": {
+          "page": 6,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page6_para_12",
+        "type": "paragraph",
+        "value": "offenbaren, oder dir zumindest Hilfe anbieten selbigen selbst zu finden.",
+        "position": {
+          "page": 6,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page6_para_13",
+        "type": "paragraph",
+        "value": "All diese Bücher, alle diese Ratgeber und Artikel in Zeitungen und den kurzlebigen Feeds der",
+        "position": {
+          "page": 6,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page6_para_14",
+        "type": "paragraph",
+        "value": "sozialen Medien, nähren sich an diesem inhärenten Verlangen, am Wunsch nach innerer",
+        "position": {
+          "page": 6,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page6_para_15",
+        "type": "paragraph",
+        "value": "Erfüllung. Dieser Wunsch steht stets und unverrückbar zwischen uns selbst und unserem",
+        "position": {
+          "page": 6,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page6_para_16",
+        "type": "paragraph",
+        "value": "Blick hinein, in die unbekannten Tiefen unserer inneren Welt und er flüstert uns zu, dass es",
+        "position": {
+          "page": 6,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page6_para_17",
+        "type": "paragraph",
+        "value": "doch nur ein kleiner Sprung ist und die Glückseligkeit sei endlich in greifbarer Nähe. Wenn",
+        "position": {
+          "page": 6,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page6_para_18",
+        "type": "paragraph",
+        "value": "diese innere Stimme nur nicht so sprunghaft wäre, sie nicht ständig ihre Meinung ändern",
+        "position": {
+          "page": 6,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page6_para_19",
+        "type": "paragraph",
+        "value": "würde. Wenn sie doch endlich aufhören würde mir den Topf voll Gold am Ende des",
+        "position": {
+          "page": 6,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page6_para_20",
+        "type": "paragraph",
+        "value": "Regenbogens zu verheißen. Wenn ich doch nur wüsste was ich wirklich will, dann, ja dann",
+        "position": {
+          "page": 6,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page6_para_21",
+        "type": "paragraph",
+        "value": "könnte ich wahrlich glücklich sein.",
+        "position": {
+          "page": 6,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page6_para_22",
+        "type": "paragraph",
+        "value": "Und vielleicht dachtet ihr, dieses Buch sei ein weiterer Stein auf dieser endlosen Straße, auf",
+        "position": {
+          "page": 6,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page6_para_23",
+        "type": "paragraph",
+        "value": "der ihr Tag ein, Tag aus mit leeren Händen und leerem Magen wandert, ohne je anzukommen.",
+        "position": {
+          "page": 6,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page6_para_24",
+        "type": "paragraph",
+        "value": "Nein, da muss ich euch enttäuschen, denn auch ich habe euch nur leere Hände und",
+        "position": {
+          "page": 6,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page6_para_25",
+        "type": "paragraph",
+        "value": "knurrende Mägen anzubieten. Ich rufe euch zu, doch endlich aufzuhören im Kreis zu laufen.",
+        "position": {
+          "page": 6,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page6_para_26",
+        "type": "paragraph",
+        "value": "Ihr habt schon solch tiefe Furchen in den schlammigen Boden getreten, dass sich der Regen",
+        "position": {
+          "page": 6,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page6_para_27",
+        "type": "paragraph",
+        "value": "darin sammelt und die Nässe die Fäulnis an euren Füßen fressen lässt. Doch ihr hört mich",
+        "position": {
+          "page": 6,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page6_para_28",
+        "type": "paragraph",
+        "value": "nicht. In euren Augen glänzt das Licht des Goldes und ein jeder Schritt trägt euch weiter hinein",
+        "position": {
+          "page": 6,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page6_para_29",
+        "type": "paragraph",
+        "value": "in eure Träume, wandelnd auf Straßen aus härtstem Granit, gemacht aus Hoffnung und",
+        "position": {
+          "page": 6,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

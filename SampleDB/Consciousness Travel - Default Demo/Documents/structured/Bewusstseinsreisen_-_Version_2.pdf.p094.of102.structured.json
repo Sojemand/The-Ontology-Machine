@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:05:06.740866+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.93,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.9,
+      "reason": "A philosophical nonfiction book page is visible with a section-style heading and continuous argumentative paragraphs.",
+      "matched_signals": [
+        "book page",
+        "heading",
+        "continuous argumentative paragraphs",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 94,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=094-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page94_Segment1",
+        "unit_kind": "title_line",
+        "page": 94,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Wie besänftigen wir unsere Aversion, uns mit solchen Dingen überhaupt zu beschäftigen?",
+        "function": "section_question",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page94_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 94,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Und dann haben wir ja auch noch unsere generelle Ablehnung, sich überhaupt damit zu beschäftigen. Mag sein, dass es zu mühsam ist, es zu sehr unsere egozentrische Selbstwahrnehmung angreift, wir mit einer zu starken Fremdartigkeit konfrontiert werden oder uns schlicht die Kapazität fehlt damit umzugehen. Der Gründe mag es viele geben, aber alle halten uns aktiv davon ab, diese Dinge eingehender zu betrachten. Wie sollte man also all diese Dinge überwinden, nur um etwas zu erforschen was wir ständig vergessen, wir kaum kommunizieren und wir in keinen echten Bezug zur erfahrbaren Wirklichkeit setzen können? Wie kann man zwei oder mehr Menschen dazu bringen, sich durch all diese Dinge nicht beirren zu lassen und alle Reibungen, die daraus zwangsläufig in Gruppen entstehen, zu ignorieren?",
+        "function": "problem_exploration",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page94_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 94,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Auch hat dieses Problem noch einen weiteren Stolperstein. Wenn sich Gruppen zusammenfinden, um Aspekte zu untersuchen, die so eng mit dem Wesenskern einer jeden Person verbunden sind wie jene Dinge es sind um die es hier geht, dann stehen uns unsere sozialen, kulturellen und moralischen „Programme“ im Weg. Jeder hat Seiten, die er bewusst vor Anderen versteckt um ein bestimmtes Bild von sich zu projizieren, von dem er denkt, es würde sich für ihn am vorteilhaftesten auswirken. Er versucht, negative Seiten zu beschönigen und positive Seiten herauszuheben. Niemand wird jemals freiwillig sein eigenes Wesen unverhüllt anderen so präsentieren wie es ist. Die Angst bewertet, verurteilt, abgewiesen und des sozialen Kreises verwiesen zu werden, ist eine Kosten/Nutzen Analyse, die jeder jeden Tag tut und zu optimieren versucht. Die geschickte Verschleierung des primär Impetus, auch genannt Eigeninteresse, ist ein derartig starker Antrieb, dass allein die Mühen, die wir unternehmen müssten um zu verhindern, dass er dem Vorhaben schadet, uns schier unüberwindlich erscheinen. Diese Hürden können bereits eine Gruppe zerstören, noch bevor überhaupt auch nur ein Schritt getan wurde.",
+        "function": "justification_of_group_difficulty",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page94_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 94,
+        "sequence": 4,
+        "section": null,
+        "label": null,
+        "text": "Schlimmer könnte es gar noch kommen, wenn Menschen zwar mit ehrlichen Intentionen beginnen, sie sich aber irgendwann selbst ihre eigenen „Zäune“ schaffen, die die Regeln repräsentieren, anhand derer sie ihre eigenen „Techniken“ legitimieren. So entstehen okkulte Gruppen und geschlossene Vereinigungen, die Eintrittsbarrieren errichten, Umgangsregeln und Wertestrukturen erschaffen, ohne zu bemerken, dass sie mit dieser Art „Kodifizierung“ das Fundament dessen erodieren, auf dem sie sich selbst erst gegründet haben. Unser Hang,",
+        "function": "warning_about_institutionalization",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Kapitelabschnitt über Aversion, Gruppendynamik, Eigeninteresse und okkulte Gruppen"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=094-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:5ee1b1e83b6735b131bdeea3c51bb207b55489f6b2e6e1516577036116dc09e5",
+    "created_at": null,
+    "modified_at": null
+  }
+}

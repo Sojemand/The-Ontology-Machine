@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:38:10.961477+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 27,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=027-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.88,
+      "reason": "A prose-style nonfiction book page is visible, consisting of continuous philosophical/explanatory paragraphs.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "nonfiction book page",
+        "philosophical/explanatory writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page27_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 27,
+        "sequence": 1,
+        "text": "Intensität und Ausrichtung zwischen den Menschen und auch zwischen den Geschlechtern gibt, aber am Ende des Tages sind wir doch alle nur Marionetten des gleichen Systems.",
+        "function": "concluding_assertion",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page27_Segment2",
+        "unit_kind": "reflective_paragraph",
+        "page": 27,
+        "sequence": 2,
+        "text": "Auch unsere Emotionen beteiligen sich an dem Zirkelschluss, welcher unser Selbstbild formt und der sich nicht darum schert, was sich in Wirklichkeit vor unserer Nase zuträgt. Unsere Emotionen sind es, die uns den Schmerz vermitteln, wenn unsere innere Widerspruchsfreiheit in Gefahr gerät. Sie sind es, die uns dazu motivieren, Dinge zu tun, die unseren Zielen abträglich sind, die wir uns in unserem Bewusstsein zurecht legen und die wir unsere Ideale nennen. Sie sind es auch, die uns vorgeben in welchem Licht wir die Welt um uns herum betrachten, was wir in einem beliebigen Moment als wichtig oder unwichtig erleben und sie bestimmen auch wie wir die Zukunft als auch unsere Vergangenheit betrachten.",
+        "function": "analysis_of_emotional_influence",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page27_Segment3",
+        "unit_kind": "reflective_paragraph",
+        "page": 27,
+        "sequence": 3,
+        "text": "Sie haben uns nicht nur fest im Griff wenn uns Unheil droht, sondern sie flüstern uns permanent zu, wer wir sind, zu sein haben und sein wollen und praktisch niemals stimmen diese drei Dinge miteinander überein, oder haben gar eine Grundlage in der Wirklichkeit. Daraus erwachsen dann unsere Motivationen, der Griff ins Regal der Lebensratgeber und die Suche nach Erfüllung, nur um etwas zu werden wovon wir denken, es würde uns die endgültige Erlösung von diesen Widersprüchen bescheren. Dabei sind sie doch die Quelle, die uns erst dazu antreibt uns zu bewegen. Ohne sie wären wir nur ein bewegungsloser Fleischklops, der in der Sonne verfault. Vielleicht ein durch und durch rationaler Klops, aber nichtsdestoweniger nur ein Klops ohne jeglichen Antrieb.",
+        "function": "reflection_on_motivation_and_contradiction",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page27_Segment4",
+        "unit_kind": "reflective_paragraph",
+        "page": 27,
+        "sequence": 4,
+        "text": "Vielleicht wäre zum Schluss ein weiteres kleines Beispiel angebracht. Könnt ihr euch vorstellen wie schwer es jemandem fällt sich sportlich zu betätigen, der ausgesprochen übergewichtig ist? Es bedarf einer gehörigen Portion Ansporn, um ein dauerhaftes Ergebnis zu erzielen, weit mehr als jemand aufbringen muss, dessen Körperstruktur körperlichen Anstrengungen besser angepasst ist. Jemand der so „aus der Form“ ist, allerdings keine größeren Beeinträchtigungen dadurch erfährt, wird es kaum schaffen diesen Zustand aus sich selbst heraus zu ändern. Er fühlt nicht genug Schmerz. Vielleicht wird er irgendwann die Schnauze so voll davon haben, dauernd außer Atem zu sein, ständig schmerzende Knie zu haben, sich nicht bewegen zu können, dass er die Willenskraft aufbringt, etwas dagegen zu tun. Er wird sich vielleicht quälen und fluchen und vielleicht schafft er es, vielleicht auch nicht.",
+        "function": "illustrative_example",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page27_Segment5",
+        "unit_kind": "reflective_paragraph",
+        "page": 27,
+        "sequence": 5,
+        "text": "Was aber, wenn er auf einmal einen Herzinfarkt erleidet. Wenn der Tod ihm für einen kurzen Moment eiskalt in den Nacken atmet und er klar erkennt, dass, wenn er jetzt nichts tut, er in",
+        "function": "dramatic_hypothetical_setup",
+        "confidence": 0.93
+      }
+    ],
+    "free_text": "Emotionen, Selbstbild, Motivation, übergewichtiges Beispiel, Herzinfarkt-Szenario"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=027-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:e0adbd798be028e9b1509ed1b86dcd502f8732c96fcbffda647d192a0d5926b7",
+    "created_at": null,
+    "modified_at": null
+  }
+}

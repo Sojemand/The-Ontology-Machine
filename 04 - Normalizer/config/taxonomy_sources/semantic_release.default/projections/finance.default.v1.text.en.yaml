@@ -1,0 +1,35 @@
+label: Finance Default v1
+description: Default projection for general finance, accounting, and business records.
+routing:
+  when_to_use: Invoices, statements, payslips, taxes, reimbursements, as well as customer
+    or vendor accounts and budget planning.
+  avoid_when: Not for rent, utility charges, tenant or property management, technical
+    specifications, identity files, or personal development records.
+routing_lexicon:
+  text_markers:
+  - invoice
+  - payment terms
+  - due date
+  - outstanding amount
+  - customer number
+  - accounts receivable
+  - accounts payable
+  - posting
+  domain_markers:
+    finance:
+    - invoice
+    - balance
+    - payment terms
+    - tax
+    business:
+    - customer number
+    - accounts receivable
+    - accounts payable
+    - customer account
+    administrative:
+    - posting
+    - reference
+    - due date
+    legal:
+    - contract number
+    - payment deadline

@@ -1,0 +1,8 @@
+{
+  "accepted": true,
+  "acknowledged_at": "2026-05-05T00:00:00Z",
+  "frontend_event_id": "frontend_event_id_example",
+  "host_surface_identity": "client_frontend_http_pipeline_session",
+  "schema_version": "kernel.client_frontend_event_ack.v1",
+  "unexpected_phase2_field": "example"
+}

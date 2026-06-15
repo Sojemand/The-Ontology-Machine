@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=035-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:2cd37da4ec80523d3e2c85c5ed5bdcff33a3e1202d170140098ed8b96df1adac",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 35,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=035-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page35_para_0",
+        "type": "paragraph",
+        "value": "Kapitel 3 – Das Licht des Gewahrseins",
+        "position": {
+          "page": 35,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page35_para_1",
+        "type": "paragraph",
+        "value": "Der erregte Affe",
+        "position": {
+          "page": 35,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page35_para_2",
+        "type": "paragraph",
+        "value": "Wir haben ja nun reichlich über die Maschine geredet und uns im Kreise laufend",
+        "position": {
+          "page": 35,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page35_para_3",
+        "type": "paragraph",
+        "value": "wiedergefunden, wenn wir nach der Existenz des freien Willens gefragt haben. Wie wäre es",
+        "position": {
+          "page": 35,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page35_para_4",
+        "type": "paragraph",
+        "value": "stattdessen einmal zu fragen, was denn „frei“ im Sinne der Maschine genau bedeuten soll?",
+        "position": {
+          "page": 35,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page35_para_5",
+        "type": "paragraph",
+        "value": "Ginge es nach dem Zwerg, so würde er wohl am liebsten die Bande kappen die ihn an den",
+        "position": {
+          "page": 35,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page35_para_6",
+        "type": "paragraph",
+        "value": "Riesen fesseln und frei wie ein Vogel davon schweben, hinein in sein Himmelreich der",
+        "position": {
+          "page": 35,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page35_para_7",
+        "type": "paragraph",
+        "value": "Glückseligkeit. Dass das Abtrennen gleichbedeutend mit seinem Verschwinden ist, das kommt",
+        "position": {
+          "page": 35,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page35_para_8",
+        "type": "paragraph",
+        "value": "ihm gar nicht in den Sinn. Also nehmen wir doch einmal die erwachsene Position ein und",
+        "position": {
+          "page": 35,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page35_para_9",
+        "type": "paragraph",
+        "value": "erkennen an, ein Produkt jenes Riesen zu sein, welches nur durch seine Großzügigkeit",
+        "position": {
+          "page": 35,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page35_para_10",
+        "type": "paragraph",
+        "value": "überhaupt ein Leben, ein Erleben hat.",
+        "position": {
+          "page": 35,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page35_para_11",
+        "type": "paragraph",
+        "value": "Was wäre denn nun ein Schritt, welchen wir unternehmen könnten um etwas mehr Freiheit zu",
+        "position": {
+          "page": 35,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page35_para_12",
+        "type": "paragraph",
+        "value": "erlangen? Wir wollen uns ja nicht aus dem Staub machen, sondern wir wollen wachsen, nicht",
+        "position": {
+          "page": 35,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page35_para_13",
+        "type": "paragraph",
+        "value": "länger nur ein Zwerg sein. Wir könnten uns zu Beginn zum Beispiel mehr Informationen",
+        "position": {
+          "page": 35,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page35_para_14",
+        "type": "paragraph",
+        "value": "zugänglich machen. Aber wie? Lasst uns im Folgenden zwei Szenarien betrachten, anhand",
+        "position": {
+          "page": 35,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page35_para_15",
+        "type": "paragraph",
+        "value": "derer wir versuchen zu verstehen, welche Informationen uns tatsächlich zugänglich sind oder",
+        "position": {
+          "page": 35,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page35_para_16",
+        "type": "paragraph",
+        "value": "sein könnten. Eine Art das Maß an Freiheit zu beschreiben, wenn es um den eigenen",
+        "position": {
+          "page": 35,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page35_para_17",
+        "type": "paragraph",
+        "value": "Handlungsspielraum geht, ist doch die Menge an Informationen die einem Selbst zugänglich ist,",
+        "position": {
+          "page": 35,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page35_para_18",
+        "type": "paragraph",
+        "value": "nicht wahr? Wissen ist Macht, so steht es zumindest geschrieben. Also weiten wir einmal unser",
+        "position": {
+          "page": 35,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page35_para_19",
+        "type": "paragraph",
+        "value": "Wissen über uns selbst und sehen, was dabei heraus kommt.",
+        "position": {
+          "page": 35,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page35_para_20",
+        "type": "paragraph",
+        "value": "Stellt euch vor ihr seid ein junger Mann, gerade in seien frühen 20er Jahren und mitten im",
+        "position": {
+          "page": 35,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page35_para_21",
+        "type": "paragraph",
+        "value": "hormonellen Wirbelwind eurer kochenden Biologie gefangen. Ihr seid mit einer Wahl",
+        "position": {
+          "page": 35,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page35_para_22",
+        "type": "paragraph",
+        "value": "konfrontiert. Ihr seht eine hübsche junge Frau und ihr habt nun die Möglichkeit zu versuchen,",
+        "position": {
+          "page": 35,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page35_para_23",
+        "type": "paragraph",
+        "value": "diese entweder für euch zu gewinnen, oder diese Möglichkeit an euch vorbei ziehen zu lassen,",
+        "position": {
+          "page": 35,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page35_para_24",
+        "type": "paragraph",
+        "value": "euer Geld zu sparen und den nächsten Tag erfrischt und ausgeschlafen zu beginnen. Was",
+        "position": {
+          "page": 35,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page35_para_25",
+        "type": "paragraph",
+        "value": "würdet ihr tun? Es ist wohl nicht zu weit hergeholt, wenn ich davon ausgehe, dass ihr",
+        "position": {
+          "page": 35,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page35_para_26",
+        "type": "paragraph",
+        "value": "selbstverständlich der Frau nachjagen und euer ganzes Geld dafür auf den Kopf hauen werdet,",
+        "position": {
+          "page": 35,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page35_para_27",
+        "type": "paragraph",
+        "value": "euch bis tief in die Nacht verausgabt und am nächsten Morgen unausgeschlafen und mit leeren",
+        "position": {
+          "page": 35,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page35_para_28",
+        "type": "paragraph",
+        "value": "Taschen den Tag begrüßt, richtig? Richtig. Oder ihr seid einfach richtig schüchtern und geht",
+        "position": {
+          "page": 35,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page35_para_29",
+        "type": "paragraph",
+        "value": "einfach weiter und ärgert euch über euren Mangel an Courage, aber Heute seid ihr mal der",
+        "position": {
+          "page": 35,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page35_para_30",
+        "type": "paragraph",
+        "value": "Draufgänger.",
+        "position": {
+          "page": 35,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

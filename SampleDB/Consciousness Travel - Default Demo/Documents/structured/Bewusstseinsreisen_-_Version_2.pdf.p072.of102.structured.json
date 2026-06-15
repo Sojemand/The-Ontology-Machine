@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:56:20.827640+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.95,
+      "reason": "A philosophical/nonfiction book page with a section heading and continuous paragraphs is visible.",
+      "matched_signals": [
+        "section heading",
+        "continuous paragraphs",
+        "nonfiction book page"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 72,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=072-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page72_Segment1",
+        "unit_kind": "title_line",
+        "page": 72,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Der Weg des Helden",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page72_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 72,
+        "sequence": 2,
+        "section": "Der Weg des Helden",
+        "label": null,
+        "text": "Die Reise ist schnell erzählt. Ein gewöhnlicher Mensch erfährt einen Ruf, eine Aufgabe. Er entscheidet sich nach einigem Hin und Her diesem Ruf zu folgen und trifft dabei auf Widerstände, die er durch seine Kraft überwindet, er erfährt eine Prüfung nach der Nächsten und wird mit Versuchungen aller Art konfrontiert. Dann erkennt er, dass er es ist, den es wirklich zu besiegen gilt und nachdem er sich selbst gestellt hat, sich besiegt hat und gestorben ist, erfährt er eine Wiederauferstehung und erlangt einen Segen oder Schatz. Er wird sich bewusst, dass er zurückkehren muss und nimmt letztendlich seine Verantwortung wahr, wieder in die Welt aus der er kam zurückzugehen, um mit Hilfe des Geschenkes seine Heimat zum Besseren zu verändern. Auf seiner Reise erfährt er allerlei Hilfen von verschiedenen Seiten und muss mit Gegenspielern ringen, die ihn von seinem Weg abbringen wollen. Doch letztendlich kehrt er siegreich Heim als neuer Mensch, der eine neue Energie in sich trägt, die er vorher nicht besaß.",
+        "function": "summarizes_hero_journey",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page72_Segment3",
+        "unit_kind": "reflective_paragraph",
+        "page": 72,
+        "sequence": 3,
+        "section": "Der Weg des Helden",
+        "label": null,
+        "text": "Im Groben spielt sich das stets so ab, auch wenn sich die Geschichte noch um Einiges ausschmücken ließe, aber für unsere Zwecke reicht die Beschreibung vollkommen aus. Nun stellt sich die Frage, wo diese Geschichte denn außerhalb von Hollywood Filmen, in unserem wirklichen Leben, vorkommt? Sicher hat sich kein Leser dieses Buches bereits einmal selbst im Kampf besiegt und wie Jesus eine Wiederauferstehung von den Toten erfahren, nur um mit einem göttlichen Geschenk gesegnet, als Held zurückzukehren. Niemand hat je eine Heldenreise im wörtlichen Sinne beschritten, was es ja gerade so schwierig macht, ihre symbolischen Komponenten in den praktischen Handlungen und dem mentalen Erleben eines Menschen zu identifizieren. Wenn es so einfach wäre, würde es sicherlich öfter heißen „Chef, ich geh mal schnell einen Mythos ausleben, eine Woche Urlaub sollte reichen“. So einfach macht es uns das Universum dann doch nicht.",
+        "function": "questions_literal_application",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page72_Segment4",
+        "unit_kind": "reflective_paragraph",
+        "page": 72,
+        "sequence": 4,
+        "section": "Der Weg des Helden",
+        "label": null,
+        "text": "Die Symbolik kann so verschiedene Ausprägungen annehmen, wie man Umstände erfinden kann, die auf die Beschreibung des sich auf festen Bahnen schnell bewegenden Todes zutreffen würden. Ob es nun Elefanten, Autos oder Kometen sind, die man damit letztendlich meint, so kann man solche Symbolik doch immer nur im Gesamtkontext der Dinge an der Wirklichkeit festmachen, niemals an ihren Einzelheiten. Da nun die Heldenreise aus so vielen einzelnen Aspekten besteht, die nur in ihrem Zusammenspiel und Reihenfolge ihres Auftretens eine solche ergeben, hat wohl noch niemand einen Menschen und dessen Handeln",
+        "function": "explains_symbolic_interpretation",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Heldenreise, Symbolik, Reflexion über Mythos im wirklichen Leben"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=072-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:9c15ab4cfe756612e8f91d6ca12f28447709fb4ec9e531844cd29fd0a3af8bee",
+    "created_at": null,
+    "modified_at": null
+  }
+}

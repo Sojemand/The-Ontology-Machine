@@ -1,0 +1,30 @@
+[
+  {
+    "artifact_kind": "release_recipe",
+    "json_path": "$.materialization_version",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "release.yaml"
+  },
+  {
+    "artifact_kind": "release_recipe",
+    "json_path": "$.projection_ids[]",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "release.yaml"
+  },
+  {
+    "artifact_kind": "release_recipe",
+    "json_path": "$.release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "release.yaml"
+  },
+  {
+    "artifact_kind": "release_recipe",
+    "json_path": "$.release_version",
+    "value_kind": "string",
+    "classification": "core",
+    "target_source": "release.yaml"
+  }
+]

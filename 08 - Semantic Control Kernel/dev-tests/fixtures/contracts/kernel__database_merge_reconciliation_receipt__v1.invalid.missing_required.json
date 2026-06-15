@@ -1,0 +1,24 @@
+{
+  "collision_manifest_ref": "refs/example.json",
+  "created_at": "2026-05-05T00:00:00Z",
+  "manifest_revision_after": 1,
+  "manifest_revision_before": 1,
+  "merge_run_id": "merge_run_id_example",
+  "receipt_fingerprint": "receipt_fingerprint_example",
+  "reconciliation_receipt_id": "reconciliation_receipt_id_example",
+  "result_status": "resolved",
+  "selected_resolutions": [],
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "merge",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  },
+  "updated_collision_manifest_ref": "refs/example.json"
+}

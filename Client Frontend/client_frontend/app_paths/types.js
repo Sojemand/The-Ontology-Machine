@@ -1,0 +1,15 @@
+export const APP_HOME_ENV = "VISION_PIPELINE_CLIENT_FRONTEND_HOME";
+export const APP_VENDOR = "Enterprise Stack";
+export const APP_NAME = "Client Frontend";
+export const APP_DIR_NAME = "app";
+export const CONFIG_DIR_NAME = "config";
+export const STATE_DIR_NAME = "state";
+export const LOG_DIR_NAME = "logs";
+export const SNAPSHOT_DIR_NAME = "state-snapshot";
+export const CONFIG_FILE_NAME = "config.json";
+export const FRONTEND_POLICY_FILE_NAME = "frontend_policy.json";
+export const SALT_FILENAME = ".salt";
+export const CHATS_DB_FILENAME = "chats.db";
+export const CHAT_DB_COMPANION_SUFFIXES = ["", "-shm", "-wal"];
+export const SERVER_STATE_CHAT_FILENAME = "server-chat.json";
+export const SERVER_STATE_CONFIG_FILENAME = "server-config.json";

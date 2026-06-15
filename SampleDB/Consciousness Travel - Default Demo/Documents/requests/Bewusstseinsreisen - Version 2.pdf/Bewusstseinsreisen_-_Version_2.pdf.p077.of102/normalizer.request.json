@@ -1,0 +1,558 @@
+{
+  "schema_version": "normalizer.request.v1",
+  "captured_at": "2026-06-12T08:58:21Z",
+  "structured_path": "C:\\Users\\Norma\\Workspace\\The Ontology Machine\\00 - Orchestrator\\state\\pipeline\\runs\\2026-06-12T08-25-10.810996+00-00\\d.53d5cf65\\structured\\Bewusstseinsreisen_-_Version_2.pdf.p077.of102.structured.json",
+  "provider": "openai_oauth",
+  "model": "gpt-5.4-mini",
+  "max_output_tokens": 15000,
+  "structured_outputs": true,
+  "thinking_effort": "none",
+  "projection_hint_mode": "advisory",
+  "projection_selection": {
+    "mode": "hint_validated",
+    "hint_projection_id": "merged.projection.e06f90b85302",
+    "hint_confidence": 0.89,
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.89 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+  },
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are the Vision Pipeline Normalizer. You read exactly one existing structured.json and return one complete, compact, retrieval-ready canonical view as structured.normalized.json.\n\nControl language:\n- English is the only internal control language for taxonomy text, normalized summaries, tags, notes, free_text, and all human-readable output values.\n- Input documents may be in any source language. Translate human-readable source values into English when writing the normalized surface.\n- Keep stable codes, IDs, file paths, dates, currencies, amounts, identifiers, and quoted proper names unchanged unless the active taxonomy explicitly requires normalization.\n- `classification.language` records the detected source document language. It is not a runtime locale and must not change the control language.\n\nRun goal:\n- Return exactly one JSON object with the same top-level envelope.\n- The normalized file is not a patch list and not a raw copy. It is a standalone canonical view for retrieval, FTS, and embeddings.\n- The raw structure remains in the source file; do not mirror it again.\n\nHard rules:\n1. Use exactly these top-level blocks: schema_version, processing, classification, context, content.\n2. Do not add top-level blocks such as normalization, canonical, retrieval, taxonomy, or audit.\n3. Do not invent free document_type, category, subcategory, field_code, row_type, or cell_code values.\n4. Use only codes from the active taxonomy profile.\n5. If no clean code fits, use other and explain briefly in context.normalization_notes.\n6. Return a complete canonical view for the whole document, not only corrections.\n7. Keep output compact and retrieval-oriented; do not copy raw blocks, OCR, or raw full text.\n8. Do not invent facts, relationships, or detail values not supported by the input.\n9. Use null, [], {}, or other instead of hallucinating.\n10. Return valid JSON only. No Markdown, comments, or explanation outside JSON.\n\nBlock rules:\n- processing describes the run. Set model_confidence, needs_review, review_reason, and vision_used sensibly. processed_at, model, and provider may be present.\n- If needs_review=true, review_reason MUST contain a concrete, non-empty short reason. Name the uncertainty or conflict directly, for example a missing semantic fit, an ambiguous table structure, or an overly generic classification.\n- If needs_review=false, set review_reason to null.\n- classification contains the canonical target classification and should be precise rather than generic.\n- context contains the compact document target view including taxonomy_profile_id, raw_classification, and normalization_notes. context.description is the canonical semantic summary of the document.\n- context.description is the primary semantic summary for display, FTS, and embeddings.\n- Write context.description as 1 to 3 short, information-dense English sentences. Use 3 sentences only when the visible content justifies it. Never exceed 3 sentences.\n- The description must be semantically specific, not filename-, page-count-, or layout-centered. Avoid wrappers such as \"page of\", \"the page shows\", or \"Page X of Y\" when the visible content is more specific.\n- The summary should capture the visible document function or topic and practical meaning, using only details clearly supported by the input.\n- If the artifact is a fragment or a single page, describe only the visible content while still naming the visible document role or topic plus 1 to 3 concrete anchors such as actors, dates, amounts, obligations, identifiers, technical parameters, decisions, status, or regulated topics when supported.\n- For narrative_text or creative fragments, describe the visible scene, actors, and action instead of page position.\n- For technical, form-like, or regulatory documents, name the key requirements, parameters, governed points, or obligations instead of using generic wrappers.\n- Keep context.description compact and evidence-bound: no lists, keyword chains, quotes, raw OCR text, or invented details.\n- Do not merely repeat classification, tags, or content.free_text; write a natural retrieval-ready summary.\n- If the semantic content cannot be determined reliably, set context.description to null or use a short cautious English description and expose the uncertainty through needs_review, review_reason, or normalization_notes.\n- content.structure describes the canonical structure only with type, columns, and form_fields.\n- content.fields uses controlled field_codes directly as keys. Do not emit _source_refs.\n- content.rows uses _row_type, _row_index, and controlled cell_codes. _units is allowed only as a sparse override map for explicit units; _source_refs is not allowed.\n- The known envelope may contain nullable compatibility fields. Fill them only when the visible input and active profile clearly support the value; otherwise leave them null, [], or {}.\n- Apply domain-specific normalization only when the active Semantic Release or active taxonomy profile defines the relevant codes, descriptions, aliases, promotion rules, or explicit guidance.\n- If the active profile does not define a domain rule, do not apply hidden business, finance, housing, legal, narrative, or other domain assumptions.\n- content.free_text is compact normalized English retrieval text from canonical codes and values, never unfiltered OCR or raw full text.\n\nQuality rules:\n- Prefer the most specific active-profile code that is honestly supported by the input.\n- Normalize obvious variants to canonical codes only through active-profile codes, descriptions, aliases, promotion rules, or explicit guidance.\n- Keep uncertainty visible through needs_review, review_reason, and normalization_notes.\n"
+    },
+    {
+      "role": "user",
+      "content": "Active taxonomy profile: merged.projection.e06f90b85302\n\nTask for this run:\n- Read the complete input structured.json.\n- Produce a complete, compact, retrieval-ready normalized view in the same envelope.\n- Treat the following active Semantic Release projection as the closed classification space for this run.\n- Translate human-readable source-language values into English control-language values in the normalized output.\n\nAllowed document_type codes:\n- book_page: A single page from a book, typically scanned or extracted, containing prose and optional chapter or section headings.\n- book_table_of_contents_page: A table of contents page listing chapters or sections with page references within the book.\n- nonfiction_book_page: A scanned or extracted prose page from a structured nonfiction book.\n- other: Fallback document type for in-family pages that do not match a more specific document type.\n\nAllowed category codes:\n- book_back_matter: Back-of-book reference or closing material such as sources, notes, or similar supporting sections.\n- book_body_content: Main argumentative, explanatory, or thematic chapter prose in the body of the nonfiction book.\n- book_content: Primary authored content of a book page rather than front matter, index, reference apparatus, or transactional material.\n- book_front_matter: Front-of-book content such as preface, introduction, or contents pages in a coherent nonfiction work.\n- other: Fallback category for in-scope content that does not match a more specific category.\n\nAllowed subcategory codes:\n- chapter_page: A page that visibly begins a chapter or presents clear chapter framing.\n- chapter_section: Main chapter-section prose within the body of the book.\n- closing_section: A concluding or end-focused section that reflects on closure, summary, or final considerations near the end of the work.\n- other: Fallback subcategory for in-scope content that does not match a more specific subcategory.\n- preface_or_introduction: Opening framing material before the main chapter body, such as a preface or introduction.\n- question_section: A page organized around explicit open questions, unresolved inquiry, or reflective prompts.\n- reference_section: Sources, references, or other reference-oriented closing material in the work.\n- table_of_contents: Navigational contents listing of chapters and sections in the book.\n- theoretical_discussion: A page primarily devoted to conceptual argument, explanation, interpretation, or reflective theoretical exposition.\n\nAllowed field_codes:\n- book_title: Title of the book or work represented by the page set, usually inferred from file naming or repeated document context.\n- chapter_number: Number of a chapter when explicitly shown on the page or in associated structure.\n- chapter_title: Title of a chapter when explicitly present or reliably inferable from page headings or contents structure.\n- language: Language of the page text or the work as a whole.\n- other: Fallback scalar field for extracted document-level values that do not match a more specific field code.\n- page_number: Current page number within the source work.\n- section_heading: Subsection or standalone heading within the prose flow that frames the surrounding discussion.\n- section_title: Title of a section or subsection within a chapter when explicitly present.\n- topic_keywords: Recurring conceptual topics named or strongly implied by the page text, such as consciousness, dreams, symbolism, or archetypes.\n- work_title: Title of the book or authored work represented by the page.\n\nAllowed row_types:\n- other: Fallback row type for repeated structures that do not match a more specific row type.\n- paragraph_block: A continuous prose paragraph or grouped prose block that carries the substantive argument, reflection, or exposition on the page.\n- prose_paragraph: A paragraph of continuous nonfiction prose or argumentative text.\n- table_of_contents_entry: A repeated navigational row listing a chapter or section title with a page reference.\n\nAllowed cell_codes:\n- chapter_number_ref: Referenced chapter number associated with a chapter listing or heading reference.\n- other: Fallback cell code for row-level values that do not match a more specific cell code.\n- page_number_ref: Referenced page number associated with a table of contents entry or similar navigational listing.\n- paragraph_text: The extracted prose text carried by a paragraph block row, including reflective or argumentative narrative content.\n\nPromotion materialization contract:\n- content.fields.work_title -> title | cardinality=single | value_type=string | query_role=primary\n- content.fields.book_title -> title | cardinality=single | value_type=string | query_role=primary\n- content.fields.language -> language | cardinality=single | value_type=string | query_role=filter\n- content.fields.page_number -> page_number | cardinality=single | value_type=number_or_string | query_role=display\n- content.fields.chapter_title -> chapter_title | cardinality=single | value_type=string | query_role=secondary\n- content.fields.section_title -> section_title | cardinality=single | value_type=string | query_role=secondary\n- content.fields.chapter_number -> chapter_number | cardinality=single | value_type=string | query_role=secondary\n- content.fields.section_heading -> section_heading | cardinality=single | value_type=string | query_role=display\n- content.fields.topic_keywords -> topic_keywords | cardinality=multi | value_type=string | query_role=filter\n\nPromotion field rules:\n- Fields listed above are materialization inputs for the Corpus Builder.\n- When input support exists, fill promotion-backed content.fields explicitly.\n- For cardinality=multi, return a JSON array of separate values, never a comma-separated string.\n- Row cells may reference promoted values, but row cells do not replace promotion-backed content.fields.\n- `description` is not an allowed cell_code for this profile; do not emit row.description.\n\nReturn and quality expectations:\n- context.taxonomy_profile_id must be set to the active profile.\n- context.raw_classification must mirror the raw classification from the input.\n- context.normalization_notes contains only short relevant English notes.\n- context.description is the canonical semantic summary of the document.\n- context.description should contain 1 to 3 short, information-dense English sentences; use 3 sentences only when the visible content justifies it.\n- context.description must be semantically specific, not filename-, page-count-, or layout-centered.\n- Document-agnostic means: avoid wrappers such as \"page of\", \"the page shows\", or \"Page X of Y\" when the visible content can be described more concretely.\n- context.description should capture the visible document function or topic and practical meaning using only supported details.\n- For fragments or single pages, describe only the visible content, but include the visible document role or topic plus 1 to 3 concrete anchors when supported.\n- For narrative_text or creative fragments, describe the scene, actors, and action rather than page position.\n- For technical, form-like, or regulatory documents, name the most important requirements, parameters, governed points, or obligations instead of generic wrappers.\n- Use no lists, keyword chains, quotes, raw OCR text, or invented details.\n- Translate human-readable source-language values into English; keep stable identifiers, dates, numbers, currencies, and proper names unchanged.\n- If processing.needs_review is true, processing.review_reason MUST contain a concrete, non-empty short English reason.\n- If processing.needs_review is false, set processing.review_reason to null.\n- classification must provide the canonical target classification, not merely repeat raw values.\n- content.structure contains only type, columns, and form_fields in the known envelope.\n- content.structure.columns contains only controlled cell_codes.\n- content.structure.form_fields contains only controlled field_codes.\n- content.rows[*] uses _row_type, _row_index, and controlled cell_codes.\n- Use _units only as a sparse override map for explicit units that are not already clear from the controlled field, cell, or value itself.\n- Fill nullable compatibility fields only when supported by the input and the active profile; otherwise leave them null, [], or {}.\n- Apply domain-specific normalization only when the active Semantic Release or active taxonomy profile defines the relevant codes, descriptions, aliases, promotion rules, or explicit guidance.\n- Do not return _source_refs; the normalized output stays compact.\n- Unknown or uncertain codes go to other plus normalization_notes, not to new free codes.\n- content.free_text is compact English retrieval text, not a raw copy.\n\nRaw classification hint: {\"document_type\": \"book_page\", \"document_type_confidence\": 0.93, \"category\": \"book\", \"subcategory\": \"philosophical_writing\", \"language\": \"de\", \"is_scan\": false, \"has_handwriting\": false, \"page_count\": 102}\n\nInput structured.json:\n{\n  \"schema_version\": \"1.0\",\n  \"processing\": {\n    \"interpreter_profile\": \"file\",\n    \"model_confidence\": 0.97,\n    \"needs_review\": false,\n    \"review_reason\": null,\n    \"vision_used\": true,\n    \"processed_at\": \"2026-06-12T08:58:20.864462+00:00\",\n    \"model\": \"gpt-5.4\",\n    \"provider\": \"openai_oauth\"\n  },\n  \"classification\": {\n    \"document_type\": \"book_page\",\n    \"document_type_confidence\": 0.93,\n    \"category\": \"book\",\n    \"subcategory\": \"philosophical_writing\",\n    \"language\": \"de\",\n    \"is_scan\": false,\n    \"has_handwriting\": false,\n    \"page_count\": 102\n  },\n  \"context\": {\n    \"page_number\": 77,\n    \"source_document_path\": \"Bewusstseinsreisen - Version 2.pdf\",\n    \"page_source_path\": \"Bewusstseinsreisen - Version 2.pdf::page=077-of-102\",\n    \"projection_hint\": {\n      \"projection_id\": \"merged.projection.e06f90b85302\",\n      \"confidence\": 0.89,\n      \"reason\": \"A continuous nonfiction book page in philosophical writing is visible, consisting of prose paragraphs discussing abstract concepts and exemplification.\",\n      \"matched_signals\": [\n        \"continuous prose paragraphs\",\n        \"nonfiction book page\",\n        \"philosophical discussion\"\n      ]\n    },\n    \"date_range\": {\n      \"from\": null,\n      \"to\": null\n    },\n    \"document_page_count\": 102,\n    \"interpreter_profile\": \"file\"\n  },\n  \"content\": {\n    \"structure\": {\n      \"type\": \"single_column_text\",\n      \"columns\": [\n        \"main_text\"\n      ],\n      \"form_fields\": []\n    },\n    \"fields\": {},\n    \"rows\": [],\n    \"segments\": [\n      {\n        \"segment_id\": \"Page77_Segment1\",\n        \"unit_kind\": \"narrative_paragraph\",\n        \"page\": 77,\n        \"sequence\": 1,\n        \"text\": \"kennen den Beginn, ihren Ablauf und das Ergebnis. Wir können also davon ausgehen, dass das Ergebnis beabsichtigt ist, ohne jetzt genau zu verstehen, wer oder was diese Absicht genau hegt und warum. Damit steht auch zu vermuten, dass diese Absicht bereits zu Beginn der Reise bestand, denn sonst gäbe es ja keinen Grund, diese zu beginnen. Dementsprechend sind auch die Elemente der Reise ein Ausdruck jener Absicht und der Motivation, diese Reise aufrecht zu erhalten.\",\n        \"function\": \"argument_about_intentional_structure\",\n        \"confidence\": 0.97\n      },\n      {\n        \"segment_id\": \"Page77_Segment2\",\n        \"unit_kind\": \"narrative_paragraph\",\n        \"page\": 77,\n        \"sequence\": 2,\n        \"text\": \"Wenn die Reise zum Abschluss gelangt und wir den Beginn mit dem Ende vergleichen, so müssen wir die Feststellung treffen, dass der Reisende etwas erlangt hat, was er vorher nicht besaß. Wir wissen zwar nicht, warum er dieses Etwas überhaupt erlangen wollte, aber am Ende hat er es und das müssen wir erst einmal so anerkennen. Ein spezielles Element ist dabei besonders interessant. Der Abgrund, der Tod und die Wiedergeburt. Alle Elemente vor Erreichen dieses Punktes sind so strukturiert und erwecken den Eindruck, als wären sie nur dort, um den Reisenden zu diesem Punkt zu leiten. An diesem Punkt angekommen, sieht der Held sich mit der Herausforderung konfrontiert, die er in seinem vorherigen Leben nie vorgefunden hat. Das gängigste Bild ist das Besiegen eines Gegners, welcher das Wesen des Helden gegen ihn selbst wendet und es ausnutzt, um ihn so besiegen zu wollen. Wie dabei dieser Wesenszug stirbt und der Gegner damit die Macht über den Helden verliert, dieser dadurch neu und verändert ersteht. Es stellt sich als eine Art Apotheose durch irgendeine Art Prüfung dar, die eine spezielle Überwindung kostet, doch mit etwas belohnt wird, was anders nicht zu erringen ist. Fast so, als würde die Welt sich gegen den Reisenden verschwören um ihn auch gegen seinen Willen mit seinen inneren Widersprüchen so lange zu konfrontieren, bis er sie anerkennt und letztendlich auflöst.\",\n        \"function\": \"analysis_of_transformation_through_trial\",\n        \"confidence\": 0.98\n      },\n      {\n        \"segment_id\": \"Page77_Segment3\",\n        \"unit_kind\": \"descriptive_passage\",\n        \"page\": 77,\n        \"sequence\": 3,\n        \"text\": \"Ein schöner Epos in diesem Zusammenhang ist auch der älteste uns bekannte: Gilgamesch. Nach all der Jagt und nach allen Gefahren und Prüfungen und schon mit der Gewissheit, die Unsterblichkeit in Händen zu halten, verliert er sie und alles was zurück bleibt ist die Erkenntnis, dass nur er selbst und seine Taten es sein können, die ihn zu dem großen König werden lassen, der er schon immer sein wollte. Keine Magie, auch nicht für den größten aller Könige. Das finde ich schon sehr interessant. Er begann die Reise als schlechter König mit allen Motivationen die damit einher gingen. Keine Spur von Heldentum. Am Ende, nachdem er alles verloren hat was ihm seine ursprünglichen Ziele und Motivationen erst eingebrockt haben, kehrt er ohne sie wieder zurück und wird das, was er die ganze Zeit schon hätte sein können: Ein guter König.\",\n        \"function\": \"illustrative_example_of_inner_transformation\",\n        \"confidence\": 0.98\n      }\n    ],\n    \"free_text\": \"Reise, Transformation, Tod und Wiedergeburt, Gilgamesch, guter König\"\n  },\n  \"source\": {\n    \"file_name\": \"Bewusstseinsreisen - Version 2.pdf\",\n    \"file_path\": \"../../source/Bewusstseinsreisen - Version 2.pdf::page=077-of-102\",\n    \"file_ext\": \".pdf\",\n    \"size_bytes\": 2010258,\n    \"content_hash\": \"sha256:7bb499c422daab7782472d3fd26de81c3b44a5e83499e34903fa3baa738e0488\",\n    \"created_at\": null,\n    \"modified_at\": null\n  }\n}\n\nReturn the result exactly in this target schema / example contract:\n{\n  \"schema_version\": \"1.0\",\n  \"processing\": {\n    \"model_confidence\": 0.0,\n    \"needs_review\": false,\n    \"review_reason\": null,\n    \"vision_used\": false,\n    \"processed_at\": \"2026-03-23T10:15:00Z\",\n    \"model\": \"gpt-5.4-mini\",\n    \"provider\": \"openai\"\n  },\n  \"classification\": {\n    \"document_type\": \"book_page\",\n    \"document_type_confidence\": 0.0,\n    \"category\": \"book_back_matter\",\n    \"subcategory\": \"chapter_page\",\n    \"language\": \"und\",\n    \"is_scan\": false,\n    \"has_handwriting\": false,\n    \"page_count\": 1\n  },\n  \"context\": {\n    \"company\": null,\n    \"document_date\": null,\n    \"document_title\": null,\n    \"description\": \"Compact evidence-bound English semantic summary.\",\n    \"tags\": [],\n    \"people\": [],\n    \"organizations\": [],\n    \"locations\": [],\n    \"date_range\": {\n      \"from\": null,\n      \"to\": null\n    },\n    \"currencies\": [],\n    \"total_monetary_value\": null,\n    \"taxonomy_profile_id\": \"merged.projection.e06f90b85302\",\n    \"raw_classification\": {\n      \"document_type\": null,\n      \"category\": null,\n      \"subcategory\": null\n    },\n    \"normalization_notes\": [],\n    \"recipient_primary\": null,\n    \"property_address\": null\n  },\n  \"content\": {\n    \"structure\": {\n      \"type\": \"text|form|table|form_with_table|list|mixed\",\n      \"columns\": [\n        \"chapter_number_ref\",\n        \"page_number_ref\",\n        \"paragraph_text\"\n      ],\n      \"form_fields\": [\n        \"book_title\",\n        \"chapter_number\",\n        \"chapter_title\",\n        \"language\"\n      ]\n    },\n    \"fields\": {\n      \"work_title\": \"value\",\n      \"book_title\": \"value\",\n      \"language\": \"value\",\n      \"page_number\": \"value\",\n      \"chapter_title\": \"value\",\n      \"section_title\": \"value\",\n      \"chapter_number\": \"value\",\n      \"section_heading\": \"value\",\n      \"topic_keywords\": [\n        \"value one\",\n        \"value two\"\n      ]\n    },\n    \"rows\": [\n      {\n        \"_row_type\": \"other\",\n        \"_row_index\": 0,\n        \"chapter_number_ref\": \"compact row value\",\n        \"page_number_ref\": \"compact row value\",\n        \"paragraph_text\": \"compact row value\"\n      }\n    ],\n    \"free_text\": \"compact retrieval text from canonical codes and values\"\n  }\n}"
+    }
+  ],
+  "response_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "schema_version",
+      "processing",
+      "classification",
+      "context",
+      "content"
+    ],
+    "properties": {
+      "schema_version": {
+        "type": "string"
+      },
+      "processing": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "model_confidence",
+          "needs_review",
+          "review_reason",
+          "vision_used",
+          "processed_at",
+          "model",
+          "provider"
+        ],
+        "properties": {
+          "model_confidence": {
+            "type": "number"
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "review_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "vision_used": {
+            "type": "boolean"
+          },
+          "processed_at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "model": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "provider": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "classification": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "document_type",
+          "document_type_confidence",
+          "category",
+          "subcategory",
+          "language",
+          "is_scan",
+          "has_handwriting",
+          "page_count"
+        ],
+        "properties": {
+          "document_type": {
+            "type": "string",
+            "enum": [
+              "book_page",
+              "book_table_of_contents_page",
+              "nonfiction_book_page",
+              "other"
+            ]
+          },
+          "document_type_confidence": {
+            "type": "number"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "book_back_matter",
+              "book_body_content",
+              "book_content",
+              "book_front_matter",
+              "other"
+            ]
+          },
+          "subcategory": {
+            "type": "string",
+            "enum": [
+              "chapter_page",
+              "chapter_section",
+              "closing_section",
+              "other",
+              "preface_or_introduction",
+              "question_section",
+              "reference_section",
+              "table_of_contents",
+              "theoretical_discussion"
+            ]
+          },
+          "language": {
+            "type": "string"
+          },
+          "is_scan": {
+            "type": "boolean"
+          },
+          "has_handwriting": {
+            "type": "boolean"
+          },
+          "page_count": {
+            "type": "integer"
+          }
+        }
+      },
+      "context": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "company",
+          "document_date",
+          "document_title",
+          "description",
+          "tags",
+          "people",
+          "organizations",
+          "locations",
+          "date_range",
+          "currencies",
+          "normalization_notes",
+          "total_monetary_value",
+          "taxonomy_profile_id",
+          "recipient_primary",
+          "property_address",
+          "raw_classification"
+        ],
+        "properties": {
+          "company": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "document_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "document_title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "people": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "organizations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date_range": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "from": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "to": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "from",
+              "to"
+            ]
+          },
+          "currencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "normalization_notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "total_monetary_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "taxonomy_profile_id": {
+            "type": "string"
+          },
+          "recipient_primary": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "property_address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "raw_classification": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "document_type",
+              "category",
+              "subcategory"
+            ],
+            "properties": {
+              "document_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "category": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "subcategory": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "content": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "structure",
+          "fields",
+          "rows",
+          "free_text"
+        ],
+        "properties": {
+          "structure": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "type",
+              "columns",
+              "form_fields"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "text",
+                  "form",
+                  "table",
+                  "form_with_table",
+                  "list",
+                  "mixed"
+                ]
+              },
+              "columns": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "chapter_number_ref",
+                    "other",
+                    "page_number_ref",
+                    "paragraph_text"
+                  ]
+                }
+              },
+              "form_fields": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "book_title",
+                    "chapter_number",
+                    "chapter_title",
+                    "language",
+                    "other",
+                    "page_number",
+                    "section_heading",
+                    "section_title",
+                    "topic_keywords",
+                    "work_title"
+                  ]
+                }
+              }
+            }
+          },
+          "fields": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "book_title",
+              "chapter_number",
+              "chapter_title",
+              "language",
+              "other",
+              "page_number",
+              "section_heading",
+              "section_title",
+              "topic_keywords",
+              "work_title"
+            ],
+            "properties": {
+              "book_title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "chapter_number": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "chapter_title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "language": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "other": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "page_number": {
+                "type": [
+                  "number",
+                  "string",
+                  "null"
+                ]
+              },
+              "section_heading": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "section_title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "topic_keywords": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": [
+                    "string"
+                  ]
+                }
+              },
+              "work_title": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "_row_type",
+                "_row_index",
+                "chapter_number_ref",
+                "other",
+                "page_number_ref",
+                "paragraph_text",
+                "_units"
+              ],
+              "properties": {
+                "_row_type": {
+                  "type": "string",
+                  "enum": [
+                    "other",
+                    "paragraph_block",
+                    "prose_paragraph",
+                    "table_of_contents_entry"
+                  ]
+                },
+                "_row_index": {
+                  "type": "integer"
+                },
+                "chapter_number_ref": {
+                  "type": [
+                    "number",
+                    "string",
+                    "null"
+                  ]
+                },
+                "other": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "page_number_ref": {
+                  "type": [
+                    "number",
+                    "string",
+                    "null"
+                  ]
+                },
+                "paragraph_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "_units": {
+                  "type": [
+                    "object",
+                    "null"
+                  ],
+                  "additionalProperties": false,
+                  "required": [
+                    "chapter_number_ref",
+                    "other",
+                    "page_number_ref",
+                    "paragraph_text"
+                  ],
+                  "properties": {
+                    "chapter_number_ref": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "other": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "page_number_ref": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "paragraph_text": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "free_text": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

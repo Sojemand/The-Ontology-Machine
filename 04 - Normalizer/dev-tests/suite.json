@@ -1,0 +1,20 @@
+﻿{
+    "run_script":  "run-tests.bat",
+    "kind":  "python",
+    "aliases":  [
+                    "normalizer"
+                ],
+    "display_name":  "04 - Normalizer",
+    "runtime_python":  "../runtime/python",
+    "python_path":  [
+                        ".."
+                    ],
+    "name":  "04 - Normalizer",
+    "wheelhouses":  [
+                        "wheelhouse"
+                    ],
+    "lockfile":  "requirements.lock.txt",
+    "bootstrap_script":  "bootstrap.bat",
+    "target_dir":  ".venv"
+}
+

@@ -1,0 +1,18 @@
+{
+  "allowed_codes": {
+    "example": true
+  },
+  "budget_policy": {
+    "example": true
+  },
+  "fallback_codes": {
+    "example": true
+  },
+  "promotion_slots": "promotion_slots_example",
+  "taxonomy_ref": {
+    "example": true
+  },
+  "term_summaries": {
+    "example": true
+  }
+}

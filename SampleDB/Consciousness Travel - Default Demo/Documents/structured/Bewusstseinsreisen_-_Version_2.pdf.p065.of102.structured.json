@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.94,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:53:37.847142+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 65,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=065-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.93,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose in paragraph form is visible.",
+      "matched_signals": [
+        "born-digital book page",
+        "continuous philosophical prose",
+        "paragraph structure"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page65_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 65,
+        "sequence": 1,
+        "text": "Aspekte der Physis und des Geistes verschrieben haben. Auch ist dies der Antrieb und die Verheißung hinter dem Gedanken, man könne sich durch bestimmte Praktiken einer Magie bedienen, um der Wirklichkeit seinen Willen aufzuprägen. Oder man wendet sich ob des eigenen Unvermögens, die Mysterien zu ergründen, an Schulen, die die Genügsamkeit des Seins lehren um das Mysterium Mysterium sein zu lassen. Ein verlockender Gedanke, der mir nicht nur einmal in den Sinn kam. Oder wir verschreiben uns der Wissenschaft, um dem Universum und uns selbst die Geheimnisse zu entreißen.",
+        "function": "contrasting_paths_to_engage_with_mystery",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page65_Segment2",
+        "unit_kind": "reflective_paragraph",
+        "page": 65,
+        "sequence": 2,
+        "text": "Welche Art des Umgangs mit dem Mysterium wir nun individuell bevorzugen, so müssen wir uns doch mit einem Problem herum schlagen, welches diese Suche unnötig erschwert und einen nicht unerheblichen Teil zu unserer Verwirrung beiträgt. Jeder, der einmal zwei Religionen miteinander vergleicht wird feststellen, dass sie an mindestens einem Punkt ihrer Geschichte einmal voneinander geborgt haben, die Eine aus der Anderen hervor ging oder sich abgespalten haben. Katholiken oder Evangelisten, Juden oder Christen, Sufis oder Sunniten, die Theravada oder das Mahayana oder tausend andere Strömungen, die auf irgendeine Art sich von den ihn nahe stehenden Systemen zu unterscheiden versuchen. Sie alle entwickeln ihre eigene Sprache, um die ihnen inne wohnenden Ideen oder Erkenntnisse Anderen zu vermitteln. Sie entwickeln eigene Termini, eigne Bedeutungen, eigene Regeln und Mythen, gleich so als müssten sie sich ihre eigne Existenz erkämpfen, um sich von der Masse abzuheben, einen Glanz der Exklusivität ausstrahlen und dabei um Aufmerksamkeit und Anerkennung ob ihrer Schönheit zu haschen. Was sie zugegeben sehr gut vermögen.",
+        "function": "diagnosing_spiritual_language_fragmentation",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page65_Segment3",
+        "unit_kind": "reflective_paragraph",
+        "page": 65,
+        "sequence": 3,
+        "text": "Das hat nicht nur was evolutionäres wenn ihr mich fragt, das ist eine wahre Sprachverwirrung, würdig eines Turmbaus zu Babel. Ich kann überhaupt nicht zum Ausdruck bringen wie frustrierend es ist, wenn sich solche Barrieren als unüberwindbar für eine einzelne Person wie mich heraus stellen. Schon größere Gruppen sind daran gescheitert, wie es die Theosophische Gesellschaft so traurig bewiesen hat und sie ist bei weitem nicht die einzige. Dabei gibt es doch einfache und universelle Konstanten, an denen wir unser Verständnis der Dinge nicht nur selbst abgleichen können, sondern die auch jeder andere Mensch auf gleiche Art wahrnimmt und egal welche Sprache er spricht oder welcher Religion oder Philosophie er anhängt, unabhängig davon zur Kenntnis nimmt. Die Wissenschaftliche Methode hat doch darauf nicht die Exklusivrechte gepachtet.",
+        "function": "lamenting_barriers_and_asserting_universal_constants",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page65_Segment4",
+        "unit_kind": "descriptive_passage",
+        "page": 65,
+        "sequence": 4,
+        "text": "Niemand würde auf die Idee kommen, die Sonne als etwas anderes zu sehen und zu beschreiben als ein helles Objekt welches uns wärmt. Egal ob wir sie Feuerrad, Himmelsbarke",
+        "function": "introducing_shared_perceptual_example",
+        "confidence": 0.94
+      }
+    ],
+    "free_text": "Philosophische Buchseite über Mysterium, Religionen, Sprachverwirrung und universelle Konstanten"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=065-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:fa4c9a4320aae35adca7bd897f16c940a507a023b8aeedcdce4674cef38814b5",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.94,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:30:28.279297+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.89,
+    "category": "literature",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 8,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=008-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.82,
+      "reason": "The page is a born-digital German book page with continuous philosophical/narrative prose.",
+      "matched_signals": [
+        "book page",
+        "continuous prose",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text",
+      "columns": [
+        "main"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page8_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 1,
+        "text": "wie sie ihm den Muskelkater beschert den er so gut kennt, besonders an seinen Füßen. Nachdem er diesen Traum abgeschüttelt hat macht er sich wieder auf den Weg und reiht sich ein in die Schar der Wanderer auf der großen Straße.",
+        "function": "resume_journey",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page8_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 2,
+        "text": "Doch als er bereits alles wieder vergessen hat, da fällt er erneut. Und wieder durchlebt er diesen Alptraum. Worte können sein Grauen nicht beschreiben welches über ihn kommt als er sich erinnert, dass er dies schon zuvor einmal erlebt hat. Doch auch dieses mal schließt er die Augen wieder und betet, dass sein Herr in retten und ihn wieder Nachhause bringen möge. Und auch diesmal findet er sich im wärmenden Licht der golden Straße wieder, kurz erleichtert und dann schnell alles vergessend was ihn da heimgesucht hat.",
+        "function": "recurrent_fall_and_return",
+        "confidence": 0.91
+      },
+      {
+        "segment_id": "Page8_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 3,
+        "text": "So vergeht eine geraume Weile, während er immer wieder aufs Neue fiel und sich in einer Welt aus Verfall und Schmerzen wiederfand. Und jedes mal kehrte er wieder zurück, nur um erneut zu vergessen und seinen Weg fortzusetzen. Doch irgendwann, da verschwand die Erinnerung an diese Dunkelheit jedoch nicht mehr vollends. Ein Teil davon blieb in ihm zurück, auch als er scherzend und lachend mit anderen Wanderern auf der goldenen Straße über die Mühen des Lebens philosophierte. Dieser dunkle Teil in ihm wuchs stetig bis an einen Punkt, an dem er begann, andere Wanderer zu fragen, ob ihnen Ähnliches auch schon einmal widerfuhr. Doch er erntete nur Unverständnis. Warum sollte man sich an solch grausame Dinge überhaupt erinnern wollen? Sie machen das ohnehin bereits mühsame Leben doch nur noch schwerer, wenn es sie denn gäbe.",
+        "function": "lingering_memory_and_alienation",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page8_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 4,
+        "text": "Eines Tages wandte er sich zu einem alten Mann, der zu seiner Rechten ging. Er konnte sich nicht genau erinnern, wie lange sich dieser Mann bereits so an seiner Seite aufhielt. Er nutzte einen Gehstock um sich das Laufen zu erleichtern und er fragte diesen Alten, ob er schon einmal von einem Traum gehört hat, wie er ihn hin und wieder durchlebte.",
+        "function": "seeking_explanation",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page8_Segment5",
+        "unit_kind": "dialogue_turn",
+        "page": 8,
+        "sequence": 5,
+        "text": "Der Mann blickte ihn an und sagte „kann schon sein, warum fragst du?“",
+        "function": "questioning_reply",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page8_Segment6",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 6,
+        "text": "Er erklärte ihm, dass er es merkwürdig findet, scheinbar der Einzige zu sein der von solchen Alpträumen heimgesucht wird und er fürchte, dass mit ihm etwas nicht stimmt.",
+        "function": "state_fear_and_confusion",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page8_Segment7",
+        "unit_kind": "dialogue_turn",
+        "page": 8,
+        "sequence": 7,
+        "text": "Der alte Mann lächelte und sagte „nun, erinnerst du dich, du hattest Zweifel, ob du je an dein Ziel gelangen würdest. Deine Zweifel waren so groß, dass selbst ich sie sehen konnte, also tat ich dir einen kleinen Gefallen“",
+        "function": "revelation_of_cause",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page8_Segment8",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 8,
+        "text": "und noch bevor er fragen konnte, was er denn damit meinte, hielt der alte Mann den Gehstock zwischen seine Beine und wieder fiel er.",
+        "function": "sudden_trigger_of_fall",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page8_Segment9",
+        "unit_kind": "narrative_paragraph",
+        "page": 8,
+        "sequence": 9,
+        "text": "An diesem Punkt endet die Geschichte, und das Wissen, was letztendlich aus diesem",
+        "function": "story_closure_transition",
+        "confidence": 0.9
+      }
+    ],
+    "free_text": "Erzählprosa über wiederholtes Fallen, Erinnerung, alter Mann"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=008-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:91beaaa4935329dca70df37034aa977ca093af8e1954858512c06ef9926abcb7",
+    "created_at": null,
+    "modified_at": null
+  }
+}

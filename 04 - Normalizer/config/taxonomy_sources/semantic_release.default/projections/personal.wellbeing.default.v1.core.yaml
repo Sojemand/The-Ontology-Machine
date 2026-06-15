@@ -1,0 +1,115 @@
+projection_id: personal.wellbeing.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- personal
+- people
+- health
+- community
+include_document_types:
+- schedule
+- profile
+- policy
+- report
+- form
+- general_letter
+- certificate
+- other
+include_categories:
+- personal
+- people
+- health
+- community
+- other
+include_subcategories:
+- wellbeing_plan
+- self_reflection
+- habit_tracking
+- coaching_support
+- recovery_plan
+- general_correspondence
+- pastoral_care
+- community_event
+- other
+include_field_codes:
+- person_name
+- document_date
+- subject
+- provider_name
+- appointment_date
+- event_name
+- community_name
+- contact_person
+- phone
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- timeline_entry
+- participant_list
+- line_item
+- contact_block
+- other
+include_cell_codes:
+- description
+- scheduled_date
+- status
+- frequency
+- hours
+- note
+- name
+- participant_role
+- other
+promotion_rules:
+- slot: document_title
+  source_paths:
+  - content.fields.subject
+  - content.fields.event_name
+- slot: person_name
+  source_paths:
+  - content.fields.person_name
+  - content.fields.contact_person
+- slot: provider_name
+  source_paths:
+  - content.fields.provider_name
+- slot: primary_party
+  source_paths:
+  - content.fields.provider_name
+  - content.fields.community_name
+- slot: event_name
+  source_paths:
+  - content.fields.event_name
+- slot: appointment_date
+  source_paths:
+  - content.fields.appointment_date
+- slot: document_identifier
+  source_paths:
+  - content.fields.customer_number
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+compatibility: {}
+routing:
+  example_document_types:
+  - schedule
+  - profile
+  - policy
+  - report
+  - form
+  section_roles:
+  - header
+  - timeline
+  - participants
+  party_roles:
+  - recipient
+  - contact_person
+  - coach

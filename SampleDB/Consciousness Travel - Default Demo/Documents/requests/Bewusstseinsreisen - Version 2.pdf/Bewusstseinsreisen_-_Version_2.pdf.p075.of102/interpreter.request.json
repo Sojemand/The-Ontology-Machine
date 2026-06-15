@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=075-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5b01f138d3176ae466513885f1c805d61dd006235a0e0a0369b2e960a2db57df",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 75,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=075-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 75,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_075.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page75_para_0",
+        "type": "paragraph",
+        "value": "der Träumer erlangt, verliert oder nachjagt. Wie er Interaktionen ausführt, die mit",
+        "position": {
+          "page": 75,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page75_para_1",
+        "type": "paragraph",
+        "value": "Wertschätzung und Bewunderung Anderer in Verbindung stehen und wie sich über die Zeit",
+        "position": {
+          "page": 75,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page75_para_2",
+        "type": "paragraph",
+        "value": "ein Muster heraus bildet, welches sie auf einige wenige Hauptelemente herunter brechen",
+        "position": {
+          "page": 75,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page75_para_3",
+        "type": "paragraph",
+        "value": "können. Das gleiche finden sie dann auch bei dem zweiten Träumer. Doch hier sehen sie",
+        "position": {
+          "page": 75,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page75_para_4",
+        "type": "paragraph",
+        "value": "Elemente des Abenteuers, der ständig wechselnden Umgebungen, des Fremden und der",
+        "position": {
+          "page": 75,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page75_para_5",
+        "type": "paragraph",
+        "value": "freudigen Überraschung.",
+        "position": {
+          "page": 75,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page75_para_6",
+        "type": "paragraph",
+        "value": "Vielleicht kommen sie, wenn sie viele Träumer so betrachtet haben, zu dem Schluss, es gäbe",
+        "position": {
+          "page": 75,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page75_para_7",
+        "type": "paragraph",
+        "value": "so eine Art unbewusste Mechanik, die jene Traumelemente immer wieder entstehen lassen,",
+        "position": {
+          "page": 75,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page75_para_8",
+        "type": "paragraph",
+        "value": "unabhängig von den Träumern selbst. Vielleicht eine Art „kollektives Traumbecken“ aus denen",
+        "position": {
+          "page": 75,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page75_para_9",
+        "type": "paragraph",
+        "value": "sie sich bedienen und sie erfinden den Begriff „Archetyp“ um diese gemeinsamen, sich",
+        "position": {
+          "page": 75,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page75_para_10",
+        "type": "paragraph",
+        "value": "scheinbar unbewusst entfaltenden Strukturen zu beschreiben, denn kein Träumer scheint sich",
+        "position": {
+          "page": 75,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page75_para_11",
+        "type": "paragraph",
+        "value": "überhaupt darüber bewusst zu sein, dass er sie auslebt, noch warum er sie auslebt. Sie",
+        "position": {
+          "page": 75,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page75_para_12",
+        "type": "paragraph",
+        "value": "können nicht verstehen, dass es weder „Traumgene“ gibt, die sich irgendwie verdeckt",
+        "position": {
+          "page": 75,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page75_para_13",
+        "type": "paragraph",
+        "value": "fortpflanzen und so diese Muster am Leben halten, noch mysteriöse Felder existieren, die",
+        "position": {
+          "page": 75,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page75_para_14",
+        "type": "paragraph",
+        "value": "diese Informationen den Träumenden aufprägen. Sie vermuten den Ursprung „unterhalb“ der",
+        "position": {
+          "page": 75,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page75_para_15",
+        "type": "paragraph",
+        "value": "Träume, weil für sie „oberhalb“ nichts existiert. Dass diese Muster schlicht Schatten von den",
+        "position": {
+          "page": 75,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page75_para_16",
+        "type": "paragraph",
+        "value": "Dingen sind, die das Wachbewusstsein tut und plant und sie deshalb bei allen so ähnlich sind,",
+        "position": {
+          "page": 75,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page75_para_17",
+        "type": "paragraph",
+        "value": "weil das Wachbewusstsein sich an Regeln und Gesetze hält, an die sich auch jedes andere",
+        "position": {
+          "page": 75,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page75_para_18",
+        "type": "paragraph",
+        "value": "Wachbewusstsein hält, das können sie nicht verstehen.",
+        "position": {
+          "page": 75,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page75_para_19",
+        "type": "paragraph",
+        "value": "Sie können nicht verstehen, wie es Gesetze geben kann, die jeden, der sie einmal erkannt hat",
+        "position": {
+          "page": 75,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page75_para_20",
+        "type": "paragraph",
+        "value": "dazu veranlassen, sich ihnen auf die gleiche Weise zu bedienen, somit gleiche",
+        "position": {
+          "page": 75,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page75_para_21",
+        "type": "paragraph",
+        "value": "Schlussfolgerungen, gleiche Handlungen und gleiche Pläne in jedem erzeugt, der sich diesen",
+        "position": {
+          "page": 75,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page75_para_22",
+        "type": "paragraph",
+        "value": "Gesetzen gewahr wird. Gleich so, wie der externe Beobachter von vorhin nicht verstehen",
+        "position": {
+          "page": 75,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page75_para_23",
+        "type": "paragraph",
+        "value": "kann, warum wir Fluggeräte nach immer gleichem Muster bauen, weil er die Gesetze der",
+        "position": {
+          "page": 75,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page75_para_24",
+        "type": "paragraph",
+        "value": "Aerodynamik nicht kennt. Wir können also zumindest eingrenzen, dass es das Verständnis",
+        "position": {
+          "page": 75,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page75_para_25",
+        "type": "paragraph",
+        "value": "von Gesetzmäßigkeiten ist, welches die Welt des Traumes von der wachen Welt trennt.",
+        "position": {
+          "page": 75,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page75_para_26",
+        "type": "paragraph",
+        "value": "Welche Gesetze wir allerdings noch im Traum in der Lage sind zu verstehen und wo dieses",
+        "position": {
+          "page": 75,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page75_para_27",
+        "type": "paragraph",
+        "value": "Verständnis an seine Grenzen stößt und nur noch das Wachbewusstsein diese zu begreifen",
+        "position": {
+          "page": 75,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page75_para_28",
+        "type": "paragraph",
+        "value": "vermag, das weiß ich nicht. Wo genau sich auf der „Leiter“ des Bewusstseins diese Grenze",
+        "position": {
+          "page": 75,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page75_para_29",
+        "type": "paragraph",
+        "value": "befindet, das herauszufinden wäre doch mal etwas, was sich zu erforschen lohnen würde,",
+        "position": {
+          "page": 75,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page75_para_30",
+        "type": "paragraph",
+        "value": "denkt ihr nicht?",
+        "position": {
+          "page": 75,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page75_para_31",
+        "type": "paragraph",
+        "value": "Ist es nicht ein interessanter Gedanke, wenn wir annehmen würden, wie sich unsere Welt",
+        "position": {
+          "page": 75,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

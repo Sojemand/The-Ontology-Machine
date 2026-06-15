@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-05-05T00:00:00Z",
+  "merge_route": "empty_databases_merge_path",
+  "merge_run_id": "merge_run_id_example",
+  "projection_merge_mode": "preserve_source_projections",
+  "schema_version": "kernel.database_merge_selection.v1",
+  "selected_by_interaction_id": "selected_by_interaction_id_example",
+  "selection_fingerprint": "selection_fingerprint_example",
+  "source_databases": "source_databases_example",
+  "target_artifact_root": "target_artifact_root_example",
+  "target_database_path": "target_database_path_example"
+}

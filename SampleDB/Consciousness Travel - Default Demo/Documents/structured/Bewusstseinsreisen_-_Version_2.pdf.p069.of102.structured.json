@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:55:08.174060+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.97,
+      "reason": "A philosophical book page is visible with a chapter heading, a section heading, and continuous prose paragraphs.",
+      "matched_signals": [
+        "chapter heading",
+        "section heading",
+        "continuous prose paragraphs"
+      ]
+    },
+    "page_number": 69,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=069-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "chapter_title": "Kapitel 5 – Die symbolische Welt",
+      "section_title": "Symbole verstehen"
+    },
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page69_Segment1",
+        "unit_kind": "title_line",
+        "page": 69,
+        "sequence": 1,
+        "section": null,
+        "label": "chapter_title",
+        "text": "Kapitel 5 – Die symbolische Welt",
+        "function": "chapter_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page69_Segment2",
+        "unit_kind": "title_line",
+        "page": 69,
+        "sequence": 2,
+        "section": null,
+        "label": "section_title",
+        "text": "Symbole verstehen",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page69_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 69,
+        "sequence": 3,
+        "section": "Symbole verstehen",
+        "label": null,
+        "text": "Wenn ich von einer „symbolischen Welt“ rede und so tue, als besäße sie eine Existenz, unabhängig von der Realität wie wir sie wahrnehmen, dann ist das fast richtig und auch ein bisschen falsch. Symbolik ist Abstraktion spezifischer Umstände und eine Umsetzung in universelle Bilder, aus denen wir anschließend Regeln ableiten können, um diese dann auf andere spezifische Umstände anwenden zu können. Dabei umgehen wir den Flaschenhals der Sprache und brechen die Vielfältigkeit der Welt auf ihre Kernkomponenten herunter, um sie leichter und schneller zu verstehen. Dabei erschaffen wir in uns eine symbolische Welt, ein Abbild dessen was wir Draußen sehen und in gewisser Weise ist diese Welt für uns realer als die reale Welt.",
+        "function": "concept_definition",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page69_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 69,
+        "sequence": 4,
+        "section": "Symbole verstehen",
+        "label": null,
+        "text": "Nehmen wir zum Beispiel einen Spaziergang entlang einer Straße. Du läufst neben der Straße her, auf der reger Verkehr herrscht. Du bist dir darüber im Klaren, dass du lieber nicht einfach so auf der Straße selbst umher gehen solltest, da sich dort schnell fahrende Autos befinden, die eine für dich potentielle Gefahr darstellen. Aber warum genau bist du dir darüber im Klaren? Blickst du ständig auf die Straße und denkst, dass diese künstlichen Metallgebilde sich mit Geschwindigkeit X bewegen, eine Masse von Y aufweisen, einen Reibungswiederstand Z beim Bremsen haben und ihre Fahrer eine dir unbekannte Reaktionszeit besitzen? Denkst du an all diese Dinge und wägst ab, wie die Wahrscheinlichkeiten eines Zusammenstoßes sich ändern, wenn du mit bestimmten Geschwindigkeiten selbst auf der Straße umher laufen würdest? Kommst du dann zu dem Schluss, dass diese Wahrscheinlichkeit für deinen Geschmack zu groß ist und du es deshalb lieber sein lässt? Nein.",
+        "function": "illustrative_questioning",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page69_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 69,
+        "sequence": 5,
+        "section": "Symbole verstehen",
+        "label": null,
+        "text": "Du wendest eine viel einfachere Heuristik an. Du weißt, Auto + Du = Tod. Also besser Abstand halten. Du ersetzt das fahrende Auto in deinen Kopf mit dem Symbol des sich schnell bewegenden Todes, welchem du am besten damit entgehst, indem du dich ihm nicht in den Weg stellst. Diese Schlussfolgerung setzt weder die Notwendigkeit voraus zu wissen, was ein Auto ist, was eine Straße ist oder zu welchen Zwecken all diese Dinge existieren. Du könntest dies sogar sehr leicht einem Menschen erklären, der vor zehntausend Jahren lebte und noch nie Autos gesehen hat, nicht weiß was Straßen sind und kein Konzept von Verkehr hat. Du müsstest ihm nur ein Bild vermitteln, welches beschreibt, dass du aus einer Gegend kommst,",
+        "function": "heuristic_explanation",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Kapitel 5, Symbolik, Heuristik, Straßenbeispiel"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=069-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:222a71c1eb56339b8d0bee88aad13e2681b1f11fd32059e6ef8a495575ea784b",
+    "created_at": null,
+    "modified_at": null
+  }
+}

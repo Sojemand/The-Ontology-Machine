@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-03-25T18:33:32Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "report",
+    "document_type_confidence": 0.98,
+    "category": "technical",
+    "subcategory": "inspection",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": true,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Praxisverbund Nord",
+    "document_date": "2024-10-04",
+    "document_title": "MRT des rechten Knies nativ vom 04.10.2024",
+    "description": "Radiologischer Befund zum rechten Knie mit MRT-Beurteilung.",
+    "tags": [
+      "MRT",
+      "rechtes Knie",
+      "Befund",
+      "Meniskus",
+      "Radiologie"
+    ],
+    "people": [
+      "Alex Beispiel",
+      "Dr. Jana Winter",
+      "Dr. Mara Beispiel"
+    ],
+    "organizations": [
+      "Praxisverbund Nord",
+      "Orthopaedie Musterstadt"
+    ],
+    "locations": [
+      "12345 Musterstadt"
+    ],
+    "date_range": {
+      "from": "2024-10-04",
+      "to": "2024-10-04"
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "housing.default.v1",
+    "raw_classification": {
+      "document_type": "report",
+      "category": "other",
+      "subcategory": "radiology_report"
+    },
+    "normalization_notes": [
+      "Raw-Subkategorie radiology_report auf technischen Befundkontext normalisiert.",
+      "Dokument enthaelt keine miet- oder zahlungsbezogenen Inhalte."
+    ],
+    "recipient_primary": "Herr Dr. Jana Winter",
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": [
+        "issuer",
+        "sender",
+        "sender_address",
+        "recipient",
+        "recipient_address",
+        "recipient_primary",
+        "customer_name",
+        "tenant_name",
+        "document_number",
+        "subject",
+        "salutation",
+        "closing",
+        "invoice_number",
+        "document_date",
+        "page_indicator",
+        "case_id",
+        "other"
+      ]
+    },
+    "fields": {
+      "issuer": "Praxisverbund Nord",
+      "sender": "Praxisverbund Nord",
+      "sender_address": "Musterstr. 10, 12345 Musterstadt",
+      "recipient": "Herr Dr. Jana Winter",
+      "recipient_address": "Klinikweg 12, 12345 Musterstadt",
+      "recipient_primary": "Herr Dr. Jana Winter",
+      "customer_name": "Alex Beispiel",
+      "tenant_name": "Alex Beispiel",
+      "document_number": "RV-1088845",
+      "subject": "MRT des rechten Knies nativ",
+      "salutation": "Sehr geehrter Herr Kollege",
+      "closing": "Mit freundlichen Gruessen",
+      "invoice_number": "RV-1088845",
+      "document_date": "2024-10-04",
+      "page_indicator": "1/1",
+      "case_id": "RV-1088845",
+      "other": "Indikation: Verdacht auf mediale Meniskopathie rechtes Knie; Befund: horizontaler Innenmeniskus-Einriss, geringer Gelenkerguss, sonst unauffaellige MRT-Diagnostik."
+    },
+    "rows": [],
+    "free_text": "report technical inspection MRT rechtes Knie 2024-10-04 Praxisverbund Nord Patient Alex Beispiel Befund Innenmeniskus-Einriss geringer Erguss"
+  },
+  "relations": [
+    {
+      "type": "normalized_from",
+      "file_name": "mri_report.pdf.structured.json",
+      "content_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  ],
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-24.v3",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:882a612d7f3c68577ba34c9c452289e0ac69ffd7cb06f186da6cac817353ceb3",
+    "materialization_profile_id": "document_entities.v1"
+  }
+}

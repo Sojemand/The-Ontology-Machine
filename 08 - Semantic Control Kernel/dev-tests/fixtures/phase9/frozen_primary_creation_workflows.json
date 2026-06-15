@@ -1,0 +1,882 @@
+{
+  "description": "Golden E2E signatures for the six frozen primary database creation workflows.",
+  "schema_version": "kernel.phase9.frozen_primary_creation_workflows.v1",
+  "workflows": [
+    {
+      "artifact_files": [
+        "Corpus/db_1.db"
+      ],
+      "artifact_json_contracts": {},
+      "attach_state_present": false,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "target"
+      ],
+      "final_state": "no_semantic_release",
+      "llm_calls": [],
+      "llm_progress_completed": [],
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database"
+      ],
+      "resume_tools": [
+        "empty_database_default_taxonomy_default_projections",
+        "create_custom_taxonomy_path"
+      ],
+      "semantic_calls": [],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_1",
+        "database_name": "db_1"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database"
+      ],
+      "workflow_run_id": "wf_freeze_1",
+      "workflow_tool": "empty_database_no_semantic_release"
+    },
+    {
+      "artifact_files": [
+        "Corpus/db_2.db",
+        "Semantic Release/incomplete_semantic_release.json",
+        "Semantic Release/releases/default.release.v1/release.json",
+        "Semantic Release/staged/taxonomy/default_taxonomy_without_projections/projectionless_release_state.json"
+      ],
+      "artifact_json_contracts": {
+        "Semantic Release/incomplete_semantic_release.json": {
+          "allowed_continuation_workflow_tools": [
+            "create_custom_projection_path"
+          ],
+          "has_projectionless_release_ref": true,
+          "has_projectionless_release_state_ref": true,
+          "next_step_id": "proj_require_taxonomy",
+          "schema_version": null,
+          "staged_component_kinds": [
+            "taxonomy"
+          ],
+          "state": null,
+          "workflow_tool": "empty_database_default_taxonomy_no_projections"
+        },
+        "Semantic Release/releases/default.release.v1/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "default.projection.v1"
+          ],
+          "release_fingerprint": "default-release-fingerprint",
+          "release_id": "default.release.v1",
+          "release_version": "1.0.0",
+          "runtime_locale": null,
+          "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+          "taxonomy_id": "default.taxonomy.v1"
+        },
+        "Semantic Release/staged/taxonomy/default_taxonomy_without_projections/projectionless_release_state.json": {
+          "completeness_state": "incomplete",
+          "missing_component_type": "projections",
+          "projectionless_projection_count": 0,
+          "projectionless_release_id": "default.release.v1",
+          "remaining_projection_count": 0,
+          "removed_projection_count": 1,
+          "schema_version": "kernel.default_taxonomy_projectionless_release_state.v1",
+          "workflow_tool": "empty_database_default_taxonomy_no_projections"
+        }
+      },
+      "attach_state_present": false,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "rel_persist_incomplete_state",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "default_attach_state_archived_after_projection_strip",
+        "default_projection_refs",
+        "default_release_path",
+        "default_release_ref",
+        "projectionless_release_ref",
+        "projectionless_release_state_path",
+        "projectionless_release_state_ref",
+        "removed_default_projection_refs",
+        "staged_taxonomy_ref",
+        "target",
+        "taxonomy_ref"
+      ],
+      "final_state": "semantic_release_incomplete",
+      "llm_calls": [],
+      "llm_progress_completed": [],
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database",
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "attach_default_semantic_release_to_database",
+        "remove_projection_from_database",
+        "persist_incomplete_semantic_release_state"
+      ],
+      "resume_tools": [
+        "create_custom_projection_path"
+      ],
+      "semantic_calls": [
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "load_semantic_release",
+        "preflight_semantic_release_activation",
+        "remove_taxonomy_or_projection"
+      ],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_2",
+        "database_name": "db_2"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "rel_persist_incomplete_state",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "rel_persist_incomplete_state"
+      ],
+      "workflow_run_id": "wf_freeze_2",
+      "workflow_tool": "empty_database_default_taxonomy_no_projections"
+    },
+    {
+      "artifact_files": [
+        "Corpus/db_3.db",
+        "Semantic Release/releases/default.release.v1/release.json"
+      ],
+      "artifact_json_contracts": {
+        "Semantic Release/releases/default.release.v1/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "default.projection.v1"
+          ],
+          "release_fingerprint": "default-release-fingerprint",
+          "release_id": "default.release.v1",
+          "release_version": "1.0.0",
+          "runtime_locale": null,
+          "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+          "taxonomy_id": "default.taxonomy.v1"
+        }
+      },
+      "attach_state_present": true,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_activate_default_release",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "default_activation_owner_call_started",
+        "default_activation_preflight_passed",
+        "default_projection_refs",
+        "default_release_path",
+        "default_release_ref",
+        "target",
+        "taxonomy_ref"
+      ],
+      "final_state": "semantic_release_active",
+      "llm_calls": [],
+      "llm_progress_completed": [],
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database",
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "attach_default_semantic_release_to_database",
+        "activate_semantic_release"
+      ],
+      "resume_tools": [],
+      "semantic_calls": [
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "load_semantic_release",
+        "preflight_semantic_release_activation",
+        "preflight_semantic_release_activation",
+        "activate_semantic_release"
+      ],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_3",
+        "database_name": "db_3"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_activate_default_release",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_activate_default_release"
+      ],
+      "workflow_run_id": "wf_freeze_3",
+      "workflow_tool": "empty_database_default_taxonomy_default_projections"
+    },
+    {
+      "artifact_files": [
+        "Corpus/db_4.db",
+        "Semantic Release/proj_sa/wf_freeze_4_projection/proj_update.json",
+        "Semantic Release/proj_sa/wf_freeze_4_projection/tax_view.json",
+        "Semantic Release/releases/custom.release.v1/release.json",
+        "Semantic Release/releases/default.release.v1/release.json",
+        "Semantic Release/staged/taxonomy/default_taxonomy_without_projections/projectionless_release_state.json"
+      ],
+      "artifact_json_contracts": {
+        "Semantic Release/releases/custom.release.v1/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "finance.receipts.v1"
+          ],
+          "release_fingerprint": "a1bc8b76573b303dfc3c30af",
+          "release_id": "custom.release.v1",
+          "release_version": "1.0.0",
+          "runtime_locale": "en",
+          "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+          "taxonomy_id": "default.taxonomy.v1"
+        },
+        "Semantic Release/releases/default.release.v1/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "default.projection.v1"
+          ],
+          "release_fingerprint": "default-release-fingerprint",
+          "release_id": "default.release.v1",
+          "release_version": "1.0.0",
+          "runtime_locale": null,
+          "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+          "taxonomy_id": "default.taxonomy.v1"
+        },
+        "Semantic Release/staged/taxonomy/default_taxonomy_without_projections/projectionless_release_state.json": {
+          "completeness_state": "incomplete",
+          "missing_component_type": "projections",
+          "projectionless_projection_count": 0,
+          "projectionless_release_id": "default.release.v1",
+          "remaining_projection_count": 0,
+          "removed_projection_count": 1,
+          "schema_version": "kernel.default_taxonomy_projectionless_release_state.v1",
+          "workflow_tool": "empty_database_default_taxonomy_custom_projections"
+        },
+        "Semantic Release/proj_sa/wf_freeze_4_projection/proj_update.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "finance.receipts.v1"
+          ],
+          "runtime_locale": null,
+          "sample_ids": [
+            "projection_0",
+            "projection_1"
+          ],
+          "schema_version": "kernel.create_projections_update_state.input.v1",
+          "taxonomy_id": "default.taxonomy.v1"
+        },
+        "Semantic Release/proj_sa/wf_freeze_4_projection/tax_view.json": {
+          "json_keys": [
+            "allowed_codes",
+            "budget_policy",
+            "fallback_codes",
+            "promotion_slots",
+            "schema_version",
+            "taxonomy_ref",
+            "term_summaries"
+          ]
+        }
+      },
+      "attach_state_present": true,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "custom_projection",
+        "custom_release_candidate_ref",
+        "custom_release_path",
+        "custom_release_ref",
+        "default_attach_state_archived_after_projection_strip",
+        "default_projection_refs",
+        "default_release_path",
+        "default_release_ref",
+        "projection_sample_refs",
+        "projection_update_state",
+        "projection_validation",
+        "projectionless_release_ref",
+        "projectionless_release_state_path",
+        "projectionless_release_state_ref",
+        "removed_default_projection_refs",
+        "staged_projection_ref",
+        "staged_taxonomy_ref",
+        "target",
+        "taxonomy_authoring_view",
+        "taxonomy_ref"
+      ],
+      "final_state": "semantic_release_active",
+      "llm_calls": [
+        "analyze_samples",
+        "user_report_samples",
+        "create_projections_to_sample_analyses"
+      ],
+      "llm_progress_completed": [
+        "llm_projection_analyze_samples",
+        "llm_projection_user_report_samples",
+        "llm_projection_create_projections_to_sample_analyses"
+      ],
+      "mirror_event_types": [
+        "progress",
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database",
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "attach_default_semantic_release_to_database",
+        "remove_projection_from_database",
+        "resolve_taxonomy_for_projection_authoring",
+        "require_sample_files_for_projection_authoring",
+        "build_taxonomy_projection_authoring_view",
+        "analyze_samples",
+        "create_projections_to_sample_analyses",
+        "create_projections_update_state",
+        "create_custom_projection",
+        "validate_projections_against_taxonomy",
+        "stage_custom_projections_for_semantic_release",
+        "create_custom_semantic_release",
+        "write_semantic_release",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release"
+      ],
+      "resume_tools": [],
+      "semantic_calls": [
+        "export_default_semantic_release",
+        "write_semantic_release",
+        "load_semantic_release",
+        "preflight_semantic_release_activation",
+        "remove_taxonomy_or_projection",
+        "create_custom_projection",
+        "validate_projections_against_taxonomy",
+        "stage_projections",
+        "create_custom_semantic_release",
+        "write_semantic_release",
+        "load_semantic_release",
+        "preflight_semantic_release_activation",
+        "preflight_semantic_release_activation",
+        "activate_semantic_release"
+      ],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_4",
+        "database_name": "db_4"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "dc_export_default_release",
+        "dc_write_default_release",
+        "dc_attach_default_release",
+        "dc_remove_default_projections",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release"
+      ],
+      "workflow_run_id": "wf_freeze_4",
+      "workflow_tool": "empty_database_default_taxonomy_custom_projections"
+    },
+    {
+      "artifact_files": [
+        "Corpus/db_5.db",
+        "Semantic Release/incomplete_semantic_release.json",
+        "Semantic Release/tax_sa/wf_freeze_5_taxonomy/tax_update.json"
+      ],
+      "artifact_json_contracts": {
+        "Semantic Release/incomplete_semantic_release.json": {
+          "allowed_continuation_workflow_tools": [
+            "create_custom_projection_path"
+          ],
+          "has_projectionless_release_ref": false,
+          "has_projectionless_release_state_ref": false,
+          "next_step_id": "proj_require_taxonomy",
+          "schema_version": null,
+          "staged_component_kinds": [
+            "taxonomy"
+          ],
+          "state": null,
+          "workflow_tool": "empty_database_custom_taxonomy_no_projections"
+        },
+        "Semantic Release/tax_sa/wf_freeze_5_taxonomy/tax_update.json": {
+          "field_codes": [
+            "issuer",
+            "amount_due",
+            "other"
+          ],
+          "runtime_locale": null,
+          "sample_ids": [
+            "taxonomy_0",
+            "taxonomy_1"
+          ],
+          "schema_version": "kernel.create_taxonomy_update_state.input.v1",
+          "taxonomy_core_keys": [
+            "categories",
+            "cell_codes",
+            "document_types",
+            "domains",
+            "fallback_codes",
+            "field_codes",
+            "promotion_slots",
+            "row_types",
+            "subcategories"
+          ]
+        }
+      },
+      "attach_state_present": false,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "rel_persist_incomplete_state",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "custom_taxonomy",
+        "staged_taxonomy_ref",
+        "target",
+        "taxonomy_ref",
+        "taxonomy_sample_refs",
+        "taxonomy_update_state"
+      ],
+      "final_state": "semantic_release_incomplete",
+      "llm_calls": [
+        "analyze_samples",
+        "user_report_samples",
+        "create_taxonomy_to_sample_analyses"
+      ],
+      "llm_progress_completed": [
+        "llm_taxonomy_analyze_samples",
+        "llm_taxonomy_user_report_samples",
+        "llm_taxonomy_create_taxonomy_to_sample_analyses"
+      ],
+      "mirror_event_types": [
+        "progress",
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database",
+        "require_sample_files_for_taxonomy_authoring",
+        "analyze_samples",
+        "create_taxonomy_to_sample_analyses",
+        "create_taxonomy_update_state",
+        "create_custom_taxonomy",
+        "stage_custom_taxonomy_for_semantic_release",
+        "persist_incomplete_semantic_release_state"
+      ],
+      "resume_tools": [
+        "create_custom_projection_path"
+      ],
+      "semantic_calls": [
+        "create_custom_taxonomy",
+        "stage_taxonomy"
+      ],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_5",
+        "database_name": "db_5"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "rel_persist_incomplete_state",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "rel_persist_incomplete_state"
+      ],
+      "workflow_run_id": "wf_freeze_5",
+      "workflow_tool": "empty_database_custom_taxonomy_no_projections"
+    },
+    {
+      "artifact_files": [
+        "Corpus/db_6.db",
+        "Semantic Release/proj_sa/wf_freeze_6_projection/proj_update.json",
+        "Semantic Release/proj_sa/wf_freeze_6_projection/tax_view.json",
+        "Semantic Release/releases/custom.release.v1/release.json",
+        "Semantic Release/tax_sa/wf_freeze_6_taxonomy/tax_update.json"
+      ],
+      "artifact_json_contracts": {
+        "Semantic Release/releases/custom.release.v1/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "finance.receipts.v1"
+          ],
+          "release_fingerprint": "a1bc8b76573b303dfc3c30af",
+          "release_id": "custom.release.v1",
+          "release_version": "1.0.0",
+          "runtime_locale": "en",
+          "taxonomy_fingerprint": "e9f58d8fa9f2b4553aa08509",
+          "taxonomy_id": "custom.taxonomy.v1"
+        },
+        "Semantic Release/proj_sa/wf_freeze_6_projection/proj_update.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "finance.receipts.v1"
+          ],
+          "runtime_locale": null,
+          "sample_ids": [
+            "projection_0",
+            "projection_1"
+          ],
+          "schema_version": "kernel.create_projections_update_state.input.v1",
+          "taxonomy_id": "custom.taxonomy.v1"
+        },
+        "Semantic Release/proj_sa/wf_freeze_6_projection/tax_view.json": {
+          "json_keys": [
+            "allowed_codes",
+            "budget_policy",
+            "fallback_codes",
+            "promotion_slots",
+            "schema_version",
+            "taxonomy_ref",
+            "term_summaries"
+          ]
+        },
+        "Semantic Release/tax_sa/wf_freeze_6_taxonomy/tax_update.json": {
+          "field_codes": [
+            "issuer",
+            "amount_due",
+            "other"
+          ],
+          "runtime_locale": null,
+          "sample_ids": [
+            "taxonomy_0",
+            "taxonomy_1"
+          ],
+          "schema_version": "kernel.create_taxonomy_update_state.input.v1",
+          "taxonomy_core_keys": [
+            "categories",
+            "cell_codes",
+            "document_types",
+            "domains",
+            "fallback_codes",
+            "field_codes",
+            "promotion_slots",
+            "row_types",
+            "subcategories"
+          ]
+        }
+      },
+      "attach_state_present": true,
+      "completed_step_ids": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release",
+        "dc_final_notice"
+      ],
+      "execution_artifact_keys": [
+        "custom_projection",
+        "custom_release_candidate_ref",
+        "custom_release_path",
+        "custom_release_ref",
+        "custom_taxonomy",
+        "projection_sample_refs",
+        "projection_update_state",
+        "projection_validation",
+        "staged_projection_ref",
+        "staged_taxonomy_ref",
+        "target",
+        "taxonomy_authoring_view",
+        "taxonomy_ref",
+        "taxonomy_sample_refs",
+        "taxonomy_update_state"
+      ],
+      "final_state": "semantic_release_active",
+      "llm_calls": [
+        "analyze_samples",
+        "user_report_samples",
+        "create_taxonomy_to_sample_analyses",
+        "analyze_samples",
+        "user_report_samples",
+        "create_projections_to_sample_analyses"
+      ],
+      "llm_progress_completed": [
+        "llm_taxonomy_analyze_samples",
+        "llm_taxonomy_user_report_samples",
+        "llm_taxonomy_create_taxonomy_to_sample_analyses",
+        "llm_projection_analyze_samples",
+        "llm_projection_user_report_samples",
+        "llm_projection_create_projections_to_sample_analyses"
+      ],
+      "mirror_event_types": [
+        "progress",
+        "progress",
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "collect_database_creation_target",
+        "create_standard_artifact_folder_tree",
+        "store_active_artifact_folder_tree",
+        "create_empty_database",
+        "require_sample_files_for_taxonomy_authoring",
+        "analyze_samples",
+        "create_taxonomy_to_sample_analyses",
+        "create_taxonomy_update_state",
+        "create_custom_taxonomy",
+        "stage_custom_taxonomy_for_semantic_release",
+        "resolve_taxonomy_for_projection_authoring",
+        "require_sample_files_for_projection_authoring",
+        "build_taxonomy_projection_authoring_view",
+        "analyze_samples",
+        "create_projections_to_sample_analyses",
+        "create_projections_update_state",
+        "create_custom_projection",
+        "validate_projections_against_taxonomy",
+        "stage_custom_projections_for_semantic_release",
+        "create_custom_semantic_release",
+        "write_semantic_release",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release"
+      ],
+      "resume_tools": [],
+      "semantic_calls": [
+        "create_custom_taxonomy",
+        "stage_taxonomy",
+        "create_custom_projection",
+        "validate_projections_against_taxonomy",
+        "stage_projections",
+        "create_custom_semantic_release",
+        "write_semantic_release",
+        "load_semantic_release",
+        "preflight_semantic_release_activation",
+        "preflight_semantic_release_activation",
+        "activate_semantic_release"
+      ],
+      "status": "completed",
+      "target": {
+        "artifact_root_name": "tree_6",
+        "database_name": "db_6"
+      },
+      "workflow_progress_completed": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release",
+        "dc_final_notice"
+      ],
+      "workflow_progress_started": [
+        "dc_collect_target",
+        "dc_create_artifact_tree",
+        "dc_store_artifact_tree",
+        "dc_create_empty_database",
+        "tax_require_samples",
+        "tax_analyze_samples",
+        "tax_create_proposal",
+        "tax_build_update_state",
+        "tax_create_custom_taxonomy",
+        "tax_stage_custom_taxonomy",
+        "proj_require_taxonomy",
+        "proj_require_samples",
+        "proj_build_authoring_view",
+        "proj_analyze_samples",
+        "proj_create_proposal",
+        "proj_build_update_state",
+        "proj_create_custom_projection",
+        "proj_validate_projection",
+        "proj_stage_custom_projection",
+        "rel_create_custom_release",
+        "rel_write_custom_release",
+        "rel_attach_custom_release",
+        "rel_activate_custom_release"
+      ],
+      "workflow_run_id": "wf_freeze_6",
+      "workflow_tool": "empty_database_custom_taxonomy_custom_projections"
+    }
+  ]
+}

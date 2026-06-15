@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.92,
+    "needs_review": true,
+    "review_reason": "Dropped unknown field codes: recipient_primary.",
+    "vision_used": false,
+    "processed_at": "2026-04-03T00:00:00Z",
+    "model": "gpt-5.4-mini",
+    "provider": "mock"
+  },
+  "classification": {
+    "document_type": "invoice",
+    "document_type_confidence": 0.92,
+    "category": "finance",
+    "subcategory": "other",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 2
+  },
+  "context": {
+    "company": "Kleingartenverein Sonnenschein e.V.",
+    "document_date": "2026-03-13",
+    "document_title": "Beitragsrechnung 2026",
+    "description": "Jahresbeitrag Parzelle 17",
+    "tags": [
+      "kleingarten",
+      "beitrag"
+    ],
+    "people": [],
+    "organizations": [
+      "Kleingartenverein Sonnenschein e.V."
+    ],
+    "locations": [
+      "Berlin"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": 120.0,
+    "taxonomy_profile_id": "finance.default.v1",
+    "raw_classification": {
+      "document_type": "invoice",
+      "category": "finance",
+      "subcategory": "beitragsrechnung"
+    },
+    "normalization_notes": [
+      "Projection hint was retained for the finance projection baseline case.",
+      "Dropped unknown field codes: recipient_primary.",
+      "Dropped unknown cell codes in row 0: betrag, position."
+    ],
+    "recipient_primary": "Erika Muster"
+  },
+  "content": {
+    "structure": {
+      "type": "form_with_table",
+      "columns": [
+        "other"
+      ],
+      "form_fields": [
+        "document_number",
+        "other"
+      ]
+    },
+    "fields": {
+      "document_number": "RE-2026-001",
+      "other": {
+        "recipient_primary": "Erika Muster"
+      }
+    },
+    "rows": [
+      {
+        "_row_type": "other",
+        "_row_index": 0,
+        "other": {
+          "position": "Jahresbeitrag",
+          "betrag": 120.0
+        }
+      }
+    ],
+    "free_text": "invoice finance other Beitragsrechnung 2026 Rechnungsnummer RE-2026-001 Jahresbeitrag Parzelle 17 Gesamtbetrag 120,00 EUR Mitglied Erika Muster"
+  },
+  "projection": {
+    "projection_id": "finance.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-28.v6",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:aad493147dbaaeb0160ea0de5a4f6be9ab60e121fef07d06d04d1c6d5414056f",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "finance.default.v1",
+      "hint_confidence": 0.93,
+      "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+      "reason": "Interpreter hint finance.default.v1 accepted: hint=finance.default.v1 local_score=11; confidence=0.93 => confidence_bonus=3; verified_hint_signals=2/3 [finance, invoice]; adjusted_hint_score=16; best_challenger=housing.default.v1 local_score=11 [document_type:invoice, category:finance, field:document_number]; reject_margin=3; challenger_delta=-5."
+    }
+  }
+}

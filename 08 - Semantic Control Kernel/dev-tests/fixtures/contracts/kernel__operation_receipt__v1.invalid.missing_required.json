@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-05-05T00:00:00Z",
+  "final_kernel_state": {
+    "state": "completed"
+  },
+  "function_name": "function_name_example",
+  "input_artifact_refs": [],
+  "operation_receipt_id": "operation_receipt_id_example",
+  "output_artifact_refs": [],
+  "target_identity_after": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_after_example",
+    "created_from": "fixture"
+  },
+  "target_identity_before": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_before_example",
+    "created_from": "fixture"
+  },
+  "workflow_run_id": "workflow_run_id_example"
+}

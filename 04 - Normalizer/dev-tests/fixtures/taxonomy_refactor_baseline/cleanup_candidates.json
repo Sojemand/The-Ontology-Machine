@@ -1,0 +1,37 @@
+[
+  {
+    "candidate_kind": "split_compiled_surface",
+    "reference": "config/normalizer_taxonomy.master.json#$.projection_templates",
+    "decision": "extract compiled projection templates into dedicated source-owned projection files",
+    "rationale": "projection_templates duplicate compiled routing and projection metadata that should not stay in the authored master surface.",
+    "scheduled_step": "step_2_projection_source_split"
+  },
+  {
+    "candidate_kind": "legacy_flat_routing_text",
+    "reference": "config/normalizer_taxonomy.*.json#$.routing.when_to_use",
+    "decision": "move routing guidance text into split text-owned projection surfaces",
+    "rationale": "when_to_use remains flat and language-bound; it should be isolated from machine-owned projection structure before authoring split.",
+    "scheduled_step": "step_3_projection_text_split"
+  },
+  {
+    "candidate_kind": "legacy_flat_routing_text",
+    "reference": "config/normalizer_taxonomy.*.json#$.routing.avoid_when",
+    "decision": "move avoidance guidance into split text-owned projection surfaces",
+    "rationale": "avoid_when is natural-language routing guidance and must be separated from the flat compiled projection artifact.",
+    "scheduled_step": "step_3_projection_text_split"
+  },
+  {
+    "candidate_kind": "legacy_flat_routing_text",
+    "reference": "config/normalizer_taxonomy.*.json#$.routing.surface_signals.text_markers[]",
+    "decision": "move language-bound text markers into dedicated text-owned routing sources",
+    "rationale": "text_markers are locale-bound routing phrases and should not remain mixed into the flat projection artifact.",
+    "scheduled_step": "step_3_projection_text_split"
+  },
+  {
+    "candidate_kind": "legacy_owner_surface",
+    "reference": "legacy_owner:flat_authoring_surfaces=config/normalizer_taxonomy.master.json,config/normalizer_taxonomy.*.json",
+    "decision": "retire flat authoring ownership after the split source manifests are established",
+    "rationale": "the current flat JSON authoring surface is only a transitional owner and should be removed once source ownership is split across master, projection, and release inputs.",
+    "scheduled_step": "step_4_owner_cutover"
+  }
+]

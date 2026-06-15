@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:57:57.848980+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.93,
+      "reason": "A born-digital nonfiction book page in philosophical writing is visible, with continuous paragraphs and a section heading.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "section heading",
+        "philosophical argumentation",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 76,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=076-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page76_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 76,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "vereinfachen würde, würden wir erkennen, dass keine Bibliothek voll von den mächtigsten Zaubern und Ritualen, die vielleicht funktionieren, vielleicht auch nicht, einem kleinen Zettel das Wasser reichen kann, auf dem eine schlichte Karte des Dschungels aufgemalt ist? Selbst wenn diese Karte nur aus Krakeln bestünde, die Kinderhände im Spiel gemalt haben und sie nur sehr rudimentär dem echten Gebilde ähnelt? Ihr sehr, das Erkennen einer Gesetzmäßigkeit, die allen gleich erscheint, vereinfacht eine ganze Realität auf fundamentaler Ebene und so wie wir alle unsere individuellen Rücksäcke voll mit dem jetzt nutzlosesten Zeug einfach hinter uns lassen würden, würden wir auch beginnen, uns auf die gleiche Weise jener Karte zu bedienen, über sie zu reden und unsere Pläne auf ihrer Grundlage zu strukturieren.",
+        "function": "analogy_building",
+        "confidence": 0.9
+      },
+      {
+        "segment_id": "Page76_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 76,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Wir würden plötzlich anfangen, uns merkwürdig gleichförmig zu bewegen, zu reden und zu handeln, ganz so, als hätte ein unbekanntes Feld oder gar ein Dämon von uns Besitz ergriffen der uns zwingt, die gleichen Muster auszuleben. Ganze Heerscharen aus Traumpsychologen könnten sich Fransen an die Münder diskutieren, welcher Störung dies wohl zuzuordnen sei und wie man es behandeln könnte. Dass wir all unseren Reichtum für einen kleinen verschmierten Zettel weggeworfen haben, weil wir uns gewahr wurden, dass wir uns „durch“ einen „Dschungel“ bewegen und wir eine Karte benötigen um ihn verlassen zu können, das können sie nicht verstehen. Sie sehen nur neue und unbekannte Bewegungen und Worte, die scheinbar keinem bekannten Ritual folgen und sie somit entweder eine neue Art Magie darstellen, oder ein Schaden im Geist des Betroffenen sein müssen den es zu behandeln gilt. Selbst wenn man ihnen die Karte zeigen würde, würden sie darauf wohl nichts als zusammenhangloses Zeug erkennen und vermuten, es handele sich um irgendein esoterisches Bla Bla, welches sich Menschen bedienen, um der Mühsal des Lebens zu entfliehen. Alle Pläne, die wir auf Grundlage dieses kleinen Zettels schmieden würden, wären den Träumern völlig unverständlich.",
+        "function": "contrast_with_misunderstanding",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page76_Segment3",
+        "unit_kind": "title_line",
+        "page": 76,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Was plant der Held?",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page76_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 76,
+        "sequence": 4,
+        "section": "Was plant der Held?",
+        "label": null,
+        "text": "Und so schließt sich der Kreis und wir landen wieder bei der Heldenfahrt. Wenn wir also, nur aus Spaß natürlich, annehmen, dass Archetypen ein Schatten dessen sind, was ein Über-Ich so motiviert und plant und dies aufgrund von Gesetzmäßigkeiten tut, die wir nur nicht verstehen und sie deshalb in ihrem Auftreten so ähneln, dann was? Wo könnten wir hier ansetzen um weitere Anhaltspunkte ausgraben zu können? Es dürfte schwierig sein Pläne zu rekonstruieren, die auf Gesetzen beruhen, die wir nicht verstehen. Aber wir haben ja die Grundstruktur der Reise an sich bereits sehr detailliert ausgearbeitet und ihre einzelnen Elemente identifiziert. Wir",
+        "function": "framing_inquiry",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Essayseite über Dschungelkarte, Missverständnis durch Außenstehende, Abschnitt „Was plant der Held?“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=076-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:852a2a482779a75673aede16cd63eb59ce735632207ed3a3455004958f4373a9",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=057-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:e179842705eed47e9d8f57ad78627e5e18af72f6e4ab68f9a72fb4aa887e1388",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 57,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=057-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page57_para_0",
+        "type": "paragraph",
+        "value": "eher nicht.",
+        "position": {
+          "page": 57,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page57_para_1",
+        "type": "paragraph",
+        "value": "Ich könnte anfangen auf Traumelemente zu zeigen und euch sagen, dass diese Dinge einen",
+        "position": {
+          "page": 57,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page57_para_2",
+        "type": "paragraph",
+        "value": "größeren Zusammenhang haben, der euch aber nicht bewusst ist, weil diese Zusammenhänge",
+        "position": {
+          "page": 57,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page57_para_3",
+        "type": "paragraph",
+        "value": "sich hinter der Grenze eures Gewahrseins aufhalten und euch erst klar werden, wenn ihr",
+        "position": {
+          "page": 57,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page57_para_4",
+        "type": "paragraph",
+        "value": "aufwacht. Ich könnte versuchen, eure vagen Gefühle über „etwas Höheres“, welche durchaus",
+        "position": {
+          "page": 57,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page57_para_5",
+        "type": "paragraph",
+        "value": "im Traum durchschimmern, zu benutzen und sie mit Dingen in Verbindung bringen, die euch hin",
+        "position": {
+          "page": 57,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page57_para_6",
+        "type": "paragraph",
+        "value": "und wieder im Traum begegnen. Wenn ich wollte, dann könnte ich euch von einem besonderen",
+        "position": {
+          "page": 57,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page57_para_7",
+        "type": "paragraph",
+        "value": "Traumzustand berichten, der euch einen Vorgeschmack auf die „wache Welt“ bietet. Ich nenne",
+        "position": {
+          "page": 57,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page57_para_8",
+        "type": "paragraph",
+        "value": "ihn „zweigleisiges Träumen“ oder „luzides Träumen“ und vielleicht schafft ihr es euch in diesen",
+        "position": {
+          "page": 57,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page57_para_9",
+        "type": "paragraph",
+        "value": "Zustand zu versetzen. Ihr stellt fest, dass ihr eure Welt darin ein wenig anders wahrnehmt,",
+        "position": {
+          "page": 57,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page57_para_10",
+        "type": "paragraph",
+        "value": "irgendwie klarer, konsistenter, folgerichtiger. Ihr habt auf einmal eine nie gekannte Kontrolle",
+        "position": {
+          "page": 57,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page57_para_11",
+        "type": "paragraph",
+        "value": "über euren Traum und seid euch auf einer unbegreiflichen Ebene irgendwie klar, dass dies ein",
+        "position": {
+          "page": 57,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page57_para_12",
+        "type": "paragraph",
+        "value": "Traum ist. Ihr wisst zwar nicht genau wo ihr euch aufhaltet oder was „wach sein“ wirklich",
+        "position": {
+          "page": 57,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page57_para_13",
+        "type": "paragraph",
+        "value": "bedeutet, aber ihr habt auf einmal eine seltsame Gewissheit, dass diese Welt nicht „wirklich“ ist,",
+        "position": {
+          "page": 57,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page57_para_14",
+        "type": "paragraph",
+        "value": "dass da noch etwas anderes ist. Und dann macht ihr einen auf Supermann und dreht Loopings",
+        "position": {
+          "page": 57,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page57_para_15",
+        "type": "paragraph",
+        "value": "wie ein Kampfjet. Alles völlig normal. Vielleicht fallt ihr auch schnell wieder zurück in den",
+        "position": {
+          "page": 57,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page57_para_16",
+        "type": "paragraph",
+        "value": "normalen Traum und vergesst wie es war luzide zu sein. Ich könnte euch immer wieder",
+        "position": {
+          "page": 57,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page57_para_17",
+        "type": "paragraph",
+        "value": "motivieren, euch doch noch einmal in den luziden Zustand zu begeben wenn ihr mich fragt, wo",
+        "position": {
+          "page": 57,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page57_para_18",
+        "type": "paragraph",
+        "value": "denn diese „wache Welt“ voller Magie sei.",
+        "position": {
+          "page": 57,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page57_para_19",
+        "type": "paragraph",
+        "value": "All das könnte ich tun und all das wäre Verschwendung, denn nichts davon würde euch",
+        "position": {
+          "page": 57,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page57_para_20",
+        "type": "paragraph",
+        "value": "aufwachen lassen. Das könnt ihr nur selbst, nichts hält euch ab den Traum zu beenden. Nicht",
+        "position": {
+          "page": 57,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page57_para_21",
+        "type": "paragraph",
+        "value": "umsonst hat dieses Dilemma eine frappierende Ähnlichkeit mit den Dingen, denen wir uns",
+        "position": {
+          "page": 57,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page57_para_22",
+        "type": "paragraph",
+        "value": "auch im Wachzustand gegenüber sehen.",
+        "position": {
+          "page": 57,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page57_para_23",
+        "type": "paragraph",
+        "value": "Aber irgendwann habt ihr ausgeschlafen, dann wacht ihr auf und noch schlaftrunken erinnert",
+        "position": {
+          "page": 57,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page57_para_24",
+        "type": "paragraph",
+        "value": "ihr euch an einen wirklich abgefahrenen Traum. Ihr erinnert euch an eine merkwürdige Gestalt,",
+        "position": {
+          "page": 57,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page57_para_25",
+        "type": "paragraph",
+        "value": "vielleicht eine Art Zauberer, der euch gejagt hat und dann erinnert ihr euch wie ihr einen",
+        "position": {
+          "page": 57,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page57_para_26",
+        "type": "paragraph",
+        "value": "luziden Traum hattet und wie euch eure normale Traumwelt wieder eingeholt hat. Irgendwie",
+        "position": {
+          "page": 57,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page57_para_27",
+        "type": "paragraph",
+        "value": "fühlt ihr Bedauern, denn luzide Träume machen irgendwie mehr Spaß. Ihr könnt euch an den",
+        "position": {
+          "page": 57,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page57_para_28",
+        "type": "paragraph",
+        "value": "ganzen Traum erinnern und mit Gänsehaut erkennt ihr, wie der Zauberer bemüht war euch",
+        "position": {
+          "page": 57,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page57_para_29",
+        "type": "paragraph",
+        "value": "zum Aufwachen zu bewegen und ihr euch immer wieder in sinnlosen Traumbildern verstrickt",
+        "position": {
+          "page": 57,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page57_para_30",
+        "type": "paragraph",
+        "value": "und ihn überhaupt nicht verstanden habt. „Armer Zauberer“ denkt ihr, das muss wirklich ein",
+        "position": {
+          "page": 57,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page57_para_31",
+        "type": "paragraph",
+        "value": "frustrierendes Erlebnis für ihn gewesen sein.",
+        "position": {
+          "page": 57,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

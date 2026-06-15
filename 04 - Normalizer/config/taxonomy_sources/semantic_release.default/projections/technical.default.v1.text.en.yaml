@@ -1,0 +1,31 @@
+label: Technical and Asset Management Default v1
+description: Default projection for technical, asset-related, and inspection-focused
+  records.
+routing:
+  when_to_use: Specifications, inspections, maintenance, asset or site documentation,
+    engineering changes, quality assurance, and equipment files.
+  avoid_when: Not for property management, pure financial records, formal identity
+    files, or pastoral and wellbeing-related records.
+routing_lexicon:
+  text_markers:
+  - specification
+  - maintenance plan
+  - serial number
+  - inspection report
+  - measurement
+  - asset
+  domain_markers:
+    technical:
+    - specification
+    - serial number
+    - measurement
+    operations:
+    - maintenance
+    - site
+    - commissioning
+    business:
+    - quote
+    - approval
+    administrative:
+    - document number
+    - revision

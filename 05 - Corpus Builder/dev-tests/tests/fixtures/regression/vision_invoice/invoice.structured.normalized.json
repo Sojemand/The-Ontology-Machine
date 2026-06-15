@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-24.v3",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:882a612d7f3c68577ba34c9c452289e0ac69ffd7cb06f186da6cac817353ceb3",
+    "materialization_profile_id": "document_entities.v1"
+  },
+  "processing": {
+    "needs_review": false,
+    "review_reason": "",
+    "model": "gpt-5.4-2026-03-05"
+  },
+  "classification": {
+    "document_type": "invoice",
+    "category": "finance",
+    "subcategory": "electricity_final_invoice",
+    "language": "de"
+  },
+  "context": {
+    "company": "envia Mitteldeutsche Energie AG",
+    "document_date": "2023-06-25",
+    "document_title": "Ihre Schlussrechnung",
+    "description": "Schlussrechnung fuer Stromlieferung an Norman Weiss.",
+    "tags": ["rechnung", "schlussrechnung", "strom"],
+    "people": ["Norman Weiss"],
+    "organizations": ["envia Mitteldeutsche Energie AG"],
+    "reference_number": "ENV 100002966355",
+    "due_date": "2023-07-11"
+  },
+  "content": {
+    "structure": {
+      "type": "form_with_table",
+      "columns": ["position", "brutto"],
+      "form_fields": ["reference_number"]
+    },
+    "fields": {
+      "reference_number": "ENV 100002966355",
+      "amount_due": 318.79,
+      "currency": "EUR"
+    },
+    "rows": [
+      {
+        "_row_type": "line_item",
+        "_row_index": 0,
+        "position": "zu zahlender betrag",
+        "brutto": 318.79
+      }
+    ],
+    "free_text": "Ihre Schlussrechnung\nSchlussrechnung fuer Stromlieferung an Norman Weiss.\nZu zahlender Betrag 318,79 EUR"
+  },
+  "relations": []
+}

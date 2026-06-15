@@ -1,0 +1,37 @@
+label: Legal and Public Administration Default v1
+description: Default projection for legal, authority, and administrative files.
+routing:
+  when_to_use: Contracts, notices, permits, registrations, enforcement matters, citizen
+    services, and benefit cases.
+  avoid_when: Not for utility statements, logistics evidence, pure payroll, or personal
+    reflection journals.
+routing_lexicon:
+  text_markers:
+  - authority
+  - case reference
+  - notice
+  - reminder
+  - payment tracking
+  - enforcement
+  - arrears
+  - claim
+  - treasury reference
+  domain_markers:
+    legal:
+    - notice
+    - enforcement
+    - claim
+    - fee notice
+    administrative:
+    - authority
+    - case reference
+    - treasury reference
+    - payment tracking
+    business:
+    - account statement
+    - balance
+    - payment received
+    people:
+    - applicant
+    - affected person
+    - date of birth

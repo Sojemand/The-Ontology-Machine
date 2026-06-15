@@ -1,0 +1,22 @@
+{
+  "host_surface_identity": "client_frontend_http_pipeline_session",
+  "interaction_request_id": "interaction_request_id_example",
+  "interaction_response_id": "interaction_response_id_example",
+  "path_value": "C:\\Users\\Norma\\Desktop\\Photo Test Pipeline",
+  "response_status": "submitted",
+  "schema_version": "kernel.user_interaction_response.v1",
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "submitted_at": "2026-05-05T00:00:00Z",
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  },
+  "unexpected_phase2_field": "example"
+}

@@ -1,0 +1,302 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=003-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:809b98fbc85ffb292689b0d510a9e4b8966a3a33bde4cad163b0dbb2500ea88f",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 3,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=003-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page3_para_0",
+        "type": "paragraph",
+        "value": "Die Reise zu den Grenzen des Bewusstseins und zurück",
+        "position": {
+          "page": 3,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page3_para_1",
+        "type": "paragraph",
+        "value": "Vorwort",
+        "position": {
+          "page": 3,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page3_para_2",
+        "type": "paragraph",
+        "value": "Eigentlich dachte ich, ein Vorwort müsste ein schillernder Werbesticker sein, der Lust auf das",
+        "position": {
+          "page": 3,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page3_para_3",
+        "type": "paragraph",
+        "value": "Lesen macht und jeden übermäßig neugierig zurück lässt. Ich dachte, wenn ich einmal dieses",
+        "position": {
+          "page": 3,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page3_para_4",
+        "type": "paragraph",
+        "value": "Buch fertig geschrieben habe, wird mir sicher ein solch passendes Vorwort dazu einfallen. Nun,",
+        "position": {
+          "page": 3,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page3_para_5",
+        "type": "paragraph",
+        "value": "das tat es nicht.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page3_para_6",
+        "type": "paragraph",
+        "value": "Stattdessen fiel mir während des Schreibens auf, dass ich dem geneigten Leser so einiges",
+        "position": {
+          "page": 3,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page3_para_7",
+        "type": "paragraph",
+        "value": "abverlange, nicht nur was den Inhalt betrifft, sondern auch durch die Art, wie ich meine",
+        "position": {
+          "page": 3,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page3_para_8",
+        "type": "paragraph",
+        "value": "Gedanken auszudrücken pflege. Wer ließt schon gerne verschachtelte Sätze, die meine",
+        "position": {
+          "page": 3,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page3_para_9",
+        "type": "paragraph",
+        "value": "Obsession zur optimalen Informationsdichte widerspiegeln? Schlimmer wurde es noch, wenn",
+        "position": {
+          "page": 3,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page3_para_10",
+        "type": "paragraph",
+        "value": "ich die Audio Variante betrachte, denn dort muss der Zuhörer auch noch meine Stimme",
+        "position": {
+          "page": 3,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page3_para_11",
+        "type": "paragraph",
+        "value": "ertragen. So lasst mich direkt mit einer Entschuldigung beginnen, denn ich bin mir sehr wohl",
+        "position": {
+          "page": 3,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page3_para_12",
+        "type": "paragraph",
+        "value": "darüber bewusst, dass mein Stil nicht jedem entgegen kommen wird.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page3_para_13",
+        "type": "paragraph",
+        "value": "Ich habe mich redlich bemüht, all dies nicht zu sehr ausufern zu lassen. Dieses Buch ist ein",
+        "position": {
+          "page": 3,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page3_para_14",
+        "type": "paragraph",
+        "value": "Kompromiss aus meinen eigenen Idealen stets nach Perfektion zu streben und der Realität",
+        "position": {
+          "page": 3,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page3_para_15",
+        "type": "paragraph",
+        "value": "meiner eignen Faulheit. Würde ich es so schreiben, wie ich es mir erträume, ausgeschmückt",
+        "position": {
+          "page": 3,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page3_para_16",
+        "type": "paragraph",
+        "value": "mit allen möglichen ausschweifenden Zitaten aus allen Quellen die zur Entstehung dieses",
+        "position": {
+          "page": 3,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page3_para_17",
+        "type": "paragraph",
+        "value": "Werkes beigetragen haben, gespickt mit allen akademischen Stilmitteln, so hätte ich dieses",
+        "position": {
+          "page": 3,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page3_para_18",
+        "type": "paragraph",
+        "value": "Buch nie geschrieben, weil es wohl nie meinen Ansprüchen gerecht geworden wäre.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page3_para_19",
+        "type": "paragraph",
+        "value": "Da ich es aber doch irgendwie schreiben musste, entschied ich mich, beide Seiten der Medaille",
+        "position": {
+          "page": 3,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page3_para_20",
+        "type": "paragraph",
+        "value": "gleichermaßen zu enttäuschen. Ich hielt meine Faulheit davon fern sich einzumischen mit dem",
+        "position": {
+          "page": 3,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page3_para_21",
+        "type": "paragraph",
+        "value": "Versprechen, dass es nur eine Art kurze Geschichte all der Dinge wird die mir während den",
+        "position": {
+          "page": 3,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page3_para_22",
+        "type": "paragraph",
+        "value": "Jahrzehnten dieser seltsamen Reise begegnet sind und sie sicher nicht sehr lang werden wird.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page3_para_23",
+        "type": "paragraph",
+        "value": "Meine Perfektion knebelte ich mit dem Versprechen, ihr mindestens zu 80% gerecht zu werden.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page3_para_24",
+        "type": "paragraph",
+        "value": "Heraus gekommen ist etwas, was ich dann auch tatsächlich in die Realität umsetzen konnte,",
+        "position": {
+          "page": 3,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page3_para_25",
+        "type": "paragraph",
+        "value": "ohne zwischen Skylla und Charybtis zerrieben zu werden. Besser als nichts und etwas, mit dem",
+        "position": {
+          "page": 3,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page3_para_26",
+        "type": "paragraph",
+        "value": "ich gut leben kann.",
+        "position": {
+          "page": 3,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page3_para_27",
+        "type": "paragraph",
+        "value": "Da mir jeder nun hoffentlich mein Mea culpa abgekauft hat und weiter ließt, auch wenn ihm",
+        "position": {
+          "page": 3,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page3_para_28",
+        "type": "paragraph",
+        "value": "zeitweise nicht ganz klar ist worauf ich hinaus will, dem sei mein Dank gewiss, denn es gibt",
+        "position": {
+          "page": 3,
+          "paragraph_index": 28
+        }
+      }
+    ]
+  }
+}

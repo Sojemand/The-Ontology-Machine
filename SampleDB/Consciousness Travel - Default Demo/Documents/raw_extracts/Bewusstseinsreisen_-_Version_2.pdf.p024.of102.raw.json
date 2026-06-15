@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=024-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:06f40ade9ce82ee0ba7b5480aa917caacaacb59bb1cb87cf7da1e44d5551ba5b",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 24,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=024-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page24_para_0",
+        "type": "paragraph",
+        "value": "Nun war es allerdings so, dass auch während solchen Situationen Mustererkennungen nach",
+        "position": {
+          "page": 24,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page24_para_1",
+        "type": "paragraph",
+        "value": "dem gleichen Schema stattfanden. Auch dann noch, wenn sich das betreffende Muster",
+        "position": {
+          "page": 24,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page24_para_2",
+        "type": "paragraph",
+        "value": "innerhalb einer Kolonne anderer Fahrzeuge befand, wie es im dichten Verkehr relativ oft der",
+        "position": {
+          "page": 24,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page24_para_3",
+        "type": "paragraph",
+        "value": "Fall ist. Ich habe also eine für mich kritische Verkehrssituation vor mir und neben mir fließt",
+        "position": {
+          "page": 24,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page24_para_4",
+        "type": "paragraph",
+        "value": "Kolonnenverkehr und selbst dann noch taucht das Muster nach bekanntem Schema auf.",
+        "position": {
+          "page": 24,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page24_para_5",
+        "type": "paragraph",
+        "value": "Können sich meine Augen überhaupt so schnell bewegen um alle Nummernschilder der",
+        "position": {
+          "page": 24,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page24_para_6",
+        "type": "paragraph",
+        "value": "Kolonne zu scannen während ich versuche Auffahrunfälle zu vermeiden?",
+        "position": {
+          "page": 24,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page24_para_7",
+        "type": "paragraph",
+        "value": "Wie ich es auch drehe und wende, entweder kann meine Mustererkennung auf mein gesamtes",
+        "position": {
+          "page": 24,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page24_para_8",
+        "type": "paragraph",
+        "value": "Gesichtsfeld zugreifen und unterliegt dabei nicht dem „blurry“ Effekt den ich erfahre wenn ich",
+        "position": {
+          "page": 24,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page24_para_9",
+        "type": "paragraph",
+        "value": "Dinge außerhalb meines Fokus zu sehen versuche, oder meine Augen rennen permanent",
+        "position": {
+          "page": 24,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page24_para_10",
+        "type": "paragraph",
+        "value": "umher wie ein Hase auf Koks und ich leide dabei unter schwerer Amnesie. Beide Alternativen",
+        "position": {
+          "page": 24,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page24_para_11",
+        "type": "paragraph",
+        "value": "klingen für mich gleich absurd und irgendwie unglaubwürdig, aber eine davon muss es wohl",
+        "position": {
+          "page": 24,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page24_para_12",
+        "type": "paragraph",
+        "value": "sein und egal welche es nun ist, müssen wir anerkennen, dass wir es hier mit einem wahren",
+        "position": {
+          "page": 24,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page24_para_13",
+        "type": "paragraph",
+        "value": "Goliath eines Mechanismus zu tun haben, der Dinge tut und kann, die unserem",
+        "position": {
+          "page": 24,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page24_para_14",
+        "type": "paragraph",
+        "value": "Wachbewusstsein völlig unmöglich sind. Er arbeitet permanent und vollständig verborgen vor",
+        "position": {
+          "page": 24,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page24_para_15",
+        "type": "paragraph",
+        "value": "dem Licht unseres eigenen Gewahrseins. Dieser Mechanismus ist nicht nur da um Spaß an",
+        "position": {
+          "page": 24,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page24_para_16",
+        "type": "paragraph",
+        "value": "Nummernschildern zu haben, er erstreckt sich über alle Bereiche unseres Lebens und er hat",
+        "position": {
+          "page": 24,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page24_para_17",
+        "type": "paragraph",
+        "value": "überall seine Finger drin, wenn es darum geht, Sinn aus dem Chaos der Signale zu formen, die",
+        "position": {
+          "page": 24,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page24_para_18",
+        "type": "paragraph",
+        "value": "uns über unsere Sinne zuströmen. Wir entwickeln überhaupt erst ein Konzept der Welt um uns",
+        "position": {
+          "page": 24,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page24_para_19",
+        "type": "paragraph",
+        "value": "herum, weil dieser Mechanismus unserer Welt ihre Kategorien verleiht und erst dadurch Sinn",
+        "position": {
+          "page": 24,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page24_para_20",
+        "type": "paragraph",
+        "value": "entsteht.",
+        "position": {
+          "page": 24,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page24_para_21",
+        "type": "paragraph",
+        "value": "Welchen Umfang allein dieses System umfasst, könnte man sich vielleicht mit dem Bild",
+        "position": {
+          "page": 24,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page24_para_22",
+        "type": "paragraph",
+        "value": "vorstellen, welches Neo aus dem Film „Matrix“ sieht, wenn er am Ende des ersten Teils in den",
+        "position": {
+          "page": 24,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page24_para_23",
+        "type": "paragraph",
+        "value": "Korridor blickt und den Maschinencode sieht, der die gesamte Welt überzieht. Könnten wir",
+        "position": {
+          "page": 24,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page24_para_24",
+        "type": "paragraph",
+        "value": "sehen, was unsere Mustererkennung sieht, die Welt um uns herum würde uns wohl in einem",
+        "position": {
+          "page": 24,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page24_para_25",
+        "type": "paragraph",
+        "value": "ähnlichen Licht erscheinen. Unsere Welt wäre zwar nicht durch und durch grün, aber alles darin",
+        "position": {
+          "page": 24,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page24_para_26",
+        "type": "paragraph",
+        "value": "wäre ebenfalls mit dem „Code“ unserer Mustererkennung auf die gleiche Art durchdrungen. Sie",
+        "position": {
+          "page": 24,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page24_para_27",
+        "type": "paragraph",
+        "value": "steuert allerdings nicht nur mühelos und nahezu nahtlos, worauf wir unsere Aufmerksamkeit",
+        "position": {
+          "page": 24,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page24_para_28",
+        "type": "paragraph",
+        "value": "richten, sie löst auch permanent andere Systeme aus und dazu gehören auch die Trigger",
+        "position": {
+          "page": 24,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page24_para_29",
+        "type": "paragraph",
+        "value": "unserer Emotionen.",
+        "position": {
+          "page": 24,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

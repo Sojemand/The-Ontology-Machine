@@ -1,0 +1,6 @@
+{
+  "sample_analyses": {
+    "example": true
+  },
+  "schema_version": "kernel.create_taxonomy_to_sample_analyses.input.v1"
+}

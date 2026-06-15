@@ -1,0 +1,2333 @@
+[
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.master_taxonomy_release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.catalog_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.master_taxonomy_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.master_taxonomy_release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.master_taxonomy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].avoid_when",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].example_document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].field_slot_map",
+    "value_kind": "empty_object",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].label",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].promotion_rules[].slot",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].promotion_rules[].source_paths[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.projections[].when_to_use",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.release_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.release_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.projection_catalog.runtime_locale",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].cardinality",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].description",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].display_rank",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].label",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].query_role",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].scope",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].slot",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.promotion_slots[].value_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.release_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.release_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.release_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.runtime_locale",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.schema_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.bundle_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.ocr_plugin.force_backup_on_scan",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.ocr_plugin.preferred_plugin",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.profile_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.render.ocr_render_dpi",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.render.page_image_dpi",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.render.page_image_quality",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.render.serializer_quality_mode",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.scan.min_chars_per_page",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.scan.use_has_images",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.vision_route.images_always_vision",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.defaults.vision_route.pdf_scans_use_vision",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.policy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.ocr_policy.source_mode",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.release_fingerprint",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domain_markers.property[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domain_markers.technical[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.default_profile.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.fallback_projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.document_type_weight",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.field_signal_limit",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.field_weight",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.min_score",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.table_role_weight",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.defaults.resolution.table_signal_limit",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.policy_version",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.domain_markers.business[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.business.customer.communication.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domain_markers.community[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domain_markers.personal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.community.spiritual.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.domain_markers.business[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.finance.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.domain_markers.finance[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.domain_markers.health[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.health.care.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.domain_markers.business[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.legal.public_admin.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domain_markers.operations[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domain_markers.personal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domain_markers.technical[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.operations.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.domain_markers.business[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.domain_markers.legal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.people.identity.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.domain_markers.community[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.domain_markers.personal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.expression.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.domain_markers.community[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.domain_markers.health[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.domain_markers.people[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.domain_markers.personal[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.personal.wellbeing.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.allowed_fact_families[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.allowed_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.allowed_synthetic_section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.budgets.max_facts",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.budgets.max_section_chars",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.budgets.max_sections",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.budgets.max_table_rows",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.budgets.max_tables",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.rescue_families.document_header",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.rescue_families.invoice_financial",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.rescue_families.payment",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.document_types[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.domain_markers.administrative[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.domain_markers.business[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.domain_markers.operations[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.domain_markers.technical[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.domains[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.field_labels[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.party_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.section_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.table_roles[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.signals.text_markers[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.table_compaction.drop_text_only_rows",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.projection_overrides.technical.default.v1.table_compaction.max_rows_per_table",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  },
+  {
+    "artifact_kind": "runtime_semantic_assets_v1",
+    "json_path": "$.vision_policy_bundle.semantic_extraction_policy.source_mode",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "runtime_bundle"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "analysis_scope": "sample_set",
+  "quality": {
+    "example": true
+  },
+  "sample_ids": [],
+  "schema_version": "kernel.taxonomy_to_sample_analyses.v1",
+  "source_schema_version": "kernel.sample_analyses.v1",
+  "target": {
+    "example": true
+  },
+  "taxonomy_proposal": {
+    "example": true
+  },
+  "validation": {
+    "example": true
+  },
+  "unexpected_phase2_field": "example"
+}

@@ -1,0 +1,16 @@
+{
+  "normalizer_taxonomy.master.json": "sha256:8e6a4e501e799ec32078491ad81ba75d90e7cddad58dcc83f7396ec6b8ac6f9a",
+  "normalizer_taxonomy.business.customer.communication.default.v1.json": "sha256:e59d106377b3dbdeb7d5018d8bf2a90a7e1d3a2a99c837b826bf4d3ed1c97541",
+  "normalizer_taxonomy.community.spiritual.default.v1.json": "sha256:ee2883026f48ce1394cbcb22cf75c6171b713979d64374463678fe8fc8f9d2da",
+  "normalizer_taxonomy.finance.default.v1.json": "sha256:5e1c00a4f78d12afdf01dcdfbcc58339baf38bfb9545f6d3e54fea4e254863d5",
+  "normalizer_taxonomy.health.care.default.v1.json": "sha256:cf1f93d3bcce176a1a296d2417c2fb8b33c4ac21b63c4362dc792de67a7ce316",
+  "normalizer_taxonomy.housing.default.v1.json": "sha256:7579b72949f3454b72700b5e76c838526d03a17bf8e3ecc9423d30e091282234",
+  "normalizer_taxonomy.legal.public_admin.default.v1.json": "sha256:6dd4a25453c919f329e4125bb24b80da08c188233bc12b03a920f8cd1a5c095b",
+  "normalizer_taxonomy.operations.default.v1.json": "sha256:3bf0b6ef0cda30596f86e3480b316b9c0355a6c0b3f1d9119ffbe0b1540284a3",
+  "normalizer_taxonomy.people.identity.default.v1.json": "sha256:bc34e3cf3863af1021dd4af472d4e2bb9e0230cfb28fd03bebf334ec6fd9fe7f",
+  "normalizer_taxonomy.personal.wellbeing.default.v1.json": "sha256:211c436b210b0b7c45754f47f0bda5e25fbf99b7bdc956d2d059b685c2ee1774",
+  "normalizer_taxonomy.technical.default.v1.json": "sha256:9c6b128740f9c5c27968a4c4a515917123ed58a6af972638d271c261e4325228",
+  "semantic_release.recipe.json": "sha256:6209756e3433e8019ebb0bf6352c6ec2eeea9b32996604dcfc35219f05495ab1",
+  "semantic_release.normalized.json": "sha256:63774d5622e6114bad6161e1dcff76cfc053cd5d64656a693c3b32f9ebf4255d",
+  "runtime_semantic_assets.normalized.json": "sha256:6e7e16d51f2cfbf4d6195cc5e4688d6bc365e113e603b7d8a506a687c4fd6f4c"
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=039-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:ae7d58bed54f333a0d82b849d6199ecdd4764023fbdef2982ab66d5f7dda80df",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 39,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=039-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page39_para_0",
+        "type": "paragraph",
+        "value": "Ihr erinnert euch an den Moment, an dem euer Bewusstsein nicht mehr in der Lage zu sein",
+        "position": {
+          "page": 39,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page39_para_1",
+        "type": "paragraph",
+        "value": "schien einen eigenen Gedanken zu formen? Was blieb da übrig? Ihr hattet währenddessen",
+        "position": {
+          "page": 39,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page39_para_2",
+        "type": "paragraph",
+        "value": "nicht das Gefühl, irgendetwas verloren zu haben richtig? Und doch war etwas nicht mehr da.",
+        "position": {
+          "page": 39,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page39_para_3",
+        "type": "paragraph",
+        "value": "Die Stimme der Maschine verschwand, denn eure Gedanken sind eben auch nur ein Produkt",
+        "position": {
+          "page": 39,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page39_para_4",
+        "type": "paragraph",
+        "value": "derselben. Zurück blieb nur noch Gewahrsein in seiner reinsten Form. Dieses Gewahrsein bist",
+        "position": {
+          "page": 39,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page39_para_5",
+        "type": "paragraph",
+        "value": "du.",
+        "position": {
+          "page": 39,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page39_para_6",
+        "type": "paragraph",
+        "value": "Dies ist das wahre Unteilbare. Das, nach dem jeder Meditierende strebt. Das ist das „Dao“ der",
+        "position": {
+          "page": 39,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page39_para_7",
+        "type": "paragraph",
+        "value": "Daoisten, die höchste Wirklichkeit des Seins, das „Christbewusstsein“ der abrahamischen",
+        "position": {
+          "page": 39,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page39_para_8",
+        "type": "paragraph",
+        "value": "Religionen, das „Sama“ der Sufisten, das „Ich bin“ Gurdjieffs, die „Quelle der Magie“ Don",
+        "position": {
+          "page": 39,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page39_para_9",
+        "type": "paragraph",
+        "value": "Juan’s, das „Allsehende Auge“ des Re’s und das grundlegende Mysterium so gut wie aller",
+        "position": {
+          "page": 39,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page39_para_10",
+        "type": "paragraph",
+        "value": "anderen okkulten, religiösen und traditionellen Lehren aller Zeiten. Wenn wir in den Spiegel",
+        "position": {
+          "page": 39,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page39_para_11",
+        "type": "paragraph",
+        "value": "blicken und das Auge sich sieht, dann sehen wir zurück an den Anfang dessen was uns erst zu",
+        "position": {
+          "page": 39,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page39_para_12",
+        "type": "paragraph",
+        "value": "bewussten Wesen macht.",
+        "position": {
+          "page": 39,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page39_para_13",
+        "type": "paragraph",
+        "value": "Und das ist es dann auch, wodurch uns die Informationen der Maschine gewahr werden, dieses",
+        "position": {
+          "page": 39,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page39_para_14",
+        "type": "paragraph",
+        "value": "gedankenlose, ziellose und formlose Etwas, welches wir „Gewahrsein“ nennen und die Quelle",
+        "position": {
+          "page": 39,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page39_para_15",
+        "type": "paragraph",
+        "value": "bildet an der alles beginnt. Und ich weiß auch, dass ich mir hier sicher Widerspruch von",
+        "position": {
+          "page": 39,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page39_para_16",
+        "type": "paragraph",
+        "value": "gewissen Seiten einhandeln werde wenn ich sage, dass dieses Gewahrsein nicht nur eine",
+        "position": {
+          "page": 39,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page39_para_17",
+        "type": "paragraph",
+        "value": "exklusive Eigenschaft des Zwerges ist, die als einzige nicht aus der Maschine heraus entsteht,",
+        "position": {
+          "page": 39,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page39_para_18",
+        "type": "paragraph",
+        "value": "noch ihr unterliegt, sondern auch, dass dieses Etwas unabhängig davon existiert. Wie dem",
+        "position": {
+          "page": 39,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page39_para_19",
+        "type": "paragraph",
+        "value": "auch sei, das ist ein Punkt über den sich streiten lässt, der aber im Folgenden von keinerlei",
+        "position": {
+          "page": 39,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page39_para_20",
+        "type": "paragraph",
+        "value": "Bedeutung ist. Also lassen wir den Streit über eine Seele doch beiseite und konzentrieren wir",
+        "position": {
+          "page": 39,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page39_para_21",
+        "type": "paragraph",
+        "value": "uns auf das was da vor uns liegt. Du siehst also die Welt nicht „durch“ deine Augen, riechst sie",
+        "position": {
+          "page": 39,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page39_para_22",
+        "type": "paragraph",
+        "value": "nicht durch deine Nase, hörst sie nicht durch deine Ohren und fühlst sie nicht durch deinen",
+        "position": {
+          "page": 39,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page39_para_23",
+        "type": "paragraph",
+        "value": "Tastsinn. Dies sind nur die Kanäle, durch die Reize von der äußeren Welt in die Maschine",
+        "position": {
+          "page": 39,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page39_para_24",
+        "type": "paragraph",
+        "value": "hinein fließen, und nachdem die Maschine mit all ihren dunklen Systemen all das gefiltert,",
+        "position": {
+          "page": 39,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page39_para_25",
+        "type": "paragraph",
+        "value": "bewertet, sortiert und neu zusammengesetzt hat, präsentiert sie deinem Gewahrsein ein Bild,",
+        "position": {
+          "page": 39,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page39_para_26",
+        "type": "paragraph",
+        "value": "welches dann zu deiner Realität wird.",
+        "position": {
+          "page": 39,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page39_para_27",
+        "type": "paragraph",
+        "value": "Hast du dich noch nie gefragt, warum du scheinbar riechen kannst, ohne den Signalfluss von",
+        "position": {
+          "page": 39,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page39_para_28",
+        "type": "paragraph",
+        "value": "deinen 10 Millionen Riechzellen in die betreffenden Hirnregionen zu bemerken? Oder warum",
+        "position": {
+          "page": 39,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page39_para_29",
+        "type": "paragraph",
+        "value": "nur dein kleiner Zeh schmerzt wenn du ihn an einer Ecke stößt, der Signalstrom dieses",
+        "position": {
+          "page": 39,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "active_database": {
+    "example": true
+  },
+  "artifact_tree": {
+    "example": true
+  },
+  "blocking_reasons": [],
+  "database_emptiness": "empty",
+  "schema_version": "kernel.active_database_state.v1",
+  "semantic_release_state": "unknown",
+  "state_snapshot_id": "state_snapshot_id_example",
+  "unexpected_phase2_field": "example"
+}

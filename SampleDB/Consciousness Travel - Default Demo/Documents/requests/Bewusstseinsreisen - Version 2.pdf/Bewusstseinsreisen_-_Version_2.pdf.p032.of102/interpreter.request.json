@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=032-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:d63c2c5644f9b3fb89ff3d815be66943f6f0b4cb2594da8bc1d9ef058e281b8d",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 32,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=032-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 32,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_032.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page32_para_0",
+        "type": "paragraph",
+        "value": "erfahren werden. Es demonstriert uns auch, dass Körper und Geist auf eine Art miteinander",
+        "position": {
+          "page": 32,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page32_para_1",
+        "type": "paragraph",
+        "value": "verflochten sind, die weit tiefer greift als wir uns das denken oder eingestehen wollen. Unser",
+        "position": {
+          "page": 32,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page32_para_2",
+        "type": "paragraph",
+        "value": "Bewusstsein, oder besser, das Erleben der Welt und des Ichs durch die Augen der Maschine,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page32_para_3",
+        "type": "paragraph",
+        "value": "ist derart abhängig von der Art der Funktion der Maschine, dass sich kaum eine vernünftige",
+        "position": {
+          "page": 32,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page32_para_4",
+        "type": "paragraph",
+        "value": "Grenze ziehen lässt, zwischen dem was Maschine und was Erleben ist. Während der Flucht,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page32_para_5",
+        "type": "paragraph",
+        "value": "hast du nicht einen einzigen Gedanken an das verschwendet, was dir noch vor und während",
+        "position": {
+          "page": 32,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page32_para_6",
+        "type": "paragraph",
+        "value": "deines kleinen Trainings als wichtig erschien. Alle Vorhaben und Sorgen, ja deine gesamte",
+        "position": {
+          "page": 32,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page32_para_7",
+        "type": "paragraph",
+        "value": "Weltanschauung haben sich, als der Terror über dich herein brach, so gründlich verändert,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page32_para_8",
+        "type": "paragraph",
+        "value": "dass du jetzt eine völlig andere Person bist. Du hast von einem Augenblick auf den anderen,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page32_para_9",
+        "type": "paragraph",
+        "value": "anders gefühlt, anders gedacht und anders gehandelt, ganz so, als hätte eine andere Person",
+        "position": {
+          "page": 32,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page32_para_10",
+        "type": "paragraph",
+        "value": "plötzlich von dir Besitz ergriffen.",
+        "position": {
+          "page": 32,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page32_para_11",
+        "type": "paragraph",
+        "value": "Wenn wir uns kurz darüber bewusst werden, was unseren Körper antreibt und wie unser",
+        "position": {
+          "page": 32,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page32_para_12",
+        "type": "paragraph",
+        "value": "Bewusstsein damit verbunden ist, so müssen wir auch erkennen, dass es sich hier nicht um",
+        "position": {
+          "page": 32,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page32_para_13",
+        "type": "paragraph",
+        "value": "eine Einbahnstraße handelt. Unsere physischen Zustände wirken sich direkt auf unser mentales",
+        "position": {
+          "page": 32,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page32_para_14",
+        "type": "paragraph",
+        "value": "Erleben aus. Eine aus der Balance gebrachte Gehirnchemie, geht mit allerlei Beschwerden",
+        "position": {
+          "page": 32,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page32_para_15",
+        "type": "paragraph",
+        "value": "einher, von Depressionen, über irrationales Verhalten, bis zu Wahnvorstellungen und was es da",
+        "position": {
+          "page": 32,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page32_para_16",
+        "type": "paragraph",
+        "value": "noch so alles gibt. Alle Arten des Mangels oder der Überversorgung im gesamten Körper,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page32_para_17",
+        "type": "paragraph",
+        "value": "haben in irgendeiner Art auch Auswirkungen auf den Geist. Alle Schäden und Störungen im",
+        "position": {
+          "page": 32,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page32_para_18",
+        "type": "paragraph",
+        "value": "biologischen Ablauf, haben Auswirkungen auf unsere Wahrnehmung und unser Verhalten. Im",
+        "position": {
+          "page": 32,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page32_para_19",
+        "type": "paragraph",
+        "value": "Grunde macht es wenig Sinn eine Grenze zwischen Geist und Materie ziehen zu wollen,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page32_para_20",
+        "type": "paragraph",
+        "value": "zumindest nicht im traditionellen Sinn.",
+        "position": {
+          "page": 32,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page32_para_21",
+        "type": "paragraph",
+        "value": "Solche Wechselbeziehungen wirken bereits bei winzigen Kausalketten, die zum Beispiel mit",
+        "position": {
+          "page": 32,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page32_para_22",
+        "type": "paragraph",
+        "value": "einem Schluck Kaffee beginnen. Das Koffein darin erhöht unseren Herzschlag ein wenig,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page32_para_23",
+        "type": "paragraph",
+        "value": "verengt die Blutgefäße, lässt ein wenig Dopamin im Gehirn zirkulieren. Wir sehen das als ein",
+        "position": {
+          "page": 32,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page32_para_24",
+        "type": "paragraph",
+        "value": "Morgenritual an, welches unsere Gewohnheiten befriedigt und wir uns selbst daraufhin wohl",
+        "position": {
+          "page": 32,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page32_para_25",
+        "type": "paragraph",
+        "value": "fühlen. Dieser kleine Chemiekick verursacht, oder trägt zumindest dazu bei, unsere Einstellung",
+        "position": {
+          "page": 32,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page32_para_26",
+        "type": "paragraph",
+        "value": "für den kommenden Tag spürbar zu beeinflussen. Verpassen wir unseren geliebten Kaffee,",
+        "position": {
+          "page": 32,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page32_para_27",
+        "type": "paragraph",
+        "value": "beschweren sich unsere Gewohnheiten, es bleibt der Dopaminkick aus, es leidet die Laune und",
+        "position": {
+          "page": 32,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page32_para_28",
+        "type": "paragraph",
+        "value": "schon hat der gesamte Tag, samt unseren Entscheidungen und Gefühlen, eine andere",
+        "position": {
+          "page": 32,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page32_para_29",
+        "type": "paragraph",
+        "value": "Richtung eingeschlagen.",
+        "position": {
+          "page": 32,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page32_para_30",
+        "type": "paragraph",
+        "value": "Aber ist das nicht schon wieder ein weiteres Paradox? Wenn das was ich fühle und denke und",
+        "position": {
+          "page": 32,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page32_para_31",
+        "type": "paragraph",
+        "value": "was mein Körper mir erlaubt zu tun, das Produkt einer ausgefeilten Balance ist und ich im",
+        "position": {
+          "page": 32,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

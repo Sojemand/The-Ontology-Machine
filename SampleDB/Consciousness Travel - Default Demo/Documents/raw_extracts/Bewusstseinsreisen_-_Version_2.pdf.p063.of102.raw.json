@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=063-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:1408d98735da81346119462b85de23d1646b5ddd5438871cf61aaf82600b61bf",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 63,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=063-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page63_para_0",
+        "type": "paragraph",
+        "value": "mit ihnen, wie es Menschen gibt und im Großen und Ganzen scheinen sie ausgesprochen",
+        "position": {
+          "page": 63,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page63_para_1",
+        "type": "paragraph",
+        "value": "subjektiv zu wirken, aber eben nicht in allen Aspekten. Abgesehen davon, dass jede Substanz",
+        "position": {
+          "page": 63,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page63_para_2",
+        "type": "paragraph",
+        "value": "ihre eigene „Qualität“ hat, die alle gleich wahrnehmen, denn ein LSD Trip wird wohl niemand",
+        "position": {
+          "page": 63,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page63_para_3",
+        "type": "paragraph",
+        "value": "erwarten wenn er Gras raucht, so rufen bestimmte Substanzen auch regelmäßig Phänomene",
+        "position": {
+          "page": 63,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page63_para_4",
+        "type": "paragraph",
+        "value": "hervor, die es eigentlich nicht geben dürfte. Oder besser, unser Gehirn dürfte nicht in der Lage",
+        "position": {
+          "page": 63,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page63_para_5",
+        "type": "paragraph",
+        "value": "sein sie hervorzubringen.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page63_para_6",
+        "type": "paragraph",
+        "value": "Substanzen wie LSD und im Besonderen DMT, scheinen etwas zu bewirken, was von Außen",
+        "position": {
+          "page": 63,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page63_para_7",
+        "type": "paragraph",
+        "value": "betrachtet schier unglaublich zu sein scheint. Die meisten kennen sicher die Darstellung eines",
+        "position": {
+          "page": 63,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page63_para_8",
+        "type": "paragraph",
+        "value": "Tesserakts, eines vierdimensionalen Würfels. Die Abbildung sieht recht verwirrend aus und",
+        "position": {
+          "page": 63,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page63_para_9",
+        "type": "paragraph",
+        "value": "wenn man sich einmal darüber klar wird, dass ein solches Gebilde ineinander gefaltete",
+        "position": {
+          "page": 63,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page63_para_10",
+        "type": "paragraph",
+        "value": "Räume darstellen soll, wird man sich schnell bewusst, wie chancenlos wir doch sind, uns das",
+        "position": {
+          "page": 63,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page63_para_11",
+        "type": "paragraph",
+        "value": "real vorzustellen. So sehr wir uns auch bemühen, so ist unser Verstand auf dreidimensionale",
+        "position": {
+          "page": 63,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page63_para_12",
+        "type": "paragraph",
+        "value": "Vorstellungen beschränkt. Kein noch so kluger Mensch kann sich vier Raumdimensionen",
+        "position": {
+          "page": 63,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page63_para_13",
+        "type": "paragraph",
+        "value": "bildlich korrekt vorstellen, ohne sie auf eine dreidimensionale Projektion herunterzubrechen.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page63_para_14",
+        "type": "paragraph",
+        "value": "Nun gibt es aber für jene, die DMT einmal in ausreichender Menge intus hatten die Tatsache,",
+        "position": {
+          "page": 63,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page63_para_15",
+        "type": "paragraph",
+        "value": "dass sie währenddessen Geometrien sahen und auch verstanden, die sich nicht in einem",
+        "position": {
+          "page": 63,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page63_para_16",
+        "type": "paragraph",
+        "value": "dreidimensionalen Raum darstellen lassen. Geometrien die sie, nach Abklingen der Wirkung,",
+        "position": {
+          "page": 63,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page63_para_17",
+        "type": "paragraph",
+        "value": "selbst nicht mehr begreifen konnten. Es bleibt aber die Gewissheit zurück, diese Gebilde",
+        "position": {
+          "page": 63,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page63_para_18",
+        "type": "paragraph",
+        "value": "wirklich verstanden und sie als natürlich und keineswegs verwirrend wahrgenommen zu",
+        "position": {
+          "page": 63,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page63_para_19",
+        "type": "paragraph",
+        "value": "haben. Man mag jetzt anführen, dass sie dabei einer Täuschung aufsaßen und dies in",
+        "position": {
+          "page": 63,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page63_para_20",
+        "type": "paragraph",
+        "value": "Wirklichkeit niemals der Fall war, aber das Erlebte einfach zu negieren, weil es nicht sein",
+        "position": {
+          "page": 63,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page63_para_21",
+        "type": "paragraph",
+        "value": "kann, ist keine valide Form der Kritik. Das Auftauchen seltsam unmöglicher geometrischer",
+        "position": {
+          "page": 63,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page63_para_22",
+        "type": "paragraph",
+        "value": "Muster, ist nicht allein auf DMT beschränkt, sondern tritt mehr oder weniger ausgeprägt auch",
+        "position": {
+          "page": 63,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page63_para_23",
+        "type": "paragraph",
+        "value": "bei anderen Halluzinogenen auf. Wir kennen den Ursprung nicht, aber die Existenz dürfte",
+        "position": {
+          "page": 63,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page63_para_24",
+        "type": "paragraph",
+        "value": "schwerlich zu bestreiten sein. Ein Erlebnis, welches jeder scheinbar auf die gleiche Weise",
+        "position": {
+          "page": 63,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page63_para_25",
+        "type": "paragraph",
+        "value": "wahrnimmt.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page63_para_26",
+        "type": "paragraph",
+        "value": "Etwas alltagsbezogener wird es, wenn wir uns ein anderes, selteneres Phänomen ansehen.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page63_para_27",
+        "type": "paragraph",
+        "value": "Dies fällt unter die Kategorie des zufälligen Auftretens, völlig ohne den Einfluss psychoaktiver",
+        "position": {
+          "page": 63,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page63_para_28",
+        "type": "paragraph",
+        "value": "Substanzen. Wir alle halten es für selbstverständlich, die Welt durch unsere Augen zu sehen.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page63_para_29",
+        "type": "paragraph",
+        "value": "Wir empfinden die Tatsache, stets nur eine Seite eines Objektes zu sehen, als völlig normal.",
+        "position": {
+          "page": 63,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page63_para_30",
+        "type": "paragraph",
+        "value": "Wir wissen, dass jedes Objekt auch eine Rückseite hat, obwohl wir sie nicht sehen. Wir",
+        "position": {
+          "page": 63,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page63_para_31",
+        "type": "paragraph",
+        "value": "wissen, dass, egal wie wir unsere Augen verdrehen und das Objekt auch wenden, wir niemals",
+        "position": {
+          "page": 63,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

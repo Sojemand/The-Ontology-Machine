@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:07:56.478247+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 101,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.96,
+      "reason": "A philosophical book page is visible with a heading and multiple prose paragraphs.",
+      "matched_signals": [
+        "heading",
+        "prose paragraphs",
+        "book page"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page101_Segment1",
+        "unit_kind": "title_line",
+        "page": 101,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Überlegungen zum Ende",
+        "function": "section_closure_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page101_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 101,
+        "sequence": 2,
+        "section": "Überlegungen zum Ende",
+        "label": null,
+        "text": "Wer dieses kleine Werk bis hier hin gelesen hat, der kann sich meines Dankes gewiss sein und ich will an dieser Stelle zum Abschluss noch eine kleine Anmerkung los werden, die für mich eine besondere Bedeutung hat.",
+        "function": "closing_thanks_and_preface",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page101_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 101,
+        "sequence": 3,
+        "section": "Überlegungen zum Ende",
+        "label": null,
+        "text": "Viele der Fragen, die sich mir noch immer stellen, kann ich nicht beantworten und wenn sich mehrere Menschen zusammentun um sich diesen zu widmen, dann Endet das meist in unfruchtbaren Versuchen, zugrunde gerichtet durch unser eigenes Wesen. Ich habe das in der Vergangenheit so oft beobachtet, dass es mir fast die Hoffnung raubt und ich bin bisher zu keiner Einsicht gelangt, wie man das anders handhaben könnte. Diese Dinge scheinen an etwas zu rühren, wogegen wir uns auf eine Art zu wehren scheinen, die uns weder direkt bewusst, noch irgendwie zu umgehen ist. Ich frage mich schon lange, ob es überhaupt Menschen gibt, die sich mit diesen Dingen ernsthaft beschäftigen oder beschäftigen wollen. Traumphilosophen gibt es wahrlich genug und sie preisen ihre Pamphlete an jeder Ecke lautstark an, doch was hat es uns bisher genutzt? Nichts. Und so endet dieses kleine Buch, mit dem Wissen, dass wir uns am Ende genau dort wiederfinden, wo wir begannen.",
+        "function": "philosophical_closing_reflection",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page101_Segment4",
+        "unit_kind": "answer_statement",
+        "page": 101,
+        "sequence": 4,
+        "section": "Überlegungen zum Ende",
+        "label": null,
+        "text": "Willkommen in der wirklichen Welt und nun geht eurer Wege, die Zukunft wartet.",
+        "function": "farewell_admonition",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page101_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 101,
+        "sequence": 5,
+        "section": "Überlegungen zum Ende",
+        "label": null,
+        "text": "Und wie versprochen, für jeden den es interessiert, nachfolgend einige Quellen, aus denen ich über die Jahre Inspiration geschöpft habe. Sie sind nicht vollständig, weil ich bestimmt das ein oder andere Buch schon vergessen habe und sie beinhaltet auch nicht die unzähligen Interviews und Podcasts mit prominenten Persönlichkeiten aus diesen und angrenzenden Bereichen und auch nicht meine eigenen Reisen durch die Welt der Menschen. Aus legalen Gründen natürlich auch nicht meine eigenen Erfahrungen mit allerlei psychoaktiven Substanzen in teils aberwitzigen Dosierungen.",
+        "function": "source_list_introduction",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Schlusskapitel, Reflexion, Dank, Quellenankündigung"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:7f70b6d073bff3363b725eae236c52fd838548c03a6647f4d9b543b7cea5a58f",
+    "created_at": null,
+    "modified_at": null
+  }
+}

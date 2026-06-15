@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:07:33.613892+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.92,
+      "reason": "This page is a prose page from a philosophical/nonfiction book with continuous argumentative paragraphs.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "philosophical argumentation",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 100,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=100-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page100_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 100,
+        "sequence": 1,
+        "text": "stabilisiert und unser Ich konsistent hält, das habe ich hoffentlich in diesem Buch deutlich genug dargelegt, ist unser Drang uns selbst gegenüber als Widerspruchsfrei zu erscheinen. Was wir aber nicht sind, nicht einmal annähernd.",
+        "function": "assertion_of_human_self_contradiction",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page100_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 100,
+        "sequence": 2,
+        "text": "Was bedeutet es nun, wenn jemand aus einer solchen Erfahrung Beruhigung, Befriedigung und ein Gefühl des „Eins Sein“ schöpft? Ist das nicht ein noch tieferes Abgleiten in den Traum, wo man sich vor seinen eigenen Widersprüchen noch besser verstecken kann, sie noch weniger sehen muss? Und was sagt es uns, wenn uns das ein Gefühl vermittelt, dass dies sogar gut, heilsam und erstrebenswert sei? Das ist so, als würde man sich nur noch tiefer in das Kissen kuscheln, die Decke noch weiter über den Kopf ziehen, um dieses warme und gemütliche Gefühl des Bettes noch besser, noch umfassender spüren zu können und um die grelle Sonne auszusperren und alle Geräusche zu dämpfen, die uns zurufen, dass es Zeit zum aufstehen sei.",
+        "function": "critique_of_comforting_self_deception",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page100_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 100,
+        "sequence": 3,
+        "text": "Alle Menschen, die sich mit solchen Phänomenen beschäftigen, scheinen nur allzu bereitwillig diesen Weg zu gehen, wenn er nur Wohlgefallen und Schmerzfreiheit verspricht und deshalb nenne ich sie Traumphilosophen. Traumphilosophen, die sich an ihren eigenen Fürzen berauschen, anstatt sich die Decke vom Kopf zu reißen und in die grelle und schmerzhafte Morgensonne zu blicken und endlich aufzustehen. So werden auch nur die positiv empfundenen Erfahrungen als nützlich und erstrebenswert betrachtet und das Abgleiten in „Horrortrips“ als Fehlschlag gesehen, dem es unter allen Umständen entgegenzuwirken gilt. Was diese Dinge erst zu einem Horrortrip machen, ja, das lassen wir mal lieber unangetastet. Solche Dinge sind gefährlich, denn sie können bleibende Schäden in der Psyche verursachen und das wollen Traumphilosophen nicht verantworten müssen.",
+        "function": "polemical_critique_of_selective_valuation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page100_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 100,
+        "sequence": 4,
+        "text": "Ich weiß, das ist wieder eine recht zynische Betrachtung, aber sie entsteht aus dem Unverständnis dieser einseitigen Bevorzugung der Dinge die da vor uns liegen und die teilweise vehement ignoriert werden. Wo sind diejenigen, die dem Gestank unter der eigenen Bettdecke überdrüssig sind und sich nach frischer Luft sehnen? Warum hört man von ihnen nichts?",
+        "function": "self_reflective_justification_and_challenge",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Philosophische Prosa über Selbstwiderspruch, Traumphilosophen, Horrortrips"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=100-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:3c28231c031c473eebdcdcac4aa4371570608ab070c666c9146b5d3119abb092",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "scope_profiles": {
+    "pipeline_run": {
+      "optimizer": {
+        ".pdf": [
+          "pdf-pymupdf",
+          "renderer-pdf"
+        ],
+        ".doc": [
+          "docx-python",
+          "renderer-office"
+        ],
+        ".docx": [
+          "docx-python",
+          "renderer-office"
+        ],
+        ".odt": [
+          "odt-odfpy",
+          "renderer-office"
+        ],
+        ".rtf": [
+          "rtf-reader",
+          "renderer-office"
+        ],
+        ".eml": [
+          "mail-rfc822"
+        ],
+        ".emlx": [
+          "mail-rfc822"
+        ],
+        ".mbox": [
+          "mail-rfc822"
+        ],
+        ".msg": [
+          "mail-outlook-msg"
+        ],
+        ".oft": [
+          "mail-outlook-msg"
+        ],
+        ".pst": [
+          "mail-outlook-store"
+        ],
+        ".ost": [
+          "mail-outlook-store"
+        ],
+        ".txt": [
+          "renderer-html"
+        ],
+        ".md": [
+          "renderer-html"
+        ],
+        ".markdown": [
+          "renderer-html"
+        ],
+        ".yaml": [
+          "renderer-html"
+        ],
+        ".yml": [
+          "renderer-html"
+        ],
+        ".toml": [
+          "renderer-html"
+        ],
+        ".ini": [
+          "renderer-html"
+        ],
+        ".cfg": [
+          "renderer-html"
+        ],
+        ".conf": [
+          "renderer-html"
+        ],
+        ".env": [
+          "renderer-html"
+        ],
+        ".properties": [
+          "renderer-html"
+        ]
+      }
+    }
+  },
+  "fallback_for_other_scopes": {}
+}

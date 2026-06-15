@@ -1,0 +1,381 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=097-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:419109f8f176a14a5b17c331dc55554afbba5340dd6cf3b9891ef3bcdbf3f305",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 97,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=097-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 97,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_097.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page97_para_0",
+        "type": "paragraph",
+        "value": "völlig unklar. Jeder mag darüber seine eigenen Vorstellungen haben, aber richtige Regeln, die",
+        "position": {
+          "page": 97,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page97_para_1",
+        "type": "paragraph",
+        "value": "sich universell anwenden lassen, die akademisch niedergeschrieben sind und auf die man",
+        "position": {
+          "page": 97,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page97_para_2",
+        "type": "paragraph",
+        "value": "sich beziehen kann, die gibt es nicht.",
+        "position": {
+          "page": 97,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page97_para_3",
+        "type": "paragraph",
+        "value": "Ließe sich ein MRT Muster bei allen Menschen erkennen, die ihr Gewahrsein\nändern?",
+        "position": {
+          "page": 97,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page97_para_4",
+        "type": "paragraph",
+        "value": "Da wir ja über eine bildgebende Technologie verfügen, die, wenn auch nur grob, Hirnaktivität",
+        "position": {
+          "page": 97,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page97_para_5",
+        "type": "paragraph",
+        "value": "abbilden kann und wir das auch benutzen, um der Christbaumbeleuchtung des Hirns auf LSD",
+        "position": {
+          "page": 97,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page97_para_6",
+        "type": "paragraph",
+        "value": "zuzusehen, warum wenden dir das nicht mal auf andere Zustände an? Gäbe es vielleicht",
+        "position": {
+          "page": 97,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page97_para_7",
+        "type": "paragraph",
+        "value": "Muster, die bei allen gleich auftreten, wenn sich das Gewahrsein verändert? Man kann das ja",
+        "position": {
+          "page": 97,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page97_para_8",
+        "type": "paragraph",
+        "value": "bewusst beeinflussen und es stellen sich im Prinzip keine Schwierigkeiten dabei in den Weg,",
+        "position": {
+          "page": 97,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page97_para_9",
+        "type": "paragraph",
+        "value": "wenn man das unter einem MRT tut. Ich fände das zumindest einmal eine Studie wert, denn",
+        "position": {
+          "page": 97,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page97_para_10",
+        "type": "paragraph",
+        "value": "wenn man ein Muster erkennt und dies dann auch mit anderen Funktionen in Verbindung",
+        "position": {
+          "page": 97,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page97_para_11",
+        "type": "paragraph",
+        "value": "bringen kann, dann ergäben sich vielleicht Ansätze, wie man der Sache näher kommen kann.",
+        "position": {
+          "page": 97,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page97_para_12",
+        "type": "paragraph",
+        "value": "Wieso kann sich unser Gehirn Konstrukte ausdenken, die es im Nachhinein\nselbst nicht mehr versteht?",
+        "position": {
+          "page": 97,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page97_para_13",
+        "type": "paragraph",
+        "value": "Ich habe ja bereits den seltsamen Vorgang angesprochen, dass das Gehirn auf bestimmten",
+        "position": {
+          "page": 97,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page97_para_14",
+        "type": "paragraph",
+        "value": "Drogen Geometrie zu verstehen scheint, die sich nicht in unser dreidimensionales",
+        "position": {
+          "page": 97,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page97_para_15",
+        "type": "paragraph",
+        "value": "Verständnis einordnen lässt. Auch die Tatsache, dass sich eine für uns normale",
+        "position": {
+          "page": 97,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page97_para_16",
+        "type": "paragraph",
+        "value": "dreidimensionale Wahrnehmung von unser Umgebung auf eine Art ändern kann, welche uns",
+        "position": {
+          "page": 97,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page97_para_17",
+        "type": "paragraph",
+        "value": "dann Objekte oder Räume ohne „Rückseite“, also in ihrer Gesamtheit erscheinen lässt. Ich",
+        "position": {
+          "page": 97,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page97_para_18",
+        "type": "paragraph",
+        "value": "muss da noch einmal darauf hinweisen wie unsinnig das ist. Diese Dinge haben keinerlei",
+        "position": {
+          "page": 97,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page97_para_19",
+        "type": "paragraph",
+        "value": "Grundlage in unserem täglichen Erleben, erfüllen keine Funktion und sollten nicht möglich",
+        "position": {
+          "page": 97,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page97_para_20",
+        "type": "paragraph",
+        "value": "sein. In unserem täglichen Leben können wir diese Dinge nicht tun, egal wie sehr wir uns",
+        "position": {
+          "page": 97,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page97_para_21",
+        "type": "paragraph",
+        "value": "auch anstrengen. Diese Dinge bleiben für uns unvorstellbar. Aber scheinbar hat unser",
+        "position": {
+          "page": 97,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page97_para_22",
+        "type": "paragraph",
+        "value": "Denkapparat die Fähigkeit, diese Dinge hervorzubringen.",
+        "position": {
+          "page": 97,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page97_para_23",
+        "type": "paragraph",
+        "value": "Was mich daran besonders auf die Palme treibt ist, dass diese Dinge keineswegs nur obskure",
+        "position": {
+          "page": 97,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page97_para_24",
+        "type": "paragraph",
+        "value": "Einzelfälle sind, die sich auch durch Wahnvorstellungen oder Täuschungen wegerklären",
+        "position": {
+          "page": 97,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page97_para_25",
+        "type": "paragraph",
+        "value": "lassen könnten. Erowid.org ist zum Beispiel die größte mir bekannte Datenbank, in denen",
+        "position": {
+          "page": 97,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page97_para_26",
+        "type": "paragraph",
+        "value": "Menschen ihre Erfahrungen mit allen möglichen Substanzen veröffentlichen können und sucht",
+        "position": {
+          "page": 97,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page97_para_27",
+        "type": "paragraph",
+        "value": "man unter DMT oder LSD nach solchen Berichten, könnte man Bücher füllen. Sie beinhalten",
+        "position": {
+          "page": 97,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page97_para_28",
+        "type": "paragraph",
+        "value": "alle Elemente, angefangen von dieser Art Geometrie, bis hin zu räumlichen Wahrnehmungen,",
+        "position": {
+          "page": 97,
+          "paragraph_index": 28
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

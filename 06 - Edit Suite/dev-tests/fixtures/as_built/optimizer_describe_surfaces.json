@@ -1,0 +1,142 @@
+[
+  {
+    "module_key": "optimizer",
+    "surface_id": "optimizer.settings",
+    "label": "Settings",
+    "kind": "settings",
+    "owner": "optimizer",
+    "storage_kind": "yaml_file",
+    "source_path": "config/config.yaml",
+    "editable": true,
+    "validation": {
+      "mode": "owner_contract",
+      "fail_closed": true
+    },
+    "preview": [
+      "form",
+      "yaml",
+      "diff"
+    ],
+    "operation_links": [],
+    "runtime_impact": "next_run",
+    "drift_status": "explicit_file",
+    "section": "Settings",
+    "field_groups": [
+      {
+        "label": "Processing",
+        "fields": [
+          "max_file_size_mb",
+          "max_blocks_per_file",
+          "max_cell_text_length",
+          "processing_order",
+          "plugin_timeout_seconds",
+          "parallel_workers"
+        ]
+      },
+      {
+        "label": "Rendering/Layout",
+        "fields": [
+          "render_dpi",
+          "render_width_px",
+          "render_height_px",
+          "page_margin_pt",
+          "default_font_size_pt",
+          "code_font_size_pt",
+          "heading_font_size_pt"
+        ]
+      }
+    ]
+  },
+  {
+    "module_key": "optimizer",
+    "surface_id": "optimizer.ocr_prompt",
+    "label": "LLM-OCR Prompt",
+    "kind": "prompt_bundle",
+    "owner": "optimizer",
+    "storage_kind": "text_file",
+    "source_path": "config/optimizer_ocr_prompt.md",
+    "editable": true,
+    "validation": {
+      "mode": "owner_contract",
+      "fail_closed": true
+    },
+    "preview": [
+      "prompt",
+      "diff"
+    ],
+    "operation_links": [],
+    "runtime_impact": "next_run",
+    "drift_status": "explicit_file",
+    "section": "Prompts/Assets"
+  },
+  {
+    "module_key": "optimizer",
+    "surface_id": "optimizer.output_contract_preview",
+    "label": "Output Contract Preview",
+    "kind": "inspection",
+    "owner": "optimizer",
+    "storage_kind": "derived_readonly",
+    "source_path": "ingestion_layer_vision/models/raw_workflow.py",
+    "editable": false,
+    "validation": {
+      "mode": "owner_contract",
+      "fail_closed": false
+    },
+    "preview": [
+      "summary",
+      "json"
+    ],
+    "operation_links": [],
+    "runtime_impact": "read_only_reference",
+    "drift_status": "implicit_code_default",
+    "section": "Preview/Drift"
+  },
+  {
+    "module_key": "optimizer",
+    "surface_id": "optimizer.debug_capabilities",
+    "label": "Debug Capabilities",
+    "kind": "capability_summary",
+    "owner": "optimizer",
+    "storage_kind": "derived_readonly",
+    "source_path": "module-manifest.json",
+    "editable": false,
+    "validation": {
+      "mode": "owner_contract",
+      "fail_closed": false
+    },
+    "preview": [
+      "summary",
+      "json"
+    ],
+    "operation_links": [
+      {
+        "action": "classify_document",
+        "label": "Classify Document",
+        "contract_module": "ingestion_layer_vision.orchestrator_contract"
+      },
+      {
+        "action": "extract_document",
+        "label": "Extract Document",
+        "contract_module": "ingestion_layer_vision.orchestrator_contract"
+      },
+      {
+        "action": "healthcheck",
+        "label": "Healthcheck",
+        "contract_module": "ingestion_layer_vision.orchestrator_contract"
+      },
+      {
+        "action": "scan_debug_input",
+        "label": "Scan Debug Input",
+        "contract_module": "ingestion_layer_vision.orchestrator_contract"
+      },
+      {
+        "action": "debug_run",
+        "label": "Debug Run",
+        "contract_module": "ingestion_layer_vision.orchestrator_contract"
+      }
+    ],
+    "runtime_impact": "read_only_reference",
+    "drift_status": "explicit_file",
+    "section": "Operations"
+  }
+]

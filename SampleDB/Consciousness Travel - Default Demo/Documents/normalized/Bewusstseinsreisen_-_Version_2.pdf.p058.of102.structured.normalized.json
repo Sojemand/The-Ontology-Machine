@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:51:14Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "nonfiction_book_page",
+    "document_type_confidence": 0.97,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "This page develops a theory of consciousness levels using the analogy of dreams, lucid dreaming, and waking awareness. It argues that a higher scope of awareness can fully comprehend lower states, while lower states cannot perceive what lies above them. A final example extends the idea to parent-child and teacher-student relationships.",
+    "tags": [
+      "consciousness levels",
+      "dreams",
+      "lucid dreaming",
+      "waking awareness",
+      "awareness scope",
+      "analogy",
+      "teacher-student",
+      "parent-child"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "philosophical_writing"
+    },
+    "normalization_notes": [
+      "Classified as a nonfiction book page with theoretical discussion based on continuous argumentative prose.",
+      "Book title inferred from source file name.",
+      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 58,
+      "topic_keywords": [
+        "consciousness levels",
+        "dreams",
+        "lucid dreaming",
+        "awareness scope",
+        "teacher-student",
+        "parent-child"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "The text derives a rule about consciousness levels from the relationship between ordinary dreaming, lucid dreaming, and waking awareness. It argues that a broader field of awareness can encompass and understand lower states, while lower states cannot perceive what lies above them. It extends the analogy to teacher-student and parent-child relationships."
+      }
+    ],
+    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Consciousness levels, dreams, lucid dreaming, waking awareness, and awareness scope are discussed through philosophical argument and social analogy."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.96,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+    }
+  }
+}

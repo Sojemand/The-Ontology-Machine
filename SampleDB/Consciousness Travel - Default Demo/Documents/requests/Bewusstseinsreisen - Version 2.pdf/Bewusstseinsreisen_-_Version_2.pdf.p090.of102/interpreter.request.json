@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=090-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:30483154e2b372dc40d45ae06d582d485086bb050edb7598740b2739117bc61b",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 90,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=090-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 90,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_090.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page90_para_0",
+        "type": "paragraph",
+        "value": "die einer übergeordneten Sinnhaftigkeit folgen. Sie sind über einen langen Zeitraum",
+        "position": {
+          "page": 90,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page90_para_1",
+        "type": "paragraph",
+        "value": "konsistent und durchlaufen verschiedene Stationen mit auf einander aufbauenden",
+        "position": {
+          "page": 90,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page90_para_2",
+        "type": "paragraph",
+        "value": "Veränderungen. Wollte man das gleiche Ergebnis auf dem zweiten Weg der bewussten",
+        "position": {
+          "page": 90,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page90_para_3",
+        "type": "paragraph",
+        "value": "Veränderung selbst erreichen, müsste man sich nicht nur ein rudimentäres Verständnis der",
+        "position": {
+          "page": 90,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page90_para_4",
+        "type": "paragraph",
+        "value": "symbolischen Welt aneignen, man müsste sie in ihrer Gänze verstehen und überblicken",
+        "position": {
+          "page": 90,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page90_para_5",
+        "type": "paragraph",
+        "value": "können. Man müsste ihre Gesetzt vollständig verstehen, um solch große Handlungsbögen wie",
+        "position": {
+          "page": 90,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page90_para_6",
+        "type": "paragraph",
+        "value": "die der Heldenreise zu entwerfen und sich entfalten zu lassen. Das würde ein Maß an",
+        "position": {
+          "page": 90,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page90_para_7",
+        "type": "paragraph",
+        "value": "Verständnis voraus setzen, welches weit über dem liegt, was ein Wachbewusstsein zu leisten",
+        "position": {
+          "page": 90,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page90_para_8",
+        "type": "paragraph",
+        "value": "im Stande ist, egal wie gewahr es sich selbst gegenüber auch sein mag.",
+        "position": {
+          "page": 90,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page90_para_9",
+        "type": "paragraph",
+        "value": "Und deshalb denke ich, sehen wir bei Archetypen genau jene Symbolsprache, die auf einen",
+        "position": {
+          "page": 90,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page90_para_10",
+        "type": "paragraph",
+        "value": "aktiven übergeordneten Willen hindeutet, der aus uns selbst heraus entsteht, ein Teil unseres",
+        "position": {
+          "page": 90,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page90_para_11",
+        "type": "paragraph",
+        "value": "Selbst ist, ja sehr gut mit dem Begriff „Über-Ich“ bezeichnet werden könnte. Ein",
+        "position": {
+          "page": 90,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page90_para_12",
+        "type": "paragraph",
+        "value": "Bewusstseinszustand, welcher sich noch „oberhalb“ unseres Wachzustandes befindet und",
+        "position": {
+          "page": 90,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page90_para_13",
+        "type": "paragraph",
+        "value": "den wir nicht sehen oder verstehen können. Ein Zustand, in dem uns Regeln und Gesetze",
+        "position": {
+          "page": 90,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page90_para_14",
+        "type": "paragraph",
+        "value": "gewahr werden, die wir im Wachzustand nicht als solche erkennen und Archetypen eben ein",
+        "position": {
+          "page": 90,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page90_para_15",
+        "type": "paragraph",
+        "value": "Schatten dieser Gesetze sind, die in unsere Welt von „dort oben“ zu uns hinunter scheinen,",
+        "position": {
+          "page": 90,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page90_para_16",
+        "type": "paragraph",
+        "value": "wie unser Wachbewusstsein in unsere Träume hinein scheint. Ein Zustand, welchen wir",
+        "position": {
+          "page": 90,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page90_para_17",
+        "type": "paragraph",
+        "value": "vielleicht erreichen könnten und welcher sich uns durch die Existenz des zweigleisigen",
+        "position": {
+          "page": 90,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page90_para_18",
+        "type": "paragraph",
+        "value": "Gewahrseins andeutet. Ein Zustand, zu dem wir biologisch fähig sind, der keine immaterielle",
+        "position": {
+          "page": 90,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page90_para_19",
+        "type": "paragraph",
+        "value": "Komponente benötigt, kein bekanntes Gesetz verletzt und eine potentiell neue",
+        "position": {
+          "page": 90,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page90_para_20",
+        "type": "paragraph",
+        "value": "Funktionsweise kognitiver Prozesse darstellt.",
+        "position": {
+          "page": 90,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page90_para_21",
+        "type": "paragraph",
+        "value": "Ja eigentlich noch viel mehr, denn damit müssten wir uns auch neue, bisher völlig undenkbare",
+        "position": {
+          "page": 90,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page90_para_22",
+        "type": "paragraph",
+        "value": "Realitätsmodelle zugänglich machen können. Modelle, mit Hilfe derer wir eine stabilere",
+        "position": {
+          "page": 90,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page90_para_23",
+        "type": "paragraph",
+        "value": "Funktionsweise dieses streitlustigen Affenreiches erdenken könnten, welches sich derzeit",
+        "position": {
+          "page": 90,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page90_para_24",
+        "type": "paragraph",
+        "value": "immer noch haarscharf am Rande der Selbstvernichtung bewegt. Alles, weil die Maschine",
+        "position": {
+          "page": 90,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page90_para_25",
+        "type": "paragraph",
+        "value": "noch immer denkt, sie existiere als Teil des Tierreichs, mit all seinen Gesetzen und",
+        "position": {
+          "page": 90,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page90_para_26",
+        "type": "paragraph",
+        "value": "Notwendigkeiten und noch nicht begriffen hat, dass Atomwaffen und der stete Kampf um die",
+        "position": {
+          "page": 90,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page90_para_27",
+        "type": "paragraph",
+        "value": "größte Kokosnuss sich auf Dauer nicht verträgt. Ganz davon abgesehen, dass sich nahezu",
+        "position": {
+          "page": 90,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page90_para_28",
+        "type": "paragraph",
+        "value": "alle interpersonellen Konflikte auf unserer eigenen Blindheit gegenüber uns selbst gründen.",
+        "position": {
+          "page": 90,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page90_para_29",
+        "type": "paragraph",
+        "value": "Ich sage „aktiven Willen“, weil ich davon überzeugt bin, dass in uns kognitive Prozesse",
+        "position": {
+          "page": 90,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page90_para_30",
+        "type": "paragraph",
+        "value": "ablaufen, denen wir uns nur deshalb nicht gewahr sind, weil wir auf eine Art von ihnen",
+        "position": {
+          "page": 90,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page90_para_31",
+        "type": "paragraph",
+        "value": "abgeschnitten sind, die an Dinge rührt, welche ihre Wurzeln weit in unserer Vergangenheit",
+        "position": {
+          "page": 90,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page90_para_32",
+        "type": "paragraph",
+        "value": "haben. Womöglich haben wir als Spezies an einem Flaschenhals der Evolution eine",
+        "position": {
+          "page": 90,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

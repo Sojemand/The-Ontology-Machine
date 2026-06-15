@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=038-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:7ac60714bc1ca7bde2c0eda37d5e2af5a3712773b949a6aee1963edd2b3daa32",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 38,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=038-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page38_para_0",
+        "type": "paragraph",
+        "value": "Womöglich erkennt ihr auch, wie sehr ihr Sklave eurer Biologie seid und ihr unter ihrem",
+        "position": {
+          "page": 38,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page38_para_1",
+        "type": "paragraph",
+        "value": "Einfluss gegen eure eigentlichen Interessen handelt, die euch im „nüchternen“ Zustand als",
+        "position": {
+          "page": 38,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page38_para_2",
+        "type": "paragraph",
+        "value": "erstrebenswert erscheinen. Vielleicht beginnt ihr euch zu fragen, warum ihr so leicht Opfer",
+        "position": {
+          "page": 38,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page38_para_3",
+        "type": "paragraph",
+        "value": "eures Sexualtriebes werdet und euer sonst so gutes Urteilsvermögen euch währenddessen so",
+        "position": {
+          "page": 38,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page38_para_4",
+        "type": "paragraph",
+        "value": "schamlos im Stich lässt. Ich habe bewusst diese Art Szenario gewählt, weil besonders",
+        "position": {
+          "page": 38,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page38_para_5",
+        "type": "paragraph",
+        "value": "Männer, wenn es um Frauen geht, einem derart starken biologischen Instinkt unterliegen, der",
+        "position": {
+          "page": 38,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page38_para_6",
+        "type": "paragraph",
+        "value": "sie entgegen ihrer üblichen Natur für alle sichtbar verrückt und irrational handeln lässt, wenn",
+        "position": {
+          "page": 38,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page38_para_7",
+        "type": "paragraph",
+        "value": "sich auch nur die kleinste Aussicht auf sexuelle Kontakte zum anderen Geschlecht ergibt.",
+        "position": {
+          "page": 38,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page38_para_8",
+        "type": "paragraph",
+        "value": "Besonders Männer sollten sich darüber im Klaren sein, dass Frauen einem solchen Instinkt",
+        "position": {
+          "page": 38,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page38_para_9",
+        "type": "paragraph",
+        "value": "nicht unterliegen und sie nicht nur sehr wohl um die berauschenden Eigenschaften ihrer",
+        "position": {
+          "page": 38,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page38_para_10",
+        "type": "paragraph",
+        "value": "sexuellen Reize wissen, sondern diese auch sehr gezielt einsetzen um bestimmte Situationen",
+        "position": {
+          "page": 38,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page38_para_11",
+        "type": "paragraph",
+        "value": "in ihrem Sinne zu beeinflussen, oft zum Nachteil der männlichen Seite der Gleichung. Ja,",
+        "position": {
+          "page": 38,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page38_para_12",
+        "type": "paragraph",
+        "value": "manchmal nicht nur zum Nachteil, sondern gleich zum völligen Ruin eines ganzen Lebens.",
+        "position": {
+          "page": 38,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page38_para_13",
+        "type": "paragraph",
+        "value": "Weshalb es mir auch passend erscheint, ein Beispiel zu konstruieren, der eines der größten",
+        "position": {
+          "page": 38,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page38_para_14",
+        "type": "paragraph",
+        "value": "Kämpfe widerspiegelt, den Männer Zeit ihres Lebens ausfechten. Gott sei dank lässt dieser",
+        "position": {
+          "page": 38,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page38_para_15",
+        "type": "paragraph",
+        "value": "Drang mit zunehmendem Alter nach, aber verschwinden, das tun seine Wurzeln selbst bis ins",
+        "position": {
+          "page": 38,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page38_para_16",
+        "type": "paragraph",
+        "value": "hohe Alter nicht.",
+        "position": {
+          "page": 38,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page38_para_17",
+        "type": "paragraph",
+        "value": "Lassen wir jedoch das Lamentieren über evolutionäre Zwänge hinter uns, und wenden wir uns",
+        "position": {
+          "page": 38,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page38_para_18",
+        "type": "paragraph",
+        "value": "wieder der eigentlichen Frage zu: Was genau haben wir denn getan als wir diese zusätzliche",
+        "position": {
+          "page": 38,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page38_para_19",
+        "type": "paragraph",
+        "value": "Informationsebene angezapft haben und vor allem wie haben wir das getan und warum sollte",
+        "position": {
+          "page": 38,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page38_para_20",
+        "type": "paragraph",
+        "value": "uns das kümmern?",
+        "position": {
+          "page": 38,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page38_para_21",
+        "type": "paragraph",
+        "value": "Die Quelle des Lichts",
+        "position": {
+          "page": 38,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page38_para_22",
+        "type": "paragraph",
+        "value": "Zuerst müssen wir die Frage beantworten, was uns überhaupt befähigt an Informationen über",
+        "position": {
+          "page": 38,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page38_para_23",
+        "type": "paragraph",
+        "value": "irgendetwas zu gelangen. Oder besser gefragt, was befähigt den Zwerg an Informationen zu",
+        "position": {
+          "page": 38,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page38_para_24",
+        "type": "paragraph",
+        "value": "gelangen? Der Riese hat dafür seine Augen, Nase und den Rest seiner physischen Werkzeuge",
+        "position": {
+          "page": 38,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page38_para_25",
+        "type": "paragraph",
+        "value": "zur Verfügung. Aber ihr denkt jetzt sicher, Moment mal, so bekomme doch auch ich meine Infos",
+        "position": {
+          "page": 38,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page38_para_26",
+        "type": "paragraph",
+        "value": "über die Welt. Falsch! Du, der Zwerg, das Produkt der Maschine, bekommst die Informationen",
+        "position": {
+          "page": 38,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page38_para_27",
+        "type": "paragraph",
+        "value": "von der Maschine weitergereicht, nachdem sie durch die Mühlen der Mechanik gefiltert und für",
+        "position": {
+          "page": 38,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page38_para_28",
+        "type": "paragraph",
+        "value": "dich verzehrfähig aufbereitet wurden. Du erlangst sie, oder wirst dir über sie durch etwas",
+        "position": {
+          "page": 38,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page38_para_29",
+        "type": "paragraph",
+        "value": "anderes bewusst. Dazu gehen wir einmal zurück und erinnern uns an den Moment, an dem wir",
+        "position": {
+          "page": 38,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page38_para_30",
+        "type": "paragraph",
+        "value": "in den Spiegel blickten, oder falls ihr das noch nicht getan habt und einfach weiter gelesen",
+        "position": {
+          "page": 38,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page38_para_31",
+        "type": "paragraph",
+        "value": "habt, dann möchte ich euch an dieser Stelle noch einmal motivieren, dies nachzuholen.",
+        "position": {
+          "page": 38,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

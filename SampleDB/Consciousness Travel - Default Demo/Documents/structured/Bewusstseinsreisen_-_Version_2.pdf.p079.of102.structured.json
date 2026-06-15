@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:59:10.322966+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 79,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.96,
+      "reason": "This page matches a philosophical nonfiction book page with a section heading and continuous prose paragraphs.",
+      "matched_signals": [
+        "section heading",
+        "continuous prose paragraphs",
+        "philosophical nonfiction content",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page79_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 79,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Nun bestehen aber auch nicht alle Archetypen nur aus der Heldenreise und weisen auch nicht die selbe Struktur auf. Aber allen gemein ist, dass sie eine Art „überpersönliches“ Handeln abbilden und wir dieses Handeln dann mit Symbolen verknüpfen, die uns diese Handlungen und Eigenschaften leichter verstehen lassen. Sie alle manifestieren sich in Handlungssträngen, die wir ohne unser bewusstes Zutun ausleben. Wozu sie das tun, was der Plan dahinter ist, ob es überhaupt einen Plan gibt oder ob das nur Bruchstücke eines noch schlafenden und lebhaft träumenden Über-Ichs sind, wer kann das schon sagen. Aber zumindest für mich bedarf es wesentlich weniger Annahmen, wenn ich davon ausgehe, das der Impetus eines Archetypen nicht vererbt oder irgendwo in einem wie auch immer gearteten „kollektiven Etwas“ gespeichert ist, sondern Handlungsstränge des eignen Ichs darstellen, die etwas bewirken sollen und auf Regeln basieren, zu deren Verständnis wir in unserem Wachbewusstsein nicht fähig sind. Kurz, wir sind einfach zu verschlafen um uns selbst zu erkennen.",
+        "function": "theoretical_reflection",
+        "attributes": {},
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page79_Segment2",
+        "unit_kind": "title_line",
+        "page": 79,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Von Göttern und Monstern",
+        "function": "section_heading",
+        "attributes": {},
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page79_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 79,
+        "sequence": 3,
+        "section": "Von Göttern und Monstern",
+        "label": null,
+        "text": "Wenn wir Heute Ikonografien und religiöse Bildnisse betrachten, dann sehen wir darin meist nur die Handwerkskunst und Relikte vergangener Zeiten. Menschen, die sich mit dem symbolischen Hintergrund dieser Kunstwerke beschäftigen, können zwar noch deuten, welche Botschaften sich hinter den Bildern verbergen und wie sie im Bezug zum dargestellten Glauben stehen, aber am Ende des Tages, da sind diese Symbole doch nur Bildnisse einer Vorstellungswelt, derer wir uns entwachsen glauben. Wie falsch wir damit liegen, beweist uns doch gerade die Vergangenheit immer und immer wieder. Niemand kann eine Nation einen, sie in einen Krieg führen, Kulturen schaffen und Gemeinschaft schmieden, mit dem sachlichen Hinweis, dass es objektiv besser wäre, wenn wir weniger Fleisch essen würden.",
+        "function": "argument_about_symbolic_power",
+        "attributes": {},
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page79_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 79,
+        "sequence": 4,
+        "section": "Von Göttern und Monstern",
+        "label": null,
+        "text": "Mit Sachlichkeit und Argumenten kann man weder eine Nation noch einen Stamm zusammenhalten. Mit dem Hinweis auf Ursache und Wirkung hat noch niemand einen Krieg beginnen oder beenden können. Erst kommen die Symbole, dann die Geschichten, dann die Gemeinschaft, dann der Zusammenhalt und dann, ganz am Schluss, da kommt die Wirklichkeit, da kommt Ursache und Wirkung. Jeder Führer mit großen Ambitionen wusste schon immer um die Macht der Symbole, wie sie die Geschichte dahinter in die Köpfe der Menschen transportiert, wie sie anschließend zur Grundlage einer Gemeinschaft werden und wie ihre Kraft diese Gemeinschaft dann zusammenzuschweißen vermag. Wer die Masse der Menschen bewegen will, der muss sehr genau wissen, welche Symbole er nutzen muss und",
+        "function": "claim_about_collective_mobilization",
+        "attributes": {
+          "continues_on_next_page": true
+        },
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Archetypen, Symbole, kollektive Imagination, Abschnitt „Von Göttern und Monstern“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:f3f2cbd68110cb6beb348d5bda758392dbaf68f31ff76418a4b8c2a72c1e2114",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,3 @@
+# Vendored runtime artifacts are materialized by bootstrap.py.
+# Windows uses the official Python 3.9.13 embeddable runtime plus
+# libpff-python 20211114 and pywin32 311 wheels for cp39 win_amd64.

@@ -1,0 +1,11 @@
+{
+  "document_id": "document_id_example",
+  "pipeline_batch_id": "pipeline_batch_id_example",
+  "projection_fingerprint": "projection_fingerprint_example",
+  "projection_id": "projection_id_example",
+  "record_id": "record_id_example",
+  "release_fingerprint": "release_fingerprint_example",
+  "semantic_release_id": "semantic_release_id_example",
+  "semantic_release_version": "semantic_release_version_example",
+  "taxonomy_fingerprint": "taxonomy_fingerprint_example"
+}

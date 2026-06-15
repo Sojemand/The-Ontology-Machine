@@ -1,0 +1,13 @@
+{
+  "name": "07 - MCP Server",
+  "display_name": "07 - MCP Server",
+  "kind": "python",
+  "aliases": ["mcp-server", "mcp_server"],
+  "runtime_python": "../runtime/python",
+  "python_path": [".."],
+  "wheelhouses": ["../../tools/dev-tests/wheelhouse"],
+  "lockfile": "requirements.lock.txt",
+  "bootstrap_script": "bootstrap.bat",
+  "run_script": "run-tests.bat",
+  "target_dir": ".venv"
+}

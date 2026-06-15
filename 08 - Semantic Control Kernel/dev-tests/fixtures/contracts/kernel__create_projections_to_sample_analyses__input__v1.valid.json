@@ -1,0 +1,9 @@
+{
+  "sample_analyses": {
+    "example": true
+  },
+  "schema_version": "kernel.create_projections_to_sample_analyses.input.v1",
+  "taxonomy_authoring_view": {
+    "example": true
+  }
+}

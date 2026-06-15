@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:44:37.492265+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.96,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A continuous nonfiction book page in philosophical writing is visible, with paragraph-based prose discussing Plato, Aristotle, and the cave allegory.",
+      "matched_signals": [
+        "continuous paragraph prose",
+        "nonfiction book page",
+        "philosophical writing",
+        "Plato",
+        "Aristotle"
+      ]
+    },
+    "page_number": 43,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page43_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 43,
+        "sequence": 1,
+        "text": "finden. Willkommen in deinem Leben. Stell dir vor wie sich all diese Rituale ins Nichts verflüchtigen würden, wenn du auf einmal erkennst, dass du „durch“ einen Dschungel läufst und eine einfache Landkarte dir den Weg zu all deinen Zielen auf kürzestem Weg eröffnet. Anstatt einen überschweren Rucksack voll von Büchern und Zauberutensilien mit dir herum zu schleppen, die dir nur sehr unzuverlässig von Nutzen sind, reicht dir auf einmal ein kleiner Zettel, den du dir bequem in die Hosentasche stecken kannst und der dich zuverlässig und sicher von Ort zu Ort leitet. Welch beschwingtes Wandern dies doch wäre. Aber so leben wir nicht. Wir schleppen unser schweres Bündel mit uns herum, voll unseren eigenen Ritualen, Schätzen und Amuletten, die wir irgendwann am Ende unserer Reise gegen unsere Glücksehelichkeit eintauschen wollen. Das wurde uns schließlich versprochen.",
+        "function": "extended_metaphor",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page43_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 43,
+        "sequence": 2,
+        "text": "Der aufmerksame Leser wird womöglich festgestellt haben, dass ihm diese Geschichte irgendwie bekannt vorkommt, oder zumindest einige Elemente davon. Das kommt nicht von ungefähr. Das ist das grundlegende Problem, welches Plato veranlasste, sein berühmtes Höhlengleichnis zu verfassen. Ihr müsst wissen, Plato und Aristoteles waren beide recht aufmerksame Studenten der Mythen ihrer eigenen Zeit. Sie bereisten Ägypten, waren belesen in der Philosophie der Pythagoreer, pflegten okkultes Wissen und wussten auch noch um die Interpretation der grünen Sprache, oder die „Sprache der Götter“. Viele der Mysterien unseres eigenen Erlebens sind, wie schon gesagt, sehr sehr alt. Leider sind viele solcher Einsichten über die Zeit so verzerrt worden und unserem eigenen magischen Denken zum Opfergefallen, dass es ein haarsträubendes Unterfangen ist, sie überhaupt noch als solche zu erkennen. Man nehme nur einmal das Höhlengleichnis selbst und all seine teils aberwitzigen Interpretationen und Anwendungen, die Heute darüber so durch die Welt geistern, so wie dieses hier zum Beispiel.",
+        "function": "philosophical_contextualization",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page43_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 43,
+        "sequence": 3,
+        "text": "Aber zurück zum Dschungel. Stellt euch vor, jemand tritt in eure Welt und erzählt euch, wie schön der Blick über die Baumwipfel am Morgen doch sei und ihr könntet, wenn ihr denn wolltet den selben Ausblick genießen, wenn ihr dies oder jenes tätet, zum Beispiel wenn ihr diesen besonders hohen Hügel aufsuchen würdet oder eine der Aussichtsplattformen nutzt die die Wildhüter aufgestellt haben. Er könnte euch sogar die Richtung hinaus weisen und ihr müsstet diesem Weg nur folgen um nach einer Tagesreise ans Büro der Parkwächter zu gelangen, an dem zwei mal täglich der Bus Richtung Bahnhof hält. Er würde euch dazu gerne eine Karte des Dschungels anbieten, welche er übrig hat und selbst nicht braucht, weil er diesen Ort wie seine Westentasche kennt und auch ohne Karte jeden Weg finden kann. Würdet ihr verstehen was er meint? Wohl eher nicht, denn ihr habt ja kein Konzept davon, was",
+        "function": "thought_experiment",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Dschungel-Metapher, Höhlengleichnis, Plato und Aristoteles"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:5ee4e6b4608d0c48c3cc7e21a58d7695e5067f3a4cf8724d221cc605060c7031",
+    "created_at": null,
+    "modified_at": null
+  }
+}

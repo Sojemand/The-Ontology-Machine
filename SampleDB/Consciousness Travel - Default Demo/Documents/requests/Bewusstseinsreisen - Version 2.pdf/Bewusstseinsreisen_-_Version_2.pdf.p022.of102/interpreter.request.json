@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=022-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:43ce70c8434b53e40195c509e859f2fa99e2fa712634639c59b1f0ed3d06815e",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 22,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=022-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 22,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_022.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page22_para_0",
+        "type": "paragraph",
+        "value": "Ort errechnen, an dem sich das Muster befindet, wenn sich meine Augen abschließend auf das",
+        "position": {
+          "page": 22,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page22_para_1",
+        "type": "paragraph",
+        "value": "Ziel fokussiert haben und dann muss der Bewegungsbefehl ergehen, und das alles während",
+        "position": {
+          "page": 22,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page22_para_2",
+        "type": "paragraph",
+        "value": "sich alles aneinander vorbei bewegt.",
+        "position": {
+          "page": 22,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page22_para_3",
+        "type": "paragraph",
+        "value": "All das innerhalb einer Sekunde. Ich habe diese Zeitleiste aus zahllosen Einzelvorgängen",
+        "position": {
+          "page": 22,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page22_para_4",
+        "type": "paragraph",
+        "value": "zusammen gestückelt, da sie meist so schnell erfolgten und ich in den wenigsten Fällen",
+        "position": {
+          "page": 22,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page22_para_5",
+        "type": "paragraph",
+        "value": "aufmerksam genug war, um neue Einzelheiten daraus zu gewinnen. Richtig beobachten kann",
+        "position": {
+          "page": 22,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page22_para_6",
+        "type": "paragraph",
+        "value": "man das ja nicht, denn es handelt sich hierbei um ein so flüchtiges Erlebnis, dass schon einige",
+        "position": {
+          "page": 22,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page22_para_7",
+        "type": "paragraph",
+        "value": "Sekunden danach die Erinnerungen daran nahezu gänzlich verblasst sind.",
+        "position": {
+          "page": 22,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page22_para_8",
+        "type": "paragraph",
+        "value": "Aber wie gesagt, das muss sich alles vollständig in meiner peripheren Wahrnehmung",
+        "position": {
+          "page": 22,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page22_para_9",
+        "type": "paragraph",
+        "value": "abgespielt haben. Ich habe selbst versucht, diese Positionen auf einem Parkplatz statisch",
+        "position": {
+          "page": 22,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page22_para_10",
+        "type": "paragraph",
+        "value": "nachzustellen um herauszufinden, ob ich wirklich ein kleines Nummernschild, welches sich an",
+        "position": {
+          "page": 22,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page22_para_11",
+        "type": "paragraph",
+        "value": "diesen Positionen aufhält, sehen kann. Wie zu erwarten bestand nicht die geringste Chance.",
+        "position": {
+          "page": 22,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page22_para_12",
+        "type": "paragraph",
+        "value": "Egal was ich auch versuchte, es gelang mir höchstens die Konturen des Schildes einigermaßen",
+        "position": {
+          "page": 22,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page22_para_13",
+        "type": "paragraph",
+        "value": "sauber auszumachen und auch erst dann, wenn sich das Schild schon deutlich näher am",
+        "position": {
+          "page": 22,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page22_para_14",
+        "type": "paragraph",
+        "value": "Fokus befand als es in der echten Situation jemals der Fall war. Und doch muss meine",
+        "position": {
+          "page": 22,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page22_para_15",
+        "type": "paragraph",
+        "value": "Mustererkennung das irgendwie gesehen haben. Ihr könnt das ja selbst einmal versuchen.",
+        "position": {
+          "page": 22,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page22_para_16",
+        "type": "paragraph",
+        "value": "Nehmt eine Zeitung und bewegt sie aus dem Fokus eures Blickes heraus. Ihr werdet",
+        "position": {
+          "page": 22,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page22_para_17",
+        "type": "paragraph",
+        "value": "überrascht sein, wie schnell selbst die Überschriften für euch nicht mehr zu entziffern sind,",
+        "position": {
+          "page": 22,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page22_para_18",
+        "type": "paragraph",
+        "value": "selbst wenn ihr wisst was da geschrieben steht. Jetzt stellt euch mal vor, ihr solltet",
+        "position": {
+          "page": 22,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page22_para_19",
+        "type": "paragraph",
+        "value": "Nummernschilder erkennen, die sich noch wesentlich weiter außerhalb eures Sichtfeldes",
+        "position": {
+          "page": 22,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page22_para_20",
+        "type": "paragraph",
+        "value": "befinden, mit deutlich kleineren, perspektivisch verzerrten Ziffern, an einem Objekt, welches",
+        "position": {
+          "page": 22,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page22_para_21",
+        "type": "paragraph",
+        "value": "sich mit rund 7 bis 9 Metern pro Sekunde bewegt und ihr habt dafür nur eine Sekunde Zeit. Ich",
+        "position": {
+          "page": 22,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page22_para_22",
+        "type": "paragraph",
+        "value": "glaube, ich lehne mich nicht zu weit aus dem Fenster wenn ich mal behaupte, dass das",
+        "position": {
+          "page": 22,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page22_para_23",
+        "type": "paragraph",
+        "value": "niemand kann.",
+        "position": {
+          "page": 22,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page22_para_24",
+        "type": "paragraph",
+        "value": "Mir bleibt hier also nur eine Schlussfolgerung übrig. Mein Gehirn „sieht“ sehr viel mehr, sehr viel",
+        "position": {
+          "page": 22,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page22_para_25",
+        "type": "paragraph",
+        "value": "klarer und sehr viel schneller als alles was meine bewusste Wahrnehmung zustande bringt. Ich",
+        "position": {
+          "page": 22,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page22_para_26",
+        "type": "paragraph",
+        "value": "habe nicht die geringste Ahnung, wie das von statten gehen soll, denn rein physisch gesehen",
+        "position": {
+          "page": 22,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page22_para_27",
+        "type": "paragraph",
+        "value": "sollten außerhalb der Fovea Centralis, unserem Seefleck, sich nicht genug Photorezeptoren",
+        "position": {
+          "page": 22,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page22_para_28",
+        "type": "paragraph",
+        "value": "befinden um dem Gehirn ein klares Bild liefern zu können. Und doch sieht meine",
+        "position": {
+          "page": 22,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page22_para_29",
+        "type": "paragraph",
+        "value": "Mustererkennung scheinbar kleine Details, wie die eines Nummernschildes in einem Bereich",
+        "position": {
+          "page": 22,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page22_para_30",
+        "type": "paragraph",
+        "value": "meines Sichtfeldes, in dem mein Bewusstsein nur verschwommenen Kram wahrnimmt. Die",
+        "position": {
+          "page": 22,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page22_para_31",
+        "type": "paragraph",
+        "value": "Rate der Fehlalarme ist dabei erstaunlich gering. Es wurden rund 95% aller Erkennungen",
+        "position": {
+          "page": 22,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

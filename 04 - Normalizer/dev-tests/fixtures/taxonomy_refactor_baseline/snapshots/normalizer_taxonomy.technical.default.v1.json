@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "technical.default.v1",
+  "label": "Technical and Asset Management Default v1",
+  "description": "Default projection for technical, asset-related, and inspection-focused records.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "technical",
+    "operations",
+    "business",
+    "administrative"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.issuer",
+        "content.fields.sender"
+      ]
+    },
+    {
+      "slot": "recipient_party",
+      "source_paths": [
+        "content.fields.recipient"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.document_number",
+        "content.fields.contract_number",
+        "content.fields.meter_id",
+        "content.fields.asset_id",
+        "content.fields.serial_number",
+        "content.fields.customer_number"
+      ]
+    },
+    {
+      "slot": "case_identifier",
+      "source_paths": [
+        "content.fields.case_id"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    },
+    {
+      "slot": "site_name",
+      "source_paths": [
+        "content.fields.site_name"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Specifications, inspections, maintenance, asset or site documentation, engineering changes, quality assurance, and equipment files.",
+    "avoid_when": "Not for property management, pure financial records, formal identity files, or pastoral and wellbeing-related records.",
+    "example_document_types": [
+      "specification",
+      "inspection_report",
+      "meter_reading",
+      "report",
+      "form"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "specification",
+        "maintenance plan",
+        "serial number",
+        "inspection report",
+        "measurement",
+        "asset"
+      ],
+      "domain_markers": {
+        "technical": [
+          "specification",
+          "serial number",
+          "measurement"
+        ],
+        "operations": [
+          "maintenance",
+          "site",
+          "commissioning"
+        ],
+        "business": [
+          "quote",
+          "approval"
+        ],
+        "administrative": [
+          "document number",
+          "revision"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "table",
+        "line_items"
+      ],
+      "party_roles": [
+        "sender",
+        "recipient",
+        "contact_person"
+      ]
+    }
+  },
+  "include_document_types": [
+    "specification",
+    "inspection_report",
+    "energy_certificate",
+    "meter_reading",
+    "report",
+    "delivery_note",
+    "order",
+    "contract",
+    "policy",
+    "schedule",
+    "form",
+    "certificate",
+    "general_letter",
+    "other"
+  ],
+  "include_categories": [
+    "technical",
+    "operations",
+    "business",
+    "administrative",
+    "other"
+  ],
+  "include_subcategories": [
+    "technical_specification",
+    "feasibility_study",
+    "inspection",
+    "measurement",
+    "energy",
+    "technical_correspondence",
+    "asset_documentation",
+    "maintenance_protocol",
+    "incident_diagnosis",
+    "quality_assurance",
+    "engineering_change",
+    "inventory",
+    "execution_plan",
+    "site_access_compliance",
+    "policy_compliance",
+    "general_correspondence",
+    "form_submission",
+    "other"
+  ],
+  "include_field_codes": [
+    "issuer",
+    "sender",
+    "sender_address",
+    "recipient",
+    "recipient_address",
+    "document_number",
+    "our_reference",
+    "your_reference",
+    "subject",
+    "document_date",
+    "contract_number",
+    "contact_person",
+    "phone",
+    "site_name",
+    "asset_id",
+    "serial_number",
+    "meter_id",
+    "case_id",
+    "page_indicator",
+    "customer_number",
+    "service_end_date",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "signoff",
+    "signatory",
+    "signatory_role",
+    "other"
+  ],
+  "include_row_types": [
+    "line_item",
+    "participant_list",
+    "timeline_entry",
+    "meter_reading_series",
+    "contact_block",
+    "other"
+  ],
+  "include_cell_codes": [
+    "description",
+    "quantity",
+    "unit",
+    "scheduled_date",
+    "position",
+    "unit_price",
+    "line_total",
+    "section",
+    "drawing_reference",
+    "material",
+    "dimension",
+    "identifier",
+    "status",
+    "rate",
+    "hours",
+    "note",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:716cfe49829954157f5a8fc225949a9fd51daa50fb477a8a7d8d33cfe21fe446"
+}

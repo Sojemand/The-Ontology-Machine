@@ -1,0 +1,3 @@
+Born-digital report delta
+Document class: report
+Contains a narrative summary and no tabular section.

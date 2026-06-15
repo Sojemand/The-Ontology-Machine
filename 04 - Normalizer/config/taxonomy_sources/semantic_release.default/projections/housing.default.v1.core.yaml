@@ -1,0 +1,237 @@
+projection_id: housing.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- property
+- finance
+- administrative
+- technical
+- legal
+include_document_types:
+- invoice
+- credit_note
+- receipt
+- quote
+- payment_notice
+- reminder
+- advance_payment
+- utility_cost_statement
+- rent_statement
+- cost_analysis
+- contract
+- contract_addendum
+- termination_notice
+- authority_notice
+- application
+- general_letter
+- minutes_record
+- report
+- inspection_report
+- energy_certificate
+- meter_reading
+- certificate
+- form
+- other
+include_categories:
+- finance
+- property
+- legal
+- administrative
+- technical
+- other
+include_subcategories:
+- utilities
+- rent
+- budget_quote
+- payment_followup
+- payment_schedule
+- advance_payment_adjustment
+- financial_summary
+- tenant_communication
+- tenant_application
+- owner_communication
+- maintenance
+- damage
+- handover
+- metering
+- property_information
+- service_provider_communication
+- contract
+- contract_change
+- termination
+- legal_correspondence
+- application
+- official_notice
+- general_correspondence
+- minutes
+- form_submission
+- inspection
+- measurement
+- energy
+- technical_correspondence
+- other
+include_field_codes:
+- issuer
+- sender
+- sender_address
+- recipient
+- recipient_address
+- recipient_primary
+- customer_name
+- tenant_name
+- owner_name
+- property_manager_name
+- property_address
+- property_manager_internal_id
+- document_number
+- subject
+- salutation
+- closing
+- invoice_number
+- contract_number
+- account_number
+- document_date
+- period_from
+- period_to
+- due_date
+- currency
+- reference_amount
+- total_amount
+- net_amount
+- tax_amount
+- balance_amount
+- bank_name
+- iban
+- bic
+- phone
+- register_court
+- commercial_register
+- tax_id
+- page_indicator
+- meter_id
+- case_id
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- line_item
+- cost_breakdown_current
+- cost_breakdown_history
+- consumption_current
+- consumption_history
+- payment_schedule
+- account_entry
+- meter_reading_series
+- participant_list
+- contact_block
+- timeline_entry
+- other
+include_cell_codes:
+- description
+- quantity
+- unit
+- scheduled_date
+- unit_price
+- line_total
+- base_amount
+- adjustment_amount
+- gross_amount
+- building_total_cost
+- building_total_heating_cost
+- building_total_warmwater_cost
+- tenant_share_cost
+- tenant_share_heating_cost
+- tenant_share_warmwater_cost
+- building_total_usage
+- tenant_share_usage
+- average_building_usage
+- average_tenant_usage
+- usage_unit
+- average_usage_unit
+- percentage_share
+- account_delta
+- amount_due
+- amount_paid
+- balance
+- net_amount
+- tax_amount
+- other
+promotion_rules:
+- slot: document_title
+  source_paths:
+  - content.fields.subject
+- slot: primary_party
+  source_paths:
+  - content.fields.property_manager_name
+  - content.fields.issuer
+  - content.fields.sender
+  - content.fields.owner_name
+- slot: recipient_party
+  source_paths:
+  - content.fields.recipient_primary
+  - content.fields.tenant_name
+  - content.fields.recipient
+  - content.fields.customer_name
+- slot: tenant_name
+  source_paths:
+  - content.fields.tenant_name
+- slot: property_address
+  source_paths:
+  - content.fields.property_address
+- slot: document_identifier
+  source_paths:
+  - content.fields.invoice_number
+  - content.fields.document_number
+  - content.fields.contract_number
+  - content.fields.account_number
+  - content.fields.property_manager_internal_id
+  - content.fields.meter_id
+  - content.fields.customer_number
+- slot: case_identifier
+  source_paths:
+  - content.fields.case_id
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+- slot: due_date
+  source_paths:
+  - content.fields.due_date
+- slot: period_start
+  source_paths:
+  - content.fields.period_from
+- slot: period_end
+  source_paths:
+  - content.fields.period_to
+- slot: total_amount
+  source_paths:
+  - content.fields.total_amount
+  - content.fields.reference_amount
+- slot: balance_amount
+  source_paths:
+  - content.fields.balance_amount
+compatibility: {}
+routing:
+  example_document_types:
+  - invoice
+  - advance_payment
+  - utility_cost_statement
+  - contract
+  - general_letter
+  section_roles:
+  - header
+  - billing
+  - payment
+  - contact_block
+  party_roles:
+  - tenant
+  - property_manager
+  - recipient

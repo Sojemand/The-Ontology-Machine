@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:50:39.643682+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 58,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=058-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.96,
+      "reason": "A nonfiction book page in philosophical writing is visible, consisting of continuous argumentative paragraphs.",
+      "matched_signals": [
+        "nonfiction book page",
+        "philosophical writing",
+        "continuous paragraphs",
+        "argumentative prose"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page58_Segment1",
+        "unit_kind": "argumentative_paragraph",
+        "page": 58,
+        "sequence": 1,
+        "text": "Hieraus können wir eine Regel über das Maß eines Bewusstseins ableiten. Für einen normal Träumenden existiert nur seine Welt. Für einen luzide Träumenden existiert die Traumwelt unter ihm und die luzide Welt durch die er sich bewegt. Ein luzider Träumer kann sich an seinen vorangegangenen Traum erinnern und er kann sich erinnern, wie er aus diesem Traum „aufgewacht“ ist als er luzide wurde. Aber auch für ihn existiert über ihm nichts anderes woran er sich erinnern könnte. Im Wachzustand können wir uns an beide Zustände erinnern. Wir können uns erinnern, wie wir geträumt haben, wie wir luzide wurden und wie wir aufgewacht sind. Alle zwei Zustände sind uns vollkommen zugänglich. Wir können sozusagen von „oben herab“ in sie hinein blicken und sie im Gesamtkontext unseres Wachbewusstseins verstehen und analysieren. Um es einfach auszudrücken kann man sagen, wir können auf alle Zustände des Bewusstseins blicken, die sich „unter uns“ befinden, aber nicht sehen was sich „über uns“ befindet.",
+        "function": "derives_rule_about_consciousness_levels",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page58_Segment2",
+        "unit_kind": "argumentative_paragraph",
+        "page": 58,
+        "sequence": 2,
+        "text": "Das ist verständlich, wenn wir das Ausdehnen unseres Gewahrseins als Analog zum Aufwachen aus einem Traum verstehen. Wir haben ja bereits mehrfach gesehen, dass der Umfang oder die Größe dessen, was das Gewahrsein umfasst, definiert, welche Art Bewusstsein wir erfahren. Ein Bewusstsein niederer Stufe bedeutet in diesem Zusammenhang ein Gewahrsein kleineren Umfangs und ein Bewusstsein höherer Stufe ein Gewahrsein größeren Umfangs. Ein Gewahrsein größeren Umfangs beinhaltet per Definition bereits alle Gebiete, die ein Gewahrsein kleineren Umfangs umschließen kann als Teilmenge und ist daher dem größeren Gewahrsein vollends zugänglich. Genauso wie wir im Wachzustand ohne Probleme in unsere Träume blicken und alles sehen können, was da vor sich geht. Weil unser Wachbewusstsein ein Gewahrsein größeren Umfangs hat, können wir auch sehen und verstehen, wie irrational Träume sind, denn das Gewahrsein des Wachbewusstseins umschließt auch die Gesetzmäßigkeiten der wachen Welt, die einem Träumer aufgrund des geringeren Umfangs seines eigenen Gewahrseins nicht zugänglich sind und sie deshalb für ihn auch nicht existieren. Warum sollte er sich also um Kausalität oder Physik scheren, wenn sie ihm gerade im Weg stehen?",
+        "function": "explains_consciousness_scope_analogy",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page58_Segment3",
+        "unit_kind": "argumentative_paragraph",
+        "page": 58,
+        "sequence": 3,
+        "text": "Ein weiteres Analog dieser Regel, können wir in unserer eigenen Welt finden, wenn es zum Beispiel um die Dynamik zwischen Eltern und Kind oder Lehrer und Schüler geht. Ein Lehrer ist aufgrund seines Wissens und Könnens in der Lage, in den Schüler „hinein“ zu blicken und zu sehen, an was es ihm noch mangelt. Eltern können in das Kind „hinein“ blicken und sehen, wo es in seiner Entwicklung steht. Weder Schüler noch Kind sind allerdings in der Lage",
+        "function": "introduces_social_analogy",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Bewusstseinsstufen, Traum und Wachzustand, Gewahrsein, Analogie Lehrer-Schüler"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=058-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:cab17ffbe86278d166220aba5e07bf4133d3a5e0c4573514639801dfacd578ef",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,129 @@
+projection_id: people.identity.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- people
+- business
+- administrative
+- legal
+include_document_types:
+- profile
+- form
+- certificate
+- application
+- contract
+- general_letter
+- membership_record
+- payslip
+- report
+- statement
+- other
+include_categories:
+- people
+- business
+- administrative
+- legal
+- finance
+- community
+- other
+include_subcategories:
+- identity_record
+- identity_verification
+- employment
+- personnel_request
+- education_record
+- application
+- general_correspondence
+- benefit_case
+- membership
+- corporate_profile
+- other
+include_field_codes:
+- person_name
+- personal_id_number
+- date_of_birth
+- place_of_birth
+- nationality
+- employee_id
+- job_title
+- department_name
+- cost_center
+- document_number
+- document_date
+- sender
+- recipient
+- subject
+- contact_person
+- phone
+- authority_name
+- membership_id
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- participant_list
+- contact_block
+- timeline_entry
+- line_item
+- other
+include_cell_codes:
+- name
+- participant_role
+- scheduled_date
+- status
+- identifier
+- hours
+- rate
+- note
+- description
+- other
+promotion_rules:
+- slot: document_title
+  source_paths:
+  - content.fields.subject
+- slot: person_name
+  source_paths:
+  - content.fields.person_name
+  - content.fields.contact_person
+- slot: primary_party
+  source_paths:
+  - content.fields.sender
+  - content.fields.authority_name
+- slot: recipient_party
+  source_paths:
+  - content.fields.recipient
+- slot: document_identifier
+  source_paths:
+  - content.fields.personal_id_number
+  - content.fields.employee_id
+  - content.fields.membership_id
+  - content.fields.document_number
+  - content.fields.customer_number
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+compatibility: {}
+routing:
+  example_document_types:
+  - profile
+  - payslip
+  - certificate
+  - application
+  - form
+  section_roles:
+  - header
+  - form
+  - participants
+  party_roles:
+  - recipient
+  - sender
+  - employee

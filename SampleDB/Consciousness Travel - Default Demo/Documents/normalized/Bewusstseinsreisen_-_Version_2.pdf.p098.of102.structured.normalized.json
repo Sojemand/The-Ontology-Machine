@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T09:06:59Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "This nonfiction philosophy page examines how consciousness and perception may operate independently of the eyes, including out-of-body experiences and spontaneous visions. It then shifts to the influence of diet on the body-consciousness interface, mentioning ketosis, carbohydrate metabolism, and the effect of brain fog on perception and thinking.",
+    "tags": [
+      "consciousness",
+      "perception",
+      "diet",
+      "brain fog",
+      "out-of-body experiences",
+      "visions",
+      "ketosis",
+      "metabolism"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_philosophical_page"
+    },
+    "normalization_notes": [
+      "Source language is German; normalized display values are in English except stable title and identifiers.",
+      "Page appears to be continuous philosophical exposition within the book body."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "mixed",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 98,
+      "section_heading": "How much influence does nutrition have on the connection between machine and consciousness?",
+      "topic_keywords": [
+        "consciousness",
+        "perception",
+        "diet",
+        "brain fog",
+        "out-of-body experiences",
+        "visions",
+        "ketosis",
+        "metabolism"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "Perception is discussed as potentially extending beyond the eye-based viewpoint and as something that can occur without external substances. The text then asks whether out-of-body experiences and spontaneous visions point to an innate brain capacity and whether such states may be inaccessible because they are forgotten when consciousness returns to ordinary awareness."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The section argues that nutrition may affect the interface between body and consciousness, not only through obvious biological deficits but also through changes in information flow and distortion. It mentions shifts between ketosis and carbohydrate metabolism as examples of changing perception, physical performance, and cognitive ability."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "It introduces brain fog as a reduced state of thinking and dampened sensory awareness, then begins to ask how many similar conditions may affect overall functioning."
+      }
+    ],
+    "free_text": "book_page book_body_content theoretical_discussion Philosophical nonfiction on consciousness, perception, out-of-body experience, nutrition, ketosis, carbohydrate metabolism, and brain fog."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.92,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.92 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+    }
+  }
+}

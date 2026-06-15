@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5ee4e6b4608d0c48c3cc7e21a58d7695e5067f3a4cf8724d221cc605060c7031",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 43,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 43,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_043.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page43_para_0",
+        "type": "paragraph",
+        "value": "finden. Willkommen in deinem Leben. Stell dir vor wie sich all diese Rituale ins Nichts",
+        "position": {
+          "page": 43,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page43_para_1",
+        "type": "paragraph",
+        "value": "verflüchtigen würden, wenn du auf einmal erkennst, dass du „durch“ einen Dschungel läufst",
+        "position": {
+          "page": 43,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page43_para_2",
+        "type": "paragraph",
+        "value": "und eine einfache Landkarte dir den Weg zu all deinen Zielen auf kürzestem Weg eröffnet.",
+        "position": {
+          "page": 43,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page43_para_3",
+        "type": "paragraph",
+        "value": "Anstatt einen überschweren Rucksack voll von Büchern und Zauberutensilien mit dir herum zu",
+        "position": {
+          "page": 43,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page43_para_4",
+        "type": "paragraph",
+        "value": "schleppen, die dir nur sehr unzuverlässig von Nutzen sind, reicht dir auf einmal ein kleiner",
+        "position": {
+          "page": 43,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page43_para_5",
+        "type": "paragraph",
+        "value": "Zettel, den du dir bequem in die Hosentasche stecken kannst und der dich zuverlässig und",
+        "position": {
+          "page": 43,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page43_para_6",
+        "type": "paragraph",
+        "value": "sicher von Ort zu Ort leitet. Welch beschwingtes Wandern dies doch wäre. Aber so leben wir",
+        "position": {
+          "page": 43,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page43_para_7",
+        "type": "paragraph",
+        "value": "nicht. Wir schleppen unser schweres Bündel mit uns herum, voll unseren eigenen Ritualen,",
+        "position": {
+          "page": 43,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page43_para_8",
+        "type": "paragraph",
+        "value": "Schätzen und Amuletten, die wir irgendwann am Ende unserer Reise gegen unsere",
+        "position": {
+          "page": 43,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page43_para_9",
+        "type": "paragraph",
+        "value": "Glücksehelichkeit eintauschen wollen. Das wurde uns schließlich versprochen.",
+        "position": {
+          "page": 43,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page43_para_10",
+        "type": "paragraph",
+        "value": "Der aufmerksame Leser wird womöglich festgestellt haben, dass ihm diese Geschichte",
+        "position": {
+          "page": 43,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page43_para_11",
+        "type": "paragraph",
+        "value": "irgendwie bekannt vorkommt, oder zumindest einige Elemente davon. Das kommt nicht von",
+        "position": {
+          "page": 43,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page43_para_12",
+        "type": "paragraph",
+        "value": "ungefähr. Das ist das grundlegende Problem, welches Plato veranlasste, sein berühmtes",
+        "position": {
+          "page": 43,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page43_para_13",
+        "type": "paragraph",
+        "value": "Höhlengleichnis zu verfassen. Ihr müsst wissen, Plato und Aristoteles waren beide recht",
+        "position": {
+          "page": 43,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page43_para_14",
+        "type": "paragraph",
+        "value": "aufmerksame Studenten der Mythen ihrer eigenen Zeit. Sie bereisten Ägypten, waren belesen",
+        "position": {
+          "page": 43,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page43_para_15",
+        "type": "paragraph",
+        "value": "in der Philosophie der Pythagoreer, pflegten okkultes Wissen und wussten auch noch um die",
+        "position": {
+          "page": 43,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page43_para_16",
+        "type": "paragraph",
+        "value": "Interpretation der grünen Sprache, oder die „Sprache der Götter“. Viele der Mysterien unseres",
+        "position": {
+          "page": 43,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page43_para_17",
+        "type": "paragraph",
+        "value": "eigenen Erlebens sind, wie schon gesagt, sehr sehr alt. Leider sind viele solcher Einsichten",
+        "position": {
+          "page": 43,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page43_para_18",
+        "type": "paragraph",
+        "value": "über die Zeit so verzerrt worden und unserem eigenen magischen Denken zum Opfergefallen,",
+        "position": {
+          "page": 43,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page43_para_19",
+        "type": "paragraph",
+        "value": "dass es ein haarsträubendes Unterfangen ist, sie überhaupt noch als solche zu erkennen. Man",
+        "position": {
+          "page": 43,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page43_para_20",
+        "type": "paragraph",
+        "value": "nehme nur einmal das Höhlengleichnis selbst und all seine teils aberwitzigen Interpretationen",
+        "position": {
+          "page": 43,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page43_para_21",
+        "type": "paragraph",
+        "value": "und Anwendungen, die Heute darüber so durch die Welt geistern, so wie dieses hier zum",
+        "position": {
+          "page": 43,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page43_para_22",
+        "type": "paragraph",
+        "value": "Beispiel.",
+        "position": {
+          "page": 43,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page43_para_23",
+        "type": "paragraph",
+        "value": "Aber zurück zum Dschungel. Stellt euch vor, jemand tritt in eure Welt und erzählt euch, wie",
+        "position": {
+          "page": 43,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page43_para_24",
+        "type": "paragraph",
+        "value": "schön der Blick über die Baumwipfel am Morgen doch sei und ihr könntet, wenn ihr denn",
+        "position": {
+          "page": 43,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page43_para_25",
+        "type": "paragraph",
+        "value": "wolltet den selben Ausblick genießen, wenn ihr dies oder jenes tätet, zum Beispiel wenn ihr",
+        "position": {
+          "page": 43,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page43_para_26",
+        "type": "paragraph",
+        "value": "diesen besonders hohen Hügel aufsuchen würdet oder eine der Aussichtsplattformen nutzt die",
+        "position": {
+          "page": 43,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page43_para_27",
+        "type": "paragraph",
+        "value": "die Wildhüter aufgestellt haben. Er könnte euch sogar die Richtung hinaus weisen und ihr",
+        "position": {
+          "page": 43,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page43_para_28",
+        "type": "paragraph",
+        "value": "müsstet diesem Weg nur folgen um nach einer Tagesreise ans Büro der Parkwächter zu",
+        "position": {
+          "page": 43,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page43_para_29",
+        "type": "paragraph",
+        "value": "gelangen, an dem zwei mal täglich der Bus Richtung Bahnhof hält. Er würde euch dazu gerne",
+        "position": {
+          "page": 43,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page43_para_30",
+        "type": "paragraph",
+        "value": "eine Karte des Dschungels anbieten, welche er übrig hat und selbst nicht braucht, weil er",
+        "position": {
+          "page": 43,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page43_para_31",
+        "type": "paragraph",
+        "value": "diesen Ort wie seine Westentasche kennt und auch ohne Karte jeden Weg finden kann.",
+        "position": {
+          "page": 43,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page43_para_32",
+        "type": "paragraph",
+        "value": "Würdet ihr verstehen was er meint? Wohl eher nicht, denn ihr habt ja kein Konzept davon, was",
+        "position": {
+          "page": 43,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

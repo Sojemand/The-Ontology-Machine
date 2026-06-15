@@ -1,0 +1,284 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=100-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:3c28231c031c473eebdcdcac4aa4371570608ab070c666c9146b5d3119abb092",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 100,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=100-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page100_para_0",
+        "type": "paragraph",
+        "value": "stabilisiert und unser Ich konsistent hält, das habe ich hoffentlich in diesem Buch deutlich genug",
+        "position": {
+          "page": 100,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page100_para_1",
+        "type": "paragraph",
+        "value": "dargelegt, ist unser Drang uns selbst gegenüber als Widerspruchsfrei zu erscheinen. Was wir",
+        "position": {
+          "page": 100,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page100_para_2",
+        "type": "paragraph",
+        "value": "aber nicht sind, nicht einmal annähernd.",
+        "position": {
+          "page": 100,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page100_para_3",
+        "type": "paragraph",
+        "value": "Was bedeutet es nun, wenn jemand aus einer solchen Erfahrung Beruhigung, Befriedigung und",
+        "position": {
+          "page": 100,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page100_para_4",
+        "type": "paragraph",
+        "value": "ein Gefühl des „Eins Sein“ schöpft? Ist das nicht ein noch tieferes Abgleiten in den Traum, wo",
+        "position": {
+          "page": 100,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page100_para_5",
+        "type": "paragraph",
+        "value": "man sich vor seinen eigenen Widersprüchen noch besser verstecken kann, sie noch weniger",
+        "position": {
+          "page": 100,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page100_para_6",
+        "type": "paragraph",
+        "value": "sehen muss? Und was sagt es uns, wenn uns das ein Gefühl vermittelt, dass dies sogar gut,",
+        "position": {
+          "page": 100,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page100_para_7",
+        "type": "paragraph",
+        "value": "heilsam und erstrebenswert sei? Das ist so, als würde man sich nur noch tiefer in das Kissen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page100_para_8",
+        "type": "paragraph",
+        "value": "kuscheln, die Decke noch weiter über den Kopf ziehen, um dieses warme und gemütliche",
+        "position": {
+          "page": 100,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page100_para_9",
+        "type": "paragraph",
+        "value": "Gefühl des Bettes noch besser, noch umfassender spüren zu können und um die grelle Sonne",
+        "position": {
+          "page": 100,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page100_para_10",
+        "type": "paragraph",
+        "value": "auszusperren und alle Geräusche zu dämpfen, die uns zurufen, dass es Zeit zum aufstehen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page100_para_11",
+        "type": "paragraph",
+        "value": "sei.",
+        "position": {
+          "page": 100,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page100_para_12",
+        "type": "paragraph",
+        "value": "Alle Menschen, die sich mit solchen Phänomenen beschäftigen, scheinen nur allzu bereitwillig",
+        "position": {
+          "page": 100,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page100_para_13",
+        "type": "paragraph",
+        "value": "diesen Weg zu gehen, wenn er nur Wohlgefallen und Schmerzfreiheit verspricht und deshalb",
+        "position": {
+          "page": 100,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page100_para_14",
+        "type": "paragraph",
+        "value": "nenne ich sie Traumphilosophen. Traumphilosophen, die sich an ihren eigenen Fürzen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page100_para_15",
+        "type": "paragraph",
+        "value": "berauschen, anstatt sich die Decke vom Kopf zu reißen und in die grelle und schmerzhafte",
+        "position": {
+          "page": 100,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page100_para_16",
+        "type": "paragraph",
+        "value": "Morgensonne zu blicken und endlich aufzustehen. So werden auch nur die positiv",
+        "position": {
+          "page": 100,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page100_para_17",
+        "type": "paragraph",
+        "value": "empfundenen Erfahrungen als nützlich und erstrebenswert betrachtet und das Abgleiten in",
+        "position": {
+          "page": 100,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page100_para_18",
+        "type": "paragraph",
+        "value": "„Horrortrips“ als Fehlschlag gesehen, dem es unter allen Umständen entgegenzuwirken gilt.",
+        "position": {
+          "page": 100,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page100_para_19",
+        "type": "paragraph",
+        "value": "Was diese Dinge erst zu einem Horrortrip machen, ja, das lassen wir mal lieber unangetastet.",
+        "position": {
+          "page": 100,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page100_para_20",
+        "type": "paragraph",
+        "value": "Solche Dinge sind gefährlich, denn sie können bleibende Schäden in der Psyche verursachen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page100_para_21",
+        "type": "paragraph",
+        "value": "und das wollen Traumphilosophen nicht verantworten müssen.",
+        "position": {
+          "page": 100,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page100_para_22",
+        "type": "paragraph",
+        "value": "Ich weiß, das ist wieder eine recht zynische Betrachtung, aber sie entsteht aus dem",
+        "position": {
+          "page": 100,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page100_para_23",
+        "type": "paragraph",
+        "value": "Unverständnis dieser einseitigen Bevorzugung der Dinge die da vor uns liegen und die",
+        "position": {
+          "page": 100,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page100_para_24",
+        "type": "paragraph",
+        "value": "teilweise vehement ignoriert werden. Wo sind diejenigen, die dem Gestank unter der eigenen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page100_para_25",
+        "type": "paragraph",
+        "value": "Bettdecke überdrüssig sind und sich nach frischer Luft sehnen? Warum hört man von ihnen",
+        "position": {
+          "page": 100,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page100_para_26",
+        "type": "paragraph",
+        "value": "nichts?",
+        "position": {
+          "page": 100,
+          "paragraph_index": 26
+        }
+      }
+    ]
+  }
+}

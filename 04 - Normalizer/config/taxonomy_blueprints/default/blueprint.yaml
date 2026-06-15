@@ -1,0 +1,7 @@
+blueprint_ref: default
+label: Default Canonical
+description: Immutable canonical default blueprint with the 11-projection baseline
+  taxonomy and English canonical authoring locale.
+kind: immutable_default_taxonomy
+immutable: true
+primary_locale: en

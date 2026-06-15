@@ -1,0 +1,134 @@
+# Shared local test and runtime artifacts across the vision pipeline.
+
+# Python caches and local environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+**/.venv/
+**/plugins/*/venv/
+**/__pycache__/
+
+# Pytest and temp workdirs
+.pytest_cache/
+.pytest-tmp/
+.pytest-tmp*/
+.pytest-basetemp*/
+.pytest-local-tmp/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.tmp/
+.tmp*/
+tmp/
+tmp-*/
+tmp_*/
+
+**/.pytest_cache/
+**/.pytest-tmp/
+**/.pytest-tmp*/
+**/.pytest-basetemp*/
+**/.pytest-local-tmp/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.hypothesis/
+**/pytest-cache-files-*/
+**/dev-tests/pytest-profile-*/
+**/dev-tests/pytest-*.json
+**/dev-tests/pytest-*.md
+**/dev-tests/contract-call-probe/
+**/dev-tests/probe-*/
+**/dev-tests/pyprobe-*/
+**/.tmp/
+**/.tmp*/
+**/tmp/
+**/tmp-*/
+**/tmp_*/
+
+**/state/pytest_*/
+**/state/pytest_tmp/
+**/state/tmp_*/
+
+# Local runtime output and mutable state
+output/
+outputs/
+state/
+logs/
+dist/
+build/
+*.log
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite3
+.coverage
+.coverage.*
+coverage.xml
+*.lcov
+
+**/output/
+**/outputs/
+**/state/
+!00 - Orchestrator/orchestrator/state/
+!00 - Orchestrator/orchestrator/state/__init__.py
+!00 - Orchestrator/orchestrator/state/adapter.py
+!00 - Orchestrator/orchestrator/state/repository.py
+**/state-dir/
+**/logs/
+**/dist/
+**/build/
+**/coverage/
+**/htmlcov/
+**/.appdata/
+**/.appdata/logs/
+**/.appdata/output/
+**/.appdata/state/
+**/.appdata/config/
+
+config/keystore.enc
+config/ui_state.json
+**/config/keystore.enc
+**/config/ui_state.json
+
+# Environment and pipeline queue files
+.env
+**/.env
+**/.salt
+**/cookies.txt
+**/file_queue.jsonl
+**/queue_cache.jsonl
+
+# Frontend local runtime artifacts
+node_modules/
+Client Frontend/app/
+Client Frontend/config.json
+Client Frontend/logs/
+Client Frontend/node/*
+!Client Frontend/node/README.txt
+Client Frontend/.cache/
+Client Frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+playwright-report/
+test-results/
+**/playwright-report/
+**/test-results/
+
+# Bundled runtimes and packaging artifacts
+**/runtime/*
+!**/runtime/README.md
+!**/runtime/requirements.lock.txt
+!**/runtime/requirements-dev.lock.txt
+!**/runtime/runtime-manifest.json
+!**/runtime/launch-server.bat
+!**/runtime/open-browser-when-ready.js
+!installer/icons/
+!installer/icons/*.ico
+**/plugins/*/runtime/
+!01 - Optimizer/plugins/mail-outlook-store/runtime/
+!01 - Optimizer/plugins/mail-outlook-store/runtime/README.md

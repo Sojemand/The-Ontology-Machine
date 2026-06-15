@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=013-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:43aaa6348ce7924c33c78a2ea7973ec586dc25ca876f20076270f1ca7ec537c3",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 13,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=013-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 13,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_013.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page13_para_0",
+        "type": "paragraph",
+        "value": "Mit „Falsch“ meine ich nicht etwas zu tun was gegen ein Gesetz verstößt oder was die",
+        "position": {
+          "page": 13,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page13_para_1",
+        "type": "paragraph",
+        "value": "Gesellschaft, die Kultur oder die Moral als falsch ansieht. „Falsch“ in diesem Zusammenhang",
+        "position": {
+          "page": 13,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page13_para_2",
+        "type": "paragraph",
+        "value": "bedeutet, dass du dafür keine Rechtfertigung in dir selbst schaffen kannst, die es dir erlaubt es",
+        "position": {
+          "page": 13,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page13_para_3",
+        "type": "paragraph",
+        "value": "zu tun, ohne die Widerspruchsfreiheit zu gefährden. Du kannst eine Bank ausrauben und",
+        "position": {
+          "page": 13,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page13_para_4",
+        "type": "paragraph",
+        "value": "wissen, dass es gegen das Gesetz verstößt, aber du bist davon überzeugt, deine Motivation",
+        "position": {
+          "page": 13,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page13_para_5",
+        "type": "paragraph",
+        "value": "diese Bank zu berauben stehe über dem was das Gesetz vorgibt. Du magst dich davon",
+        "position": {
+          "page": 13,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page13_para_6",
+        "type": "paragraph",
+        "value": "überzeugt haben, mit dem Geld viel Gutes tun zu können oder du bewertest dein eigenes",
+        "position": {
+          "page": 13,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page13_para_7",
+        "type": "paragraph",
+        "value": "Verlangen nach Geld wichtiger als das allgemeine Gesetz. Wie auch immer, in dir selbst ist die",
+        "position": {
+          "page": 13,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page13_para_8",
+        "type": "paragraph",
+        "value": "Rechtfertigung zum berauben der Bank in sich völlig schlüssig. Du bist kein böser Mensch",
+        "position": {
+          "page": 13,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page13_para_9",
+        "type": "paragraph",
+        "value": "wenn du dies tust. Vielleicht siehst du dich als Opfer der Umstände, die dich dazu zwingen, als",
+        "position": {
+          "page": 13,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page13_para_10",
+        "type": "paragraph",
+        "value": "Geschädigter anderer böser Menschen und tief drin bist du überzeugt, dabei doch der Gute zu",
+        "position": {
+          "page": 13,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page13_para_11",
+        "type": "paragraph",
+        "value": "sein.",
+        "position": {
+          "page": 13,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page13_para_12",
+        "type": "paragraph",
+        "value": "Nun stelle dir vor, du wärest ein Politiker, der sein gesamtes Leben damit verbracht hat, einer",
+        "position": {
+          "page": 13,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page13_para_13",
+        "type": "paragraph",
+        "value": "Sache zu dienen die er als „gut und gerecht“ empfindet. Stelle dir vor er sieht wie sich der",
+        "position": {
+          "page": 13,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page13_para_14",
+        "type": "paragraph",
+        "value": "Zeitgeist eines Tages gegen ihn wendet und er überall Horden „böser Menschen“ sieht, die",
+        "position": {
+          "page": 13,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page13_para_15",
+        "type": "paragraph",
+        "value": "sein gutes und gerechtes Lebenswerk bedrohen. Ein Lebenswerk, für das er alles gegeben",
+        "position": {
+          "page": 13,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page13_para_16",
+        "type": "paragraph",
+        "value": "hat, für das er so viel geopfert hat ist nun in Gefahr. Die Maßnahmen, welche er bereit sein",
+        "position": {
+          "page": 13,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page13_para_17",
+        "type": "paragraph",
+        "value": "wird zu ergreifen um es zu schützen, werden extrem sein. Er wird ohne zu zögern bereit sein,",
+        "position": {
+          "page": 13,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page13_para_18",
+        "type": "paragraph",
+        "value": "auch zum letzten Mittel zu greifen und den Tod der „bösen Menschen“ in Kauf nehmen, nur",
+        "position": {
+          "page": 13,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page13_para_19",
+        "type": "paragraph",
+        "value": "um das Undenkbare zu verhindern.",
+        "position": {
+          "page": 13,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page13_para_20",
+        "type": "paragraph",
+        "value": "An jedem Punkt dieses Weges wir dieser Politiker sich als „der Gute“ sehen der den guten",
+        "position": {
+          "page": 13,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page13_para_21",
+        "type": "paragraph",
+        "value": "Kampf kämpft, selbst dann noch, wenn er mit schwerem Herzen Exekutionsbefehle",
+        "position": {
+          "page": 13,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page13_para_22",
+        "type": "paragraph",
+        "value": "unterschreiben wird, denn er ist bereit diese Bürde zu tragen um das zu schützen was gut",
+        "position": {
+          "page": 13,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page13_para_23",
+        "type": "paragraph",
+        "value": "und richtig ist. Niemals wird er erkennen, wie die „bösen Menschen da draußen“ nur Illusionen",
+        "position": {
+          "page": 13,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page13_para_24",
+        "type": "paragraph",
+        "value": "sind, erschaffen durch seine eigene Unfähigkeit anzuerkennen, dass seine Ideen und sein",
+        "position": {
+          "page": 13,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page13_para_25",
+        "type": "paragraph",
+        "value": "Lebenswerk auf Dingen basieren, die schon von Beginn an zum Scheitern verurteilt waren,",
+        "position": {
+          "page": 13,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page13_para_26",
+        "type": "paragraph",
+        "value": "wie alles irgendwann an der Dynamik der Welt zerschellt. Er kann es nicht, denn das würde",
+        "position": {
+          "page": 13,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page13_para_27",
+        "type": "paragraph",
+        "value": "buchstäblich die Vernichtung des eigenen Selbst zur Folge haben. Wir alle sehen uns diesem",
+        "position": {
+          "page": 13,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page13_para_28",
+        "type": "paragraph",
+        "value": "Dilemma gegenüber, tagtäglich, mal mehr, mal weniger davon herausgefordert.",
+        "position": {
+          "page": 13,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page13_para_29",
+        "type": "paragraph",
+        "value": "Das Grausame daran ist, dass unser eigenes Selbstbild gänzlich auf unserer",
+        "position": {
+          "page": 13,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page13_para_30",
+        "type": "paragraph",
+        "value": "Selbstwahrnehmung beruht, welches einen Zirkelschluss bildet und keine Basis außerhalb des",
+        "position": {
+          "page": 13,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

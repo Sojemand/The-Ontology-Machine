@@ -1,0 +1,11 @@
+﻿{
+    "name":  "Client Frontend",
+    "bootstrap_script":  "bootstrap.bat",
+    "aliases":  [
+                    "frontend"
+                ],
+    "kind":  "node",
+    "run_script":  "run-tests.bat",
+    "display_name":  "Client Frontend"
+}
+

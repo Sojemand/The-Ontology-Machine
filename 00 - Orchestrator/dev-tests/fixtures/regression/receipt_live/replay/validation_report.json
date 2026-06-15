@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "file_name": "scan.pdf",
+  "file_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\a\\structured\\scan.pdf.structured.json",
+  "content_hash": "sha256:0ef26089f83a537a069c9a712fa55f01456fbb1b71ff7da4a567b0717522da94",
+  "validated_at": "2026-03-25T22:47:17.740664+00:00",
+  "validator_version": "1.1.0",
+  "processing_time_ms": 7,
+  "result": "PASS",
+  "needs_review": false,
+  "summary": {
+    "total_issues": 0,
+    "fail_count": 0,
+    "warn_count": 0,
+    "checked_values": 15,
+    "valid_values": 15
+  },
+  "checks": {
+    "free_text": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 1,
+      "valid": 1
+    },
+    "context_scalars": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 3,
+      "valid": 3
+    },
+    "content_fields": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 11,
+      "valid": 11
+    },
+    "rows": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 0,
+      "valid": 0
+    }
+  },
+  "issues": []
+}

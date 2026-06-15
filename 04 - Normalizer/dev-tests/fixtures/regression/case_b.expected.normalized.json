@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.62,
+    "needs_review": true,
+    "review_reason": "Document type remains semantically unclear.",
+    "vision_used": false,
+    "processed_at": "2026-03-27T00:00:00Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "other",
+    "document_type_confidence": 0.62,
+    "category": "other",
+    "subcategory": "other",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Amt Leipzig",
+    "document_date": "2024-02-01",
+    "document_title": "Unclear notice",
+    "description": "Document with unclear domain classification.",
+    "tags": [
+      "letter"
+    ],
+    "people": [
+      "Alice Beispiel"
+    ],
+    "organizations": [
+      "Amt Leipzig"
+    ],
+    "locations": [
+      "Leipzig"
+    ],
+    "date_range": {
+      "from": "2024-02-01",
+      "to": "2024-02-01"
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "housing.default.v1",
+    "raw_classification": {
+      "document_type": "report",
+      "category": "administrative",
+      "subcategory": "other"
+    },
+    "normalization_notes": [
+      "Document could not be assigned to a stable document type.",
+      "Raw document_type 'report' normalized to 'other'."
+    ]
+  },
+  "content": {
+    "structure": {
+      "type": "mixed",
+      "columns": [
+        "description"
+      ],
+      "form_fields": [
+        "recipient_primary"
+      ]
+    },
+    "fields": {
+      "recipient_primary": "Alice Beispiel"
+    },
+    "rows": [
+      {
+        "_row_type": "other",
+        "_row_index": 0,
+        "description": "Notice without clear assignment"
+      }
+    ],
+    "free_text": "other unclear notice Alice Beispiel"
+  },
+  "projection": {
+    "projection_id": "housing.default.v1",
+    "projection_family": "default",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-28.v6",
+    "projection_version": "v2",
+    "projection_fingerprint": "sha256:2ca8ddbb989d20d2a3e4b87450aa25e31ec8dc18121a5fb87433569748c93ca2",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "fallback",
+      "hint_projection_id": null,
+      "hint_confidence": null,
+      "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+      "reason": "No projection_hint in input; local routing remains below the release threshold (best=housing.default.v1 score=12, next_score=12, required_min_score=4, required_margin=3, delta=0); using configured fallback profile. signals=[document_type:report, category:administrative, field:recipient_primary, cell:description]"
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=069-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:222a71c1eb56339b8d0bee88aad13e2681b1f11fd32059e6ef8a495575ea784b",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 69,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=069-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page69_para_0",
+        "type": "paragraph",
+        "value": "Kapitel 5 – Die symbolische Welt",
+        "position": {
+          "page": 69,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page69_para_1",
+        "type": "paragraph",
+        "value": "Symbole verstehen",
+        "position": {
+          "page": 69,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page69_para_2",
+        "type": "paragraph",
+        "value": "Wenn ich von einer „symbolischen Welt“ rede und so tue, als besäße sie eine Existenz,",
+        "position": {
+          "page": 69,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page69_para_3",
+        "type": "paragraph",
+        "value": "unabhängig von der Realität wie wir sie wahrnehmen, dann ist das fast richtig und auch ein",
+        "position": {
+          "page": 69,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page69_para_4",
+        "type": "paragraph",
+        "value": "bisschen falsch. Symbolik ist Abstraktion spezifischer Umstände und eine Umsetzung in",
+        "position": {
+          "page": 69,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page69_para_5",
+        "type": "paragraph",
+        "value": "universelle Bilder, aus denen wir anschließend Regeln ableiten können, um diese dann auf",
+        "position": {
+          "page": 69,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page69_para_6",
+        "type": "paragraph",
+        "value": "andere spezifische Umstände anwenden zu können. Dabei umgehen wir den Flaschenhals",
+        "position": {
+          "page": 69,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page69_para_7",
+        "type": "paragraph",
+        "value": "der Sprache und brechen die Vielfältigkeit der Welt auf ihre Kernkomponenten herunter, um",
+        "position": {
+          "page": 69,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page69_para_8",
+        "type": "paragraph",
+        "value": "sie leichter und schneller zu verstehen. Dabei erschaffen wir in uns eine symbolische Welt, ein",
+        "position": {
+          "page": 69,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page69_para_9",
+        "type": "paragraph",
+        "value": "Abbild dessen was wir Draußen sehen und in gewisser Weise ist diese Welt für uns realer als",
+        "position": {
+          "page": 69,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page69_para_10",
+        "type": "paragraph",
+        "value": "die reale Welt.",
+        "position": {
+          "page": 69,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page69_para_11",
+        "type": "paragraph",
+        "value": "Nehmen wir zum Beispiel einen Spaziergang entlang einer Straße. Du läufst neben der Straße",
+        "position": {
+          "page": 69,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page69_para_12",
+        "type": "paragraph",
+        "value": "her, auf der reger Verkehr herrscht. Du bist dir darüber im Klaren, dass du lieber nicht einfach",
+        "position": {
+          "page": 69,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page69_para_13",
+        "type": "paragraph",
+        "value": "so auf der Straße selbst umher gehen solltest, da sich dort schnell fahrende Autos befinden,",
+        "position": {
+          "page": 69,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page69_para_14",
+        "type": "paragraph",
+        "value": "die eine für dich potentielle Gefahr darstellen. Aber warum genau bist du dir darüber im",
+        "position": {
+          "page": 69,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page69_para_15",
+        "type": "paragraph",
+        "value": "Klaren? Blickst du ständig auf die Straße und denkst, dass diese künstlichen Metallgebilde",
+        "position": {
+          "page": 69,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page69_para_16",
+        "type": "paragraph",
+        "value": "sich mit Geschwindigkeit X bewegen,\neine\nMasse\nvon\nY\naufweisen,\neinen",
+        "position": {
+          "page": 69,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page69_para_17",
+        "type": "paragraph",
+        "value": "Reibungswiederstand Z beim Bremsen haben und ihre Fahrer eine dir unbekannte",
+        "position": {
+          "page": 69,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page69_para_18",
+        "type": "paragraph",
+        "value": "Reaktionszeit besitzen? Denkst du an all diese Dinge und wägst ab, wie die",
+        "position": {
+          "page": 69,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page69_para_19",
+        "type": "paragraph",
+        "value": "Wahrscheinlichkeiten eines Zusammenstoßes sich ändern, wenn du mit bestimmten",
+        "position": {
+          "page": 69,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page69_para_20",
+        "type": "paragraph",
+        "value": "Geschwindigkeiten selbst auf der Straße umher laufen würdest? Kommst du dann zu dem",
+        "position": {
+          "page": 69,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page69_para_21",
+        "type": "paragraph",
+        "value": "Schluss, dass diese Wahrscheinlichkeit für deinen Geschmack zu groß ist und du es deshalb",
+        "position": {
+          "page": 69,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page69_para_22",
+        "type": "paragraph",
+        "value": "lieber sein lässt? Nein.",
+        "position": {
+          "page": 69,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page69_para_23",
+        "type": "paragraph",
+        "value": "Du wendest eine viel einfachere Heuristik an. Du weißt, Auto + Du = Tod. Also besser Abstand",
+        "position": {
+          "page": 69,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page69_para_24",
+        "type": "paragraph",
+        "value": "halten. Du ersetzt das fahrende Auto in deinen Kopf mit dem Symbol des sich schnell",
+        "position": {
+          "page": 69,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page69_para_25",
+        "type": "paragraph",
+        "value": "bewegenden Todes, welchem du am besten damit entgehst, indem du dich ihm nicht in den",
+        "position": {
+          "page": 69,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page69_para_26",
+        "type": "paragraph",
+        "value": "Weg stellst. Diese Schlussfolgerung setzt weder die Notwendigkeit voraus zu wissen, was ein",
+        "position": {
+          "page": 69,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page69_para_27",
+        "type": "paragraph",
+        "value": "Auto ist, was eine Straße ist oder zu welchen Zwecken all diese Dinge existieren. Du könntest",
+        "position": {
+          "page": 69,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page69_para_28",
+        "type": "paragraph",
+        "value": "dies sogar sehr leicht einem Menschen erklären, der vor zehntausend Jahren lebte und noch",
+        "position": {
+          "page": 69,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page69_para_29",
+        "type": "paragraph",
+        "value": "nie Autos gesehen hat, nicht weiß was Straßen sind und kein Konzept von Verkehr hat. Du",
+        "position": {
+          "page": 69,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page69_para_30",
+        "type": "paragraph",
+        "value": "müsstest ihm nur ein Bild vermitteln, welches beschreibt, dass du aus einer Gegend kommst,",
+        "position": {
+          "page": 69,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

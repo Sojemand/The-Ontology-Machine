@@ -1,0 +1,48 @@
+{
+  "processing": {
+    "interpreter_profile": "file",
+    "model": "mixed-model",
+    "model_confidence": 0.88,
+    "needs_review": false,
+    "vision_used": false
+  },
+  "classification": {
+    "document_type": "spreadsheet",
+    "category": "finance",
+    "subcategory": "budget_plan",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "KGV Abendrot e.V.",
+    "document_title": "Kostenplan 2024",
+    "description": "Jahresplan fuer Wasser und Strom.",
+    "tags": ["Budget", "Wasser", "Strom"],
+    "people": [],
+    "organizations": ["KGV Abendrot e.V."]
+  },
+  "content": {
+    "structure": {"type": "table"},
+    "fields": {
+      "invoice_number": "BUD-2024-01",
+      "customer_name": "KGV Abendrot e.V.",
+      "gross_amount": 1200.5,
+      "service_period_from": "2024-01-01",
+      "service_period_to": "2024-12-31"
+    },
+    "rows": [
+      {"category": "Wasser", "amount": 400.5},
+      {"category": "Strom", "amount": 800.0}
+    ],
+    "free_text": null
+  },
+  "relations": [],
+  "source": {
+    "file_name": "kostenplan.xlsx",
+    "file_path": "C:/docs/kostenplan.xlsx",
+    "content_hash": "sha256:mixed-doc-hash",
+    "size_bytes": 900
+  }
+}

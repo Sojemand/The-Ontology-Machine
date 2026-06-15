@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:47:52.320931+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A philosophical nonfiction book page is visible with a section heading and extended prose paragraphs.",
+      "matched_signals": [
+        "section heading",
+        "extended prose paragraphs",
+        "philosophical nonfiction style"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 51,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=051-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page51_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 51,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "Und so steht es auch dem jungen Mann jederzeit frei, sich über seine Situation mit der jungen Frau klar zu werden. Die Informationen vor seinen Augen springen ihn ja förmlich an und auch sein eigener Körper reagiert deutlich und im Grunde unübersehbar auf das ihm gebotene. Er muss sich nur daran erinnern, dass er all das sehen will, dann tut er das auch. Er wird vielleicht nicht gerade geschmeichelt sein zu bemerken, wie seine Hormone ihn steuern und er sich dabei wie ein irrationaler Affe im Balztanz verhält, aber wie gesagt, die Widerspruchsfreiheit zu verletzen tut weh. Nur, wenn ein solcher junger Mann gerade diese Zeilen ließt und sich denkt „jo, das mache ich“, dann wird er vielleicht feststellen, oder eben nicht feststellen, wie das Vergessen über ihn kommt und wenn er Glück hat, er sich vielleicht nur Minuten, vielleicht auch erst Wochen später daran erinnert, was er eigentlich tun wollte. Vielleicht gelingt es ihm aber auch und nachdem der Moment vorüber ist, verbleibt in ihm nur noch ein ungutes Gefühl, woraufhin er sich entscheidet, solchen Unsinn nie wieder zu versuchen und sich dabei noch eine ganze Weile an diesen Moment erinnern. Wer weiß das schon.",
+        "function": "reflective_example",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page51_Segment2",
+        "unit_kind": "title_line",
+        "page": 51,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Üben mach frei",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page51_Segment3",
+        "unit_kind": "instructional_paragraph",
+        "page": 51,
+        "sequence": 3,
+        "section": "Üben mach frei",
+        "label": null,
+        "text": "Wer sich jetzt denkt, dass das Meiste hier viel zu theoretisch für ihn klang und er Schwierigkeiten hat, in sich selbst zu unterscheiden, was denn nun genau was ist, für den habe ich noch eine kleine Übung auf Lager um den Ball vielleicht ins Rollen zu bringen. Wenn wir uns umsehen, etwas ansehen, unsere Aufmerksamkeit bewusst auf etwas richten, dann tun wir das mit unseren Augen. Wir blicken die Dinge direkt an, holen sie sozusagen in den Fokus. Um diesen Reflex zu umgehen und die Augenbewegung von der Bewegung des Gewahrseins fühlbar zu trennen, kann man sich zum Beispiel an einem schönen sonnigen Tag in eine Fußgängerzone setzen, am besten an einen weitläufigen Platz mit viel freier Fläche zum überblicken. Dann sucht man sich einen Punkt in der Ferne, auf den man seine Augen richtet und sie dann auch dort belässt. Jetzt sollten sich die Augen unter keinen Umständen mehr bewegen. Wenn man auf diesen Punkt in der Ferne blickt und sich in einer belebten Umgebung befindet, dann gibt es dort sehr viel Interessantes zu beobachten. Aber anstatt überall direkt hin zu blicken, lassen wir einfach unsere Aufmerksamkeit hin und her gleiten. Während die Augen still stehen, bemerken wir, wie unser Gewahrsein sich hin und her bewegt und sich damit unsere Aufmerksamkeit auf viele verschiedene Dinge richten kann. Das geht natürlich auch in kargen Räumen, aber je mehr Facetten verfügbar sind auf die man die Aufmerksamkeit richten kann, desto wahrscheinlicher ist es, diesen Zustand länger aufrecht erhalten zu können.",
+        "function": "guided_attention_exercise",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Reflexion über Wahrnehmung; Abschnitt „Üben mach frei“; Aufmerksamkeitsübung"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=051-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:13bba3c54e2da02b4f806497fbbed27cac7a0e292b47cca5e61293f449f8ca7c",
+    "created_at": null,
+    "modified_at": null
+  }
+}

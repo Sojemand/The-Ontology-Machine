@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=098-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:9a498443aab0cf8386ce4c6c1bdaf5da09608702fa7ec9544e7bbc4a501a42c2",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 98,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=098-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page98_para_0",
+        "type": "paragraph",
+        "value": "die nicht an die Perspektive eines Augenpaares gebunden ist. All das könnte man noch als",
+        "position": {
+          "page": 98,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page98_para_1",
+        "type": "paragraph",
+        "value": "fremd induzierte Verwirrungen abtun, aber diese Art räumlicher Wahrnehmungen treten eben",
+        "position": {
+          "page": 98,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page98_para_2",
+        "type": "paragraph",
+        "value": "auch ohne den Einfluss fremder Substanzen auf, wenn auch scheinbar Zufällig.",
+        "position": {
+          "page": 98,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page98_para_3",
+        "type": "paragraph",
+        "value": "Und weil wir ja gesehen haben, dass auch unser Gewahrsein an sich zufällig in die ein oder",
+        "position": {
+          "page": 98,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page98_para_4",
+        "type": "paragraph",
+        "value": "andere Richtung gestoßen werden kann und uns Funktionen offenbart, die wir, einmal erkannt,",
+        "position": {
+          "page": 98,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page98_para_5",
+        "type": "paragraph",
+        "value": "auch selbst erzeugen können, könnte dies dann auch auf solche Dinge zutreffen?",
+        "position": {
+          "page": 98,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page98_para_6",
+        "type": "paragraph",
+        "value": "Außerkörperliche Erfahrungen und spontane Visionen können Elemente davon enthalten und",
+        "position": {
+          "page": 98,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page98_para_7",
+        "type": "paragraph",
+        "value": "treten eben auch ohne Fremdsubstanzen auf. Es muss sich also um eine dem Gehirn bereits",
+        "position": {
+          "page": 98,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page98_para_8",
+        "type": "paragraph",
+        "value": "inne wohnende Eigenschaft, um eine Fähigkeit handeln, zu welcher das Gehirn selbst fähig ist.",
+        "position": {
+          "page": 98,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page98_para_9",
+        "type": "paragraph",
+        "value": "Warum also können wir darauf nicht zugreifen? Sind das vielleicht Elemente, die einem",
+        "position": {
+          "page": 98,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page98_para_10",
+        "type": "paragraph",
+        "value": "Bewusstsein zugänglich sind, welches sich noch oberhalb des zweigleisigen Gewahrseins",
+        "position": {
+          "page": 98,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page98_para_11",
+        "type": "paragraph",
+        "value": "aufhält und wir uns deshalb nicht über sie bewusst sind, weil jeder Aufenthalt dort wieder im",
+        "position": {
+          "page": 98,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page98_para_12",
+        "type": "paragraph",
+        "value": "Vergessen versinkt? Verstecken sich dort Dinge, die uns so unvorstellbar scheinen, dass wir",
+        "position": {
+          "page": 98,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page98_para_13",
+        "type": "paragraph",
+        "value": "sie für einfach zu verrückt halten um sie in Betracht zu ziehen?",
+        "position": {
+          "page": 98,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page98_para_14",
+        "type": "paragraph",
+        "value": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und\nGewahrsein?",
+        "position": {
+          "page": 98,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page98_para_15",
+        "type": "paragraph",
+        "value": "Ein weiterer Aspekt der kaum Beachtung findet ist die Ernährung. Wir konzentrieren uns auf",
+        "position": {
+          "page": 98,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page98_para_16",
+        "type": "paragraph",
+        "value": "was gesund zu sein scheint, so weit so gut. Fehlernährung bringt unübersehbare biologische",
+        "position": {
+          "page": 98,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page98_para_17",
+        "type": "paragraph",
+        "value": "Defizite mit sich, Krankheiten und auch psychologische Störungen sind etwas, worüber wir",
+        "position": {
+          "page": 98,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page98_para_18",
+        "type": "paragraph",
+        "value": "uns sehr wohl bewusst sind. Wer aber versucht zu ergründen, wie sich das auf die",
+        "position": {
+          "page": 98,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page98_para_19",
+        "type": "paragraph",
+        "value": "Schnittstelle zwischen Körper und Gewahrsein auswirkt? Was erleichtert nicht nur den",
+        "position": {
+          "page": 98,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page98_para_20",
+        "type": "paragraph",
+        "value": "Informationsfluss, sondern mindert auch die Verzerrungen jener Informationen, über die wir",
+        "position": {
+          "page": 98,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page98_para_21",
+        "type": "paragraph",
+        "value": "uns durch unsere Maschine gewahr werden? Viele kennen das, wenn wir zum Beispiel von",
+        "position": {
+          "page": 98,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page98_para_22",
+        "type": "paragraph",
+        "value": "einem Ketose-Metabolismus in einen Kohlehydrat- Metabolismus wechseln oder umgekehrt,",
+        "position": {
+          "page": 98,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page98_para_23",
+        "type": "paragraph",
+        "value": "wie sich die Funktionsweise der Wahrnehmung ändert. Einige Dinge fallen einem leichter,",
+        "position": {
+          "page": 98,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page98_para_24",
+        "type": "paragraph",
+        "value": "andere wiederum schwerer und je nach Mensch ändert sich auch die physische und kognitive",
+        "position": {
+          "page": 98,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page98_para_25",
+        "type": "paragraph",
+        "value": "Leistungsfähigkeit nach kaum vorhersagbaren Mustern.",
+        "position": {
+          "page": 98,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page98_para_26",
+        "type": "paragraph",
+        "value": "Eine recht neue Beschreibung eines Phänomens, das wohl jeder einmal erlebt hat ist „Brain",
+        "position": {
+          "page": 98,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page98_para_27",
+        "type": "paragraph",
+        "value": "fog“, oder auf Deutsch „Gehirn Nebel“, welches den Zustand des erschwerten Denkens und",
+        "position": {
+          "page": 98,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page98_para_28",
+        "type": "paragraph",
+        "value": "der gedämpften Wahrnehmung von Reizen beschreibt. Offensichtlich ist das eine",
+        "position": {
+          "page": 98,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page98_para_29",
+        "type": "paragraph",
+        "value": "Beeinträchtigung der Gesamtfunktion, derer man sich Gewahr wird, solange man sich noch",
+        "position": {
+          "page": 98,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page98_para_30",
+        "type": "paragraph",
+        "value": "an den Umstand erinnern kann, dass es vorher mal besser war. Wie viele solcher Umstände",
+        "position": {
+          "page": 98,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

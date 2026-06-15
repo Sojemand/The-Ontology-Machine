@@ -1,0 +1,45 @@
+{
+  "cursor": "cursor_example",
+  "events": [
+    {
+      "schema_version": "kernel.client_frontend_event.v1",
+      "frontend_event_id": "frontend_event_id_example",
+      "frontend_event_kind": "interaction_request",
+      "interaction_request": {
+        "schema_version": "kernel.user_interaction_request.v1",
+        "interaction_request_id": "interaction_request_id_example",
+        "workflow_run_id": "workflow_run_id_example",
+        "function_or_route": "create_standard_database_workflow",
+        "interaction_function": "choose_artifact_root_folder",
+        "interaction_kind": "selection",
+        "dialog_type": "folder_picker",
+        "target_identity": {
+          "schema_version": "state.target_identity.v1",
+          "artifact_root_path_hash": "path_example",
+          "database_path_hash": "db_path_example",
+          "lock_scope": "target",
+          "target_hash": "tgt_example",
+          "created_from": "fixture"
+        },
+        "state_snapshot_identity": {
+          "schema_version": "state.snapshot_identity.v1",
+          "state_snapshot_id": "ss_0001"
+        },
+        "user_visible_title": "Choose Artifact Root",
+        "user_visible_summary": "Choose the workspace folder for this database.",
+        "response_shape": "path_value",
+        "expiration_policy": {
+          "policy_id": "selection_short",
+          "ttl_seconds": 1800,
+          "expires_at": "2026-05-05T00:30:00Z",
+          "recovery_state": "expired_pending_interaction"
+        },
+        "created_at": "2026-05-05T00:00:00Z"
+      },
+      "mirror_event_id": "mirror_event_id_example",
+      "created_at": "2026-05-05T00:00:00Z"
+    }
+  ],
+  "schema_version": "kernel.client_frontend_event_batch.v1",
+  "unexpected_phase2_field": "example"
+}

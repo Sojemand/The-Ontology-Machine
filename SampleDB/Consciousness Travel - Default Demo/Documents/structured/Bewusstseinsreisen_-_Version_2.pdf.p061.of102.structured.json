@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:51:58.270138+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 61,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=061-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.95,
+      "reason": "A nonfiction book page in philosophical writing is visible, with continuous paragraphs and a section heading.",
+      "matched_signals": [
+        "continuous argumentative prose",
+        "section heading",
+        "book page layout",
+        "philosophical discussion"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page61_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 61,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "In der Tat, denn was sind denn Träume anderes als Bruchstücke dessen, was sich im Wachbewusstsein zuträgt? Wir mögen von unmöglicher Architektur träumen, aber die Anwesenheit von Architektur, sei sie auch noch so verzerrt, kann doch nur geschehen, weil sie ein Teil unseres Wachbewusstseins ist. Wir mögen im Traum nicht verstehen, nach welchen Regeln sie genau entsteht, aber wir behalten im Traum ein Gefühl dafür, dass sie „Behausung“ ist, dass sie „Funktion“ besitzt, dass sie etwas Fundamentales darstellt und sie Teil des Lebens ist. Das Wissen über das Vorhandensein des Konzepts Architektur geht uns nicht verloren, auch wenn wir dessen inhärente Regeln nicht mehr voll verstehen. Wir vergessen ihre Existenz nicht vollständig, nein, ihr Konzept sickert in unsere Träume hinein und unser Traumbewusstsein formt daraus Symbolik, welche wir dann in unsere Traumwelten einbauen.",
+        "function": "argument_about_dream_symbolism",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page61_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 61,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Über Traumsymbolik gibt es tonnenweise Literatur, was wohl dies oder jenes jetzt genau bedeuten soll und welche Schlüsse wir daraus für unser Wachbewusstsein ziehen könnten. Dabei ist doch weniger der Inhalt eines Symbols interessant, als eher seine Entstehung an sich. Wir erkennen, dass der Inhalt unseres Wachbewusstseins in unsere Träume hinein sickert, sich dort fragmentiert und sich in eine Symbolsprache wandelt, die sich nahtlos und scheinbar widerspruchsfrei in Traumsequenzen zusammenfindet, die wir dann durchleben und keinen Gedanken daran verschwenden, wo diese Dinge ihren Ursprung haben.",
+        "function": "reflection_on_symbol_formation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page61_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 61,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Kurzum, die Traumwelt ist ein symbolisches Abbild der wachen Welt, welches auf die zusammengeschrumpften Kapazitäten des Traumbewusstseins zugeschnitten ist. Wäre es dann nicht denkbar, dass auch diese Regel ein Analog in unserer wachen Welt hat? Sickern nicht vielleicht auch Teile des Über-Ichs in unser Wach-Ich und unser Wach-Ich fragmentiert und symbolisiert die Fragmente und baut sie in unsere wache Welt ein, auf eine Art, die uns ebenfalls natürlich und widerspruchsfrei vorkommt? Ganz besonders wenn wir bedenken, wie sehr unser Bewusstsein bemüht ist, sich selbst als Widerspruchsfrei wahrzunehmen, obwohl es das beileibe nicht ist. Könnte also unsere wache Welt auch nur aus Bruchstücken dessen bestehen, was sich im Über-Ich zuträgt?",
+        "function": "speculative_analogy",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page61_Segment4",
+        "unit_kind": "title_line",
+        "page": 61,
+        "sequence": 4,
+        "section": null,
+        "label": null,
+        "text": "Es ist nicht alles Gold was glänzt",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page61_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 61,
+        "sequence": 5,
+        "section": "Es ist nicht alles Gold was glänzt",
+        "label": null,
+        "text": "Vielleicht sollten wir, bevor wir weiter gehen, uns den Widersprüchen gewahr werden, die wir mit der Verwendung solcher Analogien heraufbeschwören. Wir besitzen eine Traumwelt, weil",
+        "function": "transition_to_critique",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Traumsymbolik, Wachbewusstsein, Über-Ich, argumentative Buchseite mit Zwischenüberschrift"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=061-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:4e1234632dc174f87536235d1ad42a3f29d5199bda2165a0ccda5d276d19fe3c",
+    "created_at": null,
+    "modified_at": null
+  }
+}

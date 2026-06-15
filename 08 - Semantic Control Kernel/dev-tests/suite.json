@@ -1,0 +1,13 @@
+{
+  "name": "08 - Semantic Control Kernel",
+  "display_name": "08 - Semantic Control Kernel",
+  "kind": "python",
+  "aliases": ["semantic-control-kernel", "semantic_control_kernel", "kernel"],
+  "runtime_python": "../runtime/python",
+  "python_path": [".."],
+  "wheelhouses": ["../../tools/dev-tests/wheelhouse"],
+  "lockfile": "requirements.lock.txt",
+  "bootstrap_script": "bootstrap.bat",
+  "run_script": "run-tests.bat",
+  "target_dir": ".venv"
+}

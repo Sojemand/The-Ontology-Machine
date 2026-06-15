@@ -1,0 +1,13 @@
+{
+  "schema_version": "kernel.semantic_release.fixture.v1",
+  "release_id": "release_realistic",
+  "release_version": "v1",
+  "taxonomy_ids": [
+    "invoice",
+    "contract"
+  ],
+  "projection_ids": [
+    "core_fields",
+    "table_rows"
+  ]
+}

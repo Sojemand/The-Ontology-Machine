@@ -1,0 +1,15 @@
+{
+  "processing": {
+    "needs_review": false,
+    "review_reason": "",
+    "model": "gpt-5.4-mini",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "unknown",
+    "page_count": 1
+  },
+  "content": {
+    "free_text": "Unklare Unterlage fuer manuelle Klassifikation."
+  }
+}

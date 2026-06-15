@@ -1,0 +1,876 @@
+{
+  "analysis_run_id": "analysis_run_001",
+  "workflow_run_id": "workflow_run_001",
+  "runtime_settings": {
+    "semantic_control_kernel_llm": {
+      "model": "fake-kernel-model",
+      "max_output_tokens": 20000,
+      "timeout_seconds": 30,
+      "provider_family": "fake"
+    }
+  },
+  "real_taxonomy_proof": {
+    "runtime_locale": "en",
+    "taxonomy_id": "normalizer_taxonomy.master",
+    "taxonomy_version": "2026-05-01.v1",
+    "taxonomy_fingerprint": "sha256:tax001",
+    "existing_codes": [
+      "invoice",
+      "finance",
+      "other",
+      "issuer",
+      "amount_due",
+      "line_item",
+      "description",
+      "obsolete_code"
+    ],
+    "allowed_codes": [
+      "invoice",
+      "finance",
+      "other",
+      "issuer",
+      "amount_due",
+      "line_item",
+      "description",
+      "receipt",
+      "payment_reference"
+    ],
+    "fallback_codes": [
+      "other"
+    ],
+    "promotion_slots": [
+      {
+        "slot": "counterparty",
+        "label": "Counterparty",
+        "description": "Document-level counterparty or issuer.",
+        "value_type": "string",
+        "scope": "document",
+        "cardinality": "single",
+        "query_role": "primary",
+        "display_rank": 10
+      },
+      {
+        "slot": "amount_due",
+        "label": "Amount Due",
+        "description": "Document-level payable amount.",
+        "value_type": "number_or_money_string",
+        "scope": "document",
+        "cardinality": "single",
+        "query_role": "primary",
+        "display_rank": 20
+      }
+    ]
+  },
+  "projection_source_proof": {
+    "release_id": "semantic_release.default",
+    "release_version": "2026-05-01.v1",
+    "release_fingerprint": "sha256:release001",
+    "projection_ids": [
+      "finance.default.v1",
+      "legacy.default.v1"
+    ]
+  },
+  "sample_inputs": [
+    {
+      "schema_version": "kernel.analyze_sample.input.v1",
+      "sample_id": "sample_001",
+      "source_ref": {
+        "kind": "interpreter_request_view_vision.v1"
+      },
+      "route": {
+        "profile": "vision"
+      },
+      "document": {
+        "artifact_path": "Input/sample_001.pdf",
+        "title": "Sample Invoice"
+      },
+      "completeness": {
+        "status": "complete"
+      }
+    }
+  ],
+  "sample_analyses": {
+    "schema_version": "kernel.sample_analyses.v1",
+    "analysis_scope": "sample_set",
+    "input_contract": "kernel.analyze_sample.input.v1",
+    "sample_set": {
+      "sample_ids": [
+        "sample_001"
+      ],
+      "summary": "The sample set contains invoice-like finance documents.",
+      "document_family": "finance_invoices",
+      "shared_semantic_pattern": "Recurring issuer and amount fields appear in a form-like document.",
+      "meaningful_variations": [],
+      "classification": {
+        "domain_codes": [
+          "finance"
+        ],
+        "document_type_codes": [
+          "invoice"
+        ],
+        "category_codes": [
+          "finance"
+        ],
+        "subcategory_codes": [
+          "other"
+        ],
+        "confidence": 0.9
+      },
+      "structure": {
+        "shape": "form",
+        "section_roles": [
+          "header",
+          "body"
+        ],
+        "party_roles": [
+          "issuer"
+        ]
+      },
+      "signals": {
+        "labels": [
+          "Invoice",
+          "Amount Due"
+        ],
+        "text_markers": [
+          "Invoice",
+          "Amount due"
+        ]
+      }
+    },
+    "taxonomy_seed": {
+      "candidate_codes": [
+        "invoice",
+        "issuer",
+        "amount_due"
+      ],
+      "domains": [
+        {
+          "code": "finance",
+          "label": "Finance",
+          "description": "Finance document semantics."
+        }
+      ],
+      "document_types": [
+        {
+          "code": "invoice",
+          "label": "Invoice",
+          "description": "Invoice-like document.",
+          "domains": [
+            "finance"
+          ],
+          "allowed_categories": [
+            "finance",
+            "other"
+          ],
+          "allowed_subcategories": [
+            "other"
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "code": "finance",
+          "label": "Finance",
+          "description": "Finance category.",
+          "domains": [
+            "finance"
+          ]
+        }
+      ],
+      "subcategories": [
+        {
+          "code": "other",
+          "label": "Other",
+          "description": "Fallback subcategory.",
+          "parent_category": "other",
+          "domains": [
+            "other"
+          ]
+        }
+      ],
+      "field_codes": [
+        {
+          "code": "issuer",
+          "label": "Issuer",
+          "description": "Issuer field.",
+          "value_type": "string",
+          "domains": [
+            "finance"
+          ],
+          "promotion_slot": null
+        },
+        {
+          "code": "amount_due",
+          "label": "Amount Due",
+          "description": "Amount due field.",
+          "value_type": "number",
+          "domains": [
+            "finance"
+          ],
+          "promotion_slot": null
+        }
+      ],
+      "row_types": [
+        {
+          "code": "line_item",
+          "label": "Line Item",
+          "description": "Line item row.",
+          "domains": [
+            "finance"
+          ],
+          "recommended_cell_codes": [
+            "description",
+            "other"
+          ]
+        }
+      ],
+      "cell_codes": [
+        {
+          "code": "description",
+          "label": "Description",
+          "description": "Line item description.",
+          "value_type": "string",
+          "domains": [
+            "finance"
+          ]
+        }
+      ],
+      "fallback_codes": {
+        "document_type": "other",
+        "category": "other",
+        "subcategory": "other",
+        "field_code": "other",
+        "row_type": "other",
+        "cell_code": "other"
+      }
+    },
+    "projection_seed": {
+      "candidate_projection_ids": [
+        "finance.default.v1"
+      ],
+      "projections": [
+        {
+          "projection_id": "finance.default.v1",
+          "status": "active",
+          "label": "Finance Default",
+          "description": "Default finance projection.",
+          "domain_ids": [
+            "finance"
+          ],
+          "include_document_types": [
+            "invoice",
+            "other"
+          ],
+          "include_categories": [
+            "finance",
+            "other"
+          ],
+          "include_subcategories": [
+            "other"
+          ],
+          "include_field_codes": [
+            "issuer",
+            "amount_due",
+            "other"
+          ],
+          "include_row_types": [
+            "line_item",
+            "other"
+          ],
+          "include_cell_codes": [
+            "description",
+            "other"
+          ],
+          "promotion_rules": [
+            {
+              "slot": "reference_number",
+              "source_paths": [
+                "content.fields.issuer"
+              ]
+            }
+          ],
+          "routing": {
+            "when_to_use": "Use for finance invoice documents.",
+            "avoid_when": "Avoid for non-finance documents.",
+            "example_document_types": [
+              "invoice"
+            ],
+            "section_roles": [
+              "header",
+              "body"
+            ],
+            "party_roles": [
+              "issuer"
+            ]
+          },
+          "routing_lexicon": {
+            "text_markers": [
+              "invoice"
+            ],
+            "domain_markers": [
+              {
+                "domain_id": "finance",
+                "markers": [
+                  "invoice"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "user_report_samples_seed": {
+      "report_purpose": "Explain sample analysis findings for user review.",
+      "overview": "The samples are invoice-like documents.",
+      "taxonomy_view": {
+        "domain_findings": "Finance semantics are present.",
+        "document_type_findings": "Invoice document type is appropriate.",
+        "category_findings": "Finance category is appropriate.",
+        "field_code_findings": "Issuer and amount due fields recur.",
+        "row_and_cell_findings": "Line item and description semantics appear.",
+        "taxonomy_gaps_or_decisions": []
+      },
+      "projection_view": {
+        "projection_boundary_findings": "A finance projection covers the sample set.",
+        "included_semantics": "Invoice, issuer, amount and line item semantics are included.",
+        "routing_findings": "Invoice markers route to the finance projection.",
+        "promotion_rule_findings": "Reference promotion remains reviewable.",
+        "split_or_merge_considerations": "No split is required for this sample set.",
+        "projection_gaps_or_decisions": []
+      },
+      "sample_set_findings": {
+        "what_the_samples_show_together": "They share recurring issuer and amount fields.",
+        "taxonomy_relevance": "The taxonomy can represent the observed semantics.",
+        "projection_relevance": "The active projection can represent the observed semantics."
+      },
+      "recommended_user_decisions": [
+        "Confirm naming boundaries."
+      ],
+      "report_risks_or_uncertainties": []
+    },
+    "quality": {
+      "confidence": 0.9,
+      "notes": []
+    }
+  },
+  "taxonomy_authoring_view": {
+    "schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+    "taxonomy_ref": {
+      "source": "active",
+      "taxonomy_id": "normalizer_taxonomy.master",
+      "taxonomy_version": "2026-05-01.v1",
+      "taxonomy_fingerprint": "sha256:tax001",
+      "runtime_locale": "en"
+    },
+    "budget_policy": {},
+    "allowed_codes": {
+      "domains": [
+        "finance",
+        "other"
+      ],
+      "document_types": [
+        "invoice",
+        "other"
+      ],
+      "categories": [
+        "finance",
+        "other"
+      ],
+      "subcategories": [
+        "other"
+      ],
+      "field_codes": [
+        "issuer",
+        "amount_due",
+        "other"
+      ],
+      "row_types": [
+        "line_item",
+        "other"
+      ],
+      "cell_codes": [
+        "description",
+        "other"
+      ]
+    },
+    "term_summaries": [],
+    "promotion_slots": [
+      "reference_number"
+    ],
+    "fallback_codes": {
+      "document_type": "other",
+      "category": "other",
+      "subcategory": "other",
+      "field_code": "other",
+      "row_type": "other",
+      "cell_code": "other"
+    }
+  },
+  "create_taxonomy_input": {
+    "schema_version": "kernel.create_taxonomy_to_sample_analyses.input.v1",
+    "sample_analyses": {
+      "schema_version": "kernel.sample_analyses.v1",
+      "analysis_scope": "sample_set",
+      "input_contract": "kernel.analyze_sample.input.v1",
+      "sample_set": {
+        "sample_ids": [
+          "sample_001"
+        ],
+        "shape": "form"
+      },
+      "taxonomy_seed": {
+        "candidate_codes": [
+          "invoice",
+          "issuer",
+          "amount_due"
+        ]
+      },
+      "projection_seed": {
+        "candidate_projection_ids": [
+          "finance.default.v1"
+        ]
+      },
+      "user_report_samples_seed": {
+        "overview": "The samples are invoice-like documents."
+      },
+      "quality": {
+        "confidence": 0.9
+      }
+    }
+  },
+  "taxonomy_to_sample_analyses": {
+    "schema_version": "kernel.taxonomy_to_sample_analyses.v1",
+    "source_schema_version": "kernel.sample_analyses.v1",
+    "analysis_scope": "sample_set",
+    "sample_ids": [
+      "sample_001"
+    ],
+    "target": {
+      "update_state_contract": "kernel.create_taxonomy_update_state.input.v1"
+    },
+    "taxonomy_proposal": {
+      "taxonomy_core": {
+        "domains": [
+          {
+            "code": "finance",
+            "status": "active",
+            "parent_id": null
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "parent_id": null
+          }
+        ],
+        "document_types": [
+          {
+            "code": "invoice",
+            "status": "active",
+            "domains": [
+              "finance"
+            ],
+            "allowed_categories": [
+              "finance",
+              "other"
+            ],
+            "allowed_subcategories": [
+              "other"
+            ]
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "domains": [
+              "other"
+            ],
+            "allowed_categories": [
+              "other"
+            ],
+            "allowed_subcategories": [
+              "other"
+            ]
+          }
+        ],
+        "categories": [
+          {
+            "code": "finance",
+            "status": "active",
+            "domains": [
+              "finance"
+            ]
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "domains": [
+              "other"
+            ]
+          }
+        ],
+        "subcategories": [
+          {
+            "code": "other",
+            "status": "active",
+            "parent_category": "other",
+            "domains": [
+              "other"
+            ]
+          }
+        ],
+        "field_codes": [
+          {
+            "code": "issuer",
+            "status": "active",
+            "value_type": "string",
+            "domains": [
+              "finance"
+            ],
+            "promotion_slot": null
+          },
+          {
+            "code": "amount_due",
+            "status": "active",
+            "value_type": "number_or_money_string",
+            "domains": [
+              "finance"
+            ],
+            "promotion_slot": null
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "value_type": "string",
+            "domains": [
+              "other"
+            ],
+            "promotion_slot": null
+          }
+        ],
+        "row_types": [
+          {
+            "code": "line_item",
+            "status": "active",
+            "domains": [
+              "finance"
+            ],
+            "recommended_cell_codes": [
+              "description",
+              "other"
+            ]
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "domains": [
+              "other"
+            ],
+            "recommended_cell_codes": [
+              "other"
+            ]
+          }
+        ],
+        "cell_codes": [
+          {
+            "code": "description",
+            "status": "active",
+            "value_type": "string",
+            "domains": [
+              "finance"
+            ]
+          },
+          {
+            "code": "other",
+            "status": "active",
+            "value_type": "string",
+            "domains": [
+              "other"
+            ]
+          }
+        ],
+        "promotion_slots": [
+          {
+            "slot": "counterparty",
+            "label": "Counterparty",
+            "description": "Document-level counterparty or issuer.",
+            "value_type": "string",
+            "scope": "document",
+            "cardinality": "single",
+            "query_role": "primary",
+            "display_rank": 10
+          },
+          {
+            "slot": "amount_due",
+            "label": "Amount Due",
+            "description": "Document-level payable amount.",
+            "value_type": "number_or_money_string",
+            "scope": "document",
+            "cardinality": "single",
+            "query_role": "primary",
+            "display_rank": 20
+          }
+        ],
+        "fallback_codes": {
+          "document_type": "other",
+          "category": "other",
+          "subcategory": "other",
+          "field_code": "other",
+          "row_type": "other",
+          "cell_code": "other"
+        }
+      },
+      "taxonomy_text": {
+        "locale": "en",
+        "terms": {
+          "domains": [
+            {
+              "code": "finance",
+              "label": "Finance",
+              "description": "Finance documents.",
+              "aliases": []
+            }
+          ],
+          "document_types": [],
+          "categories": [],
+          "subcategories": [],
+          "field_codes": [
+            {
+              "code": "amount_due",
+              "label": "Amount Due",
+              "description": "Amount payable in the finance document.",
+              "aliases": []
+            }
+          ],
+          "row_types": [],
+          "cell_codes": []
+        }
+      },
+      "semantic_binding": {
+        "field_codes": [
+          {
+            "code": "issuer",
+            "promotion_slot": "counterparty"
+          },
+          {
+            "code": "amount_due",
+            "promotion_slot": "amount_due"
+          }
+        ],
+        "row_types": [],
+        "cell_codes": []
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "open_decisions": [],
+      "warnings": []
+    },
+    "quality": {
+      "confidence": 0.9,
+      "notes": []
+    }
+  },
+  "create_projections_input": {
+    "schema_version": "kernel.create_projections_to_sample_analyses.input.v1",
+    "sample_analyses": {
+      "schema_version": "kernel.sample_analyses.v1",
+      "analysis_scope": "sample_set",
+      "input_contract": "kernel.analyze_sample.input.v1",
+      "sample_set": {
+        "sample_ids": [
+          "sample_001"
+        ],
+        "shape": "form"
+      },
+      "taxonomy_seed": {
+        "candidate_codes": [
+          "invoice",
+          "issuer",
+          "amount_due"
+        ]
+      },
+      "projection_seed": {
+        "candidate_projection_ids": [
+          "finance.default.v1"
+        ]
+      },
+      "user_report_samples_seed": {
+        "overview": "The samples are invoice-like documents."
+      },
+      "quality": {
+        "confidence": 0.9
+      }
+    },
+    "taxonomy_authoring_view": {
+      "schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+      "taxonomy_ref": {
+        "source": "active",
+        "taxonomy_id": "normalizer_taxonomy.master",
+        "taxonomy_version": "2026-05-01.v1",
+        "taxonomy_fingerprint": "sha256:tax001",
+        "runtime_locale": "en"
+      },
+      "budget_policy": {},
+      "allowed_codes": {
+        "domains": [
+          "finance",
+          "other"
+        ],
+        "document_types": [
+          "invoice",
+          "other"
+        ],
+        "categories": [
+          "finance",
+          "other"
+        ],
+        "subcategories": [
+          "other"
+        ],
+        "field_codes": [
+          "issuer",
+          "amount_due",
+          "other"
+        ],
+        "row_types": [
+          "line_item",
+          "other"
+        ],
+        "cell_codes": [
+          "description",
+          "other"
+        ]
+      },
+      "term_summaries": [],
+      "promotion_slots": [
+        {
+          "slot": "counterparty",
+          "label": "Counterparty",
+          "description": "Document-level counterparty or issuer.",
+          "value_type": "string",
+          "scope": "document",
+          "cardinality": "single",
+          "query_role": "primary",
+          "display_rank": 10
+        },
+        {
+          "slot": "amount_due",
+          "label": "Amount Due",
+          "description": "Document-level payable amount.",
+          "value_type": "number_or_money_string",
+          "scope": "document",
+          "cardinality": "single",
+          "query_role": "primary",
+          "display_rank": 20
+        }
+      ],
+      "fallback_codes": {
+        "document_type": "other",
+        "category": "other",
+        "subcategory": "other",
+        "field_code": "other",
+        "row_type": "other",
+        "cell_code": "other"
+      }
+    }
+  },
+  "projections_to_sample_analyses": {
+    "schema_version": "kernel.projections_to_sample_analyses.v1",
+    "source_schema_version": "kernel.sample_analyses.v1",
+    "taxonomy_view_schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+    "analysis_scope": "sample_set",
+    "sample_ids": [
+      "sample_001"
+    ],
+    "taxonomy_ref": {
+      "source": "active",
+      "taxonomy_id": "normalizer_taxonomy.master",
+      "taxonomy_version": "2026-05-01.v1",
+      "taxonomy_fingerprint": "sha256:tax001"
+    },
+    "target": {
+      "update_state_contract": "kernel.create_projections_update_state.input.v1"
+    },
+    "projection_strategy": {
+      "mode": "single_projection",
+      "rationale": "The sample set is coherent enough for one finance receipt projection.",
+      "projection_count": 1
+    },
+    "projection_proposals": [
+      {
+        "projection_id": "finance.receipts.v1",
+        "status": "draft",
+        "label": "Finance Receipts",
+        "description": "Receipt-oriented finance projection.",
+        "domain_ids": [
+          "finance"
+        ],
+        "include_document_types": [
+          "invoice",
+          "other"
+        ],
+        "include_categories": [
+          "finance",
+          "other"
+        ],
+        "include_subcategories": [
+          "other"
+        ],
+        "include_field_codes": [
+          "issuer",
+          "amount_due",
+          "other"
+        ],
+        "include_row_types": [
+          "line_item",
+          "other"
+        ],
+        "include_cell_codes": [
+          "description",
+          "other"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "counterparty",
+            "source_paths": [
+              "content.fields.issuer"
+            ]
+          }
+        ],
+        "routing": {
+          "when_to_use": "Use for finance receipts.",
+          "avoid_when": "Avoid for non-finance documents.",
+          "example_document_types": [
+            "invoice"
+          ],
+          "section_roles": [
+            "header",
+            "body"
+          ],
+          "party_roles": []
+        },
+        "routing_lexicon": {
+          "text_markers": [],
+          "domain_markers": [
+            {
+              "domain_id": "finance",
+              "markers": []
+            }
+          ]
+        }
+      }
+    ],
+    "validation": {
+      "status": "passed",
+      "open_decisions": [],
+      "warnings": []
+    },
+    "quality": {
+      "confidence": 0.8,
+      "notes": []
+    }
+  },
+  "valid_user_report_samples": "# Sample Analysis Report\n\n## 1. Overview\nThe samples are invoice-like documents.\n\n## 2. What The Samples Show\nThey share recurring issuer and amount fields.\n\n## 3. Taxonomy Perspective\nFinance concepts appear relevant.\n\n## 4. Projection Perspective\nOne finance projection appears sufficient.\n\n## 5. Important Findings\n- Issuer values repeat.\n\n## 6. Points To Review\n- Confirm naming boundaries.\n",
+  "invalid_json": "not json",
+  "markdown_wrapped_json": "```json\n{\"schema_version\":\"kernel.sample_analyses.v1\"}\n```",
+  "invalid_report_heading": "# Sample Analysis Report\n\n## 2. What The Samples Show\nMissing ordered headings.\n"
+}

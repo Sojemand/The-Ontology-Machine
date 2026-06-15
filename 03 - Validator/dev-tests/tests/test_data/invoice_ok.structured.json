@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "vision",
+    "model_confidence": 0.96,
+    "needs_review": false
+  },
+  "classification": {
+    "document_type": "invoice",
+    "category": "finance",
+    "language": "de",
+    "page_count": 1
+  },
+  "context": {
+    "company": "KGV Sonnenschein e.V.",
+    "document_date": "2024-03-15",
+    "document_title": "Rechnung Stromkosten",
+    "total_monetary_value": 318.79,
+    "reference_number": "RG-2024-15",
+    "due_date": "2024-04-01",
+    "counterparty": "Max Mustermann"
+  },
+  "content": {
+    "structure": {
+      "type": "form_with_table"
+    },
+    "fields": {
+      "invoice_number": "RG-2024-15",
+      "customer_name": "Max Mustermann",
+      "net_amount": 267.89,
+      "tax_amount": 50.9,
+      "gross_amount": 318.79
+    },
+    "rows": [
+      {
+        "position": "Stromkosten Parzelle 12",
+        "brutto": 318.79
+      }
+    ],
+    "free_text": "KGV Sonnenschein e.V.\nRechnung Stromkosten\nRechnungsnummer RG-2024-15\nMax Mustermann\nDokumentdatum 15.03.2024\nFaellig am 01.04.2024\nNettobetrag 267,89 EUR\nUmsatzsteuer 50,90 EUR\nGesamtbetrag 318,79 EUR\nPosition Stromkosten Parzelle 12 318,79 EUR"
+  },
+  "relations": [],
+  "source": {
+    "file_name": "invoice_ok.pdf",
+    "content_hash": "sha256:invoiceok"
+  }
+}

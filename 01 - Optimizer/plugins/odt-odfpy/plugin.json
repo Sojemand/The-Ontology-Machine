@@ -1,0 +1,19 @@
+{
+  "name": "odt-odfpy",
+  "version": "1.0.0",
+  "description": "OpenDocument-Extraktor fuer .odt via odfpy",
+  "author": "",
+  "formats": [
+    ".odt"
+  ],
+  "also_handles": [],
+  "capabilities": [
+    "text",
+    "tables"
+  ],
+  "priority": 10,
+  "python_version": ">=3.10",
+  "system_dependencies": [],
+  "config_schema": {},
+  "config": {}
+}

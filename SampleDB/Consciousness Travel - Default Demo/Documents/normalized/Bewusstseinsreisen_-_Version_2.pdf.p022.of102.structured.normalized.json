@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:36:17Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.91,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A nonfiction book passage about peripheral perception and subconscious pattern recognition. It argues that the brain can detect small details, such as license plates, faster and more clearly than conscious awareness, and invites the reader to test this with a newspaper moved out of focus.",
+    "tags": [
+      "peripheral perception",
+      "pattern recognition",
+      "consciousness",
+      "license plates",
+      "visual focus"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_book_page"
+    },
+    "normalization_notes": [
+      "Source language is German; human-readable values normalized to English control language.",
+      "Page is treated as body-content theoretical discussion based on continuous reflective prose."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 22,
+      "topic_keywords": [
+        "peripheral perception",
+        "pattern recognition",
+        "consciousness",
+        "license plates",
+        "visual focus"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "Peripheral perception and rapid pattern recognition are presented as capable of detecting small details beyond conscious awareness. The text uses a license plate example and a reader experiment with a newspaper to argue that the brain sees more than the foveal visual field allows."
+      }
+    ],
+    "free_text": "book_page book_body_content theoretical_discussion Peripheral perception, pattern recognition, consciousness, license plates, visual focus. The page argues that subconscious recognition can detect details faster than conscious sight and invites a simple focus experiment."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.8,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=8; confidence=0.80 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+    }
+  }
+}

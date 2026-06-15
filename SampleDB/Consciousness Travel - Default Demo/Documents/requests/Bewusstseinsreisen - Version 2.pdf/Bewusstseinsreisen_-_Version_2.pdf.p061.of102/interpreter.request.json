@@ -1,0 +1,390 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=061-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:4e1234632dc174f87536235d1ad42a3f29d5199bda2165a0ccda5d276d19fe3c",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 61,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=061-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 61,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_061.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page61_para_0",
+        "type": "paragraph",
+        "value": "In der Tat, denn was sind denn Träume anderes als Bruchstücke dessen, was sich im",
+        "position": {
+          "page": 61,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page61_para_1",
+        "type": "paragraph",
+        "value": "Wachbewusstsein zuträgt? Wir mögen von unmöglicher Architektur träumen, aber die",
+        "position": {
+          "page": 61,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page61_para_2",
+        "type": "paragraph",
+        "value": "Anwesenheit von Architektur, sei sie auch noch so verzerrt, kann doch nur geschehen, weil",
+        "position": {
+          "page": 61,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page61_para_3",
+        "type": "paragraph",
+        "value": "sie ein Teil unseres Wachbewusstseins ist. Wir mögen im Traum nicht verstehen, nach",
+        "position": {
+          "page": 61,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page61_para_4",
+        "type": "paragraph",
+        "value": "welchen Regeln sie genau entsteht, aber wir behalten im Traum ein Gefühl dafür, dass sie",
+        "position": {
+          "page": 61,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page61_para_5",
+        "type": "paragraph",
+        "value": "„Behausung“ ist, dass sie „Funktion“ besitzt, dass sie etwas Fundamentales darstellt und sie",
+        "position": {
+          "page": 61,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page61_para_6",
+        "type": "paragraph",
+        "value": "Teil des Lebens ist. Das Wissen über das Vorhandensein des Konzepts Architektur geht uns",
+        "position": {
+          "page": 61,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page61_para_7",
+        "type": "paragraph",
+        "value": "nicht verloren, auch wenn wir dessen inhärente Regeln nicht mehr voll verstehen. Wir",
+        "position": {
+          "page": 61,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page61_para_8",
+        "type": "paragraph",
+        "value": "vergessen ihre Existenz nicht vollständig, nein, ihr Konzept sickert in unsere Träume hinein",
+        "position": {
+          "page": 61,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page61_para_9",
+        "type": "paragraph",
+        "value": "und unser Traumbewusstsein formt daraus Symbolik, welche wir dann in unsere Traumwelten",
+        "position": {
+          "page": 61,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page61_para_10",
+        "type": "paragraph",
+        "value": "einbauen.",
+        "position": {
+          "page": 61,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page61_para_11",
+        "type": "paragraph",
+        "value": "Über Traumsymbolik gibt es tonnenweise Literatur, was wohl dies oder jenes jetzt genau",
+        "position": {
+          "page": 61,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page61_para_12",
+        "type": "paragraph",
+        "value": "bedeuten soll und welche Schlüsse wir daraus für unser Wachbewusstsein ziehen könnten.",
+        "position": {
+          "page": 61,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page61_para_13",
+        "type": "paragraph",
+        "value": "Dabei ist doch weniger der Inhalt eines Symbols interessant, als eher seine Entstehung an",
+        "position": {
+          "page": 61,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page61_para_14",
+        "type": "paragraph",
+        "value": "sich. Wir erkennen, dass der Inhalt unseres Wachbewusstseins in unsere Träume hinein",
+        "position": {
+          "page": 61,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page61_para_15",
+        "type": "paragraph",
+        "value": "sickert, sich dort fragmentiert und sich in eine Symbolsprache wandelt, die sich nahtlos und",
+        "position": {
+          "page": 61,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page61_para_16",
+        "type": "paragraph",
+        "value": "scheinbar widerspruchsfrei in Traumsequenzen zusammenfindet, die wir dann durchleben und",
+        "position": {
+          "page": 61,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page61_para_17",
+        "type": "paragraph",
+        "value": "keinen Gedanken daran verschwenden, wo diese Dinge ihren Ursprung haben.",
+        "position": {
+          "page": 61,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page61_para_18",
+        "type": "paragraph",
+        "value": "Kurzum, die Traumwelt ist ein symbolisches Abbild der wachen Welt, welches auf die",
+        "position": {
+          "page": 61,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page61_para_19",
+        "type": "paragraph",
+        "value": "zusammengeschrumpften Kapazitäten des Traumbewusstseins zugeschnitten ist. Wäre es",
+        "position": {
+          "page": 61,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page61_para_20",
+        "type": "paragraph",
+        "value": "dann nicht denkbar, dass auch diese Regel ein Analog in unserer wachen Welt hat? Sickern",
+        "position": {
+          "page": 61,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page61_para_21",
+        "type": "paragraph",
+        "value": "nicht vielleicht auch Teile des Über-Ichs in unser Wach-Ich und unser Wach-Ich fragmentiert",
+        "position": {
+          "page": 61,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page61_para_22",
+        "type": "paragraph",
+        "value": "und symbolisiert die Fragmente und baut sie in unsere wache Welt ein, auf eine Art, die uns",
+        "position": {
+          "page": 61,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page61_para_23",
+        "type": "paragraph",
+        "value": "ebenfalls natürlich und widerspruchsfrei vorkommt? Ganz besonders wenn wir bedenken, wie",
+        "position": {
+          "page": 61,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page61_para_24",
+        "type": "paragraph",
+        "value": "sehr unser Bewusstsein bemüht ist, sich selbst als Widerspruchsfrei wahrzunehmen, obwohl",
+        "position": {
+          "page": 61,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page61_para_25",
+        "type": "paragraph",
+        "value": "es das beileibe nicht ist. Könnte also unsere wache Welt auch nur aus Bruchstücken dessen",
+        "position": {
+          "page": 61,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page61_para_26",
+        "type": "paragraph",
+        "value": "bestehen, was sich im Über-Ich zuträgt?",
+        "position": {
+          "page": 61,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page61_para_27",
+        "type": "paragraph",
+        "value": "Es ist nicht alles Gold was glänzt",
+        "position": {
+          "page": 61,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page61_para_28",
+        "type": "paragraph",
+        "value": "Vielleicht sollten wir, bevor wir weiter gehen, uns den Widersprüchen gewahr werden, die wir",
+        "position": {
+          "page": 61,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page61_para_29",
+        "type": "paragraph",
+        "value": "mit der Verwendung solcher Analogien heraufbeschwören. Wir besitzen eine Traumwelt, weil",
+        "position": {
+          "page": 61,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

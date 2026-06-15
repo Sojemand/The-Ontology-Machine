@@ -1,0 +1,185 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=068-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:b982cbb43453ba4fa3847e9afca53b57633d514feeda9345f6ffbbedbd9c3342",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 68,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=068-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page68_para_0",
+        "type": "paragraph",
+        "value": "Bewusstsein andere Zustände annehmen kann und es auch ständig tut, sei es um an",
+        "position": {
+          "page": 68,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page68_para_1",
+        "type": "paragraph",
+        "value": "Komplexität zu verlieren wenn wir schlafen, oder an Bandbreite zu gewinnen wenn wir es ihm",
+        "position": {
+          "page": 68,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page68_para_2",
+        "type": "paragraph",
+        "value": "erlauben. Es ist auf jeden Fall ein dynamischer Prozess, dessen Regeln wir bisher nicht",
+        "position": {
+          "page": 68,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page68_para_3",
+        "type": "paragraph",
+        "value": "wirklich verstehen, oder verstehen wollen.",
+        "position": {
+          "page": 68,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page68_para_4",
+        "type": "paragraph",
+        "value": "Und wenn es um Regeln geht, die wir eventuell verstehen könnten, habe ich ja bereits eine",
+        "position": {
+          "page": 68,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page68_para_5",
+        "type": "paragraph",
+        "value": "weitere Möglichkeit angesprochen. Wir könnten versuchen, etwaige Symbolsprachen",
+        "position": {
+          "page": 68,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page68_para_6",
+        "type": "paragraph",
+        "value": "versuchen ausfindig zu machen, die sich in unserem täglichen Leben zeigen. Dabei lassen",
+        "position": {
+          "page": 68,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page68_para_7",
+        "type": "paragraph",
+        "value": "wir erst einmal die Frage außen vor, wie sie da hin kommen sollte, oder was ihr Ursprung sein",
+        "position": {
+          "page": 68,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page68_para_8",
+        "type": "paragraph",
+        "value": "könnte. Alles, was wir wollen ist, zu sehen, ob es überhaupt etwas gibt, was auch nur entfernt",
+        "position": {
+          "page": 68,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page68_para_9",
+        "type": "paragraph",
+        "value": "an eine, sich scheinbar unabhängig manifestierende, Symbolsprache erinnert. Und",
+        "position": {
+          "page": 68,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page68_para_10",
+        "type": "paragraph",
+        "value": "tatsächlich, in unserer Welt zeigt sich Symbolik, die merkwürdig konsistent ist, sich über",
+        "position": {
+          "page": 68,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page68_para_11",
+        "type": "paragraph",
+        "value": "Kulturen und Zeitalter hinweg als permanent heraus gestellt hat und sich als Konzepte",
+        "position": {
+          "page": 68,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page68_para_12",
+        "type": "paragraph",
+        "value": "übergreifender Sinnhaftigkeit darstellt. Ja sie beschreiben uns und unser Handeln auf eine",
+        "position": {
+          "page": 68,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page68_para_13",
+        "type": "paragraph",
+        "value": "Art, die sich ähnlich den Regeln eines Traumes verhalten, und das ist allein schon Grund",
+        "position": {
+          "page": 68,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page68_para_14",
+        "type": "paragraph",
+        "value": "genug für mich einmal nachzusehen, aus welcher Richtung sie denn zu kommen scheinen.",
+        "position": {
+          "page": 68,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page68_para_15",
+        "type": "paragraph",
+        "value": "Darum soll es im nächsten Kapitel gehen.",
+        "position": {
+          "page": 68,
+          "paragraph_index": 15
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "file_name": "dental_invoice.pdf",
+  "file_path": "C:\\anonymized\\structured\\dental_invoice.pdf.structured.json",
+  "content_hash": "sha256:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+  "validated_at": "2026-03-25T19:13:39.172355+00:00",
+  "validator_version": "1.1.0",
+  "processing_time_ms": 6,
+  "result": "FAIL",
+  "needs_review": true,
+  "summary": {
+    "total_issues": 1,
+    "fail_count": 1,
+    "warn_count": 0,
+    "checked_values": 9,
+    "valid_values": 8
+  },
+  "checks": {
+    "free_text": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 1,
+      "valid": 1
+    },
+    "context_scalars": {
+      "status": "FAIL",
+      "issue_count": 1,
+      "checked": 8,
+      "valid": 7
+    },
+    "content_fields": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 0,
+      "valid": 0
+    },
+    "rows": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 0,
+      "valid": 0
+    }
+  },
+  "issues": [
+    {
+      "check": "context_scalars",
+      "level": "FAIL",
+      "field": "context.tax_amount",
+      "extracted_value": 0.0,
+      "raw_value": null,
+      "source_ref": null,
+      "message": "Wert fuer context.tax_amount konnte im content.free_text nicht gefunden werden."
+    }
+  ]
+}

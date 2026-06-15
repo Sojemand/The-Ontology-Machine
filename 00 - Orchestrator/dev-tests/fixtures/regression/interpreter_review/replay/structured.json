@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.51,
+    "needs_review": true,
+    "review_reason": "Manual classification required",
+    "vision_used": true,
+    "processed_at": "2026-03-25T18:00:00+00:00",
+    "model": "gpt-5.4-2026-03-05",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "unknown",
+    "document_type_confidence": 0.51,
+    "category": "other",
+    "subcategory": null,
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Synthetic Example",
+    "document_title": "Unklare Unterlage"
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "free_text": "Unklare Unterlage fuer manuelle Klassifikation."
+  },
+  "relations": [],
+  "source": {
+    "file_name": "interp_review.pdf",
+    "file_path": "C:\\synthetic\\input\\interp_review.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+    "created_at": null,
+    "modified_at": null
+  }
+}

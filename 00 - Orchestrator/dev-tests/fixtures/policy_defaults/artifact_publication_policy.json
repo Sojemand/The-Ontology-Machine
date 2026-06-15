@@ -1,0 +1,36 @@
+{
+  "pipeline_state_dir_name": "pipeline",
+  "run_workspace_dir_name": "runs",
+  "route_folder_map": {
+    "Documents": "Documents"
+  },
+  "error_root_name": "Error Cases",
+  "legacy_error_root_names": [
+    "errors"
+  ],
+  "route_artifact_subdirs": [
+    "originals",
+    "raw_extracts",
+    "page_images",
+    "requests",
+    "structured",
+    "validation",
+    "normalized",
+    "logs"
+  ],
+  "publication_names": {
+    "originals": "originals",
+    "raw_extracts": "raw_extracts",
+    "page_images": "page_images",
+    "requests": "requests",
+    "structured": "structured",
+    "validation": "validation",
+    "normalized": "normalized",
+    "logs": "logs"
+  },
+  "request_file_names": {
+    "ocr_request": "ocr.request.json",
+    "interpreter_request": "interpreter.request.json",
+    "normalizer_request": "normalizer.request.json"
+  }
+}

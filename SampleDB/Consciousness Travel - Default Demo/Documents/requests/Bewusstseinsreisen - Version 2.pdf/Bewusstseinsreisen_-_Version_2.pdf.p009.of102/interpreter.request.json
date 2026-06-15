@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=009-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:2db27e93ca09b03a67dbadd38b19a682a06baa18030d91c5b65d312a5346a862",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 9,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=009-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 9,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_009.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page9_para_0",
+        "type": "paragraph",
+        "value": "rechtschaffenen Mann wurde, bleibt uns bis auf Weiteres verborgen, denn er wart seither nicht",
+        "position": {
+          "page": 9,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page9_para_1",
+        "type": "paragraph",
+        "value": "mehr auf der goldenen Straße gesehen.",
+        "position": {
+          "page": 9,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page9_para_2",
+        "type": "paragraph",
+        "value": "Jede Parallele, die der Leser in dieser Geschichte zu seinem eigenen Leben findet ist",
+        "position": {
+          "page": 9,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page9_para_3",
+        "type": "paragraph",
+        "value": "selbstverständlich rein zufällig, darauf muss ich bestehen. Was wir hier für den weiteren Verlauf",
+        "position": {
+          "page": 9,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page9_para_4",
+        "type": "paragraph",
+        "value": "mitnehmen ist etwas Anderes. Es ist die banale und naheliegende Frage, welche der erlebten",
+        "position": {
+          "page": 9,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page9_para_5",
+        "type": "paragraph",
+        "value": "Welten denn die reale war. Seht ihr, diese Frage ist keineswegs eindeutig zu beantworten. Je",
+        "position": {
+          "page": 9,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page9_para_6",
+        "type": "paragraph",
+        "value": "nach dem, wie ein jeder selbst das Leben sieht, wird er die eine oder andere Welt als die",
+        "position": {
+          "page": 9,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page9_para_7",
+        "type": "paragraph",
+        "value": "wahrscheinlich realere sehen. Per se gibt es in dieser Geschichte nichts an dem man",
+        "position": {
+          "page": 9,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page9_para_8",
+        "type": "paragraph",
+        "value": "festmachen könnte, was Wirklichkeit und was Traum ist. Ich weiß, rein aus der erzählerischen",
+        "position": {
+          "page": 9,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page9_para_9",
+        "type": "paragraph",
+        "value": "Warte heraus betrachtet ist es verführerisch anzunehmen, die schlammige Hölle sei die",
+        "position": {
+          "page": 9,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page9_para_10",
+        "type": "paragraph",
+        "value": "Realität, denn daraus ließen sich phantastische Erzählungen und heldenhafte Geschichten",
+        "position": {
+          "page": 9,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page9_para_11",
+        "type": "paragraph",
+        "value": "formen die sich sicher gut verkaufen würden.",
+        "position": {
+          "page": 9,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page9_para_12",
+        "type": "paragraph",
+        "value": "Ich möchte an dieser Stelle den Leser ermutigen einmal eine ehrliche Selbstreflexion",
+        "position": {
+          "page": 9,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page9_para_13",
+        "type": "paragraph",
+        "value": "anzustellen. Ihr habt diese Geschichte gehört und währenddessen euch sicher überlegt, was",
+        "position": {
+          "page": 9,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page9_para_14",
+        "type": "paragraph",
+        "value": "dies oder jenes bedeuten könnte, auf was ich hinaus will, oder ob darin irgendwelche",
+        "position": {
+          "page": 9,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page9_para_15",
+        "type": "paragraph",
+        "value": "Geheimnisse verborgen sind. Vielleicht habt ihr euch gut unterhalten gefühlt und es kam",
+        "position": {
+          "page": 9,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page9_para_16",
+        "type": "paragraph",
+        "value": "etwas Enttäuschung in euch auf als ihr bemerkt habt, dass die Geschichte endete, als sie",
+        "position": {
+          "page": 9,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page9_para_17",
+        "type": "paragraph",
+        "value": "gerade interessant zu werden schien.",
+        "position": {
+          "page": 9,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page9_para_18",
+        "type": "paragraph",
+        "value": "Alle Gedanken, die euch währenddessen durch den Kopf gingen waren sicher gut und wichtig",
+        "position": {
+          "page": 9,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page9_para_19",
+        "type": "paragraph",
+        "value": "und ihr seid euch sicher, dass ihr sie bewusst und absichtlich so gedacht habt, wie ihr sie",
+        "position": {
+          "page": 9,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page9_para_20",
+        "type": "paragraph",
+        "value": "gedacht habt. Nun, könnt auch mit Gewissheit sagen, woher denn diese Gedanken kamen?",
+        "position": {
+          "page": 9,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page9_para_21",
+        "type": "paragraph",
+        "value": "Wenn ihr sie bewusst und absichtlich gedacht habt, dann sollte es euch keine Schwierigkeiten",
+        "position": {
+          "page": 9,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page9_para_22",
+        "type": "paragraph",
+        "value": "bereiten zu benennen, woher sie kamen richtig? Wenn ihr nun wirklich ehrlich seid, dann",
+        "position": {
+          "page": 9,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page9_para_23",
+        "type": "paragraph",
+        "value": "könnt ihr wohl sagen warum ihr dies oder jenes dachtet, aber kläglich scheitern wenn es um",
+        "position": {
+          "page": 9,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page9_para_24",
+        "type": "paragraph",
+        "value": "die Frage geht, was denn da gedacht hat.",
+        "position": {
+          "page": 9,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page9_para_25",
+        "type": "paragraph",
+        "value": "Ich habe euch gelockt, mit einer Geschichte, die eine gewisse Universalität in sich birgt und",
+        "position": {
+          "page": 9,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page9_para_26",
+        "type": "paragraph",
+        "value": "damit Saiten in euch zum klingen bringt, die zwar in jedem von uns existieren, deren Natur",
+        "position": {
+          "page": 9,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page9_para_27",
+        "type": "paragraph",
+        "value": "uns allerdings nicht zugänglich ist. Du kannst zwar über deine Gedanken nachdenken,",
+        "position": {
+          "page": 9,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page9_para_28",
+        "type": "paragraph",
+        "value": "sozusagen der Musik nachspüren die diese Geschichte in dir erzeugt hat, aber du kannst",
+        "position": {
+          "page": 9,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page9_para_29",
+        "type": "paragraph",
+        "value": "nicht mit den Werkzeugen, die dieses Denken erschafft, über jene Werkzeuge deines",
+        "position": {
+          "page": 9,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page9_para_30",
+        "type": "paragraph",
+        "value": "Denkens selbst nachdenken. Dies ist das erste echte Mysterium, dem wir uns gegenüber",
+        "position": {
+          "page": 9,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

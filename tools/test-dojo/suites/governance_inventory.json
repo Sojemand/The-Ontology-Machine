@@ -1,0 +1,29 @@
+{
+  "name": "governance-inventory",
+  "display_name": "Governance Inventory",
+  "module": "Vision Pipeline",
+  "kind": "governance",
+  "driver": "filesystem",
+  "inventory_gate": false,
+  "modes": ["deterministic", "inventory-only"],
+  "sandbox": {
+    "state_root": "state/governance",
+    "artifact_root": "output/governance"
+  },
+  "cases": [
+    {
+      "id": "suite_manifest_validation",
+      "title": "All Dojo suite manifests validate",
+      "type": "governance",
+      "risk": "medium",
+      "expected_actions": ["dojo.manifest.validate"]
+    },
+    {
+      "id": "button_inventory_gate",
+      "title": "Product button inventory has explicit coverage status",
+      "type": "governance",
+      "risk": "high",
+      "expected_actions": ["dojo.inventory.validate"]
+    }
+  ]
+}

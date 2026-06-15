@@ -1,0 +1,10 @@
+{
+  "created_at": "2026-05-05T00:00:00Z",
+  "map_fingerprint": "map_fingerprint_example",
+  "mappings": [],
+  "merge_run_id": "merge_run_id_example",
+  "record_count": 1,
+  "schema_version": "kernel.database_merge_id_map.v1",
+  "source_databases": "source_databases_example",
+  "target_database_path": "target_database_path_example"
+}

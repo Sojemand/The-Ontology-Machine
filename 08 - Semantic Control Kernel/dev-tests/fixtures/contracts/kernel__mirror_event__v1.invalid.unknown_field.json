@@ -1,0 +1,11 @@
+{
+  "current_state_summary": "current_state_summary_example",
+  "event_type": "progress",
+  "is_kernel_auto_call": true,
+  "mirror_event_id": "mirror_event_id_example",
+  "mirror_source": "kernel",
+  "schema_version": "kernel.mirror_event.v1",
+  "severity": "info",
+  "user_visible_summary": "user_visible_summary_example",
+  "unexpected_phase2_field": "example"
+}

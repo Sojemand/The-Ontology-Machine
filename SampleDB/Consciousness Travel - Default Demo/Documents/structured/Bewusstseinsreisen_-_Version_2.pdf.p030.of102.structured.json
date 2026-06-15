@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:39:27.152821+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.9,
+      "reason": "A philosophical/nonfiction book page is visible with a section heading and continuous prose paragraphs.",
+      "matched_signals": [
+        "section heading",
+        "continuous prose paragraphs",
+        "book page layout"
+      ]
+    },
+    "page_number": 30,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=030-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page30_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 30,
+        "sequence": 1,
+        "text": "Körpertemperatur auf 34 Grad festzulegen, nur noch 1 mal pro Minute zu atmen oder mit einem Liter Wasser die Woche auszukommen. Unser Körper benötigt zur optimalen Funktion festgelegte Dinge und wir als Bewusstsein, als Passagier, haben dabei die Wahl zwischen friss oder stirb.",
+        "function": "argument_continuation",
+        "confidence": 0.94
+      },
+      {
+        "segment_id": "Page30_Segment2",
+        "unit_kind": "title_line",
+        "page": 30,
+        "sequence": 2,
+        "text": "Die Faust des Riesen",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page30_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 30,
+        "sequence": 3,
+        "text": "Was möglich wird, wenn sich die drei Systeme auf einmal entscheiden zusammenzuarbeiten und den schreienden Zwerg auf der Schulter für einen Moment zu ignorieren, dann können wir nur noch ehrfürchtig staunen ob der wahren Macht die in uns wohnt. Kommt einmal kurz mit auf eine Reise, auf der eure Maschine mal so richtig aufdreht und alles gibt was sie hat.",
+        "function": "scene_setting",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page30_Segment4",
+        "unit_kind": "descriptive_passage",
+        "page": 30,
+        "sequence": 4,
+        "text": "Stellt dir vor du lümmelst gerade so richtig gemütlich in deinem Sessel und bist mit dem Leben zufrieden. Auf einmal kommt dir der Gedanke, doch mal aufzustehen und ein wenig Sport zu treiben, denn wer rastet der rostet. Gesagt, getan. Mit ein wenig Mühe erhebst du dich und kurbelst zu Beginn deinen Kreislauf mit ein paar Kniebeugen an und machst dann ein paar Hampelmänner um richtig auf Touren zu kommen. Es folgen Liegestütze, ein paar Übungen mit Hanteln und vielleicht ein paar Klimmzüge. Du findest dich so richtig ins Training ein und dann legst du richtig los. Du powerst dich aus, bis kein Saft mehr da ist und der Gedanke an weitere Liegestütze dir unvorstellbar erscheint.",
+        "function": "scenario_building",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page30_Segment5",
+        "unit_kind": "descriptive_passage",
+        "page": 30,
+        "sequence": 5,
+        "text": "Mit leicht zittrigen Knien und außer Atem willst du dich gerade wieder in deinen Sessel fallen lassen, um ein wenig zu Atem zu kommen, doch noch bevor dein Hintern das Polster berührt, bricht Armageddon über dich herein. Schüsse, Tumult, Krachen und Splittern und in reinster Mad Max Manier wird deine Wohnung überrannt. Du erkennst sofort, dass jegliches Zögern den sicheren Tod bedeuten würde. Genau in diesem Moment übernimmt deine Maschine vollständig das Steuer und der Zwerg wird zu einem passiven Beobachter degradiert. Mit einem mal ist deine Erschöpfung wie weggeblasen, du verspürst keinen Durst und auch kein Bedürfnis mehr auf die Toilette zu gehen (oder deine Blase ist so voll, dass sie sich von selbst entleert). Stattdessen scheint sich alles zu verlangsamen, deine Sicht, ja deine ganzen Sinne schärfen sich in einem geradezu grotesken Maße. Mit einem mal schießt du mühelos aus dem Sessel empor und rennst schneller und weiter als jemals zuvor. Du spürst eine Kraft die dich antreibt, die scheinbar grenzenlos ist. Vergessen sind deine kurzen Gymnastik Einlagen und in dir herrscht nur noch ein Gedanke: Entkommen.",
+        "function": "high_intensity_example",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Abschnitt „Die Faust des Riesen“, erzählerisches Beispiel zu Körper, Bewusstsein und Extremsituation"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=030-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:53539b7f916fe1623804cf9e88025ac643b6aa7f064de2261ef8b53292eeffd5",
+    "created_at": null,
+    "modified_at": null
+  }
+}

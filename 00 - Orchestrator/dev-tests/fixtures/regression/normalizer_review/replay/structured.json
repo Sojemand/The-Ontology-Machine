@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.93,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-03-25T18:10:00+00:00",
+    "model": "gpt-5.4-2026-03-05",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "letter",
+    "document_type_confidence": 0.93,
+    "category": "other",
+    "subcategory": "generic_letter",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Synthetic Example",
+    "document_date": "25.03.2026",
+    "document_title": "Beispielschreiben",
+    "reference_number": "NR-2042",
+    "document_number": "NR-2042",
+    "invoice_number": "NR-2042"
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "free_text": "Ein normalisierbares Dokument mit absichtlichem Review-Bedarf."
+  },
+  "relations": [],
+  "source": {
+    "file_name": "norm_review.pdf",
+    "file_path": "C:\\synthetic\\input\\norm_review.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:2222222222222222222222222222222222222222222222222222222222222222",
+    "created_at": null,
+    "modified_at": null
+  }
+}

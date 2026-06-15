@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:47:28.171122+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.93,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.88,
+      "reason": "A born-digital prose book page in philosophical/explanatory style is visible, with continuous paragraph structure and no form or transactional layout.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "book page layout",
+        "philosophical explanatory writing"
+      ]
+    },
+    "page_number": 50,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=050-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page50_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 50,
+        "sequence": 1,
+        "text": "zeitgleich adaptieren kann. Wie gesagt, unsere Maschine ist ein Riese.",
+        "function": "carryover_statement",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page50_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 50,
+        "sequence": 2,
+        "text": "Aber hin und wieder lässt es sich nicht vermeiden, auf Situationen zu treffen, für die es keine Schablone gibt und die Maschine auch nicht ad hoc eine Ähnliche anpassen kann. Dann geschieht etwas Interessantes. Es entsteht eine Lücke in der Kontinuität der eigenen Wahrnehmung, zwar nur kurz, denn eine neue Schablone zu erschaffen ist zwar aufwändig, dauert aber nicht sehr lange. Während dieser Zeitspanne driftet unsere Selbstwahrnehmung ziellos und steuerlos umher. Wir sind es nicht gewohnt so zu existieren. Unser Leben ist davon geprägt, ständig die Interpretationen der Maschine zu hören, die uns mit den entsprechenden Handlungsoptionen versorgt. Ein Ausbleiben, auch nur für einen winzigen Moment, hat dramatische Konsequenzen. Dieses Ausbleiben bedeutet nämlich, dass damit auch der Zwang, die innere Widerspruchsfreiheit aufrecht zu erhalten verschwindet, denn dieser ist ja auch Produkt der Maschine. Damit weitet sich umgehend unser Gewahrsein aus und wir erleben es zweigleisig. Wir erleben eine Situation, frei von Eintrübungen, frei von Filterung und frei von den Händen des Unbewussten, weil alles kurz inne gehalten hat.",
+        "function": "explains_break_in_perceptual_continuity",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page50_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 50,
+        "sequence": 3,
+        "text": "Die Erinnerungen, die dadurch entstehen, sind eben deshalb so stark und facettenreich, weil keinem Detail Priorität eingeräumt wird und einfach alles auf die Festplatte geschrieben wird wie es rein kommt. Während dieser Zeitspanne erfahren wir einen Zustand, den man auch als „höheres Bewusstsein“ beschreiben könnte, weil alle Sicherheitsvorkehrungen abgeschaltet wurden. Aber unsere Maschine weiß sich natürlich zu helfen, denn sobald eine neue Schablone erschaffen wurde, nimmt sie auch schon den leeren Platz ein und alles ist wieder beim Alten. Das heißt, das geweitete Gewahrsein fällt wieder auf seine ursprüngliche Größe zurück, wir vergessen was gerade geschehen ist und leben unser Leben ganz normal weiter. Zurück bleibt ein kurzes Gefühl von „das war ja seltsam“ und eine sehr lebhafte Erinnerung an einen Moment, der uns noch lange begleiten wird.",
+        "function": "describes_memory_and_return_to_normal_state",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page50_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 50,
+        "sequence": 4,
+        "text": "Wie gesagt, diese Dinge geschehen zufällig und unkontrolliert. Wir können das aber auch aus uns selbst heraus tun. Wir können die Maschine zwar nicht anhalten, wie es das Fehlen einer passenden Schablone vermag, aber wir können unser Gewahrsein von uns aus jederzeit entsprechend ausdehnen und ähnlich farbenfrohe, langanhaltende Erinnerungen erzeugen. Zwar nicht so eindrücklich und permanent, aber dennoch gut genug um den Unterschied zu einer normalen Erinnerung mehr als deutlich werden zu lassen. Das funktioniert sehr einfach, wenn man es denn will und nicht vergisst es zu tun.",
+        "function": "asserts_deliberate_expansion_of_awareness",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Maschine, Schablone, Gewahrsein, höheres Bewusstsein, Erinnerung"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=050-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:6bdbe6cb0a4601628ad08a12f1941bbc1a344ebe2572f96e6f19c9a932b5bd81",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,125 @@
+projection_id: operations.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- operations
+- technical
+- administrative
+- legal
+- personal
+include_document_types:
+- delivery_note
+- order
+- contract
+- general_letter
+- report
+- specification
+- form
+- other
+include_categories:
+- administrative
+- legal
+- technical
+- operations
+- personal
+- other
+include_subcategories:
+- contract
+- general_correspondence
+- technical_specification
+- feasibility_study
+- logistics
+- procurement
+- execution_plan
+- travel_instruction
+- site_access_compliance
+- inventory
+- recovery_plan
+- other
+include_field_codes:
+- sender
+- sender_address
+- recipient
+- recipient_address
+- document_number
+- our_reference
+- your_reference
+- subject
+- contract_number
+- document_date
+- phone
+- contact_person
+- carrier_name
+- vehicle_registration
+- loading_address
+- transfer_address
+- unloading_address
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- line_item
+- participant_list
+- timeline_entry
+- other
+include_cell_codes:
+- description
+- quantity
+- unit
+- scheduled_date
+- position
+- participant_role
+- name
+- note
+- section
+- drawing_reference
+- material
+- dimension
+- signature_marker
+- other
+promotion_rules:
+- slot: document_title
+  source_paths:
+  - content.fields.subject
+- slot: primary_party
+  source_paths:
+  - content.fields.sender
+  - content.fields.carrier_name
+- slot: recipient_party
+  source_paths:
+  - content.fields.recipient
+- slot: document_identifier
+  source_paths:
+  - content.fields.document_number
+  - content.fields.contract_number
+  - content.fields.vehicle_registration
+  - content.fields.customer_number
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+compatibility: {}
+routing:
+  example_document_types:
+  - delivery_note
+  - order
+  - specification
+  - report
+  - form
+  section_roles:
+  - header
+  - line_items
+  - timeline
+  - contact_block
+  party_roles:
+  - sender
+  - recipient
+  - carrier

@@ -1,0 +1,26 @@
+{
+  "module_key": "interpreter",
+  "display_name": "Interpreter",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "llm_interpreter",
+  "contract_module": "llm_interpreter.orchestrator_contract",
+  "actions": ["interpret_document", "healthcheck", "debug_run", "generate_llm"],
+  "debug_surface": {
+    "supports_batch": true,
+    "supports_single": true,
+    "supports_scan": true,
+    "input_source": "orchestrator_main_input",
+    "output_source": "orchestrator_assigned_output",
+    "controls": [],
+    "artifacts": ["interpreter_request", "structured_output"]
+  },
+  "external_dependencies": [
+    {
+      "name": "llm_provider",
+      "kind": "service",
+      "required": true,
+      "detail": "LLM-Provider nur via orchestrator-owned Runtime-Auth: api_keys ueber ephemere VISION_PROVIDER_API_KEY, oauth ueber ephemere OAuth-Env; kein modul-lokaler Auth-State."
+    }
+  ]
+}

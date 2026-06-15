@@ -1,0 +1,840 @@
+{
+  "schema_version": "kernel.phase12.frozen_operational_workflows.v1",
+  "workflows": [
+    {
+      "adapter_calls": {
+        "corpus": [
+          "create_empty_database"
+        ],
+        "merge": [
+          "multi_source_merge_preflight",
+          "merge_empty_databases",
+          "merge_semantic_release_candidates",
+          "write_merge_reconciliation_manifest"
+        ],
+        "semantic": [
+          "create_custom_semantic_release",
+          "write_semantic_release",
+          "preflight_semantic_release_activation",
+          "activate_semantic_release"
+        ],
+        "workspace": [
+          "prepare_artifact_tree"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/corpus.db",
+        "Documents/logs/merge_runs/mrg_freeze_merge_entry/merge_collision_manifest.json",
+        "Documents/logs/merge_runs/mrg_freeze_merge_entry/merge_selection.json",
+        "Semantic Release/releases/merged.release/release.json"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/merge_runs/mrg_freeze_merge_entry/merge_collision_manifest.json": {
+          "collision_count": 0,
+          "duplicate_policy": "keep_both_by_default",
+          "manifest_revision": 1,
+          "merge_route": "empty_databases_merge_path",
+          "resolution_summary": {
+            "requires_user_choice": 0,
+            "resolved": 0,
+            "total": 0,
+            "unresolved": 0
+          },
+          "schema_version": "kernel.database_merge_collision_manifest.v1",
+          "source_database_ids": [
+            "source_db_entry_a",
+            "source_db_entry_b"
+          ]
+        },
+        "Documents/logs/merge_runs/mrg_freeze_merge_entry/merge_selection.json": {
+          "merge_route": "empty_databases_merge_path",
+          "projection_merge_mode": "preserve_source_projections",
+          "schema_version": "kernel.database_merge_selection.v1",
+          "source_database_ids": [
+            "source_db_entry_a",
+            "source_db_entry_b"
+          ],
+          "source_identity_origins": [
+            "durable_owner_id",
+            "durable_owner_id"
+          ],
+          "source_states": [
+            "empty",
+            "empty"
+          ],
+          "target_database_name": "corpus.db"
+        },
+        "Semantic Release/releases/merged.release/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "projection.default"
+          ],
+          "release_fingerprint": "sha256:merged",
+          "release_id": "merged.release",
+          "release_version": "1.0.0",
+          "runtime_locale": "en",
+          "taxonomy_id": "taxonomy.merged"
+        }
+      },
+      "attach_state": {
+        "pointer_owner": "kernel_held",
+        "present": true,
+        "release_fingerprint": "sha256:merged",
+        "release_id": "merged.release"
+      },
+      "completed_step_ids": [
+        "creating_target_artifact_tree",
+        "creating_target_database",
+        "running_empty_merge",
+        "building_collision_manifest",
+        "awaiting_reconciliation",
+        "attaching_semantic_release",
+        "activating_semantic_release",
+        "completed"
+      ],
+      "execution_workflow_tool": "database_merge_additive_only",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "database_modify_taxonomy",
+          "database_modify_projections",
+          "kernel_status"
+        ],
+        "detail_kind": "database_merge_workflow_completion",
+        "merge_route": "empty_databases_merge_path",
+        "workflow_family": "database_merge",
+        "workflow_tool": "database_merge_additive_only"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "merge_collision_manifest_exists": true,
+        "merge_selection_exists": true,
+        "release_bundle_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "create_standard_artifact_folder_tree",
+        "create_empty_database",
+        "merge_database_empty",
+        "merge_taxonomy_and_projections_additive",
+        "reconcile_merged_semantic_release",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release",
+        "merge_finalization_receipt"
+      ],
+      "progress_statuses": [
+        "classifying_merge_route:step_started",
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_empty_merge:step_started",
+        "running_empty_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "selection_route": "empty_databases_merge_path",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [
+        "classifying_merge_route:step_started",
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_empty_merge:step_started",
+        "running_empty_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "workflow_tool": "database_merge_additive_only"
+    },
+    {
+      "adapter_calls": {
+        "corpus": [
+          "create_empty_database"
+        ],
+        "merge": [
+          "merge_empty_databases",
+          "merge_semantic_release_candidates",
+          "write_merge_reconciliation_manifest"
+        ],
+        "semantic": [
+          "create_custom_semantic_release",
+          "write_semantic_release",
+          "preflight_semantic_release_activation",
+          "activate_semantic_release"
+        ],
+        "workspace": [
+          "prepare_artifact_tree"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/corpus.db",
+        "Documents/logs/merge_runs/mrg_freeze_empty_merge/merge_collision_manifest.json",
+        "Documents/logs/merge_runs/mrg_freeze_empty_merge/merge_selection.json",
+        "Semantic Release/releases/merged.release/release.json"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/merge_runs/mrg_freeze_empty_merge/merge_collision_manifest.json": {
+          "collision_count": 0,
+          "duplicate_policy": "keep_both_by_default",
+          "manifest_revision": 1,
+          "merge_route": "empty_databases_merge_path",
+          "resolution_summary": {
+            "requires_user_choice": 0,
+            "resolved": 0,
+            "total": 0,
+            "unresolved": 0
+          },
+          "schema_version": "kernel.database_merge_collision_manifest.v1",
+          "source_database_ids": [
+            "source_db_empty_a",
+            "source_db_empty_b"
+          ]
+        },
+        "Documents/logs/merge_runs/mrg_freeze_empty_merge/merge_selection.json": {
+          "merge_route": "empty_databases_merge_path",
+          "projection_merge_mode": "preserve_source_projections",
+          "schema_version": "kernel.database_merge_selection.v1",
+          "source_database_ids": [
+            "source_db_empty_a",
+            "source_db_empty_b"
+          ],
+          "source_identity_origins": [
+            "durable_owner_id",
+            "durable_owner_id"
+          ],
+          "source_states": [
+            "empty",
+            "empty"
+          ],
+          "target_database_name": "corpus.db"
+        },
+        "Semantic Release/releases/merged.release/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "projection.default"
+          ],
+          "release_fingerprint": "sha256:merged",
+          "release_id": "merged.release",
+          "release_version": "1.0.0",
+          "runtime_locale": "en",
+          "taxonomy_id": "taxonomy.merged"
+        }
+      },
+      "attach_state": {
+        "pointer_owner": "kernel_held",
+        "present": true,
+        "release_fingerprint": "sha256:merged",
+        "release_id": "merged.release"
+      },
+      "completed_step_ids": [
+        "creating_target_artifact_tree",
+        "creating_target_database",
+        "running_empty_merge",
+        "building_collision_manifest",
+        "awaiting_reconciliation",
+        "attaching_semantic_release",
+        "activating_semantic_release",
+        "completed"
+      ],
+      "execution_workflow_tool": "empty_databases_merge_path",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "database_modify_taxonomy",
+          "database_modify_projections",
+          "kernel_status"
+        ],
+        "detail_kind": "database_merge_workflow_completion",
+        "merge_route": "empty_databases_merge_path",
+        "workflow_family": "database_merge",
+        "workflow_tool": "empty_databases_merge_path"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "merge_collision_manifest_exists": true,
+        "merge_selection_exists": true,
+        "release_bundle_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "create_standard_artifact_folder_tree",
+        "create_empty_database",
+        "merge_database_empty",
+        "merge_taxonomy_and_projections_additive",
+        "reconcile_merged_semantic_release",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release",
+        "merge_finalization_receipt"
+      ],
+      "progress_statuses": [
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_empty_merge:step_started",
+        "running_empty_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "selection_route": "empty_databases_merge_path",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_empty_merge:step_started",
+        "running_empty_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "workflow_tool": "empty_databases_merge_path"
+    },
+    {
+      "adapter_calls": {
+        "corpus": [
+          "create_empty_database"
+        ],
+        "merge": [
+          "merge_filled_databases",
+          "merge_semantic_release_candidates",
+          "write_merge_reconciliation_manifest"
+        ],
+        "semantic": [
+          "create_custom_semantic_release",
+          "write_semantic_release",
+          "preflight_semantic_release_activation",
+          "activate_semantic_release"
+        ],
+        "workspace": [
+          "prepare_artifact_tree"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/corpus.db",
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_collision_manifest.json",
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_id_map.json",
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_selection.json",
+        "Semantic Release/releases/merged.release/release.json"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_collision_manifest.json": {
+          "collision_count": 0,
+          "duplicate_policy": "keep_both_by_default",
+          "manifest_revision": 1,
+          "merge_route": "filled_databases_merge_path",
+          "resolution_summary": {
+            "requires_user_choice": 0,
+            "resolved": 0,
+            "total": 0,
+            "unresolved": 0
+          },
+          "schema_version": "kernel.database_merge_collision_manifest.v1",
+          "source_database_ids": [
+            "source_db_filled_a",
+            "source_db_filled_b"
+          ]
+        },
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_id_map.json": {
+          "record_count": 2,
+          "schema_version": "kernel.database_merge_id_map.v1",
+          "source_database_ids": [
+            "source_db_filled_a",
+            "source_db_filled_b"
+          ],
+          "target_artifact_paths": [
+            "Documents/originals/source_db_filled_a/source.pdf",
+            "Documents/originals/source_db_filled_b/source.pdf"
+          ],
+          "target_pipeline_batch_ids": [
+            "source_db_filled_a.batch_shared",
+            "source_db_filled_b.batch_shared"
+          ]
+        },
+        "Documents/logs/merge_runs/mrg_freeze_filled_merge/merge_selection.json": {
+          "merge_route": "filled_databases_merge_path",
+          "projection_merge_mode": "preserve_source_projections",
+          "schema_version": "kernel.database_merge_selection.v1",
+          "source_database_ids": [
+            "source_db_filled_a",
+            "source_db_filled_b"
+          ],
+          "source_identity_origins": [
+            "durable_owner_id",
+            "durable_owner_id"
+          ],
+          "source_states": [
+            "filled",
+            "filled"
+          ],
+          "target_database_name": "corpus.db"
+        },
+        "Semantic Release/releases/merged.release/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "projection.default"
+          ],
+          "release_fingerprint": "sha256:merged",
+          "release_id": "merged.release",
+          "release_version": "1.0.0",
+          "runtime_locale": "en",
+          "taxonomy_id": "taxonomy.merged"
+        }
+      },
+      "attach_state": {
+        "pointer_owner": "kernel_held",
+        "present": true,
+        "release_fingerprint": "sha256:merged",
+        "release_id": "merged.release"
+      },
+      "completed_step_ids": [
+        "creating_target_artifact_tree",
+        "creating_target_database",
+        "running_filled_merge",
+        "building_collision_manifest",
+        "awaiting_reconciliation",
+        "attaching_semantic_release",
+        "activating_semantic_release",
+        "completed"
+      ],
+      "execution_workflow_tool": "filled_databases_merge_path",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "database_modify_taxonomy",
+          "database_modify_projections",
+          "kernel_status"
+        ],
+        "detail_kind": "database_merge_workflow_completion",
+        "merge_route": "filled_databases_merge_path",
+        "workflow_family": "database_merge",
+        "workflow_tool": "filled_databases_merge_path"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "merge_collision_manifest_exists": true,
+        "merge_id_map_exists": true,
+        "merge_selection_exists": true,
+        "release_bundle_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "create_standard_artifact_folder_tree",
+        "create_empty_database",
+        "merge_database_filled_additive",
+        "merge_taxonomy_and_projections_additive",
+        "reconcile_merged_database",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release",
+        "merge_finalization_receipt"
+      ],
+      "progress_statuses": [
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_filled_merge:step_started",
+        "running_filled_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "selection_route": "filled_databases_merge_path",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [
+        "creating_target_artifact_tree:step_started",
+        "creating_target_artifact_tree:step_completed",
+        "creating_target_database:step_started",
+        "creating_target_database:step_completed",
+        "running_filled_merge:step_started",
+        "running_filled_merge:step_completed",
+        "building_collision_manifest:step_started",
+        "building_collision_manifest:step_completed",
+        "awaiting_reconciliation:step_started",
+        "awaiting_reconciliation:step_completed",
+        "attaching_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_started",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "workflow_tool": "filled_databases_merge_path"
+    },
+    {
+      "adapter_calls": {
+        "corpus": [
+          "rebuild_from_artifacts"
+        ],
+        "embedding": [
+          "create_embeddings"
+        ],
+        "semantic": [
+          "load_semantic_release_from_artifact_tree",
+          "load_semantic_release",
+          "preflight_semantic_release_activation",
+          "activate_semantic_release"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/rebuilt.db",
+        "Documents/logs/rebuild_runs/rbd_freeze_rebuild/rebuild_manifest.json",
+        "Semantic Release/releases/tree.release/release.json"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/rebuild_runs/rbd_freeze_rebuild/rebuild_manifest.json": {
+          "adapter_call_ref_count": 3,
+          "embedding_policy": "optional_if_unconfigured",
+          "embedding_result": "created",
+          "loaded_release_fingerprint": "sha256:tree_release",
+          "loaded_semantic_release_id": "tree.release",
+          "loaded_semantic_release_version": "2.0.0",
+          "rebuild_run_id": "rbd_freeze_rebuild",
+          "record_count": 2,
+          "schema_version": "kernel.database_rebuild_manifest.v1",
+          "target_database_name": "rebuilt.db",
+          "workflow_run_id": "wf_freeze_rebuild"
+        },
+        "Semantic Release/releases/tree.release/release.json": {
+          "projection_count": 1,
+          "projection_ids": [
+            "tree.release.projection"
+          ],
+          "release_fingerprint": "sha256:tree_release",
+          "release_id": "tree.release",
+          "release_version": "2.0.0",
+          "runtime_locale": "en",
+          "taxonomy_id": "tree.release.taxonomy"
+        }
+      },
+      "attach_state": {
+        "pointer_owner": "kernel_held",
+        "present": true,
+        "release_fingerprint": "sha256:tree_release",
+        "release_id": "tree.release"
+      },
+      "completed_step_ids": [
+        "loading_semantic_release",
+        "running_rebuild",
+        "creating_embeddings",
+        "attaching_semantic_release",
+        "activating_semantic_release",
+        "completed"
+      ],
+      "execution_workflow_tool": "database_rebuild_from_artifacts",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "database_modify_taxonomy",
+          "database_modify_projections",
+          "kernel_status"
+        ],
+        "detail_kind": "database_rebuild_workflow_completion",
+        "merge_route": null,
+        "workflow_family": "database_rebuild",
+        "workflow_tool": "database_rebuild_from_artifacts"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "rebuild_manifest_exists": true,
+        "release_bundle_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "corpus_builder_load_semantic_release",
+        "run_corpus_builder",
+        "create_embeddings",
+        "attach_custom_semantic_release_to_database",
+        "activate_semantic_release",
+        "database_rebuild_from_artifacts"
+      ],
+      "progress_statuses": [
+        "loading_semantic_release:step_started",
+        "loading_semantic_release:step_completed",
+        "running_rebuild:step_started",
+        "running_rebuild:step_completed",
+        "creating_embeddings:step_started",
+        "creating_embeddings:step_completed",
+        "attaching_semantic_release:step_started",
+        "activating_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "selection_route": "",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [
+        "loading_semantic_release:step_started",
+        "loading_semantic_release:step_completed",
+        "running_rebuild:step_started",
+        "running_rebuild:step_completed",
+        "creating_embeddings:step_started",
+        "creating_embeddings:step_completed",
+        "attaching_semantic_release:step_started",
+        "activating_semantic_release:step_started",
+        "attaching_semantic_release:step_completed",
+        "activating_semantic_release:step_completed",
+        "completed:completed"
+      ],
+      "workflow_tool": "database_rebuild_from_artifacts"
+    },
+    {
+      "adapter_calls": {
+        "corpus": [
+          "<request_payload>"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/corpus.db",
+        "Documents/logs/pipeline_batches/resets/<reset_manifest_id>.json",
+        "Documents/originals/source_1.pdf",
+        "Documents/originals/source_2.pdf",
+        "Documents/originals/source_3.pdf"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/pipeline_batches/resets/<reset_manifest_id>.json": {
+          "empty_state_proven": true,
+          "post_reset_semantic_release_state": "semantic_release_active",
+          "preserved_release_id": "semantic_release.default",
+          "prior_semantic_release_state": "semantic_release_active",
+          "schema_version": "kernel.database_reset_manifest.v1",
+          "superseded_batch_ref_count": 1,
+          "workflow_run_id": "wf_freeze_reset"
+        }
+      },
+      "attach_state": {
+        "present": false
+      },
+      "completed_step_ids": [
+        "awaiting_confirmation",
+        "resetting_database",
+        "completed"
+      ],
+      "execution_workflow_tool": "reset_database",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "database_modify_taxonomy",
+          "database_modify_projections",
+          "kernel_status"
+        ],
+        "detail_kind": "database_reset_workflow_completion",
+        "merge_route": null,
+        "workflow_family": "database_reset",
+        "workflow_tool": "reset_database"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "reset_manifest_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "CorpusAdapter.reset_database",
+        "kernel.database_reset_manifest.v1"
+      ],
+      "progress_statuses": [
+        "resetting_database:running",
+        "completed:completed"
+      ],
+      "selection_route": "",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [],
+      "workflow_tool": "reset_database"
+    },
+    {
+      "adapter_calls": {
+        "batch": [
+          "create_batch_manifest",
+          "finalize_batch_manifest"
+        ],
+        "corpus": [],
+        "orchestrator": [
+          "<request_payload>"
+        ]
+      },
+      "artifact_files": [
+        "Corpus/corpus.db",
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/correlation_report.json",
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/pending_pipeline_batch_manifest.json",
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/pipeline_batch_manifest.json",
+        "Documents/originals/source_1.pdf",
+        "Documents/originals/source_2.pdf",
+        "Documents/originals/source_3.pdf",
+        "Input/source_1.pdf",
+        "Input/source_2.pdf"
+      ],
+      "artifact_json_contracts": {
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/correlation_report.json": {
+          "correlation_status": "passed",
+          "manifest_eligible": true,
+          "mismatch_codes": [],
+          "pipeline_batch_id_is_valid": true,
+          "schema_version": "kernel.pipeline_run_correlation_report.v1",
+          "workflow_run_id": "wf_freeze_manual_pipeline"
+        },
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/pending_pipeline_batch_manifest.json": {
+          "active_projection_count": 1,
+          "batch_kind": "manual_ingest",
+          "created_by_workflow": "manual_pipeline_run",
+          "input_count": 2,
+          "pending_status": "prepared",
+          "pipeline_batch_id_is_valid": true,
+          "schema_version": "kernel.pipeline_pending_batch_manifest.v1",
+          "workflow_run_id": "wf_freeze_manual_pipeline"
+        },
+        "Documents/logs/pipeline_batches/<pipeline_batch_id>/pipeline_batch_manifest.json": {
+          "batch_kind": "manual_ingest",
+          "batch_status": "finalized",
+          "cleanup_scope": "manual_batch_not_cleanup_target",
+          "input_count": 2,
+          "materialized_record_count": 2,
+          "pipeline_batch_id_is_valid": true,
+          "record_counts": {
+            "documents": 2,
+            "embeddings": 2,
+            "error_cases": 0,
+            "normalized_records": 2,
+            "projected_records": 2
+          },
+          "schema_version": "kernel.pipeline_batch_manifest.v1",
+          "workflow_run_id": "wf_freeze_manual_pipeline"
+        }
+      },
+      "attach_state": {
+        "present": false
+      },
+      "completed_step_ids": [
+        "preparing_batch",
+        "create_batch_manifest",
+        "running_pipeline",
+        "correlating_outputs",
+        "finalizing_manifest",
+        "completed"
+      ],
+      "execution_workflow_tool": "manual_pipeline_run",
+      "final_mirror": {
+        "agent_response_mode": "explain_now",
+        "allowed_agent_tools": [
+          "manual_pipeline_run",
+          "reset_database",
+          "database_rebuild_from_artifacts",
+          "analyze_database",
+          "kernel_status"
+        ],
+        "detail_kind": "manual_pipeline_run_workflow_completion",
+        "merge_route": null,
+        "workflow_family": "manual_pipeline_run",
+        "workflow_tool": "manual_pipeline_run"
+      },
+      "final_state": "semantic_release_active",
+      "live_path_assertions": {
+        "artifact_root_exists": true,
+        "correlation_report_exists": true,
+        "final_manifest_exists": true,
+        "pending_manifest_exists": true,
+        "target_database_exists": true
+      },
+      "mirror_event_types": [
+        "workflow_completed"
+      ],
+      "operation_log": [
+        "create_pending_pipeline_batch_manifest",
+        "BatchReingestAdapter.create_batch_manifest",
+        "OrchestratorAdapter.run_pipeline",
+        "kernel.pipeline_run_correlation_report.v1",
+        "BatchReingestAdapter.finalize_batch_manifest",
+        "pipeline_run"
+      ],
+      "progress_statuses": [
+        "preparing_batch:step_completed",
+        "create_batch_manifest:step_completed",
+        "running_pipeline:step_completed",
+        "correlating_outputs:step_completed",
+        "finalizing_manifest:step_completed",
+        "completed:step_completed"
+      ],
+      "selection_route": "",
+      "status": "completed",
+      "stored_mirror_event_types": [
+        "workflow_completed"
+      ],
+      "stored_progress_statuses": [],
+      "workflow_tool": "manual_pipeline_run"
+    }
+  ]
+}

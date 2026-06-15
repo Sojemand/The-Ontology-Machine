@@ -1,0 +1,63 @@
+{
+  "route_families": [
+    "Documents"
+  ],
+  "enabled_route_families": [
+    "Documents"
+  ],
+  "unrouted_error_family": "Unrouted",
+  "suffix_groups": {
+    "images": [
+      ".jpg",
+      ".jpeg",
+      ".png",
+      ".tif",
+      ".tiff",
+      ".bmp",
+      ".webp"
+    ],
+    "files": [
+      ".eml",
+      ".emlx",
+      ".mbox",
+      ".msg",
+      ".oft",
+      ".pst",
+      ".ost",
+      ".doc",
+      ".docx",
+      ".odt",
+      ".rtf",
+      ".txt",
+      ".md",
+      ".markdown",
+      ".yaml",
+      ".yml",
+      ".toml",
+      ".ini",
+      ".cfg",
+      ".conf",
+      ".env",
+      ".properties"
+    ],
+    "pdf": [
+      ".pdf"
+    ]
+  },
+  "pdf_classifications": {
+    "born_digital": "born_digital_pdf",
+    "scan": "scan_pdf"
+  },
+  "pdf_routing": {
+    "born_digital_pdf": {
+      "route_family": "Documents",
+      "optimizer_module_key": "optimizer",
+      "interpreter_module_key": "interpreter"
+    },
+    "scan_pdf": {
+      "route_family": "Documents",
+      "optimizer_module_key": "optimizer",
+      "interpreter_module_key": "interpreter"
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=010-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:65c632bbdc25d7f956d82426bef6aea75f762bfd1cb560ed3d37be253f819fa4",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 10,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=010-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page10_para_0",
+        "type": "paragraph",
+        "value": "sehen und ich weiß wohl, dass dieser Satz eher Verwirrung im Leser erzeugt als er zur",
+        "position": {
+          "page": 10,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page10_para_1",
+        "type": "paragraph",
+        "value": "Aufklärung beiträgt. Lasst es mich also auf eine andere Art versuchen.",
+        "position": {
+          "page": 10,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page10_para_2",
+        "type": "paragraph",
+        "value": "Schau in den Spiegel",
+        "position": {
+          "page": 10,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page10_para_3",
+        "type": "paragraph",
+        "value": "Ja, das ist eine Aufforderung. In den Spiegel zu blicken ist ein guter Start um die Reise zu",
+        "position": {
+          "page": 10,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page10_para_4",
+        "type": "paragraph",
+        "value": "beginnen. Warum? Weil, während du dies tust, du einen physischen Akt dessen ausführst,",
+        "position": {
+          "page": 10,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page10_para_5",
+        "type": "paragraph",
+        "value": "was dein Geist versucht zu tun, wenn er damit beginnt über sich selbst nachzudenken. Und",
+        "position": {
+          "page": 10,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page10_para_6",
+        "type": "paragraph",
+        "value": "während du dies tust, du vor dem Spiegel sitzt und dir scheinbar sinnlos in die Augen starrst,",
+        "position": {
+          "page": 10,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page10_para_7",
+        "type": "paragraph",
+        "value": "wirst du feststellen wie sinnlos es doch ist zu versuchen, wirklich „über deine Gedanken",
+        "position": {
+          "page": 10,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page10_para_8",
+        "type": "paragraph",
+        "value": "nachzudenken“.",
+        "position": {
+          "page": 10,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page10_para_9",
+        "type": "paragraph",
+        "value": "Wenn du in den Spiegel blickst, kannst du präzise erfahren was es bedeutet, nicht in der Lage",
+        "position": {
+          "page": 10,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page10_para_10",
+        "type": "paragraph",
+        "value": "zu sein, über dein eigenes Denken nachzudenken. Schau in den Spiegel und schau in deine",
+        "position": {
+          "page": 10,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page10_para_11",
+        "type": "paragraph",
+        "value": "Augen. Sei dir bewusst darüber, dass das was du dort siehst, exakt jene Augen sind die",
+        "position": {
+          "page": 10,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page10_para_12",
+        "type": "paragraph",
+        "value": "gerade versuchen sich selbst zu sehen. Wenn du diese Augen als physische Repräsentation",
+        "position": {
+          "page": 10,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page10_para_13",
+        "type": "paragraph",
+        "value": "deines Bewusstseins betrachtest, wirst du eine paradoxe Situation erfahren.",
+        "position": {
+          "page": 10,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page10_para_14",
+        "type": "paragraph",
+        "value": "Deine Gewissheit, eine singuläre Einheit zu sein, wird hier auf die Probe gestellt, denn",
+        "position": {
+          "page": 10,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page10_para_15",
+        "type": "paragraph",
+        "value": "während du in den Spiegel blickst und versuchst, dir darüber bewusst zu werden, wie dir dort",
+        "position": {
+          "page": 10,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page10_para_16",
+        "type": "paragraph",
+        "value": "genau jene Augen entgegen blicken die gerade versuchen sich selbst zu sehen, wirst du",
+        "position": {
+          "page": 10,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page10_para_17",
+        "type": "paragraph",
+        "value": "währenddessen deine Unfähigkeit zum Denken erkennen. Dein Bewusstsein friert sozusagen",
+        "position": {
+          "page": 10,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page10_para_18",
+        "type": "paragraph",
+        "value": "in einer paradoxen Pose ein die es selbst nicht auflösen kann. Wenn du lange genug in deine",
+        "position": {
+          "page": 10,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page10_para_19",
+        "type": "paragraph",
+        "value": "Augen blickst, dann wirst du feststellen, dass diese Situation keinerlei Gedanken hervor",
+        "position": {
+          "page": 10,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page10_para_20",
+        "type": "paragraph",
+        "value": "bringt. In dir, in dieser singulären Einheit entsteht ein Spiegelbild derselbigen, welches auf",
+        "position": {
+          "page": 10,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page10_para_21",
+        "type": "paragraph",
+        "value": "einmal die gleichen Eigenschaften hat wie sein Gegenstück. Eine äußerst prekäre Situation",
+        "position": {
+          "page": 10,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page10_para_22",
+        "type": "paragraph",
+        "value": "haben wir da, die dich zur Bewegungslosigkeit verdammt. Wir sehen uns hier dem gleichen",
+        "position": {
+          "page": 10,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page10_para_23",
+        "type": "paragraph",
+        "value": "Problem gegenüber welches wir haben, wenn wir versuchen, über unser eigenes Denken",
+        "position": {
+          "page": 10,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page10_para_24",
+        "type": "paragraph",
+        "value": "nachzudenken. Verwechseln wir allerdings dieses Dilemma nicht mit dem was wir",
+        "position": {
+          "page": 10,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page10_para_25",
+        "type": "paragraph",
+        "value": "Introspektion nennen. Introspektion, also das „über sich selbst nachdenken“ ist nicht das",
+        "position": {
+          "page": 10,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page10_para_26",
+        "type": "paragraph",
+        "value": "Gleiche wie „über das Denken nachzudenken“. Du kannst sehr wohl über allerlei Dinge in dir",
+        "position": {
+          "page": 10,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page10_para_27",
+        "type": "paragraph",
+        "value": "nachdenken, wie Vorlieben, Wünsche, Hoffnungen, Abneigungen und Träume, oder, welche",
+        "position": {
+          "page": 10,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page10_para_28",
+        "type": "paragraph",
+        "value": "Bilder die Geschichte in dir erzeugt hat, was aber nicht gleichbedeutend ist darüber",
+        "position": {
+          "page": 10,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page10_para_29",
+        "type": "paragraph",
+        "value": "nachdenken zu können, wie diese Dinge in dir entstehen oder sich selbst erhalten.",
+        "position": {
+          "page": 10,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

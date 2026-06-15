@@ -1,0 +1,17 @@
+{
+  "module_key": "mcp_server",
+  "display_name": "MCP Server",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "mcp_server",
+  "contract_module": "mcp_server.orchestrator_contract",
+  "edit_contract_module": "mcp_server.edit_contract",
+  "actions": ["serve", "healthcheck"],
+  "edit_surfaces": ["mcp_server.support_monitor"],
+  "mcp_transport": {
+    "kind": "stdio",
+    "scope": "local_desktop_only",
+    "writes": "owner_contracts_only"
+  },
+  "external_dependencies": []
+}

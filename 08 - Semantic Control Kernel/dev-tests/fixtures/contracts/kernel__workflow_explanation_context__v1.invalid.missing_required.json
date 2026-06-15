@@ -1,0 +1,53 @@
+{
+  "already_available": [
+    {
+      "fact_id": "artifact_tree_created",
+      "label": "Artifact Tree",
+      "provenance": "already_available",
+      "step_id": "dc_create_artifact_tree"
+    }
+  ],
+  "changed_artifacts": [
+    {
+      "artifact_key": "default_release_path",
+      "path": "C:\\Target\\Artifact Tree\\Semantic Release\\releases\\semantic_release.default\\release.json",
+      "step_id": "dc_write_default_release"
+    }
+  ],
+  "completed_step_ids_at_run_start": [
+    "dc_create_artifact_tree"
+  ],
+  "completed_step_ids_this_run": [
+    "dc_write_default_release"
+  ],
+  "completed_step_ids_total": [
+    "dc_create_artifact_tree",
+    "dc_write_default_release"
+  ],
+  "current_state_summary": "semantic_release_active",
+  "evidence_refs": [],
+  "performed_this_run": [
+    {
+      "fact_id": "default_semantic_release_written",
+      "label": "Default Semantic Release file",
+      "provenance": "performed_this_run",
+      "step_id": "dc_write_default_release"
+    }
+  ],
+  "provenance_policy": {
+    "completed_step_ids_at_run_start_are_not_new_work": true,
+    "completed_step_ids_this_run_are_the_only_steps_the_agent_may_describe_as_newly_performed": true
+  },
+  "satisfied_precondition_step_ids": [
+    "dc_create_artifact_tree"
+  ],
+  "unchanged_artifacts": [
+    {
+      "artifact_key": "artifact_root_path",
+      "path": "C:\\Target\\Artifact Tree",
+      "step_id": "dc_create_artifact_tree"
+    }
+  ],
+  "workflow_run_id": "wr_example",
+  "workflow_tool": "empty_database_default_taxonomy_default_projections"
+}

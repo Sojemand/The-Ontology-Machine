@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.98,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:41:33Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "book_content",
+    "subcategory": "chapter_section",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A chapter in a German philosophical book discusses freedom, information access, and self-knowledge through the contrast between a \"machine\" and a \"giant.\" It opens Chapter 3, \"The Light of Awareness,\" in the section \"The Excited Monkey,\" and uses an illustrative scenario about a young man choosing whether to pursue a woman or preserve his resources.",
+    "tags": [
+      "freedom",
+      "information",
+      "self-knowledge",
+      "philosophy",
+      "illustrative scenario"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "philosophical_writing"
+    },
+    "normalization_notes": [
+      "Mapped raw category and subcategory to the closest active-profile book body content chapter section.",
+      "Translated visible German headings into English in the summary and field values."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "chapter_number",
+        "chapter_title",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 35,
+      "chapter_number": "3",
+      "chapter_title": "The Light of Awareness",
+      "section_heading": "The Excited Monkey",
+      "topic_keywords": [
+        "freedom",
+        "information",
+        "self-knowledge",
+        "agency"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "The page reframes freedom as access to information and self-knowledge rather than escape from the system. It develops this argument through a young man's choice scenario about pursuing a woman or conserving his money and energy."
+      }
+    ],
+    "free_text": "book_page book_content chapter_section Chapter 3 The Light of Awareness; section The Excited Monkey; freedom, information, self-knowledge, agency; page 35"
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.96,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.96 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:02:47.276869+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 88,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=088-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.93,
+      "reason": "A prose book page in philosophical writing is visible, consisting of continuous reflective paragraphs.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "philosophical reflection",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page88_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 88,
+        "sequence": 1,
+        "text": "Existenz in der nächsten Sekunde durch eine Granate des Feindes ausgelöscht wird.",
+        "function": "continued_example",
+        "confidence": 0.93
+      },
+      {
+        "segment_id": "Page88_Segment2",
+        "unit_kind": "reflective_paragraph",
+        "page": 88,
+        "sequence": 2,
+        "text": "Das Ziel ist es, eine in sich schlüssige und Widerspruchsfreie Version des Gegenübers in sich selbst zu erschaffen, mittels derer man sich im Zielgebiet nahtlos einfügen kann. Dies ist zu Beginn ein mental recht schmerzhafter Prozess, da sich unser eigenes Selbst wie gesagt beharrlich sträubt, die Sicherheit der eigenen Gewissheit zu verlassen, die Mühen aufzubringen, die Gravitation zu überwinden. Man hat die Reise abgeschlossen, wenn man überzeugt sagen kann, dass die ehemalige Heimat nun das neue Feindesland ist und richtig verstehen wird man die Reise an sich erst, wenn man wieder den Rückweg antritt, denn, wie gesagt, die wahre Erkenntnis dieser Reisen ist, dass die Widersprüche stets nur von einem selbst aus gehen und „der Feind“ immer jener ist, der man gerade selbst nicht ist.",
+        "function": "explains_inner_transformation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page88_Segment3",
+        "unit_kind": "reflective_paragraph",
+        "page": 88,
+        "sequence": 3,
+        "text": "Streif man so lange genug durch die Sphären menschlicher Existenz, wird man erkennen, dass die gesamte Welt wahrlich nur eine Bühne ist und wir alle nur Schauspieler sind, die nur jene Sätze sprechen können, die auf unsere Kleidung gestickt ist die wir gerade tragen, oder auf dem Zettel steht den wir in unserem Mund mit uns herum tragen. Der Autor dieses Bühnenstückes bleibt uns verborgen, doch ein Mensch ist er sicher nicht, auch wenn der Gedanke an einen umfassenden Plan, gelenkt von in Hinterzimmern flüsternden Figuren eine gewisse Beruhigung in sich birgt.",
+        "function": "metaphysical_reflection",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page88_Segment4",
+        "unit_kind": "warning_statement",
+        "page": 88,
+        "sequence": 4,
+        "text": "Ein Wort der Warnung scheint mir hier angebracht, denn wer sich entschließt zu solch einem Reisenden zu werden, dessen Wege werden einsam sein, denn die Pfade zwischen den Sphären sind kaum befahren und Anerkennung sollte man nicht erwarten. Wer sich Zeit seines Lebens nur innerhalb einer einzigen Sphäre aufhält, der wird deine Reiseberichte nicht verstehen noch schätzen, ganz so wie der arme Wissenschaftler, der gefangen im Dschungel sein Dasein fristet. So ist nun mal die Natur unseres Gewahrseins. So ist die Menschliche Natur, denn wozu sollte man sich Berichte von Alpträumen anhören, wenn sie das sowie schon mühsame Leben nur noch schwerer machen würden?",
+        "function": "warns_of_isolation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page88_Segment5",
+        "unit_kind": "reflective_paragraph",
+        "page": 88,
+        "sequence": 5,
+        "text": "Doch genug mit den düsteren Warnungen, uns fehlt schließlich noch der letzte Weg und im Grunde ist es auch jener um den es hier wirklich geht.",
+        "function": "transition_to_next_topic",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page88_Segment6",
+        "unit_kind": "descriptive_passage",
+        "page": 88,
+        "sequence": 6,
+        "text": "Der dritte Weg ist jener, den wir mit dem Wirken der Archetypen verbinden. Dieser ist der wohl mysteriöseste Weg von allen, denn dieser ist augenscheinlich akausal. Während die ersten beiden Wege stets identifizierbare Ausgangspunkte haben, die wir benennen und in gewissem",
+        "function": "introduces_third_way",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "philosophische Prosa, Warnung, dritter Weg, Archetypen"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=088-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:c58fb9c18fd656dca66810a4fc101750c32b1d40b722122645a7c295687e5b3b",
+    "created_at": null,
+    "modified_at": null
+  }
+}

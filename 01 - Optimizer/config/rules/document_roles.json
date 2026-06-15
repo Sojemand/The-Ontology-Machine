@@ -1,0 +1,52 @@
+{
+  "content_doc_type_keywords": {
+    "rechnung": ["rechnung", "rechnungsnr", "invoice", "inv-", "teilrechnung", "schlussrechnung"],
+    "lieferschein": ["lieferschein", "delivery note", "ship note", "versanddatum"],
+    "angebot": ["angebot", "quote", "quotation", "valid until", "kostenvoranschlag"],
+    "bestellung": ["bestellung", "purchase order", "bestelldatum", "order no"],
+    "gutschrift": ["gutschrift", "credit note"],
+    "spesenabrechnung": ["spesenabrechnung", "reisekostenabrechnung", "expense report", "expense claim"],
+    "vertrag": ["vertrag", "contract", "vereinbarung", "agreement"],
+    "stundenzettel": ["stundenzettel", "timesheet", "arbeitsstunden", "working hours"],
+    "kalkulation": ["kalkulation", "calculation", "nachkalkulation", "kostenkalkulation"],
+    "protokoll": ["protokoll", "minutes", "meeting minutes"],
+    "auftragsbestaetigung": ["auftragsbestaetigung", "order confirmation"],
+    "gutachten": ["gutachten", "assessment", "bewertung"],
+    "lohnabrechnung": ["lohnabrechnung", "gehaltsabrechnung", "payslip"],
+    "leistungsverzeichnis": ["leistungsverzeichnis", "bill of quantities"],
+    "auftrag": ["auftrag", "work order"],
+    "mahnung": ["mahnung", "zahlungserinnerung", "payment reminder", "dunning"],
+    "preisliste": ["preisliste", "price list"]
+  },
+  "sheet_role_patterns": {
+    "lookup": [
+      "*dropdown*",
+      "*stammdaten*",
+      "*master data*",
+      "*lookup*",
+      "*mapping*",
+      "*referenz*"
+    ],
+    "noise": [
+      "*formel*",
+      "*formula*",
+      "*calc*",
+      "*berechnung*"
+    ],
+    "supporting": [
+      "*stunden*",
+      "*timesheet*",
+      "*arbeits*",
+      "*details*",
+      "*positionen*",
+      "*positions*"
+    ]
+  },
+  "table_role_terms": {
+    "line_items": ["pos", "position", "item", "artikel", "menge", "quantity", "price", "preis", "amount", "betrag"],
+    "timesheet": ["stunden", "hours", "arbeitszeit", "arbeitsstunden", "datum", "date", "taetigkeit", "beschreibung"],
+    "totals": ["summe", "gesamt", "total", "subtotal", "netto", "brutto", "mwst", "tax"],
+    "pricing_matrix": ["preis", "price", "satz", "rate", "staffel", "matrix"],
+    "lookup_table": ["dropdown", "lookup", "mapping", "code", "stammdaten", "master data"]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T09:05:17Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.93,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "A philosophical nonfiction passage examines resistance to studying subtle or internally significant phenomena. It argues that group inquiry is obstructed by ego, social and cultural masking, and the risk of institutionalizing closed esoteric groups.",
+    "tags": [
+      "aversion",
+      "group dynamics",
+      "egoism",
+      "social masking",
+      "institutionalization",
+      "esoteric groups",
+      "philosophical reflection"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_philosophical_page"
+    },
+    "normalization_notes": [
+      "Normalized raw category/subcategory to the closest allowed book-body theoretical-discussion classification.",
+      "Translated the visible German text into English control-language values."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 94,
+      "section_heading": "How do we soften our aversion to even dealing with such things?",
+      "topic_keywords": [
+        "aversion",
+        "group dynamics",
+        "egoism",
+        "social masking",
+        "esoteric groups",
+        "institutionalization"
+      ]
+    },
+    "rows": [],
+    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2. Philosophical discussion of aversion to studying subtle phenomena, group friction, ego-driven concealment, and the danger of closed esoteric groups."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.9,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+    }
+  }
+}

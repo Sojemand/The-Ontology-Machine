@@ -1,0 +1,116 @@
+# Semantic Control Kernel Build Spec
+
+Current build-state authority after the 2026-05-31 DB modify-family removal.
+
+## Phase 2 - Core Types And Internal Data Contracts
+
+| Contract | Producer | Consumers | Persistence | Required fields | Optional fields | Validation depth |
+| --- | --- | --- | --- | --- | --- | --- |
+| `interpreter_request_view_vision.v1` | scan/image route request builder | analyze sample input adapter | no separate artifact | none | none | reference_only |
+| `interpreter_request_view_file.v1` | born-digital/file route request builder | analyze sample input adapter | no separate artifact | none | none | reference_only |
+| `kernel.analyze_sample.input.v1` | route-normalization adapter | analyze_samples LLM call | sa/<analysis_run_id>/in/<sample_id>/input.json | `schema_version`, `sample_id`, `source_ref`, `route`, `document`, `completeness` | none | closed_top_level |
+| `kernel.active_database_state.v1` | KernelStateResolver | state table, workflows, confirmations, locks, adapters | receipt/resume snapshots only; reproducible from owner evidence | `schema_version`, `state_snapshot_id`, `artifact_tree`, `active_database`, `database_emptiness`, `semantic_release_state`, `blocking_reasons` | `attached_release`, `active_release`, `runtime_locale`, `active_lock_refs`, `pending_confirmation_refs`, `pending_interaction_refs`, `evidence_refs` | closed_deep |
+| `kernel.database_artifact_binding.v1` | DatabaseArtifactBindingRegistry and database creation/rebuild routes | state resolver, run, merge enrichment, rebuild | Phase 3 owner decision; Kernel registry unless Phase 3 changes with proof | `schema_version`, `database_path`, `database_id`, `artifact_root_path`, `corpus_path`, `input_path`, `documents_path`, `error_cases_path`, `semantic_release_path`, `binding_provenance`, `created_at`, `updated_at` | `source_workspace_identity`, `last_verified_semantic_release_path`, `last_verified_semantic_release_fingerprint` | closed_deep |
+| `kernel.semantic_release_attach_state.v1` | attach semantic release functions | activate, resolver, merge/rebuild finalization | AttachStateStore | `schema_version`, `release_path`, `release_id`, `release_version`, `release_fingerprint`, `runtime_locale`, `target_database_path`, `attach_receipt_id`, `attached_at`, `pointer_owner` | none | closed_deep |
+| `kernel.default_taxonomy_projectionless_release_state.v1` | empty_database_default_taxonomy_no_projections | resume, projection authoring, audit, final notices | <artifact_root>/Semantic Release/staged/taxonomy/default_taxonomy_without_projections/projectionless_release_state.json | `schema_version`, `workflow_run_id`, `workflow_tool`, `target_identity`, `artifact_root_path`, `database_path`, `semantic_release_path`, `source_default_release_ref`, `projectionless_release_ref`, `taxonomy_ref`, `removed_projection_refs`, `remaining_projection_refs`, `missing_component_type`, `completeness_state`, `adapter_receipt_refs` | `created_at` | closed_deep |
+| `kernel.pipeline_batch_manifest.v1` | pipeline_run | pipeline audit, rebuild audit | Documents/logs/pipeline_batches/<pipeline_batch_id>/pipeline_batch_manifest.json and/or database batch table | `schema_version`, `pipeline_batch_id`, `workflow_run_id`, `created_at`, `finalized_at`, `batch_kind`, `batch_status`, `active_database`, `artifact_root`, `semantic_release`, `active_projections`, `input_files`, `owner_run_refs`, `output_artifacts`, `materialized_records`, `record_counts`, `cleanup_eligibility`, `manifest_fingerprint` | `support_bundle_ref` | closed_deep |
+| `kernel.record_semantic_materialization_ref.v1` | pipeline_run materialization writer | pipeline audit and rebuild audit | database records or payload metadata | `schema_version`, `pipeline_batch_id`, `document_id`, `record_id`, `semantic_release_id`, `semantic_release_version`, `release_fingerprint`, `taxonomy_fingerprint`, `projection_id`, `projection_fingerprint` | none | closed_deep |
+| `kernel.database_merge_selection.v1` | merge source selection route | merge preflight, locks, target creation, reconciliation, audit | <target_artifact_root>/Documents/logs/merge_runs/<merge_run_id>/merge_selection.json | `schema_version`, `merge_run_id`, `created_at`, `selected_by_interaction_id`, `source_databases`, `target_artifact_root`, `target_database_path`, `merge_route`, `projection_merge_mode`, `selection_fingerprint` | none | closed_deep |
+| `kernel.database_merge_collision_manifest.v1` | merge routes and reconcile helpers | reconciliation, confirmations, audit | <target_artifact_root>/Documents/logs/merge_runs/<merge_run_id>/merge_collision_manifest.json | `schema_version`, `merge_run_id`, `merge_route`, `created_at`, `updated_at`, `source_databases`, `target_artifact_root`, `target_database_path`, `duplicate_policy`, `collisions`, `resolution_summary`, `manifest_revision`, `manifest_fingerprint` | none | closed_deep |
+| `kernel.database_merge_id_map.v1` | filled additive merge/write combined database | reconcile and audit | <target_artifact_root>/Documents/logs/merge_runs/<merge_run_id>/merge_id_map.json | `schema_version`, `merge_run_id`, `created_at`, `source_databases`, `target_database_path`, `mappings`, `record_count`, `map_fingerprint` | none | closed_deep |
+| `kernel.database_merge_reconciliation_receipt.v1` | merge reconciliation dialog | merge finalization, activation, recovery, audit | <target_artifact_root>/Documents/logs/merge_runs/<merge_run_id>/merge_reconciliation_receipt.json when user decisions were required | `schema_version`, `merge_run_id`, `reconciliation_receipt_id`, `collision_manifest_ref`, `selected_resolutions`, `target_identity`, `state_snapshot_identity`, `created_at`, `manifest_revision_before`, `manifest_revision_after`, `updated_collision_manifest_ref`, `result_status`, `receipt_fingerprint` | `confirmation_receipt_refs`, `workflow_run_id` | closed_deep |
+| `kernel.database_rebuild_manifest.v1` | rebuild-from-artifacts workflow | activation, audit, support, later merge checks | <artifact_root>/Documents/logs/rebuild_runs/<rebuild_run_id>/rebuild_manifest.json | `schema_version`, `rebuild_run_id`, `workflow_run_id`, `artifact_root`, `target_database_path`, `loaded_semantic_release_id`, `loaded_semantic_release_version`, `loaded_release_fingerprint`, `corpus_builder_run_ref`, `embedding_policy`, `embedding_result`, `activation_receipt_id`, `record_count`, `created_at`, `finalized_at`, `manifest_fingerprint` | `overwrite_receipt_id`, `adapter_call_refs` | closed_deep |
+| `kernel.confirmation_request.v1` | ConfirmationService | UserInteractionAdapter, host surface | WorkflowResumeStore while pending | `schema_version`, `confirmation_request_id`, `workflow_run_id`, `function_or_route`, `target_identity`, `state_snapshot_identity`, `explanation_text`, `risk_class`, `confirmation_scope`, `expiration_policy`, `required_receipt_shape` | none | closed_deep |
+| `kernel.confirmation_receipt.v1` | UserInteractionAdapter or host surface | ConfirmationService, LockStore, mutating functions, adapters | ReceiptStore | `schema_version`, `confirmation_receipt_id`, `confirmation_request_id`, `confirmed_target_identity`, `confirmed_state_snapshot_identity`, `user_decision`, `confirmed_at`, `explanation_hash`, `host_surface_identity` | none | closed_deep |
+| `kernel.user_interaction_request.v1` | KernelUserInteractionService | Client Frontend event sink, InteractionRequestStore, workflow resume | InteractionRequestStore while pending | `schema_version`, `interaction_request_id`, `workflow_run_id`, `function_or_route`, `interaction_function`, `interaction_kind`, `dialog_type`, `target_identity`, `state_snapshot_identity`, `user_visible_title`, `user_visible_summary`, `response_shape`, `expiration_policy`, `created_at` | `options`, `prefilled_values`, `mirror_event_id`, `recovery_id`, `recovery_dialog_type`, `risk_class`, `confirmation_request_id` | closed_deep |
+| `kernel.user_interaction_response.v1` | Client Frontend event sink or fake sink | KernelUserInteractionService, workflow resume, confirmation service | InteractionRequestStore history; confirmation responses also create confirmation receipts | `schema_version`, `interaction_response_id`, `interaction_request_id`, `response_status`, `target_identity`, `state_snapshot_identity`, `host_surface_identity`, `submitted_at` | `path_value`, `text_value`, `choice_id`, `selected_database_paths`, `confirmation_decision`, `recovery_id`, `cancellation_reason` | closed_deep |
+| `kernel.client_frontend_event.v1` | KernelUserInteractionService, workflow runner, recovery service | Client Frontend event sink | transient event sink payload; mirrored through progress or mirror stores | `schema_version`, `frontend_event_id`, `frontend_event_kind`, `mirror_event_id`, `created_at` | `interaction_request`, `progress_event`, `mirror_event`, `tool_availability` | closed_deep |
+| `kernel.client_frontend_event_ack.v1` | Client Frontend event sink | Kernel event emitter | no persistence unless ack fails | `schema_version`, `frontend_event_id`, `accepted`, `host_surface_identity`, `acknowledged_at` | `rejection_reason` | closed_deep |
+| `kernel.client_frontend_event_batch.v1` | Client Frontend HTTP bridge | Client Frontend browser | HTTP response only | `schema_version`, `cursor`, `events` | none | closed_deep |
+| `kernel.operation_receipt.v1` | state-changing Kernel functions | audit, resume, reports, resolver, workflow steps | ReceiptStore | `schema_version`, `operation_receipt_id`, `function_name`, `workflow_run_id`, `target_identity_before`, `target_identity_after`, `input_artifact_refs`, `output_artifact_refs`, `final_kernel_state`, `created_at` | `pipeline_adapter_receipts` | closed_deep |
+| `kernel.lock_state.v1` | LockStore | resolver, confirmations, adapters, resume | LockStore | `schema_version`, `lock_id`, `lock_type`, `target_identity`, `owner_workflow_run_id`, `acquired_at`, `expiry_policy`, `status` | `released_at`, `failure_reason`, `release_reason`, `liveness_evidence` | closed_deep |
+| `kernel.workflow_resume_state.v1` | WorkflowResumeStore | workflow entries, confirmations, resolver | WorkflowResumeStore | `schema_version`, `workflow_run_id`, `paused_function`, `state_snapshot_identity`, `pending_confirmation_refs`, `held_lock_refs`, `selected_targets`, `next_expected_transition`, `created_at`, `updated_at` | `pending_interaction_refs`, `expires_at`, `support_bundle_ref` | closed_deep |
+| `kernel.resume_option.v1` | ResumeOptionService | Agent support/control resume selection, Client Frontend tool context | derived from WorkflowResumeStore; not stored as primary state | `schema_version`, `resume_option_ref`, `workflow_ref`, `resume_family`, `source_workflow_tool`, `continuation_workflow_tool`, `state_snapshot_id`, `target_identity`, `target_summary`, `label`, `description`, `effect`, `risk_class`, `status`, `agent_tool`, `agent_instruction` | none | closed_deep |
+| `kernel.workflow_explanation_context.v1` | workflow final-notice builders | mirror agent_explanation_guidance, Pipeline Manager Agent, audit/support | embedded in final mirror technical_detail_ref; not a standalone persisted state object | `schema_version`, `workflow_run_id`, `workflow_tool`, `current_state_summary`, `completed_step_ids_total`, `completed_step_ids_at_run_start`, `completed_step_ids_this_run`, `already_available`, `performed_this_run`, `provenance_policy` | `satisfied_precondition_step_ids`, `unchanged_artifacts`, `changed_artifacts`, `evidence_refs` | closed_deep |
+| `kernel.progress_event.v1` | workflow runner and Pipeline adapters | Frontend progress UI, mirror service, Agent context | operation log and long-running receipts | `schema_version`, `workflow_run_id`, `workflow_tool`, `step_id`, `step_label`, `event_type`, `status`, `sequence_index`, `user_visible_summary`, `current_state_summary`, `timestamp` | `artifact_refs`, `receipt_refs` | closed_deep |
+| `kernel.mirror_event.v1` | KernelMirrorEventService | Agent context, Pipeline Manager Agent, audit/support | MirrorEventStore or operation log | `schema_version`, `mirror_event_id`, `mirror_source`, `is_kernel_auto_call`, `event_type`, `severity`, `user_visible_summary`, `current_state_summary` | `workflow_run_id`, `workflow_tool`, `user_visible_cause`, `kernel_dialog_state`, `recovery_options`, `allowed_agent_tools`, `agent_explanation_guidance`, `technical_detail_ref`, `support_bundle_ref`, `progress_event` | closed_deep |
+| `kernel.recovery_option.v1` | RecoveryOptionService | dialogs, mirror service, event-scoped tools | bound to mirror event and receipt | `schema_version`, `recovery_id`, `recovery_event_id`, `label`, `description`, `owner`, `recovery_action_type`, `effect`, `risk_class`, `target_identity`, `state_snapshot_identity`, `agent_tool`, `kernel_dialog_action`, `starts_new_workflow`, `continuation_workflow_tool`, `requires_confirmation`, `expires_at` | none | closed_deep |
+| `kernel.recovery_receipt.v1` | recovery services/tools | ReceiptStore, resume, resolver, support | ReceiptStore | `schema_version`, `recovery_receipt_id`, `recovery_id`, `recovery_event_id`, `mirror_event_id`, `workflow_run_id`, `recovery_state`, `selected_recovery_option`, `target_identity_before`, `target_identity_after`, `state_snapshot_identity`, `result_status`, `written_refs`, `mutated_refs`, `user_confirmation_refs`, `support_bundle_ref`, `created_at` | none | closed_deep |
+| `kernel.sample_analyses.v1` | analyze_samples LLM output after validation | reports and taxonomy/projection creation | sa/<analysis_run_id>/sa.json | `schema_version`, `analysis_scope`, `input_contract`, `sample_set`, `taxonomy_seed`, `projection_seed`, `user_report_samples_seed`, `quality` | none | closed_top_level |
+| `kernel.taxonomy_projection_authoring_view.v1` | deterministic taxonomy view builder | create_projections_to_sample_analyses | proj_sa/<analysis_run_id>/tax_view.json | `schema_version`, `taxonomy_ref`, `budget_policy`, `allowed_codes`, `term_summaries`, `promotion_slots`, `fallback_codes` | none | closed_top_level |
+| `kernel.create_taxonomy_to_sample_analyses.input.v1` | Kernel request builder | create_taxonomy_to_sample_analyses LLM call | tax_sa/<analysis_run_id>/tax_in.json | `schema_version`, `sample_analyses` | none | closed_top_level |
+| `kernel.create_projections_to_sample_analyses.input.v1` | Kernel request builder | create_projections_to_sample_analyses LLM call | proj_sa/<analysis_run_id>/proj_in.json | `schema_version`, `sample_analyses`, `taxonomy_authoring_view` | none | closed_top_level |
+| `kernel.taxonomy_to_sample_analyses.v1` | create_taxonomy_to_sample_analyses LLM output | create_taxonomy_update_state | tax_sa/<analysis_run_id>/tax_sa.json | `schema_version`, `source_schema_version`, `analysis_scope`, `sample_ids`, `target`, `taxonomy_proposal`, `validation`, `quality` | none | closed_top_level |
+| `kernel.projections_to_sample_analyses.v1` | create_projections_to_sample_analyses LLM output | create_projections_update_state | proj_sa/<analysis_run_id>/proj_sa.json | `schema_version`, `source_schema_version`, `taxonomy_view_schema_version`, `analysis_scope`, `sample_ids`, `taxonomy_ref`, `target`, `projection_strategy`, `projection_proposals`, `validation`, `quality` | none | closed_top_level |
+| `kernel.create_taxonomy_update_state.input.v1` | create_taxonomy_update_state | create_custom_taxonomy | materialized update-state artifact in taxonomy run folder | `schema_version`, `source_schema_version`, `analysis_scope`, `analysis_run_id`, `sample_ids`, `source_artifacts`, `taxonomy_identity`, `taxonomy_core`, `taxonomy_text`, `semantic_binding`, `kernel_policy`, `validation_stamp` | none | closed_top_level |
+| `kernel.create_projections_update_state.input.v1` | create_projections_update_state | create_custom_projection | materialized update-state artifact in projection run folder | `schema_version`, `source_schema_version`, `taxonomy_view_schema_version`, `analysis_scope`, `analysis_run_id`, `sample_ids`, `source_artifacts`, `taxonomy_ref`, `projection_precursors`, `validation_stamp` | none | closed_top_level |
+| `kernel.llm_prompt_snapshot.v1` | PromptSnapshotStore | audit, support, retry validation | function run folder prompt.json | `schema_version`, `analysis_run_id`, `llm_function`, `created_at`, `model_request`, `prompt`, `bindings` | none | closed_top_level |
+| `kernel.llm_response_capture.v1` | LLMFunctionAdapter | validation, audit, support | function run folder raw.json | `schema_version`, `analysis_run_id`, `llm_function`, `created_at`, `provider`, `model`, `response_id`, `status`, `raw_provider_response`, `output_text`, `parsed_json`, `parse_status`, `validation_status`, `validation_errors` | `attempt_index`, `max_attempts` | closed_top_level |
+
+---
+
+## Governance
+
+- Frozen workflow artifacts and golden paths are compatibility evidence and must not be rewritten during cleanup.
+- Live authority is code, manifest, MCP visibility, Client Frontend permanent tool export and current-state specs.
+- Any removed workflow family must stay absent from dispatch, state-machine routing, MCP schemas, Client Frontend permanent tools, product guidance and non-frozen fixtures.
+- Historical final-notice labels inside frozen workflow outputs are tolerated only as frozen compatibility strings; they are not live tool availability.
+
+## Permanent Agent Surface
+
+The live permanent Kernel surface contains exactly 16 tool names:
+
+- `empty_database_no_semantic_release`
+- `empty_database_default_taxonomy_no_projections`
+- `empty_database_default_taxonomy_default_projections`
+- `empty_database_default_taxonomy_custom_projections`
+- `empty_database_custom_taxonomy_no_projections`
+- `empty_database_custom_taxonomy_custom_projections`
+- `manual_pipeline_run`
+- `database_merge_additive_only`
+- `database_rebuild_from_artifacts`
+- `create_custom_taxonomy_path`
+- `create_custom_projection_path`
+- `reset_database`
+- `kernel_status`
+- `kernel_resume_state`
+- `kernel_continue_resumable_workflow`
+- `kernel_cancel_active_run`
+
+## Internal Live Routes
+
+- `pipeline_run` is Kernel-internal behind `manual_pipeline_run`.
+- Empty and filled merge paths are Kernel-internal branches of `database_merge_additive_only`.
+- Recovery affordances are event-scoped and must be bound by Kernel mirror events.
+
+## LLM Surface
+
+The live LLM registry contains four functions:
+
+- `analyze_samples`
+- `user_report_samples`
+- `create_taxonomy_to_sample_analyses`
+- `create_projections_to_sample_analyses`
+
+These functions support sample analysis, user-readable sample reporting and creation-time custom taxonomy/projection authoring. They do not mutate an existing database release.
+
+## Batch And Pipeline Boundary
+
+Manual pipeline runs use `PipelineBatchAdapter` for pending/final batch-manifest provenance and `OrchestratorAdapter` for ingestion. Cleanup, reimport and existing-database semantic modification loops are not live Kernel behavior.
+
+## Documentation Boundary
+
+The component specs in `Semantic Kernel SPEC/` now reflect current state directly. The retired runtime monolith is a pointer only and must not be used as implementation authority.
+
+## Verification Contract
+
+Before this cleanup is complete, run:
+
+- Kernel suite: `python -m pytest -q` from `08 - Semantic Control Kernel`.
+- MCP selected surface/product tests from `07 - MCP Server`.
+- Client Frontend selected Kernel-surface tests from `Client Frontend`.
+- `git diff --check` from the repository root.
+
+## Current Result
+
+As of this pass, the modify family is deleted from live code and non-frozen tests. Frozen workflows remain untouched.

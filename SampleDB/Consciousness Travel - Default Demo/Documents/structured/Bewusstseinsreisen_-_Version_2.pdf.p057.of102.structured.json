@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:50:15.782426+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.91,
+      "reason": "A continuous prose book page in philosophical or reflective writing is visible.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "reflective nonfiction tone",
+        "book page layout"
+      ]
+    },
+    "page_number": 57,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=057-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page57_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 57,
+        "sequence": 1,
+        "text": "eher nicht.",
+        "function": "carryover_continuation",
+        "confidence": 0.93
+      },
+      {
+        "segment_id": "Page57_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 57,
+        "sequence": 2,
+        "text": "Ich könnte anfangen auf Traumelemente zu zeigen und euch sagen, dass diese Dinge einen größeren Zusammenhang haben, der euch aber nicht bewusst ist, weil diese Zusammenhänge sich hinter der Grenze eures Gewahrseins aufhalten und euch erst klar werden, wenn ihr aufwacht. Ich könnte versuchen, eure vagen Gefühle über „etwas Höheres“, welche durchaus im Traum durchschimmern, zu benutzen und sie mit Dingen in Verbindung bringen, die euch hin und wieder im Traum begegnen. Wenn ich wollte, dann könnte ich euch von einem besonderen Traumzustand berichten, der euch einen Vorgeschmack auf die „wache Welt“ bietet. Ich nenne ihn „zweigleisiges Träumen“ oder „luzides Träumen“ und vielleicht schafft ihr es euch in diesen Zustand zu versetzen. Ihr stellt fest, dass ihr eure Welt darin ein wenig anders wahrnehmt, irgendwie klarer, konsistenter, folgerichtiger. Ihr habt auf einmal eine nie gekannte Kontrolle über euren Traum und seid euch auf einer unbegreiflichen Ebene irgendwie klar, dass dies ein Traum ist. Ihr wisst zwar nicht genau wo ihr euch aufhaltet oder was „wach sein“ wirklich bedeutet, aber ihr habt auf einmal eine seltsame Gewissheit, dass diese Welt nicht „wirklich“ ist, dass da noch etwas anderes ist. Und dann macht ihr einen auf Supermann und dreht Loopings wie ein Kampfjet. Alles völlig normal. Vielleicht fallt ihr auch schnell wieder zurück in den normalen Traum und vergesst wie es war luzide zu sein. Ich könnte euch immer wieder motivieren, euch doch noch einmal in den luziden Zustand zu begeben wenn ihr mich fragt, wo denn diese „wache Welt“ voller Magie sei.",
+        "function": "extended_analogy_explanation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page57_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 57,
+        "sequence": 3,
+        "text": "All das könnte ich tun und all das wäre Verschwendung, denn nichts davon würde euch aufwachen lassen. Das könnt ihr nur selbst, nichts hält euch ab den Traum zu beenden. Nicht umsonst hat dieses Dilemma eine frappierende Ähnlichkeit mit den Dingen, denen wir uns auch im Wachzustand gegenüber sehen.",
+        "function": "argumentative_conclusion",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page57_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 57,
+        "sequence": 4,
+        "text": "Aber irgendwann habt ihr ausgeschlafen, dann wacht ihr auf und noch schlaftrunken erinnert ihr euch an einen wirklich abgefahrenen Traum. Ihr erinnert euch an eine merkwürdige Gestalt, vielleicht eine Art Zauberer, der euch gejagt hat und dann erinnert ihr euch wie ihr einen luziden Traum hattet und wie euch eure normale Traumwelt wieder eingeholt hat. Irgendwie fühlt ihr Bedauern, denn luzide Träume machen irgendwie mehr Spaß. Ihr könnt euch an den ganzen Traum erinnern und mit Gänsehaut erkennt ihr, wie der Zauberer bemüht war euch zum Aufwachen zu bewegen und ihr euch immer wieder in sinnlosen Traumbildern verstrickt und ihn überhaupt nicht verstanden habt.",
+        "function": "retrospective_realization",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page57_Segment5",
+        "unit_kind": "dialogue_turn",
+        "page": 57,
+        "sequence": 5,
+        "text": "„Armer Zauberer“ denkt ihr, das muss wirklich ein frustrierendes Erlebnis für ihn gewesen sein.",
+        "function": "internal_commentary",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Traum, luzides Träumen, Aufwachen, Zauberer-Metapher"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=057-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:e179842705eed47e9d8f57ad78627e5e18af72f6e4ab68f9a72fb4aa887e1388",
+    "created_at": null,
+    "modified_at": null
+  }
+}

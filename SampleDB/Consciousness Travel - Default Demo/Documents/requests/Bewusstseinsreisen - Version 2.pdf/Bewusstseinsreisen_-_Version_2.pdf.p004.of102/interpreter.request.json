@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=004-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:225d132551fba8ec3631ef639aedded8708bed70f7c6a5e2e8b6d6214622976e",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 4,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=004-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 4,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_004.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page4_para_0",
+        "type": "paragraph",
+        "value": "durchaus einen übergeordneten Gedanken, an dem sich die Struktur dieses kleinen Werkes",
+        "position": {
+          "page": 4,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page4_para_1",
+        "type": "paragraph",
+        "value": "orientiert. Allerdings ist die Natur dieses Gedanken schwer zu fassen, nicht weil er schwer zu",
+        "position": {
+          "page": 4,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page4_para_2",
+        "type": "paragraph",
+        "value": "verstehen wäre, sondern weil er an Dinge rührt, denen wir uns aufgrund unserer eigenen Natur",
+        "position": {
+          "page": 4,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page4_para_3",
+        "type": "paragraph",
+        "value": "nur ungern zuwenden.",
+        "position": {
+          "page": 4,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page4_para_4",
+        "type": "paragraph",
+        "value": "Ich will auch nicht vorgeben, alles was in diesem Buch steht selbst erfunden zu haben. Ein",
+        "position": {
+          "page": 4,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page4_para_5",
+        "type": "paragraph",
+        "value": "Gutteil davon haben bereits Andere vor mir so oder so ähnlich beschrieben. Einiges von dem",
+        "position": {
+          "page": 4,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page4_para_6",
+        "type": "paragraph",
+        "value": "hier dargelegten basiert auf Konzepten, die zum Beispiel Gurdjieff über den menschlichen Geist",
+        "position": {
+          "page": 4,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page4_para_7",
+        "type": "paragraph",
+        "value": "sagte. Allerdings bringe ich nur jene Dinge auf, von denen ich mit Gewissheit sagen kann, dass",
+        "position": {
+          "page": 4,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page4_para_8",
+        "type": "paragraph",
+        "value": "sie auch tatsächlich so sind. Ich bediene mich keiner Lehren, auch wenn Einiges von solchen",
+        "position": {
+          "page": 4,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page4_para_9",
+        "type": "paragraph",
+        "value": "entnommen wurde, wenn auch nur aus dem Grund, weil sie einen harten Bestandteil unseres",
+        "position": {
+          "page": 4,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page4_para_10",
+        "type": "paragraph",
+        "value": "Lebens korrekt beschreiben.",
+        "position": {
+          "page": 4,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page4_para_11",
+        "type": "paragraph",
+        "value": "Was ich hier, hoffentlich erfolgreich, versuche zu erreichen ist, zu zeigen, dass das, was wir für",
+        "position": {
+          "page": 4,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page4_para_12",
+        "type": "paragraph",
+        "value": "unser Bewusstsein halten, was wir über uns selbst denken, wonach wir unser Handeln und",
+        "position": {
+          "page": 4,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page4_para_13",
+        "type": "paragraph",
+        "value": "unsere Werte ausrichten, auf was wir unsere Entscheidungen gründen und was wir als wahr",
+        "position": {
+          "page": 4,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page4_para_14",
+        "type": "paragraph",
+        "value": "oder falsch annehmen, eine wirklich schlechte Karikatur dessen ist, was sich in Wirklichkeit",
+        "position": {
+          "page": 4,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page4_para_15",
+        "type": "paragraph",
+        "value": "zuträgt. Auch versuche ich im Publikum einen Sinn dafür zu wecken, dass unser Bewusstsein",
+        "position": {
+          "page": 4,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page4_para_16",
+        "type": "paragraph",
+        "value": "ein Mysterium birgt, welches wir gerade erst beginnen anzukratzen. Im ersten Teil dieses",
+        "position": {
+          "page": 4,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page4_para_17",
+        "type": "paragraph",
+        "value": "Buches werde ich deshalb die Grundlage legen, auf der im weiteren Verlauf alles aufbaut, denn",
+        "position": {
+          "page": 4,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page4_para_18",
+        "type": "paragraph",
+        "value": "bevor wir zu den wirklichen Geheimnissen kommen, müssen wir uns über die Realität in der wir",
+        "position": {
+          "page": 4,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page4_para_19",
+        "type": "paragraph",
+        "value": "uns wieder finden im Klaren sein.",
+        "position": {
+          "page": 4,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page4_para_20",
+        "type": "paragraph",
+        "value": "Ich will auch keineswegs den Anschein erwecken, ich hätte den Stein der Weisen entdeckt,",
+        "position": {
+          "page": 4,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page4_para_21",
+        "type": "paragraph",
+        "value": "denn das habe ich nicht. Was ich will ist, einfach auf einige Dinge hinzuweisen, die teilweise",
+        "position": {
+          "page": 4,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page4_para_22",
+        "type": "paragraph",
+        "value": "recht gut bekannt sind und auch auf Dinge aufmerksam machen, die uns zwar bekannt sein",
+        "position": {
+          "page": 4,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page4_para_23",
+        "type": "paragraph",
+        "value": "müssten, sie es aber aus irgendwelchen Gründen nicht sind. Wenn wir dann diese Dinge",
+        "position": {
+          "page": 4,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page4_para_24",
+        "type": "paragraph",
+        "value": "einmal in ihrem Gesamtkontext betrachten, dann ergibt sich zwangsläufig die Feststellung, dass",
+        "position": {
+          "page": 4,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page4_para_25",
+        "type": "paragraph",
+        "value": "unser gesamtes Bewusstsein nicht das sein kann, als was wir es empfinden. Dazu gibt es zu",
+        "position": {
+          "page": 4,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page4_para_26",
+        "type": "paragraph",
+        "value": "viele Anhaltspunkte, die auf etwas hinweisen, was sich buchstäblich außerhalb unserer",
+        "position": {
+          "page": 4,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page4_para_27",
+        "type": "paragraph",
+        "value": "Vorstellung befindet.",
+        "position": {
+          "page": 4,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page4_para_28",
+        "type": "paragraph",
+        "value": "Um Potentiell Zugang dazu zu erlangen, dazu benötigen wir keinerlei Mythen oder",
+        "position": {
+          "page": 4,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page4_para_29",
+        "type": "paragraph",
+        "value": "Geheimnisse, müssen keinen geheimen Zauber oder dunkle Mächte beschwören und auch",
+        "position": {
+          "page": 4,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page4_para_30",
+        "type": "paragraph",
+        "value": "sonst nichts bemühen, was nur „Auserwählten“ zugänglich ist. Wir müssen nur das in die Hand",
+        "position": {
+          "page": 4,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

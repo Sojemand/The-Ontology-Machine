@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:35:16.659350+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.9,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.81,
+      "reason": "A prose book page in philosophical/spiritual writing is visible, consisting of continuous narrative paragraphs without form elements.",
+      "matched_signals": [
+        "prose book page",
+        "continuous narrative paragraphs",
+        "philosophical/spiritual writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 20,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=020-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page20_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 20,
+        "sequence": 1,
+        "text": "allerdings immer weniger interessant, da mir langsam klar wurde, was da wirklich abläuft. Als ich der ganzen Sache dann immer weniger Aufmerksamkeit schenkte, konnte ich feststellen, dass, in der Tat, auch die Zahl der Sichtungen mit der Zeit wieder geringer wurden.",
+        "function": "retrospective_observation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page20_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 20,
+        "sequence": 2,
+        "text": "Da ich an diesem Abschnitt meines Lebens einen Beruf pflegte, der mich oft und lange über die deutschen Autobahnen führte, kamen mir auch hin und wieder Nummernschilder mit der Zahl 666 unter die Augen. Auch das war mittlerweile nur noch ein kurioser Spaß, bis eines Tages etwas Seltsames geschah. Um zu verstehen was ich meine, müsst ihr wissen wie das Ganze für gewöhnlich ablief: Ein Auto überholt mich auf der linken Spur, es hat die ominöse Nummer auf seinem Schild, ich sehe sie und die Sache ist gegessen und auch schnell wieder vergessen.",
+        "function": "scene_setting",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page20_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 20,
+        "sequence": 3,
+        "text": "Nur diesmal war es anders. Dieser Wagen überholte mich mit einer recht ordentlichen Geschwindigkeit und als er gerade mal weniger als 10 Meter vor mir war, da huschten meine Augen hinunter zum Nummernschild, nur um dort das altbekannte Muster zu entdecken. Dieser kurze Moment wollte mir schon wieder entgleiten, doch irgendwas passte hier nicht zusammen. Ich rief mir diesen Vorgang anschließend noch einmal ins Gedächtnis, oder ich habe es zumindest versucht. Dieses ganze Manöver konnte aufgrund der Geschwindigkeit kaum länger als 2 Sekunden in Anspruch genommen haben. Wie konnte es also sein, dass mein Gehirn in der Lage war, innerhalb dieser kurzen Zeit nicht nur das Muster korrekt zu erkennen, sondern obendrein auch noch während es sich im einem Bereich meines Gesichtsfeldes befand in dem alles völlig verschwommen zu sein scheint?",
+        "function": "anomalous_event_reflection",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page20_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 20,
+        "sequence": 4,
+        "text": "Es bedurfte noch deutlich mehr, vielleicht an die hundert solcher Begegnungen um herauszuarbeiten was wirklich vor sich geht und ich habe selbst Heute noch so meine Schwierigkeiten das zu glauben. Was als erstes klar wurde war, dass sich solche Umstände bereits davor unzählige male genau so abgespielt haben müssen und ich das einfach nicht bemerkt oder es umgehend wieder vergessen habe. Darüber hinaus muss sich Folgendes abspielen, oder abgespielt haben:",
+        "function": "interim_conclusion",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page20_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 20,
+        "sequence": 5,
+        "text": "Vom dem Moment an, an dem das Auto an der äußersten Grenze meines Sichtfeldes auftaucht, bis zu dem Moment an dem meine Augen beginnen sich in Richtung Nummernschild zu bewegen, vergingen im Schnitt weniger als 2 Sekunden. Die erste Überraschung war, dass der Impuls, der meine Augen in Bewegung setzte, überhaupt nicht von mir bewusst ausgelöst wurde. Offensichtlich kam der Impuls von anderer Stelle. Erst als ich mir gewahr wurde, dass",
+        "function": "causal_explanation",
+        "confidence": 0.94
+      }
+    ],
+    "free_text": "Autobahn, Nummernschilder 666, Wahrnehmung, Sichtfeld, Reflexion"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=020-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:206c6eba4bdebd666b6bae3cd64bc2601ec21572cf5c23039a61340a098884d5",
+    "created_at": null,
+    "modified_at": null
+  }
+}

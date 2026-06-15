@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:48:15.135285+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.9,
+      "reason": "A continuous nonfiction book page with reflective philosophical prose in paragraph form is visible.",
+      "matched_signals": [
+        "continuous paragraph prose",
+        "nonfiction book page",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 52,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=052-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page52_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 52,
+        "sequence": 1,
+        "text": "Wer das eine Weile tut, der wird feststellen, dass das Gewahrsein die Aufmerksamkeit nahezu zeit-verlustfrei hin und her springen lassen kann. Zum Beispiel von ganz links unten des Gesichtsfeldes an einen Ort ganz rechts Oben, geht so verblüffend schnell, unsere Augen könnten da nie mithalten. Wer also nun eine Weile seine „Punktaufmerksamkeit“ so hat umherspringen lassen, für den sollte es einfach sein, den nächsten Schritt zu machen: Das Gewahrsein ein winziges Bisschen weiter zu dehnen. Anstatt nur einzelne Punkte anzuvisieren, kann man beginnen zu versuchen, sich allem gewahr zu werden, was sich in seinem Gesichtsfeld abspielt. Dabei erlebt man einen direkt fühlbaren Eindruck, was mit dem Begriff „ausweiten“ gemeint ist. Wenn man dies tut, spürt man direkt, was Aufmerksamkeit von Gewahrsein unterscheidet, denn die Aufmerksamkeit auf eine bestimmte Sache, wird durch das Gewahrsein des Ganzen abgelöst. Auch hier kann man eine Weile zwischen diesen beiden Zuständen hin und her wechseln und interessante Dinge dabei entdecken.",
+        "function": "explains_attention_expansion_exercise",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page52_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 52,
+        "sequence": 2,
+        "text": "Genau an diesem Punkt treffen wir dann auf das Phänomen der inneren Trägheit, welches uns davon abhalten will, diesen Zustand länger aufrecht zu erhalten. Man wird vielleicht bemerken, wie das Gewahrsein immer wieder in die Punktaufmerksamkeit zusammenfallen will und man eine für unser normales Bewusstsein ungewohnte Art von Mühe aufbringen muss, um es zu erhalten oder erneut zu erschaffen. An diesem Punkt beginnen wir dann auch zu spüren, wie in uns Motivationen erwachsen, die uns davon ablenken wollen diese Dinge weiter zu verfolgen und welche irgendwann dazu führen, dass wir diese Übung beenden werden. Genau an dieser Grenze setzt auch das partielle Vergessen ein, denn wir bewegen uns dort dicht am Zaun unseres Gewahrseins entlang und überqueren ihn immer mal wieder mit dem kleinen Zeh, oder dehnen ihn um einen Zeh breit aus, je nach dem aus welcher Warte man es betrachtet. An dieser Grenze erhält man auch einen Vorgeschmack darauf, welche Widerstände aus einem selbst erwachsen werden, wenn man den nächsten Schritt wagen will.",
+        "function": "describes_inner_resistance",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page52_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 52,
+        "sequence": 3,
+        "text": "Der nächste Schritt wäre, das Gewahrsein, welches das gesamte Gesichtsfeld umfasst, auf unsere Innenwelt auszudehnen. Damit erreicht man dann das zweigleisige Gewahrsein. Vom Prinzip her hält uns nichts davon ab, aber in der Praxis müssen wir unsere Abneigung, diese Art von Mühe aufzubringen, erst einmal überkommen und uns daran erinnern, es auch tun zu wollen, bevor wir wieder in die Punktaufmerksamkeit zurück fallen oder gar wieder beginnen, unsere Augen zu bewegen. Wer das einmal versucht und plötzlich feststellt, wieder so weit „hinunter“ gefallen zu sein, dass er beginnt die Augen zu bewegen, der kann eine ganz besondere Art der Frustration erleben, die ihn nur allzu gerne dazu überreden will, doch mit diesem Unsinn aufzuhören.",
+        "function": "introduces_next_step_and_warning",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Gewahrsein, Punktaufmerksamkeit, innere Trägheit, zweigleisiges Gewahrsein"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=052-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:39d21640666df19b4a3ede7f78cd37c612f7135aa6cca60808c6e3e334c194b9",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=087-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:4906fc4f914a5a7b21f82e6cd1d026313646a3363724ed1c9a5f9f5f36ea20fb",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 87,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=087-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 87,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_087.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page87_para_0",
+        "type": "paragraph",
+        "value": "Es gibt nun drei Wege, durch die sich der Inhalt und Zusammensetzung der symbolischen",
+        "position": {
+          "page": 87,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page87_para_1",
+        "type": "paragraph",
+        "value": "Welt verändern kann. Der erste ist der externe Weg, der durch äußere Einflüsse eine",
+        "position": {
+          "page": 87,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page87_para_2",
+        "type": "paragraph",
+        "value": "Veränderung bewirkt. Das Auftreten einer Krankheit zum Beispiel erzeugt neue Assoziationen,",
+        "position": {
+          "page": 87,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page87_para_3",
+        "type": "paragraph",
+        "value": "neue wahrgenommene Gefahren, neue Monster, die uns unsichtbar auflauern. Wie wir diese",
+        "position": {
+          "page": 87,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page87_para_4",
+        "type": "paragraph",
+        "value": "wahrnehmen bestimmt, wie wir mit ihnen umgehen und wie wir danach handeln. Aufmerksame",
+        "position": {
+          "page": 87,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page87_para_5",
+        "type": "paragraph",
+        "value": "Beobachter können sehen, wie diese Monster sich präsentieren oder uns präsentiert werden",
+        "position": {
+          "page": 87,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page87_para_6",
+        "type": "paragraph",
+        "value": "und wie sie die Menschen in ihrem Denken und Fühlen beeinflussen, ohne, dass sie sich",
+        "position": {
+          "page": 87,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page87_para_7",
+        "type": "paragraph",
+        "value": "dessen richtig bewusst werden. Wie gesagt, man kann die symbolische Welt eines Menschen",
+        "position": {
+          "page": 87,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page87_para_8",
+        "type": "paragraph",
+        "value": "sehr leicht beeinflussen, wenn man die Hebel kennt, an denen man ziehen muss.",
+        "position": {
+          "page": 87,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page87_para_9",
+        "type": "paragraph",
+        "value": "Das Studium der Propaganda ist hier ein adäquates Mittel um zu verstehen, mit welcher Art",
+        "position": {
+          "page": 87,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page87_para_10",
+        "type": "paragraph",
+        "value": "von Symbolik hier gearbeitet wird und wie effektiv sie ist, wo ihre Grenzen sind und welchen",
+        "position": {
+          "page": 87,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page87_para_11",
+        "type": "paragraph",
+        "value": "Einfluss sie auf unsere Geschichte sowie unsere Gegenwart bereits hatte. Es ist ein",
+        "position": {
+          "page": 87,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page87_para_12",
+        "type": "paragraph",
+        "value": "lohnender Zeitvertreib, da uns diese Dinge permanent begegnen und je unruhiger die Zeiten,",
+        "position": {
+          "page": 87,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page87_para_13",
+        "type": "paragraph",
+        "value": "desto lauter werden sie und es schadet nie, sich ihnen gewahr zu sein, wenn auch nur um",
+        "position": {
+          "page": 87,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page87_para_14",
+        "type": "paragraph",
+        "value": "ihnen selbst nicht auf den Leim zu gehen.",
+        "position": {
+          "page": 87,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page87_para_15",
+        "type": "paragraph",
+        "value": "Der zweite Weg ist jener, den ich mit dem Beispiel der flachen Erde vorgebracht habe. Dabei",
+        "position": {
+          "page": 87,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page87_para_16",
+        "type": "paragraph",
+        "value": "handelt es sich um eine bewusste Anstrengung, ausgehend aus dem Selbst, verbunden mit",
+        "position": {
+          "page": 87,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page87_para_17",
+        "type": "paragraph",
+        "value": "allen Schwierigkeiten, denen wir uns gegenüber sehen, wenn es um das flattrige Wesen",
+        "position": {
+          "page": 87,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page87_para_18",
+        "type": "paragraph",
+        "value": "unseres eigenen Gewahrseins geht. Es zeigt, dass wir sehr wohl Macht und Einfluss auf diese",
+        "position": {
+          "page": 87,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page87_para_19",
+        "type": "paragraph",
+        "value": "Welt ausüben können, wenn wir uns ihrer auch nur in Teilen gewahr werden.",
+        "position": {
+          "page": 87,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page87_para_20",
+        "type": "paragraph",
+        "value": "Die beste Art dies zu studieren ist, den Wunsch zu entwickeln zu seinem größten Feind zu",
+        "position": {
+          "page": 87,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page87_para_21",
+        "type": "paragraph",
+        "value": "werden, sich zum Beispiel in seinen Ideologischen oder Politischen Gegner zu wandeln, vom",
+        "position": {
+          "page": 87,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page87_para_22",
+        "type": "paragraph",
+        "value": "überzeugten Kosmopoliten zum radikalen Nationalisten oder umgekehrt. Vom Individualisten",
+        "position": {
+          "page": 87,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page87_para_23",
+        "type": "paragraph",
+        "value": "zum Kollektivisten, vom Kapitalisten zum Kommunisten oder vom Anarchisten zum",
+        "position": {
+          "page": 87,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page87_para_24",
+        "type": "paragraph",
+        "value": "Staatsverehrer. Welche derzeitige Einstellung man auch immer gerade vertritt, so kann man",
+        "position": {
+          "page": 87,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page87_para_25",
+        "type": "paragraph",
+        "value": "zuerst die radikalste Form davon einnehmen, da dies zu Beginn der leichtere Pfad ist und",
+        "position": {
+          "page": 87,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page87_para_26",
+        "type": "paragraph",
+        "value": "anschließend beginnen, „den wahren Feind“ zu identifizieren. Haben wir das Ziel ausgemacht,",
+        "position": {
+          "page": 87,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page87_para_27",
+        "type": "paragraph",
+        "value": "beginnt der eigentliche Kampf, der lange Marsch durch Feindesland. Es beginnt mit dem",
+        "position": {
+          "page": 87,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page87_para_28",
+        "type": "paragraph",
+        "value": "Studium des Argumentationsraums und der anschließenden Auslotung der damit",
+        "position": {
+          "page": 87,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page87_para_29",
+        "type": "paragraph",
+        "value": "zusammenhängenden Symbolik. Man darf nur nie vergessen, dass man das auch tun will,",
+        "position": {
+          "page": 87,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page87_para_30",
+        "type": "paragraph",
+        "value": "sonst könnte man sich unversehens in den extremen Tiefen des aktuellen Raumes verirren",
+        "position": {
+          "page": 87,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page87_para_31",
+        "type": "paragraph",
+        "value": "uns sich mit einer Waffe in der Hand an der Seite von Separatisten wieder finden, deren",
+        "position": {
+          "page": 87,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

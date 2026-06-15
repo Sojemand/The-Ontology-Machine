@@ -1,0 +1,15 @@
+{
+  "node": [
+    "node/node.exe"
+  ],
+  "python": [
+    "runtime/python/python.exe",
+    "runtime/python/Scripts/python.exe",
+    "runtime/python/bin/python"
+  ],
+  "powershell": [
+    "runtime/powershell/pwsh.exe",
+    "runtime/powershell/powershell.exe",
+    "runtime/powershell/pwsh/pwsh.exe"
+  ]
+}

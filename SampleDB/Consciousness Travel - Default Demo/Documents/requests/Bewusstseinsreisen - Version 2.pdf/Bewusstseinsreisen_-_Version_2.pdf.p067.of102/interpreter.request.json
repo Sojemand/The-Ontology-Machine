@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=067-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5c603934888441e016745b32b1d1fbcdc00a38b0c5bad0ca0639f26fab059943",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 67,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=067-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 67,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_067.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page67_para_0",
+        "type": "paragraph",
+        "value": "Das gründet auf der einfachen Tatsache, dass sich zum Beispiel auf Grundlage der",
+        "position": {
+          "page": 67,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page67_para_1",
+        "type": "paragraph",
+        "value": "Traumregeln eine augenscheinlich widerspruchsfreie Konversation über das Mysterium des",
+        "position": {
+          "page": 67,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page67_para_2",
+        "type": "paragraph",
+        "value": "Universums entspinnen kann. Alle Beteiligten können Bücher und Gedanken und Theorien",
+        "position": {
+          "page": 67,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page67_para_3",
+        "type": "paragraph",
+        "value": "schreiben und wälzen und sich ob ihrer eigenen Klugheit erhaben fühlen. Niemand nimmt",
+        "position": {
+          "page": 67,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page67_para_4",
+        "type": "paragraph",
+        "value": "dabei Anstoß an den irrationalen Regeln des Traumes an sich. Dabei bedürfte es nur einen",
+        "position": {
+          "page": 67,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page67_para_5",
+        "type": "paragraph",
+        "value": "kurzen Blick aus der Warte des Wachzustandes, um zu erkennen, dass keine Idee und keine",
+        "position": {
+          "page": 67,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page67_para_6",
+        "type": "paragraph",
+        "value": "Philosophie je im Erkennen des Vorhandenseins eines Wachbewusstseins münden wird. Ja",
+        "position": {
+          "page": 67,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page67_para_7",
+        "type": "paragraph",
+        "value": "mehr noch, alle Vorstellungen über Moral und des Seins an sich, müssen aus der Warte des",
+        "position": {
+          "page": 67,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page67_para_8",
+        "type": "paragraph",
+        "value": "Wachbewusstseins absurd erscheinen, da es die Welt nach untergeordneteren, „echteren“",
+        "position": {
+          "page": 67,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page67_para_9",
+        "type": "paragraph",
+        "value": "Regeln gliedert, die den Traumphilosophen nicht zugänglich sind.",
+        "position": {
+          "page": 67,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page67_para_10",
+        "type": "paragraph",
+        "value": "Die einzige Möglichkeit der Traumphilosophen bestünde darin, sich zu einigen, nur das als",
+        "position": {
+          "page": 67,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page67_para_11",
+        "type": "paragraph",
+        "value": "Gegenstand einer Diskussion anzuerkennen, was für alle gleich erscheint. Vielleicht würden sie",
+        "position": {
+          "page": 67,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page67_para_12",
+        "type": "paragraph",
+        "value": "es schaffen zu erkennen, dass die Welt und ihre Regeln sehr merkwürdig sind und es nur sehr",
+        "position": {
+          "page": 67,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page67_para_13",
+        "type": "paragraph",
+        "value": "wenige Dinge gibt, die Allen gleich erscheinen und das alles was ihnen gleich erscheint, durch",
+        "position": {
+          "page": 67,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page67_para_14",
+        "type": "paragraph",
+        "value": "kein Modell ihrer Welt erklärt werden kann. Ob sie von dieser Erkenntnis den Sprung hin zum",
+        "position": {
+          "page": 67,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page67_para_15",
+        "type": "paragraph",
+        "value": "postulieren eines Wachbewusstseins schaffen würden ist eine andere Frage.",
+        "position": {
+          "page": 67,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page67_para_16",
+        "type": "paragraph",
+        "value": "Wir als waches Volk haben uns zwar bereits auf ein solches Vorgehen geeinigt, wenn es um",
+        "position": {
+          "page": 67,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page67_para_17",
+        "type": "paragraph",
+        "value": "die Phänomene der Natur geht, und haben es Wissenschaft genannt, mit spektakulären",
+        "position": {
+          "page": 67,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page67_para_18",
+        "type": "paragraph",
+        "value": "Erfolgen, aber wir beharren immer noch auf der Subjektivität des Erlebens als Grundlage für",
+        "position": {
+          "page": 67,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page67_para_19",
+        "type": "paragraph",
+        "value": "das Verständnis unseres eigenen Seins und seinen Möglichkeiten. Mir fällt dazu kein guter",
+        "position": {
+          "page": 67,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page67_para_20",
+        "type": "paragraph",
+        "value": "Grund ein, außer unserer Angst vor der Offenlegung der eigenen Widersprüche, die da",
+        "position": {
+          "page": 67,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page67_para_21",
+        "type": "paragraph",
+        "value": "unweigerlich folgen würde, sähe man nur das als wirklichen Teil unseres Selbst an, was uns",
+        "position": {
+          "page": 67,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page67_para_22",
+        "type": "paragraph",
+        "value": "allen gleich erscheint. So müssten wir anerkennen, dass wir alle uns wie Ratten vor dem Licht",
+        "position": {
+          "page": 67,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page67_para_23",
+        "type": "paragraph",
+        "value": "scheuen zuzugeben, wie sehr wir uns doch davor fürchten, der Welt unsere Unvollständigkeit,",
+        "position": {
+          "page": 67,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page67_para_24",
+        "type": "paragraph",
+        "value": "unsere Selbstbezogenheit und unseren permanenten Drang über Alles und Jeden zu lügen,",
+        "position": {
+          "page": 67,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page67_para_25",
+        "type": "paragraph",
+        "value": "offenzulegen, nur um unser eigenes Selbstbild zu schützen.",
+        "position": {
+          "page": 67,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page67_para_26",
+        "type": "paragraph",
+        "value": "Aber um nicht noch weiter abzuschweifen, kommen wir wieder zurück auf die Frage, ob wir es",
+        "position": {
+          "page": 67,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page67_para_27",
+        "type": "paragraph",
+        "value": "uns überhaupt erlauben können, Vergleiche und Spekulationen zu etwas anzustellen, was",
+        "position": {
+          "page": 67,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page67_para_28",
+        "type": "paragraph",
+        "value": "zwar nicht unmöglich erscheint, aber dennoch an Bereiche rührt, die uns kaum zugänglich",
+        "position": {
+          "page": 67,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page67_para_29",
+        "type": "paragraph",
+        "value": "sind. Wir können uns in endlosen Debatten ergehen, welche Philosophie nun einen",
+        "position": {
+          "page": 67,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page67_para_30",
+        "type": "paragraph",
+        "value": "passenderen Ausgangspunkt bietet oder welche Religion hier die Nase vorne haben könnte.",
+        "position": {
+          "page": 67,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page67_para_31",
+        "type": "paragraph",
+        "value": "Vielleicht gibt es eine, vielleicht auch nicht. Wer mag das beurteilen. Fakt ist, dass unser",
+        "position": {
+          "page": 67,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=060-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:f16629c531b9741cf2c287a8eba2029b833a2f286b969ebb7cb62fadd36d7ef1",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 60,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=060-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page60_para_0",
+        "type": "paragraph",
+        "value": "wir haben ja bereits gesehen, dass das zweigleisige Gewahrsein uns in eine ähnliche Lage",
+        "position": {
+          "page": 60,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page60_para_1",
+        "type": "paragraph",
+        "value": "versetzt, wie das luzide Träumen den Träumer. Auch legt es die gleichen Probleme offen, die",
+        "position": {
+          "page": 60,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page60_para_2",
+        "type": "paragraph",
+        "value": "ein luzider Träumer erfährt, wenn er zwar die Traumhaftigkeit seiner Umgebung erkennt, aber",
+        "position": {
+          "page": 60,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page60_para_3",
+        "type": "paragraph",
+        "value": "dennoch weiter nach den Traumregeln agiert und entscheidet. Er mag sich über etwas",
+        "position": {
+          "page": 60,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page60_para_4",
+        "type": "paragraph",
+        "value": "„Höheres“ besser im Klaren sein als in einem tiefen Traum, was ihn aber dennoch nicht",
+        "position": {
+          "page": 60,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page60_para_5",
+        "type": "paragraph",
+        "value": "befähigt, dieses Höhere auch verstehen zu können. Dazu muss er schließlich aufwachen und",
+        "position": {
+          "page": 60,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page60_para_6",
+        "type": "paragraph",
+        "value": "die Traumregeln hinter sich lassen. All das gilt auch für das zweigleisige Gewahrsein. Ein",
+        "position": {
+          "page": 60,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page60_para_7",
+        "type": "paragraph",
+        "value": "solcher Zustand versetzt das Bewusstsein ebenfalls in die Lage, die „Traumhaftigkeit“ des",
+        "position": {
+          "page": 60,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page60_para_8",
+        "type": "paragraph",
+        "value": "Wachbewusstseins zu erkennen, zwingt es aber ebenfalls, sich immer noch nach den Regeln",
+        "position": {
+          "page": 60,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page60_para_9",
+        "type": "paragraph",
+        "value": "des Wachbewusstseins zu entscheiden. Auch fällt es dem Bewusstsein, welches die",
+        "position": {
+          "page": 60,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page60_para_10",
+        "type": "paragraph",
+        "value": "Zweigleisigkeit erfährt, leichter, sich ein „höheres Etwas“ vorzustellen, ohne jedoch die",
+        "position": {
+          "page": 60,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page60_para_11",
+        "type": "paragraph",
+        "value": "Möglichkeit zu haben, dies auch in Gänze zu verstehen. Dazu müsste es schließlich",
+        "position": {
+          "page": 60,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page60_para_12",
+        "type": "paragraph",
+        "value": "aufwachen und die „Wachregeln“ hinter sich lassen.",
+        "position": {
+          "page": 60,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page60_para_13",
+        "type": "paragraph",
+        "value": "Aber hier stoßen wir auf ein weiteres, nicht unerhebliches Problem. Während wir uns stets",
+        "position": {
+          "page": 60,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page60_para_14",
+        "type": "paragraph",
+        "value": "daran erinnern können, wie und wann wir aufgewacht sind, so können wir uns niemals an den",
+        "position": {
+          "page": 60,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page60_para_15",
+        "type": "paragraph",
+        "value": "Moment erinnern, an dem wir einschliefen. Genau so wie wir uns nicht an den Moment",
+        "position": {
+          "page": 60,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page60_para_16",
+        "type": "paragraph",
+        "value": "erinnern können, an dem wir das Kommando über unseren Atem wieder der Maschine",
+        "position": {
+          "page": 60,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page60_para_17",
+        "type": "paragraph",
+        "value": "überließen. Wir wissen, dass es diese Momente geben muss, aber was wir auch tun, wir",
+        "position": {
+          "page": 60,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page60_para_18",
+        "type": "paragraph",
+        "value": "werden uns derer nie gewahr werden können, da sie ja per Definition das Vergessen sind.",
+        "position": {
+          "page": 60,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page60_para_19",
+        "type": "paragraph",
+        "value": "Schlimmer noch, nachdem wir eingeschlafen sind, haben wir alles vergessen, was uns im",
+        "position": {
+          "page": 60,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page60_para_20",
+        "type": "paragraph",
+        "value": "Wachbewusstsein definiert. Wir vergessen uns, weil das „Wach-Ich“ zu groß für das „Traum-",
+        "position": {
+          "page": 60,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page60_para_21",
+        "type": "paragraph",
+        "value": "Ich“ ist. Wir können so oft zwischen diesen Zuständen hin und her pendeln wie wir wollen,",
+        "position": {
+          "page": 60,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page60_para_22",
+        "type": "paragraph",
+        "value": "niemals wird das Traum-Ich Anhaltspunkte für die Existenz des Wach- Ichs finden. Wir tun das",
+        "position": {
+          "page": 60,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page60_para_23",
+        "type": "paragraph",
+        "value": "ja auch täglich, zig tausende Male während unseres Lebens, ohne dass sich unser Traum-Ich",
+        "position": {
+          "page": 60,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page60_para_24",
+        "type": "paragraph",
+        "value": "dadurch auch nur das kleinste Bisschen gestört fühlt.",
+        "position": {
+          "page": 60,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page60_para_25",
+        "type": "paragraph",
+        "value": "Und so sehen wir uns auch einem möglichen „Über-Ich“ gegenüber. Wir könnten, durch was",
+        "position": {
+          "page": 60,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page60_para_26",
+        "type": "paragraph",
+        "value": "auch immer, unser Wach-Ich zufällig auf eine höhere Ebene des Gewahrseins anheben und",
+        "position": {
+          "page": 60,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page60_para_27",
+        "type": "paragraph",
+        "value": "zu einem vollständigen Über-Ich werden, aber nach der Rückkehr werden keinerlei",
+        "position": {
+          "page": 60,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page60_para_28",
+        "type": "paragraph",
+        "value": "Erinnerungen daran zurück bleiben. Während zweigleisiges Gewahrsein immer Rückstände in",
+        "position": {
+          "page": 60,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page60_para_29",
+        "type": "paragraph",
+        "value": "unseren Erinnerungen erzeugt, die uns im Nachhinein dessen Anwesenheit verraten können,",
+        "position": {
+          "page": 60,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page60_para_30",
+        "type": "paragraph",
+        "value": "so trifft dies auf das Über-Ich nicht zu. Wir sehen uns hierbei also einer Sackgasse",
+        "position": {
+          "page": 60,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page60_para_31",
+        "type": "paragraph",
+        "value": "gegenüber, deren Beschränkung wir nicht überwinden können. Oder etwa doch? Könnte uns",
+        "position": {
+          "page": 60,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page60_para_32",
+        "type": "paragraph",
+        "value": "die Natur der Träume nicht noch etwas mehr verraten?",
+        "position": {
+          "page": 60,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  }
+}

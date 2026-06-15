@@ -1,0 +1,16 @@
+{
+  "script_name": "EditSuiteVision.iss",
+  "mutable_dirs": [
+    "state"
+  ],
+  "mutable_files": [],
+  "excluded_runtime_paths": [
+    "runtime\\wheelhouse"
+  ],
+  "sign_targets": [
+    "run.bat",
+    "check-runtime.bat",
+    "module-manifest.json",
+    "runtime\\runtime-manifest.json"
+  ]
+}

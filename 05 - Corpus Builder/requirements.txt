@@ -1,0 +1,2 @@
+# Embeddings (optional - Runtime-Key kommt nur ephemer vom Orchestrator)
+numpy>=1.24.0

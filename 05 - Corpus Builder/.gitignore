@@ -1,0 +1,14 @@
+.venv/
+.pytest_cache/
+.pytest-tmp/
+.pytest-tmp*/
+.pytest-basetemp*/
+dev-tests/.pytest-tmp/
+dev-tests/.pytest-tmp*/
+dev-tests/.pytest-basetemp*/
+.tmp/
+dist/
+output/
+state/
+runtime/state/
+__pycache__/

@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=077-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:7bb499c422daab7782472d3fd26de81c3b44a5e83499e34903fa3baa738e0488",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 77,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=077-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 77,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_077.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page77_para_0",
+        "type": "paragraph",
+        "value": "kennen den Beginn, ihren Ablauf und das Ergebnis. Wir können also davon ausgehen, dass",
+        "position": {
+          "page": 77,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page77_para_1",
+        "type": "paragraph",
+        "value": "das Ergebnis beabsichtigt ist, ohne jetzt genau zu verstehen, wer oder was diese Absicht genau",
+        "position": {
+          "page": 77,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page77_para_2",
+        "type": "paragraph",
+        "value": "hegt und warum. Damit steht auch zu vermuten, dass diese Absicht bereits zu Beginn der Reise",
+        "position": {
+          "page": 77,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page77_para_3",
+        "type": "paragraph",
+        "value": "bestand, denn sonst gäbe es ja keinen Grund, diese zu beginnen. Dementsprechend sind auch",
+        "position": {
+          "page": 77,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page77_para_4",
+        "type": "paragraph",
+        "value": "die Elemente der Reise ein Ausdruck jener Absicht und der Motivation, diese Reise aufrecht zu",
+        "position": {
+          "page": 77,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page77_para_5",
+        "type": "paragraph",
+        "value": "erhalten.",
+        "position": {
+          "page": 77,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page77_para_6",
+        "type": "paragraph",
+        "value": "Wenn die Reise zum Abschluss gelangt und wir den Beginn mit dem Ende vergleichen, so",
+        "position": {
+          "page": 77,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page77_para_7",
+        "type": "paragraph",
+        "value": "müssen wir die Feststellung treffen, dass der Reisende etwas erlangt hat, was er vorher nicht",
+        "position": {
+          "page": 77,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page77_para_8",
+        "type": "paragraph",
+        "value": "besaß. Wir wissen zwar nicht, warum er dieses Etwas überhaupt erlangen wollte, aber am Ende",
+        "position": {
+          "page": 77,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page77_para_9",
+        "type": "paragraph",
+        "value": "hat er es und das müssen wir erst einmal so anerkennen. Ein spezielles Element ist dabei",
+        "position": {
+          "page": 77,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page77_para_10",
+        "type": "paragraph",
+        "value": "besonders interessant. Der Abgrund, der Tod und die Wiedergeburt. Alle Elemente vor",
+        "position": {
+          "page": 77,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page77_para_11",
+        "type": "paragraph",
+        "value": "Erreichen dieses Punktes sind so strukturiert und erwecken den Eindruck, als wären sie nur",
+        "position": {
+          "page": 77,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page77_para_12",
+        "type": "paragraph",
+        "value": "dort, um den Reisenden zu diesem Punkt zu leiten. An diesem Punkt angekommen, sieht der",
+        "position": {
+          "page": 77,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page77_para_13",
+        "type": "paragraph",
+        "value": "Held sich mit der Herausforderung konfrontiert, die er in seinem vorherigen Leben nie",
+        "position": {
+          "page": 77,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page77_para_14",
+        "type": "paragraph",
+        "value": "vorgefunden hat. Das gängigste Bild ist das Besiegen eines Gegners, welcher das Wesen des",
+        "position": {
+          "page": 77,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page77_para_15",
+        "type": "paragraph",
+        "value": "Helden gegen ihn selbst wendet und es ausnutzt, um ihn so besiegen zu wollen. Wie dabei",
+        "position": {
+          "page": 77,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page77_para_16",
+        "type": "paragraph",
+        "value": "dieser Wesenszug stirbt und der Gegner damit die Macht über den Helden verliert, dieser",
+        "position": {
+          "page": 77,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page77_para_17",
+        "type": "paragraph",
+        "value": "dadurch neu und verändert ersteht. Es stellt sich als eine Art Apotheose durch irgendeine Art",
+        "position": {
+          "page": 77,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page77_para_18",
+        "type": "paragraph",
+        "value": "Prüfung dar, die eine spezielle Überwindung kostet, doch mit etwas belohnt wird, was anders",
+        "position": {
+          "page": 77,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page77_para_19",
+        "type": "paragraph",
+        "value": "nicht zu erringen ist. Fast so, als würde die Welt sich gegen den Reisenden verschwören um",
+        "position": {
+          "page": 77,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page77_para_20",
+        "type": "paragraph",
+        "value": "ihn auch gegen seinen Willen mit seinen inneren Widersprüchen so lange zu konfrontieren, bis",
+        "position": {
+          "page": 77,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page77_para_21",
+        "type": "paragraph",
+        "value": "er sie anerkennt und letztendlich auflöst.",
+        "position": {
+          "page": 77,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page77_para_22",
+        "type": "paragraph",
+        "value": "Ein schöner Epos in diesem Zusammenhang ist auch der älteste uns bekannte: Gilgamesch.",
+        "position": {
+          "page": 77,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page77_para_23",
+        "type": "paragraph",
+        "value": "Nach all der Jagt und nach allen Gefahren und Prüfungen und schon mit der Gewissheit, die",
+        "position": {
+          "page": 77,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page77_para_24",
+        "type": "paragraph",
+        "value": "Unsterblichkeit in Händen zu halten, verliert er sie und alles was zurück bleibt ist die",
+        "position": {
+          "page": 77,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page77_para_25",
+        "type": "paragraph",
+        "value": "Erkenntnis, dass nur er selbst und seine Taten es sein können, die ihn zu dem großen König",
+        "position": {
+          "page": 77,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page77_para_26",
+        "type": "paragraph",
+        "value": "werden lassen, der er schon immer sein wollte. Keine Magie, auch nicht für den größten aller",
+        "position": {
+          "page": 77,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page77_para_27",
+        "type": "paragraph",
+        "value": "Könige. Das finde ich schon sehr interessant. Er begann die Reise als schlechter König mit",
+        "position": {
+          "page": 77,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page77_para_28",
+        "type": "paragraph",
+        "value": "allen Motivationen die damit einher gingen. Keine Spur von Heldentum. Am Ende, nachdem er",
+        "position": {
+          "page": 77,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page77_para_29",
+        "type": "paragraph",
+        "value": "alles verloren hat was ihm seine ursprünglichen Ziele und Motivationen erst eingebrockt",
+        "position": {
+          "page": 77,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page77_para_30",
+        "type": "paragraph",
+        "value": "haben, kehrt er ohne sie wieder zurück und wird das, was er die ganze Zeit schon hätte sein",
+        "position": {
+          "page": 77,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page77_para_31",
+        "type": "paragraph",
+        "value": "können: Ein guter König.",
+        "position": {
+          "page": 77,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

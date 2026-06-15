@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=021-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:f13e36c774053b177d131b58578cf5c7bc85c7f6d41a4b439abd48574fbc2ae5",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 21,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=021-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page21_para_0",
+        "type": "paragraph",
+        "value": "ich die Nummer 666 sehe, wurde mir auch meine Augenbewegung bewusst und irgendwie war",
+        "position": {
+          "page": 21,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page21_para_1",
+        "type": "paragraph",
+        "value": "ich im Nachhinein stets davon überzeugt, ich hätte die Entscheidung, dort hin zu sehen, selbst",
+        "position": {
+          "page": 21,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page21_para_2",
+        "type": "paragraph",
+        "value": "und aus freiem Willen getroffen. Was ja offensichtlich nicht der Fall war. Ich konnte mich genau",
+        "position": {
+          "page": 21,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page21_para_3",
+        "type": "paragraph",
+        "value": "erinnern, wie sich die Augen in Bewegung setzten und erst nach dem Erkennen des Musters in",
+        "position": {
+          "page": 21,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page21_para_4",
+        "type": "paragraph",
+        "value": "mir die Überzeugung entstand, ich hätte die Entscheidung dort hin zu sehen selbst gefällt. Ein",
+        "position": {
+          "page": 21,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page21_para_5",
+        "type": "paragraph",
+        "value": "wirklich bizarres Gefühl.",
+        "position": {
+          "page": 21,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page21_para_6",
+        "type": "paragraph",
+        "value": "Aber etwas anderes ist noch weit erstaunlicher. Da ich mit einiger Sicherheit annehmen kann,",
+        "position": {
+          "page": 21,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page21_para_7",
+        "type": "paragraph",
+        "value": "dass ich nur Dinge wahrnehme, die sich innerhalb meines Sichtfeldes befinden, kann ich",
+        "position": {
+          "page": 21,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page21_para_8",
+        "type": "paragraph",
+        "value": "ebenfalls davon ausgehen, dass meine Mustererkennung erst dann seine Magie wirken kann,",
+        "position": {
+          "page": 21,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page21_para_9",
+        "type": "paragraph",
+        "value": "wenn sich das betreffende Etwas innerhalb eben dieses Feldes befindet. Wenn ich nun die",
+        "position": {
+          "page": 21,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page21_para_10",
+        "type": "paragraph",
+        "value": "Geschwindigkeit des Autos in Betracht ziehe und den Punkt bezeichne, an dem sich meine",
+        "position": {
+          "page": 21,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page21_para_11",
+        "type": "paragraph",
+        "value": "Augen beginnen zu bewegen, kann ich daraus eine Zeitleiste erstellen, auf der ich alle Dinge",
+        "position": {
+          "page": 21,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page21_para_12",
+        "type": "paragraph",
+        "value": "aufliste, die sich zwischen dem Erscheinen und dem Erkennen abgespielt haben müssen.",
+        "position": {
+          "page": 21,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page21_para_13",
+        "type": "paragraph",
+        "value": "Der Moment, an dem die Motorhaube des Wagens im äußersten Rand meiner Wahrnehmung",
+        "position": {
+          "page": 21,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page21_para_14",
+        "type": "paragraph",
+        "value": "auftaucht, bis zu dem Moment, an dem es so weit an mir vorbei gezogen ist und sich die",
+        "position": {
+          "page": 21,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page21_para_15",
+        "type": "paragraph",
+        "value": "Rückseite mit dem Nummernschild zeigt, dürften nur rund 0.3 bis 0.4 Sekunden vergangen",
+        "position": {
+          "page": 21,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page21_para_16",
+        "type": "paragraph",
+        "value": "sein. Erst ab diesem Zeitpunkt befindet sich das betreffende Muster überhaupt erst innerhalb",
+        "position": {
+          "page": 21,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page21_para_17",
+        "type": "paragraph",
+        "value": "meines Gesichtsfeldes, wenn auch noch am äußeren Rand. Von da an dauert es wieder rund",
+        "position": {
+          "page": 21,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page21_para_18",
+        "type": "paragraph",
+        "value": "0,7 Sekunden, bis die Rückseite des Wagens durch die Frontsäule meines eigenen Autos",
+        "position": {
+          "page": 21,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page21_para_19",
+        "type": "paragraph",
+        "value": "verdeckt wird. Es bleibt dort etwa 0,3 Sekunden verdeckt, bis sie in der Frontscheibe auftaucht.",
+        "position": {
+          "page": 21,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page21_para_20",
+        "type": "paragraph",
+        "value": "Von da an dauerte es im Schnitt stets rund 0.5 Sekunden, bis meine Augen begannen sich zu",
+        "position": {
+          "page": 21,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page21_para_21",
+        "type": "paragraph",
+        "value": "bewegen und dann noch einmal etwa 0.3 Sekunden bis ich mir bewusst gewahr wurde, dass",
+        "position": {
+          "page": 21,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page21_para_22",
+        "type": "paragraph",
+        "value": "ich die Zahl 666 sehe.",
+        "position": {
+          "page": 21,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page21_para_23",
+        "type": "paragraph",
+        "value": "Wir haben also ein paar Werte zusammengetragen, die wir uns näher anschauen können.",
+        "position": {
+          "page": 21,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page21_para_24",
+        "type": "paragraph",
+        "value": "Wichtig zu erwähnen ist hier erneut, dass sich das Nummernschild zu keinem Zeitpunkt auch",
+        "position": {
+          "page": 21,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page21_para_25",
+        "type": "paragraph",
+        "value": "nur annähernd im Bereich meines Blickfokus befand. Alles spielt sich außerhalb davon ab, in",
+        "position": {
+          "page": 21,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page21_para_26",
+        "type": "paragraph",
+        "value": "diesem Bereich, in dem nichts wirklich klar erscheint. Wir haben also etwa 0.7 Sekunden, wo",
+        "position": {
+          "page": 21,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page21_para_27",
+        "type": "paragraph",
+        "value": "sich das Nummernschild in einem Bereich befindet, den ich zumindest theoretisch wahrnehmen",
+        "position": {
+          "page": 21,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page21_para_28",
+        "type": "paragraph",
+        "value": "könnte, dann, noch einmal 0,5 Sekunden, in denen sich das Muster am Rand der Frontscheibe",
+        "position": {
+          "page": 21,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page21_para_29",
+        "type": "paragraph",
+        "value": "befindet. Es müssen also mehrere Dinge innerhalb dieser 1.2 Sekunden geschehen sein die",
+        "position": {
+          "page": 21,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page21_para_30",
+        "type": "paragraph",
+        "value": "dazu führten, dass sich meine Augen nach Ablauf dieser Zeit in Bewegung setzten. Die",
+        "position": {
+          "page": 21,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page21_para_31",
+        "type": "paragraph",
+        "value": "Mustererkennung muss das Muster erst einmal erkennen, anschließend muss das Gehirn den",
+        "position": {
+          "page": 21,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

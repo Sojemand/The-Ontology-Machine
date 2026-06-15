@@ -1,0 +1,3 @@
+Scan/Vision sample
+Document class: invoice
+Contains ambiguous payment reference for coverage testing.

@@ -1,0 +1,10 @@
+{
+  "include_document_types": [
+    "finance",
+    "invoice",
+    "receipt",
+    "other"
+  ],
+  "projection_fingerprint": "proj-default-fingerprint",
+  "projection_id": "default.projection.v1"
+}

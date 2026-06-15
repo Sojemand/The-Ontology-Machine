@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=073-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:523d21ebaa6665b17413424bf7f171720b754e2202ae0f4609a672010b1200f2",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 73,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=073-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 73,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_073.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page73_para_0",
+        "type": "paragraph",
+        "value": "beobachtet und zweifelsfrei festgestellt, dass dieser sich gerade auf einer solchen Reise",
+        "position": {
+          "page": 73,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page73_para_1",
+        "type": "paragraph",
+        "value": "befindet. Wenn wir Glück haben, können wir bei berühmten Figuren der Geschichte im",
+        "position": {
+          "page": 73,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page73_para_2",
+        "type": "paragraph",
+        "value": "Nachhinein eine derartige Reise konstruieren, oder durch Erzählungen einer Person über ihre",
+        "position": {
+          "page": 73,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page73_para_3",
+        "type": "paragraph",
+        "value": "eigene Vergangenheit auf eine solche rückschließen, sie aber kaum in der Gegenwart als",
+        "position": {
+          "page": 73,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page73_para_4",
+        "type": "paragraph",
+        "value": "gerade aktives Muster diagnostizieren. Auch scheint es, dass das Zusammenspiel, die",
+        "position": {
+          "page": 73,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page73_para_5",
+        "type": "paragraph",
+        "value": "Reihenfolge, wie auch die Komponenten an sich, keineswegs so starr und fixiert sind wie man",
+        "position": {
+          "page": 73,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page73_para_6",
+        "type": "paragraph",
+        "value": "das glauben könnte. Weisheiten wie „Passt, wackelt und hat Luft“, „Schwund gibt es immer“,",
+        "position": {
+          "page": 73,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page73_para_7",
+        "type": "paragraph",
+        "value": "„nichts ist perfekt“ und „nichts wird so heiß gegessen wie es gekocht wird“ scheinen eben auch",
+        "position": {
+          "page": 73,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page73_para_8",
+        "type": "paragraph",
+        "value": "auf die symbolische Welt zuzutreffen, was die Sache nicht gerade vereinfacht.",
+        "position": {
+          "page": 73,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page73_para_9",
+        "type": "paragraph",
+        "value": "Während wir die Heldenreise in mythischen Beschreibungen sehr leicht identifizieren und",
+        "position": {
+          "page": 73,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page73_para_10",
+        "type": "paragraph",
+        "value": "deren Häufigkeit und Varianzen objektiv feststellen können, sind wir uns doch völlig im",
+        "position": {
+          "page": 73,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page73_para_11",
+        "type": "paragraph",
+        "value": "Unklaren darüber, wie häufig sie sich denn tatsächlich im echten Leben als solche",
+        "position": {
+          "page": 73,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page73_para_12",
+        "type": "paragraph",
+        "value": "manifestiert. Wir wissen weder wie häufig sie auftritt, noch über welche Zeiträume sie sich",
+        "position": {
+          "page": 73,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page73_para_13",
+        "type": "paragraph",
+        "value": "erstrecken kann. Wir wissen nicht in welchen Größenordnungen sie auftreten kann und auch",
+        "position": {
+          "page": 73,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page73_para_14",
+        "type": "paragraph",
+        "value": "nicht, ob es Umstände gibt, die sie besonders begünstigt oder ihr entgegenwirkt. Eigentlich",
+        "position": {
+          "page": 73,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page73_para_15",
+        "type": "paragraph",
+        "value": "wissen wir über die Heldenreise in der wirklichen Welt, mit wirklichen Menschen, ihren",
+        "position": {
+          "page": 73,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page73_para_16",
+        "type": "paragraph",
+        "value": "wirklichen Gefühlen und Entscheidungen herzlich wenig. Wir wissen über die realen",
+        "position": {
+          "page": 73,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page73_para_17",
+        "type": "paragraph",
+        "value": "Ausprägungen archetypischer Muster generell entmutigend wenig, außer, dass sie existieren",
+        "position": {
+          "page": 73,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page73_para_18",
+        "type": "paragraph",
+        "value": "und in isolierten Fällen und unter dem Licht psychologisch eingehender Analysen beschrieben",
+        "position": {
+          "page": 73,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page73_para_19",
+        "type": "paragraph",
+        "value": "werden können. Es ist beschämend, wie wenig dabei allen gleich erscheint. Wie bei unseren",
+        "position": {
+          "page": 73,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page73_para_20",
+        "type": "paragraph",
+        "value": "alten Bekannten, den Traumphilosophen. Wie können wir also diesem Dilemma entkommen,",
+        "position": {
+          "page": 73,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page73_para_21",
+        "type": "paragraph",
+        "value": "ohne die gesamte Menschheit kollektiv auf die Couch zu zwingen, nur um sie von Horden aus",
+        "position": {
+          "page": 73,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page73_para_22",
+        "type": "paragraph",
+        "value": "Psychoanalytikern bis zurück zum Töpfchentraining zu sezieren? Wie gesagt, vielleicht",
+        "position": {
+          "page": 73,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page73_para_23",
+        "type": "paragraph",
+        "value": "schauen wir ja in die völlig falsche Richtung und die Antwort liegt direkt vor uns, hinter diesem",
+        "position": {
+          "page": 73,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page73_para_24",
+        "type": "paragraph",
+        "value": "beharrlichen Schleier des permanenten Vergessens. Vertraut mir, ich habe einen Plan",
+        "position": {
+          "page": 73,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page73_para_25",
+        "type": "paragraph",
+        "value": "Der Stoff aus dem gute Geschichten entstehen und mit welchem sich als Stilelement",
+        "position": {
+          "page": 73,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page73_para_26",
+        "type": "paragraph",
+        "value": "zuverlässig Unheil ankündigen lässt. Der Satz, mit dem alles beginnt: „Ich habe einen Plan“",
+        "position": {
+          "page": 73,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page73_para_27",
+        "type": "paragraph",
+        "value": "und hat nicht jeder zu jederzeit Pläne für dies und das, für große und kleine Dinge, für alle",
+        "position": {
+          "page": 73,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page73_para_28",
+        "type": "paragraph",
+        "value": "möglichen kurzfristigen wie langfristigen Vorhaben? Pläne zu schmieden ist eine Eigenschaft",
+        "position": {
+          "page": 73,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page73_para_29",
+        "type": "paragraph",
+        "value": "des Menschen, welche uns von allem anderen Leben auf dieser Welt abhebt, zumindest noch,",
+        "position": {
+          "page": 73,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page73_para_30",
+        "type": "paragraph",
+        "value": "denn die Liste dieser Dinge wird ja stetig kürzer, je besser wir anderes Leben zu verstehen",
+        "position": {
+          "page": 73,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page73_para_31",
+        "type": "paragraph",
+        "value": "beginnen. Aber im Moment ist unsere Fähigkeit, große Vorhaben zu planen und umzusetzen",
+        "position": {
+          "page": 73,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page73_para_32",
+        "type": "paragraph",
+        "value": "etwas, was nur Homo Sapiens kann. Nicht zu verwechseln mit den Dingen, die wir uns in der",
+        "position": {
+          "page": 73,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

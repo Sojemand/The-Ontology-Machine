@@ -1,0 +1,5 @@
+{
+  "llm_function_name": "analyze_samples",
+  "workflow_run_id": "wr_fixture_llm",
+  "analysis_run_id": "ana_fixture_llm"
+}

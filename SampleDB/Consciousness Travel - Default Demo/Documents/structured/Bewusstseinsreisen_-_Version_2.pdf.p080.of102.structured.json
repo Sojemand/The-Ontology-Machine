@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:59:33.039904+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.92,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous paragraph prose",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 80,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=080-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page80_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 80,
+        "sequence": 1,
+        "text": "welche Geschichten er erzählen muss um die gewünschte Wirkung zu erzielen.",
+        "function": "carryover_statement",
+        "confidence": 0.93
+      },
+      {
+        "segment_id": "Page80_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 80,
+        "sequence": 2,
+        "text": "So können wir sehen, wie sich die Wirklichkeit ändert, wenn wir die symbolische Welt verändern. Wenn ich mit der symbolischen Welt eines Menschen herumspiele, und das ist sehr viel leichter als man meinen könnte, dann kann ich ihn zu Handlungen bewegen, die er vorher nie auch nur im Traum in Betracht gezogen hätte. Sei es an der Front bis zum Endsieg zu kämpfen, oder aus Furcht eine Maske zu tragen. Dabei wird er überzeugt sein, all diese Dinge aus freiem Willen zu tun. Deshalb sagte ich am Anfang auch, dass die symbolische Welt eines Menschen in gewisser Weise für ihn realer ist als die wirkliche Welt. So funktioniert Propaganda und so manipuliert Politik ihre Wähler. So ist es dann auch nicht weiter schwer, uns vorzustellen, dass auch Archetypen auf die gleiche Weise wirken, allerdings nicht von Außen induziert, sondern von uns selbst erzeugt, durchgesickert aus einer Sphäre, die wir nicht sehen können.",
+        "function": "argument_about_symbolic_manipulation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page80_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 80,
+        "sequence": 3,
+        "text": "Ob wir uns das eingestehen wollen oder nicht, unsere innere Welt lässt sich stets auf solch einfache Fragen herunterbrechen wie: Welche Götter rufst du an und gegen welche Monster kämpfst du gerade? Besonders in unruhigen Zeiten wird das nur allzu deutlich. Auch wenn die meisten Probleme damit haben dürften, eine Antwort auf diese Frage zu artikulieren weil sie sich selbst über ihre Grundmotivationen nicht wirklich im Klaren sind, so spricht ihr Handeln doch Bände. Selbst diejenige Person, die sich an der rationalen Welt der Fakten zu orientieren glaubt, gründet ihr Weltbild zuerst in ihrer symbolischen Welt und erst dann richtet sie sich nach dem, was sie als Fakten ansieht. Dabei meine ich keineswegs, dass alles nur in ihrer Einbildung entsteht. Die Welt um uns herum überflutet uns permanent mit objektiven Daten, Reizen und Mustern und niemand ist in der Lage, sie alle in ihrer Gesamtheit zu verarbeiten. Wir können nur Prioritäten formulieren, anhand derer wir diese Flut dann filtern und genau jener Filter hat seinen Ursprung in unserer eigenen übergeordneten Symbolik und nicht in der tatsächlichen Welt der Fakten.",
+        "function": "reflection_on_symbolic_filters",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page80_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 80,
+        "sequence": 4,
+        "text": "Das lässt sich sehr einfach einsehen, wenn man bedenkt, wie unterschiedlich sich die Welt für zwei Personen darstellt, die gleiche Intelligenz besitzen, ein gleiches Auffassungsvermögen aufweisen, die gleichen moralischen Grundwerte ihr Eigen nennen und sich nur in der Art ihres Berufsweges unterscheiden. Erstere mag eine wissenschaftliche Laufbahn eingeschlagen haben und Letztere ein Psychologe sein. Beide haben das gleiche Potential, die Welt um sie herum auf die exakt gleiche Weise wahrzunehmen und zu verstehen, aber sie tun es nicht.",
+        "function": "illustrative_comparison",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Buchseite über symbolische Welt, Propaganda, Archetypen und Wahrnehmungsfilter"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=080-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:2a453ca4933a437a9caae04da3c868192f23c5af7be43feaf42ffdd279dd84dc",
+    "created_at": null,
+    "modified_at": null
+  }
+}

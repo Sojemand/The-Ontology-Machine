@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.1",
+  "processing": {
+    "interpreter_profile": "vision",
+    "model": "gpt-5.4-2026-03-05",
+    "model_confidence": 0.94,
+    "needs_review": true,
+    "review_reason": "Legacy OCR refs did not fully confirm values.",
+    "vision_used": true,
+    "tokens_input": 13830,
+    "tokens_output": 2495,
+    "source_ref_validation": {
+      "review_required": true
+    }
+  },
+  "classification": {
+    "document_type": "invoice",
+    "document_type_confidence": 0.98,
+    "category": "finance",
+    "subcategory": "electricity_final_invoice",
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "envia Mitteldeutsche Energie AG",
+    "document_date": "2023-06-25",
+    "document_title": "Ihre Schlussrechnung",
+    "description": "Schlussrechnung fuer Stromlieferung an Norman Weiss.",
+    "tags": ["Rechnung", "Schlussrechnung", "Strom", "SEPA-Lastschrift"],
+    "people": ["Norman Weiss"],
+    "organizations": ["envia Mitteldeutsche Energie AG"],
+    "date_range": {"from": "2022-11-22", "to": "2023-05-31"},
+    "total_monetary_value": 318.79,
+    "document_number": "ENV 100002966355",
+    "recipient_name": "Norman Weiss",
+    "customer_number": "2110842003",
+    "_source_refs": {"document_number": ["page1_para_26"]},
+    "reference_number": "ENV 100002966355",
+    "due_date": "2023-07-11",
+    "tax_amount": 98.3,
+    "net_amount": 517.36,
+    "tax_rate": 19.0
+  },
+  "content": {
+    "structure": {"type": "form_with_table"},
+    "fields": {
+      "invoice_number": "ENV 100002966355",
+      "customer_name": "Norman Weiss",
+      "gross_amount": 615.66,
+      "amount_due": 318.79,
+      "net_amount": 517.36,
+      "tax_amount": 98.3,
+      "_source_refs": {"invoice_number": ["page1_para_26"]}
+    },
+    "rows": [
+      {
+        "position": "zu zahlender Betrag",
+        "brutto": 318.79,
+        "_source_refs": {"brutto": ["page1_para_55"]}
+      }
+    ],
+    "free_text": "envia Mitteldeutsche Energie AG\nIhre Schlussrechnung\nRechnungsnummer ENV 100002966355\nNorman Weiss\nGesamtkosten Energielieferung netto 435,96 EUR\nZu zahlender Betrag 318,79 EUR\nFaellig am 11.07.2023"
+  },
+  "relations": [],
+  "projection": {
+    "slots": [
+      {
+        "slot": "document_type",
+        "status": "resolved",
+        "primary_value": "invoice",
+        "primary_path": "classification.document_type",
+        "normalized_value": "invoice",
+        "source_refs": []
+      },
+      {
+        "slot": "document_date",
+        "status": "resolved",
+        "primary_value": "2023-06-25",
+        "primary_path": "context.document_date",
+        "normalized_value": "2023-06-25",
+        "source_refs": []
+      },
+      {
+        "slot": "reference_number",
+        "status": "resolved",
+        "primary_value": "ENV 100002966355",
+        "primary_path": "content.fields.invoice_number",
+        "normalized_value": "env100002966355",
+        "source_refs": ["page1_para_26"]
+      },
+      {
+        "slot": "company",
+        "status": "resolved",
+        "primary_value": "envia Mitteldeutsche Energie AG",
+        "primary_path": "context.company",
+        "normalized_value": "envia mitteldeutsche energie ag",
+        "source_refs": []
+      },
+      {
+        "slot": "counterparty",
+        "status": "resolved",
+        "primary_value": "Norman Weiss",
+        "primary_path": "context.recipient_name",
+        "normalized_value": "norman weiss",
+        "source_refs": []
+      },
+      {
+        "slot": "due_date",
+        "status": "resolved",
+        "primary_value": "2023-07-11",
+        "primary_path": "context.due_date",
+        "normalized_value": "2023-07-11",
+        "source_refs": []
+      },
+      {
+        "slot": "net_amount",
+        "status": "resolved",
+        "primary_value": 517.36,
+        "primary_path": "context.net_amount",
+        "normalized_value": "517.36",
+        "source_refs": []
+      },
+      {
+        "slot": "tax_amount",
+        "status": "resolved",
+        "primary_value": 98.3,
+        "primary_path": "context.tax_amount",
+        "normalized_value": "98.3",
+        "source_refs": []
+      },
+      {
+        "slot": "total_monetary_value",
+        "status": "ambiguous",
+        "primary_value": 318.79,
+        "primary_path": "content.rows[0].brutto",
+        "normalized_value": "318.79",
+        "source_refs": ["page1_para_55"]
+      },
+      {
+        "slot": "tax_rate",
+        "status": "resolved",
+        "primary_value": 19.0,
+        "primary_path": "context.tax_rate",
+        "normalized_value": "19",
+        "source_refs": []
+      }
+    ],
+    "candidates": [
+      {
+        "slot": "reference_number",
+        "value": "ENV 100002966355",
+        "normalized_value": "env100002966355",
+        "origin_path": "content.fields.invoice_number",
+        "origin_kind": "field",
+        "rank": 10.0,
+        "reason_codes": ["field"],
+        "source_refs": ["page1_para_26"],
+        "is_primary": true
+      },
+      {
+        "slot": "reference_number",
+        "value": "ENV 100002966355",
+        "normalized_value": "env100002966355",
+        "origin_path": "context.reference_number",
+        "origin_kind": "context",
+        "rank": 8.0,
+        "reason_codes": ["context"],
+        "source_refs": [],
+        "is_primary": false
+      },
+      {
+        "slot": "total_monetary_value",
+        "value": 318.79,
+        "normalized_value": "318.79",
+        "origin_path": "content.rows[0].brutto",
+        "origin_kind": "row",
+        "rank": 10.0,
+        "reason_codes": ["row_due_hint"],
+        "source_refs": ["page1_para_55"],
+        "is_primary": true
+      },
+      {
+        "slot": "total_monetary_value",
+        "value": 615.66,
+        "normalized_value": "615.66",
+        "origin_path": "content.fields.gross_amount",
+        "origin_kind": "field",
+        "rank": 8.0,
+        "reason_codes": ["field"],
+        "source_refs": [],
+        "is_primary": false
+      }
+    ]
+  },
+  "source": {
+    "file_name": "2026-03-13 17-33.pdf",
+    "file_path": "C:/docs/2026-03-13 17-33.pdf",
+    "content_hash": "sha256:vision-doc-hash",
+    "size_bytes": 12345
+  }
+}

@@ -1,0 +1,32 @@
+label: Community and Pastoral Care Default v1
+description: Default projection for community, pastoral care, and donation-related
+  records.
+routing:
+  when_to_use: Memberships, community events, donations, pastoral care, and spiritual
+    guidance for groups, associations, or congregations.
+  avoid_when: Not for technical records, formal identity files, medical prescriptions,
+    or property management.
+routing_lexicon:
+  text_markers:
+  - congregation
+  - member
+  - donation receipt
+  - worship service
+  - pastoral care
+  domain_markers:
+    community:
+    - congregation
+    - member
+    - event
+    people:
+    - member
+    - pastoral care
+    administrative:
+    - registration
+    - certificate
+    finance:
+    - donation
+    - contribution
+    personal:
+    - guidance
+    - prayer

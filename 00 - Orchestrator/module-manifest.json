@@ -1,0 +1,12 @@
+{
+  "module_key": "orchestrator",
+  "display_name": "Orchestrator",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "contract_module": "orchestrator.orchestrator_contract",
+  "launcher_module": "orchestrator",
+  "actions": ["run", "reset", "reset_pipeline_logs", "embeddings", "activate_corpus_context", "inspect_source_document_sample", "kernel_llm_runtime_profile", "kernel_llm_generate", "healthcheck", "create_artifact_tree", "validate_artifact_tree", "create_pipeline_batch_manifest", "finalize_pipeline_batch_manifest"],
+  "admin_contract_module": "orchestrator.admin_contract",
+  "admin_actions": ["inspect_runtime", "manage_runtime_settings", "manage_credentials", "reveal_secret"],
+  "external_dependencies": []
+}

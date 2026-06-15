@@ -1,0 +1,174 @@
+projection_id: finance.default.v1
+projection_family: default
+materialization_profile_id: document_entities.v1
+extends: []
+domain_ids:
+- finance
+- business
+- administrative
+- legal
+include_document_types:
+- invoice
+- credit_note
+- receipt
+- quote
+- payment_notice
+- reminder
+- advance_payment
+- cost_analysis
+- statement
+- payslip
+- contract
+- general_letter
+- report
+- policy
+- form
+- other
+include_categories:
+- finance
+- business
+- administrative
+- legal
+- people
+- other
+include_subcategories:
+- accounts_payable
+- accounts_receivable
+- budget_quote
+- payment_followup
+- payment_schedule
+- financial_summary
+- customer_account
+- vendor_management
+- payroll_accounting
+- budget_planning
+- tax_reporting
+- expense_reimbursement
+- policy_compliance
+- contract
+- legal_correspondence
+- general_correspondence
+- official_notice
+- other
+include_field_codes:
+- issuer
+- sender
+- sender_address
+- recipient
+- recipient_address
+- customer_name
+- document_number
+- invoice_number
+- account_number
+- document_date
+- period_from
+- period_to
+- due_date
+- currency
+- reference_amount
+- total_amount
+- net_amount
+- tax_amount
+- balance_amount
+- bank_name
+- iban
+- bic
+- tax_id
+- department_name
+- cost_center
+- employee_id
+- subject
+- contact_person
+- customer_number
+- service_end_date
+- fax
+- email
+- website
+- mobile_number
+- access_code
+- signoff
+- signatory
+- signatory_role
+- other
+include_row_types:
+- line_item
+- payment_schedule
+- account_entry
+- contact_block
+- other
+include_cell_codes:
+- description
+- quantity
+- unit
+- scheduled_date
+- unit_price
+- line_total
+- base_amount
+- adjustment_amount
+- gross_amount
+- percentage_share
+- account_delta
+- amount_due
+- amount_paid
+- balance
+- net_amount
+- tax_amount
+- identifier
+- rate
+- hours
+- status
+- other
+promotion_rules:
+- slot: document_title
+  source_paths:
+  - content.fields.subject
+- slot: primary_party
+  source_paths:
+  - content.fields.issuer
+  - content.fields.sender
+  - content.fields.customer_name
+- slot: recipient_party
+  source_paths:
+  - content.fields.recipient
+- slot: document_identifier
+  source_paths:
+  - content.fields.invoice_number
+  - content.fields.document_number
+  - content.fields.account_number
+  - content.fields.customer_number
+- slot: document_date
+  source_paths:
+  - content.fields.document_date
+- slot: due_date
+  source_paths:
+  - content.fields.due_date
+- slot: period_start
+  source_paths:
+  - content.fields.period_from
+- slot: period_end
+  source_paths:
+  - content.fields.period_to
+- slot: total_amount
+  source_paths:
+  - content.fields.total_amount
+  - content.fields.reference_amount
+- slot: balance_amount
+  source_paths:
+  - content.fields.balance_amount
+compatibility: {}
+routing:
+  example_document_types:
+  - invoice
+  - statement
+  - payslip
+  - quote
+  - policy
+  section_roles:
+  - header
+  - line_items
+  - billing
+  - payment
+  party_roles:
+  - sender
+  - recipient
+  - customer

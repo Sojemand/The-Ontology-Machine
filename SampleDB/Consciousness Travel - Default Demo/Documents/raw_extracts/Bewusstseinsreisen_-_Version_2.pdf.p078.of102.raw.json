@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=078-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:91ee6b556e0f980e16cebb158e783d415297c09d1d17677c0c24d8fb2d15dab3",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 78,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=078-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page78_para_0",
+        "type": "paragraph",
+        "value": "Da fragt man sich, warum er überhaupt erst diese ganzen Stationen durchlaufen musste,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page78_para_1",
+        "type": "paragraph",
+        "value": "wenn er am Ende doch nichts von dem bekam, was ihn erst auf die Reise gingen ließ. Hätte er",
+        "position": {
+          "page": 78,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page78_para_2",
+        "type": "paragraph",
+        "value": "sich doch nur darüber gewahr werden müssen, dass es keine Magie gibt und er nur Illusionen",
+        "position": {
+          "page": 78,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page78_para_3",
+        "type": "paragraph",
+        "value": "hinterher jagt, welche im Grunde einen schlechten König erst auszeichnen. Er hat im Laufe",
+        "position": {
+          "page": 78,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page78_para_4",
+        "type": "paragraph",
+        "value": "der Reise also jenen Teil in sich besiegt, der die Macht über ihn hatte und ihn erst auf die",
+        "position": {
+          "page": 78,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page78_para_5",
+        "type": "paragraph",
+        "value": "Reise hat gehen lassen. Der wahre Feind war er selbst und mit dem Tod des Wesenszuges,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page78_para_6",
+        "type": "paragraph",
+        "value": "welcher ihn antrieb nach Macht und Magie zu streben, wandelte er sich in eine neue Gestalt,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page78_para_7",
+        "type": "paragraph",
+        "value": "die nun von sich aus den Willen hat, die Welt zu einem besseren Ort zu machen, ein guter",
+        "position": {
+          "page": 78,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page78_para_8",
+        "type": "paragraph",
+        "value": "König zu sein. Aber um erst zu dieser Einsicht zu gelangen, da scheint es so, als musste die",
+        "position": {
+          "page": 78,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page78_para_9",
+        "type": "paragraph",
+        "value": "Welt sich erst gegen Gilgamesch verschwören und ihm diese Erkenntnis vorher dutzendfach",
+        "position": {
+          "page": 78,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page78_para_10",
+        "type": "paragraph",
+        "value": "auf den Schädel hämmern, bevor auch nur ein Fünkchen davon in seinen Kopf einsickern",
+        "position": {
+          "page": 78,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page78_para_11",
+        "type": "paragraph",
+        "value": "konnte. Wir sehen auch, dass der Beginn der Reise ihren Ursprung in dem „alten“ Leben hat",
+        "position": {
+          "page": 78,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page78_para_12",
+        "type": "paragraph",
+        "value": "und sich durch das nährt, was im Endergebnis verschwindet. Man könnte also sagen, dass,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page78_para_13",
+        "type": "paragraph",
+        "value": "zumindest was Gilgamesch angeht, Aspekte seines alten Lebens konspiriert haben, um sich",
+        "position": {
+          "page": 78,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page78_para_14",
+        "type": "paragraph",
+        "value": "im Endeffekt selbst auszulöschen. Was natürlich nach Unsinn klingt, allerdings nur so lange,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page78_para_15",
+        "type": "paragraph",
+        "value": "bis man annimmt, dass solche Muster eben auch Schatten eines sich so manifestierenden,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page78_para_16",
+        "type": "paragraph",
+        "value": "übergeordneten Willens sein könnten, der damit Dinge erreicht, die ohne ihn so nie stattfinden",
+        "position": {
+          "page": 78,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page78_para_17",
+        "type": "paragraph",
+        "value": "würden.",
+        "position": {
+          "page": 78,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page78_para_18",
+        "type": "paragraph",
+        "value": "Die Muster der Heldenreise zeigen uns ja deutlich, wie die darin auftretenden Veränderungen",
+        "position": {
+          "page": 78,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page78_para_19",
+        "type": "paragraph",
+        "value": "sich zwar prinzipiell auch durch direktes Gewahr werden des Problems lösen ließen, sie es",
+        "position": {
+          "page": 78,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page78_para_20",
+        "type": "paragraph",
+        "value": "aber nicht tun, weil wir uns eben weigern, uns ihnen gewahr zu werden. Und wir weigern uns,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page78_para_21",
+        "type": "paragraph",
+        "value": "ihnen gewahr zu werden, weil wir die damit zusammenhängenden Schmerzen fürchten, die",
+        "position": {
+          "page": 78,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page78_para_22",
+        "type": "paragraph",
+        "value": "damit einher gehen, wenn die innere Widerspruchsfreiheit verletzt wird, wir erinnern uns.",
+        "position": {
+          "page": 78,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page78_para_23",
+        "type": "paragraph",
+        "value": "Gilgamesch hätte zu jeder Zeit erkennen können, was ihn antreibt und zu was ihn das macht,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page78_para_24",
+        "type": "paragraph",
+        "value": "doch anstatt sich dieser Scham gewahr zu werden, ließ er sich lieber durch ein sehr",
+        "position": {
+          "page": 78,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page78_para_25",
+        "type": "paragraph",
+        "value": "kostspieliges Räderwerk drehen, welches ihm deutlich mehr Schmerzen zugefügt hat, genug,",
+        "position": {
+          "page": 78,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page78_para_26",
+        "type": "paragraph",
+        "value": "damit er den Schmerz der Anerkennung seiner eigenen Defizite als kleineres Übel annahm",
+        "position": {
+          "page": 78,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page78_para_27",
+        "type": "paragraph",
+        "value": "und die Transition hinter sich brachte. Genau wie die stark übergewichtige Person aus dem",
+        "position": {
+          "page": 78,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page78_para_28",
+        "type": "paragraph",
+        "value": "Kapitel der Maschine erst einen Herzinfarkt und die Drohung des Todes brauchte, um die",
+        "position": {
+          "page": 78,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page78_para_29",
+        "type": "paragraph",
+        "value": "Motivation zu finden, den Schmerz des harten Trainings zu ertragen. Darin eröffnet sich die",
+        "position": {
+          "page": 78,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page78_para_30",
+        "type": "paragraph",
+        "value": "Erkenntnis, dass wir stets dann motiviert sind zu handeln, wenn der Schmerz des nicht-",
+        "position": {
+          "page": 78,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page78_para_31",
+        "type": "paragraph",
+        "value": "Handelns den Schmerz des Handelns übersteigt.",
+        "position": {
+          "page": 78,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

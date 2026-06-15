@@ -1,0 +1,40 @@
+label: Housing and Property Management Default v1
+description: Default projection for housing, tenancy, and property management with
+  cost and administration context.
+routing:
+  when_to_use: Housing, utility, tenancy, and property management documents with tenant,
+    cost, or authority context.
+  avoid_when: Not for logistics, procurement, technical execution plans, site access,
+    or personal development plans.
+routing_lexicon:
+  text_markers:
+  - tenant
+  - apartment
+  - utility costs
+  - heating costs
+  - hot water
+  - property management
+  - service charges
+  - meter reading
+  - property
+  domain_markers:
+    property:
+    - apartment
+    - property
+    - tenant
+    - property management
+    finance:
+    - utility costs
+    - heating costs
+    - rent account
+    administrative:
+    - administration
+    - housing cooperative
+    - property number
+    technical:
+    - meter
+    - reading
+    - usage
+    legal:
+    - rental agreement
+    - termination

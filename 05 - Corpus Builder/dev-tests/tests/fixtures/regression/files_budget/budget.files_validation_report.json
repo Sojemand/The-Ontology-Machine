@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "interpreter_profile": "file",
+  "file_name": "kostenplan.xlsx",
+  "file_path": "C:/docs/kostenplan.xlsx",
+  "content_hash": "sha256:file-report-hash",
+  "result": "fail",
+  "needs_review": true,
+  "summary": {
+    "total_issues": 1,
+    "fail_count": 1,
+    "warn_count": 0
+  },
+  "issues": [
+    {"field": "content.rows[0].category", "level": "FAIL"}
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:51:31.939345+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous prose paragraphs",
+        "philosophical writing"
+      ]
+    },
+    "page_number": 60,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=060-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page60_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 60,
+        "sequence": 1,
+        "text": "wir haben ja bereits gesehen, dass das zweigleisige Gewahrsein uns in eine ähnliche Lage versetzt, wie das luzide Träumen den Träumer. Auch legt es die gleichen Probleme offen, die ein luzider Träumer erfährt, wenn er zwar die Traumhaftigkeit seiner Umgebung erkennt, aber dennoch weiter nach den Traumregeln agiert und entscheidet. Er mag sich über etwas „Höheres“ besser im Klaren sein als in einem tiefen Traum, was ihn aber dennoch nicht befähigt, dieses Höhere auch verstehen zu können. Dazu muss er schließlich aufwachen und die Traumregeln hinter sich lassen. All das gilt auch für das zweigleisige Gewahrsein. Ein solcher Zustand versetzt das Bewusstsein ebenfalls in die Lage, die „Traumhaftigkeit“ des Wachbewusstseins zu erkennen, zwingt es aber ebenfalls, sich immer noch nach den Regeln des Wachbewusstseins zu entscheiden. Auch fällt es dem Bewusstsein, welches die Zweigleisigkeit erfährt, leichter, sich ein „höheres Etwas“ vorzustellen, ohne jedoch die Möglichkeit zu haben, dies auch in Gänze zu verstehen. Dazu müsste es schließlich aufwachen und die „Wachregeln“ hinter sich lassen.",
+        "function": "analogy_and_limitation",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page60_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 60,
+        "sequence": 2,
+        "text": "Aber hier stoßen wir auf ein weiteres, nicht unerhebliches Problem. Während wir uns stets daran erinnern können, wie und wann wir aufgewacht sind, so können wir uns niemals an den Moment erinnern, an dem wir einschliefen. Genau so wie wir uns nicht an den Moment erinnern können, an dem wir das Kommando über unseren Atem wieder der Maschine überließen. Wir wissen, dass es diese Momente geben muss, aber was wir auch tun, wir werden uns derer nie gewahr werden können, da sie ja per Definition das Vergessen sind. Schlimmer noch, nachdem wir eingeschlafen sind, haben wir alles vergessen, was uns im Wachbewusstsein definiert. Wir vergessen uns, weil das „Wach-Ich“ zu groß für das „Traum-Ich“ ist. Wir können so oft zwischen diesen Zuständen hin und her pendeln wie wir wollen, niemals wird das Traum-Ich Anhaltspunkte für die Existenz des Wach- Ichs finden. Wir tun das ja auch täglich, zig tausende Male während unseres Lebens, ohne dass sich unser Traum-Ich dadurch auch nur das kleinste Bisschen gestört fühlt.",
+        "function": "problem_statement",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page60_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 60,
+        "sequence": 3,
+        "text": "Und so sehen wir uns auch einem möglichen „Über-Ich“ gegenüber. Wir könnten, durch was auch immer, unser Wach-Ich zufällig auf eine höhere Ebene des Gewahrseins anheben und zu einem vollständigen Über-Ich werden, aber nach der Rückkehr werden keinerlei Erinnerungen daran zurück bleiben. Während zweigleisiges Gewahrsein immer Rückstände in unseren Erinnerungen erzeugt, die uns im Nachhinein dessen Anwesenheit verraten können, so trifft dies auf das Über-Ich nicht zu. Wir sehen uns hierbei also einer Sackgasse gegenüber, deren Beschränkung wir nicht überwinden können.",
+        "function": "speculative_argument",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page60_Segment4",
+        "unit_kind": "question_prompt",
+        "page": 60,
+        "sequence": 4,
+        "text": "Oder etwa doch? Könnte uns die Natur der Träume nicht noch etwas mehr verraten?",
+        "function": "rhetorical_transition",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "zweigleisiges Gewahrsein, Traum/Wach-Ich, Über-Ich, Erinnerungsproblem"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=060-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:f16629c531b9741cf2c287a8eba2029b833a2f286b969ebb7cb62fadd36d7ef1",
+    "created_at": null,
+    "modified_at": null
+  }
+}

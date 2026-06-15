@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:49:50.181603+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 56,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=056-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A philosophical/nonfiction book page is visible with continuous prose and a section heading.",
+      "matched_signals": [
+        "continuous prose",
+        "section heading",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page56_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 56,
+        "sequence": 1,
+        "text": "Versteht mich hier nicht falsch, denn solche Dinge können durchaus in Träumen auftauchen. Man träumt von einem Einkauf, wie man sich mit jemandem trifft, wie etwas repariert wird oder wie wir ein Vorhaben in der Zukunft verfolgen. Alle Komponenten können für sich gesehen Teil von Träumen werden. Was ihr jedoch nicht könnt, ist zu verstehen, wie alle Komponenten aneinander gereiht etwas bilden, wonach du dein waches Leben ausrichtest und wie du aufgrund der Gesamtheit vergangener Dinge zukünftiges Vorgehen planst. Deine wache Welt existiert in deinen Träumen nicht. Die Mechanik der wachen Welt ist dir im Traum nicht zugänglich. Wenn du träumst, dann bist du wie der Wissenschaftler im Dschungel, dem eines Tages ein Fremder begegnet, der dir seltsame Dinge von einer Universität, eines Dschungels und „im Kreis laufen“ erzählen wollte. Das Einzige was du von all seinen Erzählungen glaubtest verstanden zu haben war, dass er dir eine Art Magie beibringen könnte, mit Hilfe derer du die Größe deiner Welt kontrollieren könntest.",
+        "function": "explaining_limits_of_dream_consciousness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page56_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 56,
+        "sequence": 2,
+        "text": "Und wir erinnern uns, du befandest dich in diesem Dilemma, weil deine Welt um dich herum nur so groß war wie deine Augen reichten. Der Horizont deines Gewahrseins hat dir diese Welt vorgegaukelt und dich vergessen gemacht, dass du dich in Wirklichkeit in einem riesigen Dschungel aufhältst. Daraufhin hast du angenommen, die Welt um dich herum würde sich nur dank deiner Anstrengungen bewegen und verändern, weil du nicht mehr verstehen konntest, was „durch den Dschungel laufen“ bedeutet. Genau so verhält sich deine Traumwelt und genau so denkst du in deiner Traumwelt und genau deswegen weißt du nichts von Morgen, von deinen Plänen und Sorgen. Der Horizont deines Gewahrseins ist im Traum noch deutlich kleiner als er es in deinem Wachzustand ist.",
+        "function": "drawing_analogy_between_dream_and_limited_awareness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page56_Segment3",
+        "unit_kind": "title_line",
+        "page": 56,
+        "sequence": 3,
+        "text": "Auf und Nieder, immer wieder",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page56_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 56,
+        "sequence": 4,
+        "text": "Wenn wir nun von der Warte des Träumenden aus versuchen zu ergründen, was denn diese „wache Welt“ genau ist, wie würden wir beginnen? Angenommen, ich würde euch wieder dort aufsuchen und euch sagen, dass ihr schlaft und es einen Zustand gibt der „wach sein“ heißt. Angenommen, ich würde eure Aufmerksamkeit erringen und eure Neugier anstacheln. Ich würde mich als Zauberer darstellen und euch von einer Welt erzählen, in der ihr nicht nur viele seltsame Dinge tut, sondern auch eine Person seid, die mit einem „höheren Bewusstsein“ ausgestattet ist und für euch unvorstellbare Fähigkeiten besitzt. Ihr würdet mich sicher fragen wie ihr dort hin gelangen könntet. Ich würde dann sagen, dass ihr bereits dort seid und alles, was euch davon abhält wieder zu ihr zu werden, seid ihr selbst. Ihr müsstet nur aufwachen. Zweifellos entsprechen meine Worte der Wahrheit, aber würdet ihr mir das glauben? Wohl",
+        "function": "thought_experiment_about_awakening",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Traumwelt, wache Welt, Dschungel-Metapher, Bewusstsein, Abschnittsbeginn"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=056-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:fade357f2b2f43efa6d88426add377f9e88a082b29a4ecdbbb877be686aab383",
+    "created_at": null,
+    "modified_at": null
+  }
+}

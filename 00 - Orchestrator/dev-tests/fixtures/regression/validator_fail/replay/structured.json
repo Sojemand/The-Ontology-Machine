@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-03-25T19:13:39.027186+00:00",
+    "model": "gpt-5.4-2026-03-05",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "invoice",
+    "document_type_confidence": 0.99,
+    "category": "finance",
+    "subcategory": null,
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "Praxis am Park & Kollegen",
+    "document_date": "04.04.2013",
+    "document_title": "Rechnung",
+    "description": "Zahnaerztliche Leistungen fuer Alex Beispiel",
+    "tags": [
+      "zahnaerztliche Leistungen",
+      "umsatzsteuerfrei",
+      "Bankverbindung"
+    ],
+    "people": [
+      "Dr. Mira Sommer",
+      "Dr. Paul Winter",
+      "Alex Beispiel"
+    ],
+    "organizations": [
+      "Praxis am Park & Kollegen",
+      "Musterbank"
+    ],
+    "locations": [
+      "Beispielstadt"
+    ],
+    "date_range": {
+      "from": "26.03.13",
+      "to": "18.04.2013"
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": "61,20",
+    "_source_refs": [
+      "page1_para_1",
+      "page1_para_3",
+      "page1_para_4",
+      "page1_para_7"
+    ],
+    "reference_number": "RE-2048",
+    "document_number": "RE-2048",
+    "invoice_number": "RE-2048",
+    "net_amount": 61.2,
+    "tax_amount": 0.0,
+    "tax_rate": 0.0
+  },
+  "content": {
+    "structure": {
+      "type": "form_with_table",
+      "columns": [
+        "Datum",
+        "Region",
+        "Nr.",
+        "Leistungsbeschreibung/Auslagen",
+        "Faktor",
+        "Anz.",
+        "EUR"
+      ],
+      "form_fields": [
+        "Rechnungsnummer",
+        "Rechnungsdatum",
+        "Behandelte Person",
+        "Geburtsdatum",
+        "Rechnungsbetrag",
+        "USt-IdNr."
+      ]
+    },
+    "fields": {
+      "Rechnungsnummer": {
+        "value": "RE-2048",
+        "_source_refs": [
+          "page1_para_3"
+        ]
+      },
+      "Rechnungsdatum": {
+        "value": "04.04.2013",
+        "_source_refs": [
+          "page1_para_4"
+        ]
+      },
+      "Behandelte Person": {
+        "value": "Alex Beispiel",
+        "_source_refs": [
+          "page1_para_5"
+        ]
+      },
+      "Geburtsdatum": {
+        "value": "01.09.1980",
+        "_source_refs": [
+          "page1_para_5"
+        ]
+      },
+      "Rechnungsbetrag": {
+        "value": "61,20",
+        "_source_refs": [
+          "page1_para_7"
+        ]
+      },
+      "Zwischensumme Honorar": {
+        "value": "61,20",
+        "_source_refs": [
+          "page1_para_6"
+        ]
+      },
+      "Steuerhinweis": {
+        "value": "umsatzsteuerfrei nach Paragraf 4 Nr.14a UStG",
+        "_source_refs": [
+          "page1_para_8"
+        ]
+      },
+      "Zahlungsziel": {
+        "value": "18.04.2013",
+        "_source_refs": [
+          "page1_para_9"
+        ]
+      },
+      "USt-IdNr.": {
+        "value": "DE123456789",
+        "_source_refs": [
+          "page1_para_8"
+        ]
+      },
+      "Bank": {
+        "value": "Musterbank",
+        "_source_refs": [
+          "page1_para_10"
+        ]
+      },
+      "IBAN": {
+        "value": "DE12 3456 7890 1234 5678 90",
+        "_source_refs": [
+          "page1_para_10"
+        ]
+      },
+      "SWIFT": {
+        "value": "TESTDEFFXXX",
+        "_source_refs": [
+          "page1_para_10"
+        ]
+      }
+    },
+    "rows": [
+      {
+        "Datum": "26.03.13",
+        "Region": "18-28",
+        "Nr.": "1040",
+        "Leistungsbeschreibung/Auslagen": "Professionelle Zahnreinigung",
+        "Faktor": "1,1615",
+        "Anz.": "16",
+        "EUR": "30,60"
+      },
+      {
+        "Datum": "26.03.13",
+        "Region": "38-48",
+        "Nr.": "1040",
+        "Leistungsbeschreibung/Auslagen": "Professionelle Zahnreinigung",
+        "Faktor": "1,1615",
+        "Anz.": "16",
+        "EUR": "30,60"
+      }
+    ],
+    "free_text": "Praxis am Park & Kollegen, Beispielweg 3, 12345 Beispielstadt. Rechnung RE-2048 vom 04.04.2013 fuer Alex Beispiel. Zwei Positionen professionelle Zahnreinigung, Rechnungsbetrag 61,20 EUR, umsatzsteuerfrei, Zahlungsziel 18.04.2013."
+  },
+  "relations": [],
+  "source": {
+    "file_name": "dental_invoice.pdf",
+    "file_path": "C:\\anonymized\\input\\dental_invoice.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:fedcba9876543210fedcba9876543210fedcba9876543210fedcba9876543210",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,2799 @@
+taxonomy_id: normalizer_taxonomy.master
+taxonomy_version: 2026-03-28.v6
+status: draft
+defaults:
+  fallback_document_type: other
+  fallback_category: other
+  fallback_subcategory: other
+  fallback_field_code: other
+  fallback_row_type: other
+  fallback_cell_code: other
+governance:
+  code_policy:
+    format: snake_case
+    character_set: ascii
+    rename_strategy: forbidden
+    deprecation_strategy: mark_only
+  review_rules:
+    require_description: true
+    require_domain_assignment: true
+    require_fallback_code: true
+compatibility:
+  taxonomy_contract: semantic_release_v1
+  backward_compatible_with:
+  - '1.0'
+  notes:
+  - v1 Master-Taxonomien werden additiv zu semantic_release_v1 erweitert.
+  - Projection-Dateien bleiben include-list-kompatibel und koennen schrittweise Semantikmetadaten
+    erhalten.
+promotion_slots:
+- slot: document_title
+  label: Document Title
+  description: Human-readable document title or subject when available.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: primary
+  display_rank: 10
+- slot: primary_party
+  label: Primary Party
+  description: Main organization, authority, sender, issuer or counterparty anchoring the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: primary
+  display_rank: 20
+- slot: recipient_party
+  label: Recipient Party
+  description: Recipient, addressee or target party named by the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: secondary
+  display_rank: 30
+- slot: person_name
+  label: Person Name
+  description: Main natural person, patient, member, employee or profile subject.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: primary
+  display_rank: 40
+- slot: document_identifier
+  label: Document Identifier
+  description: Stable document, account, invoice, contract, membership, asset or customer identifier.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 50
+- slot: case_identifier
+  label: Case Identifier
+  description: Case, permit, authority, legal or insurance reference identifier.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 60
+- slot: document_date
+  label: Document Date
+  description: Primary date printed on or assigned to the document.
+  value_type: date_or_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 70
+- slot: due_date
+  label: Due Date
+  description: Payment, response or action due date when available.
+  value_type: date_or_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 80
+- slot: period_start
+  label: Period Start
+  description: Start date of the period covered by the document.
+  value_type: date_or_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 90
+- slot: period_end
+  label: Period End
+  description: End date of the period covered by the document.
+  value_type: date_or_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 100
+- slot: total_amount
+  label: Total Amount
+  description: Total, gross or payable monetary amount selected for document-level search and filtering.
+  value_type: number_or_money_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 110
+- slot: balance_amount
+  label: Balance Amount
+  description: Remaining balance or outstanding amount when available.
+  value_type: number_or_money_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 120
+- slot: property_address
+  label: Property Address
+  description: Property, residence, site or real-estate address anchoring the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: display
+  display_rank: 130
+- slot: site_name
+  label: Site Name
+  description: Technical, operational or business site name anchoring the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: display
+  display_rank: 140
+- slot: event_name
+  label: Event Name
+  description: Community, personal, schedule or narrative event named by the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: display
+  display_rank: 150
+- slot: appointment_date
+  label: Appointment Date
+  description: Health, personal, coaching, pastoral or community appointment date.
+  value_type: date_or_string
+  scope: document
+  cardinality: single
+  query_role: filter
+  display_rank: 160
+- slot: provider_name
+  label: Provider Name
+  description: Service, health, coaching, care or support provider named by the document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: secondary
+  display_rank: 170
+- slot: tenant_name
+  label: Tenant Name
+  description: Tenant or primary resident named by a housing or property document.
+  value_type: string
+  scope: document
+  cardinality: single
+  query_role: secondary
+  display_rank: 180
+domains:
+  finance:
+    parent_id: null
+    status: active
+  property:
+    parent_id: null
+    status: active
+  legal:
+    parent_id: null
+    status: active
+  administrative:
+    parent_id: null
+    status: active
+  technical:
+    parent_id: null
+    status: active
+  operations:
+    parent_id: null
+    status: active
+  personal:
+    parent_id: null
+    status: active
+  business:
+    parent_id: null
+    status: active
+  people:
+    parent_id: null
+    status: active
+  health:
+    parent_id: null
+    status: active
+  community:
+    parent_id: null
+    status: active
+  other:
+    parent_id: null
+    status: active
+document_types:
+  invoice:
+    status: active
+    domains:
+    - finance
+    allowed_categories:
+    - finance
+    allowed_subcategories:
+    - accounts_payable
+    - accounts_receivable
+    - other
+  credit_note:
+    status: active
+    domains:
+    - finance
+    allowed_categories:
+    - finance
+    allowed_subcategories:
+    - accounts_receivable
+    - other
+  receipt:
+    status: active
+    domains:
+    - finance
+    allowed_categories:
+    - finance
+    allowed_subcategories:
+    - payment_followup
+    - other
+  quote:
+    status: active
+    domains:
+    - finance
+    - property
+    allowed_categories:
+    - finance
+    - property
+    allowed_subcategories:
+    - budget_quote
+    - maintenance
+    - other
+  payment_notice:
+    status: active
+    domains:
+    - finance
+    - legal
+    allowed_categories:
+    - finance
+    - legal
+    allowed_subcategories:
+    - payment_followup
+    - other
+  reminder:
+    status: active
+    domains:
+    - finance
+    - legal
+    allowed_categories:
+    - finance
+    - legal
+    allowed_subcategories:
+    - payment_followup
+    - other
+  advance_payment:
+    status: active
+    domains:
+    - finance
+    - property
+    allowed_categories:
+    - finance
+    - property
+    allowed_subcategories:
+    - advance_payment_adjustment
+    - payment_schedule
+    - tenant_communication
+    - other
+  utility_cost_statement:
+    status: active
+    domains:
+    - finance
+    - property
+    allowed_categories:
+    - finance
+    - property
+    allowed_subcategories:
+    - utilities
+    - metering
+    - other
+  rent_statement:
+    status: active
+    domains:
+    - finance
+    - property
+    allowed_categories:
+    - finance
+    - property
+    allowed_subcategories:
+    - rent
+    - tenant_communication
+    - other
+  cost_analysis:
+    status: active
+    domains:
+    - finance
+    - technical
+    allowed_categories:
+    - finance
+    - technical
+    allowed_subcategories:
+    - financial_summary
+    - measurement
+    - energy
+    - other
+  delivery_note:
+    status: active
+    domains:
+    - operations
+    allowed_categories:
+    - operations
+    allowed_subcategories:
+    - logistics
+    - other
+  order:
+    status: active
+    domains:
+    - operations
+    allowed_categories:
+    - operations
+    allowed_subcategories:
+    - procurement
+    - other
+  contract:
+    status: active
+    domains:
+    - legal
+    - property
+    - business
+    allowed_categories:
+    - legal
+    - property
+    - business
+    allowed_subcategories:
+    - contract
+    - other
+  contract_addendum:
+    status: active
+    domains:
+    - legal
+    - property
+    - business
+    allowed_categories:
+    - legal
+    - property
+    - business
+    allowed_subcategories:
+    - contract_change
+    - other
+  termination_notice:
+    status: active
+    domains:
+    - legal
+    - property
+    - business
+    allowed_categories:
+    - legal
+    - property
+    - business
+    allowed_subcategories:
+    - termination
+    - other
+  authority_notice:
+    status: active
+    domains:
+    - administrative
+    - legal
+    - people
+    - health
+    allowed_categories:
+    - administrative
+    - legal
+    - people
+    - health
+    allowed_subcategories:
+    - official_notice
+    - other
+    - permit_license
+    - benefit_case
+    - care_administration
+  application:
+    status: active
+    domains:
+    - administrative
+    - property
+    - business
+    - people
+    - health
+    - community
+    allowed_categories:
+    - administrative
+    - property
+    - business
+    - people
+    - health
+    - community
+    allowed_subcategories:
+    - application
+    - tenant_application
+    - form_submission
+    - other
+    - personnel_request
+    - benefit_case
+    - civic_service
+    - membership
+    - care_administration
+  general_letter:
+    status: active
+    domains:
+    - administrative
+    - property
+    - business
+    - people
+    - health
+    - community
+    - legal
+    - personal
+    allowed_categories:
+    - administrative
+    - property
+    - business
+    - people
+    - health
+    - community
+    - legal
+    - personal
+    allowed_subcategories:
+    - general_correspondence
+    - tenant_communication
+    - owner_communication
+    - other
+    - business_correspondence
+    - legal_correspondence
+    - care_administration
+    - spiritual_guidance
+    - pastoral_care
+    - coaching_support
+  minutes_record:
+    status: active
+    domains:
+    - administrative
+    - business
+    - community
+    allowed_categories:
+    - administrative
+    - business
+    - community
+    allowed_subcategories:
+    - minutes
+    - other
+    - governance
+    - community_event
+  report:
+    status: active
+    domains:
+    - administrative
+    - technical
+    - finance
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    - legal
+    allowed_categories:
+    - administrative
+    - technical
+    - finance
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    - legal
+    allowed_subcategories:
+    - financial_summary
+    - inspection
+    - measurement
+    - execution_plan
+    - feasibility_study
+    - recovery_plan
+    - other
+    - corporate_profile
+    - quality_assurance
+    - identity_record
+    - care_administration
+    - wellbeing_plan
+    - community_event
+    - engineering_change
+    - asset_documentation
+    - policy_compliance
+  specification:
+    status: active
+    domains:
+    - technical
+    allowed_categories:
+    - technical
+    allowed_subcategories:
+    - technical_specification
+    - other
+  inspection_report:
+    status: active
+    domains:
+    - technical
+    - property
+    allowed_categories:
+    - technical
+    - property
+    allowed_subcategories:
+    - inspection
+    - maintenance
+    - damage
+    - other
+  energy_certificate:
+    status: active
+    domains:
+    - technical
+    - property
+    allowed_categories:
+    - technical
+    - property
+    allowed_subcategories:
+    - energy
+    - property_information
+    - other
+  meter_reading:
+    status: active
+    domains:
+    - technical
+    - property
+    allowed_categories:
+    - technical
+    - property
+    allowed_subcategories:
+    - measurement
+    - metering
+    - other
+  certificate:
+    status: active
+    domains:
+    - administrative
+    - people
+    - health
+    - community
+    - legal
+    allowed_categories:
+    - administrative
+    - people
+    - health
+    - community
+    - legal
+    allowed_subcategories:
+    - official_notice
+    - other
+    - medical_certificate
+    - identity_record
+    - membership
+    - permit_license
+  form:
+    status: active
+    domains:
+    - administrative
+    - operations
+    - business
+    - people
+    - health
+    - community
+    - personal
+    allowed_categories:
+    - administrative
+    - operations
+    - business
+    - people
+    - health
+    - community
+    - personal
+    allowed_subcategories:
+    - form_submission
+    - application
+    - site_access_compliance
+    - other
+    - personnel_request
+    - care_administration
+    - membership
+    - coaching_support
+    - policy_compliance
+  statement:
+    status: active
+    domains:
+    - finance
+    - business
+    - administrative
+    - health
+    - community
+    allowed_categories:
+    - finance
+    - business
+    - administrative
+    - health
+    - community
+    allowed_subcategories:
+    - financial_summary
+    - customer_account
+    - vendor_management
+    - care_administration
+    - donation_support
+    - other
+  payslip:
+    status: active
+    domains:
+    - finance
+    - business
+    - people
+    allowed_categories:
+    - finance
+    - business
+    - people
+    allowed_subcategories:
+    - payroll_accounting
+    - employment
+    - other
+  policy:
+    status: active
+    domains:
+    - business
+    - legal
+    - administrative
+    - health
+    - community
+    - personal
+    allowed_categories:
+    - business
+    - legal
+    - administrative
+    - health
+    - community
+    - personal
+    allowed_subcategories:
+    - governance
+    - policy_compliance
+    - compliance_notice
+    - wellbeing_plan
+    - spiritual_guidance
+    - other
+  schedule:
+    status: active
+    domains:
+    - administrative
+    - business
+    - health
+    - community
+    - personal
+    - operations
+    allowed_categories:
+    - administrative
+    - business
+    - health
+    - community
+    - personal
+    - operations
+    allowed_subcategories:
+    - payment_schedule
+    - execution_plan
+    - treatment_plan
+    - community_event
+    - wellbeing_plan
+    - coaching_support
+    - travel_instruction
+    - other
+  prescription:
+    status: active
+    domains:
+    - health
+    allowed_categories:
+    - health
+    allowed_subcategories:
+    - medication
+    - care_administration
+    - other
+  membership_record:
+    status: active
+    domains:
+    - community
+    - people
+    - administrative
+    - finance
+    allowed_categories:
+    - community
+    - people
+    - administrative
+    - finance
+    allowed_subcategories:
+    - membership
+    - donation_support
+    - identity_record
+    - other
+  profile:
+    status: active
+    domains:
+    - people
+    - business
+    - community
+    - personal
+    - health
+    allowed_categories:
+    - people
+    - business
+    - community
+    - personal
+    - health
+    allowed_subcategories:
+    - corporate_profile
+    - identity_record
+    - education_record
+    - self_reflection
+    - pastoral_care
+    - other
+  other:
+    status: active
+    domains:
+    - other
+    - operations
+    allowed_categories:
+    - other
+    - operations
+    allowed_subcategories:
+    - travel_instruction
+    - inventory
+    - other
+  narrative_text:
+    domains:
+    - personal
+    - community
+    - other
+    status: active
+    allowed_categories:
+    - personal
+    - community
+    - other
+    allowed_subcategories:
+    - creative_writing
+    - self_reflection
+    - habit_tracking
+    - coaching_support
+    - recovery_plan
+    - pastoral_care
+    - general_correspondence
+    - community_event
+    - other
+categories:
+  finance:
+    status: active
+    domains:
+    - finance
+  property:
+    status: active
+    domains:
+    - property
+  legal:
+    status: active
+    domains:
+    - legal
+  administrative:
+    status: active
+    domains:
+    - administrative
+  technical:
+    status: active
+    domains:
+    - technical
+  operations:
+    status: active
+    domains:
+    - operations
+  personal:
+    status: active
+    domains:
+    - personal
+  business:
+    status: active
+    domains:
+    - business
+  people:
+    status: active
+    domains:
+    - people
+  health:
+    status: active
+    domains:
+    - health
+  community:
+    status: active
+    domains:
+    - community
+  other:
+    status: active
+    domains:
+    - other
+subcategories:
+  accounts_payable:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+  accounts_receivable:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+  utilities:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - property
+  rent:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - property
+  budget_quote:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+  payment_followup:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+  payment_schedule:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - property
+  advance_payment_adjustment:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - property
+  financial_summary:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+  tenant_communication:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  tenant_application:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  owner_communication:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  maintenance:
+    status: active
+    parent_category: property
+    domains:
+    - property
+    - technical
+  damage:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  handover:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  metering:
+    status: active
+    parent_category: property
+    domains:
+    - property
+    - technical
+  property_information:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  service_provider_communication:
+    status: active
+    parent_category: property
+    domains:
+    - property
+  contract:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+  contract_change:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+  termination:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+  legal_correspondence:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+  application:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  official_notice:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  general_correspondence:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  minutes:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  form_submission:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  inspection:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  measurement:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  energy:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  technical_correspondence:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  technical_specification:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  feasibility_study:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+  logistics:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  procurement:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  execution_plan:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  travel_instruction:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  site_access_compliance:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  inventory:
+    status: active
+    parent_category: operations
+    domains:
+    - operations
+  recovery_plan:
+    status: active
+    parent_category: personal
+    domains:
+    - personal
+  business_correspondence:
+    status: active
+    parent_category: business
+    domains:
+    - business
+  corporate_profile:
+    status: active
+    parent_category: business
+    domains:
+    - business
+    - people
+  governance:
+    status: active
+    parent_category: business
+    domains:
+    - business
+    - legal
+    - administrative
+  customer_account:
+    status: active
+    parent_category: business
+    domains:
+    - business
+    - finance
+  vendor_management:
+    status: active
+    parent_category: business
+    domains:
+    - business
+    - finance
+    - operations
+  policy_compliance:
+    status: active
+    parent_category: business
+    domains:
+    - business
+    - legal
+    - administrative
+  payroll_accounting:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - business
+    - people
+  budget_planning:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - business
+  tax_reporting:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - legal
+    - administrative
+  expense_reimbursement:
+    status: active
+    parent_category: finance
+    domains:
+    - finance
+    - business
+    - people
+  compliance_notice:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+    - administrative
+    - business
+  court_case:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+  permit_license:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+    - administrative
+  registration_record:
+    status: active
+    parent_category: legal
+    domains:
+    - legal
+    - administrative
+    - business
+  civic_service:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+  benefit_case:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+    - people
+    - health
+    - finance
+  identity_verification:
+    status: active
+    parent_category: administrative
+    domains:
+    - administrative
+    - people
+    - legal
+  asset_documentation:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+    - operations
+  maintenance_protocol:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+    - operations
+  incident_diagnosis:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+    - operations
+  quality_assurance:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+    - business
+  engineering_change:
+    status: active
+    parent_category: technical
+    domains:
+    - technical
+    - business
+  identity_record:
+    status: active
+    parent_category: people
+    domains:
+    - people
+    - administrative
+    - legal
+  employment:
+    status: active
+    parent_category: people
+    domains:
+    - people
+    - business
+  personnel_request:
+    status: active
+    parent_category: people
+    domains:
+    - people
+    - business
+    - administrative
+  education_record:
+    status: active
+    parent_category: people
+    domains:
+    - people
+    - business
+  care_administration:
+    status: active
+    parent_category: health
+    domains:
+    - health
+    - administrative
+    - finance
+  medical_certificate:
+    status: active
+    parent_category: health
+    domains:
+    - health
+    - people
+  treatment_plan:
+    status: active
+    parent_category: health
+    domains:
+    - health
+  medication:
+    status: active
+    parent_category: health
+    domains:
+    - health
+  insurance_health:
+    status: active
+    parent_category: health
+    domains:
+    - health
+    - finance
+    - administrative
+  wellbeing_plan:
+    status: active
+    parent_category: personal
+    domains:
+    - personal
+    - health
+  self_reflection:
+    status: active
+    parent_category: personal
+    domains:
+    - personal
+  habit_tracking:
+    status: active
+    parent_category: personal
+    domains:
+    - personal
+    - health
+  coaching_support:
+    status: active
+    parent_category: personal
+    domains:
+    - personal
+    - people
+    - community
+  membership:
+    status: active
+    parent_category: community
+    domains:
+    - community
+    - people
+    - administrative
+  community_event:
+    status: active
+    parent_category: community
+    domains:
+    - community
+    - personal
+  spiritual_guidance:
+    status: active
+    parent_category: community
+    domains:
+    - community
+    - personal
+  pastoral_care:
+    status: active
+    parent_category: community
+    domains:
+    - community
+    - personal
+    - people
+  donation_support:
+    status: active
+    parent_category: community
+    domains:
+    - community
+    - finance
+  other:
+    status: active
+    parent_category: other
+    domains:
+    - other
+  creative_writing:
+    domains:
+    - personal
+    - community
+    status: active
+    parent_category: personal
+field_codes:
+  issuer:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - technical
+    - administrative
+    - operations
+    semantic_binding:
+      entity_type: party
+      role_type: issuer
+      attribute_code: name
+  sender:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - technical
+    - operations
+    - personal
+    semantic_binding:
+      entity_type: party
+      role_type: sender
+      attribute_code: name
+  sender_address:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    - operations
+    semantic_binding:
+      entity_type: address
+      role_type: sender
+      attribute_code: address_text
+  recipient:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    - operations
+    - technical
+    semantic_binding:
+      entity_type: party
+      role_type: recipient
+      attribute_code: name
+  recipient_address:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    - operations
+    semantic_binding:
+      entity_type: address
+      role_type: recipient
+      attribute_code: address_text
+  recipient_primary:
+    status: active
+    value_type: string
+    domains:
+    - property
+    - finance
+    - administrative
+    semantic_binding:
+      entity_type: party
+      role_type: recipient_primary
+      attribute_code: name
+  customer_name:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: party
+      role_type: customer
+      attribute_code: name
+  customer_number:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: customer_number
+  tenant_name:
+    status: active
+    value_type: string
+    domains:
+    - property
+    semantic_binding:
+      entity_type: party
+      role_type: tenant
+      attribute_code: name
+  owner_name:
+    status: active
+    value_type: string
+    domains:
+    - property
+    semantic_binding:
+      entity_type: party
+      role_type: owner
+      attribute_code: name
+  property_manager_name:
+    status: active
+    value_type: string
+    domains:
+    - property
+    semantic_binding:
+      entity_type: party
+      role_type: property_manager
+      attribute_code: name
+  property_address:
+    status: active
+    value_type: string
+    domains:
+    - property
+    - finance
+    semantic_binding:
+      entity_type: property
+      role_type: property_address
+      attribute_code: address_text
+  property_manager_internal_id:
+    status: active
+    value_type: string
+    domains:
+    - property
+    semantic_binding:
+      entity_type: identifier
+      role_type: property_manager
+      attribute_code: identifier_value
+      identifier_family: property_manager_internal_id
+  document_number:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - administrative
+    - legal
+    - operations
+    - technical
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: document_number
+  our_reference:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - operations
+    - technical
+    semantic_binding:
+      entity_type: identifier
+      role_type: our_reference
+      attribute_code: identifier_value
+      identifier_family: our_reference
+  your_reference:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - operations
+    - technical
+    semantic_binding:
+      entity_type: identifier
+      role_type: your_reference
+      attribute_code: identifier_value
+      identifier_family: your_reference
+  subject:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    - finance
+    - technical
+    - operations
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: subject
+  salutation:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: salutation
+  closing:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - property
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: closing
+  signoff:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: signoff
+  invoice_number:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: invoice_number
+  contract_number:
+    status: active
+    value_type: string
+    domains:
+    - legal
+    - property
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: contract_number
+  account_number:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: account_number
+  document_date:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    - property
+    - administrative
+    - technical
+    - operations
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: document_date
+  period_from:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      entity_type: period
+      attribute_code: from
+  period_to:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      entity_type: period
+      attribute_code: to
+  service_end_date:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: service_end_date
+  due_date:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: due_date
+  currency:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: currency
+  reference_amount:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      entity_type: financial_amount
+      attribute_code: reference_amount
+  total_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: financial_amount
+      attribute_code: total_amount
+  net_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: financial_amount
+      attribute_code: net_amount
+  tax_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: financial_amount
+      attribute_code: tax_amount
+  balance_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: financial_amount
+      attribute_code: balance_amount
+  bank_name:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: bank_name
+  iban:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: iban
+  bic:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: bic
+  phone:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - property
+    - finance
+    - operations
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: phone
+  fax:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: fax
+  email:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: email
+  website:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: website
+  mobile_number:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: mobile_number
+  access_code:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: access_code
+  contact_person:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    - administrative
+    - technical
+    semantic_binding:
+      entity_type: party
+      role_type: contact_person
+      attribute_code: name
+  signatory:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: party
+      role_type: signatory
+      attribute_code: name
+  signatory_role:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - legal
+    - administrative
+    - technical
+    - operations
+    - personal
+    - business
+    - people
+    - health
+    - community
+    semantic_binding:
+      entity_type: party
+      role_type: signatory
+      attribute_code: title
+  carrier_name:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    semantic_binding:
+      entity_type: party
+      role_type: carrier
+      attribute_code: name
+  vehicle_registration:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    semantic_binding:
+      entity_type: identifier
+      role_type: vehicle_registration
+      attribute_code: identifier_value
+      identifier_family: vehicle_registration
+  loading_address:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    semantic_binding:
+      entity_type: address
+      role_type: loading
+      attribute_code: address_text
+  transfer_address:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    semantic_binding:
+      entity_type: address
+      role_type: transfer
+      attribute_code: address_text
+  unloading_address:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    semantic_binding:
+      entity_type: address
+      role_type: unloading
+      attribute_code: address_text
+  register_court:
+    status: active
+    value_type: string
+    domains:
+    - legal
+    - administrative
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: register_court
+  commercial_register:
+    status: active
+    value_type: string
+    domains:
+    - legal
+    - administrative
+    - finance
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: commercial_register
+  tax_id:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - legal
+    - administrative
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: tax_id
+  page_indicator:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: page_indicator
+  meter_id:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: meter_id
+  case_id:
+    status: active
+    value_type: string
+    domains:
+    - legal
+    - administrative
+    semantic_binding:
+      entity_type: identifier
+      attribute_code: identifier_value
+      identifier_family: case_id
+  asset_id:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - operations
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: asset_id
+  serial_number:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: serial_number
+  site_name:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - operations
+    - business
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: site_name
+  department_name:
+    status: active
+    value_type: string
+    domains:
+    - business
+    - people
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: department_name
+  cost_center:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - business
+    - people
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: cost_center
+  employee_id:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - business
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: employee_id
+  job_title:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - business
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: job_title
+  person_name:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - health
+    - community
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: person_name
+  personal_id_number:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - legal
+    - administrative
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: personal_id_number
+  date_of_birth:
+    status: active
+    value_type: date_or_string
+    domains:
+    - people
+    - health
+    - administrative
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: date_of_birth
+  place_of_birth:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - administrative
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: place_of_birth
+  nationality:
+    status: active
+    value_type: string
+    domains:
+    - people
+    - administrative
+    - legal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: nationality
+  authority_name:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    - health
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: authority_name
+  permit_number:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - legal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: permit_number
+  patient_name:
+    status: active
+    value_type: string
+    domains:
+    - health
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: patient_name
+  provider_name:
+    status: active
+    value_type: string
+    domains:
+    - health
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: provider_name
+  insurance_number:
+    status: active
+    value_type: string
+    domains:
+    - health
+    - finance
+    - people
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: insurance_number
+  diagnosis:
+    status: active
+    value_type: string
+    domains:
+    - health
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: diagnosis
+  care_level:
+    status: active
+    value_type: number_or_string
+    domains:
+    - health
+    - administrative
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: care_level
+  medication_name:
+    status: active
+    value_type: string
+    domains:
+    - health
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: medication_name
+  appointment_date:
+    status: active
+    value_type: date_or_string
+    domains:
+    - health
+    - personal
+    - community
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: appointment_date
+  community_name:
+    status: active
+    value_type: string
+    domains:
+    - community
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: community_name
+  membership_id:
+    status: active
+    value_type: string
+    domains:
+    - community
+    - people
+    - finance
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: membership_id
+  event_name:
+    status: active
+    value_type: string
+    domains:
+    - community
+    - personal
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: event_name
+  other:
+    status: active
+    value_type: string
+    domains:
+    - other
+    semantic_binding:
+      entity_type: document_fact
+      attribute_code: other
+row_types:
+  line_item:
+    status: active
+    domains:
+    - finance
+    - operations
+    - technical
+    recommended_cell_codes:
+    - description
+    - quantity
+    - unit
+    - dimension
+    - material
+    - drawing_reference
+    - unit_price
+    - line_total
+    - position
+    semantic_binding:
+      entity_type: line_item
+      role_type: line_item
+      materialize_each_row: true
+  cost_breakdown_current:
+    status: active
+    domains:
+    - finance
+    - property
+    recommended_cell_codes:
+    - description
+    - tenant_share_cost
+    - amount_due
+    semantic_binding:
+      entity_type: line_item
+      role_type: cost_breakdown_current
+      materialize_each_row: true
+  cost_breakdown_history:
+    status: active
+    domains:
+    - finance
+    - property
+    recommended_cell_codes:
+    - building_total_heating_cost
+    - tenant_share_heating_cost
+    semantic_binding:
+      entity_type: line_item
+      role_type: cost_breakdown_history
+      materialize_each_row: true
+  consumption_current:
+    status: active
+    domains:
+    - technical
+    - property
+    recommended_cell_codes:
+    - description
+    - building_total_usage
+    - tenant_share_usage
+    - percentage_share
+    - usage_unit
+    - average_building_usage
+    - average_tenant_usage
+    - average_usage_unit
+    semantic_binding:
+      entity_type: measurement
+      role_type: measurement_entry
+      materialize_each_row: true
+  consumption_history:
+    status: active
+    domains:
+    - technical
+    - property
+    recommended_cell_codes:
+    - description
+    - building_total_usage
+    - tenant_share_usage
+    - percentage_share
+    - usage_unit
+    - average_building_usage
+    - average_tenant_usage
+    - average_usage_unit
+    semantic_binding:
+      entity_type: measurement
+      role_type: measurement_entry
+      materialize_each_row: true
+  payment_schedule:
+    status: active
+    domains:
+    - finance
+    recommended_cell_codes:
+    - scheduled_date
+    - base_amount
+    - adjustment_amount
+    - gross_amount
+    - net_amount
+    - tax_amount
+    - percentage_share
+    - amount_due
+    - description
+    semantic_binding:
+      entity_type: event
+      role_type: schedule_entry
+      materialize_each_row: true
+  account_entry:
+    status: active
+    domains:
+    - finance
+    recommended_cell_codes:
+    - description
+    - scheduled_date
+    - account_delta
+    - amount_due
+    - amount_paid
+    - balance
+    semantic_binding:
+      entity_type: event
+      role_type: account_entry
+      materialize_each_row: true
+  meter_reading_series:
+    status: active
+    domains:
+    - technical
+    - property
+    recommended_cell_codes:
+    - description
+    - building_total_usage
+    - tenant_share_usage
+    semantic_binding:
+      entity_type: measurement
+      role_type: measurement_entry
+      materialize_each_row: true
+  participant_list:
+    status: active
+    domains:
+    - administrative
+    - operations
+    recommended_cell_codes:
+    - participant_role
+    - name
+    - note
+    - signature_marker
+    - other
+    semantic_binding:
+      entity_type: party
+      role_type: participant_list
+      materialize_each_row: true
+  contact_block:
+    status: active
+    domains:
+    - administrative
+    recommended_cell_codes:
+    - description
+    - other
+    semantic_binding:
+      entity_type: document_fact
+      role_type: contact_block
+      materialize_each_row: true
+  timeline_entry:
+    status: active
+    domains:
+    - administrative
+    - operations
+    recommended_cell_codes:
+    - scheduled_date
+    - description
+    - note
+    - section
+    - other
+    semantic_binding:
+      entity_type: event
+      role_type: timeline_entry
+      materialize_each_row: true
+  other:
+    status: active
+    domains:
+    - other
+    recommended_cell_codes:
+    - other
+    semantic_binding:
+      entity_type: document_fact
+      role_type: other
+      materialize_each_row: false
+cell_codes:
+  description:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - property
+    - technical
+    - administrative
+    - operations
+    - personal
+    semantic_binding:
+      attribute_code: description
+      materialize_on_row_entity: true
+  quantity:
+    status: active
+    value_type: number_or_string
+    domains:
+    - finance
+    - operations
+    - technical
+    semantic_binding:
+      attribute_code: quantity
+      materialize_on_row_entity: true
+  unit:
+    status: active
+    value_type: string
+    domains:
+    - finance
+    - technical
+    - operations
+    semantic_binding:
+      attribute_code: unit
+      materialize_on_row_entity: true
+  scheduled_date:
+    status: active
+    value_type: date_or_string
+    domains:
+    - finance
+    - operations
+    semantic_binding:
+      attribute_code: scheduled_date
+      materialize_on_row_entity: true
+  position:
+    status: active
+    value_type: number_or_string
+    domains:
+    - operations
+    - technical
+    semantic_binding:
+      attribute_code: position
+      materialize_on_row_entity: true
+  unit_price:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: unit_price
+      materialize_on_row_entity: true
+  line_total:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: line_total
+      materialize_on_row_entity: true
+  base_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: base_amount
+      materialize_on_row_entity: true
+  adjustment_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: adjustment_amount
+      materialize_on_row_entity: true
+  gross_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: gross_amount
+      materialize_on_row_entity: true
+  building_total_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: building_total_cost
+      materialize_on_row_entity: true
+  building_total_heating_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: building_total_heating_cost
+      materialize_on_row_entity: true
+  building_total_warmwater_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: building_total_warmwater_cost
+      materialize_on_row_entity: true
+  tenant_share_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: tenant_share_cost
+      materialize_on_row_entity: true
+  tenant_share_heating_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: tenant_share_heating_cost
+      materialize_on_row_entity: true
+  tenant_share_warmwater_cost:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: tenant_share_warmwater_cost
+      materialize_on_row_entity: true
+  building_total_usage:
+    status: active
+    value_type: number_or_string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: building_total_usage
+      materialize_on_row_entity: true
+  tenant_share_usage:
+    status: active
+    value_type: number_or_string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: tenant_share_usage
+      materialize_on_row_entity: true
+  average_building_usage:
+    status: active
+    value_type: number_or_string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: average_building_usage
+      materialize_on_row_entity: true
+  average_tenant_usage:
+    status: active
+    value_type: number_or_string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: average_tenant_usage
+      materialize_on_row_entity: true
+  usage_unit:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: usage_unit
+      materialize_on_row_entity: true
+  average_usage_unit:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - property
+    semantic_binding:
+      attribute_code: average_usage_unit
+      materialize_on_row_entity: true
+  percentage_share:
+    status: active
+    value_type: number_or_string
+    domains:
+    - finance
+    - property
+    semantic_binding:
+      attribute_code: percentage_share
+      materialize_on_row_entity: true
+  account_delta:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: account_delta
+      materialize_on_row_entity: true
+  amount_due:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: amount_due
+      materialize_on_row_entity: true
+  amount_paid:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: amount_paid
+      materialize_on_row_entity: true
+  balance:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: balance
+      materialize_on_row_entity: true
+  net_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: net_amount
+      materialize_on_row_entity: true
+  tax_amount:
+    status: active
+    value_type: number_or_money_string
+    domains:
+    - finance
+    semantic_binding:
+      attribute_code: tax_amount
+      materialize_on_row_entity: true
+  participant_role:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - operations
+    semantic_binding:
+      attribute_code: participant_role
+      materialize_on_row_entity: true
+  name:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - operations
+    - technical
+    - personal
+    semantic_binding:
+      attribute_code: name
+      materialize_on_row_entity: true
+  note:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - operations
+    - technical
+    - personal
+    semantic_binding:
+      attribute_code: note
+      materialize_on_row_entity: true
+  section:
+    status: active
+    value_type: string
+    domains:
+    - operations
+    - technical
+    semantic_binding:
+      attribute_code: section
+      materialize_on_row_entity: true
+  drawing_reference:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - operations
+    semantic_binding:
+      attribute_code: drawing_reference
+      materialize_on_row_entity: true
+  material:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - operations
+    semantic_binding:
+      attribute_code: material
+      materialize_on_row_entity: true
+  dimension:
+    status: active
+    value_type: string
+    domains:
+    - technical
+    - operations
+    semantic_binding:
+      attribute_code: dimension
+      materialize_on_row_entity: true
+  signature_marker:
+    status: active
+    value_type: string
+    domains:
+    - administrative
+    - operations
+    - legal
+    semantic_binding:
+      attribute_code: signature_marker
+      materialize_on_row_entity: true
+  status:
+    status: active
+    value_type: string
+    domains:
+    - business
+    - technical
+    - administrative
+    - health
+    - community
+    semantic_binding:
+      attribute_code: status
+      materialize_on_row_entity: true
+  identifier:
+    status: active
+    value_type: string
+    domains:
+    - business
+    - technical
+    - administrative
+    - health
+    - community
+    semantic_binding:
+      attribute_code: identifier
+      materialize_on_row_entity: true
+  rate:
+    status: active
+    value_type: number_or_string
+    domains:
+    - finance
+    - business
+    - people
+    semantic_binding:
+      attribute_code: rate
+      materialize_on_row_entity: true
+  hours:
+    status: active
+    value_type: number_or_string
+    domains:
+    - people
+    - business
+    - personal
+    semantic_binding:
+      attribute_code: hours
+      materialize_on_row_entity: true
+  dosage:
+    status: active
+    value_type: number_or_string
+    domains:
+    - health
+    semantic_binding:
+      attribute_code: dosage
+      materialize_on_row_entity: true
+  frequency:
+    status: active
+    value_type: string
+    domains:
+    - health
+    - personal
+    - community
+    semantic_binding:
+      attribute_code: frequency
+      materialize_on_row_entity: true
+  other:
+    status: active
+    value_type: string
+    domains:
+    - other
+    semantic_binding:
+      attribute_code: other
+      materialize_on_row_entity: true
+entity_types:
+  party: {}
+  address: {}
+  identifier: {}
+  financial_amount: {}
+  period: {}
+  property: {}
+  document_fact: {}
+  line_item: {}
+  measurement: {}
+  event: {}
+role_types:
+  issuer: {}
+  sender: {}
+  recipient: {}
+  recipient_primary: {}
+  customer: {}
+  tenant: {}
+  owner: {}
+  property_manager: {}
+  property_address: {}
+  contact_person: {}
+  signatory: {}
+  carrier: {}
+  loading: {}
+  transfer: {}
+  unloading: {}
+  our_reference: {}
+  your_reference: {}
+  vehicle_registration: {}
+  schedule_entry: {}
+  account_entry: {}
+  measurement_entry: {}
+  timeline_entry: {}
+relation_types:
+  normalized_from: {}
+  document_has_entity: {}
+  entity_reference: {}

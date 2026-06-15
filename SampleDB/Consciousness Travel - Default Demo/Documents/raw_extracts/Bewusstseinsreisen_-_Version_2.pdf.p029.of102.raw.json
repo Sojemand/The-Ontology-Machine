@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=029-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5bc0878d2c3c64bbfa809a91a29f157ddd6ceec2d25b79b5b10710b4a2dd7048",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 29,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=029-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page29_para_0",
+        "type": "paragraph",
+        "value": "machen sich aber hin und wieder mal bemerkbar, wenn was nicht stimmt. Das reicht von recht",
+        "position": {
+          "page": 29,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page29_para_1",
+        "type": "paragraph",
+        "value": "subtilen Dingen wie einem tiefen Atemzug, wenn die Nieren dem Gehirn mitteilen doch bitte den",
+        "position": {
+          "page": 29,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page29_para_2",
+        "type": "paragraph",
+        "value": "Sauerstoffgehalt des Blutes zu erhöhen, zu recht offensichtlichen Dingen, wie das Verlangen zu",
+        "position": {
+          "page": 29,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page29_para_3",
+        "type": "paragraph",
+        "value": "Trinken wenn das Gehirn einen Abfall im osmotischen Druck registriert. Auch kennt jeder den",
+        "position": {
+          "page": 29,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page29_para_4",
+        "type": "paragraph",
+        "value": "Vorgang, wenn unser neuroendokrines System unserem Gehirn vorschlägt, dass es doch an",
+        "position": {
+          "page": 29,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page29_para_5",
+        "type": "paragraph",
+        "value": "der Zeit sei Abfall los zu werden. Die meisten dieser Systeme arbeiten allerdings im",
+        "position": {
+          "page": 29,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page29_para_6",
+        "type": "paragraph",
+        "value": "Hintergrund, völlig unbemerkt und wir werden uns ihnen nur dann wirklich bewusst, wenn mal",
+        "position": {
+          "page": 29,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page29_para_7",
+        "type": "paragraph",
+        "value": "was schief läuft und wir im Krankenhaus aufwachen.",
+        "position": {
+          "page": 29,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page29_para_8",
+        "type": "paragraph",
+        "value": "Wenn wir aber einmal bewusst versuchen zu ergründen, wie viel unseres täglichen Verhaltens",
+        "position": {
+          "page": 29,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page29_para_9",
+        "type": "paragraph",
+        "value": "darauf ausgerichtet ist, diese Balance aufrecht zu erhalten, dann müssen wir überrascht",
+        "position": {
+          "page": 29,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page29_para_10",
+        "type": "paragraph",
+        "value": "feststellen, dass wir fast nichts anderes tun. Unser gesamter Tagesablauf ist um diese Systeme",
+        "position": {
+          "page": 29,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page29_para_11",
+        "type": "paragraph",
+        "value": "herum strukturiert. Jeder weiß doch: Wir arbeiten um zu Leben, oder genauer, um zu",
+        "position": {
+          "page": 29,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page29_para_12",
+        "type": "paragraph",
+        "value": "überleben. Alle unsere Tätigkeiten zielen am Ende darauf ab, unseren Fleischklops einen",
+        "position": {
+          "page": 29,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page29_para_13",
+        "type": "paragraph",
+        "value": "weiteren Tag über die Runden zu bringen. Zugegeben, das ist ein recht zynischer Blick auf die",
+        "position": {
+          "page": 29,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page29_para_14",
+        "type": "paragraph",
+        "value": "menschliche Existenz, aber ohne unsere Anstrengungen, unser Gleichgewicht aufrecht zu",
+        "position": {
+          "page": 29,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page29_para_15",
+        "type": "paragraph",
+        "value": "erhalten, gäbe es uns erst gar nicht.",
+        "position": {
+          "page": 29,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page29_para_16",
+        "type": "paragraph",
+        "value": "Und wir tun all diese Dinge auch nicht weil wir es so wollen oder wir uns dazu entschieden",
+        "position": {
+          "page": 29,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page29_para_17",
+        "type": "paragraph",
+        "value": "haben. Wir tun sie weil unser Körper uns sanft aber bestimmt in die Richtung drängt, die für ihn",
+        "position": {
+          "page": 29,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page29_para_18",
+        "type": "paragraph",
+        "value": "am vorteilhaftesten ist, oder sie zumindest als vorteilhaft empfindet. Das ist keine Frage des",
+        "position": {
+          "page": 29,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page29_para_19",
+        "type": "paragraph",
+        "value": "freien Willens. Man kann dieses Drängen auch ignorieren, aber an einem Punkt muss man",
+        "position": {
+          "page": 29,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page29_para_20",
+        "type": "paragraph",
+        "value": "einlenken, will man nicht in einem Krankenhaus aufwachen.",
+        "position": {
+          "page": 29,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page29_para_21",
+        "type": "paragraph",
+        "value": "Man kann die Luft anhalten bis man umfällt. Man kann so wenig trinken bis dich Dehydration",
+        "position": {
+          "page": 29,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page29_para_22",
+        "type": "paragraph",
+        "value": "umfallen lässt. Man kann sich weigern aufs Klo zu gehen bis man in die Hose macht, im Winter",
+        "position": {
+          "page": 29,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page29_para_23",
+        "type": "paragraph",
+        "value": "ohne Klamotten raus gehen bis man erfriert, nicht schlafen bis man halluzinierend umfällt,",
+        "position": {
+          "page": 29,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page29_para_24",
+        "type": "paragraph",
+        "value": "nichts essen bis man, ihr ahnt es, umfällt und so lange ungeschützt in der Wüste umher gehen",
+        "position": {
+          "page": 29,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page29_para_25",
+        "type": "paragraph",
+        "value": "bis man, naja, ich denke die Message ist angekommen. Alles was wir tun können sind",
+        "position": {
+          "page": 29,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page29_para_26",
+        "type": "paragraph",
+        "value": "temporäre Störungen zu erzeugen, wenn wir uns weigern aktiv zur Balance beizutragen.",
+        "position": {
+          "page": 29,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page29_para_27",
+        "type": "paragraph",
+        "value": "Ersteres ist unangenehm, letzteres mühselig. Eine Wahl haben wir nicht wirklich.",
+        "position": {
+          "page": 29,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page29_para_28",
+        "type": "paragraph",
+        "value": "Wie wenig wir da wirklich Einfluss haben, erschließt sich uns wenn wir erkennen, dass wir",
+        "position": {
+          "page": 29,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page29_para_29",
+        "type": "paragraph",
+        "value": "keines dieser Systeme aktiv und dauerhaft verändern können. Wir können nicht einfach",
+        "position": {
+          "page": 29,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page29_para_30",
+        "type": "paragraph",
+        "value": "entscheiden, unser Herz nur noch mit 30 Schlägen pro Minute zu betreiben, oder unsere",
+        "position": {
+          "page": 29,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

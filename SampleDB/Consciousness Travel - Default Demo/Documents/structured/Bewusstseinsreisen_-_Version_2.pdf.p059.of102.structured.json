@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:51:06.659367+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 59,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=059-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.95,
+      "reason": "A nonfiction philosophical book page is visible with a section heading and continuous argumentative paragraphs.",
+      "matched_signals": [
+        "section heading",
+        "continuous paragraphs",
+        "philosophical discussion",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page59_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 59,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "„hinauf“ zu blicken und zu verstehen, aus welchem Grund der Lehrer oder die Eltern bestimmte Dinge tun oder verlangen. Erst wenn der Schüler oder das Kind auf der gleichen Ebene angekommen ist wie der Lehrer oder die Eltern, ist es dem jeweiligen möglich korrekt zu bewerten, ob die Art der Erziehung oder der Lehre gut oder schlecht war. Was allerdings weder den Lehrling noch das Kind davon abhält sich permanent ob des Unsinns zu beschweren, den man ihnen versucht zu lehren. Auch mag es dem Lehrenden an Reife fehlen um anzuerkennen, wann er nichts mehr zu lehren hat. Wir sind halt doch nur Menschen.",
+        "function": "reflection_on_learning_and_maturity",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page59_Segment2",
+        "unit_kind": "title_line",
+        "page": 59,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Der Drang nach oben",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page59_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 59,
+        "sequence": 3,
+        "section": "Der Drang nach oben",
+        "label": null,
+        "text": "Nehmen wir also aus Spaß einmal an, dass jene Gesetzmäßigkeiten, die wir beim Übergang des Traumbewusstseins in das Wachbewusstsein ausgemacht haben, auch gelten könnten, wenn wir noch einen weiteren Schritt nach Oben machen wollen. Wir haben erkannt, wie sich unser Realitätsmodell ändert, wenn wir uns den Gesetzen der wachen Welt bewusst werden. Wir haben gesehen, wie eingeschränkt unsere Wahrnehmung im Traum ist und wie sie sich erweitert, wenn wir uns über Zusammenhänge klar werden, die uns nur im Wachbewusstsein zugänglich sind. So müssen wir annehmen, dass diese Regel auch für das gilt, was geschehen müsste, würden wir ein Bewusstsein erfahren, welches über dem Wachbewusstsein liegt. Wir würden also aufgrund eines weiter ausgedehnten Gewahrseins in die Lage versetzt, Zusammenhänge und Regeln zu erkennen, die sich im Wachbewusstsein noch außerhalb des Zaunes unseres Gewahrseins befinden. Wenn wir uns dann im Zuge dieser Ausdehnung, diesen neuen Zusammenhänge bewusst werden, werden diese dann die neue Grundlage bilden, auf denen wir unser eigenes Realitätsmodell und unsere Entscheidungen gründen werden. Wir würden folgerichtig erkennen, dass das, was wir jetzt als Wachbewusstsein erfahren, nur eine Teilmenge dessen ausmacht, was wir dann als „Wirklichkeit“ anerkennen. Und wir erkennen auch, dass alle Entscheidungen, die wir während des Wachbewusstseins getroffen haben, sich nur noch sehr begrenzt mit dem vereinbaren lassen, was jetzt unsere Entscheidungen bestimmt. Sicher würdet ihr euer Zauberbuch umgehend in die Tonne treten.",
+        "function": "speculative_argument_about_higher_consciousness",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page59_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 59,
+        "sequence": 4,
+        "section": "Der Drang nach oben",
+        "label": null,
+        "text": "Um den Kreis zu schließen, müssten wir dann auch in einer Position sein, die es uns erlaubt, in unser Wachbewusstsein „hinunter“ oder „hinein“ zu sehen und sämtliche Widersprüche darin erkennen, so, wie wir sie in unseren Träumen erkennen. Wären also die Regeln, die wir entworfen haben, auch dann noch gültig, wenn wir uns nach Oben bewegen wollen, so haben wir ein gutes Modell, welches Voraussagen möglich macht, die wir überprüfen können. Und",
+        "function": "argumentative_transition",
+        "confidence": 0.95
+      }
+    ],
+    "free_text": "Buchseite zu Bewusstseinsebenen, Wahrnehmung, Abschnitt „Der Drang nach oben“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=059-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:cb0b5a155ec53182e2034afb1bc2417253c2a8b430f2a58d04a0f03ea2d270a7",
+    "created_at": null,
+    "modified_at": null
+  }
+}

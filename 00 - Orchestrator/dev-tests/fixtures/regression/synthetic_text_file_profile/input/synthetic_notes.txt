@@ -1,0 +1,1 @@
+Synthetic fixture input for synthetic_text_file_profile. No real data copied.

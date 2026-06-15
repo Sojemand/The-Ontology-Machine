@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:39:52.220051+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 31,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=031-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.78,
+      "reason": "A born-digital German nonfiction book page with continuous philosophical/explanatory prose paragraphs is visible.",
+      "matched_signals": [
+        "born-digital book page",
+        "continuous prose paragraphs",
+        "philosophical explanatory writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page31_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 31,
+        "sequence": 1,
+        "text": "Du erkennst mit Entsetzen, dass sich die Welt um dich herum in ein Kriegsgebiet verwandelt und wenn du stehen bleibst wird das dein Ende sein. Du rennst und rennst, immer den Tod im Nacken. Du isst nichts und trinkst nichts, dazu ist keine Zeit, keine Zeit zu rasten oder zu Besinnung zu kommen. Einen ganzen Tag lang, dann zwei, dann drei. Du spürst wie du dir Schäden an deinen Muskeln zuziehst, wie der Wassermangel beginnt deine Sinne zu trüben und der Schlafmangel es dir immer schwerer macht klar zu denken. Aber stehen bleiben ist keine Option. Deine Häscher sind dir auf den Fersen. Du kannst sie hören, ja fast riechen.",
+        "function": "threat_scenario_description",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page31_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 31,
+        "sequence": 2,
+        "text": "Deine Maschine peitscht dich immer weiter und weiter und du hast längst die Schwelle überschritten, an der du beginnst von deiner eigenen Substanz zu zehren. Doch noch ist die Gefahr nicht vorüber. Du kannst zwar schon lange nicht mehr rennen, aber laufen kannst du noch und du läufst und läufst und läufst. Irgendwann bist du nicht mehr wirklich bei Bewusstsein, du weißt nicht mehr wirklich was du tust oder wo du bist. Du näherst dich dem Punkt, an dem deine Energie aufgebraucht ist und diesmal steht an dessen Ende nicht die wohlige Erschöpfung eines intensiven Trainings, an dieser Schwelle wartet der Tod auf dich. Doch bevor dich dieses Schicksal ereilt, brichst du an einem Bachlauf zusammen, gerade noch fähig ein wenig Wasser zu trinken und zu erkennen, dass du endlich in Sicherheit bis. Und dann lässt dich deine Maschine endlich in die lang ersehnte Dunkelheit der Ohnmacht stürzen. An diesem Punkt hat sich deine Maschine selbst so stark geschädigt, dass du dich wahrscheinlich nie wieder in Gänze davon erholen wirst. Aber du lebst, und das ist alles was für die Maschine zählt.",
+        "function": "extreme_exhaustion_and_survival",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page31_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 31,
+        "sequence": 3,
+        "text": "Du kannst vielleicht deinen Körper dazu bewegen, einen winzigen Teil seiner Ressourcen für ein Training herzugeben, aber wenn er denkt es sei genug, dann dreht er den Hahn ab und es gibt nichts was du tun kannst, um ihm noch einen Tropfen mehr abzuringen. Auf das echte Reservoir wirst du niemals bewusst zugreifen können, aus gutem Grund. Das kleine Bisschen Energie, welches du abrufen kannst ist völlig ungefährlich für die Maschine. Sie kann sie problemlos ersetzen, ohne Schäden zu riskieren. Das große Lager allerdings, das zapft man nur mit Konsequenzen an und die Nutzung geht mit echten Risiken einher. Mit einer solchen Verantwortung wird der Zwerg, also du, niemals betraut werden, weil er damit überhaupt nicht umgehen könnte. Für einen Zwerg reicht auch ein Fingerhut. Der Jumbobecher bleibt derweil unter Verschluss, bis er wirklich gebraucht wird.",
+        "function": "explanatory_reflection_on_energy_reserves",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page31_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 31,
+        "sequence": 4,
+        "text": "Ein Mensch, der unter einer solchen Situation agiert, bekommt die geballte Macht seiner Biologie zu spüren. Etwas, was wir für gewöhnlich niemals in unserem normalen Leben",
+        "function": "generalizing_transition",
+        "confidence": 0.92
+      }
+    ],
+    "free_text": "Flucht, Erschöpfung, Überlebensmodus, Körperressourcen, Biologie"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=031-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:809f7eb322dcc77020e1b755ddb80d146c38071c4e7cf3baaf669fbd9811c2e1",
+    "created_at": null,
+    "modified_at": null
+  }
+}

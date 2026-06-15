@@ -1,0 +1,49 @@
+release_id: semantic_release.default
+release_version: 2026-03-28.v6
+available_locales:
+- en
+default_authoring_locale: en
+default_runtime_locale: en
+projection_ids:
+- business.customer.communication.default.v1
+- community.spiritual.default.v1
+- finance.default.v1
+- health.care.default.v1
+- housing.default.v1
+- legal.public_admin.default.v1
+- operations.default.v1
+- people.identity.default.v1
+- personal.expression.default.v1
+- personal.wellbeing.default.v1
+- technical.default.v1
+governance:
+  source_package_blanket_exception:
+    kind: locale_aware_source_package
+    allowed_file_count: 25
+    projection_count: 11
+    files:
+    - release.yaml
+    - master.core.yaml
+    - master.text.en.yaml
+    - projections/business.customer.communication.default.v1.core.yaml
+    - projections/business.customer.communication.default.v1.text.en.yaml
+    - projections/community.spiritual.default.v1.core.yaml
+    - projections/community.spiritual.default.v1.text.en.yaml
+    - projections/finance.default.v1.core.yaml
+    - projections/finance.default.v1.text.en.yaml
+    - projections/health.care.default.v1.core.yaml
+    - projections/health.care.default.v1.text.en.yaml
+    - projections/housing.default.v1.core.yaml
+    - projections/housing.default.v1.text.en.yaml
+    - projections/legal.public_admin.default.v1.core.yaml
+    - projections/legal.public_admin.default.v1.text.en.yaml
+    - projections/operations.default.v1.core.yaml
+    - projections/operations.default.v1.text.en.yaml
+    - projections/people.identity.default.v1.core.yaml
+    - projections/people.identity.default.v1.text.en.yaml
+    - projections/personal.expression.default.v1.core.yaml
+    - projections/personal.expression.default.v1.text.en.yaml
+    - projections/personal.wellbeing.default.v1.core.yaml
+    - projections/personal.wellbeing.default.v1.text.en.yaml
+    - projections/technical.default.v1.core.yaml
+    - projections/technical.default.v1.text.en.yaml

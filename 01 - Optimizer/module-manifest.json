@@ -1,0 +1,56 @@
+{
+  "module_key": "optimizer",
+  "display_name": "Optimizer",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "ingestion_layer_vision",
+  "contract_module": "ingestion_layer_vision.orchestrator_contract",
+  "actions": ["classify_document", "extract_document", "healthcheck", "scan_debug_input", "debug_run"],
+  "profiles": {
+    "public_slot": "optimizer",
+    "selector_field": "optimizer_profile",
+    "default_profile": "vision",
+    "internal_profiles": {
+      "vision": {
+        "package": "ingestion_layer_vision",
+        "runtime_policy_path": "required",
+        "role": "scan_image_ocr_profile"
+      },
+      "file": {
+        "package": "ingestion_layer_file",
+        "runtime_policy_path": "not_required",
+        "role": "born_digital_file_profile"
+      }
+    },
+    "routing": {
+      "classify_document": "public_profile_gate",
+      "extract_document": "selector_field",
+      "healthcheck": "profile_aware",
+      "scan_debug_input": "selector_field",
+      "debug_run": "selector_field"
+    }
+  },
+  "debug_surface": {
+    "supports_batch": true,
+    "supports_single": true,
+    "supports_scan": true,
+    "input_source": "orchestrator_main_input",
+    "output_source": "orchestrator_assigned_output",
+    "controls": ["mode", "filters", "worker_count", "hash_tools"],
+    "artifacts": ["raw_extracts", "page_assets"]
+  },
+  "external_dependencies": [
+    {
+      "name": "optimizer_ocr",
+      "kind": "llm",
+      "required": false,
+      "detail": "Vision-Profil: zentraler LLM-OCR-Port fuer gerenderte Page-Assets; Credentials und Provider werden ausschliesslich durch das Orchestrator-Ziel optimizer_ocr injiziert."
+    },
+    {
+      "name": "microsoft_outlook_desktop",
+      "kind": "native",
+      "required": false,
+      "detail": "File-Profil: optional nur fuer COM-Fallback von .pst/.ost; bevorzugt ueber die gebuendelte mail-outlook-store-Runtime mit pypff. .msg/.oft/.eml/.emlx/.mbox laufen lokal in runtime/python."
+    }
+  ]
+}

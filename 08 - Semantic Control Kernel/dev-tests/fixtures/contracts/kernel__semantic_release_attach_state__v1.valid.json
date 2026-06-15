@@ -1,0 +1,12 @@
+{
+  "attach_receipt_id": "attach_receipt_id_example",
+  "attached_at": "2026-05-05T00:00:00Z",
+  "pointer_owner": "kernel_held",
+  "release_fingerprint": "release_fingerprint_example",
+  "release_id": "release_id_example",
+  "release_path": "release_path_example",
+  "release_version": "release_version_example",
+  "runtime_locale": "runtime_locale_example",
+  "schema_version": "kernel.semantic_release_attach_state.v1",
+  "target_database_path": "target_database_path_example"
+}

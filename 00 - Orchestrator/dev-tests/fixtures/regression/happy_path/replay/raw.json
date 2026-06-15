@@ -1,0 +1,149 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "11111111-2222-3333-4444-555555555555",
+    "file_name": "mri_report.pdf",
+    "file_path": "C:\\anonymized\\input\\mri_report.pdf",
+    "relative_path": "C:\\anonymized\\input\\mri_report.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "page_count": 1
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:\\anonymized\\input\\mri_report.pdf",
+    "page_source_path": "C:\\anonymized\\input\\mri_report.pdf::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page1_para_1",
+        "type": "paragraph",
+        "value": "Empfangen 04.10.2024 12:25",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page1_para_2",
+        "type": "paragraph",
+        "value": "Praxisverbund Nord, Musterstr. 10, 12345 Musterstadt",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page1_para_3",
+        "type": "paragraph",
+        "value": "Radiologiebericht zum rechten Knie",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page1_para_4",
+        "type": "paragraph",
+        "value": "Herr Dr. Jana Winter, Fachbereich Orthopaedie",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page1_para_5",
+        "type": "paragraph",
+        "value": "Patient Alex Beispiel, geb. 01.09.1980, Fallnummer RV-1088845",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page1_para_6",
+        "type": "paragraph",
+        "value": "Indikation: Verdacht auf mediale Meniskopathie rechtes Knie",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page1_para_7",
+        "type": "paragraph",
+        "value": "MRT des rechten Knies nativ vom 04.10.2024",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page1_para_8",
+        "type": "paragraph",
+        "value": "Horizontaler Einriss im Innenmeniskus. Geringer Gelenkerguss.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page1_para_9",
+        "type": "paragraph",
+        "value": "Sonst unauffaellige MRT-Diagnostik.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page1_para_10",
+        "type": "paragraph",
+        "value": "Kontakt: radiologie@beispiel.invalid",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page1_para_11",
+        "type": "paragraph",
+        "value": "Mit freundlichen Gruessen",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page1_para_12",
+        "type": "paragraph",
+        "value": "Dr. Mara Beispiel, Fachaerztin fuer Radiologie",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 11
+        }
+      }
+    ]
+  }
+}

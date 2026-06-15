@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Configuration</title>
+    <script type="module" src="./config.ts"></script>
+  </head>
+  <body class="theme-light">
+    <main class="config-shell">
+      <header class="config-header panel">
+        <div>
+          <p class="eyebrow">Configuration</p>
+          <h1 id="config-title">Case Worker</h1>
+        </div>
+        <p class="muted">Providers, models, and local settings.</p>
+      </header>
+
+      <section id="lock-bar" class="config-card lock-bar" hidden>
+        <h2>Configuration Locked</h2>
+        <p class="muted">Changes require the admin password.</p>
+        <div class="input-row">
+          <input id="unlock-input" type="password" placeholder="Admin password" autocomplete="off" />
+          <button id="unlock-button" class="primary-button" type="button">Unlock</button>
+        </div>
+        <p id="unlock-status" class="muted"></p>
+      </section>
+
+      <nav class="config-tabs" aria-label="Configuration sections">
+        <button class="config-tab" data-config-tab="setup" type="button" aria-selected="true">Setup</button>
+        <button class="config-tab" data-config-tab="models" type="button" aria-selected="false">Models</button>
+        <button class="config-tab" data-config-tab="prompts" type="button" aria-selected="false">Prompts</button>
+        <button class="config-tab" data-config-tab="advanced" type="button" aria-selected="false">Advanced Policy</button>
+      </nav>
+
+      <form id="config-form" class="config-form">
+        <section class="config-card" data-config-panel="setup">
+          <h2>General</h2>
+          <label>
+            <span>Customer name</span>
+            <textarea id="customer-name-input" name="customer_name" rows="2" maxlength="120"></textarea>
+          </label>
+          <label>
+            <span>SQL database path</span>
+            <input id="sql-database-path-input" name="sql_database_path" type="text" spellcheck="false" placeholder="Path to the active corpus.db" />
+            <small class="muted">Absolute path recommended; relative paths are resolved from the installation folder. The file must be a compatible `corpus.db` with a `documents` table.</small>
+          </label>
+          <label>
+            <span>Pipeline Root Folder</span>
+            <input id="pipeline-root-input" name="pipeline_root" type="text" spellcheck="false" placeholder=".." />
+            <small class="muted">Relative paths are resolved from the Client Frontend folder. In the normal folder-tree layout, `..` is enough; leave empty for standalone use.</small>
+          </label>
+          <div class="grid-two">
+            <label>
+              <span>Port</span>
+              <input id="port-input" name="port" type="number" min="1024" max="65535" />
+            </label>
+            <label>
+              <span>Theme</span>
+              <select id="theme-input" name="theme">
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="config-card" data-config-panel="models" hidden>
+          <div class="section-head">
+            <h2>Authentication</h2>
+          </div>
+          <p id="oauth-status" class="muted">No active OAuth login.</p>
+          <div class="grid-two">
+            <label>
+              <span>LLM mode</span>
+              <small id="oauth-mode" class="muted">API-Key-Fallback</small>
+            </label>
+            <label>
+              <span>Account</span>
+              <small id="oauth-account" class="muted">-</small>
+            </label>
+            <label>
+              <span>Valid until</span>
+              <small id="oauth-expires" class="muted">-</small>
+            </label>
+            <label>
+              <span>Refresh-Token</span>
+              <small id="oauth-refresh" class="muted">Not present</small>
+            </label>
+          </div>
+          <div class="actions">
+            <button id="oauth-login" class="ghost-button" type="button">OAuth Login</button>
+            <button id="oauth-logout" class="ghost-button" type="button">OAuth Logout</button>
+          </div>
+        </section>
+
+        <section class="config-card" data-config-panel="models" hidden>
+          <div class="section-head">
+            <h2>LLM</h2>
+            <button id="llm-refresh" class="ghost-button" type="button">Reload Models</button>
+          </div>
+          <label>
+            <span>Provider</span>
+            <select id="llm-provider" name="llm_provider"></select>
+          </label>
+          <input type="radio" name="llm_provider" value="openai" hidden />
+          <input type="radio" name="llm_provider" value="mammouth" hidden />
+          <label>
+            <span>Base-URL</span>
+            <input id="llm-base-url" name="llm_base_url" type="url" />
+          </label>
+          <label>
+            <span>LLM API-Key</span>
+            <div class="input-row">
+              <input id="llm-api-key" name="llm_api_key" type="password" autocomplete="off" />
+              <button id="llm-key-toggle" class="ghost-button" type="button">Show</button>
+              <button id="llm-key-delete" class="ghost-button" type="button">Delete API</button>
+              <button id="llm-test" class="ghost-button" type="button">Test</button>
+            </div>
+            <small id="llm-api-key-current" class="muted"></small>
+          </label>
+          <label>
+            <span>LLM model</span>
+            <select id="llm-model" name="llm_model"></select>
+          </label>
+          <label>
+            <span>Context limit (tokens)</span>
+            <input id="context-limit" name="context_limit" type="number" min="4096" max="2000000" step="1000" />
+            <small id="context-limit-hint" class="muted">Controls how much history and tool context may be sent to the model per request. Smaller = cheaper, larger = more workspace.</small>
+          </label>
+          <p id="llm-status" class="muted">Not tested yet.</p>
+        </section>
+
+        <section class="config-card" data-config-panel="models" hidden>
+          <div class="section-head">
+            <h2>Embeddings</h2>
+            <button id="embedding-refresh" class="ghost-button" type="button">Reload Models</button>
+          </div>
+          <label>
+            <span>Provider</span>
+            <select id="embedding-provider" name="embedding_provider"></select>
+          </label>
+          <input type="radio" name="embedding_provider" value="openai" hidden />
+          <input type="radio" name="embedding_provider" value="mammouth" hidden />
+          <label>
+            <span>Base-URL</span>
+            <input id="embedding-base-url" name="embedding_base_url" type="url" />
+          </label>
+          <label>
+            <span>Embedding API-Key</span>
+            <div class="input-row">
+              <input id="embedding-api-key" name="embedding_api_key" type="password" autocomplete="off" />
+              <button id="embedding-key-toggle" class="ghost-button" type="button">Show</button>
+              <button id="embedding-key-delete" class="ghost-button" type="button">Delete API</button>
+              <button id="embedding-test" class="ghost-button" type="button">Test</button>
+            </div>
+            <small id="embedding-api-key-current" class="muted"></small>
+          </label>
+          <label>
+            <span>Embedding model</span>
+            <select id="embedding-model" name="embedding_model"></select>
+          </label>
+          <p id="embedding-status" class="muted">Not tested yet.</p>
+        </section>
+
+        <section class="config-card" data-config-panel="models" hidden>
+          <h2>Access Protection</h2>
+          <label>
+            <span>Admin password</span>
+            <div class="input-row">
+              <input id="admin-secret-input" name="admin_secret" type="password" autocomplete="off"
+                placeholder="Leave empty = no protection" />
+              <button id="admin-secret-toggle" class="ghost-button" type="button">Show</button>
+            </div>
+            <small id="admin-secret-current" class="muted"></small>
+          </label>
+          <p class="muted">If set, the password must be entered before changes are allowed.</p>
+        </section>
+
+        <section class="config-card" data-config-panel="prompts" hidden>
+          <h2>Agent Prompts</h2>
+          <p class="muted">Edit one agent prompt at a time.</p>
+          <div id="prompt-policy-form" class="policy-form"></div>
+        </section>
+
+        <section class="config-card" data-config-panel="advanced" hidden>
+          <h2>Advanced Frontend Policy</h2>
+          <p class="muted">Fine-grained control for chat, memory, model catalog, and Min-Agent behavior.</p>
+          <div id="frontend-policy-form" class="policy-form"></div>
+        </section>
+
+        <p id="frontend-policy-status" class="muted policy-global-status"></p>
+
+        <section class="config-card">
+          <h2>Save</h2>
+          <div class="actions">
+            <button id="save-config" class="primary-button" type="submit">Save</button>
+            <button id="retest-config" class="ghost-button" type="button">Test Both Connections</button>
+          </div>
+          <p id="save-status" class="muted">Nothing saved yet.</p>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

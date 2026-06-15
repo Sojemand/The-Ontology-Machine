@@ -1,0 +1,170 @@
+{
+  "stages": {
+    "extract": {
+      "status": "ok",
+      "raw_fixtures": [
+        {
+          "fixture": "raw_p001.json",
+          "name": "synthetic_scan_packet.pdf.raw.json"
+        },
+        {
+          "fixture": "raw_p002.json",
+          "name": "synthetic_scan_packet.pdf.p002.of004.raw.json"
+        },
+        {
+          "fixture": "raw_p003.json",
+          "name": "synthetic_scan_packet.pdf.p003.of004.raw.json"
+        },
+        {
+          "fixture": "raw_p004.json",
+          "name": "synthetic_scan_packet.pdf.p004.of004.raw.json"
+        }
+      ],
+      "page_fixtures": [
+        "page_001.jpg",
+        "page_002.jpg",
+        "page_003.jpg",
+        "page_004.jpg"
+      ]
+    },
+    "interpret": [
+      {
+        "status": "ok",
+        "structured_fixture": "structured_p001.json",
+        "needs_review": false,
+        "review_reason": ""
+      },
+      {
+        "status": "ok",
+        "structured_fixture": "structured_p002.json",
+        "needs_review": false,
+        "review_reason": ""
+      },
+      {
+        "status": "ok",
+        "structured_fixture": "structured_p003.json",
+        "needs_review": false,
+        "review_reason": ""
+      },
+      {
+        "status": "ok",
+        "structured_fixture": "structured_p004.json",
+        "needs_review": false,
+        "review_reason": ""
+      }
+    ],
+    "validate": [
+      {
+        "status": "PASS",
+        "report_fixture": "validation_report_p001.json",
+        "needs_review": false,
+        "detail": "PASS"
+      },
+      {
+        "status": "PASS",
+        "report_fixture": "validation_report_p002.json",
+        "needs_review": false,
+        "detail": "PASS"
+      },
+      {
+        "status": "PASS",
+        "report_fixture": "validation_report_p003.json",
+        "needs_review": false,
+        "detail": "PASS"
+      },
+      {
+        "status": "PASS",
+        "report_fixture": "validation_report_p004.json",
+        "needs_review": false,
+        "detail": "PASS"
+      }
+    ],
+    "normalize": [
+      {
+        "status": "OK",
+        "output_fixture": "normalized_p001.json",
+        "needs_review": false,
+        "message": "normalized"
+      },
+      {
+        "status": "OK",
+        "output_fixture": "normalized_p002.json",
+        "needs_review": false,
+        "message": "normalized"
+      },
+      {
+        "status": "OK",
+        "output_fixture": "normalized_p003.json",
+        "needs_review": false,
+        "message": "normalized"
+      },
+      {
+        "status": "OK",
+        "output_fixture": "normalized_p004.json",
+        "needs_review": false,
+        "message": "normalized"
+      }
+    ],
+    "load": {
+      "status": "loaded",
+      "reason": "Synthetic document loaded into corpus"
+    },
+    "embeddings": {
+      "status": "skipped",
+      "count": 0,
+      "reason": "Synthetic replay skips embeddings."
+    }
+  },
+  "expected": {
+    "summary": {
+      "total": 1,
+      "success": 1,
+      "errors": 0,
+      "needs_review": 0,
+      "retries": 0
+    },
+    "record": {
+      "status": "success",
+      "final_disposition": "success",
+      "current_location": "originals_archive",
+      "last_stage": "Corpus Builder",
+      "attempts": 1,
+      "failed_attempts": 0,
+      "review_reason": ""
+    },
+    "suffixes": {
+      "source_path": "Documents/originals/synthetic_scan_packet.pdf",
+      "artifacts.structured_path": "Documents/structured/interpreter.request.structured.json",
+      "artifacts.validation_report_path": "Documents/validation/interpreter.request.vision_validation_report.json",
+      "artifacts.normalized_path": "Documents/normalized/interpreter.request.structured.normalized.json"
+    },
+    "present": [
+      "Documents/originals/synthetic_scan_packet.pdf",
+      "Documents/logs/synthetic_scan_packet.pdf.run.log",
+      "Documents/raw_extracts/synthetic_scan_packet.pdf.raw.json",
+      "Documents/structured/interpreter.request.structured.json",
+      "Documents/validation/interpreter.request.vision_validation_report.json",
+      "Documents/normalized/interpreter.request.structured.normalized.json",
+      "Documents/requests/synthetic_scan_packet.pdf/synthetic_scan_packet.pdf/interpreter.request.json",
+      "Documents/raw_extracts/synthetic_scan_packet.pdf.p002.of004.raw.json",
+      "Documents/requests/synthetic_scan_packet.pdf/synthetic_scan_packet.pdf.p002.of004/interpreter.request.json",
+      "Documents/structured/synthetic_scan_packet.pdf.p002.of004.structured.json",
+      "Documents/validation/synthetic_scan_packet.pdf.p002.of004.vision_validation_report.json",
+      "Documents/normalized/synthetic_scan_packet.pdf.p002.of004.structured.normalized.json",
+      "Documents/raw_extracts/synthetic_scan_packet.pdf.p003.of004.raw.json",
+      "Documents/requests/synthetic_scan_packet.pdf/synthetic_scan_packet.pdf.p003.of004/interpreter.request.json",
+      "Documents/structured/synthetic_scan_packet.pdf.p003.of004.structured.json",
+      "Documents/validation/synthetic_scan_packet.pdf.p003.of004.vision_validation_report.json",
+      "Documents/normalized/synthetic_scan_packet.pdf.p003.of004.structured.normalized.json",
+      "Documents/raw_extracts/synthetic_scan_packet.pdf.p004.of004.raw.json",
+      "Documents/requests/synthetic_scan_packet.pdf/synthetic_scan_packet.pdf.p004.of004/interpreter.request.json",
+      "Documents/structured/synthetic_scan_packet.pdf.p004.of004.structured.json",
+      "Documents/validation/synthetic_scan_packet.pdf.p004.of004.vision_validation_report.json",
+      "Documents/normalized/synthetic_scan_packet.pdf.p004.of004.structured.normalized.json"
+    ],
+    "absent": [
+      "Error Cases/Validator/Documents/logs/synthetic_scan_packet.pdf.error_manifest.json"
+    ],
+    "corpus_db": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.93,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-03-25T22:47:17.589124+00:00",
+    "model": "gpt-5.4-2026-03-05",
+    "provider": "openai"
+  },
+  "classification": {
+    "document_type": "receipt",
+    "document_type_confidence": 0.91,
+    "category": "finance",
+    "subcategory": null,
+    "language": "de",
+    "is_scan": true,
+    "has_handwriting": false,
+    "page_count": 1
+  },
+  "context": {
+    "company": "ALDI",
+    "document_title": "IHRE AUFLADENUMMER:",
+    "description": "ALDI TALK Guthaben-Aufladebon",
+    "tags": [
+      "ALDI TALK",
+      "Aufladebetrag",
+      "Aufladenummer"
+    ],
+    "organizations": [
+      "ALDI",
+      "MEDIONmobile",
+      "E-Plus Service GmbH",
+      "E-Plus Service GmbH & Co. KG"
+    ],
+    "locations": [
+      "GERICHTSWIESEN GRIMMA"
+    ],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [
+      "EUR"
+    ],
+    "total_monetary_value": "EUR 30,00"
+  },
+  "content": {
+    "structure": {
+      "type": "mixed",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "store": "GERICHTSWIESEN GRIMMA",
+      "opening_hours": "MO.-SA. 8.00 UHR - 20.00 UHR",
+      "aufladebetrag": "EUR 30,00",
+      "nettobetrag": "EUR 30,00",
+      "mwst": "0,00 %",
+      "mwst_betrag": "EUR 0,00",
+      "aufladenummer": "6193 1152 7965 3340",
+      "konto_hotline": "1155",
+      "node_id": "10021014",
+      "trace_nr": "31865",
+      "serien_nr": "0063123400011548"
+    },
+    "rows": [],
+    "free_text": "ALDI\nGERICHTSWIESEN GRIMMA\nUNSERE ÖFFNUNGSZEITEN\nMO.-SA. 8.00 UHR - 20.00 UHR\nAufladebetrag: EUR 30,00\nNettobetrag EUR 30,00\nMwSt 0,00 % EUR 0,00\nACHTUNG: Der Bon kann ausbleichen!\nFertigen Sie bitte rechtzeitig\neine Kopie an!\nIHRE AUFLADENUMMER:\n6193 1152 7965 3340\nSie können Ihr ALDI TALK Guthaben\nfolgendermaßen aufladen:\n1. über die ALDI TALK App\n(weitere Informationen unter\nwww.alditalk.de)\n2. über \"Mein ALDI TALK\" auf\nwww.alditalk.de\n3. über die kostenlose Konto-\nHotline 1155\n4. über die Tastenkombination\n*104* gefolgt von der\n16-stelligen Aufladenummer,\nDrücken der #-Taste und Drücken\nder Hörertaste\nBitte behandeln Sie die Aufladenummer\nvertraulich.\nALDI und MEDION handeln im Namen und\nfür Rechnung der E-Plus Service GmbH.\nDiese Aufladenummer kann ausschliesslich\nzum Aufladen Ihres Kontos im\nMEDIONmobile-Tarif der E-Plus Service\nGmbH & Co. KG verwendet werden.\nDie Verfahrensweise bei Störungen\nentnehmen Sie bitte der\nBedienungsanleitung.\nNode ID: 10021014\nTrace Nr: 31865\nSerien Nr: 0063123400011548\nVIELEN DANK\nFÜR IHREN EINKAUF"
+  },
+  "relations": [],
+  "source": {
+    "file_name": "scan.pdf",
+    "file_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\i\\scan.pdf",
+    "file_ext": "pdf",
+    "size_bytes": 0,
+    "content_hash": "sha256:0ef26089f83a537a069c9a712fa55f01456fbb1b71ff7da4a567b0717522da94",
+    "created_at": null,
+    "modified_at": null
+  }
+}

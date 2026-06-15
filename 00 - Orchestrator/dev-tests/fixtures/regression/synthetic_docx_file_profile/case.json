@@ -1,0 +1,75 @@
+{
+  "stages": {
+    "extract": {
+      "status": "ok",
+      "raw_fixture": "raw.json",
+      "page_fixtures": [
+        "page_001.png"
+      ]
+    },
+    "interpret": {
+      "status": "ok",
+      "structured_fixture": "structured.json",
+      "needs_review": false,
+      "review_reason": ""
+    },
+    "validate": {
+      "status": "PASS",
+      "report_fixture": "validation_report.json",
+      "needs_review": false,
+      "detail": "PASS"
+    },
+    "normalize": {
+      "status": "OK",
+      "output_fixture": "normalized.json",
+      "needs_review": false,
+      "message": "normalized"
+    },
+    "load": {
+      "status": "loaded",
+      "reason": "Synthetic document loaded into corpus"
+    },
+    "embeddings": {
+      "status": "completed",
+      "count": 1,
+      "reason": "1 synthetic embedding."
+    }
+  },
+  "expected": {
+    "summary": {
+      "total": 1,
+      "success": 1,
+      "errors": 0,
+      "needs_review": 0,
+      "retries": 0
+    },
+    "record": {
+      "status": "success",
+      "final_disposition": "success",
+      "current_location": "originals_archive",
+      "last_stage": "Corpus Builder",
+      "attempts": 1,
+      "failed_attempts": 0,
+      "review_reason": ""
+    },
+    "suffixes": {
+      "source_path": "Documents/originals/synthetic_vendor_brief.docx",
+      "artifacts.structured_path": "Documents/structured/synthetic_vendor_brief.docx.structured.json",
+      "artifacts.validation_report_path": "Documents/validation/synthetic_vendor_brief.docx.files_validation_report.json",
+      "artifacts.normalized_path": "Documents/normalized/synthetic_vendor_brief.docx.structured.normalized.json"
+    },
+    "present": [
+      "Documents/raw_extracts/synthetic_vendor_brief.docx.raw.json",
+      "Documents/requests/synthetic_vendor_brief.docx/interpreter.request.json",
+      "Documents/structured/synthetic_vendor_brief.docx.structured.json",
+      "Documents/validation/synthetic_vendor_brief.docx.files_validation_report.json",
+      "Documents/normalized/synthetic_vendor_brief.docx.structured.normalized.json",
+      "Documents/originals/synthetic_vendor_brief.docx",
+      "Documents/logs/synthetic_vendor_brief.docx.run.log"
+    ],
+    "absent": [
+      "Error Cases/Validator/Documents/logs/synthetic_vendor_brief.docx.error_manifest.json"
+    ],
+    "corpus_db": true
+  }
+}

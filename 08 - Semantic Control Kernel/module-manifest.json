@@ -1,0 +1,60 @@
+{
+  "module_key": "semantic_control_kernel",
+  "display_name": "Semantic Control Kernel",
+  "module_archetype": "control_module",
+  "status": "agent_surface_shell",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "semantic_control_kernel",
+  "contract_module": "semantic_control_kernel.orchestrator_contract",
+  "actions": [
+    "empty_database_no_semantic_release",
+    "empty_database_default_taxonomy_no_projections",
+    "empty_database_default_taxonomy_default_projections",
+    "empty_database_default_taxonomy_custom_projections",
+    "empty_database_custom_taxonomy_no_projections",
+    "empty_database_custom_taxonomy_custom_projections",
+    "manual_pipeline_run",
+    "database_merge_additive_only",
+    "database_rebuild_from_artifacts",
+    "create_custom_taxonomy_path",
+    "create_custom_projection_path",
+    "reset_database",
+    "kernel_status",
+    "kernel_resume_state",
+    "kernel_continue_resumable_workflow",
+    "kernel_cancel_active_run"
+  ],
+  "external_dependencies": [
+    {
+      "name": "mcp_server",
+      "kind": "local_contract_boundary",
+      "required": true,
+      "detail": "The Kernel is exposed through the MCP Server, but MCP transport is not owned by this module."
+    },
+    {
+      "name": "corpus_builder",
+      "kind": "local_owner_contract",
+      "required": true,
+      "detail": "Database, semantic release activation, rebuild, merge and search primitives remain Corpus Builder owner responsibilities."
+    },
+    {
+      "name": "normalizer",
+      "kind": "local_owner_contract",
+      "required": true,
+      "detail": "Semantic release materialization, update-state application, projection validation and release candidate compilation remain Normalizer owner responsibilities."
+    },
+    {
+      "name": "orchestrator",
+      "kind": "local_owner_contract",
+      "required": true,
+      "detail": "Pipeline run and runtime-owner interactions must use Orchestrator-owned contracts where applicable."
+    },
+    {
+      "name": "client_frontend",
+      "kind": "local_interaction_surface",
+      "required": true,
+      "detail": "User dialogs and Agent mirror events are rendered by the Client Frontend, not by this headless module."
+    }
+  ]
+}

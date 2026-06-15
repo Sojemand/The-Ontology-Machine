@@ -1,0 +1,345 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=053-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5e609bbb23c70bf84bed211f5a0be9b1d1113338f7015a2c54ce4e62e48e2952",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 53,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=053-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 53,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_053.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page53_para_0",
+        "type": "paragraph",
+        "value": "Wer es allerdings schafft, das zweigleisige Gewahrsein so zu erschaffen, dem wird sich eine Art",
+        "position": {
+          "page": 53,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page53_para_1",
+        "type": "paragraph",
+        "value": "Vogelperspektive eröffnen, wie er sie im normalen Leben noch nie erlebt hat. Er wird feststellen,",
+        "position": {
+          "page": 53,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page53_para_2",
+        "type": "paragraph",
+        "value": "wie er merkwürdig losgelöst von sich selbst eine doppelte Welt sieht. Eine äußere Welt voller",
+        "position": {
+          "page": 53,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page53_para_3",
+        "type": "paragraph",
+        "value": "Geschäftigkeit und eine innere Welt, in die diese Geschäftigkeit hineinströmt und wie ein Bogen",
+        "position": {
+          "page": 53,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page53_para_4",
+        "type": "paragraph",
+        "value": "einer Violine die Saiten unseres Bewusstseins zum klingen bringt. Und wer dies einige Male tut,",
+        "position": {
+          "page": 53,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page53_para_5",
+        "type": "paragraph",
+        "value": "der wird auch bemerken, wie kraftvoll dieser Bogen doch unser gesamtes Bewusstsein dirigiert.",
+        "position": {
+          "page": 53,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page53_para_6",
+        "type": "paragraph",
+        "value": "Sehr viel stärker nämlich, als alles was der Zwerg dem jemals entgegen setzen könnte. Dieser",
+        "position": {
+          "page": 53,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page53_para_7",
+        "type": "paragraph",
+        "value": "Zustand bringt dann auch eine Portion Ernüchterung mit sich, denn aus dieser Warte können",
+        "position": {
+          "page": 53,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page53_para_8",
+        "type": "paragraph",
+        "value": "wir erkennen, über wie wenig wir uns doch während unseres täglichen Dahindämmerns wirklich",
+        "position": {
+          "page": 53,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page53_para_9",
+        "type": "paragraph",
+        "value": "bewusst sind was wirklich vor sich geht.",
+        "position": {
+          "page": 53,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page53_para_10",
+        "type": "paragraph",
+        "value": "Es ist eine wirklich lohnende Übung, so etwas einmal selbst zu tun, denn auch wenn es zu",
+        "position": {
+          "page": 53,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page53_para_11",
+        "type": "paragraph",
+        "value": "Beginn seltsam erscheint und man in den weiteren Schritten ständig mit dem Vergessen ringt,",
+        "position": {
+          "page": 53,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page53_para_12",
+        "type": "paragraph",
+        "value": "so eröffnet dies uns doch einen kleinen Einblick in das, zu was unser Gewahrsein wirklich fähig",
+        "position": {
+          "page": 53,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page53_para_13",
+        "type": "paragraph",
+        "value": "ist. Etwas, wovon bisher stets nur in okkulten Zirkeln gemunkelt oder von Religionen verbrämt",
+        "position": {
+          "page": 53,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page53_para_14",
+        "type": "paragraph",
+        "value": "dargestellt wurde. Etwas, wovon unsere Wissenschaft noch nicht einmal Notiz genommen hat,",
+        "position": {
+          "page": 53,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page53_para_15",
+        "type": "paragraph",
+        "value": "obwohl es doch direkt vor unserer Nase liegt, nur getrennt von uns durch einen Papier dünnen",
+        "position": {
+          "page": 53,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page53_para_16",
+        "type": "paragraph",
+        "value": "Schleier des Vergessens. Ja es zeigt uns eigentlich noch sehr viel mehr, denn wenn wir einmal",
+        "position": {
+          "page": 53,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page53_para_17",
+        "type": "paragraph",
+        "value": "selbst erkannt haben, dass unser Gewahrsein sich so verhalten kann und wir erleben, dass es",
+        "position": {
+          "page": 53,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page53_para_18",
+        "type": "paragraph",
+        "value": "scheinbar keine wirkliche Grenze hat in dem, was es alles umfassen kann, dann sollten wir uns",
+        "position": {
+          "page": 53,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page53_para_19",
+        "type": "paragraph",
+        "value": "doch fragen, wieso wir nicht sehr viel mehr unserer Aufmerksamkeit und gemeinsamer",
+        "position": {
+          "page": 53,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page53_para_20",
+        "type": "paragraph",
+        "value": "Ressourcen aufwenden, um dieses Mysterium endlich aus seinem Schattendasein zu reißen?",
+        "position": {
+          "page": 53,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page53_para_21",
+        "type": "paragraph",
+        "value": "Allerdings ist dies nur ein Aspekt unter vielen und so faszinierend wie das zweigleisige",
+        "position": {
+          "page": 53,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page53_para_22",
+        "type": "paragraph",
+        "value": "Gewahrsein auch sein mag, so ist es doch nur eine Seite unseres Bewusstseins. Es hat noch",
+        "position": {
+          "page": 53,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page53_para_23",
+        "type": "paragraph",
+        "value": "sehr viel mehr auf Lager, wie etwa die verrückte Welt unserer Träume und das, was wir daraus",
+        "position": {
+          "page": 53,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page53_para_24",
+        "type": "paragraph",
+        "value": "lernen können.",
+        "position": {
+          "page": 53,
+          "paragraph_index": 24
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "script_name": "Optimizer.iss",
+  "mutable_dirs": [
+    "output",
+    "state",
+    "logs",
+    ".appdata"
+  ],
+  "mutable_files": [],
+  "excluded_runtime_paths": [
+    "runtime\\wheelhouse"
+  ],
+  "sign_targets": [
+    "check-runtime.bat",
+    "installer.bat",
+    "module-manifest.json",
+    "runtime\\runtime-manifest.json",
+    "tools\\check-runtime.ps1",
+    "tools\\installer.ps1"
+  ]
+}

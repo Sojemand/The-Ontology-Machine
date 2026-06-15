@@ -1,0 +1,24 @@
+timeout_seconds: 300
+max_retries: 3
+retry_delay_seconds: 5
+structured_outputs: true
+default_workers: 1
+max_structured_bytes: 10000000
+max_batch_files: 500
+max_batch_workers: 8
+taxonomy_profile_id: housing.default.v1
+projection_hint_mode: advisory
+projection_routing:
+  field_signal_limit: 4
+  row_signal_limit: 3
+  cell_signal_limit: 6
+  hint_confidence_low_threshold: 0.6
+  hint_confidence_medium_threshold: 0.8
+  hint_confidence_high_threshold: 0.9
+  hint_confidence_low_bonus: 1
+  hint_confidence_medium_bonus: 2
+  hint_confidence_high_bonus: 3
+  matched_signal_bonus_cap: 3
+  hint_reject_margin: 3
+  no_hint_local_min_score: 4
+  no_hint_local_margin: 3

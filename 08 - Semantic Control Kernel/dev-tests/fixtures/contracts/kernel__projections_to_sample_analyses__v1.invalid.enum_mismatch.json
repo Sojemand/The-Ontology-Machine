@@ -1,0 +1,25 @@
+{
+  "analysis_scope": "__invalid_enum__",
+  "projection_proposals": {
+    "example": true
+  },
+  "projection_strategy": {
+    "example": true
+  },
+  "quality": {
+    "example": true
+  },
+  "sample_ids": [],
+  "schema_version": "kernel.projections_to_sample_analyses.v1",
+  "source_schema_version": "kernel.sample_analyses.v1",
+  "target": {
+    "example": true
+  },
+  "taxonomy_ref": {
+    "example": true
+  },
+  "taxonomy_view_schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+  "validation": {
+    "example": true
+  }
+}

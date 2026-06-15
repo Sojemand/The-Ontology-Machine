@@ -1,0 +1,417 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=082-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:e83ebceb44a50d675bdfca243e906f550ff7f3ae38d04dbbe021aac43a14dd2e",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 82,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=082-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 82,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_082.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page82_para_0",
+        "type": "paragraph",
+        "value": "normalen Leben nicht wahrnehmen. Weil unser Tun nun auf dem gründet was wir wollen und",
+        "position": {
+          "page": 82,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page82_para_1",
+        "type": "paragraph",
+        "value": "unser Wollen sich aus Dingen ergibt, denen wir uns nicht gewahr sind, so können wir dieses",
+        "position": {
+          "page": 82,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page82_para_2",
+        "type": "paragraph",
+        "value": "Wollen auch willentlich nicht ändern. Oder doch? Können wir unsere symbolische Welt",
+        "position": {
+          "page": 82,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page82_para_3",
+        "type": "paragraph",
+        "value": "bewusst selbst ändern? Können wir uns selbst bewusst willentlich neue Götter suchen und in",
+        "position": {
+          "page": 82,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page82_para_4",
+        "type": "paragraph",
+        "value": "neuen Kämpfen gegen neue Monster antreten?",
+        "position": {
+          "page": 82,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page82_para_5",
+        "type": "paragraph",
+        "value": "Wer glaubt, die Erde sei eine Scheibe? Zweifellos gibt es Menschen die das glauben und wer",
+        "position": {
+          "page": 82,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page82_para_6",
+        "type": "paragraph",
+        "value": "einmal mehr als ein paar Minuten in den Kreisen der Flacherdler verbringt, der wird wohl recht",
+        "position": {
+          "page": 82,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page82_para_7",
+        "type": "paragraph",
+        "value": "schnell an der Funktionsfähigkeit des Verstandes dieser Vertreter der menschlichen Spezies",
+        "position": {
+          "page": 82,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page82_para_8",
+        "type": "paragraph",
+        "value": "zweifeln. Aber nicht so voreilig, denn hier ergibt sich ein gutes Beispiel, an dem man selbst",
+        "position": {
+          "page": 82,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page82_para_9",
+        "type": "paragraph",
+        "value": "erfahren kann, was ich mit „die symbolische Welt verändern“ meine. Wir erinnern uns, das Ich",
+        "position": {
+          "page": 82,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page82_para_10",
+        "type": "paragraph",
+        "value": "muss immer und unter allen Umständen die Widerspruchsfreiheit gegenüber sich selbst",
+        "position": {
+          "page": 82,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page82_para_11",
+        "type": "paragraph",
+        "value": "aufrecht erhalten. Folglich muss dies auch bei einem Menschen der Fall sein, der felsenfest an",
+        "position": {
+          "page": 82,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page82_para_12",
+        "type": "paragraph",
+        "value": "eine flache Erde glaubt. Was bedeutet das nun für einen Menschen, der genau weiß, dass die",
+        "position": {
+          "page": 82,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page82_para_13",
+        "type": "paragraph",
+        "value": "Erde eine Kugel ist und sich in seinem Verstand keine Gehirnakrobatik auszumalen vermag,",
+        "position": {
+          "page": 82,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page82_para_14",
+        "type": "paragraph",
+        "value": "die es ihm ermöglicht, die Denkweise eines Menschen zu verstehen, der die Erde für eine",
+        "position": {
+          "page": 82,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page82_para_15",
+        "type": "paragraph",
+        "value": "Scheibe hält? Nun, er kann es nicht, denn seine Versuche verstehen zu wollen, wie jemand",
+        "position": {
+          "page": 82,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page82_para_16",
+        "type": "paragraph",
+        "value": "auf die Idee kommen kann die Erde für eine Scheibe zu halten, setzen eine Ebene zu hoch",
+        "position": {
+          "page": 82,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page82_para_17",
+        "type": "paragraph",
+        "value": "an. Sein Versuch muss scheitern, denn er versucht dieses mit den Mitteln seines Verstandes,",
+        "position": {
+          "page": 82,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page82_para_18",
+        "type": "paragraph",
+        "value": "welcher seine Grundsätze aus der übergeordneten symbolischen Welt schöpft. Da er sich für",
+        "position": {
+          "page": 82,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page82_para_19",
+        "type": "paragraph",
+        "value": "Widerspruchsfrei hält, sind diese Mittel für ihn legitim und folgerichtig und müssen demnach",
+        "position": {
+          "page": 82,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page82_para_20",
+        "type": "paragraph",
+        "value": "auch für alle anderen gelten. Was ja nicht der Fall ist.",
+        "position": {
+          "page": 82,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page82_para_21",
+        "type": "paragraph",
+        "value": "Um wirklich zu verstehen, wie jemand an eine flache Erde glauben kann, müssen wir als",
+        "position": {
+          "page": 82,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page82_para_22",
+        "type": "paragraph",
+        "value": "erstes anerkennen, dass sich dieser Glaube ebenfalls auf eine durch und durch in sich",
+        "position": {
+          "page": 82,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page82_para_23",
+        "type": "paragraph",
+        "value": "widerspruchsfreie Weise erlangen lässt und sie für den Betreffenden ebenfalls als legitim und",
+        "position": {
+          "page": 82,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page82_para_24",
+        "type": "paragraph",
+        "value": "folgerichtig erscheinen muss. Um nun also verstehen zu können, wie man an eine flache Erde",
+        "position": {
+          "page": 82,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page82_para_25",
+        "type": "paragraph",
+        "value": "glauben kann, muss man an eine flache Erde glauben. Das mag vielleicht verwirrend klingen,",
+        "position": {
+          "page": 82,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page82_para_26",
+        "type": "paragraph",
+        "value": "aber die Verwirrung ist Teil der Lösung. Wenn man verstanden hat, dass auch das eigene Ich",
+        "position": {
+          "page": 82,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page82_para_27",
+        "type": "paragraph",
+        "value": "nach dem Prinzip der steten Widerspruchsfreiheit operiert, so kann man auch selbst an eine",
+        "position": {
+          "page": 82,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page82_para_28",
+        "type": "paragraph",
+        "value": "flache Erde glauben. Man muss nur wollen wollen. Aber man kann doch nicht wollen was man",
+        "position": {
+          "page": 82,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page82_para_29",
+        "type": "paragraph",
+        "value": "will, oder? Nun, von jetzt auf gleich kann man das nicht, denn das Wollen ist ja nicht Teil",
+        "position": {
+          "page": 82,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page82_para_30",
+        "type": "paragraph",
+        "value": "unserer inneren Welt derer wir uns gewahr sind und somit können wir auch nichts daran",
+        "position": {
+          "page": 82,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page82_para_31",
+        "type": "paragraph",
+        "value": "ändern. Wir können uns aber nach und nach Teilen jener Symbolik bewusst werden, die uns",
+        "position": {
+          "page": 82,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page82_para_32",
+        "type": "paragraph",
+        "value": "einerseits dazu bewegen an eine runde Erde zu glauben und andererseits daran hindern, an",
+        "position": {
+          "page": 82,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

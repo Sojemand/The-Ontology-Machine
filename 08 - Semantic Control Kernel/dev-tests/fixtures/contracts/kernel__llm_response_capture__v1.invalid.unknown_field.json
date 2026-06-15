@@ -1,0 +1,23 @@
+{
+  "analysis_run_id": "analysis_run_id_example",
+  "created_at": "2026-05-05T00:00:00Z",
+  "llm_function": "llm_function_example",
+  "model": "model_example",
+  "output_text": "output_text_example",
+  "parse_status": "valid_json",
+  "parsed_json": {
+    "example": true
+  },
+  "provider": "provider_example",
+  "raw_provider_response": {
+    "example": true
+  },
+  "response_id": "response_id_example",
+  "schema_version": "kernel.llm_response_capture.v1",
+  "status": "complete",
+  "validation_errors": [
+    "invalid_json"
+  ],
+  "validation_status": "passed",
+  "unexpected_phase2_field": "example"
+}

@@ -1,0 +1,320 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=086-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:cc4efeac042ff13efc6526be8c4150121d51ffb7f1035384654a2de123e74fe0",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 86,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=086-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page86_para_0",
+        "type": "paragraph",
+        "value": "Die Hände die uns führen",
+        "position": {
+          "page": 86,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page86_para_1",
+        "type": "paragraph",
+        "value": "Was sagt uns das jetzt alles? Dieses kleine Beispiel der flachen Erde ist zugegeben recht",
+        "position": {
+          "page": 86,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page86_para_2",
+        "type": "paragraph",
+        "value": "extrem, aber die Mechanik dahinter ist universell. Jeder Mensch agiert auf diese Weise in der",
+        "position": {
+          "page": 86,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page86_para_3",
+        "type": "paragraph",
+        "value": "externen Welt und so sieht er auch alle andere Menschen. Jede Einstellung und Meinung",
+        "position": {
+          "page": 86,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page86_para_4",
+        "type": "paragraph",
+        "value": "entsteht aus dem Zusammenspiel mit der eignen Symbolik und des eigenen",
+        "position": {
+          "page": 86,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page86_para_5",
+        "type": "paragraph",
+        "value": "Argumentationsraumes, der diese Symbolik mit der wirklichen Welt lückenlos und",
+        "position": {
+          "page": 86,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page86_para_6",
+        "type": "paragraph",
+        "value": "Widerspruchsfrei verknüpft. Hat man das einmal verstanden, erkennt man auch, wie schwer",
+        "position": {
+          "page": 86,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page86_para_7",
+        "type": "paragraph",
+        "value": "es ist, sich wahrhaftig den „Schuh des Anderen“ anzuziehen und ein paar Meilen darin zu",
+        "position": {
+          "page": 86,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page86_para_8",
+        "type": "paragraph",
+        "value": "gehen. Auch versöhnt es das Ich ein wenig mit der Frustration, wenn man den Irrsinn der Welt",
+        "position": {
+          "page": 86,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page86_para_9",
+        "type": "paragraph",
+        "value": "betrachtet. Es zeigt uns auch, dass, egal ob man Verschwörungstheoretiker, Priester oder",
+        "position": {
+          "page": 86,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page86_para_10",
+        "type": "paragraph",
+        "value": "Chefarzt ist, wenn sich die Symbolik ändert, ändert sich der Argumentationsraum und",
+        "position": {
+          "page": 86,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page86_para_11",
+        "type": "paragraph",
+        "value": "letztendlich das Verhalten in der Welt bei jedem Menschen, egal ob man ihn versteht oder",
+        "position": {
+          "page": 86,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page86_para_12",
+        "type": "paragraph",
+        "value": "nicht.",
+        "position": {
+          "page": 86,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page86_para_13",
+        "type": "paragraph",
+        "value": "Wenn man eine solche Reise öfter unternimmt, wird man bemerken, wie einerseits die Aversion",
+        "position": {
+          "page": 86,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page86_para_14",
+        "type": "paragraph",
+        "value": "des „zwischen den Stühlen sitzen“ oder der „Reise durch den Leerraum“ abnimmt und",
+        "position": {
+          "page": 86,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page86_para_15",
+        "type": "paragraph",
+        "value": "andererseits sich die alte Symbolik als etwas erhält, zu der man mühelos wieder zurückkehren",
+        "position": {
+          "page": 86,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page86_para_16",
+        "type": "paragraph",
+        "value": "kann. Im Gegensatz zu einem Atheisten, der zum Beispiel durch eine starke religiöse Erfahrung",
+        "position": {
+          "page": 86,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page86_para_17",
+        "type": "paragraph",
+        "value": "von seiner alten Symbolik, mehr oder minder unfreiwillig, in die des Glaubens gestoßen wurde",
+        "position": {
+          "page": 86,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page86_para_18",
+        "type": "paragraph",
+        "value": "und sein altes Leben anschließend für sich strikt ablehnt, erzeugt eine bewusste Reise keine",
+        "position": {
+          "page": 86,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page86_para_19",
+        "type": "paragraph",
+        "value": "derartige Ablehnung. Im Grunde erschafft man dadurch in sich parallel existierende",
+        "position": {
+          "page": 86,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page86_para_20",
+        "type": "paragraph",
+        "value": "Symbolwelten und Realitätsmodelle, die man miteinander vergleichen kann. Man kann",
+        "position": {
+          "page": 86,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page86_para_21",
+        "type": "paragraph",
+        "value": "sozusagen auf ein gerade nicht gelebtes Modell „hinunter“ blicken und die Widersprüche",
+        "position": {
+          "page": 86,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page86_para_22",
+        "type": "paragraph",
+        "value": "erkennen, die es im gerade gelebten auslöst. Anschließend kann man die Postion des anderen",
+        "position": {
+          "page": 86,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page86_para_23",
+        "type": "paragraph",
+        "value": "einnehmen und die Widersprüche erkennen, die das zurückgelassene erzeugt. Irgendwann wird",
+        "position": {
+          "page": 86,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page86_para_24",
+        "type": "paragraph",
+        "value": "man deutlich erkennen, dass, egal welche Position man einnimmt, die Widersprüche",
+        "position": {
+          "page": 86,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page86_para_25",
+        "type": "paragraph",
+        "value": "augenscheinlich stets nur von dem ausgehen, was man gerade betrachtet.",
+        "position": {
+          "page": 86,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page86_para_26",
+        "type": "paragraph",
+        "value": "Damit kann man für sich selbst den Beweis erbringen, dass unser innerer Drang nach",
+        "position": {
+          "page": 86,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page86_para_27",
+        "type": "paragraph",
+        "value": "Widerspruchsfreiheit und das daraus entstehende Unverständnis oder gar die Ablehnung für",
+        "position": {
+          "page": 86,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page86_para_28",
+        "type": "paragraph",
+        "value": "das Sein im Gegenüber nur ein Schatten unseres Selbst ist, der stets nur auf Andere fällt,",
+        "position": {
+          "page": 86,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page86_para_29",
+        "type": "paragraph",
+        "value": "aber von uns selbst geworfen wird. Man wird letztendlich einsehen, der böse Mensch, der bin",
+        "position": {
+          "page": 86,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page86_para_30",
+        "type": "paragraph",
+        "value": "ich selbst.",
+        "position": {
+          "page": 86,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  }
+}

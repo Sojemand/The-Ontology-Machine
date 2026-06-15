@@ -1,0 +1,20 @@
+{
+  "api_key": "sk-test-super-secret",
+  "nested": {
+    "authorization": "Bearer secret-token",
+    "prompt_snapshot": "SYSTEM: full prompt body should not leak",
+    "raw_provider_response": {
+      "output_text": "full raw provider output",
+      "cookie": "session-cookie"
+    },
+    "document_payloads": [
+      {
+        "structured_json": {
+          "text": "full database row payload"
+        }
+      }
+    ]
+  },
+  "external_path": "C:\\Users\\Norma\\Desktop\\Secret Folder\\document.pdf",
+  "traceback": "Traceback (most recent call last):\\n  File \"service.py\", line 1, in <module>\\nValueError: broken"
+}

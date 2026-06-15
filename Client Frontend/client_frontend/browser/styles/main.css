@@ -1,0 +1,9 @@
+/* Path-stable styles surface for main.ts and config.ts. */
+@import "./main/types.css";
+@import "./main/surface.css";
+@import "./main/workflow.css";
+@import "./main/document_domain.css";
+@import "./main/pipeline_domain.css";
+@import "./main/chat_domain.css";
+@import "./main/config_domain.css";
+@import "./main/policy.css";

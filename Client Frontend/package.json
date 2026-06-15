@@ -1,0 +1,16 @@
+{
+  "name": "vision-pipeline-client-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "config": "node --disable-warning=ExperimentalWarning server/index.js --config",
+    "minimal": "node --disable-warning=ExperimentalWarning server/min_agent.js",
+    "runtimes:check": "node --disable-warning=ExperimentalWarning tools/check-runtimes.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^29.0.1",
+    "vite": "^6.2.0"
+  }
+}

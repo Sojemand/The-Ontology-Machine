@@ -1,0 +1,73 @@
+{
+  "adapter_receipt_refs": [
+    {
+      "adapter_call_id": "acr_projection_remove_001",
+      "adapter_name": "semantic_release",
+      "status": "ok"
+    }
+  ],
+  "artifact_root_path": "C:\\Artifact Tree",
+  "completeness_state": "incomplete",
+  "created_at": "2026-05-05T00:00:00Z",
+  "database_path": "C:\\Artifact Tree\\Corpus\\kernel_test.sqlite",
+  "missing_component_type": "projections",
+  "projectionless_release_ref": {
+    "projection_refs": [],
+    "release_fingerprint": "release_projectionless_fingerprint_example",
+    "release_id": "default-release",
+    "release_version": "1.0.0",
+    "schema_version": "kernel.default_semantic_release_ref.v1",
+    "source_adapter_receipt_ref": {
+      "adapter_call_id": "acr_default_export_001"
+    },
+    "taxonomy_ref": {
+      "runtime_locale": "en",
+      "taxonomy_fingerprint": "taxonomy_fingerprint_example",
+      "taxonomy_id": "default-taxonomy"
+    }
+  },
+  "remaining_projection_refs": [],
+  "removed_projection_refs": [
+    {
+      "projection_fingerprint": "projection_fingerprint_example",
+      "projection_id": "default-projection"
+    }
+  ],
+  "schema_version": "kernel.default_taxonomy_projectionless_release_state.v1",
+  "semantic_release_path": "C:\\Artifact Tree\\Semantic Release",
+  "source_default_release_ref": {
+    "projection_refs": [
+      {
+        "projection_fingerprint": "projection_fingerprint_example",
+        "projection_id": "default-projection"
+      }
+    ],
+    "release_fingerprint": "release_fingerprint_example",
+    "release_id": "default-release",
+    "release_version": "1.0.0",
+    "schema_version": "kernel.default_semantic_release_ref.v1",
+    "source_adapter_receipt_ref": {
+      "adapter_call_id": "acr_default_export_001"
+    },
+    "taxonomy_ref": {
+      "runtime_locale": "en",
+      "taxonomy_fingerprint": "taxonomy_fingerprint_example",
+      "taxonomy_id": "default-taxonomy"
+    }
+  },
+  "target_identity": {
+    "artifact_root_path_hash": "artifact_hash_example",
+    "created_from": "fixture",
+    "database_path_hash": "database_hash_example",
+    "lock_scope": "database_creation",
+    "schema_version": "state.target_identity.v1",
+    "target_hash": "target_hash_example"
+  },
+  "taxonomy_ref": {
+    "runtime_locale": "en",
+    "taxonomy_fingerprint": "taxonomy_fingerprint_example",
+    "taxonomy_id": "default-taxonomy"
+  },
+  "workflow_run_id": "workflow_run_projectionless_fixture",
+  "workflow_tool": "empty_database_default_taxonomy_no_projections"
+}

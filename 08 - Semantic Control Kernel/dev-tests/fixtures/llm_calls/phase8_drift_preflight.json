@@ -1,0 +1,19 @@
+{
+  "drift_preflight": "build_plan_authority_applied",
+  "phase": "Phase 8 - Isolated LLM Call Orchestration",
+  "authority_source": "08 - Semantic Control Kernel/SPEC_Semantic_Control_Kernel_Build.md",
+  "drifts": [
+    {
+      "build_plan_detail": "semantic_control_kernel_llm runtime profile with model and max_output_tokens",
+      "referenced_spec": "SPEC_Pipeline_Runtime_Ownership_And_Model_Settings.md",
+      "referenced_spec_state": "describes existing interpreter, normalizer and corpus_builder_embeddings runtime slots but not the new Phase 8 Kernel LLM profile",
+      "decision": "implemented build-plan-defined injected/fake runtime boundary; real host ownership is deferred to Phase 19"
+    },
+    {
+      "build_plan_detail": "LLMFunctionAdapter is the only workflow-callable provider port for Phase 8",
+      "referenced_spec": "SPEC_Orchestrator_Runtime_Models_And_Credentials.md",
+      "referenced_spec_state": "describes current Orchestrator model and credential ownership, not a live Kernel host profile",
+      "decision": "runner fails closed without injected semantic_control_kernel_llm settings and does not import Orchestrator or provider SDK modules"
+    }
+  ]
+}

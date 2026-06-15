@@ -1,0 +1,20 @@
+{
+  "registry_version": 1,
+  "modules": {
+    "optimizer": {
+      "path": "../01 - Optimizer"
+    },
+    "interpreter": {
+      "path": "../02 - Interpreter"
+    },
+    "validator": {
+      "path": "../03 - Validator"
+    },
+    "normalizer": {
+      "path": "../04 - Normalizer"
+    },
+    "corpus_builder": {
+      "path": "../05 - Corpus Builder"
+    }
+  }
+}

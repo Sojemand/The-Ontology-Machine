@@ -1,0 +1,20 @@
+﻿{
+    "run_script":  "run-tests.bat",
+    "kind":  "python",
+    "aliases":  [
+                    "orchestrator"
+                ],
+    "display_name":  "00 - Orchestrator",
+    "runtime_python":  "../runtime/python",
+    "python_path":  [
+                        ".."
+                    ],
+    "name":  "00 - Orchestrator",
+    "wheelhouses":  [
+                        "wheelhouse"
+                    ],
+    "lockfile":  "requirements.lock.txt",
+    "bootstrap_script":  "bootstrap.bat",
+    "target_dir":  ".venv"
+}
+

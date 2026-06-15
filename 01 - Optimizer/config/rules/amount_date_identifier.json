@@ -1,0 +1,21 @@
+{
+  "unit_pattern": "^(std\\.?|km|eur|\\u20ac|\\$|stk\\.?|stueck|m2|m3|kg|to?|ltr?|psch|%)$",
+  "date_index_header_terms": [
+    "datum",
+    "date",
+    "faellig",
+    "due",
+    "lieferdatum",
+    "delivery date"
+  ],
+  "identifier_label_terms": [
+    "nr.",
+    "nr:",
+    "nummer",
+    "number",
+    "#:",
+    "invoice #",
+    "quote #",
+    "order #"
+  ]
+}

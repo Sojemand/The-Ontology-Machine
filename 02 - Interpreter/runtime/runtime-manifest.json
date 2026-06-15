@@ -1,0 +1,52 @@
+{
+  "python_version": "3.11",
+  "runtime_candidates": {
+    "python": [
+      "runtime/python/python.exe",
+      "runtime/python/Scripts/python.exe",
+      "runtime/python/bin/python"
+    ]
+  },
+  "required_files": [
+    "runtime/python/python.exe",
+    "runtime/python/pythonw.exe",
+    "runtime/python/python3.dll",
+    "runtime/python/python311.dll",
+    "runtime/python/vcruntime140.dll",
+    "runtime/python/vcruntime140_1.dll",
+    "runtime/python/Lib/encodings/__init__.py",
+    "runtime/requirements.lock.txt",
+    "llm_interpreter/config_bootstrap.py",
+    "llm_interpreter/orchestrator_contract/__main__.py",
+    "llm_interpreter/orchestrator_contract/adapter.py",
+    "llm_interpreter/orchestrator_contract/debug_processing.py",
+    "llm_interpreter/orchestrator_contract/debug_support.py",
+    "llm_interpreter/orchestrator_contract/types.py",
+    "llm_interpreter/orchestrator_contract/validation.py",
+    "llm_interpreter/orchestrator_contract/workflow.py",
+    "llm_interpreter/edit_contract/__main__.py",
+    "llm_interpreter/edit_contract/__init__.py",
+    "llm_interpreter/edit_contract/describe_surfaces.py",
+    "llm_interpreter/edit_contract/env_repository.py",
+    "llm_interpreter/edit_contract/files.py",
+    "llm_interpreter/edit_contract/prompt_repository.py",
+    "llm_interpreter/edit_contract/read_surface.py",
+    "llm_interpreter/edit_contract/repository.py",
+    "llm_interpreter/edit_contract/summary.py",
+    "llm_interpreter/edit_contract/types.py",
+    "llm_interpreter/edit_contract/validate_surface.py",
+    "llm_interpreter/edit_contract/validation.py",
+    "llm_interpreter/edit_contract/workflow.py",
+    "llm_interpreter/edit_contract/write_surface.py",
+    "llm_interpreter/interpreter/adapter.py",
+    "llm_interpreter/interpreter/persisted_validation.py",
+    "llm_interpreter/interpreter/results.py",
+    "llm_interpreter/prompts/schema.py",
+    "llm_interpreter/runtime_paths.py",
+    "llm_interpreter/runtime_support.py",
+    "module-manifest.json",
+    "check-runtime.bat",
+    "tools/check-runtime.ps1",
+    ".env.example"
+  ]
+}

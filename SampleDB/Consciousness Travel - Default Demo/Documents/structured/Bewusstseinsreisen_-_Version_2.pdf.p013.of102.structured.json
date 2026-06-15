@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:32:34.533707+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.92,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 13,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=013-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
+      "matched_signals": [
+        "book page",
+        "philosophical writing",
+        "continuous paragraphs"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page13_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 13,
+        "sequence": 1,
+        "text": "Mit „Falsch“ meine ich nicht etwas zu tun was gegen ein Gesetz verstößt oder was die Gesellschaft, die Kultur oder die Moral als falsch ansieht. „Falsch“ in diesem Zusammenhang bedeutet, dass du dafür keine Rechtfertigung in dir selbst schaffen kannst, die es dir erlaubt es zu tun, ohne die Widerspruchsfreiheit zu gefährden. Du kannst eine Bank ausrauben und wissen, dass es gegen das Gesetz verstößt, aber du bist davon überzeugt, deine Motivation diese Bank zu berauben stehe über dem was das Gesetz vorgibt. Du magst dich davon überzeugt haben, mit dem Geld viel Gutes tun zu können oder du bewertest dein eigenes Verlangen nach Geld wichtiger als das allgemeine Gesetz. Wie auch immer, in dir selbst ist die Rechtfertigung zum berauben der Bank in sich völlig schlüssig. Du bist kein böser Mensch wenn du dies tust. Vielleicht siehst du dich als Opfer der Umstände, die dich dazu zwingen, als Geschädigter anderer böser Menschen und tief drin bist du überzeugt, dabei doch der Gute zu sein.",
+        "function": "defines_internal_justification",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page13_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 13,
+        "sequence": 2,
+        "text": "Nun stelle dir vor, du wärest ein Politiker, der sein gesamtes Leben damit verbracht hat, einer Sache zu dienen die er als „gut und gerecht“ empfindet. Stelle dir vor er sieht wie sich der Zeitgeist eines Tages gegen ihn wendet und er überall Horden „böser Menschen“ sieht, die sein gutes und gerechtes Lebenswerk bedrohen. Ein Lebenswerk, für das er alles gegeben hat, für das er so viel geopfert hat ist nun in Gefahr. Die Maßnahmen, welche er bereit sein wird zu ergreifen um es zu schützen, werden extrem sein. Er wird ohne zu zögern bereit sein, auch zum letzten Mittel zu greifen und den Tod der „bösen Menschen“ in Kauf nehmen, nur um das Undenkbare zu verhindern.",
+        "function": "thought_experiment_on_moral_self_image",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page13_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 13,
+        "sequence": 3,
+        "text": "An jedem Punkt dieses Weges wir dieser Politiker sich als „der Gute“ sehen der den guten Kampf kämpft, selbst dann noch, wenn er mit schwerem Herzen Exekutionsbefehle unterschreiben wird, denn er ist bereit diese Bürde zu tragen um das zu schützen was gut und richtig ist. Niemals wird er erkennen, wie die „bösen Menschen da draußen“ nur Illusionen sind, erschaffen durch seine eigene Unfähigkeit anzuerkennen, dass seine Ideen und sein Lebenswerk auf Dingen basieren, die schon von Beginn an zum Scheitern verurteilt waren, wie alles irgendwann an der Dynamik der Welt zerschellt. Er kann es nicht, denn das würde buchstäblich die Vernichtung des eigenen Selbst zur Folge haben. Wir alle sehen uns diesem Dilemma gegenüber, tagtäglich, mal mehr, mal weniger davon herausgefordert.",
+        "function": "analyzes_self_deception",
+        "confidence": 0.94
+      },
+      {
+        "segment_id": "Page13_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 13,
+        "sequence": 4,
+        "text": "Das Grausame daran ist, dass unser eigenes Selbstbild gänzlich auf unserer Selbstwahrnehmung beruht, welches einen Zirkelschluss bildet und keine Basis außerhalb des",
+        "function": "introduces_next_argument",
+        "confidence": 0.9
+      }
+    ],
+    "free_text": "Philosophischer Fließtext über Selbstrechtfertigung, Moral und Selbstbild"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=013-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:43aaa6348ce7924c33c78a2ea7973ec586dc25ca876f20076270f1ca7ec537c3",
+    "created_at": null,
+    "modified_at": null
+  }
+}

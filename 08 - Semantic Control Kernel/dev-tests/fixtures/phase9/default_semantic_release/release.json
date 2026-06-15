@@ -1,0 +1,62 @@
+{
+  "projection_refs": [
+    {
+      "projection_fingerprint": "proj-default-fingerprint",
+      "projection_id": "default.projection.v1"
+    }
+  ],
+  "release_fingerprint": "default-release-fingerprint",
+  "release_id": "default.release.v1",
+  "release_version": "1.0.0",
+  "source_adapter_receipt_ref": {
+    "adapter_call_id": "fixture-default-release"
+  },
+  "taxonomy_ref": {
+    "allowed_codes": [
+      "amount_due",
+      "description",
+      "finance",
+      "invoice",
+      "issuer",
+      "line_item",
+      "other",
+      "payment_reference",
+      "receipt",
+      "obsolete_code"
+    ],
+    "fallback_codes": [
+      "other"
+    ],
+    "promotion_slots": [
+      {
+        "slot": "counterparty",
+        "label": "Counterparty",
+        "description": "Document-level counterparty or issuer.",
+        "value_type": "string",
+        "scope": "document",
+        "cardinality": "single",
+        "query_role": "primary",
+        "display_rank": 10
+      },
+      {
+        "slot": "amount_due",
+        "label": "Amount Due",
+        "description": "Document-level payable amount.",
+        "value_type": "number_or_money_string",
+        "scope": "document",
+        "cardinality": "single",
+        "query_role": "primary",
+        "display_rank": 20
+      }
+    ],
+    "runtime_locale": "en",
+    "taxonomy_fingerprint": "taxonomy-default-fingerprint",
+    "taxonomy_id": "default.taxonomy.v1",
+    "term_summaries": {
+      "invoice": "Invoice",
+      "finance": "Finance",
+      "other": "Fallback",
+      "receipt": "Receipt"
+    }
+  }
+}

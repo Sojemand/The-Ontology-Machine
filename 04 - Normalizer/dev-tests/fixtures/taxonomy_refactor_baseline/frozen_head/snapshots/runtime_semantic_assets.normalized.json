@@ -1,0 +1,2742 @@
+{
+  "schema_version": "runtime_semantic_assets_v1",
+  "release_id": "semantic_release.default",
+  "release_version": "2026-03-28.v6",
+  "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "promotion_slots": [
+    {
+      "slot": "document_title",
+      "label": "Document Title",
+      "description": "Human-readable document title or subject when available.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 10
+    },
+    {
+      "slot": "primary_party",
+      "label": "Primary Party",
+      "description": "Main organization, authority, sender, issuer or counterparty anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 20
+    },
+    {
+      "slot": "recipient_party",
+      "label": "Recipient Party",
+      "description": "Recipient, addressee or target party named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 30
+    },
+    {
+      "slot": "person_name",
+      "label": "Person Name",
+      "description": "Main natural person, patient, member, employee or profile subject.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "primary",
+      "display_rank": 40
+    },
+    {
+      "slot": "document_identifier",
+      "label": "Document Identifier",
+      "description": "Stable document, account, invoice, contract, membership, asset or customer identifier.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 50
+    },
+    {
+      "slot": "case_identifier",
+      "label": "Case Identifier",
+      "description": "Case, permit, authority, legal or insurance reference identifier.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 60
+    },
+    {
+      "slot": "document_date",
+      "label": "Document Date",
+      "description": "Primary date printed on or assigned to the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 70
+    },
+    {
+      "slot": "due_date",
+      "label": "Due Date",
+      "description": "Payment, response or action due date when available.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 80
+    },
+    {
+      "slot": "period_start",
+      "label": "Period Start",
+      "description": "Start date of the period covered by the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 90
+    },
+    {
+      "slot": "period_end",
+      "label": "Period End",
+      "description": "End date of the period covered by the document.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 100
+    },
+    {
+      "slot": "total_amount",
+      "label": "Total Amount",
+      "description": "Total, gross or payable monetary amount selected for document-level search and filtering.",
+      "value_type": "number_or_money_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 110
+    },
+    {
+      "slot": "balance_amount",
+      "label": "Balance Amount",
+      "description": "Remaining balance or outstanding amount when available.",
+      "value_type": "number_or_money_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 120
+    },
+    {
+      "slot": "property_address",
+      "label": "Property Address",
+      "description": "Property, residence, site or real-estate address anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 130
+    },
+    {
+      "slot": "site_name",
+      "label": "Site Name",
+      "description": "Technical, operational or business site name anchoring the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 140
+    },
+    {
+      "slot": "event_name",
+      "label": "Event Name",
+      "description": "Community, personal, schedule or narrative event named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "display",
+      "display_rank": 150
+    },
+    {
+      "slot": "appointment_date",
+      "label": "Appointment Date",
+      "description": "Health, personal, coaching, pastoral or community appointment date.",
+      "value_type": "date_or_string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "filter",
+      "display_rank": 160
+    },
+    {
+      "slot": "provider_name",
+      "label": "Provider Name",
+      "description": "Service, health, coaching, care or support provider named by the document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 170
+    },
+    {
+      "slot": "tenant_name",
+      "label": "Tenant Name",
+      "description": "Tenant or primary resident named by a housing or property document.",
+      "value_type": "string",
+      "scope": "document",
+      "cardinality": "single",
+      "query_role": "secondary",
+      "display_rank": 180
+    }
+  ],
+  "projection_catalog": {
+    "catalog_version": "sha256:e1b5929b68d81b2304395e9ad793a4405c15ab4d75390448de56937f380e4803",
+    "release_id": "semantic_release.default",
+    "release_version": "2026-03-28.v6",
+    "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+    "master_taxonomy_id": "normalizer_taxonomy.master",
+    "master_taxonomy_version": "2026-03-28.v6",
+    "projections": [
+      {
+        "projection_id": "business.customer.communication.default.v1",
+        "label": "Customer Communication Default v1",
+        "when_to_use": "Customer letters, account notices, welcome messages, service updates, and provider communication.",
+        "avoid_when": "Not for full invoices, detailed account statements, housing management, official notices, medical administration, or technical asset documentation.",
+        "example_document_types": [
+          "general_letter",
+          "payment_notice",
+          "statement",
+          "policy",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.issuer",
+              "content.fields.sender",
+              "content.fields.customer_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient_primary",
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.account_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "due_date",
+            "source_paths": [
+              "content.fields.due_date"
+            ]
+          },
+          {
+            "slot": "period_start",
+            "source_paths": [
+              "content.fields.period_from"
+            ]
+          },
+          {
+            "slot": "period_end",
+            "source_paths": [
+              "content.fields.period_to"
+            ]
+          },
+          {
+            "slot": "total_amount",
+            "source_paths": [
+              "content.fields.total_amount",
+              "content.fields.reference_amount"
+            ]
+          },
+          {
+            "slot": "balance_amount",
+            "source_paths": [
+              "content.fields.balance_amount"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "community.spiritual.default.v1",
+        "label": "Community and Pastoral Care Default v1",
+        "when_to_use": "Memberships, community events, donations, pastoral care, and spiritual guidance for groups, associations, or congregations.",
+        "avoid_when": "Not for technical records, formal identity files, medical prescriptions, or property management.",
+        "example_document_types": [
+          "membership_record",
+          "statement",
+          "schedule",
+          "general_letter",
+          "certificate"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject",
+              "content.fields.event_name",
+              "content.fields.community_name"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.community_name",
+              "content.fields.sender"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.membership_id",
+              "content.fields.customer_number",
+              "content.fields.account_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "event_name",
+            "source_paths": [
+              "content.fields.event_name"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "finance.default.v1",
+        "label": "Finance Default v1",
+        "when_to_use": "Invoices, statements, payslips, taxes, reimbursements, as well as customer or vendor accounts and budget planning.",
+        "avoid_when": "Not for rent, utility charges, tenant or property management, technical specifications, identity files, or personal development records.",
+        "example_document_types": [
+          "invoice",
+          "statement",
+          "payslip",
+          "quote",
+          "policy"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.issuer",
+              "content.fields.sender",
+              "content.fields.customer_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.invoice_number",
+              "content.fields.document_number",
+              "content.fields.account_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "due_date",
+            "source_paths": [
+              "content.fields.due_date"
+            ]
+          },
+          {
+            "slot": "period_start",
+            "source_paths": [
+              "content.fields.period_from"
+            ]
+          },
+          {
+            "slot": "period_end",
+            "source_paths": [
+              "content.fields.period_to"
+            ]
+          },
+          {
+            "slot": "total_amount",
+            "source_paths": [
+              "content.fields.total_amount",
+              "content.fields.reference_amount"
+            ]
+          },
+          {
+            "slot": "balance_amount",
+            "source_paths": [
+              "content.fields.balance_amount"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "health.care.default.v1",
+        "label": "Health and Care Default v1",
+        "when_to_use": "Medical administration, treatment plans, prescriptions, health insurance, care levels, and medical certificates.",
+        "avoid_when": "Not for pure identity files, pure financial reimbursements, technical maintenance logs, or community records.",
+        "example_document_types": [
+          "prescription",
+          "certificate",
+          "statement",
+          "schedule",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.patient_name",
+              "content.fields.person_name"
+            ]
+          },
+          {
+            "slot": "provider_name",
+            "source_paths": [
+              "content.fields.provider_name"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.provider_name",
+              "content.fields.authority_name",
+              "content.fields.sender"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.insurance_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "case_identifier",
+            "source_paths": [
+              "content.fields.case_id"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "appointment_date",
+            "source_paths": [
+              "content.fields.appointment_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "housing.default.v1",
+        "label": "Housing and Property Management Default v1",
+        "when_to_use": "Housing, utility, tenancy, and property management documents with tenant, cost, or authority context.",
+        "avoid_when": "Not for logistics, procurement, technical execution plans, site access, or personal development plans.",
+        "example_document_types": [
+          "invoice",
+          "advance_payment",
+          "utility_cost_statement",
+          "contract",
+          "general_letter"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.property_manager_name",
+              "content.fields.issuer",
+              "content.fields.sender",
+              "content.fields.owner_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient_primary",
+              "content.fields.tenant_name",
+              "content.fields.recipient",
+              "content.fields.customer_name"
+            ]
+          },
+          {
+            "slot": "tenant_name",
+            "source_paths": [
+              "content.fields.tenant_name"
+            ]
+          },
+          {
+            "slot": "property_address",
+            "source_paths": [
+              "content.fields.property_address"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.invoice_number",
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.account_number",
+              "content.fields.property_manager_internal_id",
+              "content.fields.meter_id",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "case_identifier",
+            "source_paths": [
+              "content.fields.case_id"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "due_date",
+            "source_paths": [
+              "content.fields.due_date"
+            ]
+          },
+          {
+            "slot": "period_start",
+            "source_paths": [
+              "content.fields.period_from"
+            ]
+          },
+          {
+            "slot": "period_end",
+            "source_paths": [
+              "content.fields.period_to"
+            ]
+          },
+          {
+            "slot": "total_amount",
+            "source_paths": [
+              "content.fields.total_amount",
+              "content.fields.reference_amount"
+            ]
+          },
+          {
+            "slot": "balance_amount",
+            "source_paths": [
+              "content.fields.balance_amount"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "legal.public_admin.default.v1",
+        "label": "Legal and Public Administration Default v1",
+        "when_to_use": "Contracts, notices, permits, registrations, enforcement matters, citizen services, and benefit cases.",
+        "avoid_when": "Not for utility statements, logistics evidence, pure payroll, or personal reflection journals.",
+        "example_document_types": [
+          "contract",
+          "authority_notice",
+          "application",
+          "certificate",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.authority_name",
+              "content.fields.sender"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.permit_number",
+              "content.fields.personal_id_number",
+              "content.fields.customer_number",
+              "content.fields.commercial_register",
+              "content.fields.tax_id"
+            ]
+          },
+          {
+            "slot": "case_identifier",
+            "source_paths": [
+              "content.fields.case_id"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "operations.default.v1",
+        "label": "Operations and Deployment Default v1",
+        "when_to_use": "Logistics, procurement, technical execution, deployment planning, travel instructions, access forms, and inventories.",
+        "avoid_when": "Not for tenancy, utility charges, or property management communication.",
+        "example_document_types": [
+          "delivery_note",
+          "order",
+          "specification",
+          "report",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.sender",
+              "content.fields.carrier_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.vehicle_registration",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "people.identity.default.v1",
+        "label": "People Identity Default v1",
+        "when_to_use": "Identity documents, master records, employment documents, education records, and personal certificates.",
+        "avoid_when": "Not for financial invoices, technical asset files, medical treatment plans, or community events.",
+        "example_document_types": [
+          "profile",
+          "payslip",
+          "certificate",
+          "application",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.sender",
+              "content.fields.authority_name"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.personal_id_number",
+              "content.fields.employee_id",
+              "content.fields.membership_id",
+              "content.fields.document_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "personal.expression.default.v1",
+        "label": "Personal Development Default v1",
+        "when_to_use": "Wellbeing plans, self-reflection, habit logs, coaching support, and everyday personal support.",
+        "avoid_when": "Not for formal medical administration, finance, legal notices, or membership registers.",
+        "example_document_types": [
+          "narrative_text",
+          "general_letter",
+          "report",
+          "profile"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject",
+              "content.fields.event_name"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.provider_name",
+              "content.fields.community_name"
+            ]
+          },
+          {
+            "slot": "event_name",
+            "source_paths": [
+              "content.fields.event_name"
+            ]
+          },
+          {
+            "slot": "appointment_date",
+            "source_paths": [
+              "content.fields.appointment_date"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "personal.wellbeing.default.v1",
+        "label": "Personal Development Default v1",
+        "when_to_use": "Wellbeing plans, self-reflection, habit logs, coaching support, and everyday personal support.",
+        "avoid_when": "Not for formal medical administration, finance, legal notices, or membership registers.",
+        "example_document_types": [
+          "schedule",
+          "profile",
+          "policy",
+          "report",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject",
+              "content.fields.event_name"
+            ]
+          },
+          {
+            "slot": "person_name",
+            "source_paths": [
+              "content.fields.person_name",
+              "content.fields.contact_person"
+            ]
+          },
+          {
+            "slot": "provider_name",
+            "source_paths": [
+              "content.fields.provider_name"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.provider_name",
+              "content.fields.community_name"
+            ]
+          },
+          {
+            "slot": "event_name",
+            "source_paths": [
+              "content.fields.event_name"
+            ]
+          },
+          {
+            "slot": "appointment_date",
+            "source_paths": [
+              "content.fields.appointment_date"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      },
+      {
+        "projection_id": "technical.default.v1",
+        "label": "Technical and Asset Management Default v1",
+        "when_to_use": "Specifications, inspections, maintenance, asset or site documentation, engineering changes, quality assurance, and equipment files.",
+        "avoid_when": "Not for property management, pure financial records, formal identity files, or pastoral and wellbeing-related records.",
+        "example_document_types": [
+          "specification",
+          "inspection_report",
+          "meter_reading",
+          "report",
+          "form"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title",
+            "source_paths": [
+              "content.fields.subject"
+            ]
+          },
+          {
+            "slot": "primary_party",
+            "source_paths": [
+              "content.fields.issuer",
+              "content.fields.sender"
+            ]
+          },
+          {
+            "slot": "recipient_party",
+            "source_paths": [
+              "content.fields.recipient"
+            ]
+          },
+          {
+            "slot": "document_identifier",
+            "source_paths": [
+              "content.fields.document_number",
+              "content.fields.contract_number",
+              "content.fields.meter_id",
+              "content.fields.asset_id",
+              "content.fields.serial_number",
+              "content.fields.customer_number"
+            ]
+          },
+          {
+            "slot": "case_identifier",
+            "source_paths": [
+              "content.fields.case_id"
+            ]
+          },
+          {
+            "slot": "document_date",
+            "source_paths": [
+              "content.fields.document_date"
+            ]
+          },
+          {
+            "slot": "site_name",
+            "source_paths": [
+              "content.fields.site_name"
+            ]
+          }
+        ],
+        "field_slot_map": {}
+      }
+    ],
+    "master_taxonomy_release_id": "sha256:6a985ff34e3398e024bf7ff25a8d1d25520ea2e31836999ef7bf452c2d1071d2",
+    "runtime_locale": "en"
+  },
+  "vision_policy_bundle": {
+    "bundle_version": "vision_policy_bundle_v1",
+    "release_fingerprint": "sha256:8e03f837a6dd5750c0e06cb18ed9550bb73091397b18b2bd9127828930f342c4",
+    "ocr_policy": {
+      "policy_version": "ocr_policy_v1",
+      "source_mode": "release_domain_merge",
+      "defaults": {
+        "profile_id": "layout_fidelity_v1",
+        "scan": {
+          "min_chars_per_page": 80,
+          "use_has_images": true
+        },
+        "vision_route": {
+          "images_always_vision": true,
+          "pdf_scans_use_vision": true
+        },
+        "ocr_plugin": {
+          "preferred_plugin": "optimizer-llm-ocr",
+          "force_backup_on_scan": true
+        },
+        "render": {
+          "page_image_dpi": 150,
+          "page_image_quality": 95,
+          "serializer_quality_mode": "best_quality",
+          "ocr_render_dpi": 450
+        }
+      }
+    },
+    "semantic_extraction_policy": {
+      "policy_version": "semantic_extraction_policy_v2",
+      "source_mode": "release_projection_compile",
+      "defaults": {
+        "fallback_projection_id": "housing.default.v1",
+        "resolution": {
+          "min_score": 7,
+          "document_type_weight": 6,
+          "field_weight": 1,
+          "table_role_weight": 2,
+          "field_signal_limit": 4,
+          "table_signal_limit": 3
+        },
+        "default_profile": {
+          "projection_id": "housing.default.v1",
+          "signals": {
+            "document_types": [
+              "invoice",
+              "credit.note",
+              "receipt",
+              "quote",
+              "payment.notice",
+              "reminder",
+              "advance.payment",
+              "utility.cost.statement",
+              "rent.statement",
+              "cost.analysis",
+              "contract",
+              "contract.addendum",
+              "termination.notice",
+              "authority.notice",
+              "application",
+              "general.letter",
+              "minutes.record",
+              "report",
+              "inspection.report",
+              "energy.certificate",
+              "meter.reading",
+              "certificate",
+              "form",
+              "other"
+            ],
+            "field_labels": [
+              "issuer",
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "recipient.primary",
+              "customer.name",
+              "tenant.name",
+              "owner.name",
+              "property.manager.name",
+              "property.address",
+              "property.manager.internal.id",
+              "document.number",
+              "subject",
+              "salutation",
+              "closing",
+              "invoice.number",
+              "contract.number",
+              "account.number",
+              "document.date",
+              "period.from",
+              "period.to",
+              "due.date",
+              "currency",
+              "reference.amount",
+              "total.amount",
+              "net.amount",
+              "tax.amount",
+              "balance.amount",
+              "bank.name",
+              "iban",
+              "bic",
+              "phone",
+              "register.court",
+              "commercial.register",
+              "tax.id",
+              "page.indicator",
+              "meter.id",
+              "case.id",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "cost.breakdown.current",
+              "cost.breakdown.history",
+              "consumption.current",
+              "consumption.history",
+              "payment.schedule",
+              "account.entry",
+              "meter.reading.series",
+              "participant.list",
+              "contact.block",
+              "timeline.entry",
+              "other"
+            ],
+            "domains": [
+              "property",
+              "finance",
+              "administrative",
+              "technical",
+              "legal",
+              "other"
+            ],
+            "text_markers": [
+              "tenant",
+              "apartment",
+              "utility.costs",
+              "heating.costs",
+              "hot.water",
+              "property.management",
+              "service.charges",
+              "meter.reading",
+              "property"
+            ],
+            "domain_markers": {
+              "property": [
+                "apartment",
+                "property",
+                "tenant",
+                "property.management"
+              ],
+              "finance": [
+                "utility.costs",
+                "heating.costs",
+                "rent.account"
+              ],
+              "administrative": [
+                "administration",
+                "housing.cooperative",
+                "property.number"
+              ],
+              "technical": [
+                "meter",
+                "reading",
+                "usage"
+              ],
+              "legal": [
+                "rental.agreement",
+                "termination"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "billing",
+              "payment",
+              "contact.block"
+            ],
+            "party_roles": [
+              "tenant",
+              "property.manager",
+              "recipient"
+            ]
+          },
+          "budgets": {
+            "max_sections": 5,
+            "max_section_chars": 700,
+            "max_facts": 10,
+            "max_tables": 2,
+            "max_table_rows": 6
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header",
+            "billing",
+            "payment"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": true,
+            "payment": true
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 6
+          }
+        }
+      },
+      "projection_overrides": {
+        "business.customer.communication.default.v1": {
+          "projection_id": "business.customer.communication.default.v1",
+          "signals": {
+            "document_types": [
+              "payment.notice",
+              "statement",
+              "contract",
+              "general.letter",
+              "policy",
+              "form",
+              "report",
+              "other"
+            ],
+            "field_labels": [
+              "issuer",
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "recipient.primary",
+              "customer.name",
+              "customer.number",
+              "document.number",
+              "contract.number",
+              "account.number",
+              "document.date",
+              "period.from",
+              "period.to",
+              "service.end.date",
+              "due.date",
+              "currency",
+              "reference.amount",
+              "total.amount",
+              "net.amount",
+              "tax.amount",
+              "balance.amount",
+              "bank.name",
+              "iban",
+              "bic",
+              "tax.id",
+              "department.name",
+              "subject",
+              "salutation",
+              "closing",
+              "signoff",
+              "contact.person",
+              "signatory",
+              "signatory.role",
+              "phone",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "payment.schedule",
+              "account.entry",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "business",
+              "administrative",
+              "finance",
+              "legal",
+              "other"
+            ],
+            "text_markers": [
+              "customer.number",
+              "customer.service",
+              "welcome",
+              "contract.number",
+              "customer.account",
+              "mail.forwarding",
+              "phone.number",
+              "customer.care",
+              "welcome.message",
+              "address.change"
+            ],
+            "domain_markers": {
+              "business": [
+                "customer.number",
+                "customer.account",
+                "customer.care",
+                "welcome.message",
+                "customer.service",
+                "welcome"
+              ],
+              "administrative": [
+                "address.change",
+                "address",
+                "notice",
+                "service"
+              ],
+              "finance": [
+                "customer.account",
+                "payment",
+                "amount"
+              ],
+              "legal": [
+                "contract.number",
+                "contract"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "notice",
+              "contact.block",
+              "payment"
+            ],
+            "party_roles": [
+              "sender",
+              "recipient",
+              "customer",
+              "contact.person"
+            ]
+          },
+          "budgets": {
+            "max_sections": 5,
+            "max_section_chars": 700,
+            "max_facts": 10,
+            "max_tables": 2,
+            "max_table_rows": 6
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header",
+            "billing",
+            "payment"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": true,
+            "payment": true
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 6
+          }
+        },
+        "community.spiritual.default.v1": {
+          "projection_id": "community.spiritual.default.v1",
+          "signals": {
+            "document_types": [
+              "membership.record",
+              "general.letter",
+              "policy",
+              "schedule",
+              "statement",
+              "certificate",
+              "form",
+              "profile",
+              "report",
+              "other"
+            ],
+            "field_labels": [
+              "community.name",
+              "membership.id",
+              "event.name",
+              "person.name",
+              "document.date",
+              "subject",
+              "sender",
+              "recipient",
+              "contact.person",
+              "phone",
+              "account.number",
+              "iban",
+              "bank.name",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "participant.list",
+              "timeline.entry",
+              "line.item",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "community",
+              "people",
+              "administrative",
+              "finance",
+              "personal",
+              "other"
+            ],
+            "text_markers": [
+              "congregation",
+              "member",
+              "donation.receipt",
+              "worship.service",
+              "pastoral.care"
+            ],
+            "domain_markers": {
+              "community": [
+                "congregation",
+                "member",
+                "event"
+              ],
+              "people": [
+                "member",
+                "pastoral.care"
+              ],
+              "administrative": [
+                "registration",
+                "certificate"
+              ],
+              "finance": [
+                "donation",
+                "contribution"
+              ],
+              "personal": [
+                "guidance",
+                "prayer"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "participants",
+              "contact.block"
+            ],
+            "party_roles": [
+              "recipient",
+              "contact.person",
+              "member"
+            ]
+          },
+          "budgets": {
+            "max_sections": 5,
+            "max_section_chars": 700,
+            "max_facts": 10,
+            "max_tables": 2,
+            "max_table_rows": 6
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header",
+            "billing",
+            "payment"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": true,
+            "payment": true
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 6
+          }
+        },
+        "finance.default.v1": {
+          "projection_id": "finance.default.v1",
+          "signals": {
+            "document_types": [
+              "invoice",
+              "credit.note",
+              "receipt",
+              "quote",
+              "payment.notice",
+              "reminder",
+              "advance.payment",
+              "cost.analysis",
+              "statement",
+              "payslip",
+              "contract",
+              "general.letter",
+              "report",
+              "policy",
+              "form",
+              "other"
+            ],
+            "field_labels": [
+              "issuer",
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "customer.name",
+              "document.number",
+              "invoice.number",
+              "account.number",
+              "document.date",
+              "period.from",
+              "period.to",
+              "due.date",
+              "currency",
+              "reference.amount",
+              "total.amount",
+              "net.amount",
+              "tax.amount",
+              "balance.amount",
+              "bank.name",
+              "iban",
+              "bic",
+              "tax.id",
+              "department.name",
+              "cost.center",
+              "employee.id",
+              "subject",
+              "contact.person",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "payment.schedule",
+              "account.entry",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "finance",
+              "business",
+              "administrative",
+              "legal",
+              "people",
+              "other"
+            ],
+            "text_markers": [
+              "invoice",
+              "payment.terms",
+              "due.date",
+              "outstanding.amount",
+              "customer.number",
+              "accounts.receivable",
+              "accounts.payable",
+              "posting"
+            ],
+            "domain_markers": {
+              "finance": [
+                "invoice",
+                "balance",
+                "payment.terms",
+                "tax"
+              ],
+              "business": [
+                "customer.number",
+                "accounts.receivable",
+                "accounts.payable",
+                "customer.account"
+              ],
+              "administrative": [
+                "posting",
+                "reference",
+                "due.date"
+              ],
+              "legal": [
+                "contract.number",
+                "payment.deadline"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "line.items",
+              "billing",
+              "payment"
+            ],
+            "party_roles": [
+              "sender",
+              "recipient",
+              "customer"
+            ]
+          },
+          "budgets": {
+            "max_sections": 5,
+            "max_section_chars": 700,
+            "max_facts": 10,
+            "max_tables": 2,
+            "max_table_rows": 6
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header",
+            "billing",
+            "payment"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": true,
+            "payment": true
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 6
+          }
+        },
+        "health.care.default.v1": {
+          "projection_id": "health.care.default.v1",
+          "signals": {
+            "document_types": [
+              "prescription",
+              "certificate",
+              "form",
+              "statement",
+              "schedule",
+              "report",
+              "policy",
+              "application",
+              "general.letter",
+              "other"
+            ],
+            "field_labels": [
+              "patient.name",
+              "provider.name",
+              "insurance.number",
+              "diagnosis",
+              "care.level",
+              "medication.name",
+              "appointment.date",
+              "document.date",
+              "person.name",
+              "sender",
+              "recipient",
+              "authority.name",
+              "case.id",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "participant.list",
+              "timeline.entry",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "health",
+              "people",
+              "administrative",
+              "finance",
+              "other"
+            ],
+            "text_markers": [
+              "patient",
+              "diagnosis",
+              "medication",
+              "therapy",
+              "prescription",
+              "insurance"
+            ],
+            "domain_markers": {
+              "health": [
+                "patient",
+                "therapy",
+                "medication"
+              ],
+              "people": [
+                "insured.person",
+                "date.of.birth"
+              ],
+              "administrative": [
+                "prescription",
+                "certificate"
+              ],
+              "finance": [
+                "reimbursement",
+                "invoice"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "form",
+              "participants"
+            ],
+            "party_roles": [
+              "patient",
+              "sender",
+              "recipient"
+            ]
+          },
+          "budgets": {
+            "max_sections": 5,
+            "max_section_chars": 700,
+            "max_facts": 10,
+            "max_tables": 2,
+            "max_table_rows": 6
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header",
+            "billing",
+            "payment"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": true,
+            "payment": true
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 6
+          }
+        },
+        "legal.public_admin.default.v1": {
+          "projection_id": "legal.public_admin.default.v1",
+          "signals": {
+            "document_types": [
+              "contract",
+              "contract.addendum",
+              "termination.notice",
+              "authority.notice",
+              "application",
+              "general.letter",
+              "certificate",
+              "form",
+              "policy",
+              "statement",
+              "report",
+              "profile",
+              "other"
+            ],
+            "field_labels": [
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "document.number",
+              "our.reference",
+              "your.reference",
+              "subject",
+              "contract.number",
+              "document.date",
+              "authority.name",
+              "permit.number",
+              "case.id",
+              "person.name",
+              "personal.id.number",
+              "date.of.birth",
+              "place.of.birth",
+              "nationality",
+              "register.court",
+              "commercial.register",
+              "tax.id",
+              "contact.person",
+              "phone",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "participant.list",
+              "contact.block",
+              "timeline.entry",
+              "line.item",
+              "other"
+            ],
+            "domains": [
+              "legal",
+              "administrative",
+              "business",
+              "people",
+              "finance",
+              "other"
+            ],
+            "text_markers": [
+              "authority",
+              "case.reference",
+              "notice",
+              "reminder",
+              "payment.tracking",
+              "enforcement",
+              "arrears",
+              "claim",
+              "treasury.reference"
+            ],
+            "domain_markers": {
+              "legal": [
+                "notice",
+                "enforcement",
+                "claim",
+                "fee.notice"
+              ],
+              "administrative": [
+                "authority",
+                "case.reference",
+                "treasury.reference",
+                "payment.tracking"
+              ],
+              "business": [
+                "account.statement",
+                "balance",
+                "payment.received"
+              ],
+              "people": [
+                "applicant",
+                "affected.person",
+                "date.of.birth"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "notice",
+              "timeline",
+              "participants"
+            ],
+            "party_roles": [
+              "sender",
+              "recipient",
+              "contact.person"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        },
+        "operations.default.v1": {
+          "projection_id": "operations.default.v1",
+          "signals": {
+            "document_types": [
+              "delivery.note",
+              "order",
+              "contract",
+              "general.letter",
+              "report",
+              "specification",
+              "form",
+              "other"
+            ],
+            "field_labels": [
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "document.number",
+              "our.reference",
+              "your.reference",
+              "subject",
+              "contract.number",
+              "document.date",
+              "phone",
+              "contact.person",
+              "carrier.name",
+              "vehicle.registration",
+              "loading.address",
+              "transfer.address",
+              "unloading.address",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "participant.list",
+              "timeline.entry",
+              "other"
+            ],
+            "domains": [
+              "operations",
+              "technical",
+              "administrative",
+              "legal",
+              "personal",
+              "other"
+            ],
+            "text_markers": [
+              "delivery.note",
+              "transport.order",
+              "delivery",
+              "pickup",
+              "site",
+              "deployment.plan"
+            ],
+            "domain_markers": {
+              "operations": [
+                "transport",
+                "delivery.note",
+                "delivery"
+              ],
+              "technical": [
+                "asset",
+                "maintenance",
+                "site"
+              ],
+              "administrative": [
+                "order",
+                "reference",
+                "approval"
+              ],
+              "legal": [
+                "liability",
+                "approval"
+              ],
+              "personal": [
+                "deployment",
+                "shift"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "line.items",
+              "timeline",
+              "contact.block"
+            ],
+            "party_roles": [
+              "sender",
+              "recipient",
+              "carrier"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        },
+        "people.identity.default.v1": {
+          "projection_id": "people.identity.default.v1",
+          "signals": {
+            "document_types": [
+              "profile",
+              "form",
+              "certificate",
+              "application",
+              "contract",
+              "general.letter",
+              "membership.record",
+              "payslip",
+              "report",
+              "statement",
+              "other"
+            ],
+            "field_labels": [
+              "person.name",
+              "personal.id.number",
+              "date.of.birth",
+              "place.of.birth",
+              "nationality",
+              "employee.id",
+              "job.title",
+              "department.name",
+              "cost.center",
+              "document.number",
+              "document.date",
+              "sender",
+              "recipient",
+              "subject",
+              "contact.person",
+              "phone",
+              "authority.name",
+              "membership.id",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "participant.list",
+              "contact.block",
+              "timeline.entry",
+              "line.item",
+              "other"
+            ],
+            "domains": [
+              "people",
+              "business",
+              "administrative",
+              "legal",
+              "finance",
+              "community",
+              "other"
+            ],
+            "text_markers": [
+              "id.card",
+              "employee.number",
+              "date.of.birth",
+              "identity",
+              "passport.number",
+              "nationality"
+            ],
+            "domain_markers": {
+              "people": [
+                "id.card",
+                "date.of.birth",
+                "identity"
+              ],
+              "business": [
+                "employee.number",
+                "employee"
+              ],
+              "administrative": [
+                "identification",
+                "certificate"
+              ],
+              "legal": [
+                "identity.proof",
+                "register"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "form",
+              "participants"
+            ],
+            "party_roles": [
+              "recipient",
+              "sender",
+              "employee"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        },
+        "personal.expression.default.v1": {
+          "projection_id": "personal.expression.default.v1",
+          "signals": {
+            "document_types": [
+              "narrative.text",
+              "general.letter",
+              "report",
+              "profile",
+              "other"
+            ],
+            "field_labels": [
+              "person.name",
+              "document.date",
+              "subject",
+              "provider.name",
+              "appointment.date",
+              "event.name",
+              "community.name",
+              "contact.person",
+              "phone",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "timeline.entry",
+              "participant.list",
+              "line.item",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "personal",
+              "community",
+              "people",
+              "other"
+            ],
+            "text_markers": [
+              "diary",
+              "journal",
+              "story",
+              "fiction",
+              "fanfiction",
+              "chapter",
+              "summary",
+              "author",
+              "introspection",
+              "reflection"
+            ],
+            "domain_markers": {
+              "people": [
+                "author",
+                "letter",
+                "relationship"
+              ],
+              "community": [
+                "pastoral",
+                "support",
+                "reflection"
+              ],
+              "personal": [
+                "diary",
+                "journal",
+                "introspection",
+                "reflection",
+                "self.help"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "timeline",
+              "participants"
+            ],
+            "party_roles": [
+              "recipient",
+              "contact.person",
+              "coach"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        },
+        "personal.wellbeing.default.v1": {
+          "projection_id": "personal.wellbeing.default.v1",
+          "signals": {
+            "document_types": [
+              "schedule",
+              "profile",
+              "policy",
+              "report",
+              "form",
+              "general.letter",
+              "certificate",
+              "other"
+            ],
+            "field_labels": [
+              "person.name",
+              "document.date",
+              "subject",
+              "provider.name",
+              "appointment.date",
+              "event.name",
+              "community.name",
+              "contact.person",
+              "phone",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "timeline.entry",
+              "participant.list",
+              "line.item",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "personal",
+              "people",
+              "health",
+              "community",
+              "other"
+            ],
+            "text_markers": [
+              "journal",
+              "routine",
+              "wellbeing",
+              "appointment",
+              "support",
+              "sleep",
+              "mood"
+            ],
+            "domain_markers": {
+              "personal": [
+                "wellbeing",
+                "routine",
+                "journal"
+              ],
+              "people": [
+                "person",
+                "caregiver"
+              ],
+              "health": [
+                "mood",
+                "sleep",
+                "symptom"
+              ],
+              "community": [
+                "group",
+                "support"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "timeline",
+              "participants"
+            ],
+            "party_roles": [
+              "recipient",
+              "contact.person",
+              "coach"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        },
+        "technical.default.v1": {
+          "projection_id": "technical.default.v1",
+          "signals": {
+            "document_types": [
+              "specification",
+              "inspection.report",
+              "energy.certificate",
+              "meter.reading",
+              "report",
+              "delivery.note",
+              "order",
+              "contract",
+              "policy",
+              "schedule",
+              "form",
+              "certificate",
+              "general.letter",
+              "other"
+            ],
+            "field_labels": [
+              "issuer",
+              "sender",
+              "sender.address",
+              "recipient",
+              "recipient.address",
+              "document.number",
+              "our.reference",
+              "your.reference",
+              "subject",
+              "document.date",
+              "contract.number",
+              "contact.person",
+              "phone",
+              "site.name",
+              "asset.id",
+              "serial.number",
+              "meter.id",
+              "case.id",
+              "page.indicator",
+              "customer.number",
+              "service.end.date",
+              "fax",
+              "email",
+              "website",
+              "mobile.number",
+              "access.code",
+              "signoff",
+              "signatory",
+              "signatory.role",
+              "other"
+            ],
+            "table_roles": [
+              "line.item",
+              "participant.list",
+              "timeline.entry",
+              "meter.reading.series",
+              "contact.block",
+              "other"
+            ],
+            "domains": [
+              "technical",
+              "operations",
+              "business",
+              "administrative",
+              "other"
+            ],
+            "text_markers": [
+              "specification",
+              "maintenance.plan",
+              "serial.number",
+              "inspection.report",
+              "measurement",
+              "asset"
+            ],
+            "domain_markers": {
+              "technical": [
+                "specification",
+                "serial.number",
+                "measurement"
+              ],
+              "operations": [
+                "maintenance",
+                "site",
+                "commissioning"
+              ],
+              "business": [
+                "quote",
+                "approval"
+              ],
+              "administrative": [
+                "document.number",
+                "revision"
+              ]
+            },
+            "section_roles": [
+              "header",
+              "table",
+              "line.items"
+            ],
+            "party_roles": [
+              "sender",
+              "recipient",
+              "contact.person"
+            ]
+          },
+          "budgets": {
+            "max_sections": 6,
+            "max_section_chars": 850,
+            "max_facts": 9,
+            "max_tables": 1,
+            "max_table_rows": 5
+          },
+          "allowed_section_roles": [
+            "header",
+            "summary",
+            "body",
+            "details",
+            "table",
+            "line_items",
+            "billing",
+            "payment",
+            "notice",
+            "timeline",
+            "participants",
+            "contact_block",
+            "metadata",
+            "vision_section",
+            "ocr_chunk",
+            "other"
+          ],
+          "allowed_synthetic_section_roles": [
+            "header"
+          ],
+          "allowed_fact_families": [
+            "document",
+            "reference",
+            "counterparty",
+            "money",
+            "date",
+            "payment",
+            "contact",
+            "other"
+          ],
+          "rescue_families": {
+            "document_header": true,
+            "invoice_financial": false,
+            "payment": false
+          },
+          "table_compaction": {
+            "drop_text_only_rows": true,
+            "max_rows_per_table": 5
+          }
+        }
+      }
+    }
+  },
+  "master_taxonomy_release_id": "sha256:6a985ff34e3398e024bf7ff25a8d1d25520ea2e31836999ef7bf452c2d1071d2",
+  "runtime_locale": "en"
+}

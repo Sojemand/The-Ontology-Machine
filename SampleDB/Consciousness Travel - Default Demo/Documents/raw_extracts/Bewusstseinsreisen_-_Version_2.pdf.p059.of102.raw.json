@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=059-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:cb0b5a155ec53182e2034afb1bc2417253c2a8b430f2a58d04a0f03ea2d270a7",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 59,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=059-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page59_para_0",
+        "type": "paragraph",
+        "value": "„hinauf“ zu blicken und zu verstehen, aus welchem Grund der Lehrer oder die Eltern",
+        "position": {
+          "page": 59,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page59_para_1",
+        "type": "paragraph",
+        "value": "bestimmte Dinge tun oder verlangen. Erst wenn der Schüler oder das Kind auf der gleichen",
+        "position": {
+          "page": 59,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page59_para_2",
+        "type": "paragraph",
+        "value": "Ebene angekommen ist wie der Lehrer oder die Eltern, ist es dem jeweiligen möglich korrekt",
+        "position": {
+          "page": 59,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page59_para_3",
+        "type": "paragraph",
+        "value": "zu bewerten, ob die Art der Erziehung oder der Lehre gut oder schlecht war. Was allerdings",
+        "position": {
+          "page": 59,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page59_para_4",
+        "type": "paragraph",
+        "value": "weder den Lehrling noch das Kind davon abhält sich permanent ob des Unsinns zu",
+        "position": {
+          "page": 59,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page59_para_5",
+        "type": "paragraph",
+        "value": "beschweren, den man ihnen versucht zu lehren. Auch mag es dem Lehrenden an Reife fehlen",
+        "position": {
+          "page": 59,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page59_para_6",
+        "type": "paragraph",
+        "value": "um anzuerkennen, wann er nichts mehr zu lehren hat. Wir sind halt doch nur Menschen.",
+        "position": {
+          "page": 59,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page59_para_7",
+        "type": "paragraph",
+        "value": "Der Drang nach oben",
+        "position": {
+          "page": 59,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page59_para_8",
+        "type": "paragraph",
+        "value": "Nehmen wir also aus Spaß einmal an, dass jene Gesetzmäßigkeiten, die wir beim Übergang",
+        "position": {
+          "page": 59,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page59_para_9",
+        "type": "paragraph",
+        "value": "des Traumbewusstseins in das Wachbewusstsein ausgemacht haben, auch gelten könnten,",
+        "position": {
+          "page": 59,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page59_para_10",
+        "type": "paragraph",
+        "value": "wenn wir noch einen weiteren Schritt nach Oben machen wollen. Wir haben erkannt, wie sich",
+        "position": {
+          "page": 59,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page59_para_11",
+        "type": "paragraph",
+        "value": "unser Realitätsmodell ändert, wenn wir uns den Gesetzen der wachen Welt bewusst werden.",
+        "position": {
+          "page": 59,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page59_para_12",
+        "type": "paragraph",
+        "value": "Wir haben gesehen, wie eingeschränkt unsere Wahrnehmung im Traum ist und wie sie sich",
+        "position": {
+          "page": 59,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page59_para_13",
+        "type": "paragraph",
+        "value": "erweitert, wenn wir uns über Zusammenhänge klar werden, die uns nur im Wachbewusstsein",
+        "position": {
+          "page": 59,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page59_para_14",
+        "type": "paragraph",
+        "value": "zugänglich sind. So müssen wir annehmen, dass diese Regel auch für das gilt, was",
+        "position": {
+          "page": 59,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page59_para_15",
+        "type": "paragraph",
+        "value": "geschehen müsste, würden wir ein Bewusstsein erfahren, welches über dem",
+        "position": {
+          "page": 59,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page59_para_16",
+        "type": "paragraph",
+        "value": "Wachbewusstsein liegt. Wir würden also aufgrund eines weiter ausgedehnten Gewahrseins in",
+        "position": {
+          "page": 59,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page59_para_17",
+        "type": "paragraph",
+        "value": "die Lage versetzt, Zusammenhänge und Regeln zu erkennen, die sich im Wachbewusstsein",
+        "position": {
+          "page": 59,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page59_para_18",
+        "type": "paragraph",
+        "value": "noch außerhalb des Zaunes unseres Gewahrseins befinden. Wenn wir uns dann im Zuge",
+        "position": {
+          "page": 59,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page59_para_19",
+        "type": "paragraph",
+        "value": "dieser Ausdehnung, diesen neuen Zusammenhänge bewusst werden, werden diese dann die",
+        "position": {
+          "page": 59,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page59_para_20",
+        "type": "paragraph",
+        "value": "neue Grundlage bilden, auf denen wir unser eigenes Realitätsmodell und unsere",
+        "position": {
+          "page": 59,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page59_para_21",
+        "type": "paragraph",
+        "value": "Entscheidungen gründen werden. Wir würden folgerichtig erkennen, dass das, was wir jetzt",
+        "position": {
+          "page": 59,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page59_para_22",
+        "type": "paragraph",
+        "value": "als Wachbewusstsein erfahren, nur eine Teilmenge dessen ausmacht, was wir dann als",
+        "position": {
+          "page": 59,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page59_para_23",
+        "type": "paragraph",
+        "value": "„Wirklichkeit“ anerkennen. Und wir erkennen auch, dass alle Entscheidungen, die wir während",
+        "position": {
+          "page": 59,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page59_para_24",
+        "type": "paragraph",
+        "value": "des Wachbewusstseins getroffen haben, sich nur noch sehr begrenzt mit dem vereinbaren",
+        "position": {
+          "page": 59,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page59_para_25",
+        "type": "paragraph",
+        "value": "lassen, was jetzt unsere Entscheidungen bestimmt. Sicher würdet ihr euer Zauberbuch",
+        "position": {
+          "page": 59,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page59_para_26",
+        "type": "paragraph",
+        "value": "umgehend in die Tonne treten.",
+        "position": {
+          "page": 59,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page59_para_27",
+        "type": "paragraph",
+        "value": "Um den Kreis zu schließen, müssten wir dann auch in einer Position sein, die es uns erlaubt,",
+        "position": {
+          "page": 59,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page59_para_28",
+        "type": "paragraph",
+        "value": "in unser Wachbewusstsein „hinunter“ oder „hinein“ zu sehen und sämtliche Widersprüche",
+        "position": {
+          "page": 59,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page59_para_29",
+        "type": "paragraph",
+        "value": "darin erkennen, so, wie wir sie in unseren Träumen erkennen. Wären also die Regeln, die wir",
+        "position": {
+          "page": 59,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page59_para_30",
+        "type": "paragraph",
+        "value": "entworfen haben, auch dann noch gültig, wenn wir uns nach Oben bewegen wollen, so haben",
+        "position": {
+          "page": 59,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page59_para_31",
+        "type": "paragraph",
+        "value": "wir ein gutes Modell, welches Voraussagen möglich macht, die wir überprüfen können. Und",
+        "position": {
+          "page": 59,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

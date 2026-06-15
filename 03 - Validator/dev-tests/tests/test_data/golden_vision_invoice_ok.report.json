@@ -1,0 +1,41 @@
+{
+  "interpreter_profile": "vision",
+  "file_name": "invoice_ok.pdf",
+  "content_hash": "sha256:invoiceok",
+  "result": "PASS",
+  "needs_review": false,
+  "summary": {
+    "total_issues": 0,
+    "fail_count": 0,
+    "warn_count": 0,
+    "checked_values": 15,
+    "valid_values": 15
+  },
+  "checks": {
+    "free_text": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 1,
+      "valid": 1
+    },
+    "context_scalars": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 7,
+      "valid": 7
+    },
+    "content_fields": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 5,
+      "valid": 5
+    },
+    "rows": {
+      "status": "PASS",
+      "issue_count": 0,
+      "checked": 2,
+      "valid": 2
+    }
+  },
+  "issues": []
+}

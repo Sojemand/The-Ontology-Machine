@@ -1,0 +1,338 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=095-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:19af34d9656a44f670ee217c6e4c5580ddcfd131baaedac6f9d3e62c256605a2",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 95,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=095-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page95_para_0",
+        "type": "paragraph",
+        "value": "uns selbst zu belügen, zu überhöhen und zu separieren, unseren eigenen Vorstellungen mehr",
+        "position": {
+          "page": 95,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page95_para_1",
+        "type": "paragraph",
+        "value": "Realität zuzuordnen als ihnen gebührt, nur um letztendlich zu Traumphilosophen zu werden,",
+        "position": {
+          "page": 95,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page95_para_2",
+        "type": "paragraph",
+        "value": "die nichts anderes tun als an ihren eigenen Fürzen zu riechen ist ein furchtbar einfacher Weg,",
+        "position": {
+          "page": 95,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page95_para_3",
+        "type": "paragraph",
+        "value": "den wir nur allzu gerne gehen. Die Frage, wie man so etwas verhindert, ist schon für sich",
+        "position": {
+          "page": 95,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page95_para_4",
+        "type": "paragraph",
+        "value": "allein genommen eine monumentale Aufgabe. Wie können wir die Einschränkung umgehen,",
+        "position": {
+          "page": 95,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page95_para_5",
+        "type": "paragraph",
+        "value": "nicht „nach oben“ schauen zu können?",
+        "position": {
+          "page": 95,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page95_para_6",
+        "type": "paragraph",
+        "value": "Diese Einschränkung bezieht sich nicht nur auf die Phasen, welches ein Bewusstsein",
+        "position": {
+          "page": 95,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page95_para_7",
+        "type": "paragraph",
+        "value": "durchlaufen kann und welche die Blindheit gegenüber sich selbst mit sich bringt, sie dehnt",
+        "position": {
+          "page": 95,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page95_para_8",
+        "type": "paragraph",
+        "value": "sich schließlich auch auf den Umgang zwischen zwei Menschen aus. So wie die Allegorie des",
+        "position": {
+          "page": 95,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page95_para_9",
+        "type": "paragraph",
+        "value": "Lehrers und Schülers, so stehen sich auch zwei Menschen gegenüber, die keinen solchen",
+        "position": {
+          "page": 95,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page95_para_10",
+        "type": "paragraph",
+        "value": "gegenseitigen Maßstab besitzen, um bewerten zu können, ob das Gegenüber Unsinn redet",
+        "position": {
+          "page": 95,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page95_para_11",
+        "type": "paragraph",
+        "value": "oder man selbst es ist, der nur Unsinn hört weil es an Verständnis mangelt. Unsere",
+        "position": {
+          "page": 95,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page95_para_12",
+        "type": "paragraph",
+        "value": "Primärmotivation, Widersprüche stets im Außen zu vermuten ist es dann auch, welche uns",
+        "position": {
+          "page": 95,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page95_para_13",
+        "type": "paragraph",
+        "value": "erstere Möglichkeit vorzugsweise als die wahrscheinlichste erscheinen lässt. Dabei können",
+        "position": {
+          "page": 95,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page95_para_14",
+        "type": "paragraph",
+        "value": "wir es überhaupt nicht wissen, solange wir uns nicht auf einen Maßstab geeinigt haben, an",
+        "position": {
+          "page": 95,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page95_para_15",
+        "type": "paragraph",
+        "value": "dem wir beide dann die Frage klären können. So bleibt es beim simplen „ich hab recht und du",
+        "position": {
+          "page": 95,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page95_para_16",
+        "type": "paragraph",
+        "value": "bist doof“ Geplänkel, welches uns keinen Schritt weiter bringt.",
+        "position": {
+          "page": 95,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page95_para_17",
+        "type": "paragraph",
+        "value": "So lange wir keine Strategie haben, die das Ego hinten an stellt und mit derer wir",
+        "position": {
+          "page": 95,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page95_para_18",
+        "type": "paragraph",
+        "value": "herausfinden können, wer warum was nicht sehen oder verstehen kann und wer es kann und",
+        "position": {
+          "page": 95,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page95_para_19",
+        "type": "paragraph",
+        "value": "warum er es kann, solange sind wir im Teufelskreis des „sich gegenseitig überzeugen",
+        "position": {
+          "page": 95,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page95_para_20",
+        "type": "paragraph",
+        "value": "wollens“ gefangen. Dabei haben wir nicht nur das Problem, dass wir nach „oben“ hin blind",
+        "position": {
+          "page": 95,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page95_para_21",
+        "type": "paragraph",
+        "value": "sind, sondern, wie gesagt, auch unsere Neigung, ein solches Defizit als verletzend unserem",
+        "position": {
+          "page": 95,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page95_para_22",
+        "type": "paragraph",
+        "value": "eigenen Ego gegenüber zu empfinden spielt hier mit hinein. Der Spruch „nichts ist auf der",
+        "position": {
+          "page": 95,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page95_para_23",
+        "type": "paragraph",
+        "value": "Welt am gerechtesten verteilt als die Intelligenz, denn jeder denkt, er hätte genug davon“",
+        "position": {
+          "page": 95,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page95_para_24",
+        "type": "paragraph",
+        "value": "illustriert diesen Punkt besser als alles andere. Man überlege sich die Entrüstung, würde ein",
+        "position": {
+          "page": 95,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page95_para_25",
+        "type": "paragraph",
+        "value": "Mensch mit einem IQ von 140 einem Menschen mit einem IQ von 100 sagen, dass er einem",
+        "position": {
+          "page": 95,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page95_para_26",
+        "type": "paragraph",
+        "value": "geistig Behinderten näher stünde als ihm selbst. Obwohl diese Aussage objektiv wahr ist, der",
+        "position": {
+          "page": 95,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page95_para_27",
+        "type": "paragraph",
+        "value": "Mensch mit einem IQ von 140 diesen Graben sehr wohl sehen kann und auch um die",
+        "position": {
+          "page": 95,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page95_para_28",
+        "type": "paragraph",
+        "value": "Wahrheit dieser Aussage weiß, so ist diese für den Menschen mit einem IQ von 100 äußerst",
+        "position": {
+          "page": 95,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page95_para_29",
+        "type": "paragraph",
+        "value": "verletzend und er wird diese Aussage sicher so nicht akzeptieren. Er kann es nicht, weil er",
+        "position": {
+          "page": 95,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page95_para_30",
+        "type": "paragraph",
+        "value": "eben diesen Graben, der für den anderen offensichtlich ist, nicht sehen und verstehen kann.",
+        "position": {
+          "page": 95,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page95_para_31",
+        "type": "paragraph",
+        "value": "Auf der anderen Seite kann er sehr wohl den Graben zwischen sich selbst und einem",
+        "position": {
+          "page": 95,
+          "paragraph_index": 31
+        }
+      },
+      {
+        "id": "page95_para_32",
+        "type": "paragraph",
+        "value": "Menschen mit einem IQ von 60 sehen und es sollte für ihn machbar sein, diesen Graben, den",
+        "position": {
+          "page": 95,
+          "paragraph_index": 32
+        }
+      }
+    ]
+  }
+}

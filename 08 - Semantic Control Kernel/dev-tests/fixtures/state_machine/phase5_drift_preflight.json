@@ -1,0 +1,24 @@
+{
+  "drift_preflight": "build_plan_authority_applied",
+  "phase": "Phase 5 - Deterministic State Machine And Eligibility Validation",
+  "authority_notes": [
+    {
+      "build_plan_detail": "TransitionRule.rule_id tr_001 through tr_051 and default_recovery_states are required implementation fields.",
+      "referenced_spec": "Semantic Kernel SPEC/02_kernel_state_transition_table.md",
+      "spec_status": "omits rule IDs and per-row default recovery state lists",
+      "resolution": "Phase 5 build-plan details are applied while spec 02 remains the function/route table authority."
+    },
+    {
+      "build_plan_detail": "Blocks If values are normalized into central BlockerCode values with one RecoveryStateClass mapping.",
+      "referenced_spec": "Semantic Kernel SPEC/02_kernel_state_transition_table.md",
+      "spec_status": "uses prose blocker descriptions in the table",
+      "resolution": "Phase 5 blocker code list and mapping are applied."
+    },
+    {
+      "build_plan_detail": "Resolver evidence sources include Phase 3 Kernel stores plus read-only owner evidence snapshots.",
+      "referenced_spec": "Semantic Kernel SPEC/11_kernel_internal_data_contracts.md",
+      "spec_status": "registers kernel.active_database_state.v1 but does not define Phase 5 local evidence helper schemas",
+      "resolution": "Phase 5 local helper schemas state.evidence_bundle.v1 and state.evidence_ref.v1 are applied without promoting them to the Phase 2 registry."
+    }
+  ]
+}

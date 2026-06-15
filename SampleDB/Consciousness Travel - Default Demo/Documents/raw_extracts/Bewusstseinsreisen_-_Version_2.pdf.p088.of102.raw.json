@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=088-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:c58fb9c18fd656dca66810a4fc101750c32b1d40b722122645a7c295687e5b3b",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 88,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=088-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page88_para_0",
+        "type": "paragraph",
+        "value": "Existenz in der nächsten Sekunde durch eine Granate des Feindes ausgelöscht wird.",
+        "position": {
+          "page": 88,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page88_para_1",
+        "type": "paragraph",
+        "value": "Das Ziel ist es, eine in sich schlüssige und Widerspruchsfreie Version des Gegenübers in sich",
+        "position": {
+          "page": 88,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page88_para_2",
+        "type": "paragraph",
+        "value": "selbst zu erschaffen, mittels derer man sich im Zielgebiet nahtlos einfügen kann. Dies ist zu",
+        "position": {
+          "page": 88,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page88_para_3",
+        "type": "paragraph",
+        "value": "Beginn ein mental recht schmerzhafter Prozess, da sich unser eigenes Selbst wie gesagt",
+        "position": {
+          "page": 88,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page88_para_4",
+        "type": "paragraph",
+        "value": "beharrlich sträubt, die Sicherheit der eigenen Gewissheit zu verlassen, die Mühen",
+        "position": {
+          "page": 88,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page88_para_5",
+        "type": "paragraph",
+        "value": "aufzubringen, die Gravitation zu überwinden. Man hat die Reise abgeschlossen, wenn man",
+        "position": {
+          "page": 88,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page88_para_6",
+        "type": "paragraph",
+        "value": "überzeugt sagen kann, dass die ehemalige Heimat nun das neue Feindesland ist und richtig",
+        "position": {
+          "page": 88,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page88_para_7",
+        "type": "paragraph",
+        "value": "verstehen wird man die Reise an sich erst, wenn man wieder den Rückweg antritt, denn, wie",
+        "position": {
+          "page": 88,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page88_para_8",
+        "type": "paragraph",
+        "value": "gesagt, die wahre Erkenntnis dieser Reisen ist, dass die Widersprüche stets nur von einem",
+        "position": {
+          "page": 88,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page88_para_9",
+        "type": "paragraph",
+        "value": "selbst aus gehen und „der Feind“ immer jener ist, der man gerade selbst nicht ist.",
+        "position": {
+          "page": 88,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page88_para_10",
+        "type": "paragraph",
+        "value": "Streif man so lange genug durch die Sphären menschlicher Existenz, wird man erkennen,",
+        "position": {
+          "page": 88,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page88_para_11",
+        "type": "paragraph",
+        "value": "dass die gesamte Welt wahrlich nur eine Bühne ist und wir alle nur Schauspieler sind, die nur",
+        "position": {
+          "page": 88,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page88_para_12",
+        "type": "paragraph",
+        "value": "jene Sätze sprechen können, die auf unsere Kleidung gestickt ist die wir gerade tragen, oder",
+        "position": {
+          "page": 88,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page88_para_13",
+        "type": "paragraph",
+        "value": "auf dem Zettel steht den wir in unserem Mund mit uns herum tragen. Der Autor dieses",
+        "position": {
+          "page": 88,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page88_para_14",
+        "type": "paragraph",
+        "value": "Bühnenstückes bleibt uns verborgen, doch ein Mensch ist er sicher nicht, auch wenn der",
+        "position": {
+          "page": 88,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page88_para_15",
+        "type": "paragraph",
+        "value": "Gedanke an einen umfassenden Plan, gelenkt von in Hinterzimmern flüsternden Figuren eine",
+        "position": {
+          "page": 88,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page88_para_16",
+        "type": "paragraph",
+        "value": "gewisse Beruhigung in sich birgt.",
+        "position": {
+          "page": 88,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page88_para_17",
+        "type": "paragraph",
+        "value": "Ein Wort der Warnung scheint mir hier angebracht, denn wer sich entschließt zu solch einem",
+        "position": {
+          "page": 88,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page88_para_18",
+        "type": "paragraph",
+        "value": "Reisenden zu werden, dessen Wege werden einsam sein, denn die Pfade zwischen den",
+        "position": {
+          "page": 88,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page88_para_19",
+        "type": "paragraph",
+        "value": "Sphären sind kaum befahren und Anerkennung sollte man nicht erwarten. Wer sich Zeit",
+        "position": {
+          "page": 88,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page88_para_20",
+        "type": "paragraph",
+        "value": "seines Lebens nur innerhalb einer einzigen Sphäre aufhält, der wird deine Reiseberichte nicht",
+        "position": {
+          "page": 88,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page88_para_21",
+        "type": "paragraph",
+        "value": "verstehen noch schätzen, ganz so wie der arme Wissenschaftler, der gefangen im Dschungel",
+        "position": {
+          "page": 88,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page88_para_22",
+        "type": "paragraph",
+        "value": "sein Dasein fristet. So ist nun mal die Natur unseres Gewahrseins. So ist die Menschliche",
+        "position": {
+          "page": 88,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page88_para_23",
+        "type": "paragraph",
+        "value": "Natur, denn wozu sollte man sich Berichte von Alpträumen anhören, wenn sie das sowie",
+        "position": {
+          "page": 88,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page88_para_24",
+        "type": "paragraph",
+        "value": "schon mühsame Leben nur noch schwerer machen würden?",
+        "position": {
+          "page": 88,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page88_para_25",
+        "type": "paragraph",
+        "value": "Doch genug mit den düsteren Warnungen, uns fehlt schließlich noch der letzte Weg und im",
+        "position": {
+          "page": 88,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page88_para_26",
+        "type": "paragraph",
+        "value": "Grunde ist es auch jener um den es hier wirklich geht.",
+        "position": {
+          "page": 88,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page88_para_27",
+        "type": "paragraph",
+        "value": "Der dritte Weg ist jener, den wir mit dem Wirken der Archetypen verbinden. Dieser ist der wohl",
+        "position": {
+          "page": 88,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page88_para_28",
+        "type": "paragraph",
+        "value": "mysteriöseste Weg von allen, denn dieser ist augenscheinlich akausal. Während die ersten",
+        "position": {
+          "page": 88,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page88_para_29",
+        "type": "paragraph",
+        "value": "beiden Wege stets identifizierbare Ausgangspunkte haben, die wir benennen und in gewissem",
+        "position": {
+          "page": 88,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

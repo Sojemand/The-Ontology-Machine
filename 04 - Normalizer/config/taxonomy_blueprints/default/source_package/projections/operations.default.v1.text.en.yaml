@@ -1,0 +1,34 @@
+label: Operations and Deployment Default v1
+description: Default projection for logistics, procurement, and field-operation records
+  with operational and technical context.
+routing:
+  when_to_use: Logistics, procurement, technical execution, deployment planning, travel
+    instructions, access forms, and inventories.
+  avoid_when: Not for tenancy, utility charges, or property management communication.
+routing_lexicon:
+  text_markers:
+  - delivery note
+  - transport order
+  - delivery
+  - pickup
+  - site
+  - deployment plan
+  domain_markers:
+    operations:
+    - transport
+    - delivery note
+    - delivery
+    technical:
+    - asset
+    - maintenance
+    - site
+    administrative:
+    - order
+    - reference
+    - approval
+    legal:
+    - liability
+    - approval
+    personal:
+    - deployment
+    - shift

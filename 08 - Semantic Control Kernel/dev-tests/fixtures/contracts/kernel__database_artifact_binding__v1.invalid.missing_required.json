@@ -1,0 +1,15 @@
+{
+  "artifact_root_path": "artifact_root_path_example",
+  "binding_provenance": {
+    "example": true
+  },
+  "corpus_path": "corpus_path_example",
+  "created_at": "2026-05-05T00:00:00Z",
+  "database_id": "database_id_example",
+  "database_path": "database_path_example",
+  "documents_path": "documents_path_example",
+  "error_cases_path": "error_cases_path_example",
+  "input_path": "input_path_example",
+  "semantic_release_path": "semantic_release_path_example",
+  "updated_at": "2026-05-05T00:00:00Z"
+}

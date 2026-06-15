@@ -1,0 +1,20 @@
+{
+  "fulltext": {
+    "limit_default": 20
+  },
+  "semantic": {
+    "top_k_default": 10
+  },
+  "hybrid": {
+    "top_k_default": 10,
+    "candidate_multiplier": 2,
+    "fts_weight": 0.6,
+    "vec_weight": 0.4
+  },
+  "readonly": {
+    "max_rows": 100
+  },
+  "fts": {
+    "normalize_by_max_score": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "current_state_summary": "current_state_summary_example",
+  "event_type": "workflow_step",
+  "schema_version": "kernel.progress_event.v1",
+  "sequence_index": 1,
+  "status": "step_started",
+  "step_id": "step_id_example",
+  "step_label": "step_label_example",
+  "timestamp": "2026-05-05T00:00:00Z",
+  "user_visible_summary": "user_visible_summary_example",
+  "workflow_run_id": "workflow_run_id_example",
+  "workflow_tool": "workflow_tool_example"
+}

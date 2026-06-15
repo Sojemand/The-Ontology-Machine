@@ -1,0 +1,889 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.95,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:10:00.045627+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.92,
+    "category": "book",
+    "subcategory": "sources_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.88,
+      "reason": "A book-like page with a heading and a list of source entries is visible.",
+      "matched_signals": [
+        "heading",
+        "book page",
+        "list item"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 102,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=102-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {
+      "section_title": "Quellen"
+    },
+    "rows": [
+      {
+        "type": "source_entry",
+        "text": "Strangers to Ourselves: Discovering the Adaptive Unconscious - Timothy D. Wilson"
+      },
+      {
+        "type": "source_entry",
+        "text": "Thinking, Fast and Slow - Daniel Kahneman"
+      },
+      {
+        "type": "source_entry",
+        "text": "You Are Not So Smart - David McRaney"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Sociopath Next Door - Martha Stout"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Mask of Sanity - Hervey Cleckley"
+      },
+      {
+        "type": "source_entry",
+        "text": "Political Ponerology - Andrzej Lobaczewski"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Authoritarians - Bob Altemeyer"
+      },
+      {
+        "type": "source_entry",
+        "text": "Propaganda als Machtinstrument – Alexandra Bleyer"
+      },
+      {
+        "type": "source_entry",
+        "text": "Fear of the Abyss: Healing the Wounds of Shame & Perfectionism - Aleta Edwards"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Caricature of Love - Hervey Cleckley"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Drama of the Gifted Child: The Search for the True Self - Alice Miller"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Crowd: A Study of the Popular Mind - Gustave Le Bon"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Wave Series - Laura Knight-Jadczyk"
+      },
+      {
+        "type": "source_entry",
+        "text": "In Search of the Miraculous: Fragments of an Unknown Teaching - P.D. Ouspensky"
+      },
+      {
+        "type": "source_entry",
+        "text": "Gnosis - Boris Mouravieff"
+      },
+      {
+        "type": "source_entry",
+        "text": "Meetings with Remarkable Men - G.I. Gurdjieff"
+      },
+      {
+        "type": "source_entry",
+        "text": "Life is Real Only Then, when \"I am\" - G.I. Gurdjieff"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Fourth Way - P.D. Ouspensky"
+      },
+      {
+        "type": "source_entry",
+        "text": "Tertium Organum - P.D. Ouspensky"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Mystery of the Cathedrals - Fulcanelli"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Dwellings of the Philosophers - Fulcanelli"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Historian's Craft - Marc Bloch"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Mythic Past - Thomas L. Thompson"
+      },
+      {
+        "type": "source_entry",
+        "text": "Operation Trojan Horse - John Keel"
+      },
+      {
+        "type": "source_entry",
+        "text": "Shamanism - Mircea Eliade"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Sacred and the Profane - Mircea Eliade"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Secret Teachings of All Ages - Manly Hall"
+      },
+      {
+        "type": "source_entry",
+        "text": "Bringers of the Dawn – Barbara Marciniack"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Ra Material - Carla Rueckert, Don Elkins, and Jim McCarty"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Science Delusion/Science Set Free - Rupert Sheldrake"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Hero With a Thousand Faces - Joseph Campbell"
+      },
+      {
+        "type": "source_entry",
+        "text": "Der Archipel Gulag – Alexander Solschenizyn"
+      },
+      {
+        "type": "source_entry",
+        "text": "Mein Kampf – Adolf Hitler"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Polyvagal Theory – Stephen W. Porges"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Archeology of Mind – Jaak Panksepp, Lucy Biven"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Myth of Male Power – Warren Farrell"
+      },
+      {
+        "type": "source_entry",
+        "text": "Die Archetypen des Tarot – Andreas Bunkahle"
+      },
+      {
+        "type": "source_entry",
+        "text": "Foucaults Pendulum - Umberto Eco"
+      },
+      {
+        "type": "source_entry",
+        "text": "Case for the UFO – Morri Jessup"
+      },
+      {
+        "type": "source_entry",
+        "text": "Journeys Out of the Body - Robert Monroe"
+      },
+      {
+        "type": "source_entry",
+        "text": "Primal Body, Primal Mind - Nora T. Gedgaudas"
+      },
+      {
+        "type": "source_entry",
+        "text": "Life Without Bread - Christian B. Allan & Wolfgang Lutz"
+      },
+      {
+        "type": "source_entry",
+        "text": "Deep Nutrition: Why Your Genes Need Traditional Food - Catherine Shanahan & Luke Shanahan"
+      },
+      {
+        "type": "source_entry",
+        "text": "The UltraMind Solution - Mark Hyman"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Myth of Sanity: Divided Consciousness and the Promise of Awareness - Martha Stout"
+      },
+      {
+        "type": "source_entry",
+        "text": "The Narcissistic Family - Stephanie Donaldson-Pressman and Robert M. Pressman"
+      },
+      {
+        "type": "source_entry",
+        "text": "Trapped in the Mirror: Adult Children of Narcissists in their Struggle for Self - Elan Golomb"
+      },
+      {
+        "type": "source_entry",
+        "text": "Alle Werke von Carlos Castaneda"
+      },
+      {
+        "type": "source_entry",
+        "text": "Alle Werke von Erich von Däniken"
+      },
+      {
+        "type": "source_entry",
+        "text": "Alle Werke von Karla Turner"
+      },
+      {
+        "type": "source_entry",
+        "text": "Ein Wenig David Icke"
+      },
+      {
+        "type": "source_entry",
+        "text": "Philosophien von Aristoteles bis Nietzsche, mal hier mal da."
+      },
+      {
+        "type": "source_entry",
+        "text": "Populärwissenschaftliche Bücher von Stephen Hawking, Richard Dawkins, Brian Greene etc."
+      },
+      {
+        "type": "source_entry",
+        "text": "Wissenschaftliche Papers zu jedem Thema das mich interessierte"
+      }
+    ],
+    "segments": [
+      {
+        "segment_id": "Page102_Segment1",
+        "unit_kind": "title_line",
+        "page": 102,
+        "sequence": 1,
+        "section": "Quellen",
+        "label": null,
+        "text": "Quellen",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment2",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 2,
+        "section": "Quellen",
+        "label": null,
+        "text": "Strangers to Ourselves: Discovering the Adaptive Unconscious - Timothy D. Wilson",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment3",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 3,
+        "section": "Quellen",
+        "label": null,
+        "text": "Thinking, Fast and Slow - Daniel Kahneman",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment4",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 4,
+        "section": "Quellen",
+        "label": null,
+        "text": "You Are Not So Smart - David McRaney",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment5",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 5,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Sociopath Next Door - Martha Stout",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment6",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 6,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Mask of Sanity - Hervey Cleckley",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment7",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 7,
+        "section": "Quellen",
+        "label": null,
+        "text": "Political Ponerology - Andrzej Lobaczewski",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment8",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 8,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Authoritarians - Bob Altemeyer",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment9",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 9,
+        "section": "Quellen",
+        "label": null,
+        "text": "Propaganda als Machtinstrument – Alexandra Bleyer",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment10",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 10,
+        "section": "Quellen",
+        "label": null,
+        "text": "Fear of the Abyss: Healing the Wounds of Shame & Perfectionism - Aleta Edwards",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment11",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 11,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Caricature of Love - Hervey Cleckley",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment12",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 12,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Drama of the Gifted Child: The Search for the True Self - Alice Miller",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment13",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 13,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Crowd: A Study of the Popular Mind - Gustave Le Bon",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment14",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 14,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Wave Series - Laura Knight-Jadczyk",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment15",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 15,
+        "section": "Quellen",
+        "label": null,
+        "text": "In Search of the Miraculous: Fragments of an Unknown Teaching - P.D. Ouspensky",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment16",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 16,
+        "section": "Quellen",
+        "label": null,
+        "text": "Gnosis - Boris Mouravieff",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment17",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 17,
+        "section": "Quellen",
+        "label": null,
+        "text": "Meetings with Remarkable Men - G.I. Gurdjieff",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment18",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 18,
+        "section": "Quellen",
+        "label": null,
+        "text": "Life is Real Only Then, when \"I am\" - G.I. Gurdjieff",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment19",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 19,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Fourth Way - P.D. Ouspensky",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment20",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 20,
+        "section": "Quellen",
+        "label": null,
+        "text": "Tertium Organum - P.D. Ouspensky",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment21",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 21,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Mystery of the Cathedrals - Fulcanelli",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment22",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 22,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Dwellings of the Philosophers - Fulcanelli",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment23",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 23,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Historian's Craft - Marc Bloch",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment24",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 24,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Mythic Past - Thomas L. Thompson",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment25",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 25,
+        "section": "Quellen",
+        "label": null,
+        "text": "Operation Trojan Horse - John Keel",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment26",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 26,
+        "section": "Quellen",
+        "label": null,
+        "text": "Shamanism - Mircea Eliade",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment27",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 27,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Sacred and the Profane - Mircea Eliade",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment28",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 28,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Secret Teachings of All Ages - Manly Hall",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment29",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 29,
+        "section": "Quellen",
+        "label": null,
+        "text": "Bringers of the Dawn – Barbara Marciniack",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment30",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 30,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Ra Material - Carla Rueckert, Don Elkins, and Jim McCarty",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment31",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 31,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Science Delusion/Science Set Free - Rupert Sheldrake",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment32",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 32,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Hero With a Thousand Faces - Joseph Campbell",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment33",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 33,
+        "section": "Quellen",
+        "label": null,
+        "text": "Der Archipel Gulag – Alexander Solschenizyn",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment34",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 34,
+        "section": "Quellen",
+        "label": null,
+        "text": "Mein Kampf – Adolf Hitler",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment35",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 35,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Polyvagal Theory – Stephen W. Porges",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment36",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 36,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Archeology of Mind – Jaak Panksepp, Lucy Biven",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment37",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 37,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Myth of Male Power – Warren Farrell",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment38",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 38,
+        "section": "Quellen",
+        "label": null,
+        "text": "Die Archetypen des Tarot – Andreas Bunkahle",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment39",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 39,
+        "section": "Quellen",
+        "label": null,
+        "text": "Foucaults Pendulum - Umberto Eco",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment40",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 40,
+        "section": "Quellen",
+        "label": null,
+        "text": "Case for the UFO – Morri Jessup",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment41",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 41,
+        "section": "Quellen",
+        "label": null,
+        "text": "Journeys Out of the Body - Robert Monroe",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment42",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 42,
+        "section": "Quellen",
+        "label": null,
+        "text": "Primal Body, Primal Mind - Nora T. Gedgaudas",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment43",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 43,
+        "section": "Quellen",
+        "label": null,
+        "text": "Life Without Bread - Christian B. Allan & Wolfgang Lutz",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment44",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 44,
+        "section": "Quellen",
+        "label": null,
+        "text": "Deep Nutrition: Why Your Genes Need Traditional Food - Catherine Shanahan & Luke Shanahan",
+        "function": "source_reference",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page102_Segment45",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 45,
+        "section": "Quellen",
+        "label": null,
+        "text": "The UltraMind Solution - Mark Hyman",
+        "function": "source_reference",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page102_Segment46",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 46,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Myth of Sanity: Divided Consciousness and the Promise of Awareness - Martha Stout",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment47",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 47,
+        "section": "Quellen",
+        "label": null,
+        "text": "The Narcissistic Family - Stephanie Donaldson-Pressman and Robert M. Pressman",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment48",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 48,
+        "section": "Quellen",
+        "label": null,
+        "text": "Trapped in the Mirror: Adult Children of Narcissists in their Struggle for Self - Elan Golomb",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment49",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 49,
+        "section": "Quellen",
+        "label": null,
+        "text": "Alle Werke von Carlos Castaneda",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment50",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 50,
+        "section": "Quellen",
+        "label": null,
+        "text": "Alle Werke von Erich von Däniken",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment51",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 51,
+        "section": "Quellen",
+        "label": null,
+        "text": "Alle Werke von Karla Turner",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment52",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 52,
+        "section": "Quellen",
+        "label": null,
+        "text": "Ein Wenig David Icke",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment53",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 53,
+        "section": "Quellen",
+        "label": null,
+        "text": "Philosophien von Aristoteles bis Nietzsche, mal hier mal da.",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment54",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 54,
+        "section": "Quellen",
+        "label": null,
+        "text": "Populärwissenschaftliche Bücher von Stephen Hawking, Richard Dawkins, Brian Greene etc.",
+        "function": "source_reference",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page102_Segment55",
+        "unit_kind": "list_item",
+        "page": 102,
+        "sequence": 55,
+        "section": "Quellen",
+        "label": null,
+        "text": "Wissenschaftliche Papers zu jedem Thema das mich interessierte",
+        "function": "source_reference",
+        "confidence": 0.99
+      }
+    ],
+    "free_text": "Quellenverzeichnis mit Buchtiteln und Autoren"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=102-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:106974a6f49148bbfc589f2ed2abd196086ff1e7c4dff398acad72388eef0947",
+    "created_at": null,
+    "modified_at": null
+  }
+}

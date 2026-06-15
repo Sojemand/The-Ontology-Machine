@@ -1,0 +1,15 @@
+{
+  "diagnostics": [
+    {
+      "code": "fake_owner_error"
+    }
+  ],
+  "error": {
+    "code": "fake_owner_error"
+  },
+  "message": "owner failed",
+  "owner_action": "create_empty_corpus_db",
+  "owner_module": "fake_corpus_builder",
+  "schema_version": "fake_owner_response.v1",
+  "status": "error"
+}

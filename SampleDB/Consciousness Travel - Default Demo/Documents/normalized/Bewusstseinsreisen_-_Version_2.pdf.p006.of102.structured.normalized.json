@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:29:39Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "book_body_content",
+    "subcategory": "chapter_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "Chapter 1, \"The eye trying to see itself,\" opens with a reflective section titled \"Who are you really?\" The prose challenges self-help promises and examines the desire for inner fulfillment and meaning.",
+    "tags": [
+      "chapter 1",
+      "self-inquiry",
+      "inner fulfillment",
+      "self-help critique",
+      "meaning"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "philosophical_writing"
+    },
+    "normalization_notes": [
+      "Translated German headings and prose into English control-language values.",
+      "No explicit chapter number is shown; chapter framing is inferred from the visible heading."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "chapter_title",
+        "section_heading",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 6,
+      "chapter_title": "The eye trying to see itself",
+      "section_heading": "Who are you really?",
+      "topic_keywords": [
+        "self-inquiry",
+        "inner fulfillment",
+        "self-help critique",
+        "meaning",
+        "desire"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "The opening prose rejects easy answers and frames the journey as one of hardship rather than reward. It examines the human desire for inner fulfillment and criticizes self-help promises that claim to reveal the meaning of life."
+      }
+    ],
+    "free_text": "book_page book_body_content chapter_page Chapter 1: The eye trying to see itself. Who are you really? Self-inquiry, inner fulfillment, and criticism of self-help promises."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.98,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.98 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:35:42.087526+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.92,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 21,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=021-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "A continuous nonfiction book page with philosophical/reflective prose paragraphs is visible.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "reflective argumentative writing",
+        "book page layout"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page21_Segment1",
+        "unit_kind": "reflective_passage",
+        "page": 21,
+        "sequence": 1,
+        "text": "ich die Nummer 666 sehe, wurde mir auch meine Augenbewegung bewusst und irgendwie war ich im Nachhinein stets davon überzeugt, ich hätte die Entscheidung, dort hin zu sehen, selbst und aus freiem Willen getroffen. Was ja offensichtlich nicht der Fall war. Ich konnte mich genau erinnern, wie sich die Augen in Bewegung setzten und erst nach dem Erkennen des Musters in mir die Überzeugung entstand, ich hätte die Entscheidung dort hin zu sehen selbst gefällt. Ein wirklich bizarres Gefühl.",
+        "function": "questioning_perceived_free_will",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page21_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 21,
+        "sequence": 2,
+        "text": "Aber etwas anderes ist noch weit erstaunlicher. Da ich mit einiger Sicherheit annehmen kann, dass ich nur Dinge wahrnehme, die sich innerhalb meines Sichtfeldes befinden, kann ich ebenfalls davon ausgehen, dass meine Mustererkennung erst dann seine Magie wirken kann, wenn sich das betreffende Etwas innerhalb eben dieses Feldes befindet. Wenn ich nun die Geschwindigkeit des Autos in Betracht ziehe und den Punkt bezeichne, an dem sich meine Augen beginnen zu bewegen, kann ich daraus eine Zeitleiste erstellen, auf der ich alle Dinge aufliste, die sich zwischen dem Erscheinen und dem Erkennen abgespielt haben müssen.",
+        "function": "setting_up_reasoning_framework",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page21_Segment3",
+        "unit_kind": "descriptive_passage",
+        "page": 21,
+        "sequence": 3,
+        "text": "Der Moment, an dem die Motorhaube des Wagens im äußersten Rand meiner Wahrnehmung auftaucht, bis zu dem Moment, an dem es so weit an mir vorbei gezogen ist und sich die Rückseite mit dem Nummernschild zeigt, dürften nur rund 0.3 bis 0.4 Sekunden vergangen sein. Erst ab diesem Zeitpunkt befindet sich das betreffende Muster überhaupt erst innerhalb meines Gesichtsfeldes, wenn auch noch am äußeren Rand. Von da an dauert es wieder rund 0,7 Sekunden, bis die Rückseite des Wagens durch die Frontsäule meines eigenen Autos verdeckt wird. Es bleibt dort etwa 0,3 Sekunden verdeckt, bis sie in der Frontscheibe auftaucht. Von da an dauerte es im Schnitt stets rund 0.5 Sekunden, bis meine Augen begannen sich zu bewegen und dann noch einmal etwa 0.3 Sekunden bis ich mir bewusst gewahr wurde, dass ich die Zahl 666 sehe.",
+        "function": "constructing_event_timeline",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page21_Segment4",
+        "unit_kind": "summary_block",
+        "page": 21,
+        "sequence": 4,
+        "text": "Wir haben also ein paar Werte zusammengetragen, die wir uns näher anschauen können.",
+        "function": "transition_to_interpretation",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page21_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 21,
+        "sequence": 5,
+        "text": "Wichtig zu erwähnen ist hier erneut, dass sich das Nummernschild zu keinem Zeitpunkt auch nur annähernd im Bereich meines Blickfokus befand. Alles spielt sich außerhalb davon ab, in diesem Bereich, in dem nichts wirklich klar erscheint. Wir haben also etwa 0.7 Sekunden, wo sich das Nummernschild in einem Bereich befindet, den ich zumindest theoretisch wahrnehmen könnte, dann, noch einmal 0,5 Sekunden, in denen sich das Muster am Rand der Frontscheibe befindet. Es müssen also mehrere Dinge innerhalb dieser 1.2 Sekunden geschehen sein die dazu führten, dass sich meine Augen nach Ablauf dieser Zeit in Bewegung setzten. Die Mustererkennung muss das Muster erst einmal erkennen, anschließend muss das Gehirn den",
+        "function": "drawing_inference_from_timing",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Reflexion über Wahrnehmung, Mustererkennung, Augenbewegung und Zeitabläufe"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=021-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:f13e36c774053b177d131b58578cf5c7bc85c7f6d41a4b439abd48574fbc2ae5",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name": "edit-suite-ui",
+  "display_name": "06 - Edit Suite UI",
+  "module": "06 - Edit Suite",
+  "kind": "desktop_ui",
+  "driver": "desktop_ctk",
+  "inventory_gate": true,
+  "modes": ["deterministic", "inventory-only", "smoke"],
+  "sandbox": {
+    "state_root": "state/edit-suite",
+    "artifact_root": "output/edit-suite"
+  },
+  "expected_inventory": [
+    {
+      "action_key": "edit_suite.registry.refresh",
+      "label": "Refresh Registry",
+      "surface": "Sidebar",
+      "coverage": "tested_action"
+    },
+    {
+      "action_key": "edit_suite.module.open",
+      "label": "Open",
+      "surface": "Module List",
+      "coverage": "covered_by_workflow"
+    },
+    {
+      "action_key": "edit_suite.surface.save",
+      "label": "Save",
+      "surface": "Surface Card",
+      "coverage": "covered_by_contract"
+    }
+  ],
+  "cases": [
+    {
+      "id": "registry_refresh",
+      "title": "Refresh Registry keeps shell responsive and updates cache",
+      "type": "button_action",
+      "risk": "medium",
+      "expected_actions": ["edit_suite.registry.refresh"]
+    },
+    {
+      "id": "module_open_surface_tabs",
+      "title": "Open module and lazy-load surface tabs",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["edit_suite.module.open"]
+    },
+    {
+      "id": "surface_validate_save",
+      "title": "Validate and Save route through owner contracts",
+      "type": "workflow",
+      "risk": "high",
+      "expected_actions": ["edit_suite.surface.validate", "edit_suite.surface.save"]
+    }
+  ]
+}

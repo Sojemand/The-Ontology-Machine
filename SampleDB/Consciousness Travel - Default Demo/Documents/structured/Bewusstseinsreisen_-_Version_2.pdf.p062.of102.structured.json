@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.97,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:52:22.858966+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 62,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=062-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.95,
+      "reason": "A philosophical book page is visible with continuous prose paragraphs and a section heading.",
+      "matched_signals": [
+        "continuous prose paragraphs",
+        "section heading",
+        "philosophical writing"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {
+      "section_title": "Unmögliche Blicke"
+    },
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page62_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 62,
+        "sequence": 1,
+        "text": "wir einen Teil unseres Lebens wach sind, denn nur ein Leben im wachen Zustand, erzeugt all die Dinge die da anschließend nach unten durchsickern können. Wie sollten wir träumen können, wenn dies der einzige Zustand wäre den wir je erleben? Wir hätten nichts, wovon wir träumen könnten. So könnten wir jetzt fragen, wie etwas von „Oben“ durchsickern kann, wenn wir diesen Zustand doch nie erfahren? Müssten wir nicht ebenso einen nicht unerheblichen Teil unseres Lebens in solch einem Zustand verbringen, um überhaupt genug Substanz zu besitzen, welche dann durchsickern kann? Wenn wir unsere Welt und unsere Mitmenschen ansehen, dann müssen wir feststellen, dass sie den ganzen Tag hindurch offensichtlich im „hier und jetzt“ verweilen und sich ihre Persönlichkeiten nicht ständig irgendwo hin zu verflüchtigen scheinen. Die Kontinuität zwischen Wachen und Schlafen scheint gewahrt und wir müssen uns fragen, wo und wann dieses Über-Ich denn sein hypothetisches Leben leben sollte? Zeit ist schließlich eine Konstante, dem auch das Über-Ich nicht entkommen kann.",
+        "function": "philosophical_argument",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page62_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 62,
+        "sequence": 2,
+        "text": "Auch dürfte es offensichtlich sein, dass ein Träumender nicht Selbstmord begehen kann, während der Körper schläft. Auch sind wir während des Schlafs physisch angreifbar und wer schläft und nicht mehr aufwacht, der wird über Kurz oder Lang durch Dehydration oder Nährstoffmangel die Lebensfunktionen einstellen. Ganz abgesehen von der Sauerei, die die Bettlaken erleben, wenn wir es unterlassen uns um die Abfallbeseitigung zu kümmern. Wir sehen, welche Analogien wir auch immer zwischen Träumen und Wachen anstellen, um die Eigenschaften eines hypothetischen Bewusstseinszustandes oberhalb des Wachens zu beschreiben, so können diese Vergleiche doch niemals vollständig sein. Sie sind bestenfalls Krücken für unsere Hilflosigkeit.",
+        "function": "argument_limitation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page62_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 62,
+        "sequence": 3,
+        "text": "Aber hilflos zu sein muss nicht heißen tatenlos zu sein. Wir können trotz unserer offensichtlichen Unzulänglichkeiten ein wenig mehr im Nebel stochern, wenn wir nur nie vergessen, dass die Dinge die wir zu sehen glauben auch einfach nur eine Fata Morgana eines gelangweilten Gehirns im Schädel eines schizophrenen Affen sein könnten. Demut ist stets ein guter Ratgeber. Aber lassen wir uns davon nicht aufhalten und marschieren munter weiter auf unserer Reise hinter den Vorhang.",
+        "function": "reflective_transition",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page62_Segment4",
+        "unit_kind": "title_line",
+        "page": 62,
+        "sequence": 4,
+        "text": "Unmögliche Blicke",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page62_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 62,
+        "sequence": 5,
+        "text": "Denn es gibt hierbei noch mehr Anhaltspunkte als jene, die bereits angesprochen wurden. Nehmen wir doch zum Beispiel psychoaktive Substanzen. Es gibt zwar so viele Erfahrungen",
+        "function": "topic_introduction",
+        "confidence": 0.97
+      }
+    ],
+    "free_text": "Philosophischer Fließtext über Wachen, Träumen, Über-Ich; neuer Abschnitt „Unmögliche Blicke“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=062-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:c3b78e60cfab1dcbdd4a4b52cae5d045a9ee99a55d16b3ebe1d482b926529895",
+    "created_at": null,
+    "modified_at": null
+  }
+}

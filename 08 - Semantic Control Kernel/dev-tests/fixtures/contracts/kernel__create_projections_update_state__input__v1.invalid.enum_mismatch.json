@@ -1,0 +1,18 @@
+{
+  "analysis_run_id": "analysis_run_id_example",
+  "analysis_scope": "__invalid_enum__",
+  "projection_precursors": {
+    "example": true
+  },
+  "sample_ids": [],
+  "schema_version": "kernel.create_projections_update_state.input.v1",
+  "source_artifacts": [],
+  "source_schema_version": "kernel.projections_to_sample_analyses.v1",
+  "taxonomy_ref": {
+    "example": true
+  },
+  "taxonomy_view_schema_version": "kernel.taxonomy_projection_authoring_view.v1",
+  "validation_stamp": {
+    "example": true
+  }
+}

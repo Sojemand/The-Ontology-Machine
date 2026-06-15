@@ -1,0 +1,10 @@
+{
+  "request_envelope.01_to_02.json": "sha256:507e5c33b4896aaf3680d6610ad02e4b1158ff30136e4639fa16c68331421eff",
+  "structured_output.02_to_04.json": "sha256:e20bdc7f882b7b46d07bacf3899863da160c9e76660ab0a7b2d795e096b37762",
+  "normalized_output.04_to_downstream.json": "sha256:f9e825fdbb430082ff03ce9cf99ead734abfbecc538371873a79f29c850faf4c",
+  "projection_catalog.v1.json": "sha256:245ce2895fb082494a08489fb8ee33b5c0aa0628b752c9d09ecae5320561df3f",
+  "semantic_release.v1.json": "sha256:63774d5622e6114bad6161e1dcff76cfc053cd5d64656a693c3b32f9ebf4255d",
+  "runtime_semantic_assets.v1.json": "sha256:6e7e16d51f2cfbf4d6195cc5e4688d6bc365e113e603b7d8a506a687c4fd6f4c",
+  "semantic_status.v1.json": "sha256:fc4de90ba24b067a1a15db2427a56de75591d92897dc869401dde0b576427aeb",
+  "active_semantic_release.v1.json": "sha256:1a10fa6818ad4a9cdf4aa801e3faf349cc8ff6a462d7e258a33342ff71d0aafe"
+}

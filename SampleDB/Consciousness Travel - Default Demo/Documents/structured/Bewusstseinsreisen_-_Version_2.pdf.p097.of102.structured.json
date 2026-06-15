@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:06:21.158615+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 97,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=097-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A born-digital nonfiction book page in philosophical writing is visible, with bold question-style headings and prose paragraphs.",
+      "matched_signals": [
+        "book page",
+        "philosophical writing",
+        "heading",
+        "paragraph"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "single_column"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page97_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 97,
+        "sequence": 1,
+        "text": "völlig unklar. Jeder mag darüber seine eigenen Vorstellungen haben, aber richtige Regeln, die sich universell anwenden lassen, die akademisch niedergeschrieben sind und auf die man sich beziehen kann, die gibt es nicht.",
+        "function": "concluding_observation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page97_Segment2",
+        "unit_kind": "question_prompt",
+        "page": 97,
+        "sequence": 2,
+        "text": "Ließe sich ein MRT Muster bei allen Menschen erkennen, die ihr Gewahrsein ändern?",
+        "function": "research_question",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page97_Segment3",
+        "unit_kind": "reflective_passage",
+        "page": 97,
+        "sequence": 3,
+        "text": "Da wir ja über eine bildgebende Technologie verfügen, die, wenn auch nur grob, Hirnaktivität abbilden kann und wir das auch benutzen, um der Christbaumbeleuchtung des Hirns auf LSD zuzusehen, warum wenden dir das nicht mal auf andere Zustände an? Gäbe es vielleicht Muster, die bei allen gleich auftreten, wenn sich das Gewahrsein verändert? Man kann das ja bewusst beeinflussen und es stellen sich im Prinzip keine Schwierigkeiten dabei in den Weg, wenn man das unter einem MRT tut. Ich fände das zumindest einmal eine Studie wert, denn wenn man ein Muster erkennt und dies dann auch mit anderen Funktionen in Verbindung bringen kann, dann ergäben sich vielleicht Ansätze, wie man der Sache näher kommen kann.",
+        "function": "proposal_for_empirical_investigation",
+        "confidence": 0.92
+      },
+      {
+        "segment_id": "Page97_Segment4",
+        "unit_kind": "question_prompt",
+        "page": 97,
+        "sequence": 4,
+        "text": "Wieso kann sich unser Gehirn Konstrukte ausdenken, die es im Nachhinein selbst nicht mehr versteht?",
+        "function": "conceptual_question",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page97_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 97,
+        "sequence": 5,
+        "text": "Ich habe ja bereits den seltsamen Vorgang angesprochen, dass das Gehirn auf bestimmten Drogen Geometrie zu verstehen scheint, die sich nicht in unser dreidimensionales Verständnis einordnen lässt. Auch die Tatsache, dass sich eine für uns normale dreidimensionale Wahrnehmung von unser Umgebung auf eine Art ändern kann, welche uns dann Objekte oder Räume ohne „Rückseite“, also in ihrer Gesamtheit erscheinen lässt. Ich muss da noch einmal darauf hinweisen wie unsinnig das ist. Diese Dinge haben keinerlei Grundlage in unserem täglichen Erleben, erfüllen keine Funktion und sollten nicht möglich sein. In unserem täglichen Leben können wir diese Dinge nicht tun, egal wie sehr wir uns auch anstrengen. Diese Dinge bleiben für uns unvorstellbar. Aber scheinbar hat unser Denkapparat die Fähigkeit, diese Dinge hervorzubringen.",
+        "function": "argument_from_perceptual_impossibility",
+        "confidence": 0.94
+      },
+      {
+        "segment_id": "Page97_Segment6",
+        "unit_kind": "reflective_passage",
+        "page": 97,
+        "sequence": 6,
+        "text": "Was mich daran besonders auf die Palme treibt ist, dass diese Dinge keineswegs nur obskure Einzelfälle sind, die sich auch durch Wahnvorstellungen oder Täuschungen wegerklären lassen könnten. Erowid.org ist zum Beispiel die größte mir bekannte Datenbank, in denen Menschen ihre Erfahrungen mit allen möglichen Substanzen veröffentlichen können und sucht man unter DMT oder LSD nach solchen Berichten, könnte man Bücher füllen. Sie beinhalten alle Elemente, angefangen von dieser Art Geometrie, bis hin zu räumlichen Wahrnehmungen,",
+        "function": "appeal_to_accumulated_reports",
+        "confidence": 0.94
+      }
+    ],
+    "free_text": "Gewahrsein, MRT, Gehirn, Drogen, Geometrie, Erowid"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=097-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:419109f8f176a14a5b17c331dc55554afbba5340dd6cf3b9891ef3bcdbf3f305",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=081-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:f672662c128ee4c9f7f67061ef82702fedf7c76eb246e87e022f0e6bd43ceee9",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 81,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=081-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 81,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_081.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page81_para_0",
+        "type": "paragraph",
+        "value": "Der Wissenschaftler lebt womöglich nach dem Bilde Athenes und hat sich ausschließlich dem",
+        "position": {
+          "page": 81,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page81_para_1",
+        "type": "paragraph",
+        "value": "Streben nach Wissen über ein bestimmtes Gebiet verschrieben. Dabei konkurriert er, wie",
+        "position": {
+          "page": 81,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page81_para_2",
+        "type": "paragraph",
+        "value": "Athene einst gegen Poseidon, mit seinen Kollegen im Rennen um den Nobelpreis. Er ist",
+        "position": {
+          "page": 81,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page81_para_3",
+        "type": "paragraph",
+        "value": "scharfsichtig und begabt auf seinem Gebiet und schützt schon fast eifersüchtig die",
+        "position": {
+          "page": 81,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page81_para_4",
+        "type": "paragraph",
+        "value": "Errungenschaften seines Forschungszweiges. Der Psychologe dagegen lebt wie Demeter und",
+        "position": {
+          "page": 81,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page81_para_5",
+        "type": "paragraph",
+        "value": "wünscht sich nichts lieber als seine Klienten mit neuer Kraft ausgestattet in die Welt zu",
+        "position": {
+          "page": 81,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page81_para_6",
+        "type": "paragraph",
+        "value": "entsenden, auf das ihr Leben neue Früchte tragen möge. Wie auch Demeter einst, weiß auch",
+        "position": {
+          "page": 81,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page81_para_7",
+        "type": "paragraph",
+        "value": "er um den Schmerz, welcher Hades im Stande ist zu verursachen als er Persephone raubte",
+        "position": {
+          "page": 81,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page81_para_8",
+        "type": "paragraph",
+        "value": "und auch er trägt Wunden des Verlustes in sich, die ihm die Verbindung zu anderen",
+        "position": {
+          "page": 81,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page81_para_9",
+        "type": "paragraph",
+        "value": "Menschen erleichtert.",
+        "position": {
+          "page": 81,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page81_para_10",
+        "type": "paragraph",
+        "value": "Diese beiden Personen operieren mit zwei völlig verschiedenen symbolischen Welten. Jeder",
+        "position": {
+          "page": 81,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page81_para_11",
+        "type": "paragraph",
+        "value": "hat im wahrsten Sinne des Wortes einen anderen Gott und auch andere Monster die er",
+        "position": {
+          "page": 81,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page81_para_12",
+        "type": "paragraph",
+        "value": "bekämpft. Beide gewichten und filtern ihre Sinneseindrücke nach diesen Welten und bewerten",
+        "position": {
+          "page": 81,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page81_para_13",
+        "type": "paragraph",
+        "value": "alles Folgende auf diesem Fundament. Dabei sind sie sich nur vage im Klaren darüber, aus",
+        "position": {
+          "page": 81,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page81_para_14",
+        "type": "paragraph",
+        "value": "welcher Ecke diese Dinge kommen und wer bestimmt, was sie wie betrachten und",
+        "position": {
+          "page": 81,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page81_para_15",
+        "type": "paragraph",
+        "value": "wahrnehmen, was über den Zeitraum eines Lebens betrachtet zu interessanten Entwicklungen",
+        "position": {
+          "page": 81,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page81_para_16",
+        "type": "paragraph",
+        "value": "führt, die man gemeinhin als „Entwicklung der Persönlichkeit“ bezeichnet. Es ist interessant,",
+        "position": {
+          "page": 81,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page81_para_17",
+        "type": "paragraph",
+        "value": "weil solche Entwicklungen ihren Ursprung in eben jener symbolischen Welt haben und von dem",
+        "position": {
+          "page": 81,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page81_para_18",
+        "type": "paragraph",
+        "value": "Individuum selten bewusst wahrgenommen werden, obwohl sie von Außenstehenden sehr wohl",
+        "position": {
+          "page": 81,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page81_para_19",
+        "type": "paragraph",
+        "value": "sehr deutlich bemerkt werden. Wenn jemand sagt „Du hast dich verändert“, dann meint",
+        "position": {
+          "page": 81,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page81_para_20",
+        "type": "paragraph",
+        "value": "derjenige, dass sich dein Fundament, auf welchem sich deine Handlungen in der",
+        "position": {
+          "page": 81,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page81_para_21",
+        "type": "paragraph",
+        "value": "Vergangenheit gründeten, verändert hat und sich damit auch dein Ausdruck deines Selbst in",
+        "position": {
+          "page": 81,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page81_para_22",
+        "type": "paragraph",
+        "value": "der Welt. Weil du aber immer konsistent dir selbst gegenüber sein musst, so kannst du diese",
+        "position": {
+          "page": 81,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page81_para_23",
+        "type": "paragraph",
+        "value": "Veränderungen nur insofern erkennen, wie sie dir wohlgefallen. Die für Außenstehende",
+        "position": {
+          "page": 81,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page81_para_24",
+        "type": "paragraph",
+        "value": "auffälligsten Veränderungen einer Persönlichkeit sind meist für den Betreffenden völlig",
+        "position": {
+          "page": 81,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page81_para_25",
+        "type": "paragraph",
+        "value": "unsichtbar.",
+        "position": {
+          "page": 81,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page81_para_26",
+        "type": "paragraph",
+        "value": "Von Wollen und Können",
+        "position": {
+          "page": 81,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page81_para_27",
+        "type": "paragraph",
+        "value": "Ein Lieblingsspruch von mir lautet „Du kannst zwar tun was du willst, aber nicht wollen was du",
+        "position": {
+          "page": 81,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page81_para_28",
+        "type": "paragraph",
+        "value": "willst“. Ich finde ihn deshalb so gut, weil er einerseits eine tiefe Wahrheit über unser Selbst",
+        "position": {
+          "page": 81,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page81_para_29",
+        "type": "paragraph",
+        "value": "verrät, aber andererseits auch nur teilweise stimmt. Normalerweise trifft diese Weisheit auf",
+        "position": {
+          "page": 81,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page81_para_30",
+        "type": "paragraph",
+        "value": "eine Person während ihres gesamten Lebens zu, da die Veränderungen des Wollens auf",
+        "position": {
+          "page": 81,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page81_para_31",
+        "type": "paragraph",
+        "value": "Veränderungen in der symbolischen Welt zurückgehen und wir diese Welt in unserem",
+        "position": {
+          "page": 81,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

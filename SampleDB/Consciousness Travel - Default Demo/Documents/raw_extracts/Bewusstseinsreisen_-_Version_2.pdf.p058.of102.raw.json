@@ -1,0 +1,329 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=058-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:cab17ffbe86278d166220aba5e07bf4133d3a5e0c4573514639801dfacd578ef",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 58,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=058-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page58_para_0",
+        "type": "paragraph",
+        "value": "Hieraus können wir eine Regel über das Maß eines Bewusstseins ableiten. Für einen normal",
+        "position": {
+          "page": 58,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page58_para_1",
+        "type": "paragraph",
+        "value": "Träumenden existiert nur seine Welt. Für einen luzide Träumenden existiert die Traumwelt",
+        "position": {
+          "page": 58,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page58_para_2",
+        "type": "paragraph",
+        "value": "unter ihm und die luzide Welt durch die er sich bewegt. Ein luzider Träumer kann sich an",
+        "position": {
+          "page": 58,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page58_para_3",
+        "type": "paragraph",
+        "value": "seinen vorangegangenen Traum erinnern und er kann sich erinnern, wie er aus diesem Traum",
+        "position": {
+          "page": 58,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page58_para_4",
+        "type": "paragraph",
+        "value": "„aufgewacht“ ist als er luzide wurde. Aber auch für ihn existiert über ihm nichts anderes woran",
+        "position": {
+          "page": 58,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page58_para_5",
+        "type": "paragraph",
+        "value": "er sich erinnern könnte. Im Wachzustand können wir uns an beide Zustände erinnern. Wir",
+        "position": {
+          "page": 58,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page58_para_6",
+        "type": "paragraph",
+        "value": "können uns erinnern, wie wir geträumt haben, wie wir luzide wurden und wie wir aufgewacht",
+        "position": {
+          "page": 58,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page58_para_7",
+        "type": "paragraph",
+        "value": "sind. Alle zwei Zustände sind uns vollkommen zugänglich. Wir können sozusagen von „oben",
+        "position": {
+          "page": 58,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page58_para_8",
+        "type": "paragraph",
+        "value": "herab“ in sie hinein blicken und sie im Gesamtkontext unseres Wachbewusstseins verstehen",
+        "position": {
+          "page": 58,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page58_para_9",
+        "type": "paragraph",
+        "value": "und analysieren. Um es einfach auszudrücken kann man sagen, wir können auf alle Zustände",
+        "position": {
+          "page": 58,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page58_para_10",
+        "type": "paragraph",
+        "value": "des Bewusstseins blicken, die sich „unter uns“ befinden, aber nicht sehen was sich „über uns“",
+        "position": {
+          "page": 58,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page58_para_11",
+        "type": "paragraph",
+        "value": "befindet.",
+        "position": {
+          "page": 58,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page58_para_12",
+        "type": "paragraph",
+        "value": "Das ist verständlich, wenn wir das Ausdehnen unseres Gewahrseins als Analog zum",
+        "position": {
+          "page": 58,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page58_para_13",
+        "type": "paragraph",
+        "value": "Aufwachen aus einem Traum verstehen. Wir haben ja bereits mehrfach gesehen, dass der",
+        "position": {
+          "page": 58,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page58_para_14",
+        "type": "paragraph",
+        "value": "Umfang oder die Größe dessen, was das Gewahrsein umfasst, definiert, welche Art",
+        "position": {
+          "page": 58,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page58_para_15",
+        "type": "paragraph",
+        "value": "Bewusstsein wir erfahren. Ein Bewusstsein niederer Stufe bedeutet in diesem",
+        "position": {
+          "page": 58,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page58_para_16",
+        "type": "paragraph",
+        "value": "Zusammenhang ein Gewahrsein kleineren Umfangs und ein Bewusstsein höherer Stufe ein",
+        "position": {
+          "page": 58,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page58_para_17",
+        "type": "paragraph",
+        "value": "Gewahrsein größeren Umfangs. Ein Gewahrsein größeren Umfangs beinhaltet per Definition",
+        "position": {
+          "page": 58,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page58_para_18",
+        "type": "paragraph",
+        "value": "bereits alle Gebiete, die ein Gewahrsein kleineren Umfangs umschließen kann als Teilmenge",
+        "position": {
+          "page": 58,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page58_para_19",
+        "type": "paragraph",
+        "value": "und ist daher dem größeren Gewahrsein vollends zugänglich. Genauso wie wir im",
+        "position": {
+          "page": 58,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page58_para_20",
+        "type": "paragraph",
+        "value": "Wachzustand ohne Probleme in unsere Träume blicken und alles sehen können, was da vor",
+        "position": {
+          "page": 58,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page58_para_21",
+        "type": "paragraph",
+        "value": "sich geht. Weil unser Wachbewusstsein ein Gewahrsein größeren Umfangs hat, können wir",
+        "position": {
+          "page": 58,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page58_para_22",
+        "type": "paragraph",
+        "value": "auch sehen und verstehen, wie irrational Träume sind, denn das Gewahrsein des",
+        "position": {
+          "page": 58,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page58_para_23",
+        "type": "paragraph",
+        "value": "Wachbewusstseins umschließt auch die Gesetzmäßigkeiten der wachen Welt, die einem",
+        "position": {
+          "page": 58,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page58_para_24",
+        "type": "paragraph",
+        "value": "Träumer aufgrund des geringeren Umfangs seines eigenen Gewahrseins nicht zugänglich",
+        "position": {
+          "page": 58,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page58_para_25",
+        "type": "paragraph",
+        "value": "sind und sie deshalb für ihn auch nicht existieren. Warum sollte er sich also um Kausalität",
+        "position": {
+          "page": 58,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page58_para_26",
+        "type": "paragraph",
+        "value": "oder Physik scheren, wenn sie ihm gerade im Weg stehen?",
+        "position": {
+          "page": 58,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page58_para_27",
+        "type": "paragraph",
+        "value": "Ein weiteres Analog dieser Regel, können wir in unserer eigenen Welt finden, wenn es zum",
+        "position": {
+          "page": 58,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page58_para_28",
+        "type": "paragraph",
+        "value": "Beispiel um die Dynamik zwischen Eltern und Kind oder Lehrer und Schüler geht. Ein Lehrer",
+        "position": {
+          "page": 58,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page58_para_29",
+        "type": "paragraph",
+        "value": "ist aufgrund seines Wissens und Könnens in der Lage, in den Schüler „hinein“ zu blicken und",
+        "position": {
+          "page": 58,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page58_para_30",
+        "type": "paragraph",
+        "value": "zu sehen, an was es ihm noch mangelt. Eltern können in das Kind „hinein“ blicken und sehen,",
+        "position": {
+          "page": 58,
+          "paragraph_index": 30
+        }
+      },
+      {
+        "id": "page58_para_31",
+        "type": "paragraph",
+        "value": "wo es in seiner Entwicklung steht. Weder Schüler noch Kind sind allerdings in der Lage",
+        "position": {
+          "page": 58,
+          "paragraph_index": 31
+        }
+      }
+    ]
+  }
+}

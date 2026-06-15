@@ -1,0 +1,399 @@
+{
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=094-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:5ee1b1e83b6735b131bdeea3c51bb207b55489f6b2e6e1516577036116dc09e5",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "context": {
+    "page_number": 94,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=094-of-102",
+    "interpreter_profile": "file"
+  },
+  "page_assets": [
+    {
+      "page": 94,
+      "path": "../../../page_images/Bewusstseinsreisen - Version 2.pdf.53d5cf65/page_094.png",
+      "media_type": "image/png",
+      "format": "png",
+      "color_mode": "grayscale",
+      "bit_depth": 8,
+      "dpi_x": 150,
+      "dpi_y": 150,
+      "dpi_unit": "inch"
+    }
+  ],
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page94_para_0",
+        "type": "paragraph",
+        "value": "Wie besänftigen wir unsere Aversion, uns mit solchen Dingen überhaupt zu\nbeschäftigen?",
+        "position": {
+          "page": 94,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page94_para_1",
+        "type": "paragraph",
+        "value": "Und dann haben wir ja auch noch unsere generelle Ablehnung, sich überhaupt damit zu",
+        "position": {
+          "page": 94,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page94_para_2",
+        "type": "paragraph",
+        "value": "beschäftigen. Mag sein, dass es zu mühsam ist, es zu sehr unsere egozentrische",
+        "position": {
+          "page": 94,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page94_para_3",
+        "type": "paragraph",
+        "value": "Selbstwahrnehmung angreift, wir mit einer zu starken Fremdartigkeit konfrontiert werden oder",
+        "position": {
+          "page": 94,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page94_para_4",
+        "type": "paragraph",
+        "value": "uns schlicht die Kapazität fehlt damit umzugehen. Der Gründe mag es viele geben, aber alle",
+        "position": {
+          "page": 94,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page94_para_5",
+        "type": "paragraph",
+        "value": "halten uns aktiv davon ab, diese Dinge eingehender zu betrachten. Wie sollte man also all",
+        "position": {
+          "page": 94,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page94_para_6",
+        "type": "paragraph",
+        "value": "diese Dinge überwinden, nur um etwas zu erforschen was wir ständig vergessen, wir kaum",
+        "position": {
+          "page": 94,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page94_para_7",
+        "type": "paragraph",
+        "value": "kommunizieren und wir in keinen echten Bezug zur erfahrbaren Wirklichkeit setzen können?",
+        "position": {
+          "page": 94,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page94_para_8",
+        "type": "paragraph",
+        "value": "Wie kann man zwei oder mehr Menschen dazu bringen, sich durch all diese Dinge nicht",
+        "position": {
+          "page": 94,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page94_para_9",
+        "type": "paragraph",
+        "value": "beirren zu lassen und alle Reibungen, die daraus zwangsläufig in Gruppen entstehen, zu",
+        "position": {
+          "page": 94,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page94_para_10",
+        "type": "paragraph",
+        "value": "ignorieren?",
+        "position": {
+          "page": 94,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page94_para_11",
+        "type": "paragraph",
+        "value": "Auch hat dieses Problem noch einen weiteren Stolperstein. Wenn sich Gruppen",
+        "position": {
+          "page": 94,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page94_para_12",
+        "type": "paragraph",
+        "value": "zusammenfinden, um Aspekte zu untersuchen, die so eng mit dem Wesenskern einer jeden",
+        "position": {
+          "page": 94,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page94_para_13",
+        "type": "paragraph",
+        "value": "Person verbunden sind wie jene Dinge es sind um die es hier geht, dann stehen uns unsere",
+        "position": {
+          "page": 94,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page94_para_14",
+        "type": "paragraph",
+        "value": "sozialen, kulturellen und moralischen „Programme“ im Weg. Jeder hat Seiten, die er bewusst",
+        "position": {
+          "page": 94,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page94_para_15",
+        "type": "paragraph",
+        "value": "vor Anderen versteckt um ein bestimmtes Bild von sich zu projizieren, von dem er denkt, es",
+        "position": {
+          "page": 94,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page94_para_16",
+        "type": "paragraph",
+        "value": "würde sich für ihn am vorteilhaftesten auswirken. Er versucht, negative Seiten zu",
+        "position": {
+          "page": 94,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page94_para_17",
+        "type": "paragraph",
+        "value": "beschönigen und positive Seiten herauszuheben. Niemand wird jemals freiwillig sein eigenes",
+        "position": {
+          "page": 94,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page94_para_18",
+        "type": "paragraph",
+        "value": "Wesen unverhüllt anderen so präsentieren wie es ist. Die Angst bewertet, verurteilt,",
+        "position": {
+          "page": 94,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page94_para_19",
+        "type": "paragraph",
+        "value": "abgewiesen und des sozialen Kreises verwiesen zu werden, ist eine Kosten/Nutzen Analyse,",
+        "position": {
+          "page": 94,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page94_para_20",
+        "type": "paragraph",
+        "value": "die jeder jeden Tag tut und zu optimieren versucht. Die geschickte Verschleierung des primär",
+        "position": {
+          "page": 94,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page94_para_21",
+        "type": "paragraph",
+        "value": "Impetus, auch genannt Eigeninteresse, ist ein derartig starker Antrieb, dass allein die Mühen,",
+        "position": {
+          "page": 94,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page94_para_22",
+        "type": "paragraph",
+        "value": "die wir unternehmen müssten um zu verhindern, dass er dem Vorhaben schadet, uns schier",
+        "position": {
+          "page": 94,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page94_para_23",
+        "type": "paragraph",
+        "value": "unüberwindlich erscheinen. Diese Hürden können bereits eine Gruppe zerstören, noch bevor",
+        "position": {
+          "page": 94,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page94_para_24",
+        "type": "paragraph",
+        "value": "überhaupt auch nur ein Schritt getan wurde.",
+        "position": {
+          "page": 94,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page94_para_25",
+        "type": "paragraph",
+        "value": "Schlimmer könnte es gar noch kommen, wenn Menschen zwar mit ehrlichen Intentionen",
+        "position": {
+          "page": 94,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page94_para_26",
+        "type": "paragraph",
+        "value": "beginnen, sie sich aber irgendwann selbst ihre eigenen „Zäune“ schaffen, die die Regeln",
+        "position": {
+          "page": 94,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page94_para_27",
+        "type": "paragraph",
+        "value": "repräsentieren, anhand derer sie ihre eigenen „Techniken“ legitimieren. So entstehen okkulte",
+        "position": {
+          "page": 94,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page94_para_28",
+        "type": "paragraph",
+        "value": "Gruppen und geschlossene Vereinigungen, die Eintrittsbarrieren errichten, Umgangsregeln",
+        "position": {
+          "page": 94,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page94_para_29",
+        "type": "paragraph",
+        "value": "und Wertestrukturen erschaffen, ohne zu bemerken, dass sie mit dieser Art „Kodifizierung“",
+        "position": {
+          "page": 94,
+          "paragraph_index": 29
+        }
+      },
+      {
+        "id": "page94_para_30",
+        "type": "paragraph",
+        "value": "das Fundament dessen erodieren, auf dem sie sich selbst erst gegründet haben. Unser Hang,",
+        "position": {
+          "page": 94,
+          "paragraph_index": 30
+        }
+      }
+    ]
+  },
+  "projection_catalog": {
+    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.e06f90b85302",
+        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
+        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
+        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "example_document_types": [
+          "book_page",
+          "book_table_of_contents_page",
+          "nonfiction_book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "title",
+            "source_paths": [
+              "content.fields.work_title",
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          },
+          {
+            "slot": "page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "section_title",
+            "source_paths": [
+              "content.fields.section_title"
+            ]
+          },
+          {
+            "slot": "chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "topic_keywords",
+            "source_paths": [
+              "content.fields.topic_keywords"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "work_title": "title",
+          "language": "language",
+          "page_number": "page_number",
+          "chapter_title": "chapter_title",
+          "section_title": "section_title",
+          "book_title": "title",
+          "section_heading": "section_heading",
+          "topic_keywords": "topic_keywords"
+        }
+      }
+    ],
+    "release_id": "release_15f60cfdde9d",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "runtime_locale": "en"
+  }
+}

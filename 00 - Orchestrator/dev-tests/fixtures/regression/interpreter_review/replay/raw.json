@@ -1,0 +1,39 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "interp-review-001",
+    "file_name": "interp_review.pdf",
+    "file_path": "C:\\synthetic\\input\\interp_review.pdf",
+    "relative_path": "C:\\synthetic\\input\\interp_review.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:1111111111111111111111111111111111111111111111111111111111111111",
+    "page_count": 1
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:\\synthetic\\input\\interp_review.pdf",
+    "page_source_path": "C:\\synthetic\\input\\interp_review.pdf::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page1_para_1",
+        "type": "paragraph",
+        "value": "Unklare Unterlage fuer manuelle Klassifikation.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      }
+    ]
+  }
+}

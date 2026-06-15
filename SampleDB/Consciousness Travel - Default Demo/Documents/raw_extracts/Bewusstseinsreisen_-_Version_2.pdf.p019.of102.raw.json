@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=019-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:dff510cec07679573df2375408a3636140a4900a7702c0dd7ac295a49297b168",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 19,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=019-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page19_para_0",
+        "type": "paragraph",
+        "value": "Kapitel 2 – Kenne deine Maschine",
+        "position": {
+          "page": 19,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page19_para_1",
+        "type": "paragraph",
+        "value": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung",
+        "position": {
+          "page": 19,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page19_para_2",
+        "type": "paragraph",
+        "value": "Ich denke, nichts demonstriert die überlegene Funktionalität unserer unsichtbaren Welt besser",
+        "position": {
+          "page": 19,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page19_para_3",
+        "type": "paragraph",
+        "value": "als unsere Fähigkeit, überall und zu jeder Zeit Muster zu erkennen. Vor einigen Jahren, oder",
+        "position": {
+          "page": 19,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page19_para_4",
+        "type": "paragraph",
+        "value": "besser vor vielen Jahren, begann ich ein Experiment. Allerdings war ich mir damals nicht im",
+        "position": {
+          "page": 19,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page19_para_5",
+        "type": "paragraph",
+        "value": "Klaren darüber, dass es sich zu einem solchen entwickeln würde, als ich das Fundament dafür",
+        "position": {
+          "page": 19,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page19_para_6",
+        "type": "paragraph",
+        "value": "schuf. Die folgenden Dinge trugen sich grob gesehen über einen Zeitraum von gut 15 Jahren zu",
+        "position": {
+          "page": 19,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page19_para_7",
+        "type": "paragraph",
+        "value": "und manchmal vergingen zwischen den einzelnen Meilensteinen Jahre, bevor ich mir über die",
+        "position": {
+          "page": 19,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page19_para_8",
+        "type": "paragraph",
+        "value": "subtilen Veränderungen erst richtig bewusst wurde. Teilweise auch deswegen, weil ich",
+        "position": {
+          "page": 19,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page19_para_9",
+        "type": "paragraph",
+        "value": "Besseres zu tun hatte und der Sache nicht wirklich die gebührende Aufmerksamkeit schenkte,",
+        "position": {
+          "page": 19,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page19_para_10",
+        "type": "paragraph",
+        "value": "aber was will man machen.",
+        "position": {
+          "page": 19,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page19_para_11",
+        "type": "paragraph",
+        "value": "Alles begann damit, als mich mein Interesse in Richtung christlicher Symbolik lenkte und ich",
+        "position": {
+          "page": 19,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page19_para_12",
+        "type": "paragraph",
+        "value": "dabei unweigerlich auch in okkulten Ecken des Internets landete. Dort begegnete mir dann, wen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page19_para_13",
+        "type": "paragraph",
+        "value": "wundert es, der Zahl 666. Ich war fasziniert, wie viele Zusammenhänge sich damit konstruieren",
+        "position": {
+          "page": 19,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page19_para_14",
+        "type": "paragraph",
+        "value": "ließen und wie weit so manch einer dabei zu gehen bereit war. Wie viel Wirbel doch eine",
+        "position": {
+          "page": 19,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page19_para_15",
+        "type": "paragraph",
+        "value": "einfache Zahl verursachen kann. Was ich damals nicht wusste war, dass ich damit einen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page19_para_16",
+        "type": "paragraph",
+        "value": "Prozess lostrat, der mir einen der ungeheuerlichsten Tricks unseres Bewusstseins vor Augen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page19_para_17",
+        "type": "paragraph",
+        "value": "führen sollte.",
+        "position": {
+          "page": 19,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page19_para_18",
+        "type": "paragraph",
+        "value": "Ihr müsst wissen, Neurohplastizität ist eine feine Sache. Unser Gehirn passt sich neuen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page19_para_19",
+        "type": "paragraph",
+        "value": "Prioritäten nur allzu gerne an, ändert alte und erschafft neue neurale Pfade, um veränderten",
+        "position": {
+          "page": 19,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page19_para_20",
+        "type": "paragraph",
+        "value": "Prioritäten besser gerecht werden zu können. Es dauert seine Zeit, solche Dinge geschehen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page19_para_21",
+        "type": "paragraph",
+        "value": "nicht von Heute auf Morgen, aber wenn das Gehirn einem kontinuierlichen Zustrom des immer",
+        "position": {
+          "page": 19,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page19_para_22",
+        "type": "paragraph",
+        "value": "gleichen Signals ausgesetzt ist, passt sich unsere graue Masse dem irgendwann so gut an,",
+        "position": {
+          "page": 19,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page19_para_23",
+        "type": "paragraph",
+        "value": "dass sie selbst dann noch dem Signal eine hohe Priorität zumisst, wenn der Reiz schon längst",
+        "position": {
+          "page": 19,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page19_para_24",
+        "type": "paragraph",
+        "value": "wieder verschwunden ist. Oder kurz, so entwickeln sich Gewohnheiten, gute und schlechte.",
+        "position": {
+          "page": 19,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page19_para_25",
+        "type": "paragraph",
+        "value": "Was ich also damals tat war, meinem Gehirn zu signalisieren, doch bitte der Zahl 666 eine",
+        "position": {
+          "page": 19,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page19_para_26",
+        "type": "paragraph",
+        "value": "gewisse Gewichtung beizumessen. Ich tat das offensichtlich lange genug, um einen neuralen",
+        "position": {
+          "page": 19,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page19_para_27",
+        "type": "paragraph",
+        "value": "Pfad zu erschaffen, der immer dann ansprang, wenn ich in meiner Umgebung die Zahl 666 zu",
+        "position": {
+          "page": 19,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page19_para_28",
+        "type": "paragraph",
+        "value": "sehen bekam. Es war ein wenig gruselig zu erleben, wie nach und nach diese Zahl in meiner",
+        "position": {
+          "page": 19,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page19_para_29",
+        "type": "paragraph",
+        "value": "Welt immer öfter zu erscheinen schien, zumindest am Anfang. Über die Jahre wurde das",
+        "position": {
+          "page": 19,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

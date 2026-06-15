@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:49:25.505918+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.93,
+    "category": "book",
+    "subcategory": "nonfiction_book_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.89,
+      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "matched_signals": [
+        "book page",
+        "continuous paragraphs",
+        "philosophical prose"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 55,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=055-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page55_Segment1",
+        "unit_kind": "descriptive_passage",
+        "page": 55,
+        "sequence": 1,
+        "text": "Absurditäten uns nicht im Geringsten zu stören scheinen. Wenn wir träumen, dann erscheint uns unsere Traumwelt als natürliche Umgebung und völlig frei von Widersprüchen. Keine Spur von Verwunderung wenn wir mal eben fliegen, die Materie keine feste Konsistenz mehr aufweist oder wir uns von Szene zu Szene bewegen, als würden wir uns von einer Welt in die nächste Teleportieren. Als wäre das was wir tun das natürlichste der Welt, selbst im Anblick unmöglicher Architekturen, durch die wir uns auf unmögliche Art bewegen.",
+        "function": "describe_dream_normalization",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page55_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 55,
+        "sequence": 2,
+        "text": "Es ist wohl keine Übertreibung zu bemerken, dass, wenn wir eine ähnliche Wahrnehmung in unserer wachen Welt hätten, wie wir sie in unserer Traumwelt haben, wir nicht überlebensfähig wären. Auf der anderen Seite, wenn wir die Welt in unseren Träumen ähnlich betrachten würden wie wir unsere wache Welt sehen, wir dann sicherlich niemals zu träumen fähig wären. Um der Sache einmal auf den Grund zu gehen, bedienen wir uns eines einfachen Maßstabes, der uns bereits zuvor gute Dienste geleistet hat: An was wir uns im Nachhinein erinnern können. Gibt uns das doch einen Hinweis, welche Dinge unser Gewahrsein zu jedem Zeitpunkt umfasst und ist ein gutes Maß, um die „Höhe“ eines Bewusstseins zu messen.",
+        "function": "develop_measure_of_consciousness",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page55_Segment3",
+        "unit_kind": "thought_experiment",
+        "page": 55,
+        "sequence": 3,
+        "text": "Stellt euch vor, ihr befindet euch gerade in einem Traum und ich besitze die magische Fähigkeit, mich in euren Traum zu Teleportieren. Dort angekommen suche ich euch auf und frage, ob ihr wisst, wann ihr Morgen den Termin zum Reifenwechsel habt und was auf eurer Einkaufsliste steht. Wie würdet ihr wohl reagieren? Als erstes wäre es recht unwahrscheinlich, dass ihr mein Anliegen überhaupt zur Kenntnis nehmen würdet. Viel wahrscheinlicher ist es, dass ihr mein Auftreten einfach in euren Traum einbauen würdet und mich als Akteur betrachtet, der eine von euch geschaffene Rolle einnimmt. Angenommen ihr würdet meine Frage dennoch vernehmen, dann hättet ihr bereits Probleme zu begreifen was „Morgen“ ist, was ein Tagesrhythmus ist und dass ein Wochentag hinter euch, sowie ein weiterer vor euch liegt. Ihr hättet kein Konzept von „Morgen“, da ihr nicht wisst, was Schlafen ist und ihr nicht versteht, dass ihr schlaft um euch vom vorherigen Tag zu erholen. All das bereitet euch bereits Schwierigkeiten, ganz abgesehen von dem fehlenden Zeitverständnis und der Unfähigkeit, das Konzept eines „Termins“ zu verstehen. Ihr wärt auch unfähig zu verstehen, wozu eine „Einkaufsliste“ gut ist, denn ihr wisst nicht, wie ihr Gestern durch eure Küche gegangen seid um die fehlenden Vorräte zu sichten und diese anschließend auf die Liste geschrieben habt. Und ihr wisst auch nicht, dass ihr diese Dinge Morgen, nach dem Reifenwechsel, besorgen wollt.",
+        "function": "illustrate_missing_temporal_context_in_dreams",
+        "confidence": 0.98
+      }
+    ],
+    "free_text": "Traumwahrnehmung, Bewusstsein, Gedankenexperiment zu Morgen und Einkaufsliste"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=055-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:3787a9072e19600010874a06aaff84edcd046a0e0c6d4e34c3e8e87dbf01a7bb",
+    "created_at": null,
+    "modified_at": null
+  }
+}

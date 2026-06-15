@@ -1,0 +1,46 @@
+{
+  "drift_preflight": {
+    "details": [
+      {
+        "document": "Semantic Kernel SPEC/11_kernel_internal_data_contracts.md",
+        "name": "kernel.recovery_option.v1",
+        "reason": "Spec 11 mirrors the Phase 2 registry without Phase 13 recovery_event_id, required event binding fields and required tool/dialog lifecycle fields."
+      },
+      {
+        "document": "Semantic Kernel SPEC/11_kernel_internal_data_contracts.md",
+        "name": "kernel.recovery_receipt.v1",
+        "reason": "Spec 11 keeps the Phase 2 written_or_mutated_refs/timestamp shape, while Phase 13 resolves written_refs, mutated_refs, recovery_event_id and created_at."
+      },
+      {
+        "document": "Semantic Kernel SPEC/11_kernel_internal_data_contracts.md",
+        "name": "kernel.recovery_event.v1 and kernel.support_bundle_ref.v1",
+        "reason": "Spec 11 adds later-phase entries but does not include all Phase 13 required fields."
+      }
+    ],
+    "status": "drift_preflight: build_plan_authority_applied"
+  },
+  "fixtures": [
+    "stale_lock_owner_dead",
+    "stale_lock_owner_live",
+    "target_identity_changed_pending_confirmation",
+    "broken_binding_with_provable_metadata",
+    "broken_binding_no_safe_proof",
+    "semantic_release_incomplete_missing_projection",
+    "semantic_release_incomplete_inconsistent_staged_folder",
+    "partial_pipeline_run_complete_enough_to_finalize",
+    "partial_pipeline_run_requires_quarantine",
+    "partial_pipeline_run_not_isolatable",
+    "unresolved_merge_collision_dialog",
+    "merge_collision_stale_manifest",
+    "missing_batch_manifest_cleanup_blocker",
+    "missing_originals_retrieve_blocker",
+    "final_llm_validation_failure_retry_safe",
+    "final_llm_validation_failure_retry_unsafe",
+    "expired_pending_interaction_target_same",
+    "expired_pending_interaction_target_changed",
+    "support_only_unknown_exception",
+    "stale_recovery_id_rejected",
+    "superseded_mirror_event_tool_call"
+  ],
+  "schema_version": "phase13.fixture_inventory.v1"
+}

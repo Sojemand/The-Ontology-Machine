@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "personal.wellbeing.default.v1",
+  "label": "Personal Development Default v1",
+  "description": "Default projection for personal reflection, habit tracking, and development records.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "personal",
+    "people",
+    "health",
+    "community"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject",
+        "content.fields.event_name"
+      ]
+    },
+    {
+      "slot": "person_name",
+      "source_paths": [
+        "content.fields.person_name",
+        "content.fields.contact_person"
+      ]
+    },
+    {
+      "slot": "provider_name",
+      "source_paths": [
+        "content.fields.provider_name"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.provider_name",
+        "content.fields.community_name"
+      ]
+    },
+    {
+      "slot": "event_name",
+      "source_paths": [
+        "content.fields.event_name"
+      ]
+    },
+    {
+      "slot": "appointment_date",
+      "source_paths": [
+        "content.fields.appointment_date"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.customer_number"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Wellbeing plans, self-reflection, habit logs, coaching support, and everyday personal support.",
+    "avoid_when": "Not for formal medical administration, finance, legal notices, or membership registers.",
+    "example_document_types": [
+      "schedule",
+      "profile",
+      "policy",
+      "report",
+      "form"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "journal",
+        "routine",
+        "wellbeing",
+        "appointment",
+        "support",
+        "sleep",
+        "mood"
+      ],
+      "domain_markers": {
+        "personal": [
+          "wellbeing",
+          "routine",
+          "journal"
+        ],
+        "people": [
+          "person",
+          "caregiver"
+        ],
+        "health": [
+          "mood",
+          "sleep",
+          "symptom"
+        ],
+        "community": [
+          "group",
+          "support"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "timeline",
+        "participants"
+      ],
+      "party_roles": [
+        "recipient",
+        "contact_person",
+        "coach"
+      ]
+    }
+  },
+  "include_document_types": [
+    "schedule",
+    "profile",
+    "policy",
+    "report",
+    "form",
+    "general_letter",
+    "certificate",
+    "other"
+  ],
+  "include_categories": [
+    "personal",
+    "people",
+    "health",
+    "community",
+    "other"
+  ],
+  "include_subcategories": [
+    "wellbeing_plan",
+    "self_reflection",
+    "habit_tracking",
+    "coaching_support",
+    "recovery_plan",
+    "general_correspondence",
+    "pastoral_care",
+    "community_event",
+    "other"
+  ],
+  "include_field_codes": [
+    "person_name",
+    "document_date",
+    "subject",
+    "provider_name",
+    "appointment_date",
+    "event_name",
+    "community_name",
+    "contact_person",
+    "phone",
+    "customer_number",
+    "service_end_date",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "signoff",
+    "signatory",
+    "signatory_role",
+    "other"
+  ],
+  "include_row_types": [
+    "timeline_entry",
+    "participant_list",
+    "line_item",
+    "contact_block",
+    "other"
+  ],
+  "include_cell_codes": [
+    "description",
+    "scheduled_date",
+    "status",
+    "frequency",
+    "hours",
+    "note",
+    "name",
+    "participant_role",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:236573151e93e8f5489f99da228c462919c6f0eb89af3d9d16eba4532cd5150d"
+}

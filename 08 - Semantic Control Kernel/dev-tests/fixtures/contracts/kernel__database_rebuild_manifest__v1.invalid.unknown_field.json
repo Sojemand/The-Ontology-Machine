@@ -1,0 +1,23 @@
+{
+  "activation_receipt_id": "activation_receipt_id_example",
+  "artifact_root": "artifact_root_example",
+  "corpus_builder_run_ref": "refs/example.json",
+  "created_at": "2026-05-05T00:00:00Z",
+  "embedding_policy": {
+    "example": true
+  },
+  "embedding_result": {
+    "example": true
+  },
+  "finalized_at": "2026-05-05T00:00:00Z",
+  "loaded_release_fingerprint": "loaded_release_fingerprint_example",
+  "loaded_semantic_release_id": "loaded_semantic_release_id_example",
+  "loaded_semantic_release_version": "loaded_semantic_release_version_example",
+  "manifest_fingerprint": "manifest_fingerprint_example",
+  "rebuild_run_id": "rebuild_run_id_example",
+  "record_count": 1,
+  "schema_version": "kernel.database_rebuild_manifest.v1",
+  "target_database_path": "target_database_path_example",
+  "workflow_run_id": "workflow_run_id_example",
+  "unexpected_phase2_field": "example"
+}

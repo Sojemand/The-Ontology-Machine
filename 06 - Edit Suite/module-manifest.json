@@ -1,0 +1,10 @@
+{
+  "module_key": "edit_suite",
+  "display_name": "Edit Suite",
+  "contract_version": 1,
+  "runtime_dir": "runtime/python",
+  "launcher_module": "edit_suite",
+  "contract_module": "edit_suite.orchestrator_contract",
+  "actions": ["healthcheck"],
+  "external_dependencies": []
+}

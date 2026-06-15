@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "community.spiritual.default.v1",
+  "label": "Community and Pastoral Care Default v1",
+  "description": "Default projection for community, pastoral care, and donation-related records.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "community",
+    "people",
+    "administrative",
+    "finance",
+    "personal"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject",
+        "content.fields.event_name",
+        "content.fields.community_name"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.community_name",
+        "content.fields.sender"
+      ]
+    },
+    {
+      "slot": "recipient_party",
+      "source_paths": [
+        "content.fields.recipient"
+      ]
+    },
+    {
+      "slot": "person_name",
+      "source_paths": [
+        "content.fields.person_name",
+        "content.fields.contact_person"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.membership_id",
+        "content.fields.customer_number",
+        "content.fields.account_number"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    },
+    {
+      "slot": "event_name",
+      "source_paths": [
+        "content.fields.event_name"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Memberships, community events, donations, pastoral care, and spiritual guidance for groups, associations, or congregations.",
+    "avoid_when": "Not for technical records, formal identity files, medical prescriptions, or property management.",
+    "example_document_types": [
+      "membership_record",
+      "statement",
+      "schedule",
+      "general_letter",
+      "certificate"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "congregation",
+        "member",
+        "donation receipt",
+        "worship service",
+        "pastoral care"
+      ],
+      "domain_markers": {
+        "community": [
+          "congregation",
+          "member",
+          "event"
+        ],
+        "people": [
+          "member",
+          "pastoral care"
+        ],
+        "administrative": [
+          "registration",
+          "certificate"
+        ],
+        "finance": [
+          "donation",
+          "contribution"
+        ],
+        "personal": [
+          "guidance",
+          "prayer"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "participants",
+        "contact_block"
+      ],
+      "party_roles": [
+        "recipient",
+        "contact_person",
+        "member"
+      ]
+    }
+  },
+  "include_document_types": [
+    "membership_record",
+    "general_letter",
+    "policy",
+    "schedule",
+    "statement",
+    "certificate",
+    "form",
+    "profile",
+    "report",
+    "other"
+  ],
+  "include_categories": [
+    "community",
+    "people",
+    "administrative",
+    "finance",
+    "personal",
+    "other"
+  ],
+  "include_subcategories": [
+    "membership",
+    "community_event",
+    "spiritual_guidance",
+    "pastoral_care",
+    "donation_support",
+    "general_correspondence",
+    "official_notice",
+    "identity_record",
+    "other"
+  ],
+  "include_field_codes": [
+    "community_name",
+    "membership_id",
+    "event_name",
+    "person_name",
+    "document_date",
+    "subject",
+    "sender",
+    "recipient",
+    "contact_person",
+    "phone",
+    "account_number",
+    "iban",
+    "bank_name",
+    "customer_number",
+    "service_end_date",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "signoff",
+    "signatory",
+    "signatory_role",
+    "other"
+  ],
+  "include_row_types": [
+    "participant_list",
+    "timeline_entry",
+    "line_item",
+    "contact_block",
+    "other"
+  ],
+  "include_cell_codes": [
+    "name",
+    "participant_role",
+    "scheduled_date",
+    "amount_due",
+    "amount_paid",
+    "status",
+    "identifier",
+    "note",
+    "description",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:bde2ade597455aed8ea53358b3a2ead26b353dc72258ea274ab185786bc23d98"
+}

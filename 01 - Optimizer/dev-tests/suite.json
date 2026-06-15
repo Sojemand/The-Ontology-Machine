@@ -1,0 +1,20 @@
+﻿{
+    "run_script":  "run-tests.bat",
+    "kind":  "python",
+    "aliases":  [
+                    "optimizer"
+                ],
+    "display_name":  "01 - Optimizer",
+    "runtime_python":  "../runtime/python",
+    "python_path":  [
+                        ".."
+                    ],
+    "name":  "01 - Optimizer",
+    "wheelhouses":  [
+                        "wheelhouse"
+                    ],
+    "lockfile":  "requirements.lock.txt",
+    "bootstrap_script":  "bootstrap.bat",
+    "target_dir":  ".venv"
+}
+

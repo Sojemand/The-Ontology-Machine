@@ -1,0 +1,36 @@
+{
+  "confirmation_request_id": "confirmation_request_id_example",
+  "confirmation_scope": "reset_database",
+  "expiration_policy": {
+    "policy_id": "confirmation_destructive",
+    "ttl_seconds": 900,
+    "expires_at": "2026-05-05T00:15:00Z",
+    "recovery_state": "expired_pending_interaction"
+  },
+  "explanation_text": "Resetting this database deletes materialized records and requires explicit confirmation.",
+  "function_or_route": "reset_database",
+  "required_receipt_shape": {
+    "required_fields": [
+      "confirmed_target_identity",
+      "confirmed_state_snapshot_identity",
+      "host_surface_identity",
+      "user_decision"
+    ]
+  },
+  "risk_class": "destructive",
+  "schema_version": "kernel.confirmation_request.v1",
+  "state_snapshot_identity": {
+    "schema_version": "state.snapshot_identity.v1",
+    "state_snapshot_id": "ss_0001"
+  },
+  "target_identity": {
+    "schema_version": "state.target_identity.v1",
+    "artifact_root_path_hash": "path_example",
+    "database_path_hash": "db_path_example",
+    "lock_scope": "target",
+    "target_hash": "tgt_example",
+    "created_from": "fixture"
+  },
+  "workflow_run_id": "workflow_run_id_example",
+  "unexpected_phase2_field": "example"
+}

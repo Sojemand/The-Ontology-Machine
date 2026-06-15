@@ -1,0 +1,20 @@
+﻿{
+    "run_script":  "run-tests.bat",
+    "kind":  "python",
+    "aliases":  [
+                    "validator"
+                ],
+    "display_name":  "03 - Validator",
+    "runtime_python":  "../runtime/python",
+    "python_path":  [
+                        ".."
+                    ],
+    "name":  "03 - Validator",
+    "wheelhouses":  [
+                        "wheelhouse"
+                    ],
+    "lockfile":  "requirements.lock.txt",
+    "bootstrap_script":  "bootstrap.bat",
+    "target_dir":  ".venv"
+}
+

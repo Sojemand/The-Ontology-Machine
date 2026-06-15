@@ -1,0 +1,118 @@
+{
+  "artifact_tree_root": "artifact_tree/",
+  "document_classes": [
+    "invoice",
+    "contract",
+    "report"
+  ],
+  "empty_database_fixture": "artifact_tree/Corpus/empty_corpus.db",
+  "files": [
+    {
+      "byte_count": 53,
+      "relative_path": "artifact_tree/Corpus/empty_corpus.db",
+      "sha256": "e06e51b34b9d15def65f5cc1269e7918946c98107d18d06df8668b64fc754a3b"
+    },
+    {
+      "byte_count": 53,
+      "relative_path": "artifact_tree/Corpus/filled_corpus.db",
+      "sha256": "f05801531fa7acda2f3d6f271debdd045b78a838327fe35f23661c29f5fb2ef7"
+    },
+    {
+      "byte_count": 316,
+      "relative_path": "artifact_tree/Documents/logs/finalized_batch_manifest.json",
+      "sha256": "c768b7226de530e7e5af18c2fbde9fa0babe6fcccd32de3650296f126963a21e"
+    },
+    {
+      "byte_count": 256,
+      "relative_path": "artifact_tree/Semantic Release/semantic_release_manifest.json",
+      "sha256": "259296f7173fbfef91950a055884d806c83553ca6bdcadfa917fa7f3343882a3"
+    },
+    {
+      "byte_count": 66,
+      "relative_path": "merge/collision/source_c_release.json",
+      "sha256": "2148a5cf1887ade91f3d4f8140a94df3256b5b3c265913e19611870d356d2eea"
+    },
+    {
+      "byte_count": 66,
+      "relative_path": "merge/collision/source_d_release.json",
+      "sha256": "8b504b6fbc0aa253bcaf691f60cff04497128ba809d89a72cd62485d91bf0836"
+    },
+    {
+      "byte_count": 67,
+      "relative_path": "merge/compatible/source_a_release.json",
+      "sha256": "16760dd70cf7bf17c391ba185d73aa0b9aac3590338100d8517941c5f875a7c1"
+    },
+    {
+      "byte_count": 67,
+      "relative_path": "merge/compatible/source_b_release.json",
+      "sha256": "e19852bae88929f52fb7c78ae36dd7210f350352f71f069a113c0b1b2ade47a6"
+    },
+    {
+      "byte_count": 87,
+      "relative_path": "normalized/file_contract_gamma.normalized.json",
+      "sha256": "446a9154cb27ca6478d98c587cfc6704dbbce8aa3a830541ded4b1c1c57985ed"
+    },
+    {
+      "byte_count": 80,
+      "relative_path": "normalized/scan_invoice_alpha.normalized.json",
+      "sha256": "4b32b73fbd5a763eb79f2b3628ffcd55d825a2ab8af3cb5eb6d76d52f7e1ba4c"
+    },
+    {
+      "byte_count": 146,
+      "relative_path": "README.md",
+      "sha256": "a282669865d2dda79ebfcbd4c84de1ec9c4975a4becf196c00935cb7237f5cd4"
+    },
+    {
+      "byte_count": 135,
+      "relative_path": "sources/file_contract_gamma.md",
+      "sha256": "fa8fbab82e2336a5e06b4e8ff58b8f201e48cb753a2180f98a84e8f671a51be2"
+    },
+    {
+      "byte_count": 105,
+      "relative_path": "sources/file_report_delta.txt",
+      "sha256": "b63ba5ca616c67f717c28b0fde6a1bcafb63cd02603c8edf5f0b926c20f4a00e"
+    },
+    {
+      "byte_count": 65,
+      "relative_path": "sources/file_table_epsilon.csv",
+      "sha256": "a07c0bbf56b55dcbe3992c490f905fd0b2676e252b1a2b6f45ed4b7f8c463c84"
+    },
+    {
+      "byte_count": 101,
+      "relative_path": "sources/scan_invoice_alpha.txt",
+      "sha256": "4e64bec15731037134f6489241c70bcf21f61b23201bad5fbb2303e8a3589a66"
+    },
+    {
+      "byte_count": 105,
+      "relative_path": "sources/scan_invoice_beta.txt",
+      "sha256": "ae44526dddcc612befc3cdbe0ea2a68f2db0940d2833ec117e36832a7bddbebd"
+    }
+  ],
+  "filled_database_fixture": "artifact_tree/Corpus/filled_corpus.db",
+  "finalized_batch_manifest": "artifact_tree/Documents/logs/finalized_batch_manifest.json",
+  "generated_at": "2026-05-31T11:43:06.802044Z",
+  "has_ambiguous_semantic_coverage": true,
+  "has_multi_page_source": true,
+  "has_table_like_source": true,
+  "merge_collision_pair": [
+    "merge/collision/source_c_release.json",
+    "merge/collision/source_d_release.json"
+  ],
+  "merge_compatible_pair": [
+    "merge/compatible/source_a_release.json",
+    "merge/compatible/source_b_release.json"
+  ],
+  "normalized_histories": [
+    "scan_vision",
+    "born_digital_file"
+  ],
+  "prohibited_secret_scan_results": [],
+  "row_counts": {
+    "batch_manifest_records": 2,
+    "empty_database_rows": 0,
+    "filled_database_rows": 2
+  },
+  "schema_version": "semantic_control_kernel.phase20.realistic_corpus_manifest.v1",
+  "semantic_release_manifest": "artifact_tree/Semantic Release/semantic_release_manifest.json",
+  "source_document_count": 5
+}

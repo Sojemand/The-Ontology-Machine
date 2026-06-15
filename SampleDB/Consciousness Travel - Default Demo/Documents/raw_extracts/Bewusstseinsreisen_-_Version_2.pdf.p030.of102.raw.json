@@ -1,0 +1,311 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "file",
+  "source": {
+    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "Bewusstseinsreisen - Version 2.pdf::page=030-of-102",
+    "relative_path": "Bewusstseinsreisen - Version 2.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:53539b7f916fe1623804cf9e88025ac643b6aa7f064de2261ef8b53292eeffd5",
+    "page_count": 102,
+    "size_bytes": 2010258
+  },
+  "extraction": {
+    "plugin_name": "pdf-pymupdf",
+    "plugin_version": "3.0.0",
+    "processing_time_ms": 3544
+  },
+  "metadata": {
+    "page_count": 102,
+    "is_scanned": false,
+    "has_images": true,
+    "text_density": "dense",
+    "avg_chars_per_page": 2590.0,
+    "text_block_count": 2988,
+    "table_cell_count": 0,
+    "pdf_version": "1.6",
+    "has_annotations": false
+  },
+  "context": {
+    "page_number": 30,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=030-of-102",
+    "interpreter_profile": "file"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page30_para_0",
+        "type": "paragraph",
+        "value": "Körpertemperatur auf 34 Grad festzulegen, nur noch 1 mal pro Minute zu atmen oder mit einem",
+        "position": {
+          "page": 30,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page30_para_1",
+        "type": "paragraph",
+        "value": "Liter Wasser die Woche auszukommen. Unser Körper benötigt zur optimalen Funktion",
+        "position": {
+          "page": 30,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page30_para_2",
+        "type": "paragraph",
+        "value": "festgelegte Dinge und wir als Bewusstsein, als Passagier, haben dabei die Wahl zwischen friss",
+        "position": {
+          "page": 30,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page30_para_3",
+        "type": "paragraph",
+        "value": "oder stirb.",
+        "position": {
+          "page": 30,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page30_para_4",
+        "type": "paragraph",
+        "value": "Die Faust des Riesen",
+        "position": {
+          "page": 30,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page30_para_5",
+        "type": "paragraph",
+        "value": "Was möglich wird, wenn sich die drei Systeme auf einmal entscheiden zusammenzuarbeiten",
+        "position": {
+          "page": 30,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page30_para_6",
+        "type": "paragraph",
+        "value": "und den schreienden Zwerg auf der Schulter für einen Moment zu ignorieren, dann können wir",
+        "position": {
+          "page": 30,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page30_para_7",
+        "type": "paragraph",
+        "value": "nur noch ehrfürchtig staunen ob der wahren Macht die in uns wohnt. Kommt einmal kurz mit auf",
+        "position": {
+          "page": 30,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page30_para_8",
+        "type": "paragraph",
+        "value": "eine Reise, auf der eure Maschine mal so richtig aufdreht und alles gibt was sie hat.",
+        "position": {
+          "page": 30,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page30_para_9",
+        "type": "paragraph",
+        "value": "Stellt dir vor du lümmelst gerade so richtig gemütlich in deinem Sessel und bist mit dem Leben",
+        "position": {
+          "page": 30,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page30_para_10",
+        "type": "paragraph",
+        "value": "zufrieden. Auf einmal kommt dir der Gedanke, doch mal aufzustehen und ein wenig Sport zu",
+        "position": {
+          "page": 30,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page30_para_11",
+        "type": "paragraph",
+        "value": "treiben, denn wer rastet der rostet. Gesagt, getan. Mit ein wenig Mühe erhebst du dich und",
+        "position": {
+          "page": 30,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page30_para_12",
+        "type": "paragraph",
+        "value": "kurbelst zu Beginn deinen Kreislauf mit ein paar Kniebeugen an und machst dann ein paar",
+        "position": {
+          "page": 30,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page30_para_13",
+        "type": "paragraph",
+        "value": "Hampelmänner um richtig auf Touren zu kommen. Es folgen Liegestütze, ein paar Übungen mit",
+        "position": {
+          "page": 30,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page30_para_14",
+        "type": "paragraph",
+        "value": "Hanteln und vielleicht ein paar Klimmzüge. Du findest dich so richtig ins Training ein und dann",
+        "position": {
+          "page": 30,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page30_para_15",
+        "type": "paragraph",
+        "value": "legst du richtig los. Du powerst dich aus, bis kein Saft mehr da ist und der Gedanke an weitere",
+        "position": {
+          "page": 30,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page30_para_16",
+        "type": "paragraph",
+        "value": "Liegestütze dir unvorstellbar erscheint.",
+        "position": {
+          "page": 30,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page30_para_17",
+        "type": "paragraph",
+        "value": "Mit leicht zittrigen Knien und außer Atem willst du dich gerade wieder in deinen Sessel fallen",
+        "position": {
+          "page": 30,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page30_para_18",
+        "type": "paragraph",
+        "value": "lassen, um ein wenig zu Atem zu kommen, doch noch bevor dein Hintern das Polster berührt,",
+        "position": {
+          "page": 30,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page30_para_19",
+        "type": "paragraph",
+        "value": "bricht Armageddon über dich herein. Schüsse, Tumult, Krachen und Splittern und in reinster",
+        "position": {
+          "page": 30,
+          "paragraph_index": 19
+        }
+      },
+      {
+        "id": "page30_para_20",
+        "type": "paragraph",
+        "value": "Mad Max Manier wird deine Wohnung überrannt. Du erkennst sofort, dass jegliches Zögern den",
+        "position": {
+          "page": 30,
+          "paragraph_index": 20
+        }
+      },
+      {
+        "id": "page30_para_21",
+        "type": "paragraph",
+        "value": "sicheren Tod bedeuten würde. Genau in diesem Moment übernimmt deine Maschine",
+        "position": {
+          "page": 30,
+          "paragraph_index": 21
+        }
+      },
+      {
+        "id": "page30_para_22",
+        "type": "paragraph",
+        "value": "vollständig das Steuer und der Zwerg wird zu einem passiven Beobachter degradiert. Mit einem",
+        "position": {
+          "page": 30,
+          "paragraph_index": 22
+        }
+      },
+      {
+        "id": "page30_para_23",
+        "type": "paragraph",
+        "value": "mal ist deine Erschöpfung wie weggeblasen, du verspürst keinen Durst und auch kein Bedürfnis",
+        "position": {
+          "page": 30,
+          "paragraph_index": 23
+        }
+      },
+      {
+        "id": "page30_para_24",
+        "type": "paragraph",
+        "value": "mehr auf die Toilette zu gehen (oder deine Blase ist so voll, dass sie sich von selbst entleert).",
+        "position": {
+          "page": 30,
+          "paragraph_index": 24
+        }
+      },
+      {
+        "id": "page30_para_25",
+        "type": "paragraph",
+        "value": "Stattdessen scheint sich alles zu verlangsamen, deine Sicht, ja deine ganzen Sinne schärfen",
+        "position": {
+          "page": 30,
+          "paragraph_index": 25
+        }
+      },
+      {
+        "id": "page30_para_26",
+        "type": "paragraph",
+        "value": "sich in einem geradezu grotesken Maße. Mit einem mal schießt du mühelos aus dem Sessel",
+        "position": {
+          "page": 30,
+          "paragraph_index": 26
+        }
+      },
+      {
+        "id": "page30_para_27",
+        "type": "paragraph",
+        "value": "empor und rennst schneller und weiter als jemals zuvor. Du spürst eine Kraft die dich antreibt,",
+        "position": {
+          "page": 30,
+          "paragraph_index": 27
+        }
+      },
+      {
+        "id": "page30_para_28",
+        "type": "paragraph",
+        "value": "die scheinbar grenzenlos ist. Vergessen sind deine kurzen Gymnastik Einlagen und in dir",
+        "position": {
+          "page": 30,
+          "paragraph_index": 28
+        }
+      },
+      {
+        "id": "page30_para_29",
+        "type": "paragraph",
+        "value": "herrscht nur noch ein Gedanke: Entkommen.",
+        "position": {
+          "page": 30,
+          "paragraph_index": 29
+        }
+      }
+    ]
+  }
+}

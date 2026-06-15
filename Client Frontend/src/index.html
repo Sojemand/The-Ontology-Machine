@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Agent</title>
+    <script type="module" src="./main.ts"></script>
+  </head>
+  <body class="theme-dark">
+    <div id="app-frame" class="app-frame">
+      <nav id="workspace-nav" class="workspace-nav" aria-label="Workspaces">
+        <button class="workspace-nav-button" data-pane="sources" type="button">Sources</button>
+        <button class="workspace-nav-button" data-pane="chat" type="button">Chat</button>
+        <button class="workspace-nav-button" data-pane="viewer" type="button">Document</button>
+      </nav>
+
+      <div id="app-shell" class="app-shell">
+        <aside class="panel sidebar-panel" data-panel="sources">
+          <div class="panel-header branding">
+            <div>
+              <h1 id="customer-name">Case Worker</h1>
+            </div>
+            <button id="theme-toggle" class="ghost-button" type="button">Light</button>
+          </div>
+          <div class="panel-status">
+            <span id="health-pill" class="status-pill">Checking status...</span>
+            <div id="database-status-badges" class="database-status-badges" aria-label="Database structure status">
+              <span id="base-graph-pill" class="status-pill" data-state="error">Base Graph unknown</span>
+              <span class="ontology-lens-status">
+                <span>Ontology Lenses</span>
+                <span id="ontology-lenses-count" class="count-badge">0</span>
+              </span>
+            </div>
+            <p id="health-summary" class="muted">Loading database.</p>
+          </div>
+          <div class="sources-header">
+            <h2>Sources</h2>
+            <span id="source-count" class="count-badge">0</span>
+          </div>
+          <div id="sources-list" class="sources-list empty-state">
+            Ask a question to see sources.
+          </div>
+        </aside>
+
+        <div
+          class="pane-resizer pane-resizer-left"
+          data-resizer="left"
+          role="separator"
+          aria-label="Resize sources sidebar"
+          aria-orientation="vertical"
+          tabindex="0"
+        ></div>
+
+        <main class="panel chat-panel" data-panel="chat">
+          <div class="panel-header chat-header">
+            <div>
+              <p class="eyebrow">Chat</p>
+              <h2 id="agent-name">Case Worker</h2>
+            </div>
+            <div class="agent-tabs" aria-label="Agent">
+              <button class="agent-tab" data-agent="query" type="button" aria-pressed="true">Query Agent</button>
+              <button class="agent-tab" data-agent="ontology" type="button" aria-pressed="false">Ontology Agent</button>
+              <button class="agent-tab" data-agent="pipeline" type="button" aria-pressed="false">Taxonomy Agent</button>
+            </div>
+            <div class="chat-header-actions">
+              <button id="kernel-reset-button" class="ghost-button kernel-reset-button" type="button" hidden>Kernel Reset</button>
+              <button id="chat-history-btn" class="ghost-button" type="button">History</button>
+              <button id="new-chat-btn" class="ghost-button" type="button">New Conversation</button>
+            </div>
+            <p class="muted">Answers only from the local archive.</p>
+            <p id="pipeline-permission-status" class="muted pipeline-permission-status"></p>
+          </div>
+          <div id="chat-history-panel" class="history-panel" hidden>
+            <div class="panel-header history-panel-header">
+              <h2>Chat History</h2>
+              <button id="history-close" class="ghost-button" type="button">&times;</button>
+            </div>
+            <div id="history-list" class="history-list"></div>
+          </div>
+          <div id="kernel-activity-window" class="kernel-activity-window">
+            <section id="pipeline-progress-panel" class="pipeline-progress-panel" aria-live="polite" hidden>
+              <div class="pipeline-progress-header">
+                <div>
+                  <p class="eyebrow">Pipeline</p>
+                  <h3 id="pipeline-progress-title">No active run</h3>
+                </div>
+                <div class="pipeline-progress-actions">
+                  <span id="pipeline-progress-count" class="pipeline-progress-count"></span>
+                  <button id="pipeline-abort-button" class="ghost-button pipeline-abort-button" type="button" hidden>Abort</button>
+                </div>
+              </div>
+              <div class="pipeline-progress-meter" aria-hidden="true">
+                <span id="pipeline-progress-fill"></span>
+              </div>
+              <p id="pipeline-progress-summary" class="muted pipeline-progress-summary"></p>
+              <div id="pipeline-stage-list" class="pipeline-stage-list"></div>
+            </section>
+            <section id="kernel-dialog-panel" class="kernel-dialog-panel" aria-live="polite" hidden>
+              <div class="kernel-dialog-header">
+                <div>
+                  <p class="eyebrow">Kernel Dialog</p>
+                  <h3 id="kernel-dialog-title">Kernel dialog</h3>
+                </div>
+                <p id="kernel-dialog-status" class="muted kernel-dialog-status"></p>
+              </div>
+              <p id="kernel-dialog-summary" class="kernel-dialog-summary"></p>
+              <div id="kernel-dialog-body" class="kernel-dialog-body"></div>
+              <div id="kernel-dialog-actions" class="kernel-dialog-actions"></div>
+            </section>
+          </div>
+          <div id="messages" class="messages" aria-live="polite"></div>
+          <form id="chat-form" class="composer">
+            <div id="taxonomy-workflow-launcher" class="taxonomy-workflow-launcher" hidden>
+              <span class="taxonomy-workflow-label">Taxonomy Workflows</span>
+              <button
+                id="taxonomy-workflow-menu-button"
+                class="ghost-button taxonomy-workflow-menu-button"
+                type="button"
+                aria-haspopup="menu"
+                aria-expanded="false"
+              >
+                Select workflow
+              </button>
+              <div id="taxonomy-workflow-menu-list" class="taxonomy-workflow-menu-list" role="menu" hidden></div>
+            </div>
+            <label class="sr-only" for="chat-input">Question</label>
+            <textarea
+              id="chat-input"
+              rows="3"
+              maxlength="2000"
+              placeholder="Ask your question here."
+            ></textarea>
+            <div class="composer-footer">
+              <p id="chat-status" class="muted">Ready.</p>
+              <span id="turn-counter" class="turn-counter" title="Question/answer turns in the current chat">0/-</span>
+              <span id="token-counter" class="token-counter" title="Estimated model tokens in the current chat session">~In 0 | ~Out 0</span>
+              <button id="send-button" class="primary-button" type="submit">Send</button>
+            </div>
+          </form>
+        </main>
+
+        <div
+          class="pane-resizer pane-resizer-right"
+          data-resizer="right"
+          role="separator"
+          aria-label="Resize document pane"
+          aria-orientation="vertical"
+          tabindex="0"
+        ></div>
+
+        <section class="panel viewer-panel" data-panel="viewer">
+          <div class="panel-header viewer-header">
+            <div>
+              <p class="eyebrow">Document</p>
+              <h2 id="viewer-title">No source selected</h2>
+            </div>
+            <div class="viewer-controls">
+              <button id="zoom-out" class="ghost-button" type="button">-</button>
+              <button id="zoom-reset" class="ghost-button" type="button">100%</button>
+              <button id="zoom-in" class="ghost-button" type="button">+</button>
+            </div>
+          </div>
+          <div class="viewer-toolbar">
+            <button id="page-prev" class="ghost-button" type="button">&lt;</button>
+            <span id="page-label" class="page-label">Page -/-</span>
+            <button id="page-next" class="ghost-button" type="button">&gt;</button>
+          </div>
+          <div id="viewer-stage" class="viewer-stage">
+            <img id="viewer-image" class="viewer-image" alt="Document page" hidden />
+            <div id="viewer-placeholder" class="viewer-placeholder">
+              Select a source to open the document view.
+            </div>
+          </div>
+          <div id="viewer-meta" class="viewer-meta muted"></div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

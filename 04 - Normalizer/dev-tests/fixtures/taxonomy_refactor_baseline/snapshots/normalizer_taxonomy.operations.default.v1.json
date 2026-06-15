@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "operations.default.v1",
+  "label": "Operations and Deployment Default v1",
+  "description": "Default projection for logistics, procurement, and field-operation records with operational and technical context.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "operations",
+    "technical",
+    "administrative",
+    "legal",
+    "personal"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.sender",
+        "content.fields.carrier_name"
+      ]
+    },
+    {
+      "slot": "recipient_party",
+      "source_paths": [
+        "content.fields.recipient"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.document_number",
+        "content.fields.contract_number",
+        "content.fields.vehicle_registration",
+        "content.fields.customer_number"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Logistics, procurement, technical execution, deployment planning, travel instructions, access forms, and inventories.",
+    "avoid_when": "Not for tenancy, utility charges, or property management communication.",
+    "example_document_types": [
+      "delivery_note",
+      "order",
+      "specification",
+      "report",
+      "form"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "delivery note",
+        "transport order",
+        "delivery",
+        "pickup",
+        "site",
+        "deployment plan"
+      ],
+      "domain_markers": {
+        "operations": [
+          "transport",
+          "delivery note",
+          "delivery"
+        ],
+        "technical": [
+          "asset",
+          "maintenance",
+          "site"
+        ],
+        "administrative": [
+          "order",
+          "reference",
+          "approval"
+        ],
+        "legal": [
+          "liability",
+          "approval"
+        ],
+        "personal": [
+          "deployment",
+          "shift"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "line_items",
+        "timeline",
+        "contact_block"
+      ],
+      "party_roles": [
+        "sender",
+        "recipient",
+        "carrier"
+      ]
+    }
+  },
+  "include_document_types": [
+    "delivery_note",
+    "order",
+    "contract",
+    "general_letter",
+    "report",
+    "specification",
+    "form",
+    "other"
+  ],
+  "include_categories": [
+    "administrative",
+    "legal",
+    "technical",
+    "operations",
+    "personal",
+    "other"
+  ],
+  "include_subcategories": [
+    "contract",
+    "general_correspondence",
+    "technical_specification",
+    "feasibility_study",
+    "logistics",
+    "procurement",
+    "execution_plan",
+    "travel_instruction",
+    "site_access_compliance",
+    "inventory",
+    "recovery_plan",
+    "other"
+  ],
+  "include_field_codes": [
+    "sender",
+    "sender_address",
+    "recipient",
+    "recipient_address",
+    "document_number",
+    "our_reference",
+    "your_reference",
+    "subject",
+    "contract_number",
+    "document_date",
+    "phone",
+    "contact_person",
+    "carrier_name",
+    "vehicle_registration",
+    "loading_address",
+    "transfer_address",
+    "unloading_address",
+    "customer_number",
+    "service_end_date",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "signoff",
+    "signatory",
+    "signatory_role",
+    "other"
+  ],
+  "include_row_types": [
+    "line_item",
+    "participant_list",
+    "timeline_entry",
+    "other"
+  ],
+  "include_cell_codes": [
+    "description",
+    "quantity",
+    "unit",
+    "scheduled_date",
+    "position",
+    "participant_role",
+    "name",
+    "note",
+    "section",
+    "drawing_reference",
+    "material",
+    "dimension",
+    "signature_marker",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:3c7d7fb17d9c64d38288da58a5df2a59b1a5a284c68a158de65bc06d7a006879"
+}

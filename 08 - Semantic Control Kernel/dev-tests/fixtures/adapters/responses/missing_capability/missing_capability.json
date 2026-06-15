@@ -1,0 +1,14 @@
+{
+  "detail": {},
+  "diagnostics": [
+    {
+      "code": "fake_missing_capability"
+    }
+  ],
+  "message": "capability missing",
+  "owner_action": "create_empty_corpus_db",
+  "owner_module": "fake_corpus_builder",
+  "schema_version": "fake_owner_response.v1",
+  "status": "missing_capability",
+  "target_identity_proof": {}
+}

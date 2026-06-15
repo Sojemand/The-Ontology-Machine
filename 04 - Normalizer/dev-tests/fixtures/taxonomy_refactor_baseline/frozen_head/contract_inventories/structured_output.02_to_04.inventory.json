@@ -1,0 +1,464 @@
+[
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.category",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.document_type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.document_type_confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.has_handwriting",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.is_scan",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.language",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.page_count",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.classification.subcategory",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.fields.document_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.fields.member_name",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.free_text",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.rows[]._source_refs.betrag",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.rows[]._source_refs.position",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.rows[].betrag",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.rows[].position",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].function",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].label",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].page",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].segment_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].sequence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].text",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.segments[].unit_kind",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.structure.columns[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.structure.form_fields[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.content.structure.type",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.company",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.counterparty",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.currencies[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.date_range.from",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.date_range.to",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.description",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.document_date",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.document_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.document_page_count",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.document_title",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.invoice_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.locations[]",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.organizations[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.page_number",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.page_source_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.plot_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.projection_hint.confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.projection_hint.matched_signals[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.projection_hint.projection_id",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.projection_hint.reason",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.recipient_name",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.reference_number",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.source_document_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.tags[]",
+    "value_kind": "string",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.context.total_monetary_value",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.interpreter_profile",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.model",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.model_confidence",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.needs_review",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.processed_at",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.provider",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.review_reason",
+    "value_kind": "null",
+    "classification": "text",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.processing.vision_used",
+    "value_kind": "boolean",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.schema_version",
+    "value_kind": "string",
+    "classification": "compiled_only",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.content_hash",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.created_at",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.file_ext",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.file_name",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.file_path",
+    "value_kind": "string",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.modified_at",
+    "value_kind": "null",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  },
+  {
+    "artifact_kind": "structured_output_02_04",
+    "json_path": "$.source.size_bytes",
+    "value_kind": "number",
+    "classification": "core",
+    "origin_bucket": "interpreter_output"
+  }
+]

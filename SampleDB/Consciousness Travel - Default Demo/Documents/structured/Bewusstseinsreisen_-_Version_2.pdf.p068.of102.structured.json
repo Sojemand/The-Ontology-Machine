@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T08:54:42.223367+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "philosophical_writing",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.94,
+      "reason": "A continuous nonfiction book page in philosophical writing is visible, consisting of paragraph-based prose discussing consciousness and symbolism.",
+      "matched_signals": [
+        "continuous paragraph prose",
+        "book page layout",
+        "philosophical discussion of consciousness",
+        "chapter transition reference"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "page_number": 68,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=068-of-102",
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page68_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 68,
+        "sequence": 1,
+        "text": "Bewusstsein andere Zustände annehmen kann und es auch ständig tut, sei es um an Komplexität zu verlieren wenn wir schlafen, oder an Bandbreite zu gewinnen wenn wir es ihm erlauben. Es ist auf jeden Fall ein dynamischer Prozess, dessen Regeln wir bisher nicht wirklich verstehen, oder verstehen wollen.",
+        "function": "reflection_on_consciousness",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page68_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 68,
+        "sequence": 2,
+        "text": "Und wenn es um Regeln geht, die wir eventuell verstehen könnten, habe ich ja bereits eine weitere Möglichkeit angesprochen. Wir könnten versuchen, etwaige Symbolsprachen versuchen ausfindig zu machen, die sich in unserem täglichen Leben zeigen. Dabei lassen wir erst einmal die Frage außen vor, wie sie da hin kommen sollte, oder was ihr Ursprung sein könnte. Alles, was wir wollen ist, zu sehen, ob es überhaupt etwas gibt, was auch nur entfernt an eine, sich scheinbar unabhängig manifestierende, Symbolsprache erinnert. Und tatsächlich, in unserer Welt zeigt sich Symbolik, die merkwürdig konsistent ist, sich über Kulturen und Zeitalter hinweg als permanent heraus gestellt hat und sich als Konzepte übergreifender Sinnhaftigkeit darstellt. Ja sie beschreiben uns und unser Handeln auf eine Art, die sich ähnlich den Regeln eines Traumes verhalten, und das ist allein schon Grund genug für mich einmal nachzusehen, aus welcher Richtung sie denn zu kommen scheinen.",
+        "function": "proposal_and_justification",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page68_Segment3",
+        "unit_kind": "summary_block",
+        "page": 68,
+        "sequence": 3,
+        "text": "Darum soll es im nächsten Kapitel gehen.",
+        "function": "chapter_transition",
+        "confidence": 0.99
+      }
+    ],
+    "free_text": "Bewusstsein, Symbolsprache, Symbolik, nächstes Kapitel"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=068-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:b982cbb43453ba4fa3847e9afca53b57633d514feeda9345f6ffbbedbd9c3342",
+    "created_at": null,
+    "modified_at": null
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "projection_id": "business.customer.communication.default.v1",
+  "label": "Customer Communication Default v1",
+  "description": "Default projection for customer-facing service, contract, and account communication without full invoice structure.",
+  "master_taxonomy_id": "normalizer_taxonomy.master",
+  "master_taxonomy_version": "2026-03-28.v6",
+  "domain_ids": [
+    "business",
+    "administrative",
+    "finance",
+    "legal"
+  ],
+  "projection_family": "default",
+  "projection_version": "v2",
+  "extends": [],
+  "materialization_profile_id": "document_entities.v1",
+  "compatibility": {},
+  "promotion_rules": [
+    {
+      "slot": "document_title",
+      "source_paths": [
+        "content.fields.subject"
+      ]
+    },
+    {
+      "slot": "primary_party",
+      "source_paths": [
+        "content.fields.issuer",
+        "content.fields.sender",
+        "content.fields.customer_name"
+      ]
+    },
+    {
+      "slot": "recipient_party",
+      "source_paths": [
+        "content.fields.recipient_primary",
+        "content.fields.recipient"
+      ]
+    },
+    {
+      "slot": "document_identifier",
+      "source_paths": [
+        "content.fields.document_number",
+        "content.fields.contract_number",
+        "content.fields.account_number",
+        "content.fields.customer_number"
+      ]
+    },
+    {
+      "slot": "document_date",
+      "source_paths": [
+        "content.fields.document_date"
+      ]
+    },
+    {
+      "slot": "due_date",
+      "source_paths": [
+        "content.fields.due_date"
+      ]
+    },
+    {
+      "slot": "period_start",
+      "source_paths": [
+        "content.fields.period_from"
+      ]
+    },
+    {
+      "slot": "period_end",
+      "source_paths": [
+        "content.fields.period_to"
+      ]
+    },
+    {
+      "slot": "total_amount",
+      "source_paths": [
+        "content.fields.total_amount",
+        "content.fields.reference_amount"
+      ]
+    },
+    {
+      "slot": "balance_amount",
+      "source_paths": [
+        "content.fields.balance_amount"
+      ]
+    }
+  ],
+  "routing": {
+    "when_to_use": "Customer letters, account notices, welcome messages, service updates, and provider communication.",
+    "avoid_when": "Not for full invoices, detailed account statements, housing management, official notices, medical administration, or technical asset documentation.",
+    "example_document_types": [
+      "general_letter",
+      "payment_notice",
+      "statement",
+      "policy",
+      "form"
+    ],
+    "surface_signals": {
+      "text_markers": [
+        "customer number",
+        "customer service",
+        "welcome",
+        "contract number",
+        "customer account",
+        "mail forwarding",
+        "phone number",
+        "customer care",
+        "welcome message",
+        "address change"
+      ],
+      "domain_markers": {
+        "business": [
+          "customer number",
+          "customer account",
+          "customer care",
+          "welcome message",
+          "customer service",
+          "welcome"
+        ],
+        "administrative": [
+          "address change",
+          "address",
+          "notice",
+          "service"
+        ],
+        "finance": [
+          "customer account",
+          "payment",
+          "amount"
+        ],
+        "legal": [
+          "contract number",
+          "contract"
+        ]
+      },
+      "section_roles": [
+        "header",
+        "notice",
+        "contact_block",
+        "payment"
+      ],
+      "party_roles": [
+        "sender",
+        "recipient",
+        "customer",
+        "contact_person"
+      ]
+    }
+  },
+  "include_document_types": [
+    "payment_notice",
+    "statement",
+    "contract",
+    "general_letter",
+    "policy",
+    "form",
+    "report",
+    "other"
+  ],
+  "include_categories": [
+    "business",
+    "administrative",
+    "finance",
+    "legal",
+    "other"
+  ],
+  "include_subcategories": [
+    "business_correspondence",
+    "customer_account",
+    "payment_followup",
+    "payment_schedule",
+    "contract",
+    "legal_correspondence",
+    "general_correspondence",
+    "official_notice",
+    "policy_compliance",
+    "other"
+  ],
+  "include_field_codes": [
+    "issuer",
+    "sender",
+    "sender_address",
+    "recipient",
+    "recipient_address",
+    "recipient_primary",
+    "customer_name",
+    "customer_number",
+    "document_number",
+    "contract_number",
+    "account_number",
+    "document_date",
+    "period_from",
+    "period_to",
+    "service_end_date",
+    "due_date",
+    "currency",
+    "reference_amount",
+    "total_amount",
+    "net_amount",
+    "tax_amount",
+    "balance_amount",
+    "bank_name",
+    "iban",
+    "bic",
+    "tax_id",
+    "department_name",
+    "subject",
+    "salutation",
+    "closing",
+    "signoff",
+    "contact_person",
+    "signatory",
+    "signatory_role",
+    "phone",
+    "fax",
+    "email",
+    "website",
+    "mobile_number",
+    "access_code",
+    "other"
+  ],
+  "include_row_types": [
+    "line_item",
+    "payment_schedule",
+    "account_entry",
+    "contact_block",
+    "other"
+  ],
+  "include_cell_codes": [
+    "description",
+    "scheduled_date",
+    "line_total",
+    "gross_amount",
+    "amount_due",
+    "amount_paid",
+    "balance",
+    "identifier",
+    "status",
+    "other"
+  ],
+  "projection_fingerprint": "sha256:9e6083975c229b9413d8e3839c235529ffa2fc259419144998effb2ac78b2ca8"
+}

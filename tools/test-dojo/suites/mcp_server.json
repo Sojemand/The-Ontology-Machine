@@ -1,0 +1,37 @@
+{
+  "name": "mcp-server",
+  "display_name": "07 - MCP Server",
+  "module": "07 - MCP Server",
+  "kind": "mcp_stdio",
+  "driver": "mcp_stdio",
+  "inventory_gate": true,
+  "modes": ["deterministic", "smoke"],
+  "sandbox": {
+    "state_root": "state/mcp-server",
+    "artifact_root": "output/mcp-server"
+  },
+  "expected_inventory": [
+    {
+      "action_key": "mcp.tools.list",
+      "label": "tools/list",
+      "surface": "stdio",
+      "coverage": "tested_action"
+    }
+  ],
+  "cases": [
+    {
+      "id": "tool_catalog",
+      "title": "Server exposes stable tool catalog over stdio",
+      "type": "contract",
+      "risk": "high",
+      "expected_actions": ["mcp.tools.list"]
+    },
+    {
+      "id": "permission_denial",
+      "title": "Permission policy denies unclassified write attempts",
+      "type": "contract",
+      "risk": "high",
+      "expected_actions": ["mcp.permissions.deny"]
+    }
+  ]
+}

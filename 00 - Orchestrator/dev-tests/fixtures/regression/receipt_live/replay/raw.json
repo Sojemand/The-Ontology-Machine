@@ -1,0 +1,229 @@
+{
+  "schema_version": "optimizer_raw_v2",
+  "optimizer_profile": "vision",
+  "source": {
+    "ingest_id": "cdc031e9-9461-485b-a32a-41b91a3db050",
+    "file_name": "scan.pdf",
+    "file_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\i\\scan.pdf",
+    "relative_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\i\\scan.pdf",
+    "file_ext": ".pdf",
+    "content_hash": "sha256:0ef26089f83a537a069c9a712fa55f01456fbb1b71ff7da4a567b0717522da94",
+    "page_count": 1
+  },
+  "extraction": {
+    "plugin_name": "fixture",
+    "plugin_version": "1.0.0",
+    "processing_time_ms": 1
+  },
+  "metadata": {},
+  "context": {
+    "page_number": 1,
+    "document_page_count": 1,
+    "source_document_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\i\\scan.pdf",
+    "page_source_path": "C:\\Users\\Norma\\Workspace\\.tmp\\rs_234637\\i\\scan.pdf::page=001-of-001"
+  },
+  "ocr_reference": {
+    "blocks": [
+      {
+        "id": "page1_para_0",
+        "type": "paragraph",
+        "value": "A L D I\nGERICHTSWIESEN GRIMMA",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        }
+      },
+      {
+        "id": "page1_para_1",
+        "type": "paragraph",
+        "value": "UNSERE ÖFFNUNGSZEITEN\nMO.-SA. 8.00 UHR - 20.00 UHR",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        }
+      },
+      {
+        "id": "page1_para_2",
+        "type": "paragraph",
+        "value": "Aufladebetrag: EUR 30,00\nNettobetrag: EUR 30,00\nMwSt 0,00 % EUR 0,00",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 2
+        }
+      },
+      {
+        "id": "page1_para_3",
+        "type": "paragraph",
+        "value": "ACHTUNG: Der Bon kann ausbleichen!\nFertigen Sie bitte rechtzeitig\neine Kopie an!",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 3
+        }
+      },
+      {
+        "id": "page1_para_4",
+        "type": "paragraph",
+        "value": "IHRE AUFLADENUMMER :\n*****\n6193 1152 7965 3340\n*****",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 4
+        }
+      },
+      {
+        "id": "page1_para_5",
+        "type": "paragraph",
+        "value": "Sie können Ihr ALDI TALK Guthaben\nfolgendermaßen aufladen:",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 5
+        }
+      },
+      {
+        "id": "page1_para_6",
+        "type": "paragraph",
+        "value": "1. über die ALDI TALK App\n(weitere Informationen unter\nwww.alditalk.de)",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 6
+        }
+      },
+      {
+        "id": "page1_para_7",
+        "type": "paragraph",
+        "value": "2. über \"Mein ALDI TALK\" auf\nwww.alditalk.de",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 7
+        }
+      },
+      {
+        "id": "page1_para_8",
+        "type": "paragraph",
+        "value": "3. über die kostenlose Konto-\nHotline 1155",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 8
+        }
+      },
+      {
+        "id": "page1_para_9",
+        "type": "paragraph",
+        "value": "4. über die Tastenkombination\n*104* gefolgt von der\n16-stelligen Aufladenummer,\nDrücken der #-Taste und Drücken\nder Hörertaste",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 9
+        }
+      },
+      {
+        "id": "page1_para_10",
+        "type": "paragraph",
+        "value": "Bitte behandeln Sie die Aufladenummer vertraulich.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 10
+        }
+      },
+      {
+        "id": "page1_para_11",
+        "type": "paragraph",
+        "value": "MEDIONmobile-Tarif der E-Plus Service",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 11
+        }
+      },
+      {
+        "id": "page1_para_12",
+        "type": "paragraph",
+        "value": "GmbH & Co. KG verwendet werden.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 12
+        }
+      },
+      {
+        "id": "page1_para_13",
+        "type": "paragraph",
+        "value": "Die Verfahrensweise bei Störungen",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 13
+        }
+      },
+      {
+        "id": "page1_para_14",
+        "type": "paragraph",
+        "value": "entnehmen. Sie bitte der",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 14
+        }
+      },
+      {
+        "id": "page1_para_15",
+        "type": "paragraph",
+        "value": "Bedienungsanleitung.",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 15
+        }
+      },
+      {
+        "id": "page1_para_16",
+        "type": "paragraph",
+        "value": "Node ID: 10021014\nTrace Nr: 31865\nSerien Nr: 0063123400011548",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 16
+        }
+      },
+      {
+        "id": "page1_para_17",
+        "type": "paragraph",
+        "value": "VIELEN DANK",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 17
+        }
+      },
+      {
+        "id": "page1_para_18",
+        "type": "paragraph",
+        "value": "FÜR IHREN EINKAUF",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 18
+        }
+      },
+      {
+        "id": "page1_para_19",
+        "type": "paragraph",
+        "value": "e m c d t o d a i c m m e d i",
+        "value_type": "text",
+        "position": {
+          "page": 1,
+          "paragraph_index": 19
+        }
+      }
+    ]
+  }
+}

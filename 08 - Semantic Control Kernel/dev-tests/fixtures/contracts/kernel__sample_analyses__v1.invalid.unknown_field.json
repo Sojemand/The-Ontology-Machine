@@ -1,0 +1,21 @@
+{
+  "analysis_scope": "sample_set",
+  "input_contract": "kernel.analyze_sample.input.v1",
+  "projection_seed": {
+    "example": true
+  },
+  "quality": {
+    "example": true
+  },
+  "sample_set": {
+    "example": true
+  },
+  "schema_version": "kernel.sample_analyses.v1",
+  "taxonomy_seed": {
+    "example": true
+  },
+  "user_report_samples_seed": {
+    "example": true
+  },
+  "unexpected_phase2_field": "example"
+}

@@ -1,0 +1,13 @@
+{
+  "run_script": "run-tests.bat",
+  "kind": "python",
+  "aliases": ["edit_suite"],
+  "display_name": "06 - Edit Suite",
+  "runtime_python": "../runtime/python",
+  "python_path": [".."],
+  "name": "06 - Edit Suite",
+  "wheelhouses": ["wheelhouse"],
+  "lockfile": "requirements.lock.txt",
+  "bootstrap_script": "bootstrap.bat",
+  "target_dir": ".venv"
+}

@@ -1,0 +1,68 @@
+﻿{
+  "source_filename": "vision_case.pdf",
+  "source_bytes_ascii": "%PDF-1.4 fake vision",
+  "plugin_name": "pdf-pdfplumber",
+  "format": "pdf",
+  "content_hash": "sha256:abababababababababababababababababababababababababababababababab",
+  "relative_path": "vision_case.pdf",
+  "ingest_id": "vision-corpus-case",
+  "vision": true,
+  "scan_detected": true,
+  "ocr_was_used": false,
+  "image_paths": [
+    "page_assets/vision-case/page-1.png",
+    "page_assets/vision-case/page-2.png"
+  ],
+  "result": {
+    "status": "success",
+    "processing_time_ms": 42,
+    "errors": [],
+    "metadata": {
+      "ocr_quality_mode": "best_quality",
+      "ocr_render_dpi_used": 450,
+      "ocr_avg_confidence": 0.96,
+      "page_count": 2
+    },
+    "blocks": [
+      {
+        "id": "P1_H1",
+        "type": "header",
+        "position": {
+          "page": 1,
+          "paragraph_index": 0
+        },
+        "value": "Rechnung RE-2026-001",
+        "value_type": "text",
+        "formatting": {
+          "bold": true,
+          "font_size": 16
+        },
+        "confidence": 0.99
+      },
+      {
+        "id": "P1_P1",
+        "type": "paragraph",
+        "position": {
+          "page": 1,
+          "paragraph_index": 1
+        },
+        "value": "Muster GmbH",
+        "value_type": "text",
+        "formatting": null,
+        "confidence": 0.97
+      },
+      {
+        "id": "P2_P1",
+        "type": "paragraph",
+        "position": {
+          "page": 2,
+          "paragraph_index": 0
+        },
+        "value": "Gesamt: 1200,00 EUR",
+        "value_type": "text",
+        "formatting": null,
+        "confidence": 0.96
+      }
+    ]
+  }
+}

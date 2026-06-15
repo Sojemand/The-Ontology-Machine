@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": false,
+    "processed_at": "2026-06-12T08:32:19Z",
+    "model": "gpt-5.4-mini",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.97,
+    "category": "book_body_content",
+    "subcategory": "theoretical_discussion",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "company": null,
+    "document_date": null,
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "Philosophical nonfiction prose argues that actions, decisions, and words must fit self-perception to avoid inner conflict. It extends this idea to harmful life choices and to how people project evil onto others. A brief parody of gym membership procrastination illustrates the same self-consistency drive.",
+    "tags": [
+      "self-perception",
+      "inner conflict",
+      "self-consistency",
+      "projection",
+      "evil",
+      "parody"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "currencies": [],
+    "total_monetary_value": null,
+    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "raw_classification": {
+      "document_type": "book_page",
+      "category": "book",
+      "subcategory": "nonfiction_book_page"
+    },
+    "normalization_notes": [
+      "Source is German; human-readable values translated to English.",
+      "Book title inferred from file name."
+    ],
+    "recipient_primary": null,
+    "property_address": null
+  },
+  "content": {
+    "structure": {
+      "type": "text",
+      "columns": [
+        "paragraph_text"
+      ],
+      "form_fields": [
+        "work_title",
+        "language",
+        "page_number",
+        "topic_keywords"
+      ]
+    },
+    "fields": {
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de",
+      "page_number": 12,
+      "topic_keywords": [
+        "self-perception",
+        "self-consistency",
+        "inner conflict",
+        "projection",
+        "evil",
+        "parody"
+      ]
+    },
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "paragraph_text": "Inner conflict arises when actions, decisions, and words do not match self-perception."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The text extends this logic to destructive commitments such as investments, jobs, and marriages, and argues that the same drive shapes how evil is perceived. It claims that evil is projected onto others because people cannot easily see themselves as knowingly doing wrong."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "A short parody about gym memberships illustrates procrastination as a form of self-consistency."
+      }
+    ],
+    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2, page 12. German philosophical prose on self-perception, inner conflict, projection of evil, and a parody of procrastination."
+  },
+  "projection": {
+    "projection_id": "merged.projection.e06f90b85302",
+    "projection_family": "custom",
+    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_version": "merged.v1",
+    "projection_version": "merged.v1",
+    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "materialization_profile_id": "document_entities.v1",
+    "selection": {
+      "mode": "hint_validated",
+      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_confidence": 0.89,
+      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.89 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+    }
+  }
+}

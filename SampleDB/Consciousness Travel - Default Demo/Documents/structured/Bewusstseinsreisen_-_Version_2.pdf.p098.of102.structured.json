@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "processing": {
+    "interpreter_profile": "file",
+    "model_confidence": 0.96,
+    "needs_review": false,
+    "review_reason": null,
+    "vision_used": true,
+    "processed_at": "2026-06-12T09:06:47.663661+00:00",
+    "model": "gpt-5.4",
+    "provider": "openai_oauth"
+  },
+  "classification": {
+    "document_type": "book_page",
+    "document_type_confidence": 0.95,
+    "category": "book",
+    "subcategory": "nonfiction_philosophical_page",
+    "language": "de",
+    "is_scan": false,
+    "has_handwriting": false,
+    "page_count": 102
+  },
+  "context": {
+    "page_number": 98,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=098-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.e06f90b85302",
+      "confidence": 0.92,
+      "reason": "A philosophical nonfiction book page is visible with continuous prose and a section heading.",
+      "matched_signals": [
+        "continuous prose",
+        "section heading",
+        "book page"
+      ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
+    },
+    "document_page_count": 102,
+    "interpreter_profile": "file"
+  },
+  "content": {
+    "structure": {
+      "type": "single_column_text_page",
+      "columns": [
+        "main_text"
+      ],
+      "form_fields": []
+    },
+    "fields": {},
+    "rows": [],
+    "segments": [
+      {
+        "segment_id": "Page98_Segment1",
+        "unit_kind": "narrative_paragraph",
+        "page": 98,
+        "sequence": 1,
+        "section": null,
+        "label": null,
+        "text": "die nicht an die Perspektive eines Augenpaares gebunden ist. All das könnte man noch als fremd induzierte Verwirrungen abtun, aber diese Art räumlicher Wahrnehmungen treten eben auch ohne den Einfluss fremder Substanzen auf, wenn auch scheinbar Zufällig.",
+        "function": "continuing_argument",
+        "confidence": 0.95
+      },
+      {
+        "segment_id": "Page98_Segment2",
+        "unit_kind": "reflective_passage",
+        "page": 98,
+        "sequence": 2,
+        "section": null,
+        "label": null,
+        "text": "Und weil wir ja gesehen haben, dass auch unser Gewahrsein an sich zufällig in die ein oder andere Richtung gestoßen werden kann und uns Funktionen offenbart, die wir, einmal erkannt, auch selbst erzeugen können, könnte dies dann auch auf solche Dinge zutreffen? Außerkörperliche Erfahrungen und spontane Visionen können Elemente davon enthalten und treten eben auch ohne Fremdsubstanzen auf. Es muss sich also um eine dem Gehirn bereits inne wohnende Eigenschaft, um eine Fähigkeit handeln, zu welcher das Gehirn selbst fähig ist. Warum also können wir darauf nicht zugreifen? Sind das vielleicht Elemente, die einem Bewusstsein zugänglich sind, welches sich noch oberhalb des zweigleisigen Gewahrseins aufhält und wir uns deshalb nicht über sie bewusst sind, weil jeder Aufenthalt dort wieder im Vergessen versinkt? Verstecken sich dort Dinge, die uns so unvorstellbar scheinen, dass wir sie für einfach zu verrückt halten um sie in Betracht zu ziehen?",
+        "function": "speculative_inquiry",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page98_Segment3",
+        "unit_kind": "title_line",
+        "page": 98,
+        "sequence": 3,
+        "section": null,
+        "label": null,
+        "text": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?",
+        "function": "section_heading",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page98_Segment4",
+        "unit_kind": "reflective_passage",
+        "page": 98,
+        "sequence": 4,
+        "section": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?",
+        "label": null,
+        "text": "Ein weiterer Aspekt der kaum Beachtung findet ist die Ernährung. Wir konzentrieren uns auf was gesund zu sein scheint, so weit so gut. Fehlernährung bringt unübersehbare biologische Defizite mit sich, Krankheiten und auch psychologische Störungen sind etwas, worüber wir uns sehr wohl bewusst sind. Wer aber versucht zu ergründen, wie sich das auf die Schnittstelle zwischen Körper und Gewahrsein auswirkt? Was erleichtert nicht nur den Informationsfluss, sondern mindert auch die Verzerrungen jener Informationen, über die wir uns durch unsere Maschine gewahr werden? Viele kennen das, wenn wir zum Beispiel von einem Ketose-Metabolismus in einen Kohlehydrat- Metabolismus wechseln oder umgekehrt, wie sich die Funktionsweise der Wahrnehmung ändert. Einige Dinge fallen einem leichter, andere wiederum schwerer und je nach Mensch ändert sich auch die physische und kognitive Leistungsfähigkeit nach kaum vorhersagbaren Mustern.",
+        "function": "examining_dietary_influence",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page98_Segment5",
+        "unit_kind": "descriptive_passage",
+        "page": 98,
+        "sequence": 5,
+        "section": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?",
+        "label": null,
+        "text": "Eine recht neue Beschreibung eines Phänomens, das wohl jeder einmal erlebt hat ist „Brain fog“, oder auf Deutsch „Gehirn Nebel“, welches den Zustand des erschwerten Denkens und der gedämpften Wahrnehmung von Reizen beschreibt. Offensichtlich ist das eine Beeinträchtigung der Gesamtfunktion, derer man sich Gewahr wird, solange man sich noch an den Umstand erinnern kann, dass es vorher mal besser war. Wie viele solcher Umstände",
+        "function": "defining_phenomenon",
+        "confidence": 0.96
+      }
+    ],
+    "free_text": "Philosophische Buchseite zu Wahrnehmung, Bewusstsein, Ernährung und „Brain fog“"
+  },
+  "source": {
+    "file_name": "Bewusstseinsreisen - Version 2.pdf",
+    "file_path": "../../source/Bewusstseinsreisen - Version 2.pdf::page=098-of-102",
+    "file_ext": ".pdf",
+    "size_bytes": 2010258,
+    "content_hash": "sha256:9a498443aab0cf8386ce4c6c1bdaf5da09608702fa7ec9544e7bbc4a501a42c2",
+    "created_at": null,
+    "modified_at": null
+  }
+}
