@@ -199,17 +199,29 @@ shape equally well.
 
 ## License
 
-No root license file has been selected in this repository yet.
+The Ontology Machine software is licensed under the Apache License, Version
+2.0. See:
 
-Until a license is added, do not assume open-source reuse rights. Public
-visibility on GitHub is not the same as an open-source license.
+```text
+LICENSE
+NOTICE
+```
+
+This software license applies to the application code and software
+documentation. It does not automatically grant a general free-content license
+for the bundled sample book, page images, extracted text, derived SampleDB
+database artifacts, or other sample content. See:
+
+```text
+SampleDB\README.md
+```
 
 ## Release Status
 
-Current release candidate commit:
+Current public release branch:
 
 ```text
-0591a1d79b1ce03b2c205c4a34a6ca8a556add76
+main
 ```
 
 Current release target:

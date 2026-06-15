@@ -1,0 +1,14 @@
+The Ontology Machine
+Copyright 2026 Norman Weiss
+
+The Ontology Machine software source code and software documentation are
+licensed under the Apache License, Version 2.0.
+
+The bundled SampleDB content is separate from the software license. The book
+content, rendered page images, extracted text, derived demo Corpus DB artifacts,
+ontology data derived from the book, and related sample artifacts under
+`SampleDB/` are included only as a limited software demo corpus. Their use is
+governed by `SampleDB/README.md`.
+
+Third-party runtimes, dependencies, and tools bundled or referenced by this
+repository remain governed by their respective licenses.

@@ -103,10 +103,10 @@ Semantic Control Kernel focused regression: 29 passed
 Client Frontend workflow/direct-message regression: 5 passed
 ```
 
-Release commit:
+Release branch:
 
 ```text
-0591a1d79b1ce03b2c205c4a34a6ca8a556add76
+main
 ```
 
 ## Suggested GitHub Release Text
@@ -122,4 +122,3 @@ Download the all-in-one installer, install it, open the Quickstart Handbook,
 configure model credentials, and start with the bundled Consciousness Travel
 demo database.
 ```
-

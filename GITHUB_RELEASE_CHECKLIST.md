@@ -8,12 +8,12 @@ v1.0.0.
 Open the repository in GitHub:
 
 ```text
-https://github.com/Sojemand/PythonLearningHub
+https://github.com/Sojemand/The-Ontology-Machine
 ```
 
 Recommended before release:
 
-1. Rename the repository to `The-Ontology-Machine` or `Ontology-Machine`.
+1. Keep the repository name as `The-Ontology-Machine`.
 2. Make sure the repository is public.
 3. Add repository description:
 
@@ -36,10 +36,11 @@ research-tools
 windows
 ```
 
-5. Decide license policy.
+5. Confirm license display.
 
-No root license file exists yet. If no license is added, public users can view
-the repository, but should not assume open-source reuse rights.
+The software is licensed under Apache License 2.0 through the root `LICENSE`
+file. The bundled SampleDB/book content remains separately restricted through
+`SampleDB\README.md`.
 
 ## 2. Create The Release
 
@@ -109,4 +110,3 @@ https://github.com/Sojemand/The-Ontology-Machine
 Latest release:
 https://github.com/Sojemand/The-Ontology-Machine/releases/latest
 ```
-
