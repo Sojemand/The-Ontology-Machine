@@ -62,11 +62,7 @@ dist\all-in-one\installer\OntologyMachine-AllInOne-Setup-2026-06-15.exe
 ```
 
 For a public GitHub release, upload that installer as a release asset. A
-checksum file is provided in:
-
-```text
-SHA256SUMS.txt
-```
+checksum is provided as a release asset alongside the installer.
 
 ## Quick Start
 
