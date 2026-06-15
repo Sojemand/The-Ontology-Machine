@@ -3,7 +3,7 @@
   "drift_preflight": "build_plan_authority_applied",
   "date": "2026-05-06",
   "authority": {
-    "governance": "SPEC_Handover_Blueprint.md",
+    "governance": "internal_handover_blueprint",
     "build_plan": "SPEC_Semantic_Control_Kernel_Build.md#Phase 11"
   },
   "findings": [

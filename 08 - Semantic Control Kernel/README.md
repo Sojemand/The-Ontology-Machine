@@ -8,7 +8,6 @@ Headless control module for the Semantic Control Kernel workflow layer.
 - Package root: `semantic_control_kernel/`.
 - Public product surface: `semantic_control_kernel.orchestrator_contract`.
 - Canonical workflow source: `../Semantic Kernel SPEC/`.
-- Governance source: `../SPEC_Handover_Blueprint.md`.
 - Build plan: `SPEC_Semantic_Control_Kernel_Build.md`.
 
 The Semantic Control Kernel owns workflow semantics, state transitions, user

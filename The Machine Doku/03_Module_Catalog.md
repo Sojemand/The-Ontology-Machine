@@ -1067,7 +1067,6 @@ These surfaces are important, but they are not product modules:
 | --- | --- |
 | `The Machine Doku/` | documentation set and handover handbook |
 | `Semantic Kernel SPEC/` | specification source for Kernel workflows and tool semantics |
-| `SPEC_Handover_Blueprint.md` | architecture and working-boundary rulebook |
 | `FIELD_READY_AUDIT.md`, `FIELD_READY_FINDINGS.jsonl`, `FIELD_READY_DEBUG_PACKETS/` | field-readiness audit evidence |
 | `Website.md` | website/content planning |
 | `The_Ontology_Machine_Full_Documentation.md` | older master outline/source document for the modular docs |
