@@ -5,30 +5,18 @@ This is the first public release candidate of The Ontology Machine.
 It is a local-first Windows system for building evidence-bound semantic corpus
 databases and working with them through Query, Ontology and Taxonomy Agents.
 
-## Download Asset
+## Download
 
-Upload this file to the GitHub release:
+Download the all-in-one Windows installer from the release assets:
 
 ```text
 OntologyMachine-AllInOne-Setup-2026-06-15.exe
 ```
 
-Local source path:
+Installer checksum:
 
 ```text
-dist\all-in-one\installer\OntologyMachine-AllInOne-Setup-2026-06-15.exe
-```
-
-Size:
-
-```text
-403,479,785 bytes
-```
-
-SHA256:
-
-```text
-1B4E7A88AF7333AAB6A7BB5CA9C08B34ADF6B288DDB85F92A4CF593D6C416706
+SHA256  1B4E7A88AF7333AAB6A7BB5CA9C08B34ADF6B288DDB85F92A4CF593D6C416706
 ```
 
 ## What Is Included
@@ -107,18 +95,4 @@ Release branch:
 
 ```text
 main
-```
-
-## Suggested GitHub Release Text
-
-Use this as the release summary:
-
-```text
-The Ontology Machine v1.0.0 is the first public release of a local-first
-Windows knowledge-mining system for evidence-bound corpus databases, semantic
-search, ontology lenses and LLM-assisted document analysis.
-
-Download the all-in-one installer, install it, open the Quickstart Handbook,
-configure model credentials, and start with the bundled Consciousness Travel
-demo database.
 ```
