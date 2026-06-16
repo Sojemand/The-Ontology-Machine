@@ -65,6 +65,34 @@ https://github.com/Sojemand/The-Ontology-Machine/releases/latest
 The release assets include the Windows installer, checksum file, Quickstart PDF
 and optional sample database archives.
 
+## Developer Clone And Runtime Hydration
+
+A plain Git clone is source-ready, but not runtime-ready. Generated runtime
+payloads are not tracked:
+
+- bundled Python runtimes
+- bundled Node runtime
+- bundled PowerShell runtime
+- built Client Frontend app
+- offline wheelhouses and LibreOffice payloads
+
+For installer builds or source-run development, download the runtime bundle
+release asset into:
+
+```powershell
+release-assets\
+```
+
+```powershell
+powershell.exe -ExecutionPolicy Bypass -File tools\hydrate.ps1
+```
+
+Then build with the hydrated runtimes:
+
+```powershell
+.\build-all-in-one-installer.bat --skip-runtime-build --compile
+```
+
 ## Quick Start
 
 After installation, start with the Quickstart PDF placed next to the desktop
@@ -82,6 +110,8 @@ Client Frontend\config.bat
 Client Frontend\start.bat
 00 - Orchestrator\run.bat
 ```
+
+These launchers require a hydrated checkout or a normal installed release.
 
 The config UI and chat UI are separate local servers. If the config page opens
 but the agents do not answer, start `Client Frontend\start.bat` as well.

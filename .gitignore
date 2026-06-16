@@ -58,6 +58,9 @@ state/
 logs/
 dist/
 build/
+release-assets/*
+!release-assets/
+!release-assets/README.md
 *.log
 *.db
 *.db-journal
