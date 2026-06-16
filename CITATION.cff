@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use The Ontology Machine, please cite the software and the accompanying paper."
+title: "The Ontology Machine"
+type: software
+authors:
+  - family-names: "Weiss"
+    given-names: "Norman"
+    orcid: "https://orcid.org/0009-0002-1789-965X"
+repository-code: "https://github.com/Sojemand/The-Ontology-Machine"
+url: "https://github.com/Sojemand/The-Ontology-Machine"
+license: "Apache-2.0"
+version: "1.0.0"
+date-released: "2026-06-16"
+keywords:
+  - "knowledge mining"
+  - "ontology lenses"
+  - "human-AI collaboration"
+  - "evidence-bound reasoning"
+  - "computational epistemology"
+  - "large language models"
+references:
+  - type: article
+    title: "Making Human Suspicion Computable"
+    authors:
+      - family-names: "Weiss"
+        given-names: "Norman"
+        orcid: "https://orcid.org/0009-0002-1789-965X"
+    url: "https://philpapers.org/rec/WEIWMK"
+    year: 2026
