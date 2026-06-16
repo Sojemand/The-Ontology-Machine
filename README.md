@@ -22,6 +22,19 @@ implementation of a large solo-built research tool. It is not a cloud service,
 not a polished SaaS product, and not a guaranteed field-hardened enterprise
 deployment.
 
+## Research Context
+
+The Ontology Machine is the software artifact behind the position paper
+*Making Human Suspicion Computable*.
+
+The paper frames the system as a practical method for evidence-bound knowledge
+mining: human suspicion reduces the search space, model inference turns that
+reduced world into inspectable semantic artifacts, and ontology lenses preserve
+the result as computable knowledge structures.
+
+- Paper: [Making Human Suspicion Computable](https://philpapers.org/rec/WEIWMK)
+- ORCID: 0009-0002-1789-965X
+
 ## What It Does
 
 - Builds local Artifact Trees around source files.
