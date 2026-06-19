@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:31:17.303190+00:00",
+    "processed_at": "2026-06-02T18:41:40.126142+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
+    "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,28 +22,28 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A philosophical book page is visible with a section heading and continuous expository paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.86,
+      "reason": "The visible page is a prose book page with a section heading and continuous explanatory paragraphs.",
       "matched_signals": [
+        "book page",
         "section heading",
-        "continuous paragraphs",
-        "philosophical exposition"
+        "continuous prose paragraphs"
       ]
-    },
-    "date_range": {
-      "from": null,
-      "to": null
     },
     "page_number": 10,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=010-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_prose",
       "columns": [
         "main_text"
       ],
@@ -58,8 +58,8 @@
         "page": 10,
         "sequence": 1,
         "text": "sehen und ich weiß wohl, dass dieser Satz eher Verwirrung im Leser erzeugt als er zur Aufklärung beiträgt. Lasst es mich also auf eine andere Art versuchen.",
-        "function": "transition_statement",
-        "confidence": 0.93
+        "function": "transition_to_new_explanation",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page10_Segment2",
@@ -72,11 +72,11 @@
       },
       {
         "segment_id": "Page10_Segment3",
-        "unit_kind": "instructional_paragraph",
+        "unit_kind": "instruction_step",
         "page": 10,
         "sequence": 3,
         "text": "Ja, das ist eine Aufforderung. In den Spiegel zu blicken ist ein guter Start um die Reise zu beginnen. Warum? Weil, während du dies tust, du einen physischen Akt dessen ausführst, was dein Geist versucht zu tun, wenn er damit beginnt über sich selbst nachzudenken. Und während du dies tust, du vor dem Spiegel sitzt und dir scheinbar sinnlos in die Augen starrst, wirst du feststellen wie sinnlos es doch ist zu versuchen, wirklich „über deine Gedanken nachzudenken“.",
-        "function": "introducing_reflective_exercise",
+        "function": "introduce_mirror_exercise",
         "confidence": 0.97
       },
       {
@@ -85,20 +85,29 @@
         "page": 10,
         "sequence": 4,
         "text": "Wenn du in den Spiegel blickst, kannst du präzise erfahren was es bedeutet, nicht in der Lage zu sein, über dein eigenes Denken nachzudenken. Schau in den Spiegel und schau in deine Augen. Sei dir bewusst darüber, dass das was du dort siehst, exakt jene Augen sind die gerade versuchen sich selbst zu sehen. Wenn du diese Augen als physische Repräsentation deines Bewusstseins betrachtest, wirst du eine paradoxe Situation erfahren.",
-        "function": "explaining_paradox_of_self_observation",
+        "function": "explain_paradox_of_self_observation",
         "confidence": 0.97
       },
       {
         "segment_id": "Page10_Segment5",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "descriptive_passage",
         "page": 10,
         "sequence": 5,
-        "text": "Deine Gewissheit, eine singuläre Einheit zu sein, wird hier auf die Probe gestellt, denn während du in den Spiegel blickst und versuchst, dir darüber bewusst zu werden, wie dir dort genau jene Augen entgegen blicken die gerade versuchen sich selbst zu sehen, wirst du währenddessen deine Unfähigkeit zum Denken erkennen. Dein Bewusstsein friert sozusagen in einer paradoxen Pose ein die es selbst nicht auflösen kann. Wenn du lange genug in deine Augen blickst, dann wirst du feststellen, dass diese Situation keinerlei Gedanken hervor bringt. In dir, in dieser singulären Einheit entsteht ein Spiegelbild derselbigen, welches auf einmal die gleichen Eigenschaften hat wie sein Gegenstück. Eine äußerst prekäre Situation haben wir da, die dich zur Bewegungslosigkeit verdammt. Wir sehen uns hier dem gleichen Problem gegenüber welches wir haben, wenn wir versuchen, über unser eigenes Denken nachzudenken. Verwechseln wir allerdings dieses Dilemma nicht mit dem was wir Introspektion nennen. Introspektion, also das „über sich selbst nachdenken“ ist nicht das Gleiche wie „über das Denken nachzudenken“. Du kannst sehr wohl über allerlei Dinge in dir nachdenken, wie Vorlieben, Wünsche, Hoffnungen, Abneigungen und Träume, oder, welche Bilder die Geschichte in dir erzeugt hat, was aber nicht gleichbedeutend ist darüber nachdenken zu können, wie diese Dinge in dir entstehen oder sich selbst erhalten.",
-        "function": "distinguishing_introspection_from_thinking_about_thought",
+        "text": "Deine Gewissheit, eine singuläre Einheit zu sein, wird hier auf die Probe gestellt, denn während du in den Spiegel blickst und versuchst, dir darüber bewusst zu werden, wie dir dort genau jene Augen entgegen blicken die gerade versuchen sich selbst zu sehen, wirst du währenddessen deine Unfähigkeit zum Denken erkennen. Dein Bewusstsein friert sozusagen in einer paradoxen Pose ein die es selbst nicht auflösen kann. Wenn du lange genug in deine Augen blickst, dann wirst du feststellen, dass diese Situation keinerlei Gedanken hervor bringt. In dir, in dieser singulären Einheit entsteht ein Spiegelbild derselbigen, welches auf einmal die gleichen Eigenschaften hat wie sein Gegenstück. Eine äußerst prekäre Situation haben wir da, die dich zur Bewegungslosigkeit verdammt. Wir sehen uns hier dem gleichen Problem gegenüber welches wir haben, wenn wir versuchen, über unser eigenes Denken nachzudenken.",
+        "function": "develop_paradox_argument",
         "confidence": 0.97
+      },
+      {
+        "segment_id": "Page10_Segment6",
+        "unit_kind": "descriptive_passage",
+        "page": 10,
+        "sequence": 6,
+        "text": "Verwechseln wir allerdings dieses Dilemma nicht mit dem was wir Introspektion nennen. Introspektion, also das „über sich selbst nachdenken“ ist nicht das Gleiche wie „über das Denken nachzudenken“. Du kannst sehr wohl über allerlei Dinge in dir nachdenken, wie Vorlieben, Wünsche, Hoffnungen, Abneigungen und Träume, oder, welche Bilder die Geschichte in dir erzeugt hat, was aber nicht gleichbedeutend ist darüber nachdenken zu können, wie diese Dinge in dir entstehen oder sich selbst erhalten.",
+        "function": "distinguish_introspection_from_thinking_about_thought",
+        "confidence": 0.98
       }
     ],
-    "free_text": "Philosophischer Buchtext über Spiegel, Selbstbeobachtung und Introspektion"
+    "free_text": "Buchseite über Spiegelübung, Bewusstsein, Paradoxie und Introspektion"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

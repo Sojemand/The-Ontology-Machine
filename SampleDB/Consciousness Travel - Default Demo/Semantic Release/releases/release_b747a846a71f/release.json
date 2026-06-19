@@ -1,0 +1,1499 @@
+{
+  "schema_version": "1.0",
+  "release_id": "release_b747a846a71f",
+  "release_version": "custom.v1",
+  "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+  "master_taxonomy_version": "merged.v1",
+  "master_taxonomy_release_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
+  "runtime_locale": "en",
+  "projection_ids": [
+    "merged.projection.16c694851387"
+  ],
+  "materialization_version": "1",
+  "created_at": "2026-06-02T18:22:51Z",
+  "fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+  "master_taxonomy": {
+    "categories": [
+      {
+        "aliases": [],
+        "code": "nonfiction_philosophy",
+        "description": "Reflective argumentative prose about mind, self, meaning, and interpretation.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Nonfiction philosophy",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "preface material"
+        ],
+        "code": "front_matter",
+        "description": "Opening material such as title pages, prefaces, introductions, and reader-facing setup.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Front matter",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "chapter body"
+        ],
+        "code": "body_chapter",
+        "description": "Main chapter content within the body of the work.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Body chapter",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback category for in-family assignments that do not fit a more specific category code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "consciousness_and_mind",
+        "description": "Primary subject matter around consciousness, awareness, cognition, selfhood and mental models.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Consciousness and mind",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "chapter prose"
+        ],
+        "code": "chapter_text",
+        "description": "Generic carrier category for chapter-based longform prose pages within the same book family.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Chapter text",
+        "status": "active"
+      }
+    ],
+    "cell_codes": [
+      {
+        "aliases": [],
+        "code": "text_content",
+        "description": "Primary text payload of a heading or paragraph block.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Text content",
+        "semantic_binding": {
+          "attribute_code": "text_content",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "heading_text",
+        "description": "Normalized text of a title or heading cell.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Heading text",
+        "semantic_binding": {
+          "attribute_code": "heading_text",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "page_number",
+        "description": "Cell-level page number value when the projection materializes page metadata rows.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Page number",
+        "semantic_binding": {
+          "attribute_code": "page_number",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback cell code for in-family row values that do not fit a more specific cell code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "semantic_binding": {
+          "attribute_code": "other",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "paragraph_text",
+        "description": "Text content of a prose paragraph block.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Paragraph text",
+        "semantic_binding": {
+          "attribute_code": "paragraph_text",
+          "materialize_on_row_entity": true
+        },
+        "status": "active",
+        "value_type": "string"
+      }
+    ],
+    "document_types": [
+      {
+        "aliases": [
+          "page extract"
+        ],
+        "allowed_categories": [
+          "nonfiction_philosophy",
+          "front_matter",
+          "body_chapter",
+          "other"
+        ],
+        "allowed_subcategories": [
+          "consciousness_essay",
+          "neuroscience_reflection",
+          "other"
+        ],
+        "code": "book_page",
+        "description": "A page-level extract from a chaptered book or manuscript, typically containing headings and running prose.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Book page",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "allowed_categories": [
+          "other"
+        ],
+        "allowed_subcategories": [
+          "other"
+        ],
+        "code": "other",
+        "description": "Fallback document type for in-family documents that do not fit a more specific document type code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "status": "active"
+      }
+    ],
+    "domains": [
+      {
+        "aliases": [],
+        "code": "authored_texts",
+        "description": "Long-form authored reading material such as books, essays, and manuscripts presented as prose pages.",
+        "label": "Authored texts",
+        "parent_id": null,
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback domain for in-family assignments that do not fit a more specific domain code.",
+        "label": "Other",
+        "parent_id": null,
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "humanities_psychology_texts",
+        "description": "Longform nonfiction or interpretive prose about mind, consciousness, psychology, philosophy and related humanistic subjects.",
+        "label": "Humanities and psychology texts",
+        "parent_id": null,
+        "status": "active"
+      }
+    ],
+    "entity_types": [
+      {
+        "code": "document_fact",
+        "label": "Document Fact"
+      }
+    ],
+    "fallback_codes": {
+      "category": "other",
+      "cell_code": "other",
+      "document_type": "other",
+      "field_code": "other",
+      "row_type": "other",
+      "subcategory": "other"
+    },
+    "field_codes": [
+      {
+        "aliases": [],
+        "code": "title_text",
+        "description": "Document-level title or page title string when shown prominently on the page.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Title text",
+        "promotion_slot": "document_title_text",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "title_text"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "book title"
+        ],
+        "code": "work_title",
+        "description": "The recurring title of the overall book or manuscript across page extracts.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Work title",
+        "promotion_slot": "document_work_title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "work_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "section_heading",
+        "description": "Generic heading carrier for titled structural breaks on the page.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Section heading",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "section_heading"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "chapter title"
+        ],
+        "code": "chapter_heading",
+        "description": "Heading that names or numbers a chapter.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Chapter heading",
+        "promotion_slot": "document_chapter_heading",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_heading"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "subtitle"
+        ],
+        "code": "subsection_heading",
+        "description": "Secondary heading beneath chapter level.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Subsection heading",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "subsection_heading"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "body text"
+        ],
+        "code": "paragraph_text",
+        "description": "Running prose content of the page.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Paragraph text",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "paragraph_text"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "page_number",
+        "description": "Logical page position or visible printed page number when available.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Page number",
+        "promotion_slot": "document_page_number",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "page_number"
+        },
+        "status": "active",
+        "value_type": "number_or_string"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback scalar field code for in-family extracted values that do not fit a more specific field code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "other"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "manuscript title"
+        ],
+        "code": "book_title",
+        "description": "Title of the book or manuscript when recoverable from source or page content.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Book title",
+        "promotion_slot": "document_book_title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "book_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_number",
+        "description": "Explicit chapter number when printed on the page.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Chapter number",
+        "promotion_slot": "document_chapter_number",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_number"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_title",
+        "description": "Named chapter title printed on the page.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Chapter title",
+        "promotion_slot": "document_chapter_title",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "chapter_title"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "page text"
+        ],
+        "code": "excerpt_text",
+        "description": "Main running prose extracted from the page.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Excerpt text",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "excerpt_text"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [],
+        "code": "language",
+        "description": "Document language as detected or normalized for the page.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Language",
+        "promotion_slot": "document_language",
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "language"
+        },
+        "status": "active",
+        "value_type": "string"
+      },
+      {
+        "aliases": [
+          "source identifier"
+        ],
+        "code": "source_file_name",
+        "description": "Original file name or source identifier for the scanned page.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Source file name",
+        "promotion_slot": null,
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "attribute_code": "source_file_name"
+        },
+        "status": "active",
+        "value_type": "string"
+      }
+    ],
+    "promotion_slots": [
+      {
+        "cardinality": "single",
+        "description": "Best document-level page or display title when prominently shown on the page.",
+        "display_rank": 20,
+        "label": "Document Title Text",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_title_text",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Recurring title of the overall book or manuscript represented by the page.",
+        "display_rank": 10,
+        "label": "Document Work Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "document_work_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Best document-level chapter heading or chapter title for the page when present.",
+        "display_rank": 30,
+        "label": "Document Chapter Heading",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Logical page number or visible page position for the page extract when available.",
+        "display_rank": 40,
+        "label": "Document Page Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_page_number",
+        "value_type": "number_or_string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Primary book or manuscript title for the page when recoverable from source context or page content.",
+        "display_rank": 10,
+        "label": "Book Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "document_book_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit chapter number associated with the page when present.",
+        "display_rank": 30,
+        "label": "Chapter Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_number",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Named chapter title associated with the page when present.",
+        "display_rank": 40,
+        "label": "Chapter Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Visible subsection or prompt-style heading that summarizes the page section when present.",
+        "display_rank": 50,
+        "label": "Section Heading",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_section_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Normalized document language for the page.",
+        "display_rank": 60,
+        "label": "Language",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "document_language",
+        "value_type": "string"
+      }
+    ],
+    "role_types": [
+      {
+        "code": "page_metadata",
+        "label": "Page Metadata"
+      },
+      {
+        "code": "heading_block",
+        "label": "Heading Block"
+      },
+      {
+        "code": "paragraph_block",
+        "label": "Paragraph Block"
+      },
+      {
+        "code": "other",
+        "label": "Other"
+      }
+    ],
+    "row_types": [
+      {
+        "aliases": [],
+        "code": "page_metadata",
+        "description": "Single document-level metadata row for page identity and placement.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Page metadata",
+        "recommended_cell_codes": [
+          "page_number"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "page_metadata",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "heading_block",
+        "description": "Repeated row type for visible title and heading elements on a page.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Heading block",
+        "recommended_cell_codes": [
+          "heading_text",
+          "text_content"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "heading_block",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "paragraph_block",
+        "description": "Repeated row type for prose paragraph units.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Paragraph block",
+        "recommended_cell_codes": [
+          "text_content"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "paragraph_block",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback row type for in-family repeated structures that do not fit a more specific row type code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "recommended_cell_codes": [
+          "other"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "other",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "chapter_heading",
+        "description": "A heading row containing chapter number and chapter title.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Chapter heading",
+        "recommended_cell_codes": [
+          "heading_text"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "chapter_heading",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "subsection block"
+        ],
+        "code": "section_block",
+        "description": "A section-level block headed by a subsection title or prompt.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Section block",
+        "recommended_cell_codes": [
+          "heading_text",
+          "paragraph_text"
+        ],
+        "semantic_binding": {
+          "entity_type": "document_fact",
+          "role_type": "section_block",
+          "materialize_each_row": false
+        },
+        "status": "active"
+      }
+    ],
+    "schema_version": "1.0",
+    "subcategories": [
+      {
+        "aliases": [],
+        "code": "consciousness_essay",
+        "description": "Pages centered on consciousness, self-perception, inner life, and philosophical reflection.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Consciousness essay",
+        "parent_category": "nonfiction_philosophy",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "neuroscience_reflection",
+        "description": "Pages that connect the author's reflective argument to neuroscience, cognition, or perception.",
+        "domains": [
+          "authored_texts"
+        ],
+        "label": "Neuroscience reflection",
+        "parent_category": "nonfiction_philosophy",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "other",
+        "description": "Fallback subcategory for in-family assignments that do not fit a more specific subcategory code.",
+        "domains": [
+          "other"
+        ],
+        "label": "Other",
+        "parent_category": "other",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "philosophy_of_consciousness",
+        "description": "Pages focused on selfhood, free will, awareness, cognition or the nature of mind.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Philosophy of consciousness",
+        "parent_category": "consciousness_and_mind",
+        "status": "active"
+      },
+      {
+        "aliases": [],
+        "code": "dreams_and_altered_states",
+        "description": "Pages discussing dreaming, lucid or waking-state comparisons, hallucinogens or altered consciousness.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Dreams and altered states",
+        "parent_category": "consciousness_and_mind",
+        "status": "active"
+      },
+      {
+        "aliases": [
+          "symbolic worlds"
+        ],
+        "code": "symbolism_and_archetypes",
+        "description": "Pages centered on symbolic worlds, propaganda, archetypes, hero journeys and meaning structures.",
+        "domains": [
+          "humanities_psychology_texts"
+        ],
+        "label": "Symbolism and archetypes",
+        "parent_category": "consciousness_and_mind",
+        "status": "active"
+      }
+    ],
+    "taxonomy_id": "merged.taxonomy.85e1f714f884",
+    "taxonomy_version": "merged.v1"
+  },
+  "projections": [
+    {
+      "schema_version": "1.0",
+      "projection_id": "merged.projection.16c694851387",
+      "label": "Merged Projection",
+      "description": "Merged projection compiled from selected source projections.",
+      "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+      "master_taxonomy_version": "merged.v1",
+      "domain_ids": [
+        "authored_texts",
+        "humanities_psychology_texts",
+        "other"
+      ],
+      "projection_family": "custom",
+      "projection_version": "merged.v1",
+      "extends": [],
+      "materialization_profile_id": "document_entities.v1",
+      "compatibility": {
+        "source_projection_ids": [
+          "authored_texts.book_page.v1",
+          "humanities_psychology_texts.book_page.v1"
+        ]
+      },
+      "promotion_rules": [
+        {
+          "slot": "document_title_text",
+          "source_paths": [
+            "content.fields.title_text",
+            "content.fields.section_heading",
+            "content.fields.subsection_heading"
+          ]
+        },
+        {
+          "slot": "document_work_title",
+          "source_paths": [
+            "content.fields.work_title"
+          ]
+        },
+        {
+          "slot": "document_chapter_heading",
+          "source_paths": [
+            "content.fields.chapter_heading"
+          ]
+        },
+        {
+          "slot": "document_page_number",
+          "source_paths": [
+            "content.fields.page_number"
+          ]
+        },
+        {
+          "slot": "document_book_title",
+          "source_paths": [
+            "content.fields.book_title"
+          ]
+        },
+        {
+          "slot": "document_chapter_number",
+          "source_paths": [
+            "content.fields.chapter_number"
+          ]
+        },
+        {
+          "slot": "document_chapter_title",
+          "source_paths": [
+            "content.fields.chapter_title"
+          ]
+        },
+        {
+          "slot": "document_section_heading",
+          "source_paths": [
+            "content.fields.section_heading"
+          ]
+        },
+        {
+          "slot": "document_language",
+          "source_paths": [
+            "content.fields.language"
+          ]
+        }
+      ],
+      "routing": {
+        "avoid_when": "Do not use when none of the selected source projection signals match.",
+        "example_document_types": [
+          "book_page"
+        ],
+        "party_roles": [
+          "other"
+        ],
+        "section_roles": [
+          "chapter_heading",
+          "heading",
+          "paragraph",
+          "section_heading",
+          "title"
+        ],
+        "surface_signals": {
+          "text_markers": [
+            "archetypen",
+            "bewusstsein",
+            "der tag an dem der freie wille starb",
+            "die reise zu den grenzen des bewusstseins und zurück",
+            "die wunderbare welt des unsichtbaren supercomputers",
+            "dmt",
+            "gewahrsein",
+            "heldenreise",
+            "kapitel",
+            "kapitel 2",
+            "kenne deine maschine",
+            "lsd",
+            "realitaetsmodell",
+            "so lasst uns also beginnen",
+            "symbolische welt",
+            "traeume",
+            "traum",
+            "vergessen",
+            "viel spaß",
+            "vorwort",
+            "wachbewusstsein"
+          ],
+          "domain_markers": {
+            "authored_texts": [
+              "buch",
+              "kapitel",
+              "kapitel 2",
+              "kenne deine maschine",
+              "leser",
+              "vorwort"
+            ],
+            "humanities_psychology_texts": [
+              "abschnitt",
+              "archetypen",
+              "bewusstsein",
+              "dmt",
+              "frage",
+              "gewahrsein",
+              "heldenreise",
+              "kapitel",
+              "lsd",
+              "prosa",
+              "realitaetsmodell",
+              "symbolische welt",
+              "traeume",
+              "traum",
+              "vergessen",
+              "wachbewusstsein"
+            ]
+          },
+          "section_roles": [
+            "chapter_heading",
+            "heading",
+            "paragraph",
+            "section_heading",
+            "title"
+          ],
+          "party_roles": [
+            "other"
+          ]
+        },
+        "when_to_use": "Use when content matches any selected source projection."
+      },
+      "include_document_types": [
+        "book_page",
+        "other"
+      ],
+      "include_categories": [
+        "body_chapter",
+        "chapter_text",
+        "consciousness_and_mind",
+        "front_matter",
+        "nonfiction_philosophy",
+        "other"
+      ],
+      "include_subcategories": [
+        "consciousness_essay",
+        "dreams_and_altered_states",
+        "neuroscience_reflection",
+        "other",
+        "philosophy_of_consciousness",
+        "symbolism_and_archetypes"
+      ],
+      "include_field_codes": [
+        "book_title",
+        "chapter_heading",
+        "chapter_number",
+        "chapter_title",
+        "excerpt_text",
+        "language",
+        "other",
+        "page_number",
+        "paragraph_text",
+        "section_heading",
+        "source_file_name",
+        "subsection_heading",
+        "title_text",
+        "work_title"
+      ],
+      "include_row_types": [
+        "chapter_heading",
+        "heading_block",
+        "other",
+        "page_metadata",
+        "paragraph_block",
+        "section_block"
+      ],
+      "include_cell_codes": [
+        "heading_text",
+        "other",
+        "page_number",
+        "paragraph_text",
+        "text_content"
+      ],
+      "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6"
+    }
+  ],
+  "analysis": {
+    "summary": {
+      "taxonomy_id": "merged.taxonomy.85e1f714f884",
+      "taxonomy_version": "merged.v1",
+      "projection_count": 1,
+      "field_code_count": 14,
+      "row_type_count": 6,
+      "cell_code_count": 5,
+      "field_binding_coverage": 1.0
+    },
+    "suitability": {
+      "entity_model_ready": true,
+      "projection_growth_ready": true,
+      "on_prem_versioning_ready": false,
+      "deterministic_materialization_ready": true
+    },
+    "issues": [],
+    "warnings": [
+      "Es existiert derzeit nur ein reales Projection-Profil.",
+      "Es existiert noch keine Projection-Komposition ueber extends."
+    ],
+    "recommendations": [
+      "Projection files should actively use extends and compatibility metadata.",
+      "Promotion rules should remain explicitly versioned per projection.",
+      "New domains should grow through projection families instead of special-purpose paths."
+    ]
+  },
+  "release_fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+  "projection_catalog": {
+    "catalog_version": "sha256:35a389fa53854efad91cb9ce8143afd7c86e9586ca7a54190b9d5a942991b697",
+    "release_id": "release_b747a846a71f",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+    "master_taxonomy_version": "merged.v1",
+    "projections": [
+      {
+        "projection_id": "merged.projection.16c694851387",
+        "label": "Merged Projection",
+        "when_to_use": "Use when content matches any selected source projection.",
+        "avoid_when": "Do not use when none of the selected source projection signals match.",
+        "example_document_types": [
+          "book_page"
+        ],
+        "promotion_rules": [
+          {
+            "slot": "document_title_text",
+            "source_paths": [
+              "content.fields.title_text",
+              "content.fields.section_heading",
+              "content.fields.subsection_heading"
+            ]
+          },
+          {
+            "slot": "document_work_title",
+            "source_paths": [
+              "content.fields.work_title"
+            ]
+          },
+          {
+            "slot": "document_chapter_heading",
+            "source_paths": [
+              "content.fields.chapter_heading"
+            ]
+          },
+          {
+            "slot": "document_page_number",
+            "source_paths": [
+              "content.fields.page_number"
+            ]
+          },
+          {
+            "slot": "document_book_title",
+            "source_paths": [
+              "content.fields.book_title"
+            ]
+          },
+          {
+            "slot": "document_chapter_number",
+            "source_paths": [
+              "content.fields.chapter_number"
+            ]
+          },
+          {
+            "slot": "document_chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "document_section_heading",
+            "source_paths": [
+              "content.fields.section_heading"
+            ]
+          },
+          {
+            "slot": "document_language",
+            "source_paths": [
+              "content.fields.language"
+            ]
+          }
+        ],
+        "field_slot_map": {
+          "title_text": "document_title_text",
+          "work_title": "document_work_title",
+          "chapter_heading": "document_chapter_heading",
+          "page_number": "document_page_number",
+          "book_title": "document_book_title",
+          "chapter_number": "document_chapter_number",
+          "chapter_title": "document_chapter_title",
+          "language": "document_language"
+        }
+      }
+    ],
+    "master_taxonomy_release_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
+    "runtime_locale": "en"
+  },
+  "runtime_semantic_assets": {
+    "schema_version": "runtime_semantic_assets_v1",
+    "release_id": "release_b747a846a71f",
+    "release_version": "custom.v1",
+    "release_fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+    "master_taxonomy_version": "merged.v1",
+    "promotion_slots": [
+      {
+        "cardinality": "single",
+        "description": "Best document-level page or display title when prominently shown on the page.",
+        "display_rank": 20,
+        "label": "Document Title Text",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_title_text",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Recurring title of the overall book or manuscript represented by the page.",
+        "display_rank": 10,
+        "label": "Document Work Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "document_work_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Best document-level chapter heading or chapter title for the page when present.",
+        "display_rank": 30,
+        "label": "Document Chapter Heading",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Logical page number or visible page position for the page extract when available.",
+        "display_rank": 40,
+        "label": "Document Page Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_page_number",
+        "value_type": "number_or_string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Primary book or manuscript title for the page when recoverable from source context or page content.",
+        "display_rank": 10,
+        "label": "Book Title",
+        "query_role": "primary",
+        "scope": "document",
+        "slot": "document_book_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Explicit chapter number associated with the page when present.",
+        "display_rank": 30,
+        "label": "Chapter Number",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_number",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Named chapter title associated with the page when present.",
+        "display_rank": 40,
+        "label": "Chapter Title",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_chapter_title",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Visible subsection or prompt-style heading that summarizes the page section when present.",
+        "display_rank": 50,
+        "label": "Section Heading",
+        "query_role": "secondary",
+        "scope": "document",
+        "slot": "document_section_heading",
+        "value_type": "string"
+      },
+      {
+        "cardinality": "single",
+        "description": "Normalized document language for the page.",
+        "display_rank": 60,
+        "label": "Language",
+        "query_role": "filter",
+        "scope": "document",
+        "slot": "document_language",
+        "value_type": "string"
+      }
+    ],
+    "projection_catalog": {
+      "catalog_version": "sha256:35a389fa53854efad91cb9ce8143afd7c86e9586ca7a54190b9d5a942991b697",
+      "release_id": "release_b747a846a71f",
+      "release_version": "custom.v1",
+      "release_fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+      "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+      "master_taxonomy_version": "merged.v1",
+      "projections": [
+        {
+          "projection_id": "merged.projection.16c694851387",
+          "label": "Merged Projection",
+          "when_to_use": "Use when content matches any selected source projection.",
+          "avoid_when": "Do not use when none of the selected source projection signals match.",
+          "example_document_types": [
+            "book_page"
+          ],
+          "promotion_rules": [
+            {
+              "slot": "document_title_text",
+              "source_paths": [
+                "content.fields.title_text",
+                "content.fields.section_heading",
+                "content.fields.subsection_heading"
+              ]
+            },
+            {
+              "slot": "document_work_title",
+              "source_paths": [
+                "content.fields.work_title"
+              ]
+            },
+            {
+              "slot": "document_chapter_heading",
+              "source_paths": [
+                "content.fields.chapter_heading"
+              ]
+            },
+            {
+              "slot": "document_page_number",
+              "source_paths": [
+                "content.fields.page_number"
+              ]
+            },
+            {
+              "slot": "document_book_title",
+              "source_paths": [
+                "content.fields.book_title"
+              ]
+            },
+            {
+              "slot": "document_chapter_number",
+              "source_paths": [
+                "content.fields.chapter_number"
+              ]
+            },
+            {
+              "slot": "document_chapter_title",
+              "source_paths": [
+                "content.fields.chapter_title"
+              ]
+            },
+            {
+              "slot": "document_section_heading",
+              "source_paths": [
+                "content.fields.section_heading"
+              ]
+            },
+            {
+              "slot": "document_language",
+              "source_paths": [
+                "content.fields.language"
+              ]
+            }
+          ],
+          "field_slot_map": {
+            "title_text": "document_title_text",
+            "work_title": "document_work_title",
+            "chapter_heading": "document_chapter_heading",
+            "page_number": "document_page_number",
+            "book_title": "document_book_title",
+            "chapter_number": "document_chapter_number",
+            "chapter_title": "document_chapter_title",
+            "language": "document_language"
+          }
+        }
+      ],
+      "master_taxonomy_release_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
+      "runtime_locale": "en"
+    },
+    "vision_policy_bundle": {
+      "bundle_version": "vision_policy_bundle_v1",
+      "release_fingerprint": "sha256:397123a7eb06a093b6d13d8f8a0d610113c0ed9e8b78908502a9877b7b0f1741",
+      "ocr_policy": {
+        "policy_version": "ocr_policy_v1",
+        "source_mode": "release_domain_merge",
+        "defaults": {
+          "profile_id": "balanced_text_v1",
+          "scan": {
+            "min_chars_per_page": 50,
+            "use_has_images": true
+          },
+          "vision_route": {
+            "images_always_vision": true,
+            "pdf_scans_use_vision": true
+          },
+          "ocr_plugin": {
+            "preferred_plugin": "optimizer-llm-ocr",
+            "force_backup_on_scan": true
+          },
+          "render": {
+            "page_image_dpi": 150,
+            "page_image_quality": 95,
+            "serializer_quality_mode": "balanced",
+            "ocr_render_dpi": 300
+          }
+        }
+      },
+      "semantic_extraction_policy": {
+        "policy_version": "semantic_extraction_policy_v2",
+        "source_mode": "release_projection_compile",
+        "defaults": {
+          "fallback_projection_id": "merged.projection.16c694851387",
+          "resolution": {
+            "min_score": 7,
+            "document_type_weight": 6,
+            "field_weight": 1,
+            "table_role_weight": 2,
+            "field_signal_limit": 4,
+            "table_signal_limit": 3
+          },
+          "default_profile": {
+            "projection_id": "merged.projection.16c694851387",
+            "signals": {
+              "document_types": [
+                "book.page",
+                "other"
+              ],
+              "field_labels": [
+                "book.title",
+                "chapter.heading",
+                "chapter.number",
+                "chapter.title",
+                "excerpt.text",
+                "language",
+                "other",
+                "page.number",
+                "paragraph.text",
+                "section.heading",
+                "source.file.name",
+                "subsection.heading",
+                "title.text",
+                "work.title"
+              ],
+              "table_roles": [
+                "chapter.heading",
+                "heading.block",
+                "other",
+                "page.metadata",
+                "paragraph.block",
+                "section.block"
+              ],
+              "domains": [
+                "authored.texts",
+                "humanities.psychology.texts",
+                "other",
+                "body.chapter",
+                "chapter.text",
+                "consciousness.and.mind",
+                "front.matter",
+                "nonfiction.philosophy"
+              ],
+              "text_markers": [
+                "archetypen",
+                "bewusstsein",
+                "der.tag.an.dem.der.freie.wille.starb",
+                "die.reise.zu.den.grenzen.des.bewusstseins.und.zurück",
+                "die.wunderbare.welt.des.unsichtbaren.supercomputers",
+                "dmt",
+                "gewahrsein",
+                "heldenreise",
+                "kapitel",
+                "kapitel.2",
+                "kenne.deine.maschine",
+                "lsd",
+                "realitaetsmodell",
+                "so.lasst.uns.also.beginnen",
+                "symbolische.welt",
+                "traeume",
+                "traum",
+                "vergessen",
+                "viel.spaß",
+                "vorwort",
+                "wachbewusstsein"
+              ],
+              "domain_markers": {
+                "authored.texts": [
+                  "buch",
+                  "kapitel",
+                  "kapitel.2",
+                  "kenne.deine.maschine",
+                  "leser",
+                  "vorwort"
+                ],
+                "humanities.psychology.texts": [
+                  "abschnitt",
+                  "archetypen",
+                  "bewusstsein",
+                  "dmt",
+                  "frage",
+                  "gewahrsein",
+                  "heldenreise",
+                  "kapitel",
+                  "lsd",
+                  "prosa",
+                  "realitaetsmodell",
+                  "symbolische.welt",
+                  "traeume",
+                  "traum",
+                  "vergessen",
+                  "wachbewusstsein"
+                ]
+              },
+              "section_roles": [
+                "chapter.heading",
+                "heading",
+                "paragraph",
+                "section.heading",
+                "title"
+              ],
+              "party_roles": [
+                "other"
+              ]
+            },
+            "budgets": {
+              "max_sections": 6,
+              "max_section_chars": 850,
+              "max_facts": 9,
+              "max_tables": 1,
+              "max_table_rows": 5
+            },
+            "allowed_section_roles": [
+              "header",
+              "summary",
+              "body",
+              "details",
+              "table",
+              "line_items",
+              "billing",
+              "payment",
+              "notice",
+              "timeline",
+              "participants",
+              "contact_block",
+              "metadata",
+              "vision_section",
+              "ocr_chunk",
+              "other"
+            ],
+            "allowed_synthetic_section_roles": [
+              "header"
+            ],
+            "allowed_fact_families": [
+              "document",
+              "reference",
+              "counterparty",
+              "money",
+              "date",
+              "payment",
+              "contact",
+              "other"
+            ],
+            "rescue_families": {
+              "document_header": true,
+              "invoice_financial": false,
+              "payment": false
+            },
+            "table_compaction": {
+              "drop_text_only_rows": true,
+              "max_rows_per_table": 5
+            }
+          }
+        },
+        "projection_overrides": {}
+      }
+    },
+    "master_taxonomy_release_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
+    "runtime_locale": "en"
+  }
+}

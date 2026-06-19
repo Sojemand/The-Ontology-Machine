@@ -2,18 +2,18 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.99,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:27:55.219609+00:00",
+    "processed_at": "2026-06-02T18:38:28.902326+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "book_table_of_contents_page",
+    "document_type": "book_page",
     "document_type_confidence": 0.99,
-    "category": "book",
+    "category": "publication",
     "subcategory": "table_of_contents",
     "language": "de",
     "is_scan": false,
@@ -22,14 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.99,
-      "reason": "A book table of contents page is visible with the heading \"Inhaltsverzeichnis\", chapter entries, and page-numbered list items.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.96,
+      "reason": "The visible page is a book page showing a table of contents.",
       "matched_signals": [
-        "Inhaltsverzeichnis",
-        "Kapitel 1",
-        "Kapitel 2",
-        "Vorwort"
+        "book page",
+        "table of contents",
+        "chapter titles"
       ]
     },
     "page_number": 2,
@@ -45,8 +44,10 @@
   },
   "content": {
     "structure": {
-      "type": "table_of_contents_page",
-      "columns": [],
+      "type": "table_of_contents",
+      "columns": [
+        "single_column"
+      ],
       "form_fields": []
     },
     "fields": {
@@ -54,234 +55,271 @@
     },
     "rows": [
       {
-        "level": 0,
+        "level": "front_matter",
         "title": "Vorwort",
-        "page": "3"
+        "page_reference": "3"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht",
-        "page": "6"
+        "page_reference": "6"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wer bist du wirklich?",
-        "page": "6"
+        "page_reference": "6",
+        "parent": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Schau in den Spiegel",
-        "page": "10"
+        "page_reference": "10",
+        "parent": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Das Problem des sich automatisch schützenden Selbstbildes",
-        "page": "11"
+        "page_reference": "11",
+        "parent": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Das Problem der Selbstdefinition",
-        "page": "14"
+        "page_reference": "14",
+        "parent": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Der Tag an dem der freie Wille starb",
-        "page": "15"
+        "page_reference": "15",
+        "parent": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 2 – Kenne deine Maschine",
-        "page": "19"
+        "page_reference": "19"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung",
-        "page": "19"
+        "page_reference": "19",
+        "parent": "Kapitel 2 – Kenne deine Maschine"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Die wundervolle Welt des verborgenen Supercomputers – Emotionale Kaskaden",
-        "page": "25"
+        "page_reference": "25",
+        "parent": "Kapitel 2 – Kenne deine Maschine"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Die Faust des Riesen",
-        "page": "30"
+        "page_reference": "30",
+        "parent": "Kapitel 2 – Kenne deine Maschine"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wo stehen wir?",
-        "page": "33"
+        "page_reference": "33",
+        "parent": "Kapitel 2 – Kenne deine Maschine"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 3 – Das Licht des Gewahrseins",
-        "page": "35"
+        "page_reference": "35"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Der erregte Affe",
-        "page": "35"
+        "page_reference": "35",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Die Quelle des Lichts",
-        "page": "38"
+        "page_reference": "38",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Was das Licht bescheint, das ist",
-        "page": "40"
+        "page_reference": "40",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Das zweigleisige Gewahrsein",
-        "page": "45"
+        "page_reference": "45",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Perlen in der Dunkelheit",
-        "page": "48"
+        "page_reference": "48",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Üben mach frei",
-        "page": "51"
+        "page_reference": "51",
+        "parent": "Kapitel 3 – Das Licht des Gewahrseins"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht",
-        "page": "54"
+        "page_reference": "54"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Träume und andere Wahnvorstellungen",
-        "page": "54"
+        "page_reference": "54",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Auf und Nieder, immer wieder",
-        "page": "56"
+        "page_reference": "56",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Der Drang nach oben",
-        "page": "59"
+        "page_reference": "59",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Es ist nicht alles Gold was glänzt",
-        "page": "61"
+        "page_reference": "61",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Unmögliche Blicke",
-        "page": "62"
+        "page_reference": "62",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wir irren umher",
-        "page": "64"
+        "page_reference": "64",
+        "parent": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 5 – Die symbolische Welt",
-        "page": "69"
+        "page_reference": "69"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Symbole verstehen",
-        "page": "69"
+        "page_reference": "69",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Der Weg des Helden",
-        "page": "72"
+        "page_reference": "72",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Was plant der Held?",
-        "page": "76"
+        "page_reference": "76",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Von Göttern und Monstern",
-        "page": "79"
+        "page_reference": "79",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Von Wollen und Können",
-        "page": "81"
+        "page_reference": "81",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Die Hände die uns führen",
-        "page": "86"
+        "page_reference": "86",
+        "parent": "Kapitel 5 – Die symbolische Welt"
       },
       {
-        "level": 0,
+        "level": "chapter",
         "title": "Kapitel 6 – Es bleiben nur Fragen",
-        "page": "92"
+        "page_reference": "92"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Keine Antworten",
-        "page": "92"
+        "page_reference": "92",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie lässt sich zweigleisiges Gewahrsein zuverlässig erlangen?",
-        "page": "92"
+        "page_reference": "92",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie können wir das Vergessen umgehen?",
-        "page": "93"
+        "page_reference": "93",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie können wir die Sprachbarrieren überwinden?",
-        "page": "93"
+        "page_reference": "93",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie besänftigen wir unsere Aversion, uns mit solchen Dingen überhaupt zu beschäftigen?",
-        "page": "94"
+        "page_reference": "94",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie lässt sich die Grenze zwischen Traum und Wachbewusstsein genau definieren?",
-        "page": "96"
+        "page_reference": "96",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Ließe sich ein MRT Muster bei allen Menschen erkennen, die ihr Gewahrsein ändern?",
-        "page": "97"
+        "page_reference": "97",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wieso kann sich unser Gehirn Konstrukte ausdenken, die es im Nachhinein selbst nicht mehr versteht?",
-        "page": "97"
+        "page_reference": "97",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?",
-        "page": "98"
+        "page_reference": "98",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Warum werden so viele Interessierte zu Traumphilosophen?",
-        "page": "99"
+        "page_reference": "99",
+        "parent": "Kapitel 6 – Es bleiben nur Fragen"
       },
       {
-        "level": 1,
+        "level": "section",
         "title": "Überlegungen zum Ende",
-        "page": "101"
+        "page_reference": "101"
       },
       {
-        "level": 1,
+        "level": "back_matter",
         "title": "Quellen",
-        "page": "102"
+        "page_reference": "102"
       }
     ],
     "segments": [
@@ -290,6 +328,8 @@
         "unit_kind": "title_line",
         "page": 2,
         "sequence": 1,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Inhaltsverzeichnis",
         "function": "section_title",
         "confidence": 0.99
@@ -299,13 +339,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 2,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Vorwort.................................................................................................................................................................3",
         "function": "toc_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Vorwort",
-          "page": "3"
-        },
         "confidence": 0.99
       },
       {
@@ -313,13 +350,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 3,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht............................................................................................6",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 1 – Das Auge, das sich selbst zu sehen versucht",
-          "page": "6"
-        },
         "confidence": 0.99
       },
       {
@@ -327,13 +361,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 4,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wer bist du wirklich?.............................................................................................................................................6",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wer bist du wirklich?",
-          "page": "6"
-        },
         "confidence": 0.99
       },
       {
@@ -341,13 +372,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 5,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Schau in den Spiegel............................................................................................................................................10",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Schau in den Spiegel",
-          "page": "10"
-        },
         "confidence": 0.99
       },
       {
@@ -355,13 +383,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 6,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Das Problem des sich automatisch schützenden Selbstbildes..............................................................................11",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Das Problem des sich automatisch schützenden Selbstbildes",
-          "page": "11"
-        },
         "confidence": 0.99
       },
       {
@@ -369,13 +394,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 7,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Das Problem der Selbstdefinition........................................................................................................................14",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Das Problem der Selbstdefinition",
-          "page": "14"
-        },
         "confidence": 0.99
       },
       {
@@ -383,13 +405,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 8,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Der Tag an dem der freie Wille starb...................................................................................................................15",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Der Tag an dem der freie Wille starb",
-          "page": "15"
-        },
         "confidence": 0.99
       },
       {
@@ -397,13 +416,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 9,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 2 – Kenne deine Maschine...........................................................................................................................19",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 2 – Kenne deine Maschine",
-          "page": "19"
-        },
         "confidence": 0.99
       },
       {
@@ -411,13 +427,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 10,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung.......................................................19",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung",
-          "page": "19"
-        },
         "confidence": 0.99
       },
       {
@@ -425,13 +438,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 11,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Die wundervolle Welt des verborgenen Supercomputers – Emotionale Kaskaden..............................................25",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Die wundervolle Welt des verborgenen Supercomputers – Emotionale Kaskaden",
-          "page": "25"
-        },
         "confidence": 0.99
       },
       {
@@ -439,13 +449,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 12,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Die Faust des Riesen............................................................................................................................................30",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Die Faust des Riesen",
-          "page": "30"
-        },
         "confidence": 0.99
       },
       {
@@ -453,13 +460,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 13,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wo stehen wir?....................................................................................................................................................33",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wo stehen wir?",
-          "page": "33"
-        },
         "confidence": 0.99
       },
       {
@@ -467,27 +471,21 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 14,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 3 – Das Licht des Gewahrseins....................................................................................................................35",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 3 – Das Licht des Gewahrseins",
-          "page": "35"
-        },
-        "confidence": 0.98
+        "confidence": 0.99
       },
       {
         "segment_id": "Page2_Segment15",
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 15,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Der erregte Affe...................................................................................................................................................35",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Der erregte Affe",
-          "page": "35"
-        },
         "confidence": 0.99
       },
       {
@@ -495,13 +493,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 16,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Die Quelle des Lichts...........................................................................................................................................38",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Die Quelle des Lichts",
-          "page": "38"
-        },
         "confidence": 0.99
       },
       {
@@ -509,27 +504,21 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 17,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Was das Licht bescheint, das ist...........................................................................................................................40",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Was das Licht bescheint, das ist",
-          "page": "40"
-        },
-        "confidence": 0.97
+        "confidence": 0.99
       },
       {
         "segment_id": "Page2_Segment18",
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 18,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Das zweigleisige Gewahrsein..............................................................................................................................45",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Das zweigleisige Gewahrsein",
-          "page": "45"
-        },
         "confidence": 0.99
       },
       {
@@ -537,13 +526,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 19,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Perlen in der Dunkelheit......................................................................................................................................48",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Perlen in der Dunkelheit",
-          "page": "48"
-        },
         "confidence": 0.99
       },
       {
@@ -551,13 +537,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 20,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Üben mach frei....................................................................................................................................................51",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Üben mach frei",
-          "page": "51"
-        },
         "confidence": 0.99
       },
       {
@@ -565,27 +548,21 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 21,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht...................................................................................................54",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht",
-          "page": "54"
-        },
-        "confidence": 0.98
+        "confidence": 0.99
       },
       {
         "segment_id": "Page2_Segment22",
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 22,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Träume und andere Wahnvorstellungen..............................................................................................................54",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Träume und andere Wahnvorstellungen",
-          "page": "54"
-        },
         "confidence": 0.99
       },
       {
@@ -593,13 +570,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 23,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Auf und Nieder, immer wieder............................................................................................................................56",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Auf und Nieder, immer wieder",
-          "page": "56"
-        },
         "confidence": 0.99
       },
       {
@@ -607,13 +581,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 24,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Der Drang nach oben...........................................................................................................................................59",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Der Drang nach oben",
-          "page": "59"
-        },
         "confidence": 0.99
       },
       {
@@ -621,13 +592,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 25,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Es ist nicht alles Gold was glänzt.........................................................................................................................61",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Es ist nicht alles Gold was glänzt",
-          "page": "61"
-        },
         "confidence": 0.99
       },
       {
@@ -635,13 +603,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 26,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Unmögliche Blicke..............................................................................................................................................62",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Unmögliche Blicke",
-          "page": "62"
-        },
         "confidence": 0.99
       },
       {
@@ -649,13 +614,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 27,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wir irren umher...................................................................................................................................................64",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wir irren umher",
-          "page": "64"
-        },
         "confidence": 0.99
       },
       {
@@ -663,13 +625,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 28,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 5 – Die symbolische Welt............................................................................................................................69",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 5 – Die symbolische Welt",
-          "page": "69"
-        },
         "confidence": 0.99
       },
       {
@@ -677,13 +636,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 29,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Symbole verstehen...............................................................................................................................................69",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Symbole verstehen",
-          "page": "69"
-        },
         "confidence": 0.99
       },
       {
@@ -691,13 +647,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 30,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Der Weg des Helden............................................................................................................................................72",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Der Weg des Helden",
-          "page": "72"
-        },
         "confidence": 0.99
       },
       {
@@ -705,13 +658,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 31,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Was plant der Held?.............................................................................................................................................76",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Was plant der Held?",
-          "page": "76"
-        },
         "confidence": 0.99
       },
       {
@@ -719,13 +669,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 32,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Von Göttern und Monstern..................................................................................................................................79",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Von Göttern und Monstern",
-          "page": "79"
-        },
         "confidence": 0.99
       },
       {
@@ -733,13 +680,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 33,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Von Wollen und Können.....................................................................................................................................81",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Von Wollen und Können",
-          "page": "81"
-        },
         "confidence": 0.99
       },
       {
@@ -747,13 +691,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 34,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Die Hände die uns führen....................................................................................................................................86",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Die Hände die uns führen",
-          "page": "86"
-        },
         "confidence": 0.99
       },
       {
@@ -761,13 +702,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 35,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Kapitel 6 – Es bleiben nur Fragen.............................................................................................................................92",
         "function": "chapter_entry",
-        "attributes": {
-          "level": 0,
-          "title": "Kapitel 6 – Es bleiben nur Fragen",
-          "page": "92"
-        },
         "confidence": 0.99
       },
       {
@@ -775,13 +713,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 36,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Keine Antworten..................................................................................................................................................92",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Keine Antworten",
-          "page": "92"
-        },
         "confidence": 0.99
       },
       {
@@ -789,13 +724,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 37,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie lässt sich zweigleisiges Gewahrsein zuverlässig erlangen?..........................................................................92",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie lässt sich zweigleisiges Gewahrsein zuverlässig erlangen?",
-          "page": "92"
-        },
         "confidence": 0.99
       },
       {
@@ -803,13 +735,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 38,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie können wir das Vergessen umgehen?...........................................................................................................93",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie können wir das Vergessen umgehen?",
-          "page": "93"
-        },
         "confidence": 0.99
       },
       {
@@ -817,13 +746,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 39,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie können wir die Sprachbarrieren überwinden?..............................................................................................93",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie können wir die Sprachbarrieren überwinden?",
-          "page": "93"
-        },
         "confidence": 0.99
       },
       {
@@ -831,13 +757,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 40,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie besänftigen wir unsere Aversion, uns mit solchen Dingen überhaupt zu beschäftigen?...............................94",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie besänftigen wir unsere Aversion, uns mit solchen Dingen überhaupt zu beschäftigen?",
-          "page": "94"
-        },
         "confidence": 0.99
       },
       {
@@ -845,13 +768,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 41,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie lässt sich die Grenze zwischen Traum und Wachbewusstsein genau definieren?.........................................96",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie lässt sich die Grenze zwischen Traum und Wachbewusstsein genau definieren?",
-          "page": "96"
-        },
         "confidence": 0.99
       },
       {
@@ -859,13 +779,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 42,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Ließe sich ein MRT Muster bei allen Menschen erkennen, die ihr Gewahrsein ändern?.....................................97",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Ließe sich ein MRT Muster bei allen Menschen erkennen, die ihr Gewahrsein ändern?",
-          "page": "97"
-        },
         "confidence": 0.99
       },
       {
@@ -873,13 +790,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 43,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wieso kann sich unser Gehirn Konstrukte ausdenken, die es im Nachhinein selbst nicht mehr versteht?...........97",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wieso kann sich unser Gehirn Konstrukte ausdenken, die es im Nachhinein selbst nicht mehr versteht?",
-          "page": "97"
-        },
         "confidence": 0.99
       },
       {
@@ -887,13 +801,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 44,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?..............................98",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Wie viel Einfluss hat Ernährung auf die Verbindung zwischen Maschine und Gewahrsein?",
-          "page": "98"
-        },
         "confidence": 0.99
       },
       {
@@ -901,13 +812,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 45,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Warum werden so viele Interessierte zu Traumphilosophen?..............................................................................99",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Warum werden so viele Interessierte zu Traumphilosophen?",
-          "page": "99"
-        },
         "confidence": 0.99
       },
       {
@@ -915,13 +823,10 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 46,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Überlegungen zum Ende....................................................................................................................................101",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Überlegungen zum Ende",
-          "page": "101"
-        },
         "confidence": 0.99
       },
       {
@@ -929,17 +834,14 @@
         "unit_kind": "list_item",
         "page": 2,
         "sequence": 47,
+        "section": "Inhaltsverzeichnis",
+        "label": null,
         "text": "Quellen..............................................................................................................................................................102",
         "function": "toc_entry",
-        "attributes": {
-          "level": 1,
-          "title": "Quellen",
-          "page": "102"
-        },
         "confidence": 0.99
       }
     ],
-    "free_text": "Inhaltsverzeichnis mit Vorwort, sechs Kapiteln und Quellen"
+    "free_text": "Inhaltsverzeichnis eines deutschsprachigen Buchs mit Vorwort, sechs Kapiteln und Quellen."
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:31:26Z",
+    "processed_at": "2026-06-02T18:41:46Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,15 +22,9 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical chapter page introduces the section \"Schau in den Spiegel\" and uses mirror-gazing as an exercise to explain self-observation. It argues that introspection is not the same as thinking about thinking and highlights the paradox of consciousness observing itself.",
-    "tags": [
-      "mirror",
-      "self-observation",
-      "introspection",
-      "consciousness",
-      "paradox"
-    ],
+    "document_title": null,
+    "description": "A philosophy of consciousness passage uses a mirror exercise to show the paradox of trying to observe one's own thinking. It distinguishes introspection about desires, hopes, and images from genuine thinking about thought itself.",
+    "tags": [],
     "people": [],
     "organizations": [],
     "locations": [],
@@ -40,69 +34,78 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Translated visible German section heading and prose into English retrieval text.",
-      "Assigned the closest supported body-content theoretical discussion codes."
-    ],
-    "recipient_primary": null,
-    "property_address": null
+      "Translated visible German prose into English control language.",
+      "No secure book title or chapter number/title was visible beyond the section heading."
+    ]
   },
   "content": {
     "structure": {
-      "type": "mixed",
+      "type": "single_column_prose",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "section_heading": "Look in the mirror",
       "page_number": 10,
-      "section_heading": "Schau in den Spiegel",
-      "topic_keywords": [
-        "mirror",
-        "self-observation",
-        "introspection",
-        "thinking about thinking",
-        "consciousness"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "The page transitions into a reflective exercise centered on looking into a mirror as a physical analogy for self-observation. It explains that introspection is not the same as thinking about thinking and describes the paradox of consciousness trying to see itself."
+        "heading_text": "Look in the mirror",
+        "text_content": "Look in the mirror"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "A mirror exercise is presented as a starting point for the journey, because looking at your own eyes physically enacts the mind's attempt to observe itself.",
+        "text_content": "Looking into the mirror is a starting point for the journey because it physically enacts the mind's attempt to observe itself."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The passage develops a paradox of self-observation in which consciousness appears frozen when it tries to see itself as a singular unit.",
+        "text_content": "Consciousness appears frozen in a paradox when it tries to see itself as a singular unit."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Introspection is separated from thinking about thought: one can reflect on wishes, hopes, dislikes, dreams, and internal images, but not on how those states arise or sustain themselves.",
+        "text_content": "Introspection is distinct from thinking about thought itself."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on mirror-based self-observation, introspection, and the paradox of consciousness trying to observe itself."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness de page 10 section heading Look in the mirror mirror exercise paradox of self-observation introspection consciousness philosophy"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.86,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.86 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

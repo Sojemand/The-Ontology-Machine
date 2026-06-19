@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:00:05Z",
+    "processed_at": "2026-06-02T19:11:11Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical book page contrasts the symbolic worlds of a scientist and a psychologist through Greek mythic analogies. It explains how these inner frameworks shape personality development and perception. A new section begins with the heading 'Von Wollen und Können' and introduces an argument about will and ability.",
+    "description": "A philosophical essay page contrasts the scientist and the psychologist as living in different symbolic worlds shaped by different gods and monsters. It argues that personality development and changes in what a person wants arise from these underlying symbolic frameworks. The section heading is \"Von Wollen und Können\".",
     "tags": [
-      "philosophical prose",
       "symbolic worlds",
       "personality development",
-      "will and ability",
-      "Greek mythology",
-      "selfhood"
+      "desire and will",
+      "archetypes",
+      "philosophical essay"
     ],
     "people": [],
     "organizations": [],
@@ -41,71 +40,82 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Category and subcategory normalized to the closest supported body-content theoretical-discussion codes.",
-      "Section heading translated from German."
+      "German prose page from a nonfiction book.",
+      "Section heading translated to English in description and retained in source-language title field."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "single_column_text_page",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "section_heading": "Von Wollen und Können",
       "page_number": 81,
-      "section_heading": "Will and Ability",
-      "topic_keywords": [
-        "philosophical prose",
-        "symbolic worlds",
-        "personality development",
-        "will",
-        "ability",
-        "Greek mythology",
-        "selfhood"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "heading_block",
         "_row_index": 0,
-        "paragraph_text": "The page compares a scientist and a psychologist through mythic archetypes, presenting them as shaped by different symbolic worlds. It argues that personality development and perception arise from these deep frameworks. A new section titled 'Will and Ability' introduces a reflection on the limits of willing and self-determination."
+        "heading_text": "Von Wollen und Können",
+        "text_content": "Section heading: \"Von Wollen und Können\"."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "A scientist may live like Athena, devoted to knowledge and competing with colleagues for the Nobel Prize, while a psychologist may live like Demeter, seeking to send clients back into the world renewed and bearing the pain of loss with greater empathy.",
+        "text_content": "The scientist and psychologist embody different symbolic worlds and different guiding figures."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "People filter perception and assign meaning through these symbolic worlds, and personality development often occurs without conscious awareness even though others can clearly notice the change. A person's outer expression changes when the underlying foundation of action changes.",
+        "text_content": "Personality change is presented as an often-unnoticed shift in the symbolic foundation of action."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The author introduces the saying that one can do what one wants but cannot want what one wants, then qualifies it by arguing that changes in wanting arise from changes in the symbolic world.",
+        "text_content": "The section begins an argument about will, wanting, and the symbolic basis of desire."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2 on philosophical prose about symbolic worlds, personality development, will, and ability. Section heading: Will and Ability."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes German nonfiction philosophy page on symbolic worlds, archetypal self-understanding, personality development, and the relation between will and wanting."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

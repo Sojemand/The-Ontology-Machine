@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:34:25Z",
+    "processed_at": "2026-06-02T18:44:36Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "nonfiction_book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "neuroscience_reflection",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,16 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical book page argues that people retrofit explanations to preserve inner consistency and meaning. It compares neuroscience with mythology and biblical symbolism, then shifts toward the body as the next topic in understanding consciousness.",
+    "document_title": "Bewusstseinsreisen",
+    "description": "Reflective prose argues that people construct a coherent self-narrative after the fact to make life feel consistent. It compares neuroscience with mythology and biblical symbolism, then turns toward the body as a necessary part of understanding illusion and selfhood.",
     "tags": [
       "self-narration",
-      "consistency",
+      "consciousness",
       "neuroscience",
       "mythology",
-      "symbolism",
-      "body",
-      "consciousness"
+      "body"
     ],
     "people": [],
     "organizations": [],
@@ -42,69 +40,73 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Classified as nonfiction book body prose with theoretical discussion.",
-      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
+      "Source is German prose from a book page.",
+      "Promoted book title from the source file name."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "mixed",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "work_title": "Bewusstseinsreisen",
       "page_number": 17,
-      "topic_keywords": [
-        "self-narration",
-        "consistency",
-        "neuroscience",
-        "mythology",
-        "symbolism",
-        "body",
-        "consciousness"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Self-narration is presented as a retrospective construction that adapts explanations to facts in order to preserve consistency. Neuroscience is compared with mythology and biblical symbolism as different languages for describing the same human condition, before the discussion turns to the body as a necessary next focus."
+        "paragraph_text": "People construct a coherent story about themselves after the fact, adapting explanations to facts so the narrative appears seamless and free of contradiction.",
+        "text_content": "People construct a coherent story about themselves after the fact, adapting explanations to facts so the narrative appears seamless and free of contradiction."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The passage links neuroscience to mythology and the Bible, arguing that both use different languages to describe symbolic structures of human existence.",
+        "text_content": "The passage links neuroscience to mythology and the Bible, arguing that both use different languages to describe symbolic structures of human existence."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "It then shifts toward the body and insists that any account of illusion and self-understanding must include the material role of the body.",
+        "text_content": "It then shifts toward the body and insists that any account of illusion and self-understanding must include the material role of the body."
       }
     ],
-    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Philosophical nonfiction on self-narration, neuroscience, mythology, symbolism, and the body."
+    "free_text": "book_page nonfiction_philosophy neuroscience_reflection Book page from Bewusstseinsreisen on self-narration, consciousness, neuroscience, mythology, and the body."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.92,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.92 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.94,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

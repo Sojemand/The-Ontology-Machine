@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:37:02Z",
+    "processed_at": "2026-06-02T18:47:35Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,15 +22,15 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "The page discusses pattern recognition as a hidden mechanism that organizes perception and attention, even in difficult traffic situations. It argues that this mechanism operates beyond conscious awareness and helps create categories and meaning from sensory input. A Matrix analogy is used to illustrate the scale of this covert process and its influence on emotion triggers.",
+    "document_title": null,
+    "description": "The author reflects on pattern recognition in dense traffic and argues that a hidden cognitive mechanism continuously classifies sensory input and shapes perception. A Matrix analogy illustrates how this mechanism operates beneath conscious awareness and also triggers attention and emotion.",
     "tags": [
       "pattern recognition",
-      "perception",
       "attention",
-      "consciousness",
-      "emotion triggers",
-      "Matrix analogy"
+      "perception",
+      "hidden cognition",
+      "Matrix analogy",
+      "emotion triggers"
     ],
     "people": [],
     "organizations": [],
@@ -41,15 +41,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Translated German prose into English retrieval summary.",
-      "Projected raw philosophical writing to theoretical discussion within book body content."
+      "Classified as a philosophical consciousness essay from a continuous prose book page.",
+      "Source language is German; normalized summary and tags are in English."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -58,51 +58,56 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 24,
-      "topic_keywords": [
-        "pattern recognition",
-        "perception",
-        "attention",
-        "consciousness",
-        "emotion triggers",
-        "Matrix analogy"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Pattern recognition persists even in dense traffic and is presented as a hidden process that can scan a broad visual field. It is described as a powerful mechanism that organizes sensory chaos into meaningful categories. The text compares its scale to the Matrix code and links it to attention and emotion triggers."
+        "paragraph_text": "Pattern recognition is discussed as an automated process that still works in dense traffic and across a full visual field.",
+        "text_content": "Pattern recognition is discussed as an automated process that still works in dense traffic and across a full visual field."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The text argues that this hidden mechanism operates beyond conscious awareness, organizes sensory chaos into categories, and makes experience meaningful.",
+        "text_content": "The text argues that this hidden mechanism operates beyond conscious awareness, organizes sensory chaos into categories, and makes experience meaningful."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "A Matrix comparison presents the mechanism as an all-pervading code that also directs attention and triggers emotions.",
+        "text_content": "A Matrix comparison presents the mechanism as an all-pervading code that also directs attention and triggers emotions."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on pattern recognition, perception, attention, consciousness, and emotion triggers, with a Matrix analogy."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness page 24; German book page on pattern recognition, hidden perception, attention, and emotion triggers; Matrix analogy; source file Bewusstseinsreisen - Version 2.pdf"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.91,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.93,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

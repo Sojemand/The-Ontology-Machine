@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:41:49.355575+00:00",
+    "processed_at": "2026-06-02T18:52:32.526081+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.98,
+    "category": "literary_text",
+    "subcategory": "nonfiction_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.85,
-      "reason": "A prose-style nonfiction book page in philosophical/reflective writing is visible, consisting of continuous paragraphs without form elements.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "The visible page is a prose book page with continuous paragraphs and no form or transactional structure.",
       "matched_signals": [
+        "book page",
         "continuous prose paragraphs",
-        "nonfiction book page",
-        "reflective/philosophical discussion"
+        "narrative/expository text"
       ]
     },
     "date_range": {
@@ -54,16 +54,16 @@
     "segments": [
       {
         "segment_id": "Page36_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "reflective_paragraph",
         "page": 36,
         "sequence": 1,
         "text": "Nun, da ihr ja dieses Buch bereits bis hier hin gelesen habt, könnt ihr bestimmt eine ganze Reihe Mechanismen benennen, die die Aktionen dieses jungen Mannes bestimmt haben. An keinem Punkt hatte er wirklich eine Wahl. Zwar bestand die Möglichkeit für ihn, sich auch anders zu entscheiden, aber hätte er das überhaupt gewollt? Nein. Es ist eben wie es ist.",
-        "function": "retrospective_claim",
-        "confidence": 0.98
+        "function": "deterministic_reflection",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page36_Segment2",
-        "unit_kind": "instruction_step",
+        "unit_kind": "narrative_paragraph",
         "page": 36,
         "sequence": 2,
         "text": "Jetzt erweitern wie einmal die gleiche Situation um eine Informationsebene, die, zumindest potentiell, auch dem jungen Mann zugänglich wäre.",
@@ -85,7 +85,7 @@
         "page": 36,
         "sequence": 4,
         "text": "Eure Hormone hämmern immer noch auf euch ein, die Frau erscheint euch immer noch gleichermaßen fesselnd. Nur jetzt sieht er noch einiges mehr. Sobald er diese Frau bemerkt, sieht er nicht nur eine attraktive Frau. Er sieht auf den ersten Blick, wie sie ihre Schminke aufgetragen hat, wie sie damit ihre Augen größer erscheinen lässt, um ihnen damit einen kindlicheren Ausdruck zu verleihen. Er sieht, wie sie ihre Wangen leicht gerötet hat, um einen Unterton körperlicher Erregung zu simulieren und wie sie ihre Lippen betont um dieses Signal noch zu unterstreichen. Er sieht wie sich ihr Becken durch ihre hohen Absätze nach vorne neigt und ihr enges Kleid ihre Hüften schmaler erscheinen lässt um eine einladende Körperhaltung zu erzeugen. Er sieht auch wie sich ihre Pupillen verändern, sobald sie ihn erblickt, wie sich ihre Nasenflügel leicht bewegen, wie sich ihre Haltung verändert, wie sich ihr Kinn, ihre Hände und ihre Augen bewegen wenn er sich ihr nähert. Er sieht all das und was er sieht sagt ihm genau, warum diese Frau ihm so erscheint wie sie ihm erscheint.",
-        "function": "external_observation_analysis",
+        "function": "external_cue_analysis",
         "confidence": 0.98
       },
       {
@@ -94,11 +94,11 @@
         "page": 36,
         "sequence": 5,
         "text": "Aber er sieht nicht nur was sich im Außen abspielt, er sieht auch was sich in ihm zuträgt. Er bemerkt, wie sein Gehirn auf die vorzüglich zur Schau gestellten sexuellen Reize reagiert. Er bemerkt, wie seine Amygdala und sein Hypothalamus plötzlich hektische Signale produzieren. Wie sein Herzschlag einen Zahn zulegt, wie sich seine Blutgefäße weiten, im Gesicht wie in tieferen Regionen. Er spürt, wie eine Welle aus Glukose in seine Muskeln strömt und wie sich eine Reihe von Muskelgruppen anspannt, um seine Körperhaltung aufrechter und dominanter erscheinen zu lassen. Er bemerkt, wie eine Wolke des Geruchs dieser Frau in seine Nase steigt und wie sie eine fast unwiderstehliche Motivation in ihm formt, seinem Instinkt nach Reproduktion zu erliegen. Er bemerkt, wie sich seine Prioritäten verändern, wie er abzuwägen beginnt, ob sich die Investition die sich ihm bietet lohnen würde, ob er diese kurzfristige Chance nutzen sollte und wie hoch seine Bereitschaft ist, weitere Investitionen zu tätigen. Schließlich bemerkt er auch, dass er im Grunde soeben eine andere Person wurde, mit anderen Prioritäten",
-        "function": "internal_process_analysis",
-        "confidence": 0.98
+        "function": "internal_reaction_analysis",
+        "confidence": 0.99
       }
     ],
-    "free_text": "Gedankenexperiment, Wahrnehmung, Attraktion, innere Reaktion"
+    "free_text": "Gedankenexperiment zu Wahrnehmung, Attraktivität und inneren Reaktionen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

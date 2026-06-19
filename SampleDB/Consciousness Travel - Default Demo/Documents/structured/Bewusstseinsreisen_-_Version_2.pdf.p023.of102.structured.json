@@ -6,47 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:36:33.170614+00:00",
+    "processed_at": "2026-06-02T18:47:05.778539+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.88,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.95,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 23,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=023-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.88,
-      "reason": "A prose book page in philosophical/nonfiction style is visible, consisting of continuous paragraphs without form fields.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The page is a continuous prose page from a book-like document.",
       "matched_signals": [
-        "continuous paragraphs",
-        "book page layout",
-        "philosophical/nonfiction prose"
+        "continuous prose",
+        "book page",
+        "long-form narrative text"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 23,
-    "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=023-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -59,16 +57,16 @@
         "sequence": 1,
         "text": "korrekt detektiert und nur bei etwa 5% waren es ähnliche Muster wie 999, 669 oder andere Muster die der 666 optisch nahe stehen.",
         "function": "quantifies_pattern_similarity",
-        "confidence": 0.97
+        "confidence": 0.98
       },
       {
         "segment_id": "Page23_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 23,
         "sequence": 2,
         "text": "Der Vollständigkeit halber sei hier erwähnt, dass es noch eine andere Erklärung dafür geben könnte. Wenn ich annehme, dass ich permanent mein gesamtes Sichtfeld durchmustere und permanent nach bekannten Mustern Ausschau halte, dann müsste ich auch jedes Nummernschild direkt anblicken, sobald es in einem bestimmten Bereich des Sichtfeldes auftaucht. Wenn kein Muster erkannt wird, wandern die Augen einfach weiter. Das bedarf natürlich der Tatsache, dass sich meine Augen permanent und völlig unbewusst von selbst bewegen und ich alles Unwichtige sofort vergesse und mir mein Gehirn vorgaukelt, ich würde während der Fahrt stets geradeaus auf die Straße blicken obwohl ich in Wahrheit ständig hektisch hin und her schaue. Auch diese Möglichkeit habe ich in Betracht gezogen und versucht, Anhaltspunkte zu finden ob das so stattfindet oder nicht.",
         "function": "proposes_alternative_explanation",
-        "confidence": 0.98
+        "confidence": 0.99
       },
       {
         "segment_id": "Page23_Segment3",
@@ -77,7 +75,7 @@
         "sequence": 3,
         "text": "Allerdings ist das leichter gesagt als getan, denn wenn man seine Aufmerksamkeit auf die Augenbewegung richtet, ist sie nicht mehr unbewusst und es findet keine automatische Bewegung statt. Richte ich meine Aufmerksamkeit woanders hin, laufen etwaige automatische Bewegungen eben automatisch und versinken im Vergessen. Der einzige Weg dies eindeutig zu überprüfen wäre wohl eine Art Tracker, der die Augenbewegungen auf die Verkehrssituation projiziert und aufzeichnet, wo der Fokus hin wandert und es dann im Nachhinein mit dem abzugleichen, was ich subjektiv empfunden habe. Dafür fehlt mir allerdings das Geld und die Zeit einen solchen Versuchsaufbau über längere Zeit zu betreiben.",
         "function": "describes_methodological_limitation",
-        "confidence": 0.97
+        "confidence": 0.99
       },
       {
         "segment_id": "Page23_Segment4",
@@ -85,11 +83,11 @@
         "page": 23,
         "sequence": 4,
         "text": "Also tat ich, was mir noch übrig blieb: Deduktion. Nicht der beste Weg, aber was soll man machen. Da ich so oft auf der Autobahn unterwegs war, fiel es mir nicht schwer ein paar Randbedingungen zu definieren, die ich dann beobachten konnte. Eine davon war, wie ich den Verkehr vor mir beobachte wenn Fahrzeuge Spurwechsel ausführen oder sich Unsicherheiten im Fahrverhalten Anderer andeuten. Da es sich hierbei um gefährliche Situationen handelt, die mich direkt betreffen wenn sie in meiner direkten Nähe stattfinden, kann ich mal davon ausgehen, dass auch mein Gehirn diesen Dingen besondere Aufmerksamkeit schenkt und sinnloses unbewusstes Umherblicken währenddessen auf ein Minimum reduziert, denn wenn nicht hier, wo dann? In solchen Momenten war ich stets überzeugt, dass meine Aufmerksamkeit, wie meine Augenbewegungen, förmlich an den Vorgängen festgeklebt waren, was ja nicht viel heißt, mir aber schlüssig erscheint, denn Aufmerksamkeitslücken wären in solchen Situationen lebensgefährlich.",
-        "function": "justifies_deductive_observation",
-        "confidence": 0.98
+        "function": "develops_deductive_argument",
+        "confidence": 0.99
       }
     ],
-    "free_text": "Autobahnbeobachtung, Augenbewegung, Mustererkennung, alternative Erklärung"
+    "free_text": "Autobahnbeobachtung, Augenbewegung, Mustererkennung, alternative Erklärung, Deduktion"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

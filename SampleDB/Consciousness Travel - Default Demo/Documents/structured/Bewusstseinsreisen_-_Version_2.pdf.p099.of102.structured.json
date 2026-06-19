@@ -6,47 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:07:11.669939+00:00",
+    "processed_at": "2026-06-02T19:18:15.189674+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
+    "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 99,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=099-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A nonfiction book page in philosophical writing is visible, with continuous paragraphs and an in-page section heading.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.96,
+      "reason": "The visible page is a prose book page with a section heading and continuous narrative paragraphs.",
       "matched_signals": [
-        "continuous prose paragraphs",
+        "book page",
         "section heading",
-        "philosophical discussion"
+        "continuous prose"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 99,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=099-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
-      "columns": [
-        "main"
-      ],
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -54,20 +52,20 @@
     "segments": [
       {
         "segment_id": "Page99_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 99,
         "sequence": 1,
         "text": "gibt es noch? Einer meiner Lieblingssprüche, der das Leben so treffend beschreibt ist: „Man vermisst nicht was bedrückt“. Beschreibt er doch, wie wir stets nur das beklagen, was schlechter wurde aber keinen Gedanken daran verschwenden, wenn es besser wurde. Gibt es Dinge wie ein „Kristall Gehirn“, welches seine Funktionen besser ausüben kann als vorher? Das Problem ist, wenn es so etwas gäbe, würde es keine medizinischen Aufzeichnungen geben, denn es wäre ja keine Einschränkung über die wir uns beklagen würden und somit gäbe es kein Grund einen Arzt aufzusuchen.",
-        "function": "questioning_unnoticed_improvement",
-        "confidence": 0.95
+        "function": "philosophical_reflection",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page99_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 99,
         "sequence": 2,
         "text": "Ich meine damit ausdrücklich nicht, dass hier Wohlbefinden gesteigert oder Krankheiten verringert werden sollen, denn das ist bereits zu genüge Gegenstand medizinischer Forschung. Was ich meine ist, eine verbesserte Funktion, die die Informationsströme der eigenen Instrumente störungsfreier und besser wahrnehmbar für unser Gewahrsein gestalten. Eine Strategie, die die „Klarheit“ maximiert, was nicht unbedingt mit Wohlfühlen gleichzusetzen ist. Gibt es solche Strategien und ganz besonders, an was messen sie ihren Erfolg?",
-        "function": "clarifying_conceptual_distinction",
+        "function": "conceptual_clarification",
         "confidence": 0.97
       },
       {
@@ -76,20 +74,20 @@
         "page": 99,
         "sequence": 3,
         "text": "Warum werden so viele Interessierte zu Traumphilosophen?",
-        "function": "section_question",
+        "function": "section_heading",
         "confidence": 0.99
       },
       {
         "segment_id": "Page99_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 99,
         "sequence": 4,
         "text": "Das ist eine Frage, die ich mir immer und immer wieder stelle. Ich sehe und höre so viele Interviews mit Menschen, die sich mit den Mysterien des Geistes beschäftigen, sei es wissenschaftlich, philosophisch oder mehr aus der mystischen Ecke und ihre Hauptgedanken drehen sich stets darum, was andere Traumphilosophen wohl denken und gedacht haben. Ja schlimmer noch, sie denken, je mehr Traumphilosophie sie studieren, desto näher kämen sie dem, was nicht Traumphilosophie ist. Traumphilosophen reden über Traumphilosophen, ohne ein einziges mal über den Traum an sich zu reden, als wäre er ein blinder Fleck in ihrer eigenen Wahrnehmung, als wäre er nur eine Feststellung, worauf es sich zu einigen gelte. Kein einziges mal, und das meine ich wörtlich, habe ich jemals jemanden die Frage stellen hören: Was, wenn wir selbst uns die Augen zu halten, weil wir tief in uns wissen, dass das, was wir ansonsten zu sehen bekämen, uns alles andere als gefallen würde? Das kann man besonders bei der experimentellen Psychotherapie beobachten, in der man mit hochdosierten Halluzinogenen arbeitet. Ein extrem hoher Anteil der Teilnehmer, fast 70% meine ich mich zu erinnern, erfahren diese Versuche als zutiefst befriedigend, beruhigend und umfassend, welches das Gefühl einer tieferen Bedeutung sich selbst und dem Universum gegenüber vermittelt. Allesamt positive Erfahrungen möchte man meinen. Allerdings nur so lange, bis man einmal darüber nachdenkt, wie sich das mit unserer eigenen Natur verträgt. Das Kernelement, welches unser Sein",
-        "function": "critique_of_secondhand_philosophizing",
+        "function": "critical_argument",
         "confidence": 0.96
       }
     ],
-    "free_text": "Philosophische Buchseite über Klarheit, Wahrnehmung und Kritik an „Traumphilosophen“"
+    "free_text": "Bewusstseinsphilosophie, Klarheit, Traumphilosophen, Psychotherapie, Halluzinogene"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

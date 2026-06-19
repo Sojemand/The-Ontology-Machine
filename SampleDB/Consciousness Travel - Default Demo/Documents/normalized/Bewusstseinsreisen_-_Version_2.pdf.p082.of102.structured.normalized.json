@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:00:28Z",
+    "processed_at": "2026-06-02T19:11:32Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,14 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction passage examines how symbolic worlds shape will, contradiction, and understanding. It uses the flat-Earth belief as an example to explain why a person can only grasp such a worldview from within its own internally consistent framework.",
+    "description": "A philosophical book passage argues that willing and self-understanding depend on an underlying symbolic world shaped by internal consistency. It uses flat-Earth belief as an example to explain how a person's worldview can remain coherent even when it conflicts with another person's reasoning. The text asks whether one can consciously change one's own symbolic world and desire new meanings or gods.",
     "tags": [
       "symbolic world",
-      "contradiction",
-      "will",
-      "understanding",
-      "flat-Earth belief"
+      "selfhood",
+      "willing",
+      "consistency",
+      "worldview",
+      "flat-Earth example"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +41,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Source text is German; normalized human-readable values are translated to English.",
-      "Page contains continuous philosophical prose without chapter framing."
+      "Translated German prose into English retrieval summary.",
+      "Book title inferred from source file name."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,50 +58,56 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 82,
-      "topic_keywords": [
-        "symbolic world",
-        "contradiction",
-        "will",
-        "understanding",
-        "flat-Earth belief"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "The text argues that will and belief arise from an unconscious symbolic world that remains internally consistent. It explains through the flat-Earth example that understanding another worldview requires entering its own logic rather than judging it from a higher level."
+        "paragraph_text": "The author asks whether conscious change of one's symbolic world is possible, given that willing arises from unconscious premises.",
+        "text_content": "The author asks whether conscious change of one's symbolic world is possible, given that willing arises from unconscious premises."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "A flat-Earth belief is used to show that a worldview can be internally consistent even when it appears irrational to outsiders.",
+        "text_content": "A flat-Earth belief is used to show that a worldview can be internally consistent even when it appears irrational to outsiders."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The passage concludes that understanding such beliefs requires recognizing the symbolic logic that makes them seem legitimate to the believer.",
+        "text_content": "The passage concludes that understanding such beliefs requires recognizing the symbolic logic that makes them seem legitimate to the believer."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Philosophical nonfiction on symbolic world, will, contradiction, and the flat-Earth example; page 82."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Philosophical prose on consciousness, symbolic world, internal consistency, and worldview change. Flat-Earth belief is used as the main example."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.91,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

@@ -2,39 +2,39 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:56:47.310590+00:00",
+    "processed_at": "2026-06-02T19:07:54.803641+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "nonfiction_book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The visible page is a continuous prose page from a book-like publication.",
+      "matched_signals": [
+        "continuous prose",
+        "book page",
+        "non-form layout"
+      ]
+    },
     "page_number": 73,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=073-of-102",
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.93,
-      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
-      "matched_signals": [
-        "continuous prose paragraphs",
-        "philosophical nonfiction tone",
-        "book page"
-      ]
-    },
     "date_range": {
       "from": null,
       "to": null
@@ -56,29 +56,47 @@
         "page": 73,
         "sequence": 1,
         "text": "beobachtet und zweifelsfrei festgestellt, dass dieser sich gerade auf einer solchen Reise befindet. Wenn wir Glück haben, können wir bei berühmten Figuren der Geschichte im Nachhinein eine derartige Reise konstruieren, oder durch Erzählungen einer Person über ihre eigene Vergangenheit auf eine solche rückschließen, sie aber kaum in der Gegenwart als gerade aktives Muster diagnostizieren. Auch scheint es, dass das Zusammenspiel, die Reihenfolge, wie auch die Komponenten an sich, keineswegs so starr und fixiert sind wie man das glauben könnte. Weisheiten wie „Passt, wackelt und hat Luft“, „Schwund gibt es immer“, „nichts ist perfekt“ und „nichts wird so heiß gegessen wie es gekocht wird“ scheinen eben auch auf die symbolische Welt zuzutreffen, was die Sache nicht gerade vereinfacht.",
-        "function": "qualification_of_pattern_detection",
-        "confidence": 0.97
+        "function": "limits_certainty_about_symbolic_patterns",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page73_Segment2",
         "unit_kind": "reflective_passage",
         "page": 73,
         "sequence": 2,
-        "text": "Während wir die Heldenreise in mythischen Beschreibungen sehr leicht identifizieren und deren Häufigkeit und Varianzen objektiv feststellen können, sind wir uns doch völlig im Unklaren darüber, wie häufig sie sich denn tatsächlich im echten Leben als solche manifestiert. Wir wissen weder wie häufig sie auftritt, noch über welche Zeiträume sie sich erstrecken kann. Wir wissen nicht in welchen Größenordnungen sie auftreten kann und auch nicht, ob es Umstände gibt, die sie besonders begünstigt oder ihr entgegenwirkt. Eigentlich wissen wir über die Heldenreise in der wirklichen Welt, mit wirklichen Menschen, ihren wirklichen Gefühlen und Entscheidungen herzlich wenig. Wir wissen über die realen Ausprägungen archetypischer Muster generell entmutigend wenig, außer, dass sie existieren und in isolierten Fällen und unter dem Licht psychologisch eingehender Analysen beschrieben werden können. Es ist beschämend, wie wenig dabei allen gleich erscheint. Wie bei unseren alten Bekannten, den Traumphilosophen. Wie können wir also diesem Dilemma entkommen, ohne die gesamte Menschheit kollektiv auf die Couch zu zwingen, nur um sie von Horden aus Psychoanalytikern bis zurück zum Töpfchentraining zu sezieren? Wie gesagt, vielleicht schauen wir ja in die völlig falsche Richtung und die Antwort liegt direkt vor uns, hinter diesem beharrlichen Schleier des permanenten Vergessens. Vertraut mir, ich habe einen Plan",
-        "function": "problem_statement_and_transition",
-        "confidence": 0.98
+        "text": "Während wir die Heldenreise in mythischen Beschreibungen sehr leicht identifizieren und deren Häufigkeit und Varianzen objektiv feststellen können, sind wir uns doch völlig im Unklaren darüber, wie häufig sie sich denn tatsächlich im echten Leben als solche manifestiert. Wir wissen weder wie häufig sie auftritt, noch über welche Zeiträume sie sich erstrecken kann. Wir wissen nicht in welchen Größenordnungen sie auftreten kann und auch nicht, ob es Umstände gibt, die sie besonders begünstigt oder ihr entgegenwirkt. Eigentlich wissen wir über die Heldenreise in der wirklichen Welt, mit wirklichen Menschen, ihren wirklichen Gefühlen und Entscheidungen herzlich wenig. Wir wissen über die realen Ausprägungen archetypischer Muster generell entmutigend wenig, außer, dass sie existieren und in isolierten Fällen und unter dem Licht psychologisch eingehender Analysen beschrieben werden können. Es ist beschämend, wie wenig dabei allen gleich erscheint. Wie bei unseren alten Bekannten, den Traumphilosophen.",
+        "function": "states_epistemic_uncertainty",
+        "confidence": 0.99
       },
       {
         "segment_id": "Page73_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "question_prompt",
         "page": 73,
         "sequence": 3,
+        "text": "Wie können wir also diesem Dilemma entkommen, ohne die gesamte Menschheit kollektiv auf die Couch zu zwingen, nur um sie von Horden aus Psychoanalytikern bis zurück zum Töpfchentraining zu sezieren?",
+        "function": "poses_methodological_problem",
+        "confidence": 0.99
+      },
+      {
+        "segment_id": "Page73_Segment4",
+        "unit_kind": "answer_statement",
+        "page": 73,
+        "sequence": 4,
+        "text": "Wie gesagt, vielleicht schauen wir ja in die völlig falsche Richtung und die Antwort liegt direkt vor uns, hinter diesem beharrlichen Schleier des permanenten Vergessens. Vertraut mir, ich habe einen Plan",
+        "function": "announces_proposed_solution",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page73_Segment5",
+        "unit_kind": "reflective_passage",
+        "page": 73,
+        "sequence": 5,
         "text": "Der Stoff aus dem gute Geschichten entstehen und mit welchem sich als Stilelement zuverlässig Unheil ankündigen lässt. Der Satz, mit dem alles beginnt: „Ich habe einen Plan“ und hat nicht jeder zu jederzeit Pläne für dies und das, für große und kleine Dinge, für alle möglichen kurzfristigen wie langfristigen Vorhaben? Pläne zu schmieden ist eine Eigenschaft des Menschen, welche uns von allem anderen Leben auf dieser Welt abhebt, zumindest noch, denn die Liste dieser Dinge wird ja stetig kürzer, je besser wir anderes Leben zu verstehen beginnen. Aber im Moment ist unsere Fähigkeit, große Vorhaben zu planen und umzusetzen etwas, was nur Homo Sapiens kann. Nicht zu verwechseln mit den Dingen, die wir uns in der",
-        "function": "introduction_of_planning_theme",
-        "confidence": 0.97
+        "function": "introduces_theme_of_planning",
+        "confidence": 0.98
       }
     ],
-    "free_text": "Heldenreise, archetypische Muster, Erkenntnisgrenzen, Planen"
+    "free_text": "Heldenreise, Erkenntnisgrenzen, archetypische Muster, Plan"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

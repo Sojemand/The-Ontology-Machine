@@ -2,50 +2,50 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:39:01.855845+00:00",
+    "processed_at": "2026-06-02T18:49:40.392651+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 29,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=029-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.9,
-      "reason": "A continuous nonfiction book page in philosophical/explanatory writing is visible, consisting of paragraph-based prose.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The page is a continuous prose page from a book-like document.",
       "matched_signals": [
         "continuous prose",
-        "nonfiction book page",
-        "paragraph-based explanatory writing"
+        "book page",
+        "paragraph-based layout"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 29,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=029-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text",
+      "type": "single_column_prose",
       "columns": [
-        "main_text"
+        "single column"
       ],
       "form_fields": []
     },
@@ -58,8 +58,8 @@
         "page": 29,
         "sequence": 1,
         "text": "machen sich aber hin und wieder mal bemerkbar, wenn was nicht stimmt. Das reicht von recht subtilen Dingen wie einem tiefen Atemzug, wenn die Nieren dem Gehirn mitteilen doch bitte den Sauerstoffgehalt des Blutes zu erhöhen, zu recht offensichtlichen Dingen, wie das Verlangen zu Trinken wenn das Gehirn einen Abfall im osmotischen Druck registriert. Auch kennt jeder den Vorgang, wenn unser neuroendokrines System unserem Gehirn vorschlägt, dass es doch an der Zeit sei Abfall los zu werden. Die meisten dieser Systeme arbeiten allerdings im Hintergrund, völlig unbemerkt und wir werden uns ihnen nur dann wirklich bewusst, wenn mal was schief läuft und wir im Krankenhaus aufwachen.",
-        "function": "explaining_bodily_regulation",
-        "confidence": 0.98
+        "function": "explaining_body_signals",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page29_Segment2",
@@ -67,17 +67,17 @@
         "page": 29,
         "sequence": 2,
         "text": "Wenn wir aber einmal bewusst versuchen zu ergründen, wie viel unseres täglichen Verhaltens darauf ausgerichtet ist, diese Balance aufrecht zu erhalten, dann müssen wir überrascht feststellen, dass wir fast nichts anderes tun. Unser gesamter Tagesablauf ist um diese Systeme herum strukturiert. Jeder weiß doch: Wir arbeiten um zu Leben, oder genauer, um zu überleben. Alle unsere Tätigkeiten zielen am Ende darauf ab, unseren Fleischklops einen weiteren Tag über die Runden zu bringen. Zugegeben, das ist ein recht zynischer Blick auf die menschliche Existenz, aber ohne unsere Anstrengungen, unser Gleichgewicht aufrecht zu erhalten, gäbe es uns erst gar nicht.",
-        "function": "arguing_survival_focus",
+        "function": "arguing_survival_orientation",
         "confidence": 0.98
       },
       {
         "segment_id": "Page29_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "claim_statement",
         "page": 29,
         "sequence": 3,
         "text": "Und wir tun all diese Dinge auch nicht weil wir es so wollen oder wir uns dazu entschieden haben. Wir tun sie weil unser Körper uns sanft aber bestimmt in die Richtung drängt, die für ihn am vorteilhaftesten ist, oder sie zumindest als vorteilhaft empfindet. Das ist keine Frage des freien Willens. Man kann dieses Drängen auch ignorieren, aber an einem Punkt muss man einlenken, will man nicht in einem Krankenhaus aufwachen.",
-        "function": "denying_free_choice",
-        "confidence": 0.98
+        "function": "denying_full_voluntary_control",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page29_Segment4",
@@ -85,20 +85,20 @@
         "page": 29,
         "sequence": 4,
         "text": "Man kann die Luft anhalten bis man umfällt. Man kann so wenig trinken bis dich Dehydration umfallen lässt. Man kann sich weigern aufs Klo zu gehen bis man in die Hose macht, im Winter ohne Klamotten raus gehen bis man erfriert, nicht schlafen bis man halluzinierend umfällt, nichts essen bis man, ihr ahnt es, umfällt und so lange ungeschützt in der Wüste umher gehen bis man, naja, ich denke die Message ist angekommen. Alles was wir tun können sind temporäre Störungen zu erzeugen, wenn wir uns weigern aktiv zur Balance beizutragen. Ersteres ist unangenehm, letzteres mühselig. Eine Wahl haben wir nicht wirklich.",
-        "function": "illustrating_limits_of_resistance",
-        "confidence": 0.98
+        "function": "illustrating_limits_through_examples",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page29_Segment5",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "claim_statement",
         "page": 29,
         "sequence": 5,
         "text": "Wie wenig wir da wirklich Einfluss haben, erschließt sich uns wenn wir erkennen, dass wir keines dieser Systeme aktiv und dauerhaft verändern können. Wir können nicht einfach entscheiden, unser Herz nur noch mit 30 Schlägen pro Minute zu betreiben, oder unsere",
-        "function": "arguing_limited_control",
-        "confidence": 0.96
+        "function": "introducing_limit_of_control",
+        "confidence": 0.94
       }
     ],
-    "free_text": "Sachbuchseite über Homöostase, Körperzwänge und begrenzten freien Willen"
+    "free_text": "Körperliche Balance, Überleben, begrenzter freier Wille"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:34:25.443956+00:00",
+    "processed_at": "2026-06-02T18:44:38.339160+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.86,
+    "document_type_confidence": 0.95,
     "category": "book",
-    "subcategory": "nonfiction",
+    "subcategory": "prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.82,
-      "reason": "A born-digital book page in philosophical or reflective prose is visible, with a single paragraph and no form or transactional structure.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "A born-digital page with continuous prose from a book is visible.",
       "matched_signals": [
         "book page",
-        "reflective prose",
-        "single paragraph"
+        "continuous prose",
+        "single paragraph text"
       ]
     },
     "date_range": {
@@ -52,12 +52,12 @@
     "segments": [
       {
         "segment_id": "Page18_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 18,
         "sequence": 1,
         "text": "Unser Körper ist ein Gigant. Ein dunkler Gigant, der hinter uns steht und den wir nur all zu gerne ignorieren und klein reden, zu unserem Nachteil wie wir sehen werden.",
-        "function": "metaphorical_characterization",
-        "confidence": 0.98
+        "function": "emphatic_characterization",
+        "confidence": 0.99
       }
     ],
     "free_text": "Körper als dunkler Gigant"

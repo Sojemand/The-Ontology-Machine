@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.93,
-    "needs_review": false,
-    "review_reason": null,
+    "model_confidence": 0.94,
+    "needs_review": true,
+    "review_reason": "The visible page ends mid-sentence; the final paragraph is truncated on this page.",
     "vision_used": true,
-    "processed_at": "2026-06-12T09:02:20.762798+00:00",
+    "processed_at": "2026-06-02T19:13:29.700769+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.96,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -25,13 +25,13 @@
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=087-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.9,
-      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The page is a born-digital prose page from a book-like publication.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "philosophical writing",
-        "book page"
+        "book page",
+        "continuous prose",
+        "multi-paragraph publication page"
       ]
     },
     "date_range": {
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,38 +56,38 @@
         "page": 87,
         "sequence": 1,
         "text": "Es gibt nun drei Wege, durch die sich der Inhalt und Zusammensetzung der symbolischen Welt verändern kann. Der erste ist der externe Weg, der durch äußere Einflüsse eine Veränderung bewirkt. Das Auftreten einer Krankheit zum Beispiel erzeugt neue Assoziationen, neue wahrgenommene Gefahren, neue Monster, die uns unsichtbar auflauern. Wie wir diese wahrnehmen bestimmt, wie wir mit ihnen umgehen und wie wir danach handeln. Aufmerksame Beobachter können sehen, wie diese Monster sich präsentieren oder uns präsentiert werden und wie sie die Menschen in ihrem Denken und Fühlen beeinflussen, ohne, dass sie sich dessen richtig bewusst werden. Wie gesagt, man kann die symbolische Welt eines Menschen sehr leicht beeinflussen, wenn man die Hebel kennt, an denen man ziehen muss.",
-        "function": "explains_external_influences_on_symbolic_world",
-        "confidence": 0.97
+        "function": "explanation_of_external_influence",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page87_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 87,
         "sequence": 2,
         "text": "Das Studium der Propaganda ist hier ein adäquates Mittel um zu verstehen, mit welcher Art von Symbolik hier gearbeitet wird und wie effektiv sie ist, wo ihre Grenzen sind und welchen Einfluss sie auf unsere Geschichte sowie unsere Gegenwart bereits hatte. Es ist ein lohnender Zeitvertreib, da uns diese Dinge permanent begegnen und je unruhiger die Zeiten, desto lauter werden sie und es schadet nie, sich ihnen gewahr zu sein, wenn auch nur um ihnen selbst nicht auf den Leim zu gehen.",
-        "function": "advocates_study_of_propaganda",
-        "confidence": 0.97
+        "function": "recommendation_for_critical_study",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page87_Segment3",
-        "unit_kind": "descriptive_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 87,
         "sequence": 3,
         "text": "Der zweite Weg ist jener, den ich mit dem Beispiel der flachen Erde vorgebracht habe. Dabei handelt es sich um eine bewusste Anstrengung, ausgehend aus dem Selbst, verbunden mit allen Schwierigkeiten, denen wir uns gegenüber sehen, wenn es um das flattrige Wesen unseres eigenen Gewahrseins geht. Es zeigt, dass wir sehr wohl Macht und Einfluss auf diese Welt ausüben können, wenn wir uns ihrer auch nur in Teilen gewahr werden.",
-        "function": "defines_internal_conscious_effort",
-        "confidence": 0.96
+        "function": "explanation_of_self_directed_change",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page87_Segment4",
-        "unit_kind": "instruction_step",
+        "unit_kind": "narrative_paragraph",
         "page": 87,
         "sequence": 4,
         "text": "Die beste Art dies zu studieren ist, den Wunsch zu entwickeln zu seinem größten Feind zu werden, sich zum Beispiel in seinen Ideologischen oder Politischen Gegner zu wandeln, vom überzeugten Kosmopoliten zum radikalen Nationalisten oder umgekehrt. Vom Individualisten zum Kollektivisten, vom Kapitalisten zum Kommunisten oder vom Anarchisten zum Staatsverehrer. Welche derzeitige Einstellung man auch immer gerade vertritt, so kann man zuerst die radikalste Form davon einnehmen, da dies zu Beginn der leichtere Pfad ist und anschließend beginnen, „den wahren Feind“ zu identifizieren. Haben wir das Ziel ausgemacht, beginnt der eigentliche Kampf, der lange Marsch durch Feindesland. Es beginnt mit dem Studium des Argumentationsraums und der anschließenden Auslotung der damit zusammenhängenden Symbolik. Man darf nur nie vergessen, dass man das auch tun will, sonst könnte man sich unversehens in den extremen Tiefen des aktuellen Raumes verirren uns sich mit einer Waffe in der Hand an der Seite von Separatisten wieder finden, deren",
-        "function": "proposes_method_of_adopting_opposing_worldview",
-        "confidence": 0.95
+        "function": "instructional_reflection_on_perspective_shift",
+        "confidence": 0.93
       }
     ],
-    "free_text": "Philosophische Buchseite über symbolische Welt, Propaganda und bewussten Perspektivwechsel."
+    "free_text": "Symbolische Welt, Propaganda, äußerer und innerer Wandel, ideologische Perspektivwechsel"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

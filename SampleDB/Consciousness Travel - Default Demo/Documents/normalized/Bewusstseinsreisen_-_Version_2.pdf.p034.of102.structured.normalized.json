@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:41:09Z",
+    "processed_at": "2026-06-02T18:51:42Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.95,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,15 +22,9 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Philosophical prose argues that humans have access to hidden possibilities within their mental and bodily nature. It invites even skeptical, science-minded readers to consider a form of inner insight described as a bridge to a divine light.",
-    "tags": [
-      "consciousness",
-      "philosophy",
-      "inner potential",
-      "divine light",
-      "skepticism"
-    ],
+    "document_title": null,
+    "description": "The text reflects on human capacities of consciousness and inner access beyond ordinary thought, describing hidden possibilities within the mind-machine and a spiritual dimension called divine light. It explicitly invites skeptical, science-minded readers to consider these ideas. The tone is philosophical and persuasive, centered on awakening and self-understanding.",
+    "tags": [],
     "people": [],
     "organizations": [],
     "locations": [],
@@ -40,67 +34,71 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Source text is German; translated summary and topic keywords into English.",
-      "Classified as theoretical discussion within book body content based on continuous philosophical prose."
-    ],
-    "recipient_primary": null,
-    "property_address": null
+      "No explicit title or chapter metadata visible.",
+      "Source language is German; summary translated into English."
+    ]
   },
   "content": {
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 34,
-      "topic_keywords": [
-        "consciousness",
-        "inner possibilities",
-        "mystery",
-        "divine light",
-        "skeptical readers"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "A rhetorical question opens the passage, followed by reflective prose about human capacities that reveal hidden possibilities. The author invites skeptical readers, including those oriented toward scientific disciplines, to consider inner mysteries and a possible divine light within the human being."
+        "paragraph_text": "The text asks what the capacities before us can do, then argues that humans have possibilities that do not grant superpowers but make hidden things within our mental machinery accessible.",
+        "text_content": "Human capacities can reveal hidden possibilities within the mind."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "It says this leads to mysteries tied to human becoming and to something within us that can rightly be called divine light.",
+        "text_content": "The passage links self-understanding to mystery and divine light."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Even readers devoted to knowledge and skeptical of vague claims are invited to take part and see the bridge to their own world.",
+        "text_content": "Skeptical readers are directly invited to engage with the argument."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Bewusstseinsreisen - Version 2; page 34; philosophical prose on hidden human possibilities, inner mystery, and divine light; invitation to skeptical readers."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Philosophical reflection on consciousness, hidden human potential, and divine light, with an invitation to skeptical readers."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.91,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.94,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

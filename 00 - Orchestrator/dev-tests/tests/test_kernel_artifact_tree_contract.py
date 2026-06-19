@@ -68,6 +68,20 @@ def test_validate_kernel_artifact_tree_reports_missing_folder(tmp_path: Path) ->
     assert "Semantic Release" in validated["output_refs"]["missing_paths"]
 
 
+def test_validate_kernel_artifact_tree_allows_gitkeep_marker_in_empty_input(tmp_path: Path) -> None:
+    root = tmp_path / "Artifact Tree"
+    create_artifact_tree(_create_request(root))
+    (root / "Input" / ".gitkeep").write_text("", encoding="utf-8")
+    request = _validate_request(root)
+    request["require_empty_input"] = True
+    request["request_fingerprint"] = _request_fingerprint(request)
+
+    validated = validate_artifact_tree(request)
+
+    assert validated["output_refs"]["is_valid"] is True
+    assert "input_not_empty" not in validated["output_refs"]["validation_errors"]
+
+
 def test_artifact_tree_contract_rejects_missing_request_fingerprint(tmp_path: Path) -> None:
     payload = _create_request(tmp_path / "Artifact Tree")
     payload.pop("request_fingerprint")

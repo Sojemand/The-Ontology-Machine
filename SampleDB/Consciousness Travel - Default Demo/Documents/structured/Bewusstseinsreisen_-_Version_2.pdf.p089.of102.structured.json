@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:03:11.360658+00:00",
+    "processed_at": "2026-06-02T19:14:18.745440+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "literature",
+    "subcategory": "philosophical_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -25,13 +25,13 @@
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=089-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.93,
-      "reason": "The page is a prose-heavy philosophical book page with continuous argumentative paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The visible page is a continuous prose page from a book-like document.",
       "matched_signals": [
+        "continuous prose",
         "book page",
-        "philosophical prose",
-        "continuous paragraphs"
+        "long-form paragraphs"
       ]
     },
     "date_range": {
@@ -56,7 +56,7 @@
         "page": 89,
         "sequence": 1,
         "text": "Maße beeinflussen können, haben diese Veränderungen keine verortbaren Ursachen. Sie beginnen, verändern unsere symbolische Welt, veranlassen uns zu Handlungssträngen die Mustern folgen und münden in beschreibbaren Ergebnissen.",
-        "function": "describe_causal_pattern",
+        "function": "describes_pattern_effects",
         "confidence": 0.95
       },
       {
@@ -65,7 +65,7 @@
         "page": 89,
         "sequence": 2,
         "text": "Wie man dieses Wirken am besten studieren könnte, darüber bin ich mir nicht im Klaren. Allerdings bin ich mit einiger Gewissheit davon überzeugt, dass ein einzelner Mensch, sollte er es versuchen, dies überhaupt nicht kann, da er zu vielen Beschränkungen unterliegt und er selbst diese Muster stets unbewusst auslebt, egal wie sehr er auch bemüht ist, diese zu erkennen. Neue Methoden der Beobachtung müssten geschaffen werden, die es jetzt noch nicht gibt. Was wir aber tun können ist, die Wege zumindest hierarchisch zu organisieren und sie somit für uns verdaulich zu systematisieren.",
-        "function": "reflect_on_methodological_limits",
+        "function": "methodological_reflection",
         "confidence": 0.98
       },
       {
@@ -74,8 +74,8 @@
         "page": 89,
         "sequence": 3,
         "text": "Alle drei Wege lassen sich demnach auch in Komplexitätsstufen einteilen. Der erste Weg, die externe Veranlassung, erzeugt nur relative einfache Konzepte, die einfache, eindimensionale Handlungsmuster hervor bringen können und kaum über denen von instinktiv gesteuerten Reaktionen liegen. Sie sind wie die ungeschriebenen Gesetze kultureller Handlungsoptionen, die den Rahmen des Akzeptierten abstecken. Sie sind einfach und besitzen keine größeren Handlungsbögen. Sie sind in der Tat so einfach und in sich geschlossen, dass sie selbst einem Traumphilosophen einsichtig erscheinen müssten.",
-        "function": "characterize_first_way",
-        "confidence": 0.98
+        "function": "characterizes_first_way",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page89_Segment4",
@@ -83,7 +83,7 @@
         "page": 89,
         "sequence": 4,
         "text": "Der zweite Weg, die bewusste und aktive Veränderung, eröffnet schon größere Handlungsstränge, die sich über Themenkomplexe erstrecken und bei entsprechender Mühe Zugang zu Weltbildern außerhalb des Eigenen ermöglicht. Er ist bereits so komplex, dass ein Traumphilosoph ihn wohl nicht mehr verstehen könnte, denn er setzt zumindest ein rudimentäres Verständnis der Funktionsweise der eigenen symbolischen Welt voraus. Diese Gesetze sind einem Traumphilosophen nicht mehr zugänglich. Tatsächlich passt dieser Weg sehr gut in unsere wache Welt, bildet er doch vollständig die Wahrnehmung unseres Wachzustandes und dessen eigene Gesetze ab und auch das, was wir selbst noch in der Lage sind zu verstehen und zu überblicken.",
-        "function": "characterize_second_way",
+        "function": "characterizes_second_way",
         "confidence": 0.98
       },
       {
@@ -92,7 +92,7 @@
         "page": 89,
         "sequence": 5,
         "text": "Der dritte Weg, der Weg der Archetypen, bildet eine noch weitere Stufe der Komplexität, die uns in unserem Wachbewusstsein nicht mehr zugänglich ist. Die Veränderungen, die durch diese Muster in dem Leben eines Menschen hervorgerufen werden, beschränken sich nicht auf das Erkennen und Verstehen der verschiedenen Sinneserfahrungen und Weltanschauungen des Selbst oder anderer Menschen, sondern erzeugt aktiv Handlungen,",
-        "function": "introduce_third_way",
+        "function": "introduces_third_way",
         "confidence": 0.96
       }
     ],

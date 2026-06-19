@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:40:16.963643+00:00",
+    "processed_at": "2026-06-02T18:50:52.757798+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.99,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,30 +22,29 @@
   },
   "context": {
     "page_number": 32,
-    "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=032-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.93,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "A continuous prose page from a book is visible.",
       "matched_signals": [
-        "book page",
-        "continuous paragraph prose",
-        "philosophical writing"
+        "continuous prose",
+        "book page"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "document_page_count": 102,
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
-        "main_text"
+        "single column"
       ],
       "form_fields": []
     },
@@ -58,8 +57,8 @@
         "page": 32,
         "sequence": 1,
         "text": "erfahren werden. Es demonstriert uns auch, dass Körper und Geist auf eine Art miteinander verflochten sind, die weit tiefer greift als wir uns das denken oder eingestehen wollen. Unser Bewusstsein, oder besser, das Erleben der Welt und des Ichs durch die Augen der Maschine, ist derart abhängig von der Art der Funktion der Maschine, dass sich kaum eine vernünftige Grenze ziehen lässt, zwischen dem was Maschine und was Erleben ist. Während der Flucht, hast du nicht einen einzigen Gedanken an das verschwendet, was dir noch vor und während deines kleinen Trainings als wichtig erschien. Alle Vorhaben und Sorgen, ja deine gesamte Weltanschauung haben sich, als der Terror über dich herein brach, so gründlich verändert, dass du jetzt eine völlig andere Person bist. Du hast von einem Augenblick auf den anderen, anders gefühlt, anders gedacht und anders gehandelt, ganz so, als hätte eine andere Person plötzlich von dir Besitz ergriffen.",
-        "function": "argues_mind_body_entanglement",
-        "confidence": 0.98
+        "function": "argues_body_mind_entanglement",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page32_Segment2",
@@ -68,16 +67,16 @@
         "sequence": 2,
         "text": "Wenn wir uns kurz darüber bewusst werden, was unseren Körper antreibt und wie unser Bewusstsein damit verbunden ist, so müssen wir auch erkennen, dass es sich hier nicht um eine Einbahnstraße handelt. Unsere physischen Zustände wirken sich direkt auf unser mentales Erleben aus. Eine aus der Balance gebrachte Gehirnchemie, geht mit allerlei Beschwerden einher, von Depressionen, über irrationales Verhalten, bis zu Wahnvorstellungen und was es da noch so alles gibt. Alle Arten des Mangels oder der Überversorgung im gesamten Körper, haben in irgendeiner Art auch Auswirkungen auf den Geist. Alle Schäden und Störungen im biologischen Ablauf, haben Auswirkungen auf unsere Wahrnehmung und unser Verhalten. Im Grunde macht es wenig Sinn eine Grenze zwischen Geist und Materie ziehen zu wollen, zumindest nicht im traditionellen Sinn.",
         "function": "explains_bidirectional_influence",
-        "confidence": 0.99
+        "confidence": 0.98
       },
       {
         "segment_id": "Page32_Segment3",
-        "unit_kind": "descriptive_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 32,
         "sequence": 3,
         "text": "Solche Wechselbeziehungen wirken bereits bei winzigen Kausalketten, die zum Beispiel mit einem Schluck Kaffee beginnen. Das Koffein darin erhöht unseren Herzschlag ein wenig, verengt die Blutgefäße, lässt ein wenig Dopamin im Gehirn zirkulieren. Wir sehen das als ein Morgenritual an, welches unsere Gewohnheiten befriedigt und wir uns selbst daraufhin wohl fühlen. Dieser kleine Chemiekick verursacht, oder trägt zumindest dazu bei, unsere Einstellung für den kommenden Tag spürbar zu beeinflussen. Verpassen wir unseren geliebten Kaffee, beschweren sich unsere Gewohnheiten, es bleibt der Dopaminkick aus, es leidet die Laune und schon hat der gesamte Tag, samt unseren Entscheidungen und Gefühlen, eine andere Richtung eingeschlagen.",
         "function": "illustrates_with_coffee_example",
-        "confidence": 0.99
+        "confidence": 0.98
       },
       {
         "segment_id": "Page32_Segment4",
@@ -85,11 +84,11 @@
         "page": 32,
         "sequence": 4,
         "text": "Aber ist das nicht schon wieder ein weiteres Paradox? Wenn das was ich fühle und denke und was mein Körper mir erlaubt zu tun, das Produkt einer ausgefeilten Balance ist und ich im",
-        "function": "introduces_paradox",
+        "function": "raises_paradox",
         "confidence": 0.95
       }
     ],
-    "free_text": "Philosophischer Fließtext zu Körper, Geist, Bewusstsein, Gehirnchemie und Kaffee-Beispiel"
+    "free_text": "Philosophischer Fließtext zu Körper, Geist, Bewusstsein und Kausalität"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

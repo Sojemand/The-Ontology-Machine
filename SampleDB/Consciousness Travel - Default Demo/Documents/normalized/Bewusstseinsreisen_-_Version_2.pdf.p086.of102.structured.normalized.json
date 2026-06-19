@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:02:05Z",
+    "processed_at": "2026-06-02T19:13:13Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.98,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical chapter section argues that perceptions and opinions arise from each person's symbolic framework and argument space. It uses perspective shifting to show how parallel realities can be compared and how contradictions depend on what is being viewed. The page concludes that the perceived other is often a projection of the self.",
+    "document_title": "Die Hände die uns führen",
+    "description": "Reflective prose on symbolic worldviews, perspective-taking, and how changing symbolism changes interpretation and behavior. It argues that each person constructs a coherent argument space that shapes their view of others and themselves. The passage concludes that rejection of others often reflects a shadow of the self.",
     "tags": [
       "symbolism",
       "perspective",
-      "contradiction",
-      "self-projection",
-      "philosophy"
+      "self-reflection",
+      "worldview",
+      "otherness"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "German philosophical prose page with a section title and reflective argumentation.",
-      "Normalized raw category/subcategory to the closest allowed body-content theoretical-discussion view."
+      "Promoted visible title from the page heading.",
+      "Classified as philosophical nonfiction with a symbolism focus based on the reflective prose."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,53 +57,67 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
+        "title_text",
         "work_title",
-        "language",
         "page_number",
-        "section_title",
-        "topic_keywords"
+        "language",
+        "section_heading"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "title_text": "Die Hände die uns führen",
+      "work_title": "Die Hände die uns führen",
       "page_number": 86,
-      "section_title": "Die Hände die uns führen",
-      "topic_keywords": [
-        "symbolism",
-        "perspective",
-        "contradiction",
-        "self-projection",
-        "argument framework",
-        "parallel realities"
-      ]
+      "language": "de",
+      "section_heading": "Die Hände die uns führen"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "heading_block",
         "_row_index": 0,
-        "paragraph_text": "The page develops a reflection on how symbolic frameworks shape opinion, perception, and behavior. It argues that conscious perspective shifts reveal contradictions in one model by comparing it with another, and that resistance toward others often reflects the self."
+        "heading_text": "Die Hände die uns führen",
+        "text_content": "Die Hände die uns führen"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "A small example about a flat Earth is used to explain a universal mechanism: each person forms opinions through their own symbolism and argumentative space, linking it coherently to the real world. This makes perspective-taking difficult and helps explain frustration with the world's absurdity.",
+        "text_content": "A small example about a flat Earth is used to explain a universal mechanism: each person forms opinions through their own symbolism and argumentative space, linking it coherently to the real world. This makes perspective-taking difficult and helps explain frustration with the world's absurdity."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Repeated conscious journeys can create parallel symbolic worlds and reality models that can be compared without rejecting the old one. By moving between positions, one can see contradictions as arising from the perspective being occupied rather than from an absolute truth.",
+        "text_content": "Repeated conscious journeys can create parallel symbolic worlds and reality models that can be compared without rejecting the old one. By moving between positions, one can see contradictions as arising from the perspective being occupied rather than from an absolute truth."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The passage concludes that the urge for consistency and the rejection of others are projections of the self, ending with the claim that the evil person is oneself.",
+        "text_content": "The passage concludes that the urge for consistency and the rejection of others are projections of the self, ending with the claim that the evil person is oneself."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2 in German. Philosophical reflection on symbolism, perspective shifting, contradictions, and self-projection."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Book page from Die Hände die uns führen. Philosophical reflection on symbolism, perspective-taking, and self-projection; the text explains how changing symbolic frameworks changes behavior and interpretation."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.97,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.97 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.96,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

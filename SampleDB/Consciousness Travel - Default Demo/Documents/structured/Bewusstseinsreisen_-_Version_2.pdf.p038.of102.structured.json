@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:42:37.193984+00:00",
+    "processed_at": "2026-06-02T18:53:44.379603+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.95,
-      "reason": "The page is a born-digital nonfiction book page with continuous prose and a section heading.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The visible page is a born-digital book page with continuous prose, a section heading, and no transactional or form-like signals.",
       "matched_signals": [
+        "book page",
         "continuous prose",
-        "section heading",
-        "nonfiction book page"
+        "section heading"
       ]
     },
     "date_range": {
@@ -44,9 +44,7 @@
   "content": {
     "structure": {
       "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -54,24 +52,24 @@
     "segments": [
       {
         "segment_id": "Page38_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 38,
         "sequence": 1,
         "section": null,
         "label": null,
         "text": "Womöglich erkennt ihr auch, wie sehr ihr Sklave eurer Biologie seid und ihr unter ihrem Einfluss gegen eure eigentlichen Interessen handelt, die euch im „nüchternen“ Zustand als erstrebenswert erscheinen. Vielleicht beginnt ihr euch zu fragen, warum ihr so leicht Opfer eures Sexualtriebes werdet und euer sonst so gutes Urteilsvermögen euch währenddessen so schamlos im Stich lässt. Ich habe bewusst diese Art Szenario gewählt, weil besonders Männer, wenn es um Frauen geht, einem derart starken biologischen Instinkt unterliegen, der sie entgegen ihrer üblichen Natur für alle sichtbar verrückt und irrational handeln lässt, wenn sich auch nur die kleinste Aussicht auf sexuelle Kontakte zum anderen Geschlecht ergibt. Besonders Männer sollten sich darüber im Klaren sein, dass Frauen einem solchen Instinkt nicht unterliegen und sie nicht nur sehr wohl um die berauschenden Eigenschaften ihrer sexuellen Reize wissen, sondern diese auch sehr gezielt einsetzen um bestimmte Situationen in ihrem Sinne zu beeinflussen, oft zum Nachteil der männlichen Seite der Gleichung. Ja, manchmal nicht nur zum Nachteil, sondern gleich zum völligen Ruin eines ganzen Lebens. Weshalb es mir auch passend erscheint, ein Beispiel zu konstruieren, der eines der größten Kämpfe widerspiegelt, den Männer Zeit ihres Lebens ausfechten. Gott sei dank lässt dieser Drang mit zunehmendem Alter nach, aber verschwinden, das tun seine Wurzeln selbst bis ins hohe Alter nicht.",
-        "function": "argument_about_biological_drives",
-        "confidence": 0.97
+        "function": "argument_about_biological_drive",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page38_Segment2",
-        "unit_kind": "question_prompt",
+        "unit_kind": "narrative_paragraph",
         "page": 38,
         "sequence": 2,
         "section": null,
         "label": null,
         "text": "Lassen wir jedoch das Lamentieren über evolutionäre Zwänge hinter uns, und wenden wir uns wieder der eigentlichen Frage zu: Was genau haben wir denn getan als wir diese zusätzliche Informationsebene angezapft haben und vor allem wie haben wir das getan und warum sollte uns das kümmern?",
-        "function": "topic_shift_to_core_question",
+        "function": "topic_transition",
         "confidence": 0.98
       },
       {
@@ -79,7 +77,7 @@
         "unit_kind": "title_line",
         "page": 38,
         "sequence": 3,
-        "section": "Die Quelle des Lichts",
+        "section": null,
         "label": null,
         "text": "Die Quelle des Lichts",
         "function": "section_heading",
@@ -93,11 +91,11 @@
         "section": "Die Quelle des Lichts",
         "label": null,
         "text": "Zuerst müssen wir die Frage beantworten, was uns überhaupt befähigt an Informationen über irgendetwas zu gelangen. Oder besser gefragt, was befähigt den Zwerg an Informationen zu gelangen? Der Riese hat dafür seine Augen, Nase und den Rest seiner physischen Werkzeuge zur Verfügung. Aber ihr denkt jetzt sicher, Moment mal, so bekomme doch auch ich meine Infos über die Welt. Falsch! Du, der Zwerg, das Produkt der Maschine, bekommst die Informationen von der Maschine weitergereicht, nachdem sie durch die Mühlen der Mechanik gefiltert und für dich verzehrfähig aufbereitet wurden. Du erlangst sie, oder wirst dir über sie durch etwas anderes bewusst. Dazu gehen wir einmal zurück und erinnern uns an den Moment, an dem wir in den Spiegel blickten, oder falls ihr das noch nicht getan habt und einfach weiter gelesen habt, dann möchte ich euch an dieser Stelle noch einmal motivieren, dies nachzuholen.",
-        "function": "explanation_of_perception",
-        "confidence": 0.98
+        "function": "conceptual_explanation",
+        "confidence": 0.97
       }
     ],
-    "free_text": "Biologie, Sexualtrieb, Kernfrage, Abschnitt „Die Quelle des Lichts“, Wahrnehmung und Information"
+    "free_text": "Essayseite über Biologie, Instinkt und Abschnitt „Die Quelle des Lichts“"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

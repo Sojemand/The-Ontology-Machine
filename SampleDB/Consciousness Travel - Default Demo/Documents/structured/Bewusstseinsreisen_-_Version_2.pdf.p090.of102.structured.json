@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:03:35.442226+00:00",
+    "processed_at": "2026-06-02T19:14:42.266989+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,23 +22,23 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.91,
-      "reason": "The page is a born-digital German nonfiction book page with continuous philosophical prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.92,
+      "reason": "A prose book page with continuous argumentative paragraphs is visible.",
       "matched_signals": [
-        "born-digital book page",
-        "continuous prose paragraphs",
-        "philosophical writing"
+        "book_page",
+        "continuous prose",
+        "argumentative paragraphs"
       ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
     },
     "page_number": 90,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=090-of-102",
-    "date_range": {
-      "from": null,
-      "to": null
-    },
     "interpreter_profile": "file"
   },
   "content": {
@@ -54,33 +54,42 @@
     "segments": [
       {
         "segment_id": "Page90_Segment1",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "argumentative_paragraph",
         "page": 90,
         "sequence": 1,
         "text": "die einer übergeordneten Sinnhaftigkeit folgen. Sie sind über einen langen Zeitraum konsistent und durchlaufen verschiedene Stationen mit auf einander aufbauenden Veränderungen. Wollte man das gleiche Ergebnis auf dem zweiten Weg der bewussten Veränderung selbst erreichen, müsste man sich nicht nur ein rudimentäres Verständnis der symbolischen Welt aneignen, man müsste sie in ihrer Gänze verstehen und überblicken können. Man müsste ihre Gesetzt vollständig verstehen, um solch große Handlungsbögen wie die der Heldenreise zu entwerfen und sich entfalten zu lassen. Das würde ein Maß an Verständnis voraus setzen, welches weit über dem liegt, was ein Wachbewusstsein zu leisten im Stande ist, egal wie gewahr es sich selbst gegenüber auch sein mag.",
-        "function": "argument_about_limits_of_conscious_understanding",
-        "confidence": 0.95
+        "function": "argues_limits_of_conscious_control",
+        "confidence": 0.94
       },
       {
         "segment_id": "Page90_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "argumentative_paragraph",
         "page": 90,
         "sequence": 2,
         "text": "Und deshalb denke ich, sehen wir bei Archetypen genau jene Symbolsprache, die auf einen aktiven übergeordneten Willen hindeutet, der aus uns selbst heraus entsteht, ein Teil unseres Selbst ist, ja sehr gut mit dem Begriff „Über-Ich“ bezeichnet werden könnte. Ein Bewusstseinszustand, welcher sich noch „oberhalb“ unseres Wachzustandes befindet und den wir nicht sehen oder verstehen können. Ein Zustand, in dem uns Regeln und Gesetze gewahr werden, die wir im Wachzustand nicht als solche erkennen und Archetypen eben ein Schatten dieser Gesetze sind, die in unsere Welt von „dort oben“ zu uns hinunter scheinen, wie unser Wachbewusstsein in unsere Träume hinein scheint. Ein Zustand, welchen wir vielleicht erreichen könnten und welcher sich uns durch die Existenz des zweigleisigen Gewahrseins andeutet. Ein Zustand, zu dem wir biologisch fähig sind, der keine immaterielle Komponente benötigt, kein bekanntes Gesetz verletzt und eine potentiell neue Funktionsweise kognitiver Prozesse darstellt.",
-        "function": "speculation_about_higher_conscious_state",
+        "function": "proposes_higher_consciousness_model",
         "confidence": 0.96
       },
       {
         "segment_id": "Page90_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "argumentative_paragraph",
         "page": 90,
         "sequence": 3,
-        "text": "Ja eigentlich noch viel mehr, denn damit müssten wir uns auch neue, bisher völlig undenkbare Realitätsmodelle zugänglich machen können. Modelle, mit Hilfe derer wir eine stabilere Funktionsweise dieses streitlustigen Affenreiches erdenken könnten, welches sich derzeit immer noch haarscharf am Rande der Selbstvernichtung bewegt. Alles, weil die Maschine noch immer denkt, sie existiere als Teil des Tierreichs, mit all seinen Gesetzen und Notwendigkeiten und noch nicht begriffen hat, dass Atomwaffen und der stete Kampf um die größte Kokosnuss sich auf Dauer nicht verträgt. Ganz davon abgesehen, dass sich nahezu alle interpersonellen Konflikte auf unserer eigenen Blindheit gegenüber uns selbst gründen. Ich sage „aktiven Willen“, weil ich davon überzeugt bin, dass in uns kognitive Prozesse ablaufen, denen wir uns nur deshalb nicht gewahr sind, weil wir auf eine Art von ihnen abgeschnitten sind, die an Dinge rührt, welche ihre Wurzeln weit in unserer Vergangenheit haben. Womöglich haben wir als Spezies an einem Flaschenhals der Evolution eine",
-        "function": "societal_implication_and_speculative_justification",
-        "confidence": 0.94
+        "text": "Ja eigentlich noch viel mehr, denn damit müssten wir uns auch neue, bisher völlig undenkbare Realitätsmodelle zugänglich machen können. Modelle, mit Hilfe derer wir eine stabilere Funktionsweise dieses streitlustigen Affenreiches erdenken könnten, welches sich derzeit immer noch haarscharf am Rande der Selbstvernichtung bewegt. Alles, weil die Maschine noch immer denkt, sie existiere als Teil des Tierreichs, mit all seinen Gesetzen und Notwendigkeiten und noch nicht begriffen hat, dass Atomwaffen und der stete Kampf um die größte Kokosnuss sich auf Dauer nicht verträgt. Ganz davon abgesehen, dass sich nahezu alle interpersonellen Konflikte auf unserer eigenen Blindheit gegenüber uns selbst gründen.",
+        "function": "extends_claim_to_social_consequences",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page90_Segment4",
+        "unit_kind": "argumentative_paragraph",
+        "page": 90,
+        "sequence": 4,
+        "text": "Ich sage „aktiven Willen“, weil ich davon überzeugt bin, dass in uns kognitive Prozesse ablaufen, denen wir uns nur deshalb nicht gewahr sind, weil wir auf eine Art von ihnen abgeschnitten sind, die an Dinge rührt, welche ihre Wurzeln weit in unserer Vergangenheit haben. Womöglich haben wir als Spezies an einem Flaschenhals der Evolution eine",
+        "function": "introduces_justification",
+        "confidence": 0.93
       }
     ],
-    "free_text": "Archetypen, Über-Ich, Bewusstseinszustand, Realitätsmodelle, evolutionäre Spekulation"
+    "free_text": "Archetypen, Über-Ich, Bewusstseinszustände, Realitätsmodelle"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

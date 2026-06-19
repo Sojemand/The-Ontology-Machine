@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:46:50Z",
+    "processed_at": "2026-06-02T18:58:18Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.99,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,11 +23,12 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical book page on forgetting and memory as aspects of heightened awareness. It introduces the section \"Perlen in der Dunkelheit\" and cites Ouspensky and Gurdjieff while contrasting fleeting recollection with vivid, enduring impressions.",
+    "description": "Reflective prose on forgetting, memory, and widened awareness. It contrasts fleeting self-observation with durable impressions and cites Ouspensky and Gurdjieff in the section \"Perlen in der Dunkelheit\".",
     "tags": [
-      "forgetting",
       "memory",
+      "forgetting",
       "awareness",
+      "self-observation",
       "Ouspensky",
       "Gurdjieff"
     ],
@@ -43,69 +44,98 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Source title inferred from file name.",
-      "Section heading translated to English."
+      "Chapter-like prose page with section heading 'Perlen in der Dunkelheit'.",
+      "Source language is German."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "single_column_text",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "section_heading": "Perlen in der Dunkelheit",
       "page_number": 48,
-      "section_heading": "Pearls in the Darkness",
-      "topic_keywords": [
-        "forgetting",
-        "memory",
-        "awareness",
-        "heightened awareness",
-        "impressions"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "Forgetting interrupts effort and leaves only scattered recollections, even when a task seemed momentarily successful. The section \"Pearls in the Darkness\" develops a theory of memory as sparse episodes separated by emptiness, contrasting vague memories with deeply imprinted ones and linking the discussion to Ouspensky and Gurdjieff."
+        "heading_text": "Perlen in der Dunkelheit",
+        "page_number": 48,
+        "text_content": "Perlen in der Dunkelheit"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Momentary success is quickly forgotten, leading to renewed frustration and a sense that the effort was wasted.",
+        "text_content": "Momentary success is quickly forgotten, leading to renewed frustration and a sense that the effort was wasted."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "A later intention is also forgotten almost immediately, along with what was meant to be done.",
+        "text_content": "A later intention is also forgotten almost immediately, along with what was meant to be done."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Memory is described as sparse and episodic, with rare vivid impressions standing out against a field of forgetting, and persistence is presented as the only way to work through it.",
+        "text_content": "Memory is described as sparse and episodic, with rare vivid impressions standing out against a field of forgetting, and persistence is presented as the only way to work through it."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "A widened awareness is said to reveal another striking property, reported through Ouspensky and Gurdjieff and confirmed by the author's own repeated observation.",
+        "text_content": "A widened awareness is said to reveal another striking property, reported through Ouspensky and Gurdjieff and confirmed by the author's own repeated observation."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "Personal life memories are characterized as sparse, uneven, and composed of two different qualities: vague, hard-to-place recollections and more deeply impressed experiences.",
+        "text_content": "Personal life memories are characterized as sparse, uneven, and composed of two different qualities: vague, hard-to-place recollections and more deeply impressed experiences."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on forgetting, memory, and heightened awareness in the section \"Pearls in the Darkness\"; references Ouspensky and Gurdjieff."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Book page from Bewusstseinsreisen - Version 2, section Perlen in der Dunkelheit. Reflective prose on forgetting, memory, widened awareness, and the contrast between vague and deeply impressed recollections."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.95,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

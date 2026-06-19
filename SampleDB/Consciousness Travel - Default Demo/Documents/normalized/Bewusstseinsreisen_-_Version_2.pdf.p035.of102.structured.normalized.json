@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.98,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:41:33Z",
+    "processed_at": "2026-06-02T18:52:19Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.98,
-    "category": "book_content",
-    "subcategory": "chapter_section",
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A chapter in a German philosophical book discusses freedom, information access, and self-knowledge through the contrast between a \"machine\" and a \"giant.\" It opens Chapter 3, \"The Light of Awareness,\" in the section \"The Excited Monkey,\" and uses an illustrative scenario about a young man choosing whether to pursue a woman or preserve his resources.",
+    "description": "Chapter 3, “The Light of Awareness,” introduces a section on the “excited ape” and argues that freedom should be understood through access to information rather than escape from the self. It uses a dwarf-and-giant metaphor to reframe human agency as growth within the conditions that make experience possible. A young man’s decision-making under sexual attraction is used as an illustrative example of limited but real choice.",
     "tags": [
-      "freedom",
-      "information",
-      "self-knowledge",
-      "philosophy",
-      "illustrative scenario"
+      "consciousness",
+      "free will",
+      "agency",
+      "information access",
+      "selfhood"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Mapped raw category and subcategory to the closest active-profile book body content chapter section.",
-      "Translated visible German headings into English in the summary and field values."
+      "Translated visible German headings and prose into English control-language values.",
+      "Mapped raw category to nonfiction philosophy and subcategory to philosophy of consciousness."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,55 +57,74 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
+        "chapter_heading",
         "chapter_number",
         "chapter_title",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
-      "page_number": 35,
+      "chapter_heading": "Chapter 3 – The Light of Awareness",
       "chapter_number": "3",
       "chapter_title": "The Light of Awareness",
-      "section_heading": "The Excited Monkey",
-      "topic_keywords": [
-        "freedom",
-        "information",
-        "self-knowledge",
-        "agency"
-      ]
+      "section_heading": "The Excited Ape",
+      "page_number": 35,
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "chapter_heading",
         "_row_index": 0,
-        "paragraph_text": "The page reframes freedom as access to information and self-knowledge rather than escape from the system. It develops this argument through a young man's choice scenario about pursuing a woman or conserving his money and energy."
+        "heading_text": "Chapter 3 – The Light of Awareness",
+        "page_number": 35,
+        "text_content": "Chapter 3 – The Light of Awareness"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "The Excited Ape",
+        "page_number": 35,
+        "text_content": "The Excited Ape"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Having already discussed the machine, the text reframes free will by asking what “free” should mean within the machine. It contrasts childish escape fantasies with a mature recognition that experience depends on the larger system and then proposes that greater freedom may come from increasing access to information.",
+        "text_content": "Having already discussed the machine, the text reframes free will by asking what “free” should mean within the machine. It contrasts childish escape fantasies with a mature recognition that experience depends on the larger system and then proposes that greater freedom may come from increasing access to information."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The author introduces two scenarios to test what information is actually available to a self and uses a young man’s choice under sexual attraction as an example of constrained decision-making. The passage argues that freedom can be described by the amount of self-knowledge and accessible information that a person has.",
+        "text_content": "The author introduces two scenarios to test what information is actually available to a self and uses a young man’s choice under sexual attraction as an example of constrained decision-making. The passage argues that freedom can be described by the amount of self-knowledge and accessible information that a person has."
       }
     ],
-    "free_text": "book_page book_content chapter_section Chapter 3 The Light of Awareness; section The Excited Monkey; freedom, information, self-knowledge, agency; page 35"
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Bewusstseinsreisen - Version 2; Chapter 3, The Light of Awareness; The Excited Ape; free will, freedom, information access, self-knowledge, young man example"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.96,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.96 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.89,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.89 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=11; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-11."
     }
   }
 }

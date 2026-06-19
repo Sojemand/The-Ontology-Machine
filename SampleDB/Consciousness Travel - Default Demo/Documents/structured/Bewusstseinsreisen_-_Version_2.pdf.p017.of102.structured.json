@@ -2,48 +2,48 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:34:16.237015+00:00",
+    "processed_at": "2026-06-02T18:44:27.981843+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "literature",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 17,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=017-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.92,
-      "reason": "A nonfiction book page in philosophical writing is visible, consisting of continuous prose paragraphs without form fields or transactional content.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "A born-digital prose page from a book is visible.",
       "matched_signals": [
+        "book_page",
         "continuous prose paragraphs",
-        "nonfiction book page",
-        "philosophical writing"
+        "born-digital page layout"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 17,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=017-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text",
+      "type": "single_column_text_page",
       "columns": [
         "main_text"
       ],
@@ -54,42 +54,42 @@
     "segments": [
       {
         "segment_id": "Page17_Segment1",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 17,
         "sequence": 1,
         "text": "Wir erinnern uns, dass unser Primär Antrieb darin besteht, uns gegenüber stets Widerspruchsfrei zu sein? Der einfachste Weg dies zu erreichen ist, die Geschichte erst im Nachhinein zu konstruieren und alle Erklärungen den Fakten so anzupassen, dass sie nahtlos, plausibel und Widerspruchsfrei sind. Wir kommentieren unser gesamtes Leben auf die gleiche Weise wie ein Börsenkommentator und wie das Geschnatter des Börsenkommentators nichts mit der Wirklichkeit zu tun hat, so beschreiben auch wir unser eigenes Sein uns selbst und Anderen gegenüber auf eine Weise, die keinerlei Grundlage in unserer bewusst wahrgenommenen Wirklichkeit hat.",
-        "function": "argues_self_narration_is_retrospective_fabrication",
-        "confidence": 0.96
+        "function": "critique_of_self_narration",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page17_Segment2",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 17,
         "sequence": 2,
         "text": "Wir halluzinieren den Sinn unseres Lebens herbei, weil wir den Schmerz der Abwesenheit von Gewissheit und Konsistenz nicht ertragen können. Du kannst schließlich deine Last nur tragen, wenn du dir gewiss bist, dass der Weg solide ist und am Ende etwas auf dich wartet, was deine Mühen aufwiegt. Damit haben die Neurowissenschaften endlich zur Mythologie aufgeschlossen und beschreiben die Welt und unser Sein auf die gleiche Weise wie es die Bibel oder das Griechische Pantheon es tut. Sie benutzen nur eine andere Sprache. Das eine nutzt Symbolik, das Andere materielle Systematik.",
-        "function": "compares_neuroscience_with_mythology",
+        "function": "comparison_of_neuroscience_and_mythology",
         "confidence": 0.97
       },
       {
         "segment_id": "Page17_Segment3",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 17,
         "sequence": 3,
         "text": "Vielleicht wird der Leser nun auch verstehen, weshalb ich die Neurowissenschaften hier als Zeugen geladen habe. Sie ist ein starker Advokat all jener Dinge, die sich in Mythen und antiker Symbolik verbergen und auch wenn es einem wissenschaftlich geprägten Menschen ein Graus sein muss, ernsthaft über den Fall aus dem Paradies zu reden, so bietet sie doch auch diesen Menschen einen Einblick in diese Welt voll von Monstern und Dämonen, die uns verführen und sich gegen die göttliche Ordnung stellen. Man muss sich nur gewahr sein, dass man solche Dinge auch anders beschreiben kann und sie dann auf einmal eine sehr reale Grundlage in unserem Leben bekommen.",
-        "function": "justifies_use_of_neuroscience_as_interpretive_witness",
-        "confidence": 0.97
+        "function": "justification_of_interpretive_framework",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page17_Segment4",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 17,
         "sequence": 4,
         "text": "Bevor wir allerdings weiter in die Phänomene des Geistes dringen, müssen wir uns erst einmal etwas anderem zuwenden. Unserer Materie, also unserem Körper. Wir können nicht sinnvoll darüber reden, auf welche Art wir uns selbst in unseren Illusionen fangen, wenn wir uns nicht gewahr sind, wie unser Körper hier mit hinein spielt. Wir mögen denken, unser Körper sei uns Untertan und wir der Fahrer der bestimmt, wohin unser Fleisch geht und was es will, aber ohne zumindest ein Gefühl dafür zu haben, mit was wir es zu tun haben, wird uns etwas Essentielles auf unserer Reise fehlen.",
-        "function": "introduces_shift_to_body_as_next_topic",
+        "function": "transition_to_body_as_topic",
         "confidence": 0.97
       }
     ],
-    "free_text": "Philosophische Buchseite über Selbstdeutung, Mythologie, Neurowissenschaften und Körper"
+    "free_text": "Essayseite über Selbstdeutung, Neurowissenschaften, Mythologie und den Körper"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

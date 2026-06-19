@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:40:26Z",
+    "processed_at": "2026-06-02T18:51:01Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.99,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Philosophical prose argues that mind and body are deeply intertwined and that mental experience depends on physical states and brain chemistry. It illustrates the point with examples such as terror during flight and the effects of coffee on mood and decision-making.",
+    "document_title": null,
+    "description": "Reflective prose argues that consciousness, thought, and bodily states are deeply interwoven. It uses brain chemistry, illness, and coffee as examples of how physical conditions shape mood, perception, and behavior.",
     "tags": [
-      "mind-body relation",
       "consciousness",
+      "mind-body relation",
       "brain chemistry",
-      "philosophical argument",
-      "coffee example"
+      "perception",
+      "philosophy"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Source language is German.",
-      "Work title inferred from file name."
+      "Source text is German; summary translated into English.",
+      "No explicit book title or chapter heading visible in the provided extract."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,54 +57,59 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 32,
-      "topic_keywords": [
-        "mind-body relation",
-        "consciousness",
-        "brain chemistry",
-        "coffee example"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "Mind and body are presented as deeply interwoven, with consciousness and perception shaped by the machine-like functioning of the body. The page argues for a bidirectional link between physical states and mental experience, using terror and a coffee example to show how bodily chemistry can alter mood, behavior, and worldview."
+        "page_number": 32,
+        "text_content": "Page 32",
+        "paragraph_text": "Philosophical prose on the interdependence of body, mind, and consciousness."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "The text introduces a paradox about whether thought, feeling, and action are simply the product of bodily balance."
+        "paragraph_text": "Body and mind are presented as deeply intertwined, with consciousness dependent on the functioning of the body. Physical states, including brain chemistry and bodily imbalance, directly affect perception, behavior, mood, and mental experience."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "A coffee example illustrates how small causal chains can alter the day by changing heart rate, dopamine, habits, and decisions."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 3,
+        "text_content": "A paradox is raised about whether feelings, thoughts, and actions are determined by this balance."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2 on the mind-body relation, consciousness, brain chemistry, and the effect of coffee on mood and behavior."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness German book page on philosophy of consciousness and the mind-body relation. Body states, brain chemistry, and small causal triggers such as coffee are used to show how physical conditions shape awareness, mood, and behavior."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:43:49.934953+00:00",
+    "processed_at": "2026-06-02T18:54:55.335362+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_page",
+    "document_type_confidence": 0.98,
+    "category": "literature",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,28 +22,28 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.91,
-      "reason": "A continuous nonfiction book page with philosophical-explanatory prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.88,
+      "reason": "A continuous prose page from a book is visible.",
       "matched_signals": [
         "continuous prose",
-        "book page layout",
-        "philosophical writing"
+        "book page",
+        "narrative/expository paragraphs"
       ]
     },
     "page_number": 41,
+    "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=041-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
-    "document_page_count": 102,
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [],
       "form_fields": []
     },
@@ -56,7 +56,7 @@
         "page": 41,
         "sequence": 1,
         "text": "Atmung“ überhaupt gibt. Wir erinnern uns jedes mal auf Neue, dass wir bewusst atmen können, wenn unser Hirn uns die Kontrolle aufdrängt, weil wir doch bitte stärker und tiefer atmen sollen, oder wir uns bewusst entscheiden es zu tun. Das hört sich verrückt an, ist aber eine tägliche Realität und ein netter Beweis, wie blind wir gegenüber uns selbst sind.",
-        "function": "reflection_on_breathing_awareness",
+        "function": "reflection_on_breath_awareness",
         "confidence": 0.95
       },
       {
@@ -65,7 +65,7 @@
         "page": 41,
         "sequence": 2,
         "text": "Wenn also etwas in den Kreis unseres Gewahrseins tritt, befindet es sich innerhalb des Zaunes und damit innerhalb unserer Welt. Wir können es betrachten, es darin festhalten, uns daran erinnern, es benennen und wenn es etwas ist was wir kontrollieren können, auch damit herumspielen. Driftet es aus diesem Kreis hinaus, so verschwindet es im Dunkel und es hört für unser Gewahrsein auf zu existieren. Wir können es nicht mehr sehen, es nicht mehr benennen und auch nicht mehr kontrollieren, selbst wenn es etwas ist, was wir prinzipiell beeinflussen könnten, wie etwa unsere Atmung. Ja wir können uns nicht einmal mehr daran erinnern, dass es jemals existiert hat. Ein wenig so wie die „Stille“ aus Doktor Who. Es ist das gleiche Dilemma welches mir verbietet herauszufinden, ob ich denn nun ständig jedes Nummernschild unbewusst ansehe oder nicht.",
-        "function": "explains_boundary_of_awareness",
+        "function": "explaining_limits_of_awareness",
         "confidence": 0.97
       },
       {
@@ -74,8 +74,8 @@
         "page": 41,
         "sequence": 3,
         "text": "Unsere Atmung ist deshalb ein so gutes Beispiel, weil sie so häufig in unser Gewahrsein hinein und wieder hinaus treibt, wie kaum etwas anderes und uns ohne Umwege immer zugänglich ist. Es täuscht uns aber auch ein Wenig über die wahre Natur dieses Dilemmas hinweg. Wie es sich tatsächlich darstellt und was dieser Zaun tatsächlich ist, das erschließt sich uns dadurch nicht wirklich. Dazu müssen wir etwas weiter ausholen und ein besseres Bild entwerfen.",
-        "function": "qualifies_example_and_transitions",
-        "confidence": 0.96
+        "function": "transition_to_deeper_explanation",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page41_Segment4",
@@ -83,7 +83,7 @@
         "page": 41,
         "sequence": 4,
         "text": "Stellt euch dazu vor, ihr seid ein Wissenschaftler, der einen Dschungel erforschen will, welcher sich auf einer riesigen Ebene erstreckt. Ihr wisst allerdings nicht, dass es sich dabei um einen magischen Dschungel handelt. Ihr macht euch also frohen Mutes daran, ihn zu erforschen. Anfangs seid ihr euch noch darüber im Klaren, euch durch ein riesiges Gebiet zu bewegen, welches weit über das hinaus reicht, was ihr in dem Dickicht aus Pflanzen um euch tatsächlich sehen könnt. Ihr wisst, dass ihr euch durch den Dschungel bewegt und die Veränderungen der Umgebung auf eure eigene Bewegung durch eben jenes Gebilde zurückzuführen sind. Jeder Schritt trägt euch an einen anderen Ort. Diese Einsicht ist für euch die natürlichste der Welt. Mit der Zeit allerdings geschieht mit euch Seltsames. Ihr beginnt langsam zu vergessen, wie groß der Dschungel ist. Die Vorstellung über die tatsächliche Größe des Gebietes schrumpft in eurem Kopf völlig unbemerkt von euch immer weiter, bis an einen Punkt, an dem ihr überzeugt seid, die Welt um euch herum sei exakt genau so groß wie eure Augen reichen.",
-        "function": "introduces_extended_analogy",
+        "function": "illustrative_analogy",
         "confidence": 0.98
       }
     ],

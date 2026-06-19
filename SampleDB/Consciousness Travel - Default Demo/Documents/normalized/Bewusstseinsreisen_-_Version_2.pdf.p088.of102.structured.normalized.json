@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:02:56Z",
+    "processed_at": "2026-06-02T19:14:06Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Reflective philosophical prose on consciousness travel, inner transformation, and the third path associated with archetypes. It warns that such a path is lonely and difficult for others to understand, then shifts toward the idea of an acausal mode of experience.",
+    "description": "A philosophical prose passage about inner transformation through consciousness travel, where the self must form a coherent version of the adversary to enter the target sphere. It argues that the world is a stage, that contradictions come from within the self, and that such travel can feel lonely. The page introduces the third way as an archetypal, seemingly acausal path.",
     "tags": [
-      "philosophy",
       "consciousness",
-      "archetypes",
       "inner transformation",
-      "warning"
+      "archetypes",
+      "philosophical prose",
+      "symbolic journey"
     ],
     "people": [],
     "organizations": [],
@@ -40,67 +40,94 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Translated German prose into English control-language values.",
-      "Used theoretical_discussion as the closest supported subcategory."
+      "Translated German source prose into English control language.",
+      "Classified as archetypal philosophical reflection based on the visible passage."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "mixed",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
         "language",
         "page_number",
-        "topic_keywords"
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
       "language": "de",
       "page_number": 88,
-      "topic_keywords": [
-        "consciousness",
-        "archetypes",
-        "inner transformation",
-        "philosophical reflection",
-        "warning"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf::page=088-of-102"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "A reflective philosophical passage argues that the self must form a coherent image of the other in order to adapt within the target domain. It describes the journey as painful and isolating, warns that readers outside this sphere will not understand it, and introduces a third path linked to archetypal action and acausal experience."
+        "page_number": 88,
+        "text_content": "Book page 88 of 102"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Existence in the next second could be erased by an enemy grenade."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The goal is to create within oneself a coherent and non-contradictory version of the other person, by means of which one can blend seamlessly into the target area. This is initially a mentally painful process because our own self stubbornly resists leaving the security of its certainty and making the effort to overcome gravity. The journey is complete when one can convincingly say that the former homeland has become the new enemy territory, and the journey itself is truly understood only when one turns back, because the true insight of these journeys is that contradictions always arise only from oneself and that the enemy is always whoever one is not at that moment."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "If one wanders long enough through the spheres of human existence, one will realize that the whole world is truly only a stage and we are all only actors who can speak only the lines stitched into the clothes we are wearing or written on the slip of paper carried in our mouths. The author of this play remains hidden from us, though he is certainly not a human being, even if the idea of an all-encompassing plan directed by whispering figures in back rooms offers a certain comfort."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "A word of warning seems appropriate here, for whoever decides to become such a traveler will walk lonely paths, because the routes between the spheres are hardly traveled and recognition should not be expected. Whoever remains within a single sphere for their whole life will neither understand nor appreciate your travel reports, just like the poor scientist trapped in the jungle. Such is the nature of our awareness. Such is human nature, because why listen to reports of nightmares if they would only make an already difficult life even harder?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "But enough with the gloomy warnings; after all, we still lack the final path, and in essence that is the one this is really about."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 6,
+        "paragraph_text": "The third path is the one we associate with the work of archetypes. It is the most mysterious of all because it is apparently acausal. While the first two paths always have identifiable starting points that we can name and in some sense"
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on consciousness travel, inner transformation, and the third path linked to archetypes. The page combines philosophical reflection with a warning about isolation and incomprehension, then introduces an acausal mode of experience."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes book title Bewusstseinsreisen - Version 2; page 88; philosophical prose about consciousness travel, enemy-othering, loneliness, world as stage, and the third path of archetypes"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.93 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.94,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

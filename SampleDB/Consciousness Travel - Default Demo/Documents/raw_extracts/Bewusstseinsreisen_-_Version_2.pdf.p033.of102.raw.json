@@ -2,7 +2,7 @@
   "schema_version": "optimizer_raw_v2",
   "optimizer_profile": "file",
   "source": {
-    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "ingest_id": "1482bf88-d7c4-4268-9dde-6c1f1e8e6660",
     "file_name": "Bewusstseinsreisen - Version 2.pdf",
     "file_path": "Bewusstseinsreisen - Version 2.pdf::page=033-of-102",
     "relative_path": "Bewusstseinsreisen - Version 2.pdf",
@@ -14,7 +14,7 @@
   "extraction": {
     "plugin_name": "pdf-pymupdf",
     "plugin_version": "3.0.0",
-    "processing_time_ms": 3544
+    "processing_time_ms": 3786
   },
   "metadata": {
     "page_count": 102,

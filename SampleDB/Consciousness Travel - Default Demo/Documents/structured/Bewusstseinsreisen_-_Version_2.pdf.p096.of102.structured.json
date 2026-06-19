@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:05:55.258167+00:00",
+    "processed_at": "2026-06-02T19:17:01.789491+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,23 +22,23 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.95,
-      "reason": "A nonfiction philosophical book page is visible with continuous prose paragraphs and a section heading.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The visible page is a born-digital book page with continuous prose and a section heading.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "section heading",
-        "nonfiction book page"
+        "book page",
+        "continuous prose",
+        "section heading"
       ]
-    },
-    "date_range": {
-      "from": null,
-      "to": null
     },
     "page_number": 96,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=096-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
     "interpreter_profile": "file"
   },
   "content": {
@@ -58,7 +58,7 @@
         "page": 96,
         "sequence": 1,
         "text": "er „unten“ sehen kann, auch auf jenen, den es „oben“ gibt, zumindest theoretisch anzuwenden und anzuerkennen. Er tut es aber nicht, weil er das Gefühl der Erniedrigung und des Defizits scheut.",
-        "function": "continues_argument",
+        "function": "argument_continuation",
         "confidence": 0.95
       },
       {
@@ -68,16 +68,16 @@
         "sequence": 2,
         "text": "Nicht umsonst gibt es ein Buch, welches den Titel „Das Drama des Begabten Kindes“ trägt und es auch einen entsprechenden Markt dafür gibt. Allerdings wird es niemals ein Buch mit dem Titel „Das Drama des unbegabten Kindes“ geben, denn niemand wird sich dadurch angesprochen fühlen, obwohl es derer weit mehr gibt als von ersterer Sorte.",
         "function": "illustrative_example",
-        "confidence": 0.97
+        "confidence": 0.98
       },
       {
         "segment_id": "Page96_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 96,
         "sequence": 3,
         "text": "Diese Art Gräben existieren zwischen uns Menschen für so viele Dinge und der Torwächter ist stets unser Stolz und Vorurteil. Wie man das in einer Gruppe umgehen könnte und sicherstellen könnte, dass das, was sich wirklich als „höher“ heraus stellt, von allen akzeptiert wird ohne unausgesprochene Spannungen zu erzeugen, das ist etwas, woran man sicher lange und hart kauen müsste. Ganz abgesehen von der Frage, wie man feststellen sollte, was sich denn nun als „höher“ qualifiziert und was nicht.",
-        "function": "problem_reflection",
-        "confidence": 0.97
+        "function": "problem_statement",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page96_Segment4",
@@ -90,24 +90,24 @@
       },
       {
         "segment_id": "Page96_Segment5",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 96,
         "sequence": 5,
         "text": "Obwohl wir auf 50 Jahre experimenteller Traumforschung zurückblicken können und wir für alle Phasen des Traumes detaillierte Beschreibungen besitzen, so sind wir doch kaum über die schlichte Erkenntnis hinaus gelangt, dass der Traum einen eigenen kognitiven Prozess darstellt. Wir wissen, dass Einflüsse aus dem Wachbewusstsein einfließen und manchmal auch nicht. Wir sind uns nicht mehr sicher, ob wirklich allein die REM Phase mit Träumen einher geht und sind uns immer noch nicht einig, wozu das alles überhaupt gut sein sollte. Kurz, wir wissen über die Natur der Träume ein wenig mehr als vor 50 Jahren, das war es dann aber auch schon.",
-        "function": "research_limit_assessment",
-        "confidence": 0.98
+        "function": "research_status_assessment",
+        "confidence": 0.99
       },
       {
         "segment_id": "Page96_Segment6",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 96,
         "sequence": 6,
         "text": "Niemand versucht aktiv herauszuarbeiten, wie die beiden deutlich voneinander verschiedenen Zustände, die des Traumes und des Wachens, sich in ihrer Natur unterscheiden. Wir sagen einfach, dass sie zwei verschiedene kognitive Prozesse seien, ohne eine Grenze zu definieren, die diese beiden Prozesse trennt. Wie wandelt der Eine sich in den Anderen um? Welche Kernfaktoren definieren den Traum, welche das Wachen? Und wie ließen sich diese Faktoren vergleichend definieren, um diese kognitiven Prozesse zueinander in Relation zu stellen? Zu was sind wir kognitiv im Traum fähig und zu was nicht? Wo liegen genau die Grenzen, was wo möglich ist? Alle diese Fragen sind, zumindest nach meinem Kenntnisstand,",
-        "function": "poses_open_questions",
-        "confidence": 0.97
+        "function": "open_questions",
+        "confidence": 0.99
       }
     ],
-    "free_text": "Traumforschung, Wachbewusstsein, Grenze zwischen Traum und Wachen"
+    "free_text": "Traumforschung, Wachbewusstsein, Abgrenzung von Traum und Wachen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

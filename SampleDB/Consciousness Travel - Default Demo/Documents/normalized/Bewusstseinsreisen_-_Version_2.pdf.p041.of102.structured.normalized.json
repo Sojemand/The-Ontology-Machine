@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:43:59Z",
+    "processed_at": "2026-06-02T18:55:03Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,16 +22,15 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction passage explains awareness through breathing, arguing that what enters consciousness becomes part of our world while what leaves it disappears from attention and memory. It uses a fence metaphor and a jungle analogy to question the limits of perception and control.",
+    "document_title": null,
+    "description": "A reflective prose passage on awareness, breathing, and the limits of conscious control. It uses the image of a fence around perception and a jungle analogy to explain how what leaves awareness seems to vanish from our world. The page argues that breathing is a useful example because it repeatedly moves in and out of awareness.",
     "tags": [
       "awareness",
       "breathing",
       "consciousness",
-      "metaphor",
-      "perception",
-      "control",
-      "philosophical reflection"
+      "self-perception",
+      "philosophical reflection",
+      "analogy"
     ],
     "people": [],
     "organizations": [],
@@ -42,14 +41,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_page"
+      "category": "literature",
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Classified as body prose with theoretical discussion based on continuous philosophical exposition."
+      "German prose page about consciousness and awareness; no chapter metadata visible.",
+      "Title inferred only from source file name not promoted as a field."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -58,51 +58,58 @@
     "structure": {
       "type": "text",
       "columns": [
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "source_file_name",
+        "language",
+        "work_title"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 41,
-      "topic_keywords": [
-        "awareness",
-        "breathing",
-        "consciousness",
-        "metaphor",
-        "perception",
-        "control"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf",
+      "language": "de",
+      "work_title": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Breathing is used as a concrete example of how awareness shifts in and out of consciousness, showing how attention affects what can be noticed, named, remembered, and controlled. The passage extends this argument with a fence metaphor and a jungle analogy to probe the limits of perception and self-knowledge."
+        "text_content": "Breathing is repeatedly noticed as something one can consciously control, illustrating how awareness and self-control are routinely overlooked.",
+        "paragraph_text": "Once something enters awareness, it belongs to the circle of one's world and can be observed, named, remembered, and sometimes controlled."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "text_content": "What falls outside awareness disappears from perception and seems to stop existing for consciousness, even when it could still be influenced.",
+        "paragraph_text": "The text uses breathing and the inability to know whether one unconsciously reads every license plate as examples of this limit."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "text_content": "A scientist exploring a magical jungle serves as an analogy for how awareness can shrink the perceived size of the world until it seems to match only what the eyes can reach.",
+        "paragraph_text": "The passage prepares a deeper explanation of the boundary of awareness by shifting from breath to a larger metaphor."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Bewusstseinsreisen - Version 2; page 41; awareness, breathing, consciousness, metaphor, perception, control; philosophical discussion of how attention defines what can be known, remembered, and influenced."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness German nonfiction philosophy page on consciousness, awareness, breathing, and the boundary of perception. Breathing is used as a recurring example, followed by a fence metaphor and a jungle analogy to explain how awareness defines what feels real and knowable."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.91,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.88,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

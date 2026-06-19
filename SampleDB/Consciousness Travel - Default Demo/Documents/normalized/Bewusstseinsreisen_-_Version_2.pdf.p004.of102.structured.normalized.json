@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:29:02Z",
+    "processed_at": "2026-06-02T18:39:29Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "preface_or_introduction",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "consciousness_essay",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Introductory nonfiction prose on consciousness, framed as the book's guiding idea and authorial stance. The author argues that ordinary self-understanding is a poor caricature of reality and that the first part of the book will build a foundation for deeper questions. The passage also rejects mysticism or secret teachings as necessary for understanding.",
+    "description": "Introductory prose frames the book’s central idea as a difficult but important inquiry into consciousness and human self-understanding. The author distances the work from esoteric claims, says parts draw on earlier concepts such as Gurdjieff, and argues that ordinary beliefs about awareness are only a poor caricature of reality.",
     "tags": [
       "consciousness",
-      "introduction",
-      "authorial stance",
-      "epistemology",
-      "self-understanding"
+      "self-understanding",
+      "authorial position",
+      "philosophy of mind",
+      "esoteric rejection"
     ],
     "people": [
       "Gurdjieff"
@@ -42,15 +42,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "category": "literary",
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Source language is German; human-readable values normalized to English.",
-      "Classified as introductory book body prose rather than front matter because the page states the book's core argument and foundation for the first part."
+      "Translated German running prose into English summary.",
+      "Visible content is an introductory philosophical passage; no chapter heading is shown."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -59,50 +59,74 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "page_number",
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "German",
       "page_number": 4,
-      "topic_keywords": [
-        "consciousness",
-        "self-understanding",
-        "knowledge",
-        "mysticism",
-        "epistemology"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The author presents a guiding idea for the work and says its nature is difficult to grasp because it touches matters people prefer to avoid. They state that the book draws partly on earlier thinkers such as Gurdjieff, but only includes claims the author considers certain. The page argues that ordinary consciousness and self-knowledge are a poor caricature of reality and that no secret mysticism is needed to approach the truth."
+        "page_number": 4
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "An overarching idea organizes the structure of this small work, but it is difficult to grasp because it touches matters we are reluctant to confront.",
+        "text_content": "The author introduces the work’s central idea and its difficulty."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The author does not claim to have invented everything in the book; some ideas were described earlier by others, including concepts Gurdjieff used about the human mind. Only claims that can be stated with certainty are retained.",
+        "text_content": "Authorial positioning and selective use of earlier concepts."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The book aims to show that what people take to be consciousness, self-knowledge, moral orientation, decision-making, and judgments of truth and falsehood is a poor caricature of what actually happens, and that consciousness still contains a mystery only beginning to be explored.",
+        "text_content": "Purpose statement about consciousness and the limits of self-understanding."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The author rejects any claim to have found a philosopher’s stone and instead points to well-known and overlooked things that, when considered together, suggest consciousness cannot be what it seems and points beyond ordinary imagination.",
+        "text_content": "Qualification of the claim and challenge to ordinary consciousness."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "Access to this deeper understanding does not require myths, secret magic, dark powers, or special initiation; it only requires taking hold of what is already present.",
+        "text_content": "Rejection of esotericism and emphasis on accessible inquiry."
       }
     ],
-    "free_text": "book_page book_body_content preface_or_introduction Book page in German nonfiction on consciousness. Introductory prose establishes the book's core argument about the limits of ordinary self-understanding, the author's evidentiary stance, and a rejection of secret or mystical methods."
+    "free_text": "book_page nonfiction_philosophy consciousness_essay Book page, page 4, German philosophical prose on consciousness. Author frames a central idea about the limits of ordinary self-understanding, references Gurdjieff, and rejects esoteric explanations."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.91,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=8; confidence=0.91 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=11; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-11."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.92,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.92 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

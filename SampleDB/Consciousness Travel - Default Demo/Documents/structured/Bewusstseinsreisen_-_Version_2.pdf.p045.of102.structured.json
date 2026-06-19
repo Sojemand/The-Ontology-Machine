@@ -6,7 +6,7 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:45:28.027129+00:00",
+    "processed_at": "2026-06-02T18:56:30.320895+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
@@ -14,26 +14,26 @@
     "document_type": "book_page",
     "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.92,
+      "reason": "The page is a born-digital book page with a section heading and continuous prose.",
+      "matched_signals": [
+        "book page",
+        "section heading",
+        "continuous prose"
+      ]
+    },
     "page_number": 45,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=045-of-102",
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A philosophical nonfiction book page is visible with a section heading and multiple prose paragraphs.",
-      "matched_signals": [
-        "section heading",
-        "prose paragraphs",
-        "philosophical discussion"
-      ]
-    },
     "date_range": {
       "from": null,
       "to": null
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column_text_page",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -54,13 +52,11 @@
     "segments": [
       {
         "segment_id": "Page45_Segment1",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 45,
         "sequence": 1,
-        "section": null,
-        "label": null,
         "text": "„sich nicht gewahr Seins“ hinaus? Wie können wir es schaffen, vom blinden jungen Mann zum Sehenden zu werden? Wie weiten wir den Zaun unseres Gewahrseins weiter aus und erschließen uns dadurch neue, vorher unzugängliche Informationen und Möglichkeiten? Könnten wir unser Gewahrsein soweit ausdehnen, dass es den gesamten Dschungel (die Maschine) umfasst und wir auf einmal wieder verstehen wo wir uns befinden, was wir hier wollten und in welcher Richtung der Ausgang liegt?",
-        "function": "reflective_questioning",
+        "function": "posing_reflective_questions",
         "confidence": 0.97
       },
       {
@@ -68,8 +64,6 @@
         "unit_kind": "title_line",
         "page": 45,
         "sequence": 2,
-        "section": "Das zweigleisige Gewahrsein",
-        "label": null,
         "text": "Das zweigleisige Gewahrsein",
         "function": "section_heading",
         "confidence": 0.99
@@ -79,10 +73,8 @@
         "unit_kind": "descriptive_passage",
         "page": 45,
         "sequence": 3,
-        "section": "Das zweigleisige Gewahrsein",
-        "label": null,
         "text": "Bisher haben wir über unser Gewahrsein nur als etwas gesprochen, was sich auf Dinge ausrichten kann und eigentlich ließe sich diese Funktion ebenso gut mit dem Wort „Aufmerksamkeit“ beschreiben, welches sehr viel breiter in unserer Sprache Anwendung findet. Aber wenn es um schwerer zu vermittelnde Konzepte geht, dann steht uns diese breite Anwendung eher im Weg, weil wir doch zu viel und somit zu viel Falsches damit verbinden. Einem Gespräch aufmerksam zu lauschen ist doch etwas anderes, als sich einem Gespräch gewahr zu sein. Das eine hebt einen speziellen Aspekt hervor, das Andere umfasst das gesamte Geschehen. Noch eine Stufe universeller wird es, wenn wir von zweigleisigem Gewahrsein reden.",
-        "function": "conceptual_distinction",
+        "function": "concept_definition",
         "confidence": 0.98
       },
       {
@@ -90,10 +82,8 @@
         "unit_kind": "descriptive_passage",
         "page": 45,
         "sequence": 4,
-        "section": "Das zweigleisige Gewahrsein",
-        "label": null,
         "text": "Für gewöhnlich sehen wir uns selbst und die Welt um uns herum stets in einer von zwei möglichen Weisen. Wir richten unsere Aufmerksamkeit nach Außen, lauschen einem Gespräch, betrachten die Schönheit der Natur oder gehen schlicht unserer Arbeit nach. Oder wir richten unsere Aufmerksamkeit nach Innen, spüren unseren Gefühlen nach, stellen uns Welten vor oder kämpfen mit unseren Dämonen. Beide Arten der Aufmerksamkeit schließen, wenn konsequent angewendet, die jeweils andere aus. Niemand kann einem Gespräch vollends folgen, wenn er gleichzeitig über ein neues Rezept grübelt und umgekehrt. Dies gilt jedoch nicht für die Funktion des Gewahrseins, weshalb wir hier auf einer Unterscheidung bestehen müssen. Begehen wir nicht den Fehler, die Ausrichtung auf etwas Bestimmtes mit der Funktion des Ganzen zu verwechseln.",
-        "function": "explanatory_contrast",
+        "function": "drawing_distinction",
         "confidence": 0.98
       },
       {
@@ -101,14 +91,12 @@
         "unit_kind": "descriptive_passage",
         "page": 45,
         "sequence": 5,
-        "section": "Das zweigleisige Gewahrsein",
-        "label": null,
         "text": "Man kann sich sehr wohl über ein Gespräch gewahr sein und es mit allen Nuancen aufnehmen. Allerdings kann man sich gleichzeitig auch über den Sprecher und die Gesamte Umgebung in der sich dieses Gespräch abspielt gewahr sein. Ihr erinnert euch an den Spiegel? Reines Gewahrsein hat keine Gedanken die es ablenkt und keine Ziele die es verfolgt. Reines Gewahrsein ist nicht beschränkt in dem, über was es sich gewahr werden kann, es hat keine",
-        "function": "expansion_of_concept",
-        "confidence": 0.97
+        "function": "elaborating_core_claim",
+        "confidence": 0.95
       }
     ],
-    "free_text": "Gewahrsein, Aufmerksamkeit, zweigleisiges Gewahrsein, philosophischer Fließtext"
+    "free_text": "Gewahrsein, Aufmerksamkeit, zweigleisiges Gewahrsein"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

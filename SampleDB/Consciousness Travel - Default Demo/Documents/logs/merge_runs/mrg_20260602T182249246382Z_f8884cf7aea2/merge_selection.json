@@ -1,0 +1,1411 @@
+{
+  "created_at": "2026-06-02T18:22:49.245380Z",
+  "merge_route": "empty_databases_merge_path",
+  "merge_run_id": "mrg_20260602T182249246382Z_f8884cf7aea2",
+  "projection_merge_mode": "merge_to_single_projection",
+  "schema_version": "kernel.database_merge_selection.v1",
+  "selected_by_interaction_id": "irq_20260602T182220347971Z_05738fd47610",
+  "selection_fingerprint": "374f3d531ee3f0a63f1a7cd9",
+  "source_databases": [
+    {
+      "source_artifact_root": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen DB - 01\\Artifact Tree",
+      "source_artifact_tree_fingerprint": "sha256:f7f2dd4e1b2a7d7577b0f2f3",
+      "source_database_fingerprint": "sha256:17324f65cca2c9664fe4e62d",
+      "source_database_id": "src_1_e5a444eb",
+      "source_database_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen DB - 01\\Artifact Tree\\Corpus\\corpus.db",
+      "source_identity_origin": "kernel_import_local_id",
+      "source_release_fingerprint": "sha256:4bc0b322a1d75499e3dba076951c321b4b1a5af86f1140a67a69ac297c33a3cd",
+      "source_release_ref": {
+        "projection_refs": [
+          {
+            "included_taxonomy_codes": [
+              "authored_texts",
+              "body_chapter",
+              "book_page",
+              "chapter_heading",
+              "consciousness_essay",
+              "front_matter",
+              "heading_block",
+              "heading_text",
+              "neuroscience_reflection",
+              "nonfiction_philosophy",
+              "other",
+              "page_metadata",
+              "page_number",
+              "paragraph_block",
+              "paragraph_text",
+              "section_heading",
+              "subsection_heading",
+              "text_content",
+              "title_text",
+              "work_title"
+            ],
+            "projection_fingerprint": "sha256:61463c0b826496ef693e7d15cc9324e7490478b9cafc38dd42ef5455d358ba40",
+            "projection_id": "authored_texts.book_page.v1",
+            "projection_payload": {
+              "compatibility": {},
+              "description": "Normalizes scanned or OCR-derived nonfiction book pages into page title, work title, chapter and section headings, body prose and page metadata for chapter-aware authored-text workflows.",
+              "domain_ids": [
+                "authored_texts"
+              ],
+              "extends": [],
+              "include_categories": [
+                "nonfiction_philosophy",
+                "front_matter",
+                "body_chapter",
+                "other"
+              ],
+              "include_cell_codes": [
+                "heading_text",
+                "text_content",
+                "page_number",
+                "other"
+              ],
+              "include_document_types": [
+                "book_page",
+                "other"
+              ],
+              "include_field_codes": [
+                "title_text",
+                "work_title",
+                "chapter_heading",
+                "section_heading",
+                "subsection_heading",
+                "paragraph_text",
+                "page_number",
+                "other"
+              ],
+              "include_row_types": [
+                "heading_block",
+                "paragraph_block",
+                "page_metadata",
+                "other"
+              ],
+              "include_subcategories": [
+                "consciousness_essay",
+                "neuroscience_reflection",
+                "other"
+              ],
+              "label": "Authored book page",
+              "master_taxonomy_id": "taxonomy_9d0e5c31fd36",
+              "master_taxonomy_version": "custom.v1",
+              "materialization_profile_id": "document_entities.v1",
+              "projection_family": "custom",
+              "projection_fingerprint": "sha256:61463c0b826496ef693e7d15cc9324e7490478b9cafc38dd42ef5455d358ba40",
+              "projection_id": "authored_texts.book_page.v1",
+              "projection_version": "v1",
+              "promotion_rules": [
+                {
+                  "slot": "document_title_text",
+                  "source_paths": [
+                    "content.fields.title_text",
+                    "content.fields.section_heading",
+                    "content.fields.subsection_heading"
+                  ]
+                },
+                {
+                  "slot": "document_work_title",
+                  "source_paths": [
+                    "content.fields.work_title"
+                  ]
+                },
+                {
+                  "slot": "document_chapter_heading",
+                  "source_paths": [
+                    "content.fields.chapter_heading"
+                  ]
+                },
+                {
+                  "slot": "document_page_number",
+                  "source_paths": [
+                    "content.fields.page_number"
+                  ]
+                }
+              ],
+              "routing": {
+                "avoid_when": "Avoid for journals, academic papers dominated by citation apparatus, transactional records, forms, tabular layouts or document families where the page is not a prose-oriented authored-text unit.",
+                "example_document_types": [
+                  "book_page"
+                ],
+                "party_roles": [
+                  "other"
+                ],
+                "section_roles": [
+                  "title",
+                  "heading",
+                  "paragraph"
+                ],
+                "surface_signals": {
+                  "domain_markers": {
+                    "authored_texts": [
+                      "vorwort",
+                      "kapitel",
+                      "kapitel 2",
+                      "buch",
+                      "leser",
+                      "kenne deine maschine"
+                    ]
+                  },
+                  "party_roles": [
+                    "other"
+                  ],
+                  "section_roles": [
+                    "title",
+                    "heading",
+                    "paragraph"
+                  ],
+                  "text_markers": [
+                    "vorwort",
+                    "kapitel",
+                    "kapitel 2",
+                    "kenne deine maschine",
+                    "die reise zu den grenzen des bewusstseins und zur\u00fcck",
+                    "die wunderbare welt des unsichtbaren supercomputers",
+                    "der tag an dem der freie wille starb",
+                    "so lasst uns also beginnen",
+                    "viel spa\u00df"
+                  ]
+                },
+                "when_to_use": "Use for scanned, OCR-derived or extracted pages from authored nonfiction books or manuscripts where the page unit contains titles, chapter or section headings, page numbers and extended prose paragraphs."
+              },
+              "schema_version": "1.0"
+            }
+          }
+        ],
+        "release_fingerprint": "sha256:4bc0b322a1d75499e3dba076951c321b4b1a5af86f1140a67a69ac297c33a3cd",
+        "release_id": "release_8f9906a2b5ba",
+        "release_version": "custom.v1",
+        "runtime_locale": "en",
+        "taxonomy_ref": {
+          "master_taxonomy": {
+            "categories": [
+              {
+                "aliases": [],
+                "code": "nonfiction_philosophy",
+                "description": "Reflective argumentative prose about mind, self, meaning, and interpretation.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Nonfiction philosophy",
+                "status": "active"
+              },
+              {
+                "aliases": [
+                  "preface material"
+                ],
+                "code": "front_matter",
+                "description": "Opening material such as title pages, prefaces, introductions, and reader-facing setup.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Front matter",
+                "status": "active"
+              },
+              {
+                "aliases": [
+                  "chapter body"
+                ],
+                "code": "body_chapter",
+                "description": "Main chapter content within the body of the work.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Body chapter",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback category for in-family assignments that do not fit a more specific category code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "status": "active"
+              }
+            ],
+            "cell_codes": [
+              {
+                "aliases": [],
+                "code": "text_content",
+                "description": "Primary text payload of a heading or paragraph block.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Text content",
+                "semantic_binding": {
+                  "attribute_code": "text_content",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "heading_text",
+                "description": "Normalized text of a title or heading cell.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Heading text",
+                "semantic_binding": {
+                  "attribute_code": "heading_text",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "page_number",
+                "description": "Cell-level page number value when the projection materializes page metadata rows.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Page number",
+                "semantic_binding": {
+                  "attribute_code": "page_number",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "number_or_string"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback cell code for in-family row values that do not fit a more specific cell code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "semantic_binding": {
+                  "attribute_code": "other",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              }
+            ],
+            "document_types": [
+              {
+                "aliases": [
+                  "page extract"
+                ],
+                "allowed_categories": [
+                  "nonfiction_philosophy",
+                  "front_matter",
+                  "body_chapter",
+                  "other"
+                ],
+                "allowed_subcategories": [
+                  "consciousness_essay",
+                  "neuroscience_reflection",
+                  "other"
+                ],
+                "code": "book_page",
+                "description": "A page-level extract from a chaptered book or manuscript, typically containing headings and running prose.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Book page",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "allowed_categories": [
+                  "other"
+                ],
+                "allowed_subcategories": [
+                  "other"
+                ],
+                "code": "other",
+                "description": "Fallback document type for in-family documents that do not fit a more specific document type code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "status": "active"
+              }
+            ],
+            "domains": [
+              {
+                "aliases": [],
+                "code": "authored_texts",
+                "description": "Long-form authored reading material such as books, essays, and manuscripts presented as prose pages.",
+                "label": "Authored texts",
+                "parent_id": null,
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback domain for in-family assignments that do not fit a more specific domain code.",
+                "label": "Other",
+                "parent_id": null,
+                "status": "active"
+              }
+            ],
+            "entity_types": [
+              {
+                "code": "document_fact",
+                "label": "Document Fact"
+              }
+            ],
+            "fallback_codes": {
+              "category": "other",
+              "cell_code": "other",
+              "document_type": "other",
+              "field_code": "other",
+              "row_type": "other",
+              "subcategory": "other"
+            },
+            "field_codes": [
+              {
+                "aliases": [],
+                "code": "title_text",
+                "description": "Document-level title or page title string when shown prominently on the page.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Title text",
+                "promotion_slot": "document_title_text",
+                "semantic_binding": {
+                  "attribute_code": "title_text",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "book title"
+                ],
+                "code": "work_title",
+                "description": "The recurring title of the overall book or manuscript across page extracts.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Work title",
+                "promotion_slot": "document_work_title",
+                "semantic_binding": {
+                  "attribute_code": "work_title",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "section_heading",
+                "description": "Generic heading carrier for titled structural breaks on the page.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Section heading",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "section_heading",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "chapter title"
+                ],
+                "code": "chapter_heading",
+                "description": "Heading that names or numbers a chapter.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Chapter heading",
+                "promotion_slot": "document_chapter_heading",
+                "semantic_binding": {
+                  "attribute_code": "chapter_heading",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "subtitle"
+                ],
+                "code": "subsection_heading",
+                "description": "Secondary heading beneath chapter level.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Subsection heading",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "subsection_heading",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "body text"
+                ],
+                "code": "paragraph_text",
+                "description": "Running prose content of the page.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Paragraph text",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "paragraph_text",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "page_number",
+                "description": "Logical page position or visible printed page number when available.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Page number",
+                "promotion_slot": "document_page_number",
+                "semantic_binding": {
+                  "attribute_code": "page_number",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "number_or_string"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback scalar field code for in-family extracted values that do not fit a more specific field code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "other",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              }
+            ],
+            "promotion_slots": [
+              {
+                "cardinality": "single",
+                "description": "Best document-level page or display title when prominently shown on the page.",
+                "display_rank": 20,
+                "label": "Document Title Text",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_title_text",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Recurring title of the overall book or manuscript represented by the page.",
+                "display_rank": 10,
+                "label": "Document Work Title",
+                "query_role": "primary",
+                "scope": "document",
+                "slot": "document_work_title",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Best document-level chapter heading or chapter title for the page when present.",
+                "display_rank": 30,
+                "label": "Document Chapter Heading",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_chapter_heading",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Logical page number or visible page position for the page extract when available.",
+                "display_rank": 40,
+                "label": "Document Page Number",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_page_number",
+                "value_type": "number_or_string"
+              }
+            ],
+            "role_types": [
+              {
+                "code": "page_metadata",
+                "label": "Page Metadata"
+              },
+              {
+                "code": "heading_block",
+                "label": "Heading Block"
+              },
+              {
+                "code": "paragraph_block",
+                "label": "Paragraph Block"
+              },
+              {
+                "code": "other",
+                "label": "Other"
+              }
+            ],
+            "row_types": [
+              {
+                "aliases": [],
+                "code": "page_metadata",
+                "description": "Single document-level metadata row for page identity and placement.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Page metadata",
+                "recommended_cell_codes": [
+                  "page_number"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "page_metadata"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "heading_block",
+                "description": "Repeated row type for visible title and heading elements on a page.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Heading block",
+                "recommended_cell_codes": [
+                  "heading_text",
+                  "text_content"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "heading_block"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "paragraph_block",
+                "description": "Repeated row type for prose paragraph units.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Paragraph block",
+                "recommended_cell_codes": [
+                  "text_content"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "paragraph_block"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback row type for in-family repeated structures that do not fit a more specific row type code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "recommended_cell_codes": [
+                  "other"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "other"
+                },
+                "status": "active"
+              }
+            ],
+            "schema_version": "1.0",
+            "subcategories": [
+              {
+                "aliases": [],
+                "code": "consciousness_essay",
+                "description": "Pages centered on consciousness, self-perception, inner life, and philosophical reflection.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Consciousness essay",
+                "parent_category": "nonfiction_philosophy",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "neuroscience_reflection",
+                "description": "Pages that connect the author's reflective argument to neuroscience, cognition, or perception.",
+                "domains": [
+                  "authored_texts"
+                ],
+                "label": "Neuroscience reflection",
+                "parent_category": "nonfiction_philosophy",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback subcategory for in-family assignments that do not fit a more specific subcategory code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "parent_category": "other",
+                "status": "active"
+              }
+            ],
+            "taxonomy_id": "taxonomy_9d0e5c31fd36",
+            "taxonomy_version": "custom.v1"
+          },
+          "runtime_locale": "en",
+          "taxonomy_fingerprint": "d8f50afba775ad8e6896f6ca0f2522ff12bde737fa076fc429cb747af13cff55",
+          "taxonomy_id": "taxonomy_9d0e5c31fd36",
+          "taxonomy_version": "custom.v1"
+        }
+      },
+      "source_semantic_release_id": "release_8f9906a2b5ba",
+      "source_semantic_release_version": "custom.v1",
+      "source_state": "empty"
+    },
+    {
+      "source_artifact_root": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen DB - 02\\Artifact Tree",
+      "source_artifact_tree_fingerprint": "sha256:79199cc13eb727dfb2b52bb3",
+      "source_database_fingerprint": "sha256:c8115a85e3bf43d57f685461",
+      "source_database_id": "db:sha256:6bf201a8c5dfea7e050511831d3748c74b16df093098d965fa27bc244b4b0a9f",
+      "source_database_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen DB - 02\\Artifact Tree\\Corpus\\Artifact Tree.db",
+      "source_identity_origin": "durable_owner_id",
+      "source_release_fingerprint": "sha256:7e514a5ab6e6ddda1a7076327fc3849b985ca2daa787af7998a9c23218d8ebbe",
+      "source_release_ref": {
+        "projection_refs": [
+          {
+            "included_taxonomy_codes": [
+              "book_page",
+              "book_title",
+              "chapter_heading",
+              "chapter_number",
+              "chapter_text",
+              "chapter_title",
+              "consciousness_and_mind",
+              "dreams_and_altered_states",
+              "excerpt_text",
+              "heading_text",
+              "humanities_psychology_texts",
+              "language",
+              "other",
+              "page_number",
+              "paragraph_block",
+              "paragraph_text",
+              "philosophy_of_consciousness",
+              "section_block",
+              "section_heading",
+              "source_file_name",
+              "symbolism_and_archetypes"
+            ],
+            "projection_fingerprint": "sha256:51a3901a14615f85d144d910806295f14eb9173bc9cb196fe89cfe2f66098ca6",
+            "projection_id": "humanities_psychology_texts.book_page.v1",
+            "projection_payload": {
+              "compatibility": {},
+              "description": "Projection for page-level normalization of long-form prose book or manuscript pages about consciousness, dreams, symbolic interpretation, and related reflective nonfiction themes.",
+              "domain_ids": [
+                "humanities_psychology_texts",
+                "other"
+              ],
+              "extends": [],
+              "include_categories": [
+                "consciousness_and_mind",
+                "chapter_text",
+                "other"
+              ],
+              "include_cell_codes": [
+                "heading_text",
+                "paragraph_text",
+                "other"
+              ],
+              "include_document_types": [
+                "book_page",
+                "other"
+              ],
+              "include_field_codes": [
+                "book_title",
+                "chapter_number",
+                "chapter_title",
+                "excerpt_text",
+                "language",
+                "page_number",
+                "section_heading",
+                "source_file_name",
+                "other"
+              ],
+              "include_row_types": [
+                "chapter_heading",
+                "paragraph_block",
+                "section_block",
+                "other"
+              ],
+              "include_subcategories": [
+                "philosophy_of_consciousness",
+                "dreams_and_altered_states",
+                "symbolism_and_archetypes",
+                "other"
+              ],
+              "label": "Humanities psychology book page",
+              "master_taxonomy_id": "taxonomy_208abd2a4486",
+              "master_taxonomy_version": "custom.v1",
+              "materialization_profile_id": "document_entities.v1",
+              "projection_family": "custom",
+              "projection_fingerprint": "sha256:51a3901a14615f85d144d910806295f14eb9173bc9cb196fe89cfe2f66098ca6",
+              "projection_id": "humanities_psychology_texts.book_page.v1",
+              "projection_version": "v1",
+              "promotion_rules": [
+                {
+                  "slot": "document_book_title",
+                  "source_paths": [
+                    "content.fields.book_title"
+                  ]
+                },
+                {
+                  "slot": "document_page_number",
+                  "source_paths": [
+                    "content.fields.page_number"
+                  ]
+                },
+                {
+                  "slot": "document_chapter_number",
+                  "source_paths": [
+                    "content.fields.chapter_number"
+                  ]
+                },
+                {
+                  "slot": "document_chapter_title",
+                  "source_paths": [
+                    "content.fields.chapter_title"
+                  ]
+                },
+                {
+                  "slot": "document_section_heading",
+                  "source_paths": [
+                    "content.fields.section_heading"
+                  ]
+                },
+                {
+                  "slot": "document_language",
+                  "source_paths": [
+                    "content.fields.language"
+                  ]
+                }
+              ],
+              "routing": {
+                "avoid_when": "Avoid for poetry, fiction, academic journal articles with formal citation structure, forms, tables, bibliographies, or transactional documents that are not page-level prose excerpts.",
+                "example_document_types": [
+                  "book_page"
+                ],
+                "party_roles": [
+                  "other"
+                ],
+                "section_roles": [
+                  "chapter_heading",
+                  "section_heading",
+                  "paragraph"
+                ],
+                "surface_signals": {
+                  "domain_markers": {
+                    "humanities_psychology_texts": [
+                      "kapitel",
+                      "bewusstsein",
+                      "gewahrsein",
+                      "traum",
+                      "traeume",
+                      "wachbewusstsein",
+                      "symbolische welt",
+                      "archetypen",
+                      "heldenreise",
+                      "realitaetsmodell",
+                      "vergessen",
+                      "dmt",
+                      "lsd",
+                      "frage",
+                      "abschnitt",
+                      "prosa"
+                    ]
+                  },
+                  "party_roles": [
+                    "other"
+                  ],
+                  "section_roles": [
+                    "chapter_heading",
+                    "section_heading",
+                    "paragraph"
+                  ],
+                  "text_markers": [
+                    "kapitel",
+                    "bewusstsein",
+                    "gewahrsein",
+                    "traum",
+                    "traeume",
+                    "wachbewusstsein",
+                    "symbolische welt",
+                    "archetypen",
+                    "heldenreise",
+                    "realitaetsmodell",
+                    "vergessen",
+                    "dmt",
+                    "lsd"
+                  ]
+                },
+                "when_to_use": "Use for scanned, OCR'd, or text-derived pages from a longer prose book or manuscript where the main payload is continuous reflective or philosophical writing about consciousness, mind, dreams, altered states, symbolism, or archetypal interpretation, often with visible chapter or section headings."
+              },
+              "schema_version": "1.0"
+            }
+          }
+        ],
+        "release_fingerprint": "sha256:7e514a5ab6e6ddda1a7076327fc3849b985ca2daa787af7998a9c23218d8ebbe",
+        "release_id": "release_4a76b237bfbc",
+        "release_version": "custom.v1",
+        "runtime_locale": "en",
+        "taxonomy_ref": {
+          "master_taxonomy": {
+            "categories": [
+              {
+                "aliases": [],
+                "code": "consciousness_and_mind",
+                "description": "Primary subject matter around consciousness, awareness, cognition, selfhood and mental models.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Consciousness and mind",
+                "status": "active"
+              },
+              {
+                "aliases": [
+                  "chapter prose"
+                ],
+                "code": "chapter_text",
+                "description": "Generic carrier category for chapter-based longform prose pages within the same book family.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Chapter text",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback category for in-scope content that cannot be assigned to a more specific category.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "status": "active"
+              }
+            ],
+            "cell_codes": [
+              {
+                "aliases": [],
+                "code": "heading_text",
+                "description": "Text content of a chapter or section heading.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Heading text",
+                "semantic_binding": {
+                  "attribute_code": "heading_text",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "paragraph_text",
+                "description": "Text content of a prose paragraph block.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Paragraph text",
+                "semantic_binding": {
+                  "attribute_code": "paragraph_text",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback cell code for row cell content that does not fit a more specific cell code.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "semantic_binding": {
+                  "attribute_code": "other",
+                  "materialize_on_row_entity": true
+                },
+                "status": "active",
+                "value_type": "string"
+              }
+            ],
+            "document_types": [
+              {
+                "aliases": [
+                  "manuscript page"
+                ],
+                "allowed_categories": [
+                  "consciousness_and_mind",
+                  "chapter_text",
+                  "other"
+                ],
+                "allowed_subcategories": [
+                  "philosophy_of_consciousness",
+                  "dreams_and_altered_states",
+                  "symbolism_and_archetypes",
+                  "other"
+                ],
+                "code": "book_page",
+                "description": "A scanned or extracted page from a book or manuscript, usually carrying running prose and occasional chapter or section headings.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Book page",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "allowed_categories": [
+                  "other"
+                ],
+                "allowed_subcategories": [
+                  "other"
+                ],
+                "code": "other",
+                "description": "Fallback document type for in-scope documents that do not fit a more specific type.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "status": "active"
+              }
+            ],
+            "domains": [
+              {
+                "aliases": [],
+                "code": "humanities_psychology_texts",
+                "description": "Longform nonfiction or interpretive prose about mind, consciousness, psychology, philosophy and related humanistic subjects.",
+                "label": "Humanities and psychology texts",
+                "parent_id": null,
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback domain for in-scope records that cannot be assigned to a more specific domain.",
+                "label": "Other",
+                "parent_id": null,
+                "status": "active"
+              }
+            ],
+            "entity_types": [
+              {
+                "code": "document_fact",
+                "label": "Document Fact"
+              }
+            ],
+            "fallback_codes": {
+              "category": "other",
+              "cell_code": "other",
+              "document_type": "other",
+              "field_code": "other",
+              "row_type": "other",
+              "subcategory": "other"
+            },
+            "field_codes": [
+              {
+                "aliases": [
+                  "manuscript title"
+                ],
+                "code": "book_title",
+                "description": "Title of the book or manuscript when recoverable from source or page content.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Book title",
+                "promotion_slot": "document_book_title",
+                "semantic_binding": {
+                  "attribute_code": "book_title",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "page_number",
+                "description": "Logical or source page number for the excerpted page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Page number",
+                "promotion_slot": "document_page_number",
+                "semantic_binding": {
+                  "attribute_code": "page_number",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "chapter_number",
+                "description": "Explicit chapter number when printed on the page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Chapter number",
+                "promotion_slot": "document_chapter_number",
+                "semantic_binding": {
+                  "attribute_code": "chapter_number",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "chapter_title",
+                "description": "Named chapter title printed on the page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Chapter title",
+                "promotion_slot": "document_chapter_title",
+                "semantic_binding": {
+                  "attribute_code": "chapter_title",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "subsection heading"
+                ],
+                "code": "section_heading",
+                "description": "Subsection or prompt-style heading introducing the following prose.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Section heading",
+                "promotion_slot": "document_section_heading",
+                "semantic_binding": {
+                  "attribute_code": "section_heading",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "page text"
+                ],
+                "code": "excerpt_text",
+                "description": "Main running prose extracted from the page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Excerpt text",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "excerpt_text",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "language",
+                "description": "Document language as detected or normalized for the page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Language",
+                "promotion_slot": "document_language",
+                "semantic_binding": {
+                  "attribute_code": "language",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [
+                  "source identifier"
+                ],
+                "code": "source_file_name",
+                "description": "Original file name or source identifier for the scanned page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Source file name",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "source_file_name",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback scalar field code for extracted values that do not fit a more specific field.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "promotion_slot": null,
+                "semantic_binding": {
+                  "attribute_code": "other",
+                  "entity_type": "document_fact"
+                },
+                "status": "active",
+                "value_type": "string"
+              }
+            ],
+            "promotion_slots": [
+              {
+                "cardinality": "single",
+                "description": "Primary book or manuscript title for the page when recoverable from source context or page content.",
+                "display_rank": 10,
+                "label": "Book Title",
+                "query_role": "primary",
+                "scope": "document",
+                "slot": "document_book_title",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Logical or source page number used for ordering and retrieval across page documents.",
+                "display_rank": 20,
+                "label": "Page Number",
+                "query_role": "primary",
+                "scope": "document",
+                "slot": "document_page_number",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Explicit chapter number associated with the page when present.",
+                "display_rank": 30,
+                "label": "Chapter Number",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_chapter_number",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Named chapter title associated with the page when present.",
+                "display_rank": 40,
+                "label": "Chapter Title",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_chapter_title",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Visible subsection or prompt-style heading that summarizes the page section when present.",
+                "display_rank": 50,
+                "label": "Section Heading",
+                "query_role": "secondary",
+                "scope": "document",
+                "slot": "document_section_heading",
+                "value_type": "string"
+              },
+              {
+                "cardinality": "single",
+                "description": "Normalized document language for the page.",
+                "display_rank": 60,
+                "label": "Language",
+                "query_role": "filter",
+                "scope": "document",
+                "slot": "document_language",
+                "value_type": "string"
+              }
+            ],
+            "role_types": [
+              {
+                "code": "chapter_heading",
+                "label": "Chapter Heading"
+              },
+              {
+                "code": "section_block",
+                "label": "Section Block"
+              },
+              {
+                "code": "paragraph_block",
+                "label": "Paragraph Block"
+              },
+              {
+                "code": "other",
+                "label": "Other"
+              }
+            ],
+            "row_types": [
+              {
+                "aliases": [],
+                "code": "chapter_heading",
+                "description": "A heading row containing chapter number and chapter title.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Chapter heading",
+                "recommended_cell_codes": [
+                  "heading_text"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "chapter_heading"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [
+                  "subsection block"
+                ],
+                "code": "section_block",
+                "description": "A section-level block headed by a subsection title or prompt.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Section block",
+                "recommended_cell_codes": [
+                  "heading_text",
+                  "paragraph_text"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "section_block"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "paragraph_block",
+                "description": "A prose paragraph or continuous paragraph block on the page.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Paragraph block",
+                "recommended_cell_codes": [
+                  "paragraph_text"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "paragraph_block"
+                },
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback row type for repeated structures that do not fit a more specific row type.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "recommended_cell_codes": [
+                  "other"
+                ],
+                "semantic_binding": {
+                  "entity_type": "document_fact",
+                  "materialize_each_row": false,
+                  "role_type": "other"
+                },
+                "status": "active"
+              }
+            ],
+            "schema_version": "1.0",
+            "subcategories": [
+              {
+                "aliases": [],
+                "code": "philosophy_of_consciousness",
+                "description": "Pages focused on selfhood, free will, awareness, cognition or the nature of mind.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Philosophy of consciousness",
+                "parent_category": "consciousness_and_mind",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "dreams_and_altered_states",
+                "description": "Pages discussing dreaming, lucid or waking-state comparisons, hallucinogens or altered consciousness.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Dreams and altered states",
+                "parent_category": "consciousness_and_mind",
+                "status": "active"
+              },
+              {
+                "aliases": [
+                  "symbolic worlds"
+                ],
+                "code": "symbolism_and_archetypes",
+                "description": "Pages centered on symbolic worlds, propaganda, archetypes, hero journeys and meaning structures.",
+                "domains": [
+                  "humanities_psychology_texts"
+                ],
+                "label": "Symbolism and archetypes",
+                "parent_category": "consciousness_and_mind",
+                "status": "active"
+              },
+              {
+                "aliases": [],
+                "code": "other",
+                "description": "Fallback subcategory for in-scope content that cannot be assigned to a more specific subcategory.",
+                "domains": [
+                  "other"
+                ],
+                "label": "Other",
+                "parent_category": "other",
+                "status": "active"
+              }
+            ],
+            "taxonomy_id": "taxonomy_208abd2a4486",
+            "taxonomy_version": "custom.v1"
+          },
+          "runtime_locale": "en",
+          "taxonomy_fingerprint": "eabac58343dde0234f28fecb5d66f795b8e7b5fe91769e85b98e6179c856215d",
+          "taxonomy_id": "taxonomy_208abd2a4486",
+          "taxonomy_version": "custom.v1"
+        }
+      },
+      "source_semantic_release_id": "release_4a76b237bfbc",
+      "source_semantic_release_version": "custom.v1",
+      "source_state": "empty"
+    }
+  ],
+  "target_artifact_root": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final",
+  "target_database_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Corpus\\corpus.db"
+}

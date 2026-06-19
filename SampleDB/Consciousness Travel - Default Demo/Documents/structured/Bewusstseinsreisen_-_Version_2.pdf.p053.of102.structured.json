@@ -2,39 +2,39 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:48:36.422769+00:00",
+    "processed_at": "2026-06-02T18:59:39.254973+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.97,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The visible page is a prose-heavy page from a book-like publication.",
+      "matched_signals": [
+        "book page",
+        "continuous prose",
+        "paragraph layout"
+      ]
+    },
     "page_number": 53,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=053-of-102",
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.9,
-      "reason": "A continuous philosophical/nonfiction book page with prose paragraphs is visible.",
-      "matched_signals": [
-        "continuous prose",
-        "book page",
-        "philosophical writing"
-      ]
-    },
     "date_range": {
       "from": null,
       "to": null
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "plain_text_page",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -54,7 +52,7 @@
     "segments": [
       {
         "segment_id": "Page53_Segment1",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 53,
         "sequence": 1,
         "text": "Wer es allerdings schafft, das zweigleisige Gewahrsein so zu erschaffen, dem wird sich eine Art Vogelperspektive eröffnen, wie er sie im normalen Leben noch nie erlebt hat. Er wird feststellen, wie er merkwürdig losgelöst von sich selbst eine doppelte Welt sieht. Eine äußere Welt voller Geschäftigkeit und eine innere Welt, in die diese Geschäftigkeit hineinströmt und wie ein Bogen einer Violine die Saiten unseres Bewusstseins zum klingen bringt. Und wer dies einige Male tut, der wird auch bemerken, wie kraftvoll dieser Bogen doch unser gesamtes Bewusstsein dirigiert. Sehr viel stärker nämlich, als alles was der Zwerg dem jemals entgegen setzen könnte. Dieser Zustand bringt dann auch eine Portion Ernüchterung mit sich, denn aus dieser Warte können wir erkennen, über wie wenig wir uns doch während unseres täglichen Dahindämmerns wirklich bewusst sind was wirklich vor sich geht.",
@@ -63,24 +61,15 @@
       },
       {
         "segment_id": "Page53_Segment2",
-        "unit_kind": "reflective_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 53,
         "sequence": 2,
-        "text": "Es ist eine wirklich lohnende Übung, so etwas einmal selbst zu tun, denn auch wenn es zu Beginn seltsam erscheint und man in den weiteren Schritten ständig mit dem Vergessen ringt, so eröffnet dies uns doch einen kleinen Einblick in das, zu was unser Gewahrsein wirklich fähig ist. Etwas, wovon bisher stets nur in okkulten Zirkeln gemunkelt oder von Religionen verbrämt dargestellt wurde. Etwas, wovon unsere Wissenschaft noch nicht einmal Notiz genommen hat, obwohl es doch direkt vor unserer Nase liegt, nur getrennt von uns durch einen Papier dünnen Schleier des Vergessens. Ja es zeigt uns eigentlich noch sehr viel mehr, denn wenn wir einmal selbst erkannt haben, dass unser Gewahrsein sich so verhalten kann und wir erleben, dass es scheinbar keine wirkliche Grenze hat in dem, was es alles umfassen kann, dann sollten wir uns doch fragen, wieso wir nicht sehr viel mehr unserer Aufmerksamkeit und gemeinsamer Ressourcen aufwenden, um dieses Mysterium endlich aus seinem Schattendasein zu reißen?",
-        "function": "advocates_inquiry_into_consciousness",
+        "text": "Es ist eine wirklich lohnende Übung, so etwas einmal selbst zu tun, denn auch wenn es zu Beginn seltsam erscheint und man in den weiteren Schritten ständig mit dem Vergessen ringt, so eröffnet dies uns doch einen kleinen Einblick in das, zu was unser Gewahrsein wirklich fähig ist. Etwas, wovon bisher stets nur in okkulten Zirkeln gemunkelt oder von Religionen verbrämt dargestellt wurde. Etwas, wovon unsere Wissenschaft noch nicht einmal Notiz genommen hat, obwohl es doch direkt vor unserer Nase liegt, nur getrennt von uns durch einen Papier dünnen Schleier des Vergessens. Ja es zeigt uns eigentlich noch sehr viel mehr, denn wenn wir einmal selbst erkannt haben, dass unser Gewahrsein sich so verhalten kann und wir erleben, dass es scheinbar keine wirkliche Grenze hat in dem, was es alles umfassen kann, dann sollten wir uns doch fragen, wieso wir nicht sehr viel mehr unserer Aufmerksamkeit und gemeinsamer Ressourcen aufwenden, um dieses Mysterium endlich aus seinem Schattendasein zu reißen? Allerdings ist dies nur ein Aspekt unter vielen und so faszinierend wie das zweigleisige Gewahrsein auch sein mag, so ist es doch nur eine Seite unseres Bewusstseins. Es hat noch sehr viel mehr auf Lager, wie etwa die verrückte Welt unserer Träume und das, was wir daraus lernen können.",
+        "function": "advocates_further_exploration_of_consciousness",
         "confidence": 0.97
-      },
-      {
-        "segment_id": "Page53_Segment3",
-        "unit_kind": "reflective_paragraph",
-        "page": 53,
-        "sequence": 3,
-        "text": "Allerdings ist dies nur ein Aspekt unter vielen und so faszinierend wie das zweigleisige Gewahrsein auch sein mag, so ist es doch nur eine Seite unseres Bewusstseins. Es hat noch sehr viel mehr auf Lager, wie etwa die verrückte Welt unserer Träume und das, was wir daraus lernen können.",
-        "function": "transitions_to_broader_topic",
-        "confidence": 0.96
       }
     ],
-    "free_text": "Gewahrsein, Vogelperspektive, Bewusstsein, Übung, Mysterium, Träume"
+    "free_text": "zweigleisiges Gewahrsein, Bewusstsein, Vogelperspektive, Übung, Träume"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.98,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:41:24.443694+00:00",
+    "processed_at": "2026-06-02T18:52:02.156307+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
@@ -14,39 +14,38 @@
     "document_type": "book_page",
     "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "philosophical_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 35,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=035-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.96,
-      "reason": "A philosophical book page is visible with a chapter heading, subsection title, and continuous prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.89,
+      "reason": "The page is a born-digital book page with chapter and section headings followed by continuous prose.",
       "matched_signals": [
         "chapter heading",
-        "subsection title",
-        "continuous prose paragraphs"
+        "section heading",
+        "continuous prose",
+        "book page"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 35,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=035-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -82,7 +81,7 @@
         "section": null,
         "label": null,
         "text": "Wir haben ja nun reichlich über die Maschine geredet und uns im Kreise laufend wiedergefunden, wenn wir nach der Existenz des freien Willens gefragt haben. Wie wäre es stattdessen einmal zu fragen, was denn „frei“ im Sinne der Maschine genau bedeuten soll? Ginge es nach dem Zwerg, so würde er wohl am liebsten die Bande kappen die ihn an den Riesen fesseln und frei wie ein Vogel davon schweben, hinein in sein Himmelreich der Glückseligkeit. Dass das Abtrennen gleichbedeutend mit seinem Verschwinden ist, das kommt ihm gar nicht in den Sinn. Also nehmen wir doch einmal die erwachsene Position ein und erkennen an, ein Produkt jenes Riesen zu sein, welches nur durch seine Großzügigkeit überhaupt ein Leben, ein Erleben hat.",
-        "function": "conceptual_reframing",
+        "function": "reframing_argument",
         "confidence": 0.98
       },
       {
@@ -93,7 +92,7 @@
         "section": null,
         "label": null,
         "text": "Was wäre denn nun ein Schritt, welchen wir unternehmen könnten um etwas mehr Freiheit zu erlangen? Wir wollen uns ja nicht aus dem Staub machen, sondern wir wollen wachsen, nicht länger nur ein Zwerg sein. Wir könnten uns zu Beginn zum Beispiel mehr Informationen zugänglich machen. Aber wie? Lasst uns im Folgenden zwei Szenarien betrachten, anhand derer wir versuchen zu verstehen, welche Informationen uns tatsächlich zugänglich sind oder sein könnten. Eine Art das Maß an Freiheit zu beschreiben, wenn es um den eigenen Handlungsspielraum geht, ist doch die Menge an Informationen die einem Selbst zugänglich ist, nicht wahr? Wissen ist Macht, so steht es zumindest geschrieben. Also weiten wir einmal unser Wissen über uns selbst und sehen, was dabei heraus kommt.",
-        "function": "introducing_inquiry",
+        "function": "transition_to_examples",
         "confidence": 0.98
       },
       {
@@ -108,7 +107,7 @@
         "confidence": 0.97
       }
     ],
-    "free_text": "Kapitel 3, Der erregte Affe, Freiheit, Information, Beispielszene"
+    "free_text": "Kapitel 3, Der erregte Affe, Freiheit, Wissen, Beispiel eines jungen Mannes"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

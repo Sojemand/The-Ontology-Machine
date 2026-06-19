@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:30:53.770645+00:00",
+    "processed_at": "2026-06-02T18:41:14.693957+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.9,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.97,
+    "category": "literature",
+    "subcategory": "philosophical_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.88,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "The visible page is a continuous prose page from a book-like document.",
       "matched_signals": [
-        "continuous paragraph prose",
-        "book page layout",
-        "philosophical reflection"
+        "continuous prose",
+        "book page",
+        "narrative and reflective text"
       ]
     },
     "date_range": {
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_prose",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,8 +56,8 @@
         "page": 9,
         "sequence": 1,
         "text": "rechtschaffenen Mann wurde, bleibt uns bis auf Weiteres verborgen, denn er wart seither nicht mehr auf der goldenen Straße gesehen.",
-        "function": "story_closure",
-        "confidence": 0.91
+        "function": "closing_narrative_note",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page9_Segment2",
@@ -67,8 +65,8 @@
         "page": 9,
         "sequence": 2,
         "text": "Jede Parallele, die der Leser in dieser Geschichte zu seinem eigenen Leben findet ist selbstverständlich rein zufällig, darauf muss ich bestehen. Was wir hier für den weiteren Verlauf mitnehmen ist etwas Anderes. Es ist die banale und naheliegende Frage, welche der erlebten Welten denn die reale war. Seht ihr, diese Frage ist keineswegs eindeutig zu beantworten. Je nach dem, wie ein jeder selbst das Leben sieht, wird er die eine oder andere Welt als die wahrscheinlich realere sehen. Per se gibt es in dieser Geschichte nichts an dem man festmachen könnte, was Wirklichkeit und was Traum ist. Ich weiß, rein aus der erzählerischen Warte heraus betrachtet ist es verführerisch anzunehmen, die schlammige Hölle sei die Realität, denn daraus ließen sich phantastische Erzählungen und heldenhafte Geschichten formen die sich sicher gut verkaufen würden.",
-        "function": "reality_vs_dream_reflection",
-        "confidence": 0.97
+        "function": "interpretive_reflection",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page9_Segment3",
@@ -85,7 +83,7 @@
         "page": 9,
         "sequence": 4,
         "text": "Alle Gedanken, die euch währenddessen durch den Kopf gingen waren sicher gut und wichtig und ihr seid euch sicher, dass ihr sie bewusst und absichtlich so gedacht habt, wie ihr sie gedacht habt. Nun, könnt auch mit Gewissheit sagen, woher denn diese Gedanken kamen? Wenn ihr sie bewusst und absichtlich gedacht habt, dann sollte es euch keine Schwierigkeiten bereiten zu benennen, woher sie kamen richtig? Wenn ihr nun wirklich ehrlich seid, dann könnt ihr wohl sagen warum ihr dies oder jenes dachtet, aber kläglich scheitern wenn es um die Frage geht, was denn da gedacht hat.",
-        "function": "challenge_assumption_of_conscious_authorship",
+        "function": "challenge_to_assumptions_about_thought",
         "confidence": 0.98
       },
       {
@@ -94,11 +92,11 @@
         "page": 9,
         "sequence": 5,
         "text": "Ich habe euch gelockt, mit einer Geschichte, die eine gewisse Universalität in sich birgt und damit Saiten in euch zum klingen bringt, die zwar in jedem von uns existieren, deren Natur uns allerdings nicht zugänglich ist. Du kannst zwar über deine Gedanken nachdenken, sozusagen der Musik nachspüren die diese Geschichte in dir erzeugt hat, aber du kannst nicht mit den Werkzeugen, die dieses Denken erschafft, über jene Werkzeuge deines Denkens selbst nachdenken. Dies ist das erste echte Mysterium, dem wir uns gegenüber",
-        "function": "introduce_mystery_of_thought",
-        "confidence": 0.96
+        "function": "metacognitive_claim",
+        "confidence": 0.97
       }
     ],
-    "free_text": "Philosophische Reflexion über Wirklichkeit, Traum, Selbstreflexion und Gedankenursprung"
+    "free_text": "philosophische Reflexion über Wirklichkeit, Traum und Denken"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -6,7 +6,7 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:49:03.181792+00:00",
+    "processed_at": "2026-06-02T19:00:05.738222+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
@@ -14,7 +14,7 @@
     "document_type": "book_page",
     "document_type_confidence": 0.99,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,38 +22,35 @@
   },
   "context": {
     "page_number": 54,
+    "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=054-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.97,
-      "reason": "A philosophical nonfiction book page is visible with a chapter heading, section heading, and continuous prose paragraphs.",
+      "reason": "The page is a born-digital book page with a chapter line, section heading, and continuous prose.",
       "matched_signals": [
+        "book page",
         "chapter heading",
         "section heading",
-        "continuous prose paragraphs",
-        "philosophical nonfiction book page"
+        "continuous prose"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "document_page_count": 102,
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_page",
       "columns": [
         "main_text"
       ],
       "form_fields": []
     },
-    "fields": {
-      "chapter_title": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht",
-      "section_title": "Träume und andere Wahnvorstellungen"
-    },
+    "fields": {},
     "rows": [],
     "segments": [
       {
@@ -61,10 +58,10 @@
         "unit_kind": "title_line",
         "page": 54,
         "sequence": 1,
-        "section": "chapter",
+        "section": "Kapitel 4",
         "label": null,
         "text": "Kapitel 4 – Wenn das Bewusstsein Sprünge macht",
-        "function": "chapter_heading",
+        "function": "chapter_title",
         "confidence": 0.99
       },
       {
@@ -72,10 +69,10 @@
         "unit_kind": "title_line",
         "page": 54,
         "sequence": 2,
-        "section": "section",
+        "section": "Kapitel 4",
         "label": null,
         "text": "Träume und andere Wahnvorstellungen",
-        "function": "section_heading",
+        "function": "section_title",
         "confidence": 0.99
       },
       {
@@ -83,10 +80,10 @@
         "unit_kind": "narrative_paragraph",
         "page": 54,
         "sequence": 3,
-        "section": null,
+        "section": "Träume und andere Wahnvorstellungen",
         "label": null,
         "text": "Weil ich nun schon einmal den Ausdruck „höheres Bewusstsein“ in den Mund genommen habe und mir sehr wohl darüber bewusst bin, dass es dazu unzählige Beschreibungen gibt, was es denn sei und wie man es erreichen könne, so will ich mich hier von dem Verdacht rein waschen, ein Anhänger von solch undefinierten und teils absurd erscheinenden neuzeitlichen esoterischen Lehren zu sein. Ich habe kein Interesse, mich im Schaffen neuer Zaubersprüche zu üben um damit den Menschen das Geld aus ihren Taschen verschwinden zu lassen. Ich verlange von niemandem, mir einfach zu glauben was er nicht selbst erfahren kann. Dazu gehört auch die Annahme, unser Bewusstsein könne sich auch auf eine andere Art entfalten als das, was wir in unserem täglichen Leben als normal empfinden. Im vorangegangenen Kapitel habe ich auf Situationen verwiesen, in denen unser Gewahrsein Dinge in unserem Bewusstsein hinterlässt, die sich mit einer konventionellen Auffassung von Bewusstsein nicht in Einklang bringen lassen.",
-        "function": "positioning_and_disclaimer",
+        "function": "disclaimer_and_positioning",
         "confidence": 0.98
       },
       {
@@ -94,7 +91,7 @@
         "unit_kind": "narrative_paragraph",
         "page": 54,
         "sequence": 4,
-        "section": null,
+        "section": "Träume und andere Wahnvorstellungen",
         "label": null,
         "text": "Deshalb will ich an dieser Stelle ein Thema behandeln, welches uns bei genauerer Betrachtung sehr viel über das verraten kann, was sich hinter der Grenze unseres Horizontes verbirgt, oder verbergen könnte. Es geht um Träume. Oder besser gesagt, das, zu was wir werden wenn wir träumen. Obwohl Träume ein integraler Bestandteil unseres Lebens sind und wir jeden Tag zwischen schlafen und wachen hin und her pendeln, so leiden wir auch hierbei unter dem gleichen Defizit, welchem wir schon so oft in diesem Buch begegnet sind: Dem Vergessen von Allem was sich außerhalb des Lichtes unseres Gewahrseins befindet und wenn sich etwas aus diesem Licht hinaus und hinein in die Dunkelheit bewegt, so hört es nicht nur auf zu existieren, es hat es sogar niemals gegeben und wir vermissen seine Abwesenheit auch nicht. Wenn wir nun etwas genauer hinschauen auf das, was wir sind wenn wir träumen, so wird uns klar, wie wahr diese Aussage doch ist.",
         "function": "topic_introduction_and_claim",
@@ -102,17 +99,17 @@
       },
       {
         "segment_id": "Page54_Segment5",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "descriptive_passage",
         "page": 54,
         "sequence": 5,
-        "section": null,
+        "section": "Träume und andere Wahnvorstellungen",
         "label": null,
         "text": "Träume sind phantastische Welten ohne jegliche Verpflichtung sich an irgendwelche Regeln zu halten. Die Physik hat dort keine Macht, Kausalität ist optional und Kontinuität scheinbar ein Schimpfwort. Aus der Perspektive des Wachens ist die Traumwelt absolut grotesk. Wir agieren dort im wahrsten Sinne des Wortes ungebremst irrational. Unsere Gedankengänge und Handlungen, die wir im Traum an den Tag legen, sind alles andere als konsistent, ja teilweise so absurd, dass es uns als Wachbewusstsein schwer fällt zu verstehen, warum diese",
-        "function": "descriptive_characterization",
+        "function": "description_of_dream_logic",
         "confidence": 0.97
       }
     ],
-    "free_text": "Kapitel 4, Träume, Bewusstsein, essayistische Buchseite"
+    "free_text": "Kapitel 4, Träume, Bewusstsein, esoterische Abgrenzung, Traumwelt"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:01:31.979483+00:00",
+    "processed_at": "2026-06-02T19:12:36.202489+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,31 +22,29 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.92,
-      "reason": "A continuous nonfiction book page with philosophical/explanatory paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.89,
+      "reason": "The visible page is a continuous prose page from a book-like publication.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "nonfiction philosophical writing",
-        "book page layout"
+        "continuous prose",
+        "book page",
+        "publication layout"
       ]
     },
+    "page_number": 85,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=085-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 85,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=085-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "plain_text_page",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -59,7 +57,7 @@
         "sequence": 1,
         "text": "man eigentlich hin wollte und wir beginnen es uns in diesem neuen Heim gemütlich zu machen. Wozu die Mühe auf sich nehmen weiter zu gehen, wenn man doch so gut hier hinein passt? Und unversehens wurden wir von einer Symbolwelt absorbiert. Sie sind wie Massenkörper mit ihrer eigenen Gravitation. Es ist leicht auf sie zuzustürzen wenn man auf seiner Reise im Leerraum in ihren Einflussbereich gerät, aber schwer wieder von ihnen los zu kommen, hat man einmal einen Fuß auf sie gesetzt. Sicher werden sich einige Mathematiker die Haare raufen wenn ich zur Illustration den Lorenz Attraktor benutze, aber zeichnet er doch perfekt den Pfad nach, welchen man von einem Symbolraum zu Nächsten nimmt, denn es ist keine gerade Linie, sondern eher ein Orbit, der das eigne Selbst in wachsendem Abstand immer mal wieder am Beginn der Reise vorbei führt, bis man endlich die Umlaufbahn des Ziels erreicht hat.",
         "function": "metaphorical_explanation",
-        "confidence": 0.97
+        "confidence": 0.98
       },
       {
         "segment_id": "Page85_Segment2",
@@ -67,29 +65,29 @@
         "page": 85,
         "sequence": 2,
         "text": "Wir weigern uns nicht, andere Realitätsmodelle anzuerkennen, weil sie aus unser Sicht „falsch“ wären, sondern weil wir von Natur aus die aufkommenden Widersprüche in unserem eigenen Modell scheuen. Wenn wir auf Andere zeigen und sagen, wie unsinnig und widersprüchlich ihr Realitätsmodel doch ist, dann zeigen wir damit nicht auf sie, sondern auf uns selbst und die Widersprüche, die das andere Modell in uns selbst erzeugt. Wir ignorieren, dass diese Widersprüche im Gegenüber überhaupt nicht existieren. Es ist wie die Illusion der Existenz der „bösen Menschen“, die erst dann verschwindet, wenn man selbst, aus welchen Gründen auch immer, zu solch einem „bösen Menschen“ geworden ist.",
-        "function": "self_reflective_argument",
-        "confidence": 0.96
-      },
-      {
-        "segment_id": "Page85_Segment3",
-        "unit_kind": "recommendation_paragraph",
-        "page": 85,
-        "sequence": 3,
-        "text": "Für all jene, die die Geduld aufbringen, sich dem Studium der Symbolik näher widmen zu wollen, dem sei ein außergewöhnlicher Gelehrter unserer Zeit ans Herz gelegt: Jonathan Pageau. Er verbindet hauptsächlich die christliche Symbolik mit unser aktuellen Welt auf eine solch fundamentale und detaillierte Weise, wie ich dies niemals könnte und es demnach auch gar nicht erst versuche.",
-        "function": "author_recommendation",
+        "function": "self_reflection_on_projection",
         "confidence": 0.97
       },
       {
+        "segment_id": "Page85_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 85,
+        "sequence": 3,
+        "text": "Für all jene, die die Geduld aufbringen, sich dem Studium der Symbolik näher widmen zu wollen, dem sei ein außergewöhnlicher Gelehrter unserer Zeit ans Herz gelegt: Jonathan Pageau. Er verbindet hauptsächlich die christliche Symbolik mit unser aktuellen Welt auf eine solch fundamentale und detaillierte Weise, wie ich dies niemals könnte und es demnach auch gar nicht erst versuche.",
+        "function": "recommendation",
+        "confidence": 0.98
+      },
+      {
         "segment_id": "Page85_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 85,
         "sequence": 4,
         "text": "Ich weise deshalb explizit auf ihn hin, da er es vermag zu vermitteln, wie universell religiöse und antike Symbolik wirklich ist und warum sie so verfasst wurde wie sie verfasst wurde. Es erzeugt auch ein Gefühl dafür, welche Elemente eine universelle Symbolik enthalten muss um ihren Inhalt über lange Zeiträume hinweg unverfälscht zu bewahren, dass man diese Elemente generalisieren kann und sich ihre Regeln auch auf Symbolik aus anderen Quellen sehr gut anwenden lässt.",
         "function": "justification_for_recommendation",
-        "confidence": 0.96
+        "confidence": 0.98
       }
     ],
-    "free_text": "Symbolwelten, Realitätsmodelle, Jonathan Pageau, universelle Symbolik"
+    "free_text": "Essayseite über Symbolik, Realitätsmodelle und Empfehlung von Jonathan Pageau"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

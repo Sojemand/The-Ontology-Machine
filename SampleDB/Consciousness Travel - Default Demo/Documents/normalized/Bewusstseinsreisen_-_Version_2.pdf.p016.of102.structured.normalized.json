@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:34:00Z",
+    "processed_at": "2026-06-02T18:44:14Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction page argues that people construct plausible explanations after the fact, using stock market commentators as an analogy. It critiques confidence in retrospective causality and extends the point to everyday choices, beliefs, and identity. The page frames self-understanding as a pattern of post hoc interpretation rather than direct insight.",
+    "description": "A philosophical prose page argues that people explain their own choices and beliefs retroactively, just as market commentators explain stock movements after the fact. The passage criticizes retrospective certainty and uses the stock analyst analogy to question claims of knowing the real causes behind decisions and identities.",
     "tags": [
       "self-interpretation",
-      "post hoc explanation",
-      "retrospective causality",
+      "retrospective explanation",
+      "free will",
       "stock market analogy",
-      "philosophical argument"
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -40,14 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Classified as a theoretical nonfiction discussion page based on continuous prose."
+      "Translated German prose into English summary and retrieval text.",
+      "No chapter heading visible; classified as philosophical consciousness-related prose."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -56,50 +57,60 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 16,
-      "topic_keywords": [
-        "self-interpretation",
-        "post hoc explanation",
-        "retrospective causality",
-        "stock market analogy",
-        "philosophical argument"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The page argues that people explain their own choices and beliefs after the fact, just as stock commentators explain market moves retrospectively. It uses that analogy to question claims of certainty about why events happened and why personal preferences or life decisions were made."
+        "page_number": 16,
+        "text_content": "Page 16 of the book manuscript; philosophical prose on self-interpretation and retrospective explanation.",
+        "paragraph_text": "The passage argues that we explain our own choices and beliefs after the fact, in the same way stock commentators explain market moves retroactively."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "text_content": "Retroactive certainty is criticized as a false understanding of causes.",
+        "paragraph_text": "A stock market commentator can always explain why a price moved after it has already moved, but that does not mean they can predict the move in advance."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "text_content": "The analogy is extended to everyday self-explanations.",
+        "paragraph_text": "The same pattern is applied to personal preferences, career decisions, marriage, brands, philosophy, politics, and ideology, which people explain to themselves only afterward."
       }
     ],
-    "free_text": "book_page book_content theoretical_discussion Philosophical nonfiction on self-interpretation, post hoc explanation, and retrospective certainty, using stock market commentators as an analogy."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness book_title: Bewusstseinsreisen - Version 2; page_number: 16; language: de; philosophical prose on self-interpretation, retrospective explanation, and the limits of retrospective certainty; stock market commentator analogy used to question claims about the real causes of decisions and identity."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.89,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.89 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.89 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

@@ -100,7 +100,7 @@ def validate_artifact_tree(payload: dict[str, Any]) -> dict[str, Any]:
             relative = path.relative_to(root).as_posix()
             if relative and relative not in allowed and not any(item.startswith(relative + "/") for item in allowed):
                 unexpected_paths.append(relative)
-    if request.get("require_empty_input") and any((root / "Input").iterdir()):
+    if request.get("require_empty_input") and any(_non_placeholder_child(root / "Input")):
         validation_errors.append("input_not_empty")
     folders = canonical_folder_map(root)
     output = {
@@ -137,3 +137,10 @@ def validate_artifact_tree(payload: dict[str, Any]) -> dict[str, Any]:
 def _mapping(payload: dict[str, Any], key: str) -> dict[str, Any]:
     value = payload.get(key)
     return dict(value) if isinstance(value, dict) else {}
+
+
+def _non_placeholder_child(path: Path):
+    for child in path.iterdir():
+        if child.name == ".gitkeep":
+            continue
+        yield child

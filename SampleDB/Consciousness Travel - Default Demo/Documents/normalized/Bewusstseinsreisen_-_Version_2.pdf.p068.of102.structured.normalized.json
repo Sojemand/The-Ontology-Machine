@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:54:50Z",
+    "processed_at": "2026-06-02T19:05:46Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "The page discusses consciousness as a dynamic process that can shift states, including sleep and expanded awareness. It proposes searching daily life for a consistent symbolic language that resembles dream-like rules across cultures and eras. The page ends by signaling that this topic will continue in the next chapter.",
+    "description": "The author reflects on consciousness as a dynamic process that shifts states in sleep and in expanded awareness. The page argues that recurring symbols in everyday life may form a consistent symbolic language across cultures and eras, similar to dream rules. It ends by signaling a transition to the next chapter.",
     "tags": [
       "consciousness",
       "symbolism",
-      "symbolic language",
       "dreams",
-      "chapter transition"
+      "chapter transition",
+      "philosophical reflection"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Source language is German; summary and tags are translated to English.",
-      "Classification normalized to body-content theoretical discussion based on philosophical prose."
+      "German prose translated into English control-language summary.",
+      "No visible chapter heading or title extracted from the page content."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,49 +57,53 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 68,
-      "topic_keywords": [
-        "consciousness",
-        "symbolism",
-        "symbolic language",
-        "dreams"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Consciousness is described as a dynamic process that shifts states, including sleep and expanded awareness. The page proposes identifying a symbolic language in daily life that appears consistent across cultures and eras and resembles dream-like rules. It closes by pointing to the next chapter."
+        "paragraph_text": "Consciousness can assume different states and continually does so, whether to lose complexity when we sleep or to gain breadth when we allow it to. It is in any case a dynamic process whose rules we do not really understand, or do not want to understand."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The author proposes looking for symbolic languages that appear in everyday life without first asking where they come from. Symbolic patterns are described as unusually consistent across cultures and eras, presenting broader meaning and resembling the rules of a dream."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 2,
+        "text_content": "This will be the subject of the next chapter."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on consciousness and symbolic language. Discusses shifting states of awareness, recurring symbolism across cultures and eras, and a transition to the next chapter."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Book page from Bewusstseinsreisen - Version 2, page 68, on consciousness as a dynamic process and on recurring symbolic language across cultures and eras. The page transitions to the next chapter."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

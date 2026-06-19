@@ -6,7 +6,7 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:34:53.264906+00:00",
+    "processed_at": "2026-06-02T18:45:24.744997+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
@@ -14,7 +14,7 @@
     "document_type": "book_page",
     "document_type_confidence": 0.99,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -25,14 +25,14 @@
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=019-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.97,
-      "reason": "A philosophical/nonfiction book page is visible with a chapter heading, section heading, and continuous prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The page is a book page with chapter heading, section title, and prose paragraphs.",
       "matched_signals": [
-        "Kapitel 2",
         "chapter heading",
-        "section heading",
-        "continuous prose paragraphs"
+        "section title",
+        "prose paragraphs",
+        "book page"
       ]
     },
     "date_range": {
@@ -44,16 +44,11 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_page",
-      "columns": [
-        "main"
-      ],
+      "type": "single_column",
+      "columns": [],
       "form_fields": []
     },
-    "fields": {
-      "chapter_title": "Kapitel 2 – Kenne deine Maschine",
-      "section_title": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung"
-    },
+    "fields": {},
     "rows": [],
     "segments": [
       {
@@ -61,8 +56,6 @@
         "unit_kind": "title_line",
         "page": 19,
         "sequence": 1,
-        "section": null,
-        "label": "chapter",
         "text": "Kapitel 2 – Kenne deine Maschine",
         "function": "chapter_heading",
         "confidence": 0.99
@@ -72,8 +65,6 @@
         "unit_kind": "title_line",
         "page": 19,
         "sequence": 2,
-        "section": null,
-        "label": "section",
         "text": "Die wunderbare Welt des unsichtbaren Supercomputers: Mustererkennung",
         "function": "section_heading",
         "confidence": 0.99
@@ -83,10 +74,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 19,
         "sequence": 3,
-        "section": null,
-        "label": null,
         "text": "Ich denke, nichts demonstriert die überlegene Funktionalität unserer unsichtbaren Welt besser als unsere Fähigkeit, überall und zu jeder Zeit Muster zu erkennen. Vor einigen Jahren, oder besser vor vielen Jahren, begann ich ein Experiment. Allerdings war ich mir damals nicht im Klaren darüber, dass es sich zu einem solchen entwickeln würde, als ich das Fundament dafür schuf. Die folgenden Dinge trugen sich grob gesehen über einen Zeitraum von gut 15 Jahren zu und manchmal vergingen zwischen den einzelnen Meilensteinen Jahre, bevor ich mir über die subtilen Veränderungen erst richtig bewusst wurde. Teilweise auch deswegen, weil ich Besseres zu tun hatte und der Sache nicht wirklich die gebührende Aufmerksamkeit schenkte, aber was will man machen.",
-        "function": "introduces_long_term_experiment",
+        "function": "introducing_long_term_experiment",
         "confidence": 0.98
       },
       {
@@ -94,10 +83,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 19,
         "sequence": 4,
-        "section": null,
-        "label": null,
         "text": "Alles begann damit, als mich mein Interesse in Richtung christlicher Symbolik lenkte und ich dabei unweigerlich auch in okkulten Ecken des Internets landete. Dort begegnete mir dann, wen wundert es, der Zahl 666. Ich war fasziniert, wie viele Zusammenhänge sich damit konstruieren ließen und wie weit so manch einer dabei zu gehen bereit war. Wie viel Wirbel doch eine einfache Zahl verursachen kann. Was ich damals nicht wusste war, dass ich damit einen Prozess lostrat, der mir einen der ungeheuerlichsten Tricks unseres Bewusstseins vor Augen führen sollte.",
-        "function": "origin_story_of_pattern_focus",
+        "function": "describing_trigger_for_pattern_focus",
         "confidence": 0.98
       },
       {
@@ -105,10 +92,8 @@
         "unit_kind": "descriptive_passage",
         "page": 19,
         "sequence": 5,
-        "section": null,
-        "label": null,
         "text": "Ihr müsst wissen, Neurohplastizität ist eine feine Sache. Unser Gehirn passt sich neuen Prioritäten nur allzu gerne an, ändert alte und erschafft neue neurale Pfade, um veränderten Prioritäten besser gerecht werden zu können. Es dauert seine Zeit, solche Dinge geschehen nicht von Heute auf Morgen, aber wenn das Gehirn einem kontinuierlichen Zustrom des immer gleichen Signals ausgesetzt ist, passt sich unsere graue Masse dem irgendwann so gut an, dass sie selbst dann noch dem Signal eine hohe Priorität zumisst, wenn der Reiz schon längst wieder verschwunden ist. Oder kurz, so entwickeln sich Gewohnheiten, gute und schlechte.",
-        "function": "explains_neuroplasticity",
+        "function": "explaining_neuroplasticity",
         "confidence": 0.95
       },
       {
@@ -116,14 +101,12 @@
         "unit_kind": "narrative_paragraph",
         "page": 19,
         "sequence": 6,
-        "section": null,
-        "label": null,
         "text": "Was ich also damals tat war, meinem Gehirn zu signalisieren, doch bitte der Zahl 666 eine gewisse Gewichtung beizumessen. Ich tat das offensichtlich lange genug, um einen neuralen Pfad zu erschaffen, der immer dann ansprang, wenn ich in meiner Umgebung die Zahl 666 zu sehen bekam. Es war ein wenig gruselig zu erleben, wie nach und nach diese Zahl in meiner Welt immer öfter zu erscheinen schien, zumindest am Anfang. Über die Jahre wurde das",
-        "function": "describes_conditioned_pattern_detection",
+        "function": "describing_conditioned_pattern_detection",
         "confidence": 0.97
       }
     ],
-    "free_text": "Kapitel 2, Mustererkennung, Neuroplastizität, Zahl 666, autobiografische Reflexion"
+    "free_text": "Kapitel über Mustererkennung, Bewusstsein, Neuroplastizität, Zahl 666"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

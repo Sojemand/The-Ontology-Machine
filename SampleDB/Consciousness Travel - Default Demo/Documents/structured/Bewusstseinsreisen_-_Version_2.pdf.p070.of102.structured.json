@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:55:32.883628+00:00",
+    "processed_at": "2026-06-02T19:06:25.407460+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.97,
+    "category": "publication",
+    "subcategory": "nonfiction_book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,28 +22,28 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.94,
-      "reason": "A philosophical/nonfiction book page with continuous prose paragraphs is visible.",
+      "reason": "A continuous prose page from a book is visible.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "nonfiction book page",
-        "philosophical writing"
+        "book_page",
+        "continuous prose",
+        "non-formatted publication text"
       ]
     },
-    "page_number": 70,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=070-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 70,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=070-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
         "main_text"
       ],
@@ -59,34 +59,34 @@
         "sequence": 1,
         "text": "in der sich der Tod auf festen Pfaden schnell über das Land bewegt und wer sich ihm in den Weg stellt, der fällt ihm zum Opfer. Er wird das ohne weitere Informationen verstehen, weil er die universellen Symbole versteht. Er mag dieses Bild vielleicht mit Raubtieren ersetzen, oder mit einer Horde Elefanten, die sich immer auf gleichen Pfaden bewegen und auch nicht anhalten, wenn er sich ihnen in den Weg stellt. Wenn du dem Wilden aus grauer Vorzeit dann auch noch sagen würdest, dass man diesen sich schnell bewegenden Tod hauptsächlich dazu nutzt, von Ort zu Ort zu reisen, würde er sich ob unserer Leichtsinnigkeit wohl wundern, aber auch das könnte er verstehen, wenn er sich vorstellt, dass man auch auf den Elefanten reiten könnte. Ganz gleich welche spezifischen Objekte er mit deinen Symbolen verknüpft, die Grundaussage bleibt erhalten.",
         "function": "illustrates_universal_symbol_understanding",
-        "confidence": 0.98
+        "confidence": 0.96
       },
       {
         "segment_id": "Page70_Segment2",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "expository_paragraph",
         "page": 70,
         "sequence": 2,
         "text": "Die Tatsache, dass wir eine solche universelle Symbolik besitzen, die sich über Kulturen und Zeitalter hinweg als beständig zeigt, ist etwas, was wir Heute aktiv erforschen und in einigen Bereichen sogar versuchen zu nutzen. Es gibt ein Forschungsgebiet, welches sich damit beschäftigt, wie man am besten Orte kennzeichnet, an denen radioaktiver Abfall gelagert wird. Wir können nicht davon ausgehen, dass das Symbol für Radioaktivität und das Wissen um seine Gefährlichkeit nicht irgendwann verloren geht. Ganz besonders, wenn wir uns die Zeiträume betrachten, in denen diese Abfälle gefährlich bleiben. Niemand kann ernsthaft annehmen, dass sich jemand in hunderttausend Jahren noch erinnern könnte, was dieses Symbol bedeutet. Also versuchen wir herauszufinden, wie man ein solch kompliziertes Konzept wie Radioaktivität und die Gefahr, die von ihr ausgeht, in eine robuste Symbolsprache übersetzt, die man auch dann noch versteht, wenn man alles andere vergessen hat. Das ist sehr viel schwerer als es sich vielleicht anhört.",
-        "function": "applies_symbolism_to_radioactive_warning_problem",
+        "function": "explains_application_of_universal_symbolism",
         "confidence": 0.98
       },
       {
         "segment_id": "Page70_Segment3",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "argumentative_paragraph",
         "page": 70,
         "sequence": 3,
         "text": "Deshalb versucht man auf die robusteste Symbolik zurückzugreifen, die wir bisher entdeckt haben: Archetypen. Wir müssen uns auch nicht lange darüber streiten, ob das Konzept von Archetypen überhaupt real ist, denn solche finden sich mittlerweile in fast allen Bereichen, die sich mit der menschlichen Psyche beschäftigen. Man versucht gar, diese Muster mit der Quantenebene in Verbindung zu bringen, sie in der Genetik zu suchen und sie an neuralen Strukturen festzumachen. Wie auch immer man zu den einzelnen Disziplinen und ihren Ideen steht, die Existenz von diesen übergreifenden Mustern steht außer Frage, nur die Ursache ist bisher ungeklärt.",
-        "function": "argues_for_archetypes_as_robust_symbol_system",
+        "function": "argues_for_archetypes_as_robust_patterns",
         "confidence": 0.98
       },
       {
         "segment_id": "Page70_Segment4",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "argumentative_paragraph",
         "page": 70,
         "sequence": 4,
         "text": "Wir können uns natürlich auf die Position verlegen, diese Muster als Teil eines „kollektiven Unbewussten“ zu betrachten, welches sich durch eine Reihe von möglichen Kanälen in unser",
-        "function": "introduces_collective_unconscious_explanation",
-        "confidence": 0.97
+        "function": "introduces_collective_unconscious_hypothesis",
+        "confidence": 0.93
       }
     ],
     "free_text": "Universelle Symbolik, Radioaktivität, Archetypen, kollektives Unbewusstes"

@@ -1,0 +1,5 @@
+2026-06-02T18:35:55.862288+00:00 [DOC] Bewusstseinsreisen - Version 2.pdf: working tree prepared
+2026-06-02T19:13:29.731184+00:00 [INTERPRETER-REVIEW] Bewusstseinsreisen - Version 2.pdf: Page 87/102 -> The visible page ends mid-sentence; the final paragraph is truncated on this page.
+2026-06-02T19:13:37.759763+00:00 [NORMALIZER-REVIEW] Bewusstseinsreisen - Version 2.pdf: Page 87/102 -> The page is a truncated prose extract; the final paragraph ends mid-sentence.
+2026-06-02T19:23:14.335242+00:00 [EMBED] 1269 Embeddings erzeugt (102 Dokument-Summaries, 1167 Chunks).
+2026-06-02T19:23:17.342434+00:00 [OK-REVIEW] Bewusstseinsreisen - Version 2.pdf written to corpus.db -> Interpreter: The visible page ends mid-sentence; the final paragraph is truncated on this page. | Normalizer: The page is a truncated prose extract; the final paragraph ends mid-sentence.

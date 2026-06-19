@@ -1,6 +1,6 @@
 {
   "source": {
-    "ingest_id": "90b58ef4-55a2-4191-8ba7-f7e9468dfa3e",
+    "ingest_id": "1482bf88-d7c4-4268-9dde-6c1f1e8e6660",
     "file_name": "Bewusstseinsreisen - Version 2.pdf",
     "file_path": "../../../originals/Bewusstseinsreisen - Version 2.pdf::page=046-of-102",
     "relative_path": "Bewusstseinsreisen - Version 2.pdf",
@@ -322,87 +322,92 @@
     ]
   },
   "projection_catalog": {
-    "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
+    "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
     "master_taxonomy_version": "merged.v1",
     "projections": [
       {
-        "projection_id": "merged.projection.e06f90b85302",
-        "label": "Book Chapter Page Book Page Book Table Of Contents Page Projection",
-        "when_to_use": "Use for Book Page in Philosophical Writing. Expected structures include heading, list item and paragraph; typical markers include inhaltsverzeichnis, kapitel 1, kapitel 2 and vorwort.",
-        "avoid_when": "Avoid when content does not match Book Page in Philosophical Writing or lacks heading, list item and paragraph structure.",
+        "projection_id": "merged.projection.16c694851387",
+        "label": "Merged Projection",
+        "when_to_use": "Use when content matches any selected source projection.",
+        "avoid_when": "Do not use when none of the selected source projection signals match.",
         "example_document_types": [
-          "book_page",
-          "book_table_of_contents_page",
-          "nonfiction_book_page"
+          "book_page"
         ],
         "promotion_rules": [
           {
-            "slot": "title",
+            "slot": "document_title_text",
             "source_paths": [
-              "content.fields.work_title",
-              "content.fields.book_title"
+              "content.fields.title_text",
+              "content.fields.section_heading",
+              "content.fields.subsection_heading"
             ]
           },
           {
-            "slot": "language",
+            "slot": "document_work_title",
             "source_paths": [
-              "content.fields.language"
+              "content.fields.work_title"
             ]
           },
           {
-            "slot": "page_number",
+            "slot": "document_chapter_heading",
+            "source_paths": [
+              "content.fields.chapter_heading"
+            ]
+          },
+          {
+            "slot": "document_page_number",
             "source_paths": [
               "content.fields.page_number"
             ]
           },
           {
-            "slot": "chapter_title",
+            "slot": "document_book_title",
             "source_paths": [
-              "content.fields.chapter_title"
+              "content.fields.book_title"
             ]
           },
           {
-            "slot": "section_title",
-            "source_paths": [
-              "content.fields.section_title"
-            ]
-          },
-          {
-            "slot": "chapter_number",
+            "slot": "document_chapter_number",
             "source_paths": [
               "content.fields.chapter_number"
             ]
           },
           {
-            "slot": "section_heading",
+            "slot": "document_chapter_title",
+            "source_paths": [
+              "content.fields.chapter_title"
+            ]
+          },
+          {
+            "slot": "document_section_heading",
             "source_paths": [
               "content.fields.section_heading"
             ]
           },
           {
-            "slot": "topic_keywords",
+            "slot": "document_language",
             "source_paths": [
-              "content.fields.topic_keywords"
+              "content.fields.language"
             ]
           }
         ],
         "field_slot_map": {
-          "work_title": "title",
-          "language": "language",
-          "page_number": "page_number",
-          "chapter_title": "chapter_title",
-          "section_title": "section_title",
-          "book_title": "title",
-          "section_heading": "section_heading",
-          "topic_keywords": "topic_keywords"
+          "title_text": "document_title_text",
+          "work_title": "document_work_title",
+          "chapter_heading": "document_chapter_heading",
+          "page_number": "document_page_number",
+          "book_title": "document_book_title",
+          "chapter_number": "document_chapter_number",
+          "chapter_title": "document_chapter_title",
+          "language": "document_language"
         }
       }
     ],
-    "release_id": "release_15f60cfdde9d",
+    "release_id": "release_b747a846a71f",
     "release_version": "custom.v1",
-    "release_fingerprint": "sha256:ffe4ad4221dd68ab2c583e2593b1bdb8a05d96d6c32b5f9ffac6edb04321ce7c",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
-    "master_taxonomy_release_id": "e7b84720538938ce5bbbb7bfe092994d75441ebd82d5af36a6249c7a1bfd137f",
+    "release_fingerprint": "sha256:3d920f776a3c4c4c86c27064c4279f114605747712e612a98f6fec5bee3c706c",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
+    "master_taxonomy_release_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
     "runtime_locale": "en"
   }
 }

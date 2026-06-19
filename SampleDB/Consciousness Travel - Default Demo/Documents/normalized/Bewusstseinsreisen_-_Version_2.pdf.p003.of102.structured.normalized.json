@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:28:33Z",
+    "processed_at": "2026-06-02T18:39:02Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.98,
-    "category": "book_front_matter",
-    "subcategory": "preface_or_introduction",
+    "document_type_confidence": 0.99,
+    "category": "front_matter",
+    "subcategory": "other",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Die Reise zu den Grenzen des Bewusstseins und zurück",
-    "description": "German preface for a philosophical book on consciousness, titled \"Die Reise zu den Grenzen des Bewusstseins und zurück.\" The author apologizes for the dense style, explains the book as a compromise between perfectionism and practicality, and frames it as a short account of decades of experiences on a strange journey.",
+    "description": "German book front matter with the title \"Die Reise zu den Grenzen des Bewusstseins und zurück\" and a preface. The author apologizes for a dense, reflective writing style and frames the book as a short account of experiences from a long, unusual journey.",
     "tags": [
       "preface",
       "self-reflection",
-      "style apology",
-      "consciousness",
-      "philosophical prose"
+      "apology",
+      "writing style",
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -40,14 +40,14 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "foreword"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Translated the visible German heading \"Vorwort\" to the canonical preface/introduction framing."
+      "Classified as front matter because the visible section is a preface."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -56,52 +56,58 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "language",
+        "page_number"
       ]
     },
     "fields": {
       "work_title": "Die Reise zu den Grenzen des Bewusstseins und zurück",
-      "language": "de",
-      "page_number": 3,
       "section_heading": "Preface",
-      "topic_keywords": [
-        "preface",
-        "self-reflection",
-        "style apology",
-        "perfectionism",
-        "consciousness"
-      ]
+      "language": "de",
+      "page_number": 3
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "heading_block",
         "_row_index": 0,
-        "paragraph_text": "The preface introduces a self-aware, reflective tone and apologizes for the author's dense writing style. It presents the book as a compromise between perfectionism and practicality and as a short account of decades of experiences on a strange journey."
+        "heading_text": "Die Reise zu den Grenzen des Bewusstseins und zurück",
+        "text_content": "Die Reise zu den Grenzen des Bewusstseins und zurück"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "Preface",
+        "text_content": "Preface"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The author says a preface should attract readers but instead begins with an apology for a dense, convoluted style and the audio version. The book is presented as a compromise between perfectionism and laziness, shaped into a short account of experiences from decades of a strange journey."
       }
     ],
-    "free_text": "book_page book_front_matter preface_or_introduction Book preface by the author of \"Die Reise zu den Grenzen des Bewusstseins und zurück\". Self-reflective introduction about style, compromise, and a decades-long journey through consciousness-related experiences."
+    "free_text": "book_page front_matter other Book title: Die Reise zu den Grenzen des Bewusstseins und zurück. Preface introducing a reflective, apologetic account of a long strange journey and a dense writing style."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.97,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=9; confidence=0.97 => confidence_bonus=3; verified_hint_signals=2/3 [vorwort, heading]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.96,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=10; confidence=0.96 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=14; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
     }
   }
 }

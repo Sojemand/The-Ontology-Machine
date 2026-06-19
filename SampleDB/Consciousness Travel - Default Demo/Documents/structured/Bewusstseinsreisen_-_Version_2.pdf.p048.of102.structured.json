@@ -2,52 +2,49 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:46:41.182826+00:00",
+    "processed_at": "2026-06-02T18:57:47.140224+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.99,
+    "category": "literature",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 48,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=048-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.95,
-      "reason": "A nonfiction philosophical book page is visible with continuous prose and a section heading.",
+      "reason": "The page is a prose book page with a section heading and narrative paragraphs.",
       "matched_signals": [
-        "continuous prose",
+        "book page",
         "section heading",
-        "book page layout",
-        "philosophical writing"
+        "prose paragraphs"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 48,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=048-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,48 +55,59 @@
         "unit_kind": "narrative_paragraph",
         "page": 48,
         "sequence": 1,
-        "text": "Moment darüber freuen und uns wundern, wie leicht es doch war, so haben wir es im nächsten Moment schon wieder vergessen und ärgern uns, dass wir trotz aller Mühe nichts erreicht haben und die Anstrengung für die Katz war. Dann sagt ihr euch vielleicht, dass ihr es später nochmal versuchen wollt und kurz darauf schon habt ihr auch eure Anstrengung vergessen und wisst nicht einmal mehr was ihr euch vorgenommen habt.",
-        "function": "describing_forgetting_cycle",
-        "confidence": 0.95
+        "text": "Moment darüber freuen und uns wundern, wie leicht es doch war, so haben wir es im nächsten Moment schon wieder vergessen und ärgern uns, dass wir trotz aller Mühe nichts erreicht haben und die Anstrengung für die Katz war.",
+        "function": "describing_forgetfulness_cycle",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page48_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 48,
         "sequence": 2,
-        "text": "Es ist wie mit dem extrem kurzen Moment, in dem ich Muster auf Kennzeichen erkenne. Ein einzelnes Mal ist sofort wieder vergessen. Aber irgendwann, nach unzähligen Malen dann fällt mir einmal auf, dass das ein sehr merkwürdiger Vorgang ist und dann benötige ich nochmal an die hundert weiterer solcher Begegnungen, bis ich mich durch den Dschungel des Vergessens geschlagen habe und aus allen geretteten Bruchstücken ein Bild zusammensetzen kann. Jetzt, wenn mir etwas Ähnliches wieder passiert, was zugegeben recht selten ist, da ich lange nicht mehr so viel auf Autobahnen unterwegs bin, vergesse ich nichts mehr davon, noch werde ich davon überrascht. Das Vergessen ist ein furchtbarer Gegner, dem wir hilflos ausgeliefert sind und dem nur durch Hartnäckigkeit beizukommen ist. Wie halt mit allem im Leben was sich lohnt.",
-        "function": "personal_example_and_reflection",
+        "text": "Dann sagt ihr euch vielleicht, dass ihr es später nochmal versuchen wollt und kurz darauf schon habt ihr auch eure Anstrengung vergessen und wisst nicht einmal mehr was ihr euch vorgenommen habt.",
+        "function": "illustrating_failed_resolution",
         "confidence": 0.97
       },
       {
         "segment_id": "Page48_Segment3",
-        "unit_kind": "title_line",
+        "unit_kind": "reflective_passage",
         "page": 48,
         "sequence": 3,
-        "text": "Perlen in der Dunkelheit",
-        "function": "section_heading",
-        "confidence": 0.99
+        "text": "Es ist wie mit dem extrem kurzen Moment, in dem ich Muster auf Kennzeichen erkenne. Ein einzelnes Mal ist sofort wieder vergessen. Aber irgendwann, nach unzähligen Malen dann fällt mir einmal auf, dass das ein sehr merkwürdiger Vorgang ist und dann benötige ich nochmal an die hundert weiterer solcher Begegnungen, bis ich mich durch den Dschungel des Vergessens geschlagen habe und aus allen geretteten Bruchstücken ein Bild zusammensetzen kann. Jetzt, wenn mir etwas Ähnliches wieder passiert, was zugegeben recht selten ist, da ich lange nicht mehr so viel auf Autobahnen unterwegs bin, vergesse ich nichts mehr davon, noch werde ich davon überrascht. Das Vergessen ist ein furchtbarer Gegner, dem wir hilflos ausgeliefert sind und dem nur durch Hartnäckigkeit beizukommen ist. Wie halt mit allem im Leben was sich lohnt.",
+        "function": "personal_reflection_on_memory",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page48_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "title_line",
         "page": 48,
         "sequence": 4,
-        "text": "Aber nicht nur das peinliche Gefühl sich reden zu hören ist eine Erfahrung, welche sich durch ein zweigleisiges Gewahrsein einstellen kann. Es gibt auch noch eine andere, ebenso interessante Eigenschaft, die ein solch geweitetes Gewahrsein mit sich bringt. Auch dieser Hinweis stammt aus einer Überlieferung Ouspenskys, der ihn während eines Gespräches mit Gurdjieff aufschnappte. Ich nenne ihn deshalb, weil ich bestätigen kann, dass es sich genau so zuträgt und ich diesen Umstand zahlreiche Male selbst beobachtet habe.",
-        "function": "introducing_claim_with_source_reference",
-        "confidence": 0.97
+        "text": "Perlen in der Dunkelheit",
+        "function": "section_heading",
+        "confidence": 0.99
       },
       {
         "segment_id": "Page48_Segment5",
         "unit_kind": "reflective_passage",
         "page": 48,
         "sequence": 5,
+        "section": "Perlen in der Dunkelheit",
+        "text": "Aber nicht nur das peinliche Gefühl sich reden zu hören ist eine Erfahrung, welche sich durch ein zweigleisiges Gewahrsein einstellen kann. Es gibt auch noch eine andere, ebenso interessante Eigenschaft, die ein solch geweitetes Gewahrsein mit sich bringt. Auch dieser Hinweis stammt aus einer Überlieferung Ouspenskys, der ihn während eines Gespräches mit Gurdjieff aufschnappte. Ich nenne ihn deshalb, weil ich bestätigen kann, dass es sich genau so zuträgt und ich diesen Umstand zahlreiche Male selbst beobachtet habe.",
+        "function": "introducing_observation",
+        "confidence": 0.98
+      },
+      {
+        "segment_id": "Page48_Segment6",
+        "unit_kind": "reflective_passage",
+        "page": 48,
+        "sequence": 6,
+        "section": "Perlen in der Dunkelheit",
         "text": "Es beginnt mit dem Hinweis, dass sich unsere Erinnerungen an unser Leben doch recht spärlich darstellen. Jeder, der versucht sich an sein Leben zu erinnern, der wird feststellen, dass da nicht viel ist, gemessen an dem was er wirklich schon alles erlebt hat. Unsere Erinnerung besteht hauptsächlich aus einzelnen Episoden mit viel Leere dazwischen. Allerdings gibt es in unseren Erinnerungen Gegebenheiten, die sich förmlich eingebrannt zu haben scheinen. Es gibt zwei deutlich unterschiedliche Qualitäten von Erinnerungen. Jene, die verschwommen sind, sich zeitlich nicht recht zuordnen lassen und auch sonst sehr eindimensional sind. Etwa wie das, was letzte Woche so alles im Büro passiert ist, oder wie dir das Essen gestern geschmeckt hat, wie genau die Urlaubsreise letztes Jahr verlief oder welche",
         "function": "analyzing_memory_qualities",
-        "confidence": 0.96
+        "confidence": 0.98
       }
     ],
-    "free_text": "Vergessen, Erinnerung, Ouspensky, Gurdjieff, Abschnitt „Perlen in der Dunkelheit“"
+    "free_text": "Vergessen, Erinnerung, Gewahrsein, Ouspensky, Gurdjieff, Abschnitt „Perlen in der Dunkelheit“"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

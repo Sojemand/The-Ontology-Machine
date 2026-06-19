@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:37:18.753834+00:00",
+    "processed_at": "2026-06-02T18:47:51.705209+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "nonfiction_book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.95,
-      "reason": "A philosophical/nonfiction book page with a heading and continuous prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "The page is a born-digital book page with a chapter-style heading and continuous prose paragraphs.",
       "matched_signals": [
-        "book page",
-        "heading",
-        "continuous prose paragraphs",
-        "philosophical writing"
+        "book_page",
+        "section heading",
+        "continuous prose"
       ]
     },
     "date_range": {
@@ -44,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -59,7 +56,7 @@
         "page": 25,
         "sequence": 1,
         "text": "Die wundervolle Welt des verborgenen Supercomputers – Emotionale Kaskaden",
-        "function": "section_heading",
+        "function": "section_title",
         "confidence": 0.99
       },
       {
@@ -68,8 +65,8 @@
         "page": 25,
         "sequence": 2,
         "text": "Es gibt wohl nur sehr wenige Dinge, die wir Menschen mehr schätzen und hegen als das was wir fühlen, oder zu fühlen glauben. Wir versuchen permanent negativen Gefühlen aus dem Weg zu gehen und nach positiven Gefühlen zu streben. Oder kurz, wir vermeiden Schmerz und suchen die Lust. Unsere ganze Maschine ist dazu geschaffen, uns mit angenehmen Gefühlen zu belohnen, wenn wir unserer biologischen Primärfunktion erfolgreich nachkommen und dabei möglichst wenig Energie aufwenden. Ihr ist es dabei auch relativ egal, dass uns viele ihrer Funktionen Heute mehr schaden als nutzen. Wir sollten nicht vergessen, dass die Strukturen die wir hier behandeln viele Millionen Jahre alt sind und sich auch nicht verändert haben seit wir von dem Bäumen stiegen. Sie werden sich auch nicht ändern, nur weil wir auf einmal in Metallröhren fliegen und die Affen gelernt haben, mit anderen Affen auf der anderen Seite der Welt zu reden während sie kreischend Videos und Bilder teilen, auf denen sie sich gegenseitig mit Fäkalien bewerfen. Unser emotionales System ist das älteste, zusammen mit der Mustererkennung und ist ähnlich mächtig und verborgen, auch wenn seine Auswirkungen uns mehr oder weniger direkt zu Bewusstsein kommen. Jeder weiß was er fühlt, zumindest grob, aber keiner weiß warum er fühlt. Hin und wieder ist man vielleicht in der Lage, bestimmten Situationen bestimmte Gefühle zuzuordnen, aber im Großen und Ganzen sind sie für uns ein Mysterium. Wir sind uns völlig im Unklaren darüber, wie unsere Maschine auf die Welt reagiert und wie sie entscheidet und Gewichtet, welche Gefühle wo angebracht sind und welchen Zweck sie verfolgen. Wir sind uns vollständig unbewusst darüber, wo eine emotionale Kaskade ihren Ursprung hat und wir haben keinen Einfluss darauf, was ein bestimmtes Gefühl am Ende dieser Kette genau auslöst.",
-        "function": "explaining_hidden_emotional_processes",
-        "confidence": 0.97
+        "function": "explanatory_reflection",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page25_Segment3",
@@ -77,20 +74,20 @@
         "page": 25,
         "sequence": 3,
         "text": "Wir mögen uns darüber klar sein, dass eine haarige Spinne Abscheu und Angst auslöst, Gefahr ausstrahlt, aber weder kennen wir den Auslöser in uns selbst, noch haben wir Kontrolle über das Gefühl der Gefahr und der Abscheu. Wir mögen uns klar darüber sein, dass ein Welpe süß und knuddelig ist, aber, naja ihr wisst ja. Was wir hier haben sind allesamt Auslöser, die Dinge tun auf die wir nur sehr eingeschränkt Einfluss nehmen können. Wie eingeschränkt, das sehen wir uns einmal anhand eines Extrembeispiels an.",
-        "function": "illustrating_limited_control_with_examples",
-        "confidence": 0.97
+        "function": "illustrative_transition",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page25_Segment4",
-        "unit_kind": "descriptive_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 25,
         "sequence": 4,
         "text": "Stellt euch vor ihr geht vor eure Tür, nichts böses ahnend und auf einmal blickt ihr in den Lauf einer Waffe und jemand schreit euch an „rück die Kohle raus!“. Bevor dir überhaupt klar wird was da gerade passiert, innerhalb der ersten Sekunde dieser Begegnung, hat deine",
-        "function": "setting_up_extreme_example",
-        "confidence": 0.96
+        "function": "example_setup",
+        "confidence": 0.97
       }
     ],
-    "free_text": "Kapitelabschnitt über Emotionen, unbewusste Auslöser und ein Extrembeispiel"
+    "free_text": "Kapitel über emotionale Kaskaden, Gefühle, Auslöser und Extrembeispiel"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

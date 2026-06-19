@@ -2,49 +2,51 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:00:19.922627+00:00",
+    "processed_at": "2026-06-02T19:11:24.831949+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "philosophical_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 82,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=082-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.91,
-      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The visible page is a continuous prose page from a book.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "philosophical argumentation",
-        "book page layout"
+        "continuous prose",
+        "book page",
+        "multi-paragraph essay text"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 82,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=082-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "plain_text_page",
-      "columns": [],
+      "type": "single_column_text_page",
+      "columns": [
+        "single column"
+      ],
       "form_fields": []
     },
     "fields": {},
@@ -56,8 +58,8 @@
         "page": 82,
         "sequence": 1,
         "text": "normalen Leben nicht wahrnehmen. Weil unser Tun nun auf dem gründet was wir wollen und unser Wollen sich aus Dingen ergibt, denen wir uns nicht gewahr sind, so können wir dieses Wollen auch willentlich nicht ändern. Oder doch? Können wir unsere symbolische Welt bewusst selbst ändern? Können wir uns selbst bewusst willentlich neue Götter suchen und in neuen Kämpfen gegen neue Monster antreten?",
-        "function": "philosophical_questioning",
-        "confidence": 0.95
+        "function": "poses_reflective_questions",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page82_Segment2",
@@ -65,8 +67,8 @@
         "page": 82,
         "sequence": 2,
         "text": "Wer glaubt, die Erde sei eine Scheibe? Zweifellos gibt es Menschen die das glauben und wer einmal mehr als ein paar Minuten in den Kreisen der Flacherdler verbringt, der wird wohl recht schnell an der Funktionsfähigkeit des Verstandes dieser Vertreter der menschlichen Spezies zweifeln. Aber nicht so voreilig, denn hier ergibt sich ein gutes Beispiel, an dem man selbst erfahren kann, was ich mit „die symbolische Welt verändern“ meine. Wir erinnern uns, das Ich muss immer und unter allen Umständen die Widerspruchsfreiheit gegenüber sich selbst aufrecht erhalten. Folglich muss dies auch bei einem Menschen der Fall sein, der felsenfest an eine flache Erde glaubt. Was bedeutet das nun für einen Menschen, der genau weiß, dass die Erde eine Kugel ist und sich in seinem Verstand keine Gehirnakrobatik auszumalen vermag, die es ihm ermöglicht, die Denkweise eines Menschen zu verstehen, der die Erde für eine Scheibe hält? Nun, er kann es nicht, denn seine Versuche verstehen zu wollen, wie jemand auf die Idee kommen kann die Erde für eine Scheibe zu halten, setzen eine Ebene zu hoch an. Sein Versuch muss scheitern, denn er versucht dieses mit den Mitteln seines Verstandes, welcher seine Grundsätze aus der übergeordneten symbolischen Welt schöpft. Da er sich für Widerspruchsfrei hält, sind diese Mittel für ihn legitim und folgerichtig und müssen demnach auch für alle anderen gelten. Was ja nicht der Fall ist.",
-        "function": "example_based_explanation",
-        "confidence": 0.96
+        "function": "develops_argument_by_example",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page82_Segment3",
@@ -74,11 +76,11 @@
         "page": 82,
         "sequence": 3,
         "text": "Um wirklich zu verstehen, wie jemand an eine flache Erde glauben kann, müssen wir als erstes anerkennen, dass sich dieser Glaube ebenfalls auf eine durch und durch in sich widerspruchsfreie Weise erlangen lässt und sie für den Betreffenden ebenfalls als legitim und folgerichtig erscheinen muss. Um nun also verstehen zu können, wie man an eine flache Erde glauben kann, muss man an eine flache Erde glauben. Das mag vielleicht verwirrend klingen, aber die Verwirrung ist Teil der Lösung. Wenn man verstanden hat, dass auch das eigene Ich nach dem Prinzip der steten Widerspruchsfreiheit operiert, so kann man auch selbst an eine flache Erde glauben. Man muss nur wollen wollen. Aber man kann doch nicht wollen was man will, oder? Nun, von jetzt auf gleich kann man das nicht, denn das Wollen ist ja nicht Teil unserer inneren Welt derer wir uns gewahr sind und somit können wir auch nichts daran ändern. Wir können uns aber nach und nach Teilen jener Symbolik bewusst werden, die uns einerseits dazu bewegen an eine runde Erde zu glauben und andererseits daran hindern, an",
-        "function": "argument_development",
-        "confidence": 0.95
+        "function": "advances_paradoxical_explanation",
+        "confidence": 0.97
       }
     ],
-    "free_text": "Philosophische Prosa über symbolische Welt, Widerspruchsfreiheit und Flacherdler-Beispiel"
+    "free_text": "Philosophischer Buchtext über symbolische Welt, Widerspruchsfreiheit und Flacherdler-Beispiel"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

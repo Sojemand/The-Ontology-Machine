@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:45:02.264971+00:00",
+    "processed_at": "2026-06-02T18:56:06.104310+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.91,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -26,13 +26,13 @@
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=044-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.89,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The page is a prose book page with continuous narrative text.",
       "matched_signals": [
+        "book page",
         "continuous prose",
-        "book page layout",
-        "philosophical writing"
+        "narrative text"
       ]
     },
     "date_range": {
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,26 +56,26 @@
         "page": 44,
         "sequence": 1,
         "text": "ein „Dschungel“ ist und was sollte es euch nützen, mehr von etwas zu sehen oder von etwas zu entkommen, was es für euch überhaupt nicht gibt?",
-        "function": "continuation_of_argument",
-        "confidence": 0.94
+        "function": "rhetorical_challenge",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page44_Segment2",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 44,
         "sequence": 2,
         "text": "Dieser Jemand kann so lange er will versuchen euch zu erklären, dass ihr ständig im Kreis lauft und niemals dort hin gelangt, wo ihr eigentlich hin wollt, ihr werdet kein Wort davon verstehen. Was wäre aber nun, wenn er euer Dilemma erkennt? Wie er zu verstehen beginnt, dass die Geister des Dschungels euren Verstand verwirrt haben, sie euch in ihrem Bann halten und er euch stattdessen sagen würde, dass ihr die Grenzen eurer Welt beliebig ausdehnen oder auch schrumpfen lassen könntet, wenn ihr nur wollt? Das würdet ihr verstehen und ihn sicher fragen, welche Art Magie ihr dazu anwenden müsstet um diese phantastische Macht zu erlangen, während ihr voller Erwartung euer Zauberbuch hervorholt und euch bereit macht, ein neues Ritual in eure Sammlung aufzunehmen, diesmal hoffentlich eines, welches auch zuverlässig funktioniert. Wenn dieser jemand euch dann anschaut und sagt, dass es keine Magie gibt die ihr anwenden könntet und diese Vorstellung nur eine Illusion sei, geboren durch eine falsche Vorstellung über die Natur der Wirklichkeit, dann versteht ihr wieder kein Wort und hört nur Ausflüchte und die Weigerung euch die Geheimnisse zu verraten. Und wenn er euch dann grinsend fragt, ob ihr denkt es sei Luft was ihr da gerade atmet, dann würdet ihr ihn wohl erbost mit einem Fußtritt zu verscheuchen versuchen. Was fällt ihm auch ein sich über euch lustig zu machen. Erst redet er Unfug, dann verspricht er euch Macht und wenn ihr Beweise wollt hält er euch auch noch zum Narren. Zum Teufel mit ihm.",
         "function": "extended_analogy",
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
         "segment_id": "Page44_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 44,
         "sequence": 3,
         "text": "Könntet ihr es diesem Jemand dann verdenken, wenn er sich kopfschüttelnd umdrehen würde um wieder seiner Wege zu gehen? Jeder sucht sich schließlich seine eigene Hölle aus. Stellt euch nur euren verwirrten Blick vor, wenn dieser Jemand euch auch noch erzählen würde, die Universität hätte ihn geschickt, weil ihr euch schon so lange nicht gemeldet habt und man sich sorgt, ihr hättet euch verlaufen. Der Dschungel ist schließlich ein gefährlicher Ort und eure Kollegen warten schon mit Spannung auf eure Forschungsergebnisse. Kein Zweifel, dieser Jemand muss den Bezug zur Wirklichkeit völlig verloren haben, denn aus seinem Mund kommt nur unzusammenhängendes Gebrabbel. Vielleicht würden ein paar starke Medikamente oder ein Besuch beim Psychologen das wieder richten?",
         "function": "ironic_escalation",
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
         "segment_id": "Page44_Segment4",
@@ -85,11 +83,11 @@
         "page": 44,
         "sequence": 4,
         "text": "Also was soll ich tun? Sollte ich euch Magie lehren um euch die Macht über eure Welt zu verleihen, oder doch lieber darauf bestehen, dass es keine Magie gibt und eure Illusionen es sind, die euch gefangen halten? Das Dumme ist nur, Ersteres kann ich nicht und Letzteres nutzt euch nichts. Wie also gelangen wir aus den Zustand des ständigen Vergessens und des",
-        "function": "problem_statement",
+        "function": "self_reflective_question",
         "confidence": 0.96
       }
     ],
-    "free_text": "Dschungel-Metapher, Magie, Illusion, philosophische Reflexion"
+    "free_text": "philosophische Prosa, Dschungel-Metapher, Magie und Illusion, rhetorische Fragen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

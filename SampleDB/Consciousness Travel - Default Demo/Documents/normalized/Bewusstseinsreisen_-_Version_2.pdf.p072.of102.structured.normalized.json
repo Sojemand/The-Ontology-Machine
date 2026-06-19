@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:56:31Z",
+    "processed_at": "2026-06-02T19:07:24Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "consciousness_and_mind",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A nonfiction book section titled \"The Hero's Journey\" explains the symbolic structure of the hero's path: call, trials, self-confrontation, death and rebirth, return, and transformation. It then argues that this pattern should be understood symbolically in real life rather than literally, using mythic examples to frame human action and experience.",
+    "description": "A chapter section titled \"The Hero's Journey\" explains the symbolic structure of a hero’s path: a call, trials, defeat of the self, death and rebirth, return, and transformation. It argues that this myth should not be taken literally in life, but understood through its symbolic components and their context. The passage links the pattern to practical human action and mental experience.",
     "tags": [
       "hero's journey",
       "symbolism",
       "myth",
-      "self-transformation",
-      "nonfiction reflection"
+      "interpretation",
+      "self-transformation"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "German text translated into English control-language values.",
-      "Page is a theoretical nonfiction discussion under the heading 'Der Weg des Helden'."
+      "Translated visible German text into English.",
+      "Mapped generic source category to consciousness and mind / symbolism and archetypes."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,6 +57,8 @@
     "structure": {
       "type": "mixed",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
@@ -64,7 +66,7 @@
         "language",
         "page_number",
         "section_heading",
-        "topic_keywords"
+        "source_file_name"
       ]
     },
     "fields": {
@@ -72,36 +74,50 @@
       "language": "de",
       "page_number": 72,
       "section_heading": "The Hero's Journey",
-      "topic_keywords": [
-        "hero's journey",
-        "symbolism",
-        "myth",
-        "self-transformation"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "The hero's journey is presented as a sequence of call, resistance, trials, temptation, self-confrontation, death and rebirth, return, and transformation. The text argues that this pattern should be read symbolically in ordinary life, not literally, and that its elements must be understood in context rather than as isolated details."
+        "heading_text": "The Hero's Journey",
+        "text_content": "The Hero's Journey"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The journey is briefly told: an ordinary person receives a call, accepts a task, faces resistance and repeated trials, overcomes temptations, confronts the self, dies symbolically, is reborn, receives a blessing or treasure, and returns home transformed. Help and opposition appear along the way, and the hero comes back with new energy to improve the home world.",
+        "text_content": "The journey is briefly told: an ordinary person receives a call, accepts a task, faces resistance and repeated trials, overcomes temptations, confronts the self, dies symbolically, is reborn, receives a blessing or treasure, and returns home transformed. Help and opposition appear along the way, and the hero comes back with new energy to improve the home world."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The text asks where this pattern appears in real life rather than Hollywood, and stresses that no reader has literally enacted a heroic death and resurrection. Its symbolic parts must be recognized in practical actions and mental experience, not taken as literal events.",
+        "text_content": "The text asks where this pattern appears in real life rather than Hollywood, and stresses that no reader has literally enacted a heroic death and resurrection. Its symbolic parts must be recognized in practical actions and mental experience, not taken as literal events."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Symbolism must be judged in the full context of reality rather than by isolated details. Because the hero’s journey consists of many linked elements that only work through their sequence and interaction, human action cannot be reduced to a single literal pattern.",
+        "text_content": "Symbolism must be judged in the full context of reality rather than by isolated details. Because the hero’s journey consists of many linked elements that only work through their sequence and interaction, human action cannot be reduced to a single literal pattern."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Section on the hero's journey, symbolic interpretation, and mythic transformation in real life."
+    "free_text": "book_page consciousness_and_mind symbolism_and_archetypes Book page from Bewusstseinsreisen - Version 2, page 72. Section heading: The Hero's Journey. Symbolic analysis of mythic transformation, literal versus practical interpretation, and the role of context in understanding human action."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.95,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.88,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

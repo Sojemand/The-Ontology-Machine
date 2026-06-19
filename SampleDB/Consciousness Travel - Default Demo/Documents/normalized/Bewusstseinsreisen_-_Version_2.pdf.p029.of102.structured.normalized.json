@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:39:46Z",
+    "processed_at": "2026-06-02T18:49:48Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_content",
-    "subcategory": "chapter_section",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A nonfiction book passage explains bodily self-regulation and homeostasis, using hunger, thirst, breathing, sleep, and waste elimination as examples. It argues that much of daily behavior is driven by the body's need to maintain balance rather than by free choice. The visible text ends mid-thought while discussing the limits of changing these systems voluntarily.",
+    "description": "The text argues that bodily regulation, homeostasis, and survival needs shape most daily behavior. It claims this influence limits free will because the body quietly pushes behavior toward balance, with examples such as hunger, thirst, breathing, sleep, and waste elimination.",
     "tags": [
       "homeostasis",
-      "bodily regulation",
-      "free will",
       "survival",
-      "physiology"
+      "free will",
+      "body regulation",
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Source language detected as German; normalized surface values translated to English where appropriate.",
-      "Page text is philosophical/explanatory prose from a nonfiction book; content ends mid-sentence."
+      "No visible chapter heading or title on the page.",
+      "Source language is German; summary translated into English."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,50 +57,68 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 29,
-      "topic_keywords": [
-        "homeostasis",
-        "bodily regulation",
-        "free will",
-        "survival",
-        "physiology"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Body systems usually work in the background to maintain balance, becoming noticeable only when something goes wrong. Daily behavior is framed as an effort to preserve this balance, with hunger, thirst, waste elimination, sleep, and other needs presented as bodily pressures that limit free choice."
+        "paragraph_text": "Bodily control systems usually operate in the background and become noticeable only when something goes wrong, such as the kidneys signaling a need for more oxygen in the blood or the brain registering low osmotic pressure and triggering thirst.",
+        "text_content": "Bodily control systems usually operate in the background and become noticeable only when something goes wrong."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Daily behavior is described as organized around maintaining balance and survival, with work and other activities ultimately serving the goal of keeping the body going.",
+        "text_content": "Daily behavior is organized around maintaining balance and survival."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The passage argues that this is not a matter of free choice: the body pushes behavior in directions it finds advantageous, and resistance can only delay the need to comply.",
+        "text_content": "The body pushes behavior in directions it finds advantageous, limiting free will."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Examples illustrate that ignoring bodily needs leads to immediate physical consequences: breath-holding, dehydration, not using the toilet, exposure to cold, sleep deprivation, starvation, or unsafe desert travel.",
+        "text_content": "Ignoring bodily needs leads to immediate physical consequences."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The final visible line begins a further example about how little direct control we have over bodily systems, such as deciding to run the heart permanently at 30 beats per minute.",
+        "text_content": "The passage begins another example of limited control over bodily systems."
       }
     ],
-    "free_text": "book_page book_content chapter_section Nonfiction book page on homeostasis, bodily regulation, survival-oriented behavior, and the limits of free will."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness German philosophy of consciousness page on homeostasis, survival, and the limits of free will. Body regulation, thirst, hunger, sleep, and other needs are presented as forces that shape daily behavior."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.9,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

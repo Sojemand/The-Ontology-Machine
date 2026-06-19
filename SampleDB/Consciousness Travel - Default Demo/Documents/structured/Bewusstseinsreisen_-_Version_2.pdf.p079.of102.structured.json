@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:59:10.322966+00:00",
+    "processed_at": "2026-06-02T19:10:16.560231+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
@@ -14,40 +14,37 @@
     "document_type": "book_page",
     "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 79,
-    "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.96,
-      "reason": "This page matches a philosophical nonfiction book page with a section heading and continuous prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The page is a continuous prose book page with a section heading.",
       "matched_signals": [
-        "section heading",
-        "continuous prose paragraphs",
-        "philosophical nonfiction content",
-        "book page layout"
+        "book page",
+        "continuous prose",
+        "section heading"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 79,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=079-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -61,8 +58,7 @@
         "section": null,
         "label": null,
         "text": "Nun bestehen aber auch nicht alle Archetypen nur aus der Heldenreise und weisen auch nicht die selbe Struktur auf. Aber allen gemein ist, dass sie eine Art „überpersönliches“ Handeln abbilden und wir dieses Handeln dann mit Symbolen verknüpfen, die uns diese Handlungen und Eigenschaften leichter verstehen lassen. Sie alle manifestieren sich in Handlungssträngen, die wir ohne unser bewusstes Zutun ausleben. Wozu sie das tun, was der Plan dahinter ist, ob es überhaupt einen Plan gibt oder ob das nur Bruchstücke eines noch schlafenden und lebhaft träumenden Über-Ichs sind, wer kann das schon sagen. Aber zumindest für mich bedarf es wesentlich weniger Annahmen, wenn ich davon ausgehe, das der Impetus eines Archetypen nicht vererbt oder irgendwo in einem wie auch immer gearteten „kollektiven Etwas“ gespeichert ist, sondern Handlungsstränge des eignen Ichs darstellen, die etwas bewirken sollen und auf Regeln basieren, zu deren Verständnis wir in unserem Wachbewusstsein nicht fähig sind. Kurz, wir sind einfach zu verschlafen um uns selbst zu erkennen.",
-        "function": "theoretical_reflection",
-        "attributes": {},
+        "function": "interpretation_of_archetypes",
         "confidence": 0.98
       },
       {
@@ -74,7 +70,6 @@
         "label": null,
         "text": "Von Göttern und Monstern",
         "function": "section_heading",
-        "attributes": {},
         "confidence": 0.99
       },
       {
@@ -85,26 +80,22 @@
         "section": "Von Göttern und Monstern",
         "label": null,
         "text": "Wenn wir Heute Ikonografien und religiöse Bildnisse betrachten, dann sehen wir darin meist nur die Handwerkskunst und Relikte vergangener Zeiten. Menschen, die sich mit dem symbolischen Hintergrund dieser Kunstwerke beschäftigen, können zwar noch deuten, welche Botschaften sich hinter den Bildern verbergen und wie sie im Bezug zum dargestellten Glauben stehen, aber am Ende des Tages, da sind diese Symbole doch nur Bildnisse einer Vorstellungswelt, derer wir uns entwachsen glauben. Wie falsch wir damit liegen, beweist uns doch gerade die Vergangenheit immer und immer wieder. Niemand kann eine Nation einen, sie in einen Krieg führen, Kulturen schaffen und Gemeinschaft schmieden, mit dem sachlichen Hinweis, dass es objektiv besser wäre, wenn wir weniger Fleisch essen würden.",
-        "function": "argument_about_symbolic_power",
-        "attributes": {},
+        "function": "critique_of_pure_rationalism",
         "confidence": 0.97
       },
       {
         "segment_id": "Page79_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "argumentative_passage",
         "page": 79,
         "sequence": 4,
         "section": "Von Göttern und Monstern",
         "label": null,
         "text": "Mit Sachlichkeit und Argumenten kann man weder eine Nation noch einen Stamm zusammenhalten. Mit dem Hinweis auf Ursache und Wirkung hat noch niemand einen Krieg beginnen oder beenden können. Erst kommen die Symbole, dann die Geschichten, dann die Gemeinschaft, dann der Zusammenhalt und dann, ganz am Schluss, da kommt die Wirklichkeit, da kommt Ursache und Wirkung. Jeder Führer mit großen Ambitionen wusste schon immer um die Macht der Symbole, wie sie die Geschichte dahinter in die Köpfe der Menschen transportiert, wie sie anschließend zur Grundlage einer Gemeinschaft werden und wie ihre Kraft diese Gemeinschaft dann zusammenzuschweißen vermag. Wer die Masse der Menschen bewegen will, der muss sehr genau wissen, welche Symbole er nutzen muss und",
-        "function": "claim_about_collective_mobilization",
-        "attributes": {
-          "continues_on_next_page": true
-        },
-        "confidence": 0.97
+        "function": "argument_about_symbolic_power",
+        "confidence": 0.98
       }
     ],
-    "free_text": "Archetypen, Symbole, kollektive Imagination, Abschnitt „Von Göttern und Monstern“"
+    "free_text": "Archetypen, Symbole, Abschnitt „Von Göttern und Monstern“, Macht von Symbolen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

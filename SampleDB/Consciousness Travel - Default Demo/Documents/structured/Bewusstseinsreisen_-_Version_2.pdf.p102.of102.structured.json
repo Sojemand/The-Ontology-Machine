@@ -2,17 +2,17 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:10:00.045627+00:00",
+    "processed_at": "2026-06-02T19:21:05.442806+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.92,
+    "document_type_confidence": 0.95,
     "category": "book",
     "subcategory": "sources_page",
     "language": "de",
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.88,
-      "reason": "A book-like page with a heading and a list of source entries is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.9,
+      "reason": "The page is a book page showing a sources section.",
       "matched_signals": [
-        "heading",
         "book page",
-        "list item"
+        "sources section",
+        "reference list"
       ]
     },
     "date_range": {
@@ -43,7 +43,7 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_page",
+      "type": "single_column",
       "columns": [],
       "form_fields": []
     },
@@ -52,219 +52,215 @@
     },
     "rows": [
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Strangers to Ourselves: Discovering the Adaptive Unconscious - Timothy D. Wilson"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Thinking, Fast and Slow - Daniel Kahneman"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "You Are Not So Smart - David McRaney"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Sociopath Next Door - Martha Stout"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Mask of Sanity - Hervey Cleckley"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Political Ponerology - Andrzej Lobaczewski"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Authoritarians - Bob Altemeyer"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Propaganda als Machtinstrument – Alexandra Bleyer"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Fear of the Abyss: Healing the Wounds of Shame & Perfectionism - Aleta Edwards"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Caricature of Love - Hervey Cleckley"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Drama of the Gifted Child: The Search for the True Self - Alice Miller"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Crowd: A Study of the Popular Mind - Gustave Le Bon"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Wave Series - Laura Knight-Jadczyk"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "In Search of the Miraculous: Fragments of an Unknown Teaching - P.D. Ouspensky"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Gnosis - Boris Mouravieff"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Meetings with Remarkable Men - G.I. Gurdjieff"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Life is Real Only Then, when \"I am\" - G.I. Gurdjieff"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Fourth Way - P.D. Ouspensky"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Tertium Organum - P.D. Ouspensky"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Mystery of the Cathedrals - Fulcanelli"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Dwellings of the Philosophers - Fulcanelli"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Historian's Craft - Marc Bloch"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Mythic Past - Thomas L. Thompson"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Operation Trojan Horse - John Keel"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Shamanism - Mircea Eliade"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Sacred and the Profane - Mircea Eliade"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Secret Teachings of All Ages - Manly Hall"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Bringers of the Dawn – Barbara Marciniack"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Ra Material - Carla Rueckert, Don Elkins, and Jim McCarty"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Science Delusion/Science Set Free - Rupert Sheldrake"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Hero With a Thousand Faces - Joseph Campbell"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Der Archipel Gulag – Alexander Solschenizyn"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Mein Kampf – Adolf Hitler"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Polyvagal Theory – Stephen W. Porges"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Archeology of Mind – Jaak Panksepp, Lucy Biven"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Myth of Male Power – Warren Farrell"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Die Archetypen des Tarot – Andreas Bunkahle"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Foucaults Pendulum - Umberto Eco"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Case for the UFO – Morri Jessup"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Journeys Out of the Body - Robert Monroe"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Primal Body, Primal Mind - Nora T. Gedgaudas"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Life Without Bread - Christian B. Allan & Wolfgang Lutz"
       },
       {
-        "type": "source_entry",
-        "text": "Deep Nutrition: Why Your Genes Need Traditional Food - Catherine Shanahan & Luke Shanahan"
+        "row_type": "reference_entry",
+        "text": "Deep Nutrition: Why Your Genes Need Traditional Food - Catherine Shanahan & Luke Shanahan The UltraMind Solution - Mark Hyman"
       },
       {
-        "type": "source_entry",
-        "text": "The UltraMind Solution - Mark Hyman"
-      },
-      {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Myth of Sanity: Divided Consciousness and the Promise of Awareness - Martha Stout"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "The Narcissistic Family - Stephanie Donaldson-Pressman and Robert M. Pressman"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Trapped in the Mirror: Adult Children of Narcissists in their Struggle for Self - Elan Golomb"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Alle Werke von Carlos Castaneda"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Alle Werke von Erich von Däniken"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Alle Werke von Karla Turner"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Ein Wenig David Icke"
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Philosophien von Aristoteles bis Nietzsche, mal hier mal da."
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Populärwissenschaftliche Bücher von Stephen Hawking, Richard Dawkins, Brian Greene etc."
       },
       {
-        "type": "source_entry",
+        "row_type": "reference_entry",
         "text": "Wissenschaftliche Papers zu jedem Thema das mich interessierte"
       }
     ],
@@ -762,7 +758,7 @@
         "label": null,
         "text": "The UltraMind Solution - Mark Hyman",
         "function": "source_reference",
-        "confidence": 0.98
+        "confidence": 0.95
       },
       {
         "segment_id": "Page102_Segment46",
@@ -875,7 +871,7 @@
         "confidence": 0.99
       }
     ],
-    "free_text": "Quellenverzeichnis mit Buchtiteln und Autoren"
+    "free_text": "Quellenverzeichnis mit Buch- und Literaturangaben"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

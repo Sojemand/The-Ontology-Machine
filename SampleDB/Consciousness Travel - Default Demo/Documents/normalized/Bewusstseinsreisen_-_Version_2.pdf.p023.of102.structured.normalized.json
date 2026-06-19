@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:36:44Z",
+    "processed_at": "2026-06-02T18:47:14Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.88,
-    "category": "book_body_content",
-    "subcategory": "chapter_section",
+    "document_type_confidence": 0.95,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "German nonfiction prose argues about pattern recognition while driving on the autobahn, especially noticing number plates that resemble 666. It weighs an alternative explanation based on automatic eye movements and rejects it as hard to verify without a tracker. The passage concludes by using deduction and risk-based observation of traffic behavior as evidence.",
+    "document_title": null,
+    "description": "The author reflects on attention, eye movement, and pattern recognition while driving on the motorway, using license plates and 666-like patterns as examples. He considers an alternative explanation that eye movements are unconscious and proposes a tracker-based experiment, but falls back on deduction because a direct test would be too costly. The argument concludes that attention seems fixed on dangerous traffic situations where distraction would be life-threatening.",
     "tags": [
+      "attention",
+      "eye movement",
       "pattern recognition",
-      "autobahn",
-      "eye movements",
       "deduction",
-      "attention"
+      "driving"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,14 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Title inferred from source file name.",
-      "Source text is German; normalized summary translated into English."
+      "Classified as philosophical reflection on consciousness and attention from continuous prose."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -60,57 +59,54 @@
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 23,
-      "topic_keywords": [
-        "pattern recognition",
-        "autobahn",
-        "eye movements",
-        "attention",
-        "deduction"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Only about 5% were visually similar patterns such as 999, 669, or other configurations close to 666."
+        "paragraph_text": "A small share of observations matched patterns similar to 999, 669, or other shapes visually close to 666."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "An alternative explanation is considered: continuously scanning the visual field for familiar patterns and immediately looking at license plates when they enter view. This would also require constant unconscious eye movement and selective forgetting, which the author treats as possible but difficult to prove."
+        "paragraph_text": "The author considers an alternative explanation: if he constantly scans the whole visual field for known patterns, he would look directly at every license plate as soon as it enters a certain area of view, and then move on if no pattern is recognized. He notes the possibility that his eyes may move automatically and unconsciously while the brain makes him believe he is looking straight ahead."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 2,
-        "paragraph_text": "The author says the only reliable check would be a tracker recording eye movements and traffic focus, but time and money prevent building such a test setup. Deduction is therefore used, with highway traffic situations serving as observable conditions for judging attention and perception."
+        "paragraph_text": "He says the hypothesis is hard to test because focusing on eye movement destroys its unconscious character, and a tracker would be needed to project and record gaze on the traffic scene. He cannot afford the time or money for such an experiment."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "He therefore relies on deduction and observes that in dangerous traffic situations, such as lane changes or signs of uncertainty in other drivers, attention seems strongly locked onto the road because any lapse would be life-threatening."
       }
     ],
-    "free_text": "book_page book_body_content chapter_section German nonfiction prose about pattern recognition on the autobahn, alternative explanations involving unconscious eye movements, and deductive observation of attention."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Philosophical reflection on consciousness, attention, and eye movement during motorway driving. Discusses pattern recognition, possible unconscious scanning of the visual field, and the limits of testing the hypothesis without a gaze tracker."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.88,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.88 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.93,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

@@ -6,44 +6,44 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:52:47.501061+00:00",
+    "processed_at": "2026-06-02T19:03:38.254933+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
+    "document_type_confidence": 0.95,
     "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 63,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=063-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.87,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose paragraphs is visible.",
+      "reason": "The visible page is a continuous prose page from a book-like document.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "nonfiction book page",
-        "philosophical discussion"
+        "continuous prose",
+        "book page",
+        "non-form layout"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 63,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=063-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
         "main_text"
       ],
@@ -58,8 +58,8 @@
         "page": 63,
         "sequence": 1,
         "text": "mit ihnen, wie es Menschen gibt und im Großen und Ganzen scheinen sie ausgesprochen subjektiv zu wirken, aber eben nicht in allen Aspekten. Abgesehen davon, dass jede Substanz ihre eigene „Qualität“ hat, die alle gleich wahrnehmen, denn ein LSD Trip wird wohl niemand erwarten wenn er Gras raucht, so rufen bestimmte Substanzen auch regelmäßig Phänomene hervor, die es eigentlich nicht geben dürfte. Oder besser, unser Gehirn dürfte nicht in der Lage sein sie hervorzubringen.",
-        "function": "qualifies_subjectivity_of_substance_effects",
-        "confidence": 0.98
+        "function": "argues_for_shared_substance_specific_effects",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page63_Segment2",
@@ -68,7 +68,7 @@
         "sequence": 2,
         "text": "Substanzen wie LSD und im Besonderen DMT, scheinen etwas zu bewirken, was von Außen betrachtet schier unglaublich zu sein scheint. Die meisten kennen sicher die Darstellung eines Tesserakts, eines vierdimensionalen Würfels. Die Abbildung sieht recht verwirrend aus und wenn man sich einmal darüber klar wird, dass ein solches Gebilde ineinander gefaltete Räume darstellen soll, wird man sich schnell bewusst, wie chancenlos wir doch sind, uns das real vorzustellen. So sehr wir uns auch bemühen, so ist unser Verstand auf dreidimensionale Vorstellungen beschränkt. Kein noch so kluger Mensch kann sich vier Raumdimensionen bildlich korrekt vorstellen, ohne sie auf eine dreidimensionale Projektion herunterzubrechen.",
         "function": "explains_limits_of_spatial_imagination",
-        "confidence": 0.99
+        "confidence": 0.98
       },
       {
         "segment_id": "Page63_Segment3",
@@ -76,8 +76,8 @@
         "page": 63,
         "sequence": 3,
         "text": "Nun gibt es aber für jene, die DMT einmal in ausreichender Menge intus hatten die Tatsache, dass sie währenddessen Geometrien sahen und auch verstanden, die sich nicht in einem dreidimensionalen Raum darstellen lassen. Geometrien die sie, nach Abklingen der Wirkung, selbst nicht mehr begreifen konnten. Es bleibt aber die Gewissheit zurück, diese Gebilde wirklich verstanden und sie als natürlich und keineswegs verwirrend wahrgenommen zu haben. Man mag jetzt anführen, dass sie dabei einer Täuschung aufsaßen und dies in Wirklichkeit niemals der Fall war, aber das Erlebte einfach zu negieren, weil es nicht sein kann, ist keine valide Form der Kritik. Das Auftauchen seltsam unmöglicher geometrischer Muster, ist nicht allein auf DMT beschränkt, sondern tritt mehr oder weniger ausgeprägt auch bei anderen Halluzinogenen auf. Wir kennen den Ursprung nicht, aber die Existenz dürfte schwerlich zu bestreiten sein. Ein Erlebnis, welches jeder scheinbar auf die gleiche Weise wahrnimmt.",
-        "function": "defends_shared_reports_of_impossible_geometries",
-        "confidence": 0.99
+        "function": "defends_reported_experience_as_valid",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page63_Segment4",
@@ -85,11 +85,11 @@
         "page": 63,
         "sequence": 4,
         "text": "Etwas alltagsbezogener wird es, wenn wir uns ein anderes, selteneres Phänomen ansehen. Dies fällt unter die Kategorie des zufälligen Auftretens, völlig ohne den Einfluss psychoaktiver Substanzen. Wir alle halten es für selbstverständlich, die Welt durch unsere Augen zu sehen. Wir empfinden die Tatsache, stets nur eine Seite eines Objektes zu sehen, als völlig normal. Wir wissen, dass jedes Objekt auch eine Rückseite hat, obwohl wir sie nicht sehen. Wir wissen, dass, egal wie wir unsere Augen verdrehen und das Objekt auch wenden, wir niemals",
-        "function": "introduces_everyday_perceptual_phenomenon",
+        "function": "introduces_everyday_perception_example",
         "confidence": 0.97
       }
     ],
-    "free_text": "LSD, DMT, Geometrien, Tesserakt, Wahrnehmung, Raumdimensionen"
+    "free_text": "LSD, DMT, Geometrien, Wahrnehmung, Raumdimensionen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

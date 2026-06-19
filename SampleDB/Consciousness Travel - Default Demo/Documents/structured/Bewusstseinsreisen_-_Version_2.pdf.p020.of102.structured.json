@@ -6,47 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:35:16.659350+00:00",
+    "processed_at": "2026-06-02T18:45:48.477982+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.9,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.97,
+    "category": "literature",
+    "subcategory": "nonfiction_book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 20,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=020-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.81,
-      "reason": "A prose book page in philosophical/spiritual writing is visible, consisting of continuous narrative paragraphs without form elements.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.9,
+      "reason": "The page is a continuous prose page from a book-like document.",
       "matched_signals": [
-        "prose book page",
-        "continuous narrative paragraphs",
-        "philosophical/spiritual writing"
+        "continuous prose",
+        "narrative paragraphs",
+        "book page"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 20,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=020-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,7 +56,7 @@
         "page": 20,
         "sequence": 1,
         "text": "allerdings immer weniger interessant, da mir langsam klar wurde, was da wirklich abläuft. Als ich der ganzen Sache dann immer weniger Aufmerksamkeit schenkte, konnte ich feststellen, dass, in der Tat, auch die Zahl der Sichtungen mit der Zeit wieder geringer wurden.",
-        "function": "retrospective_observation",
+        "function": "observation_reflection",
         "confidence": 0.97
       },
       {
@@ -77,7 +75,7 @@
         "sequence": 3,
         "text": "Nur diesmal war es anders. Dieser Wagen überholte mich mit einer recht ordentlichen Geschwindigkeit und als er gerade mal weniger als 10 Meter vor mir war, da huschten meine Augen hinunter zum Nummernschild, nur um dort das altbekannte Muster zu entdecken. Dieser kurze Moment wollte mir schon wieder entgleiten, doch irgendwas passte hier nicht zusammen. Ich rief mir diesen Vorgang anschließend noch einmal ins Gedächtnis, oder ich habe es zumindest versucht. Dieses ganze Manöver konnte aufgrund der Geschwindigkeit kaum länger als 2 Sekunden in Anspruch genommen haben. Wie konnte es also sein, dass mein Gehirn in der Lage war, innerhalb dieser kurzen Zeit nicht nur das Muster korrekt zu erkennen, sondern obendrein auch noch während es sich im einem Bereich meines Gesichtsfeldes befand in dem alles völlig verschwommen zu sein scheint?",
         "function": "anomalous_event_reflection",
-        "confidence": 0.96
+        "confidence": 0.97
       },
       {
         "segment_id": "Page20_Segment4",
@@ -85,7 +83,7 @@
         "page": 20,
         "sequence": 4,
         "text": "Es bedurfte noch deutlich mehr, vielleicht an die hundert solcher Begegnungen um herauszuarbeiten was wirklich vor sich geht und ich habe selbst Heute noch so meine Schwierigkeiten das zu glauben. Was als erstes klar wurde war, dass sich solche Umstände bereits davor unzählige male genau so abgespielt haben müssen und ich das einfach nicht bemerkt oder es umgehend wieder vergessen habe. Darüber hinaus muss sich Folgendes abspielen, oder abgespielt haben:",
-        "function": "interim_conclusion",
+        "function": "interpretive_transition",
         "confidence": 0.95
       },
       {
@@ -98,7 +96,7 @@
         "confidence": 0.94
       }
     ],
-    "free_text": "Autobahn, Nummernschilder 666, Wahrnehmung, Sichtfeld, Reflexion"
+    "free_text": "Autobahn, Nummernschilder 666, Wahrnehmung, Reflexion"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

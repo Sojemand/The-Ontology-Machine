@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:57:33.576219+00:00",
+    "processed_at": "2026-06-02T19:08:41.003059+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.97,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.91,
+      "reason": "The visible page is a continuous prose page from a book-like publication.",
       "matched_signals": [
-        "continuous paragraph prose",
-        "book page layout",
-        "philosophical discussion"
+        "continuous prose",
+        "book page",
+        "publication layout"
       ]
     },
     "date_range": {
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -63,20 +61,20 @@
       },
       {
         "segment_id": "Page75_Segment2",
-        "unit_kind": "reflective_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 75,
         "sequence": 2,
         "text": "Vielleicht kommen sie, wenn sie viele Träumer so betrachtet haben, zu dem Schluss, es gäbe so eine Art unbewusste Mechanik, die jene Traumelemente immer wieder entstehen lassen, unabhängig von den Träumern selbst. Vielleicht eine Art „kollektives Traumbecken“ aus denen sie sich bedienen und sie erfinden den Begriff „Archetyp“ um diese gemeinsamen, sich scheinbar unbewusst entfaltenden Strukturen zu beschreiben, denn kein Träumer scheint sich überhaupt darüber bewusst zu sein, dass er sie auslebt, noch warum er sie auslebt. Sie können nicht verstehen, dass es weder „Traumgene“ gibt, die sich irgendwie verdeckt fortpflanzen und so diese Muster am Leben halten, noch mysteriöse Felder existieren, die diese Informationen den Träumenden aufprägen. Sie vermuten den Ursprung „unterhalb“ der Träume, weil für sie „oberhalb“ nichts existiert. Dass diese Muster schlicht Schatten von den Dingen sind, die das Wachbewusstsein tut und plant und sie deshalb bei allen so ähnlich sind, weil das Wachbewusstsein sich an Regeln und Gesetze hält, an die sich auch jedes andere Wachbewusstsein hält, das können sie nicht verstehen.",
-        "function": "critique_of_archetype_explanation",
+        "function": "theoretical_reflection",
         "confidence": 0.98
       },
       {
         "segment_id": "Page75_Segment3",
-        "unit_kind": "reflective_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 75,
         "sequence": 3,
         "text": "Sie können nicht verstehen, wie es Gesetze geben kann, die jeden, der sie einmal erkannt hat dazu veranlassen, sich ihnen auf die gleiche Weise zu bedienen, somit gleiche Schlussfolgerungen, gleiche Handlungen und gleiche Pläne in jedem erzeugt, der sich diesen Gesetzen gewahr wird. Gleich so, wie der externe Beobachter von vorhin nicht verstehen kann, warum wir Fluggeräte nach immer gleichem Muster bauen, weil er die Gesetze der Aerodynamik nicht kennt. Wir können also zumindest eingrenzen, dass es das Verständnis von Gesetzmäßigkeiten ist, welches die Welt des Traumes von der wachen Welt trennt. Welche Gesetze wir allerdings noch im Traum in der Lage sind zu verstehen und wo dieses Verständnis an seine Grenzen stößt und nur noch das Wachbewusstsein diese zu begreifen vermag, das weiß ich nicht. Wo genau sich auf der „Leiter“ des Bewusstseins diese Grenze befindet, das herauszufinden wäre doch mal etwas, was sich zu erforschen lohnen würde, denkt ihr nicht?",
-        "function": "theoretical_argument_and_open_question",
+        "function": "argument_and_open_question",
         "confidence": 0.98
       },
       {
@@ -85,8 +83,8 @@
         "page": 75,
         "sequence": 4,
         "text": "Ist es nicht ein interessanter Gedanke, wenn wir annehmen würden, wie sich unsere Welt",
-        "function": "transition_to_next_argument",
-        "confidence": 0.94
+        "function": "transition_question",
+        "confidence": 0.95
       }
     ],
     "free_text": "Traum, Archetyp, Wachbewusstsein, Gesetzmäßigkeiten"

@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:31:54Z",
+    "processed_at": "2026-06-02T18:42:22Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical discussion of self-blindness, the subconscious, and how inner processes shape self-understanding. It asks who a person really is and argues that people lack stable standards for judging themselves because inner contradictions are often defended against. The visible section frames this as the problem of an automatically protecting self-image.",
+    "document_title": null,
+    "description": "A philosophical prose passage argues that people are blind to their own thinking and that the subconscious shapes perception and self-understanding. It asks who a person really is and introduces the problem of a self-image that protects itself from contradiction and pain.",
     "tags": [
+      "self-reflection",
       "subconscious",
-      "self-blindness",
+      "identity",
       "self-image",
-      "inner conflict",
-      "philosophical discussion"
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Translated visible German prose into English retrieval summary.",
-      "Promoted the visible section heading as the section_heading field."
+      "Translated German prose into English summary and retrieval text.",
+      "Section heading preserved in English translation."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,52 +57,87 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "section_heading",
-        "topic_keywords"
+        "language",
+        "section_heading"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 11,
-      "section_heading": "Das Problem des sich automatisch schützenden Selbstbildes",
-      "topic_keywords": [
-        "subconscious",
-        "self-blindness",
-        "self-image",
-        "standards",
-        "self-inquiry"
-      ]
+      "language": "de",
+      "section_heading": "The Problem of the Self-Image That Automatically Protects Itself"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The text argues that people are blind to their own thinking and can only recognize differences in themselves by comparing with another mind. It presents the subconscious as a dark, hidden force that shapes perception and behavior, then turns to the question of who a person really is. The section says people reject standards that expose pain or contradiction, linking this to an automatically protecting self-image."
+        "page_number": 11
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "The Problem of the Self-Image That Automatically Protects Itself",
+        "text_content": "The Problem of the Self-Image That Automatically Protects Itself"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Things are products of your thinking, and you cannot think about your own thinking. We are fundamentally blind to one another because a single mind can recognize differences within itself only by comparing itself with the inner processes of another mind.",
+        "text_content": "Things are products of your thinking, and you cannot think about your own thinking. We are fundamentally blind to one another because a single mind can recognize differences within itself only by comparing itself with the inner processes of another mind."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "At a certain depth of your inner world, your inability to understand or even see anything is also what makes it impossible to decide which of the two worlds in the story is real. These depths are what we call the subconscious: a dark world of unknown sounds that reach us from unknown directions for unknown purposes and influence and steer us in ways we do not know.",
+        "text_content": "At a certain depth of your inner world, your inability to understand or even see anything is also what makes it impossible to decide which of the two worlds in the story is real. These depths are what we call the subconscious: a dark world of unknown sounds that reach us from unknown directions for unknown purposes and influence and steer us in ways we do not know."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "We do not know this because all these things are hidden from consciousness; they are unconscious, nonexistent for us. Yet as you listened to the story, it was heard not only by your consciousness, or by what you take to be your consciousness, but rang across the whole landscape of your being and through all the dark chambers hidden within you.",
+        "text_content": "We do not know this because all these things are hidden from consciousness; they are unconscious, nonexistent for us. Yet as you listened to the story, it was heard not only by your consciousness, or by what you take to be your consciousness, but rang across the whole landscape of your being and through all the dark chambers hidden within you."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "It set countless things clicking, rumbling, acting, and working there, and in the end they became what you would call, 'how I found the story.'",
+        "text_content": "It set countless things clicking, rumbling, acting, and working there, and in the end they became what you would call, 'how I found the story.'"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 6,
+        "paragraph_text": "Who are you, really? You cannot answer this question with certainty, just as the righteous person cannot determine which world is real for exactly the same reasons. You lack standards. But more than that, you do not want standards at all.",
+        "text_content": "Who are you, really? You cannot answer this question with certainty, just as the righteous person cannot determine which world is real for exactly the same reasons. You lack standards. But more than that, you do not want standards at all."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 7,
+        "paragraph_text": "You reject them whenever life offers them to you, and you reject them because they hurt whenever life imposes one on you. Our desire for our innermost self to appear free of contradiction to ourselves comes directly from this blindness to ourselves and our refusal to accept those standards.",
+        "text_content": "You reject them whenever life offers them to you, and you reject them because they hurt whenever life imposes one on you. Our desire for our innermost self to appear free of contradiction to ourselves comes directly from this blindness to ourselves and our refusal to accept those standards."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Philosophical book page on subconscious influence, self-blindness, and the problem of an automatically protecting self-image."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness book page; page 11; section heading: The Problem of the Self-Image That Automatically Protects Itself; philosophical reflection on consciousness, subconscious influence, self-blindness, identity, and resistance to standards"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.95,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

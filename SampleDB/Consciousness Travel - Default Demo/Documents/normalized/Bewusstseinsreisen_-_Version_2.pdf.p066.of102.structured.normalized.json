@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:54:10Z",
+    "processed_at": "2026-06-02T19:05:05Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,15 +23,21 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Philosophical prose argues for a kind of direct understanding shared across people, using sunlight and dreams as examples. It rejects reliance on context-heavy explanation and distances the argument from phenomenology, ontology, ethics, and post-structural theory.",
+    "description": "The author argues for direct, universal understanding grounded in immediate experience, using the sun and dreams as examples. The page contrasts this with mathematical learning and rejects phenomenology, existential philosophy, ethics, and moral derivations. It ends with a practical test of validity: if others do not perceive it similarly, it should be discarded.",
     "tags": [
-      "philosophy",
-      "direct understanding",
+      "direct experience",
       "dreams",
       "universality",
-      "phenomenology"
+      "critique of philosophy",
+      "selfhood"
     ],
-    "people": [],
+    "people": [
+      "Hegel",
+      "Husserl",
+      "Derrida",
+      "Foucault",
+      "Aristotle"
+    ],
     "organizations": [],
     "locations": [],
     "date_range": {
@@ -40,15 +46,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Normalized source-language prose into English control language.",
-      "Classified as body content because the page contains continuous philosophical argument rather than front matter."
+      "Source language is German; summary and tags translated to English.",
+      "No visible chapter metadata on the page."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -58,59 +64,55 @@
       "type": "text",
       "columns": [
         "paragraph_text",
-        "page_number_ref"
+        "text_content"
       ],
       "form_fields": [
         "work_title",
         "language",
-        "page_number",
-        "topic_keywords"
+        "page_number"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
       "language": "de",
-      "page_number": 66,
-      "topic_keywords": [
-        "philosophy",
-        "direct understanding",
-        "dreams",
-        "universality",
-        "phenomenology",
-        "ontology",
-        "ethics"
-      ]
+      "page_number": 66
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "An experiential example compares the sun's obvious brightness and warmth with the certainty of firsthand understanding. The text argues that dreams can likewise be directly understood across different perspectives, while rejecting the need for contextual explanation when something is part of lived experience.",
-        "page_number_ref": 66
+        "paragraph_text": "Direct experience makes the sun undeniably bright and warm, and the author extends this claim to dreams as a shared experiential reality.",
+        "text_content": "Direct experience makes the sun undeniably bright and warm, and the author extends this claim to dreams as a shared experiential reality."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "The author distances this idea of direct understanding from Hegel, Husserl, phenomenology, ontology, ethics, morality, Derrida, and Foucault. The criterion offered is simple mutual recognition: if an experience does not appear the same to others, it should be rejected.",
-        "page_number_ref": 66
+        "paragraph_text": "Universal understanding is presented as immediate and context-free when something is part of lived experience, unlike mathematical understanding that requires prior knowledge.",
+        "text_content": "Universal understanding is presented as immediate and context-free when something is part of lived experience, unlike mathematical understanding that requires prior knowledge."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The text rejects phenomenology, existential philosophy, and moral or ethical derivations, ending with a simple intersubjective test of validity.",
+        "text_content": "The text rejects phenomenology, existential philosophy, and moral or ethical derivations, ending with a simple intersubjective test of validity."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Bewusstseinsreisen - Version 2, page 66. Philosophical discussion of direct understanding, dreams, and universality, contrasted with phenomenology, ontology, ethics, and post-structural theory."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness book page 66 from Bewusstseinsreisen - Version 2; direct experience, dreams, universal understanding, critique of philosophy"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.92,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.92 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.88,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

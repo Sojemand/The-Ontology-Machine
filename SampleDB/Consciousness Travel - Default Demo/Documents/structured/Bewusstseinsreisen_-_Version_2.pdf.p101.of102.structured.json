@@ -2,49 +2,51 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.98,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:07:56.478247+00:00",
+    "processed_at": "2026-06-02T19:19:01.397616+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 101,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.96,
-      "reason": "A philosophical book page is visible with a heading and multiple prose paragraphs.",
+      "reason": "A prose book page with a section heading and narrative paragraphs is visible.",
       "matched_signals": [
-        "heading",
-        "prose paragraphs",
-        "book page"
+        "book page",
+        "section heading",
+        "prose paragraphs"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 101,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=101-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
-      "columns": [],
+      "columns": [
+        "main_text"
+      ],
       "form_fields": []
     },
     "fields": {},
@@ -55,10 +57,10 @@
         "unit_kind": "title_line",
         "page": 101,
         "sequence": 1,
-        "section": null,
+        "section": "Überlegungen zum Ende",
         "label": null,
         "text": "Überlegungen zum Ende",
-        "function": "section_closure_heading",
+        "function": "section_heading",
         "confidence": 0.99
       },
       {
@@ -85,14 +87,14 @@
       },
       {
         "segment_id": "Page101_Segment4",
-        "unit_kind": "answer_statement",
+        "unit_kind": "closing_statement",
         "page": 101,
         "sequence": 4,
         "section": "Überlegungen zum Ende",
         "label": null,
         "text": "Willkommen in der wirklichen Welt und nun geht eurer Wege, die Zukunft wartet.",
-        "function": "farewell_admonition",
-        "confidence": 0.97
+        "function": "farewell",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page101_Segment5",
@@ -103,10 +105,10 @@
         "label": null,
         "text": "Und wie versprochen, für jeden den es interessiert, nachfolgend einige Quellen, aus denen ich über die Jahre Inspiration geschöpft habe. Sie sind nicht vollständig, weil ich bestimmt das ein oder andere Buch schon vergessen habe und sie beinhaltet auch nicht die unzähligen Interviews und Podcasts mit prominenten Persönlichkeiten aus diesen und angrenzenden Bereichen und auch nicht meine eigenen Reisen durch die Welt der Menschen. Aus legalen Gründen natürlich auch nicht meine eigenen Erfahrungen mit allerlei psychoaktiven Substanzen in teils aberwitzigen Dosierungen.",
         "function": "source_list_introduction",
-        "confidence": 0.98
+        "confidence": 0.97
       }
     ],
-    "free_text": "Schlusskapitel, Reflexion, Dank, Quellenankündigung"
+    "free_text": "Schlusskapitel, Dank, philosophischer Abschluss, Quellenhinweis"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

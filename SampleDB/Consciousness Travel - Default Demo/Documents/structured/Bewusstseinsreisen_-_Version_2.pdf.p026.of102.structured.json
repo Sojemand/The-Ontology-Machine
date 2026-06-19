@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:37:45.210787+00:00",
+    "processed_at": "2026-06-02T18:48:24.936205+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,13 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.89,
-      "reason": "A philosophical/nonfiction book page with continuous prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "The visible page contains continuous prose from a book-like publication.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "book page layout",
-        "nonfiction argumentative writing"
+        "continuous prose",
+        "book page",
+        "publication layout"
       ]
     },
     "date_range": {
@@ -43,10 +43,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,8 +56,8 @@
         "page": 26,
         "sequence": 1,
         "text": "Mustererkennung bereits Alarm geschlagen und eine ganze Kaskade an Dingen rollt über dich hinweg, auf die du nicht den geringsten Einfluss hast. Dein ganzer Körper wird mit einem mächtigen Gebräu aus Chemikalien überflutet, welches den Herzschlag in die Höhe treibt, den Sauerstoffgehalt deiner Muskeln erhöht, deine Schweißdrüsen öffnet, deine Sicht schärft und die Wahrnehmung beschleunigt. All das passiert während du automatisch deine Umgebung absuchst, mögliche Fluchtrouten errechnest und deine Chancen abwägst, ob Angriff oder Flucht die bessere Option darstellt. Innerhalb einer Sekunde erfährt dein Körper so viele Veränderungen, dass sie buchstäblich Schmerzen verursachen.",
-        "function": "physiological_stress_description",
-        "confidence": 0.97
+        "function": "describes_automatic_stress_response",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page26_Segment2",
@@ -67,8 +65,8 @@
         "page": 26,
         "sequence": 2,
         "text": "Du tust und fühlst all das ohne die geringste Kontrolle darüber zu haben. Das geschieht so rasend schnell und mit solch einer Macht, welche uns eindrücklich demonstriert, wie die Maschine deinen Körper völlig auf den Kopf stellen kann, noch bevor du einmal geblinzelt hast. Keine Kraft, die du bewusst in der Lage bist aufzubringen, kommt auch nur annähernd an das heran, was die Maschine mit scheinbarer Leichtigkeit innerhalb einer Sekunde bewirken kann. Es ist völlig egal, wie viele Jahre du durch hartes militärische Training gehst oder wie viele Gürtel du im Kampfsport errungen hast, du wirst niemals auch nur annähernd eine ähnliche Kontrolle über deinen Körper erreichen und es schaffen, eine ähnliche Kaskade auszulösen wie es eine einfache Waffe vermag, die jemand auf dich richtet mit der Absicht dir Schaden zuzufügen.",
-        "function": "argument_about_lack_of_control",
-        "confidence": 0.96
+        "function": "argues_limits_of_conscious_control",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page26_Segment3",
@@ -76,8 +74,8 @@
         "page": 26,
         "sequence": 3,
         "text": "Sicherlich kannst du, wenn du hart genug trainierst, neue neurale Pfade schaffen die es dir erlauben, einige Auswirkungen dieser Kaskade in andere Bahnen zu leiten. Du kannst lernen, deine Reaktionsgeschwindigkeit zu schärfen, den Angriff oder Fluchtreflex weitestgehend zu unterdrücken oder trainieren einen klaren Verstand zu behalten, selbst dann noch wenn die Chemie in deinem Gehirn kocht. Du kannst die Symptome abschwächen, aber niemals wirst du Kontrolle über den Auslöser selbst erlangen. Selbst wenn du eine Art mystischer Meisterschaft erlangst und in der Lage bist, selbst im Angesicht einer schussbereiten Waffe glatt wie ein Aal zu agieren, kannst du niemals die Kaskade, die du nun erfolgreich unterdrückt hast, durch reine Willenskraft selbst auslösen. Das Ausmaß an Herrschaft, welches deine Maschine über deinen Körper hat übersteigt alles was du jemals aufzubieten in der Lage bist.",
-        "function": "qualified_concession_and_limit_claim",
-        "confidence": 0.96
+        "function": "concedes_training_but_denies_mastery_over_trigger",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page26_Segment4",
@@ -85,11 +83,11 @@
         "page": 26,
         "sequence": 4,
         "text": "Ok, das war jetzt ein wirklich extremes Szenario, welches nur wenigen vergönnt ist einmal zu durchleben. Es illustriert aber auf höchst anschauliche Weise, wie sehr wir unseren Emotionen und deren Auslösern ausgeliefert sind. Es ist ausgesprochen Vermessen anzunehmen, jemand stünde über seinen Gefühlen. Es ist durchaus richtig zu behaupten, dass es Unterschiede in der",
-        "function": "example_reframing_and_transition",
-        "confidence": 0.94
+        "function": "draws_general_conclusion_from_example",
+        "confidence": 0.95
       }
     ],
-    "free_text": "Sachbuchseite über Emotionen, Kontrollverlust, Stressreaktion"
+    "free_text": "Stressreaktion, Kontrollverlust, Emotionen, Körperreaktionen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

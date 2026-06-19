@@ -2,56 +2,52 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.97,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:52:22.858966+00:00",
+    "processed_at": "2026-06-02T19:03:15.091428+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
+    "document_type_confidence": 0.99,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 62,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=062-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.95,
-      "reason": "A philosophical book page is visible with continuous prose paragraphs and a section heading.",
+      "reason": "The visible page is a prose book page with section heading and continuous narrative paragraphs.",
       "matched_signals": [
-        "continuous prose paragraphs",
+        "book page",
         "section heading",
-        "philosophical writing"
+        "continuous prose"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 62,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=062-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
-    "fields": {
-      "section_title": "Unmögliche Blicke"
-    },
+    "fields": {},
     "rows": [],
     "segments": [
       {
@@ -69,8 +65,8 @@
         "page": 62,
         "sequence": 2,
         "text": "Auch dürfte es offensichtlich sein, dass ein Träumender nicht Selbstmord begehen kann, während der Körper schläft. Auch sind wir während des Schlafs physisch angreifbar und wer schläft und nicht mehr aufwacht, der wird über Kurz oder Lang durch Dehydration oder Nährstoffmangel die Lebensfunktionen einstellen. Ganz abgesehen von der Sauerei, die die Bettlaken erleben, wenn wir es unterlassen uns um die Abfallbeseitigung zu kümmern. Wir sehen, welche Analogien wir auch immer zwischen Träumen und Wachen anstellen, um die Eigenschaften eines hypothetischen Bewusstseinszustandes oberhalb des Wachens zu beschreiben, so können diese Vergleiche doch niemals vollständig sein. Sie sind bestenfalls Krücken für unsere Hilflosigkeit.",
-        "function": "argument_limitation",
-        "confidence": 0.98
+        "function": "argument_by_limitation",
+        "confidence": 0.99
       },
       {
         "segment_id": "Page62_Segment3",
@@ -78,8 +74,8 @@
         "page": 62,
         "sequence": 3,
         "text": "Aber hilflos zu sein muss nicht heißen tatenlos zu sein. Wir können trotz unserer offensichtlichen Unzulänglichkeiten ein wenig mehr im Nebel stochern, wenn wir nur nie vergessen, dass die Dinge die wir zu sehen glauben auch einfach nur eine Fata Morgana eines gelangweilten Gehirns im Schädel eines schizophrenen Affen sein könnten. Demut ist stets ein guter Ratgeber. Aber lassen wir uns davon nicht aufhalten und marschieren munter weiter auf unserer Reise hinter den Vorhang.",
-        "function": "reflective_transition",
-        "confidence": 0.98
+        "function": "motivational_transition",
+        "confidence": 0.99
       },
       {
         "segment_id": "Page62_Segment4",
@@ -100,7 +96,7 @@
         "confidence": 0.97
       }
     ],
-    "free_text": "Philosophischer Fließtext über Wachen, Träumen, Über-Ich; neuer Abschnitt „Unmögliche Blicke“"
+    "free_text": "Essayseite über Bewusstseinszustände; Abschnitt „Unmögliche Blicke“"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:33:27.432141+00:00",
+    "processed_at": "2026-06-02T18:43:43.082341+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "nonfiction_book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,30 +22,30 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.95,
-      "reason": "A nonfiction book page in philosophical writing is visible, with a section heading and continuous prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.88,
+      "reason": "The visible page is a continuous prose page from a book with a section heading.",
       "matched_signals": [
-        "section heading",
-        "continuous prose paragraphs",
-        "philosophical discussion"
+        "book page",
+        "continuous prose",
+        "section heading"
       ]
     },
+    "page_number": 15,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=015-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 15,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=015-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
       "columns": [
-        "single_column"
+        "main_text"
       ],
       "form_fields": []
     },
@@ -57,10 +57,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 15,
         "sequence": 1,
-        "section": null,
-        "label": null,
         "text": "Schmerz zu lindern versuchen, der von rostigen Fesseln rührt, die dich Kopf über an einen mit Dornen gespickten Felsen ketten. „Wenn es so schmerzt, dann bewege dich nicht“ würden sie sagen. „Sammle all deine Wut und breche sie, auch wenn sie dir dabei das Fleisch von den Knochen reißen“ würde ich sagen. Ihr seht, wir würden uns nicht besonders gut vertragen, weshalb wir die Psychologie auch gerne beiseite lassen können, denn dort wo wir hingehen, da kann sie uns eh nicht folgen. Allerdings gibt es eine andere Disziplin, denen wir zu Beginn sehr wohl unsere ungeteilte Aufmerksamkeit widmen sollten, denn sie hat bereits einen Gutteil der Arbeit für uns getan und wir sind gut beraten, auf unserer Reise so viel wir können davon mitzunehmen. Ich rede von den Neurowissenschaften.",
-        "function": "transition_to_neuroscience",
+        "function": "contrast_psychology_with_neuroscience",
         "confidence": 0.98
       },
       {
@@ -68,8 +66,6 @@
         "unit_kind": "title_line",
         "page": 15,
         "sequence": 2,
-        "section": null,
-        "label": null,
         "text": "Der Tag an dem der freie Wille starb",
         "function": "section_heading",
         "confidence": 0.99
@@ -79,10 +75,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 15,
         "sequence": 3,
-        "section": "Der Tag an dem der freie Wille starb",
-        "label": null,
         "text": "Es war bereits in den 1970ern als Benajmin Libet damit anfing zu untersuchen, welche Neurale Aktivitäten Entscheidungsfindungsprozessen voraus gehen und dabei entdeckte, dass der bewusst gefällten Entscheidung bereits bis zu einer halben Sekunde Muster voraus gingen, anhand derer sich die tatsächliche Entscheidung voraussagen ließ. Diese Ergebnisse wurden erwartungsgemäß kontrovers diskutiert und der allgemeine Konsens war demnach auch, dass 500 Millisekunden ein zu kleines Zeitfenster war um belastbare Aussagen daraus abzuleiten. Die Diskussion verebbte wieder, zumindest was das öffentliche Interesse anging und meldete sich erst wieder 2008 mit einem Paukenschlag zurück.",
-        "function": "historical_research_summary",
+        "function": "introduce_early_experiments_and_debate",
         "confidence": 0.96
       },
       {
@@ -90,10 +84,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 15,
         "sequence": 4,
-        "section": "Der Tag an dem der freie Wille starb",
-        "label": null,
         "text": "Diesmal war es John-Dylan Haynes vom Max-Planck-Institut für Kognitions- und Neurowissenschaften in Leipzig, der mit neuer Technologie, dem Kernspintomographen, großräumige Aktivierungsmuster im Gehirn auflösen konnte. Anhand dieser Muster, konnte er bis zu 7 Sekunden bevor der Proband sich nach seinen eigenen Aussagen bewusst entschieden hat, voraussagen, wie er sich entscheiden würde. Die Trefferquote war zwar „nur“ 60%, aber damit noch deutlich über der des Zufalls. Somit maß er damit tatsächlich ein reales Phänomen. Das schlug buchstäblich ein wie eine Bombe und die Diskussion um den freien Willen wurde damit zum globalen Thema selbst unter Laien und ist seither Teil philosophischer Diskussionen auch unter Nicht-Wissenschaftlern.",
-        "function": "report_of_experimental_findings",
+        "function": "report_followup_findings_and_impact",
         "confidence": 0.97
       },
       {
@@ -101,14 +93,12 @@
         "unit_kind": "narrative_paragraph",
         "page": 15,
         "sequence": 5,
-        "section": "Der Tag an dem der freie Wille starb",
-        "label": null,
         "text": "Dieses Ergebnis hauchte einem ganzen Forschungszweig neues und geschäftiges Leben ein und seit damals wurden Entdeckungen um Entdeckungen gemacht, die eine bizarrer als die andere erscheinen lässt. Es lohnt sich wirklich, einmal selbst die populärwissenschaftlich geschrieben Werke eines Daniel Khaneman oder Timothy D. Wilson aufmerksam zu lesen.",
-        "function": "evaluation_and_recommendation",
+        "function": "reflect_on_research_momentum",
         "confidence": 0.95
       }
     ],
-    "free_text": "Neurowissenschaften, freier Wille, Libet, Haynes, philosophische Diskussion"
+    "free_text": "Neurowissenschaften, freier Wille, Libet, Haynes, Forschungsgeschichte"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

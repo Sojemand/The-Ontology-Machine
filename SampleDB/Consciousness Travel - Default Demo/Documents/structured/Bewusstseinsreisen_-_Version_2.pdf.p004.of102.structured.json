@@ -6,47 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:28:48.670124+00:00",
+    "processed_at": "2026-06-02T18:39:19.108192+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "document_type_confidence": 0.98,
+    "category": "literary",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 4,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=004-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.91,
-      "reason": "A philosophical nonfiction book page with continuous prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.92,
+      "reason": "A continuous prose page from a book is visible.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "philosophical nonfiction content",
-        "book page layout"
+        "continuous prose",
+        "book page",
+        "multi-paragraph body text"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 4,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=004-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "prose_page",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,8 +56,8 @@
         "page": 4,
         "sequence": 1,
         "text": "durchaus einen übergeordneten Gedanken, an dem sich die Struktur dieses kleinen Werkes orientiert. Allerdings ist die Natur dieses Gedanken schwer zu fassen, nicht weil er schwer zu verstehen wäre, sondern weil er an Dinge rührt, denen wir uns aufgrund unserer eigenen Natur nur ungern zuwenden.",
-        "function": "framing_core_idea",
-        "confidence": 0.98
+        "function": "introducing_central_thought",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page4_Segment2",
@@ -67,7 +65,7 @@
         "page": 4,
         "sequence": 2,
         "text": "Ich will auch nicht vorgeben, alles was in diesem Buch steht selbst erfunden zu haben. Ein Gutteil davon haben bereits Andere vor mir so oder so ähnlich beschrieben. Einiges von dem hier dargelegten basiert auf Konzepten, die zum Beispiel Gurdjieff über den menschlichen Geist sagte. Allerdings bringe ich nur jene Dinge auf, von denen ich mit Gewissheit sagen kann, dass sie auch tatsächlich so sind. Ich bediene mich keiner Lehren, auch wenn Einiges von solchen entnommen wurde, wenn auch nur aus dem Grund, weil sie einen harten Bestandteil unseres Lebens korrekt beschreiben.",
-        "function": "authorial_positioning",
+        "function": "author_positioning",
         "confidence": 0.98
       },
       {
@@ -76,7 +74,7 @@
         "page": 4,
         "sequence": 3,
         "text": "Was ich hier, hoffentlich erfolgreich, versuche zu erreichen ist, zu zeigen, dass das, was wir für unser Bewusstsein halten, was wir über uns selbst denken, wonach wir unser Handeln und unsere Werte ausrichten, auf was wir unsere Entscheidungen gründen und was wir als wahr oder falsch annehmen, eine wirklich schlechte Karikatur dessen ist, was sich in Wirklichkeit zuträgt. Auch versuche ich im Publikum einen Sinn dafür zu wecken, dass unser Bewusstsein ein Mysterium birgt, welches wir gerade erst beginnen anzukratzen. Im ersten Teil dieses Buches werde ich deshalb die Grundlage legen, auf der im weiteren Verlauf alles aufbaut, denn bevor wir zu den wirklichen Geheimnissen kommen, müssen wir uns über die Realität in der wir uns wieder finden im Klaren sein.",
-        "function": "statement_of_purpose",
+        "function": "stating_book_purpose",
         "confidence": 0.98
       },
       {
@@ -85,7 +83,7 @@
         "page": 4,
         "sequence": 4,
         "text": "Ich will auch keineswegs den Anschein erwecken, ich hätte den Stein der Weisen entdeckt, denn das habe ich nicht. Was ich will ist, einfach auf einige Dinge hinzuweisen, die teilweise recht gut bekannt sind und auch auf Dinge aufmerksam machen, die uns zwar bekannt sein müssten, sie es aber aus irgendwelchen Gründen nicht sind. Wenn wir dann diese Dinge einmal in ihrem Gesamtkontext betrachten, dann ergibt sich zwangsläufig die Feststellung, dass unser gesamtes Bewusstsein nicht das sein kann, als was wir es empfinden. Dazu gibt es zu viele Anhaltspunkte, die auf etwas hinweisen, was sich buchstäblich außerhalb unserer Vorstellung befindet.",
-        "function": "claim_with_qualification",
+        "function": "qualification_and_claim",
         "confidence": 0.98
       },
       {
@@ -94,11 +92,11 @@
         "page": 4,
         "sequence": 5,
         "text": "Um Potentiell Zugang dazu zu erlangen, dazu benötigen wir keinerlei Mythen oder Geheimnisse, müssen keinen geheimen Zauber oder dunkle Mächte beschwören und auch sonst nichts bemühen, was nur „Auserwählten“ zugänglich ist. Wir müssen nur das in die Hand",
-        "function": "rejecting_esoteric_means",
-        "confidence": 0.97
+        "function": "rejecting_esotericism",
+        "confidence": 0.96
       }
     ],
-    "free_text": "Bewusstsein, Vorwort-artige Reflexion, Autorposition, Erkenntnisanspruch"
+    "free_text": "Buchseite über Bewusstsein, Einordnung des Autors, Ziel des Werks"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

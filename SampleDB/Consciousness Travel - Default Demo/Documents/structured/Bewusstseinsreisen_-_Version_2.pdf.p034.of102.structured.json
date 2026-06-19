@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:40:59.765533+00:00",
+    "processed_at": "2026-06-02T18:51:35.194567+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.95,
+    "category": "literature",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,12 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.91,
-      "reason": "A continuous prose page from a philosophical/nonfiction book is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "A continuous prose page from a book is visible.",
       "matched_signals": [
-        "continuous paragraph prose",
-        "book page layout",
-        "philosophical writing"
+        "continuous prose",
+        "book page"
       ]
     },
     "date_range": {
@@ -59,19 +58,46 @@
         "sequence": 1,
         "text": "bedienen die da vor uns liegen?",
         "function": "rhetorical_question",
-        "confidence": 0.91
+        "confidence": 0.87
       },
       {
         "segment_id": "Page34_Segment2",
         "unit_kind": "narrative_paragraph",
         "page": 34,
         "sequence": 2,
-        "text": "Wir haben nämlich in der Tat Möglichkeiten, die uns zwar keine Superkräfte verleihen, aber uns Dinge zugänglich machen, die bisher stets nur im Dunkel unserer Maschine ihr Dasein fristeten. Und im Zuge dessen werden wir auch entdecken, dass wir dabei an Mysterien rühren, die uns seit der eigenen Menschwerdung begleiteten und wir werden auch entdecken, dass wir in der Tat etwas in uns tragen, was wir mit Fug und Recht als göttliches Licht bezeichnen dürfen. Ja, selbst jene, die sich mit Stolz den Wissen schaffenden Disziplinen zugewendet haben und keine Geduld für wachsweiches Geschnatter aus dubiosen Quellen aufbringen. Selbst für sie öffnet sich hier der Blick und damit eine Brücke in ihre eigene Welt. Obwohl, wenn ich genau darüber nachdenke, eigentlich ganz besonders für sie. Herzlich eingeladen sind sie jedenfalls.",
-        "function": "invitation_and_reflection",
+        "text": "Wir haben nämlich in der Tat Möglichkeiten, die uns zwar keine Superkräfte verleihen, aber uns Dinge zugänglich machen, die bisher stets nur im Dunkel unserer Maschine ihr Dasein fristeten.",
+        "function": "introducing_human_potential",
         "confidence": 0.97
+      },
+      {
+        "segment_id": "Page34_Segment3",
+        "unit_kind": "narrative_paragraph",
+        "page": 34,
+        "sequence": 3,
+        "text": "Und im Zuge dessen werden wir auch entdecken, dass wir dabei an Mysterien rühren, die uns seit der eigenen Menschwerdung begleiteten und wir werden auch entdecken, dass wir in der Tat etwas in uns tragen, was wir mit Fug und Recht als göttliches Licht bezeichnen dürfen.",
+        "function": "spiritual_claim",
+        "confidence": 0.96
+      },
+      {
+        "segment_id": "Page34_Segment4",
+        "unit_kind": "narrative_paragraph",
+        "page": 34,
+        "sequence": 4,
+        "text": "Ja, selbst jene, die sich mit Stolz den Wissen schaffenden Disziplinen zugewendet haben und keine Geduld für wachsweiches Geschnatter aus dubiosen Quellen aufbringen.",
+        "function": "addressing_skeptical_readers",
+        "confidence": 0.94
+      },
+      {
+        "segment_id": "Page34_Segment5",
+        "unit_kind": "narrative_paragraph",
+        "page": 34,
+        "sequence": 5,
+        "text": "Selbst für sie öffnet sich hier der Blick und damit eine Brücke in ihre eigene Welt. Obwohl, wenn ich genau darüber nachdenke, eigentlich ganz besonders für sie. Herzlich eingeladen sind sie jedenfalls.",
+        "function": "invitation_to_reader",
+        "confidence": 0.96
       }
     ],
-    "free_text": "Essaytext über Möglichkeiten, Mysterien, göttliches Licht, Einladung an skeptische Leser"
+    "free_text": "Reflexion über Möglichkeiten, Mysterien, göttliches Licht, Einladung an skeptische Leser"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

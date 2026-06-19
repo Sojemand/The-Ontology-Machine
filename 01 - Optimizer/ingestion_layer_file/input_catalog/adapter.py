@@ -111,6 +111,8 @@ def iter_input_files(
     for file_path in sorted(root.rglob("*")):
         if not file_path.is_file():
             continue
+        if file_path.name == ".gitkeep":
+            continue
         try:
             resolved = file_path.resolve()
         except OSError:

@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:03:21Z",
+    "processed_at": "2026-06-02T19:14:27Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical book page explains three levels of causal influence and their increasing complexity: external prompting, conscious active change, and archetypal patterns. It argues that these patterns shape symbolic worlds and action sequences while remaining difficult to study directly.",
+    "description": "The page argues that symbolic patterns shape action and outcomes without easily traceable causes. It claims individual observation is insufficient and that new methods are needed to study these processes. It then ranks three pathways by complexity: external prompting, conscious active change, and archetypal influence.",
     "tags": [
-      "philosophy",
-      "consciousness",
       "symbolic world",
+      "patterns",
+      "complexity levels",
       "archetypes",
-      "complexity",
-      "methodology"
+      "conscious change"
     ],
     "people": [],
     "organizations": [],
@@ -41,14 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Normalized raw category to book_body_content and subcategory to theoretical_discussion."
+      "Translated German prose into English control language.",
+      "Mapped raw literature/philosophical_prose to nonfiction philosophy with symbolism and archetypes."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,51 +57,76 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "page_number",
+        "text_content",
+        "paragraph_text",
+        "heading_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 89,
-      "topic_keywords": [
-        "causal influence",
-        "complexity levels",
-        "external prompting",
-        "conscious change",
-        "archetypes",
-        "observation methods"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The text distinguishes three levels of causal influence and ranks them by complexity, from external prompting to conscious active change and archetypal patterns. It emphasizes that these patterns shape symbolic worlds and action sequences, but that studying them requires new methods of observation."
+        "page_number": 89,
+        "text_content": "Book page 89 from Bewusstseinsreisen - Version 2"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Symbolic changes shape action and outcomes without directly locatable causes. Individual observation is said to be insufficient, so new methods are needed to study the process.",
+        "text_content": "Symbolic changes shape action and outcomes without directly locatable causes. Individual observation is said to be insufficient, so new methods are needed to study the process."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 2,
+        "heading_text": "Three pathways by complexity",
+        "text_content": "Three pathways by complexity"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The first pathway, external prompting, produces simple one-dimensional action patterns and resembles unwritten cultural rules.",
+        "text_content": "The first pathway, external prompting, produces simple one-dimensional action patterns and resembles unwritten cultural rules."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The second pathway, conscious active change, reaches broader action chains and requires at least a rudimentary understanding of the symbolic world.",
+        "text_content": "The second pathway, conscious active change, reaches broader action chains and requires at least a rudimentary understanding of the symbolic world."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "The third pathway, archetypal influence, is beyond waking consciousness and affects a person's life through deeper patterns.",
+        "text_content": "The third pathway, archetypal influence, is beyond waking consciousness and affects a person's life through deeper patterns."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Philosophical discussion of three levels of influence: external prompting, conscious active change, and archetypal patterns. Methodological limits and the need for new observation methods are central."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Book page 89 from Bewusstseinsreisen - Version 2 on symbolic changes, study limitations, and a three-level hierarchy of pathways: external prompting, conscious active change, and archetypal influence."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=15; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-15."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

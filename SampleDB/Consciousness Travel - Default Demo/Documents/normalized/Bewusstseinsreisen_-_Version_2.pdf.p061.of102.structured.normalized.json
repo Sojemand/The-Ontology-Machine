@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.98,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:52:10Z",
+    "processed_at": "2026-06-02T19:03:00Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "dreams_and_altered_states",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,12 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "This nonfiction page discusses how dream symbols arise from waking consciousness and are shaped into symbolic dream imagery. It then speculates whether a similar process may occur in waking life through the superego, before shifting into a critical transition under the heading \"Es ist nicht alles Gold was glänzt.\"",
+    "description": "A reflective philosophical passage argues that dreams are symbolic fragments of waking consciousness and that their meaning lies less in interpretation than in their formation. It extends the analogy to waking life, asking whether fragments of the superego may also shape a coherent lived world. The section heading introduces a cautionary turn about the limits and contradictions of such analogies.",
     "tags": [
       "dream symbolism",
       "waking consciousness",
       "superego",
-      "analogy",
-      "philosophical discussion"
+      "philosophical reflection"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +39,16 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "Mapped raw book/philosophical writing to book_body_content/theoretical_discussion.",
-      "Translated section heading into English for retrieval tags only; source heading remains visible in content."
+      "Translated German visible text into English control language.",
+      "Mapped raw literature/nonfiction_book to nonfiction_philosophy/dreams_and_altered_states.",
+      "Section heading retained from source: Es ist nicht alles Gold was glänzt."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,61 +57,67 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
-      "page_number": 61,
       "section_heading": "Es ist not all gold that glitters",
-      "topic_keywords": [
-        "dream symbolism",
-        "waking consciousness",
-        "superego",
-        "analogy"
-      ]
+      "page_number": 61,
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "Dream symbols are presented as fragments of waking consciousness that enter dreams, lose their original structure, and become symbolic imagery. The text argues that the content of symbolic meaning matters less than the process by which it is formed."
+        "heading_text": "Es is not all gold that glitters",
+        "text_content": "Reflective section on the limits of dream-to-waking analogies and the symbolic formation of consciousness."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "The discussion then extends the analogy to waking life, asking whether parts of the superego may likewise shape consciousness and reality in fragmentary, symbolized form."
+        "paragraph_text": "Dreams are presented as fragments of waking consciousness that become symbolic in dream form."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 2,
-        "paragraph_text": "A new section begins with a critical warning about the limits and contradictions of such analogies."
+        "paragraph_text": "The passage shifts from interpreting dream symbols to examining how they originate in consciousness."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "It extends the analogy to waking life by asking whether fragments of the superego may shape a coherent world of experience."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The opening of the section warns that such analogies create contradictions and should be handled cautiously."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on dream symbolism, waking consciousness, and the superego. The text explains how symbolic form arises and introduces a critical section on the limits of analogy."
+    "free_text": "book_page nonfiction_philosophy dreams_and_altered_states Book page from Bewusstseinsreisen - Version 2 on dream symbolism, waking consciousness, and the superego. Section heading: Es ist nicht alles Gold was glänzt. Philosophical argument about the origin of symbols and the limits of analogy."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.95,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

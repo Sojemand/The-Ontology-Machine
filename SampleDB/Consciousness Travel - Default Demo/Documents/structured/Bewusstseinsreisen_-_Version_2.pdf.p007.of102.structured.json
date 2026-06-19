@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:29:58.152456+00:00",
+    "processed_at": "2026-06-02T18:40:22.704635+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
+    "document_type_confidence": 0.97,
     "category": "literature",
-    "subcategory": "philosophical_writing",
+    "subcategory": "prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,32 +22,29 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.88,
-      "reason": "A philosophical book page is visible with a heading and continuous narrative paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The visible page is a born-digital book page with a title-like line and continuous prose paragraphs.",
       "matched_signals": [
-        "book page",
-        "heading",
-        "continuous narrative paragraphs",
-        "philosophical writing"
+        "book_page",
+        "title-like line",
+        "continuous prose paragraphs"
       ]
+    },
+    "date_range": {
+      "from": null,
+      "to": null
     },
     "page_number": 7,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=007-of-102",
-    "date_range": {
-      "from": null,
-      "to": null
-    },
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,8 +55,6 @@
         "unit_kind": "title_line",
         "page": 7,
         "sequence": 1,
-        "section": null,
-        "label": null,
         "text": "Gewissheit.",
         "function": "section_title",
         "confidence": 0.99
@@ -69,10 +64,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 7,
         "sequence": 2,
-        "section": "Gewissheit.",
-        "label": null,
         "text": "Ich möchte euch eine kleine Geschichte erzählen, von einem rechtschaffenen Mann, der harte Arbeit und Ehrlichkeit seine Tugenden nennt. Auch er beschreitet seinen eigenen Weg, der ihm Mühsal abringt und der ihm irgendwann das bescheren soll, nach was er sich so sehnt: Freiheit und Erfüllung. Ein Mann, der das Joch freiwillig auf sich nahm mit dem Versprechen, dass er am Ende seines Weges die Belohnung für seine Mühen erhalten möge.",
-        "function": "introducing_allegorical_figure",
+        "function": "character_introduction",
         "confidence": 0.98
       },
       {
@@ -80,10 +73,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 7,
         "sequence": 3,
-        "section": "Gewissheit.",
-        "label": null,
         "text": "Er ist ein stoischer Mann, der genau weiß, dass es sich lohnt das Heute für ein besseres Morgen zu opfern. Und wenn der Morgen anbricht, so verlangt der neue Tag ein neues Opfer für ein neues Morgen. So vergehen die Jahre und das Joch beugt ihn tiefer und tiefer hinab und jeder Schritt kostet ihn stetig mehr Kraft als der letzte. Er beginnt zu zweifeln, je an sein Ziel gelangen zu können, doch alle um ihn herum scheinen solche Zweifel nicht zu kennen. Alle laufen scheinbar mit tiefster Gewissheit gesegnet in die gleiche Richtung, mit Gold glänzenden Augen der gleichen Verheißung folgend. Wie konnte er nur zweifeln.",
-        "function": "depicting_burden_and_doubt",
+        "function": "burden_and_doubt",
         "confidence": 0.98
       },
       {
@@ -91,10 +82,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 7,
         "sequence": 4,
-        "section": "Gewissheit.",
-        "label": null,
         "text": "Eines Tage dann stolpert er über etwas was er nicht sehen konnte. Er fällt und anstatt auf harten Granit zu prallen, tauchen seine Hände in kalten und nassen Erdboden. Auf einmal verschwimmt das Bild vor seinen Augen und er sieht an sich herab, nur um einen in Lumpen gekleideten, von Schlamm verschmierten und mit eiternden Geschwüren überzogenen Leib zu entdecken, der ihm nur noch entfernt bekannt vorkommt. Entsetzen durchströmt ihn als er erkennt, woher die Schmerzen die er fühlt wirklich stammen. All dies muss ein böser Traum sein denkt er, denn wie sollte er sonst hier hin gekommen sein? Er blickt auf und blickt umher und sieht andere geschundene Gestalten mit Gold leuchtenden Augen die wie er an Ketten Lasten in Kreisen schleppen. Er sieht und hört das Stöhnen und Klagen der Seelen um sich und hier und da liegen Tote herum, teilweise frisch, teilweise bereits schon lange verweste und von Aasfressern abgenagte Knochen. Ein fauliger Geruch liegt in der Luft der keinen Zweifel lässt, dass hier Tod und Krankheit gierige Ernte halten.",
-        "function": "horrific_revelation",
+        "function": "vision_of_horror",
         "confidence": 0.97
       },
       {
@@ -102,14 +91,12 @@
         "unit_kind": "narrative_paragraph",
         "page": 7,
         "sequence": 5,
-        "section": "Gewissheit.",
-        "label": null,
         "text": "Was er sieht ist ein Bild des Grauens. Das muss die Hölle sein denkt er. Er kann dieses Bild keine Sekunde länger mehr ertragen und so schließt er seine Augen und fleht, dass dieser Alptraum doch endlich ein Ende haben möge. Als er die Augen wieder öffnet, da findet er sich wieder auf der goldenen Straße stehend, genau dort wo dieser Alptraum seinen Anfang nahm. Zu seinen Füßen liegt sein schweres Bündel und zu tiefst erleichtert nimmt er es wieder auf und er spürt wie die Last auf ihm ruht, wie sie an altbekannten Stellen drückt und",
-        "function": "return_to_old_burden",
+        "function": "return_to_burden",
         "confidence": 0.97
       }
     ],
-    "free_text": "Gewissheit; allegorische Erzählung über Last, Zweifel, Höllenvision"
+    "free_text": "Gewissheit; allegorische Erzählung über Last, Zweifel und Höllenvision"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

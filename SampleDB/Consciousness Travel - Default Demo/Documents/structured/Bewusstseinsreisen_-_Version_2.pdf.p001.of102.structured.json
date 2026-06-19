@@ -2,33 +2,43 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.9,
+    "model_confidence": 0.93,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:25:45.979513+00:00",
+    "processed_at": "2026-06-02T18:36:23.982886+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "book_cover_page",
-    "document_type_confidence": 0.91,
-    "category": "book",
-    "subcategory": "cover",
+    "document_type": "book_page",
+    "document_type_confidence": 0.94,
+    "category": "publication",
+    "subcategory": "cover_page",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "date_range": {
-      "from": null,
-      "to": null
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.9,
+      "reason": "The visible page matches a book cover/title page with a prominent title and subtitle.",
+      "matched_signals": [
+        "book_page",
+        "prominent title",
+        "cover page"
+      ]
     },
     "page_number": 1,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=001-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
     "interpreter_profile": "file",
     "document_title": "BEWUSSTSEINSREISEN"
   },
@@ -52,7 +62,7 @@
         "section": null,
         "label": "title",
         "text": "BEWUSSTSEINSREISEN",
-        "function": "document_title",
+        "function": "main_title",
         "confidence": 0.99
       },
       {
@@ -63,11 +73,11 @@
         "section": null,
         "label": "subtitle",
         "text": "GRENZEN DES SEINS",
-        "function": "document_subtitle",
+        "function": "subtitle",
         "confidence": 0.99
       }
     ],
-    "free_text": "Cover mit Kristallmotiv, Titel und Untertitel"
+    "free_text": "Buchtitel, Untertitel, dunkles kristallartiges Covermotiv"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

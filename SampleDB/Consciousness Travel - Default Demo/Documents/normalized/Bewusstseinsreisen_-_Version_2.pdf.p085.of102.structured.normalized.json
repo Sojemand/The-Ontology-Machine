@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:01:42Z",
+    "processed_at": "2026-06-02T19:12:41Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.93,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,18 +22,10 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction passage explains how people become absorbed by symbol worlds and compares the path between symbolic realms to the Lorenz attractor. It argues that rejection of other reality models often reflects discomfort with contradictions in one's own model, then recommends Jonathan Pageau for studying Christian and universal symbolism.",
-    "tags": [
-      "symbolism",
-      "reality models",
-      "philosophy",
-      "Jonathan Pageau",
-      "Lorenz attractor"
-    ],
-    "people": [
-      "Jonathan Pageau"
-    ],
+    "document_title": null,
+    "description": "Reflective essay page about symbolic worldviews, the attraction and persistence of symbol spaces, and projection in judgments of other reality models. It recommends Jonathan Pageau for his detailed explanation of Christian symbolism and its broader universality.",
+    "tags": [],
+    "people": [],
     "organizations": [],
     "locations": [],
     "date_range": {
@@ -42,69 +34,61 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Classified as book_body_content due to continuous philosophical prose.",
-      "Normalized source-language summary and keywords into English."
-    ],
-    "recipient_primary": null,
-    "property_address": null
+      "Classified as philosophical nonfiction because the page is reflective argumentative prose about symbolism and perception."
+    ]
   },
   "content": {
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 85,
-      "topic_keywords": [
-        "symbolism",
-        "realities models",
-        "self-reflection",
-        "religious symbolism",
-        "universal symbolism",
-        "Lorenz attractor",
-        "Jonathan Pageau"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Symbol worlds can absorb a person, and movement between symbolic realms is compared to an orbit-like path rather than a straight line. Resistance to other reality models is framed as avoidance of contradictions in one's own model, and Jonathan Pageau is recommended as a guide to Christian and universal symbolism."
+        "text_content": "Symbolic worlds have their own gravity and can absorb a traveler who enters them. The text argues that people reject other reality models not because they are false, but because they avoid the contradictions they trigger in their own model."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "text_content": "Jonathan Pageau is recommended as a scholar of symbolism who connects Christian symbolism with the modern world and helps explain the universality and long-term stability of religious and ancient symbolic forms."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on symbolism, reality models, and universal religious symbolism. It uses the Lorenz attractor as a metaphor and recommends Jonathan Pageau."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes work title Bewusstseinsreisen - Version 2; page 85; German philosophical essay on symbolism, symbolic worldviews, projection, and Jonathan Pageau"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.92,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=8; confidence=0.92 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=11; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-11."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.89,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.89 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

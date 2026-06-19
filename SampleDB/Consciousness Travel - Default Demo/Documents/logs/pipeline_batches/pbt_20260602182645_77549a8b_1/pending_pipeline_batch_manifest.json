@@ -1,0 +1,51 @@
+{
+  "active_database": {
+    "database_fingerprint": "sha256:7f7fd1de0a3efc03e0017011",
+    "database_id": "db:b02b5bdfbadb4aa4ddc35f06",
+    "database_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Corpus\\corpus.db",
+    "database_path_hash": "b02b5bdfbadb4aa4ddc35f06"
+  },
+  "active_projections": [
+    {
+      "projection_fingerprint": "4a685acbeef85c7dbcdababf787cc580b7e9b9f4ec403e72deb36e84fda25068",
+      "projection_id": "merged.projection.16c694851387"
+    }
+  ],
+  "artifact_root": {
+    "artifact_root_fingerprint": "sha256:2c9bb117702c68c63355c4b7",
+    "artifact_root_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final",
+    "corpus_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Corpus",
+    "documents_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Documents",
+    "input_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Input",
+    "semantic_release_path": "C:\\Users\\Norma\\Sync\\Ontology Machine\\Documentation\\Research Stack\\Bewusstseinsreisen\\Bewusstseinsreisen_final\\Semantic Release"
+  },
+  "batch_kind": "manual_ingest",
+  "created_at": "2026-06-02T18:26:45.578710Z",
+  "created_by_workflow": "manual_pipeline_run",
+  "input_files": [
+    {
+      "content_hash": "sha256:53d5cf657d83bd7a38935f2d5dbb3810d3c9f7085c3b88b5f416a8a3cc0c9a14",
+      "ingest_route": "manual_pipeline_run",
+      "input_file_id": "inp_307bdbe52e1c9d4b318190fb",
+      "input_relative_path": "Input/Bewusstseinsreisen - Version 2.pdf",
+      "original_ref": "Documents/originals/Bewusstseinsreisen - Version 2.pdf",
+      "post_run_original_location": "Documents/originals/Bewusstseinsreisen - Version 2.pdf",
+      "pre_run_location": "Input/Bewusstseinsreisen - Version 2.pdf",
+      "size_bytes": 2010258,
+      "source_kind": "pdf"
+    }
+  ],
+  "manifest_fingerprint": "sha256:9726f24648e682fe7c57c1de23772ba19523dce93b8776d1c971437dcfc4707a",
+  "pending_status": "prepared",
+  "pipeline_batch_id": "pbt_20260602182645_77549a8b_1",
+  "schema_version": "kernel.pipeline_pending_batch_manifest.v1",
+  "semantic_release": {
+    "release_fingerprint": "sha256:3d920f776a3c4c4c86c27064c4279f114605747712e612a98f6fec5bee3c706c",
+    "semantic_release_id": "release_b747a846a71f",
+    "semantic_release_version": "custom.v1",
+    "taxonomy_fingerprint": "",
+    "taxonomy_id": "a680fba7eba953fea98f7357b753a110b2575a0387131dfe957a0eaca9c2552a",
+    "taxonomy_version": ""
+  },
+  "workflow_run_id": "wr_20260602T182629814424Z_7671d04b2102"
+}

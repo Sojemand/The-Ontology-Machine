@@ -51,6 +51,15 @@ class TestIterInput:
         catalog.refresh()
         assert {entry.filename for entry in catalog.iter_entries()} == {"keep_a.txt", "keep_b.txt"}
 
+    def test_iter_input_ignores_gitkeep_marker(self, tmp_path):
+        input_dir = tmp_path / "input"
+        input_dir.mkdir()
+        (input_dir / ".gitkeep").write_text("", encoding="utf-8")
+        (input_dir / "keep.txt").write_text("x", encoding="utf-8")
+        catalog = InputCatalog(input_dir)
+        catalog.refresh()
+        assert [entry.filename for entry in catalog.iter_entries()] == ["keep.txt"]
+
     def test_iter_input_none_path_raises(self):
         try:
             list(InputCatalog()._iter_input_files())

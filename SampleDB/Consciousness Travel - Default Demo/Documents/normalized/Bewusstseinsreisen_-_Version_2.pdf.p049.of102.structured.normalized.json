@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:47:13Z",
+    "processed_at": "2026-06-02T18:58:28Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Reflective philosophical prose about vivid memories, their unclear origins, and how awareness can consciously create or trigger them. It argues that the mind operates through efficient templates and habitual patterns that shape behavior, beliefs, and responses.",
+    "description": "Reflective prose on vivid childhood memories, spontaneous memory formation, and the mind's use of habitual mental templates. It argues that awareness can create strong recollections even when they do not seem tied to trauma or excitement. The passage also generalizes the mind as an efficient machine that relies on stored patterns for behavior, beliefs, and routines.",
     "tags": [
       "memory",
       "awareness",
-      "mind",
       "habit",
-      "patterns",
-      "philosophy"
+      "mental patterns",
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -41,16 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "category": "literary",
+      "subcategory": "nonfiction_prose"
     },
     "normalization_notes": [
-      "Translated source-language prose summary into English.",
-      "Promoted inferred work title from file name.",
-      "Mapped generic book/category to body-content theoretical discussion."
+      "Translated German prose into English control-language summary.",
+      "No chapter heading visible; classified by thematic content."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -59,56 +57,59 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
         "language",
         "page_number",
-        "topic_keywords"
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
       "language": "de",
       "page_number": 49,
-      "topic_keywords": [
-        "memory",
-        "awareness",
-        "mind",
-        "habit",
-        "patterns",
-        "philosophy"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The text discusses vivid memories that remain clear and enduring, contrasted with vague or ordinary recollections, and notes that their cause is still mysterious. It extends the argument to chance memories and consciously created memories through awareness."
+        "page_number": 49,
+        "text_content": "Page 49 of the source book extract."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "It then describes the mind as an efficient machine that accumulates templates and automatisms over time, using preformed patterns for work, social behavior, skills, and philosophies."
+        "paragraph_text": "Vivid memories can remain sharply fixed, sometimes from childhood, while modern theories do not fully explain why they form. The passage suggests that awareness itself can deliberately or accidentally generate such strong recollections.",
+        "text_content": "Vivid memories can remain sharply fixed, sometimes from childhood, while modern theories do not fully explain why they form."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The mind is described as an efficient machine that stores templates and automatized routines for work, social behavior, skills, politics, and philosophy, becoming more rigid with age.",
+        "text_content": "The mind is described as an efficient machine that stores templates and automatized routines for work, social behavior, skills, politics, and philosophy, becoming more rigid with age."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on vivid memory, awareness, and the mind's formation of efficient templates and habitual patterns."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Book page from Bewusstseinsreisen - Version 2 on memory, awareness, vivid recollection, and mental templates. Page 49 discusses strongly fixed memories, spontaneous memory formation, and the mind as an efficient pattern-based machine."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.86,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.86 => confidence_bonus=2; verified_hint_signals=0/3 [none]; adjusted_hint_score=8; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-8."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.93,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:51:14Z",
+    "processed_at": "2026-06-02T19:01:45Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "nonfiction_book_page",
+    "document_type": "book_page",
     "document_type_confidence": 0.97,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "category": "consciousness_and_mind",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,18 +22,9 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "This page develops a theory of consciousness levels using the analogy of dreams, lucid dreaming, and waking awareness. It argues that a higher scope of awareness can fully comprehend lower states, while lower states cannot perceive what lies above them. A final example extends the idea to parent-child and teacher-student relationships.",
-    "tags": [
-      "consciousness levels",
-      "dreams",
-      "lucid dreaming",
-      "waking awareness",
-      "awareness scope",
-      "analogy",
-      "teacher-student",
-      "parent-child"
-    ],
+    "document_title": null,
+    "description": "The text argues that consciousness can be understood as nested levels of awareness, using dream, lucid dream, and waking states as a hierarchy. It extends the analogy to parent-child and teacher-student relationships, where a higher level can perceive and understand a lower one more fully.",
+    "tags": [],
     "people": [],
     "organizations": [],
     "locations": [],
@@ -43,69 +34,71 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Classified as a nonfiction book page with theoretical discussion based on continuous argumentative prose.",
-      "Book title inferred from source file name.",
-      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
-    ],
-    "recipient_primary": null,
-    "property_address": null
+      "Source language is German.",
+      "Visible page is a continuous philosophical prose passage on consciousness and awareness."
+    ]
   },
   "content": {
     "structure": {
       "type": "text",
       "columns": [
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "work_title"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 58,
-      "topic_keywords": [
-        "consciousness levels",
-        "dreams",
-        "lucid dreaming",
-        "awareness scope",
-        "teacher-student",
-        "parent-child"
-      ]
+      "language": "de",
+      "work_title": "Bewusstseinsreisen"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "The text derives a rule about consciousness levels from the relationship between ordinary dreaming, lucid dreaming, and waking awareness. It argues that a broader field of awareness can encompass and understand lower states, while lower states cannot perceive what lies above them. It extends the analogy to teacher-student and parent-child relationships."
+        "text_content": "Consciousness can be understood as a rule of nested levels: a normal dreamer lives only in the dream world, a lucid dreamer can remember the dream and lucidity, and waking consciousness can remember and analyze both.",
+        "paragraph_text": "A higher awareness contains and understands lower states, just as waking consciousness can examine dreams from above."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "text_content": "A higher awareness contains and understands lower states, just as waking consciousness can examine dreams from above.",
+        "paragraph_text": "The same logic is applied to social relations such as parent and child or teacher and student, where the higher level can see what the lower level cannot."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "text_content": "The same logic is applied to social relations such as parent and child or teacher and student, where the higher level can see what the lower level cannot.",
+        "paragraph_text": "The passage breaks off while explaining that children and students cannot reciprocally perceive the adult or teacher in the same way."
       }
     ],
-    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Consciousness levels, dreams, lucid dreaming, waking awareness, and awareness scope are discussed through philosophical argument and social analogy."
+    "free_text": "book_page consciousness_and_mind philosophy_of_consciousness Work title Bewusstseinsreisen. Page 58 in German on consciousness, dream states, lucid dreaming, waking awareness, and nested levels of understanding. Includes social analogy of parent-child and teacher-student relationships."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.96,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.93,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

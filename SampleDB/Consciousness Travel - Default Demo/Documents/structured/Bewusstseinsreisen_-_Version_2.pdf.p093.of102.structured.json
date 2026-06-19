@@ -6,48 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:04:42.140327+00:00",
+    "processed_at": "2026-06-02T19:15:50.685271+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 93,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=093-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.93,
-      "reason": "The page is a nonfiction book page in philosophical writing with section headings and reflective paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.91,
+      "reason": "The visible page is a prose book page with section headings and continuous body text.",
       "matched_signals": [
         "book page",
-        "philosophical writing",
         "section headings",
-        "paragraphs"
+        "continuous prose"
       ]
     },
+    "page_number": 93,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=093-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
-    "document_page_count": 102,
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -55,12 +52,12 @@
     "segments": [
       {
         "segment_id": "Page93_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 93,
         "sequence": 1,
         "text": "Dann stellt sich natürlich die Frage, wie belastend ein solch dauerhafter Zustand für unser Gehirn ist. Wenn ein solcher Dauerzustand möglich wäre, würde man das überhaupt wollen? Kann das Gehirn damit umgehen oder würde ein permanent „luzides Wachen“ irgendwann im Wahnsinn münden?",
-        "function": "raises_psychological_concerns",
-        "confidence": 0.97
+        "function": "raises_concerns",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page93_Segment2",
@@ -68,16 +65,16 @@
         "page": 93,
         "sequence": 2,
         "text": "Wie können wir das Vergessen umgehen?",
-        "function": "introduces_problem",
+        "function": "section_question",
         "confidence": 0.99
       },
       {
         "segment_id": "Page93_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 93,
         "sequence": 3,
         "text": "Und dann stellt sich unweigerlich die Frage, wie wir das Vergessen umgehen können, welches solche Dinge umgehend wieder aus der Erinnerung wischt. Wenn wir etwas zu ergründen versuchen, was uns wie Nebel durch die Finger gleitet, wie soll man damit umgehen? Kann man das irgendwie extern aufzeichnen, um es im Nachhinein untersuchen zu können? Wie kann man Menschen von etwas überzeugen, was sie nicht nur ständig vergessen, sondern es nicht einmal als Teil ihres Selbst begreifen, selbst wenn man es ihnen vor Augen führt? Von all den Dingen die uns hindern, mehr darüber in Erfahrung zu bringen, ist es das Vergessen, welches uns die größte Barriere beschert.",
-        "function": "analyzes_memory_as_barrier",
+        "function": "problem_exposition",
         "confidence": 0.98
       },
       {
@@ -86,29 +83,29 @@
         "page": 93,
         "sequence": 4,
         "text": "Wie können wir die Sprachbarrieren überwinden?",
-        "function": "introduces_problem",
+        "function": "section_question",
         "confidence": 0.99
       },
       {
         "segment_id": "Page93_Segment5",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 93,
         "sequence": 5,
         "text": "Dazu stellt sich ja auch noch in den Weg, dass wir überhaupt keine wirkliche Möglichkeit haben, sicher zu gehen, dass wir über die gleichen Dinge reden. Wir mögen einen Sachverhalt genau so sehen wie unser Gegenüber, aber wir benutzen verschiedene Wörter dafür, die uns dann vorgaukeln, wir würden über verschiedene Dinge reden und dann reden wir im Kreis und am Ende aneinander vorbei, oder umgekehrt. Erschwerend kommt noch hinzu, dass wir für Vieles, was über unser tägliches Erfahren der Welt hinaus geht, überhaupt keine Worte haben und man kann nun mal nicht über etwas nachdenken und reden, für das man keine Namen hat. Ohne Kategorien und Label funktioniert unser Denk- und Kommunikationsapparat nicht.",
-        "function": "analyzes_language_limitations",
+        "function": "explains_language_barrier",
         "confidence": 0.98
       },
       {
         "segment_id": "Page93_Segment6",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 93,
         "sequence": 6,
         "text": "Das zwingt einen förmlich dazu, wieder eigene Definitionen und einen eigenen Sprachkodex zu entwickeln, um sich sinnvoll austauschen zu können. Zwangsläufig bildet sich dann wieder ein abgeschlossener Kosmos, den man einem Außenstehenden erst einmal erklären muss, damit er überhaupt Zugang dazu finden kann. Das ist so ziemlich das Gegenteil von dem, was man eigentlich bräuchte.",
-        "function": "describes_consequence_of_language_barriers",
+        "function": "describes_consequence",
         "confidence": 0.98
       }
     ],
-    "free_text": "Bewusstsein, Vergessen, Sprachbarrieren, philosophische Reflexion"
+    "free_text": "Vergessen, Sprachbarrieren, Bewusstsein, argumentative Buchseite"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

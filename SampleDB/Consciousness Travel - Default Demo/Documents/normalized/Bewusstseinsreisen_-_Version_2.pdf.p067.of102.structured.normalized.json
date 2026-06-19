@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:54:34Z",
+    "processed_at": "2026-06-02T19:05:39Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.96,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,15 +22,16 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Philosophical argument about dream logic versus waking consciousness, using shared observation to question subjective self-understanding. It contrasts science’s success in natural inquiry with the persistence of self-protective subjectivity and turns back to the broader question of what can be known about being.",
+    "document_title": null,
+    "description": "A philosophical passage contrasts dream-bound reasoning with waking consciousness, arguing that only what appears shared across observers can ground discussion. It links this criterion to science and criticizes the persistence of subjectivity in understanding the self. The text ends by reopening the question of whether philosophy or religion can adequately explain our being.",
     "tags": [
+      "consciousness",
       "dreams",
       "waking consciousness",
       "subjectivity",
       "science",
-      "philosophy",
-      "self-understanding"
+      "selfhood",
+      "philosophy"
     ],
     "people": [],
     "organizations": [],
@@ -41,15 +42,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "Raw category and subcategory mapped to the closest allowed book body content / theoretical discussion codes.",
-      "Document title inferred from source file name."
+      "Translated German prose summary into English.",
+      "Mapped raw literature/philosophical_prose to nonfiction philosophy / philosophy of consciousness."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -58,66 +59,58 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
         "language",
-        "page_number",
-        "topic_keywords"
+        "page_number"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
       "language": "de",
-      "page_number": 67,
-      "topic_keywords": [
-        "dream logic",
-        "waking consciousness",
-        "subjectivity",
-        "science",
-        "self-understanding",
-        "philosophy"
-      ]
+      "page_number": 67
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "Argument about dream logic, shared perception, and the limits of philosophy without waking consciousness."
+        "page_number": 67,
+        "text_content": "Book page 67 from Bewusstseinsreisen - Version 2.",
+        "paragraph_text": "Philosophical prose on dream rules, waking consciousness, science, and subjectivity."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "Shared observations are proposed as the only reliable basis for discussion in the dream world."
+        "paragraph_text": "Dream-based reasoning can produce a seemingly coherent discussion about the mystery of the universe, but waking consciousness reveals that such ideas do not establish awareness of waking consciousness itself. The passage argues that shared appearances among observers may be the only defensible basis for discussion and compares this criterion with scientific method. It criticizes the tendency to keep subjectivity as the foundation for understanding the self, suggesting this may hide self-contradiction and fear of exposure.",
+        "text_content": "Dream-based reasoning, waking consciousness, shared observation, science, and self-critique."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 2,
-        "paragraph_text": "Critique of subjective self-understanding, contrasting science's success with fear of exposing contradictions."
-      },
-      {
-        "_row_type": "paragraph_block",
-        "_row_index": 3,
-        "paragraph_text": "Return to the question of whether comparisons and speculation about inaccessible realms are justified."
+        "paragraph_text": "The text then returns to the question of whether comparison and speculation can reach matters that are only partially accessible, including whether philosophy or religion offers a better starting point for understanding being.",
+        "text_content": "Limits of philosophy and religion in explaining being."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Philosophical book page on dream rules, waking awareness, shared observation, science, and the critique of subjective self-understanding."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Book page in German philosophical prose on dream rules, waking consciousness, shared observation, science, subjectivity, and the limits of philosophy and religion."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.9,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

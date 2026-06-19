@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:57:18Z",
+    "processed_at": "2026-06-02T19:08:27Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "dreams_and_altered_states",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical discussion links large-scale human planning to dream interpretation and waking consciousness. It contrasts instinctive goal-seeking with complex projects such as EUV lithography and CERN's Large Hadron Collider, then asks where the boundary lies between what can be understood in dreams and what requires waking awareness.",
+    "description": "The author contrasts large-scale human planning in waking life with what can be understood in dreams, using examples such as EUV lithography and the CERN Large Hadron Collider. The passage asks where the boundary lies between what dreams can coherently grasp and what only waking consciousness can fully comprehend. It links dream motifs to waking motivations and proposes that recurring shadow patterns may reveal underlying drives.",
     "tags": [
       "dream philosophy",
       "waking consciousness",
       "motivation",
-      "human planning",
-      "hidden motives"
+      "planning",
+      "selfhood"
     ],
     "people": [],
     "organizations": [
@@ -42,14 +42,14 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "philosophical_prose"
     },
     "normalization_notes": [
-      "German prose page from a philosophical book; no explicit chapter heading visible."
+      "Translated German prose into English control-language summary."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,43 +57,61 @@
   "content": {
     "structure": {
       "type": "text",
-      "columns": [],
+      "columns": [
+        "page_number",
+        "paragraph_text",
+        "text_content"
+      ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 74,
-      "topic_keywords": [
-        "dream philosophy",
-        "waking consciousness",
-        "motivation",
-        "human planning",
-        "hidden motives"
-      ]
+      "language": "de"
     },
-    "rows": [],
-    "free_text": "book_page book_content theoretical_discussion Book page from Bewusstseinsreisen - Version 2, page 74, in German. Philosophical discussion of dream philosophy, waking consciousness, motivation, human planning, and hidden motives."
+    "rows": [
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 0,
+        "page_number": 74,
+        "paragraph_text": "Large-scale planning is compared with dream-level comprehension, illustrated by EUV lithography and the CERN Large Hadron Collider.",
+        "text_content": "Large-scale planning is compared with dream-level comprehension, illustrated by EUV lithography and the CERN Large Hadron Collider."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "page_number": 74,
+        "paragraph_text": "The text asks where the boundary lies between what dreams can follow coherently and what only waking consciousness can fully grasp.",
+        "text_content": "The text asks where the boundary lies between what dreams can follow coherently and what only waking consciousness can fully grasp."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "page_number": 74,
+        "paragraph_text": "It argues that dream images may reveal recurring shadow patterns of waking motivations and hidden drives.",
+        "text_content": "It argues that dream images may reveal recurring shadow patterns of waking motivations and hidden drives."
+      }
+    ],
+    "free_text": "book_page nonfiction_philosophy dreams_and_altered_states Dream philosophy and waking consciousness in a German philosophical prose page from Bewusstseinsreisen - Version 2. It compares human planning with dream comprehension, cites EUV lithography and CERN as examples of coordinated purpose, and explores how dream symbols may reflect waking motivations."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.96,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

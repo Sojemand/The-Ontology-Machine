@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:47:03.930470+00:00",
+    "processed_at": "2026-06-02T18:58:09.280956+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.97,
+    "category": "literary",
+    "subcategory": "nonfiction_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,12 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.86,
-      "reason": "A continuous prose book page with philosophical-reflective discussion is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The page is continuous prose from a book-like document.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "book page layout",
-        "philosophical-reflective writing"
+        "continuous prose",
+        "book page"
       ]
     },
     "date_range": {
@@ -43,10 +42,8 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "prose_page",
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -58,8 +55,8 @@
         "page": 49,
         "sequence": 1,
         "text": "Filme du wann gesehen hast. Das sind alles Dinge an die man sich halbwegs erinnern kann oder auch nicht. Sie haben alle eine verschwommene, „wattige“ Qualität. Dann gibt es jene, die sich wie eingebrannt festgesetzt haben. Sie haben eine sehr solide, sehr bunte und facettenreiche Qualität. Wenn man sich an sie erinnert, dann sieht man nichts, oder nur sehr wenig verschwommen. Du kannst deine Gefühle beschreiben, was du dachtest, wie deine Umgebung aussah und wie alles zusammenspielte. Von jenen Erinnerungen gibt es nur sehr wenige, was sie umso mehr herausstechen lässt. Ich bin mir sicher jeder, der ein wenig in seinem Geist forscht, wird eine Hand voll davon finden. Sie sind und bleiben lebendig, auch wenn sie sich bereits weit zurück in der Kindheit zugetragen haben. Selbst moderne Theorien können nicht wirklich erklären, warum und wodurch sie entstehen. Man nimmt an, dass sich besonders emotionsbelastete Umstände so festsetzen, wie etwa ein Trauma oder wenn man besonders aufgeregt ist, naja, was sich Psychologen halt so ausdenken wenn sie Langeweile haben. Allerdings wurde noch kein wirkliches Muster oder Mechanismus entdeckt, was uns eine schlüssige Begründung liefert. Diese Art Erinnerung ist weiterhin ein Mysterium für alle Beteiligten.",
-        "function": "examines_vivid_memory_and_its_unclear_causes",
-        "confidence": 0.98
+        "function": "examines_vivid_memory",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page49_Segment2",
@@ -67,8 +64,8 @@
         "page": 49,
         "sequence": 2,
         "text": "Und mit Sicherheit wird es auch Leser geben, die solche Erinnerungen haben, die weder mit einem Trauma, noch mit Aufregung oder sonst was in Verbindung zu stehen scheinen. In der Tat erscheinen sie zufällig, genau wie das Erlebnis sich selbst reden zu hören, das ähnlich starke Erinnerungen schafft, denn sonst könnte man sich ja nicht daran erinnern richtig? Diese Erinnerungen entstehen und können bewusst erschaffen werden durch eine Eigenschaft des Gewahrseins, wie sollte es auch anders sein. Der Mechanismus des zufälligen Entstehens solcher Erinnerungen ist so interessant, dass er eine eigene Erwähnung verdient.",
-        "function": "extends_argument_to_random_and_consciously_created_memories",
-        "confidence": 0.97
+        "function": "extends_argument_about_memory_formation",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page49_Segment3",
@@ -76,11 +73,11 @@
         "page": 49,
         "sequence": 3,
         "text": "Unsere Maschine mit all ihren Systemen ist sehr effizient. Sie hat für alles Schablonen und vorgefertigte Abläufe und je älter wir werden, desto mehr Schablonen und Automatismen werden angehäuft, ganz so wie der Wanderer im Dschungel fleißig sein Zauberbuch mit neuen Sprüchen und Ritualen füllt. Nicht umsonst erscheinen wir umso sturer je älter wir sind. Wenn die Maschine sich in einer Situation befindet, wofür sie bereits eine bewährte Schablone hat, wir diese einfach abgespielt und sie ist glücklich. Schablonen werden für alles erstellt. Für Arbeitsabläufe im Beruf, für Verhaltensabläufe in sozialen Situationen, für Fertigkeiten wie das Radfahren oder Laufen, für politische Weltanschauungen oder bevorzugte Philosophien, einfach für alles was eine Reaktion der Maschine auf Reize erfordert. Vorgefertigte Schablonen sind um so vieles effizienter als jedes mal alles neu zu berechnen. Und unsere Maschine ist so gut darin Schablonen zu schaffen, dass sie auch leicht andere für neue Situationen nahezu",
-        "function": "describes_habitual_pattern_formation_of_the_mind",
-        "confidence": 0.97
+        "function": "describes_habitual_patterning_of_mind",
+        "confidence": 0.95
       }
     ],
-    "free_text": "Erinnerungen, Gewahrsein, Schablonen der Maschine"
+    "free_text": "Erinnerung, Gewahrsein, mentale Schablonen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

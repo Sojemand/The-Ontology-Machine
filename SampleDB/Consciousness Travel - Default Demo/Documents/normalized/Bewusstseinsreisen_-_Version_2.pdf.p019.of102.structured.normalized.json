@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:35:09Z",
+    "processed_at": "2026-06-02T18:45:36Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.99,
-    "category": "book_content",
-    "subcategory": "chapter_section",
+    "category": "consciousness_and_mind",
+    "subcategory": "neuroscience_reflection",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Chapter 2 introduces pattern recognition as a central feature of consciousness and links it to neuroplasticity and habit formation. The author describes a long-term experiment that began with Christian symbolism and the number 666, which gradually trained attention toward recurring signals. The passage presents an autobiographical reflection on how repeated focus can reshape perception.",
+    "description": "Chapter 2 introduces pattern recognition as a core function of consciousness and explains neuroplasticity as the brain's adaptation to repeated signals. The author recounts a long-term experiment triggered by interest in Christian symbolism and the number 666, which led to conditioned pattern detection over many years.",
     "tags": [
       "pattern recognition",
+      "consciousness",
       "neuroplasticity",
-      "habit formation",
-      "symbolism",
-      "666",
-      "autobiographical reflection"
+      "Christian symbolism",
+      "666"
     ],
     "people": [],
     "organizations": [],
@@ -41,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
       "Translated German headings and prose into English control-language values.",
-      "Promoted chapter and section titles from visible headings."
+      "Mapped raw book/nonfiction classification to consciousness and mind content with a neuroscience reflection focus."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -58,59 +57,85 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
+        "chapter_heading",
+        "chapter_number",
+        "chapter_title",
         "language",
         "page_number",
-        "chapter_title",
-        "section_title",
-        "topic_keywords"
+        "section_heading"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
+      "chapter_heading": "Chapter 2 - Know Your Machine",
+      "chapter_number": "2",
+      "chapter_title": "Know Your Machine",
       "language": "de",
       "page_number": 19,
-      "chapter_title": "Chapter 2 – Know Your Machine",
-      "section_title": "The wonderful world of the invisible supercomputer: pattern recognition",
-      "topic_keywords": [
-        "pattern recognition",
-        "neuroplasticity",
-        "habit formation",
-        "Christian symbolism",
-        "666"
-      ]
+      "section_heading": "The Wonderful World of the Invisible Supercomputer: Pattern Recognition"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "chapter_heading",
         "_row_index": 0,
-        "paragraph_text": "Chapter 2 opens with a discussion of pattern recognition as a basic strength of the mind. The author recounts a long experiment shaped by Christian symbolism and the number 666, then explains how repeated attention can reinforce neural pathways and habits."
+        "heading_text": "Chapter 2 - Know Your Machine",
+        "page_number": 19,
+        "text_content": "The Wonderful World of the Invisible Supercomputer: Pattern Recognition"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "The Wonderful World of the Invisible Supercomputer: Pattern Recognition",
+        "text_content": "The Wonderful World of the Invisible Supercomputer: Pattern Recognition"
       },
       {
         "_row_type": "paragraph_block",
-        "_row_index": 1,
-        "paragraph_text": "The passage argues that focusing on a signal over time can make the brain assign it persistent importance even after the stimulus is gone. The visible example is a personal account of how 666 seemed to appear more often after deliberate attention to it."
+        "_row_index": 2,
+        "paragraph_text": "Pattern recognition is presented as a fundamental capacity of consciousness, illustrated by a long-term personal experiment that unfolded over about 15 years.",
+        "text_content": "I think nothing demonstrates the superior functionality of our invisible world better than our ability to recognize patterns anywhere and at any time. Several years ago I began an experiment, although I did not realize at the time that it would become one when I laid the foundation for it. The following events took place over a period of more than 15 years, and sometimes years passed between milestones before I became fully aware of the subtle changes."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "The experiment began with an interest in Christian symbolism and occult corners of the internet, where the number 666 became a recurring trigger for constructed associations and heightened attention.",
+        "text_content": "Everything began when my interest turned toward Christian symbolism and I inevitably ended up in occult corners of the internet. There I encountered, unsurprisingly, the number 666. I was fascinated by how many connections could be constructed from it and how far some people were willing to go. What a simple number can stir up. What I did not know then was that I had set in motion a process that would show me one of the most astonishing tricks of our consciousness."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "Neuroplasticity is used to explain how repeated signals reshape neural pathways and turn attention into habit, even after the original stimulus is gone.",
+        "text_content": "You must know, neuroplasticity is a fine thing. Our brain likes to adapt to new priorities, changing old neural pathways and creating new ones in order to better meet changed priorities. It takes time; such things do not happen overnight, but if the brain is exposed to a continuous stream of the same signal, our gray matter eventually adapts so well that it still assigns high priority to the signal even when the stimulus has long since disappeared. In short, this is how habits develop, good and bad."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "The author reports conditioning the brain to weight the number 666, causing it to seem increasingly present in the surrounding world.",
+        "text_content": "What I did back then was signal to my brain to give the number 666 a certain weight. I obviously did this long enough to create a neural pathway that activated whenever I saw the number 666 in my environment. It was somewhat eerie to experience how, little by little, this number seemed to appear more and more often in my world, at least at first. Over the years it became"
       }
     ],
-    "free_text": "book_page book_content chapter_section Chapter 2: pattern recognition, neuroplasticity, habit formation, Christian symbolism, 666, autobiographical reflection."
+    "free_text": "book_page consciousness_and_mind neuroscience_reflection Chapter 2 know your machine. Pattern recognition, consciousness, neuroplasticity, and the number 666 are discussed through a long-term personal experiment."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.97,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=12; confidence=0.97 => confidence_bonus=3; verified_hint_signals=1/3 [kapitel 2]; adjusted_hint_score=16; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-16."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

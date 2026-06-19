@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:29:11Z",
+    "processed_at": "2026-06-02T18:39:38Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_front_matter",
-    "subcategory": "preface_or_introduction",
+    "document_type_confidence": 0.96,
+    "category": "nonfiction_philosophy",
+    "subcategory": "consciousness_essay",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,13 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "Introductory philosophical prose sets up the book's purpose: to raise the reader's central question and address doubts about the strange phenomena discussed. It ends with a transition into the main text and a closing wish for enjoyment.",
+    "document_title": null,
+    "description": "Opening philosophical reflection that frames the book’s purpose as leading the reader toward a simple but elusive question about what keeps us from acting. The author says the book will focus on raising that question and on dispelling doubt that the described unusual things are possible.",
     "tags": [
-      "philosophy",
       "introduction",
-      "reader reflection",
-      "book opening"
+      "reflection",
+      "consciousness",
+      "questioning",
+      "transition"
     ],
     "people": [],
     "organizations": [],
@@ -39,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_book_page"
+      "category": "literature",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "German source text translated into English control-language values.",
-      "Book title inferred from file name."
+      "Source is a German book page with reflective introductory prose.",
+      "No chapter heading or title is visible in the provided text."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -56,49 +57,46 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 5,
-      "topic_keywords": [
-        "reflection",
-        "purpose",
-        "doubt",
-        "beginning"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The text reflects on what stands before us and frames the book's purpose as prompting the reader to confront a central question. It states that doubts about the strange phenomena mentioned will be dispelled, then turns toward the beginning of the work."
+        "page_number": 5,
+        "text_content": "Introductory reflection; transition into the main content.",
+        "paragraph_text": "The book begins by posing a question about what keeps us from simply doing what lies before us. It states that the book will mainly focus on making that question arise in the reader, while arguing that the strange things discussed here are indeed possible."
       }
     ],
-    "free_text": "book_page book_front_matter preface_or_introduction Book introduction on reflection, purpose, doubt, and the transition into the main text."
+    "free_text": "book_page nonfiction_philosophy consciousness_essay German book page 5. Introductory reflective prose about consciousness, possibility, and the question of what prevents action."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.9,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

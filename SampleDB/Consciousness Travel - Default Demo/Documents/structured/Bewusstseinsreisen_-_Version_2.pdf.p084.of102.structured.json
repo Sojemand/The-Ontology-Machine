@@ -2,48 +2,48 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:01:09.616904+00:00",
+    "processed_at": "2026-06-02T19:12:11.974907+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "document_type_confidence": 0.97,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 84,
-    "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A born-digital nonfiction book page with continuous philosophical prose paragraphs is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.91,
+      "reason": "The page is a continuous prose page from a book-like publication.",
       "matched_signals": [
+        "continuous prose",
         "book page",
-        "continuous prose paragraphs",
-        "philosophical writing"
+        "publication layout"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 84,
+    "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=084-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [],
       "form_fields": []
     },
@@ -56,7 +56,7 @@
         "page": 84,
         "sequence": 1,
         "text": "Dieser Weg, will man ihn denn beschreiten, ist ein langfristiger und recht mühsamer Prozess, besonders wenn die eigene Symbolik alles andere als kompatibel zur Zielsymbolik ist. Dank der Magie unseres eigenen Dranges nach innerer Widerspruchsfreiheit, wird man merken, wie sich der Glaube an eine flache Erde irgendwann nicht mehr so verrückt anfühlt und man sogar beginnt, Verständnis zu entwickeln. Wenn man dies bewusst tut, wird man irgendwann bemerken, wie man plötzlich ein neues Wollen in sich geschaffen hat, welches vorher nicht da war. Wenn man diesen Weg bewusst geht, verändert man sich nicht unbewusst zu einem Flacherdler und beginnt den Globus anzuzweifeln, sondern man erkennt, zu was man werden muss, um ein solcher sein zu wollen. Man sieht, dass man wollen könnte, was man wollen müsste, wenn man wollte. Damit hat man sich das symbolische Wesen zu eigen gemacht, es sich zugänglich und verständlich gemacht und dann erkennt man auch, wie sinnlos es ist, Zeit mit den Versuchen zu verschwenden, auf die Widersprüche der Argumente hinzuweisen und so einen Flacherdler „bekehren“ zu wollen, denn dort gibt es nichts, was sich bekehren ließe.",
-        "function": "explains_symbolic_identification",
+        "function": "explains_adoption_of_a_symbolic_worldview",
         "confidence": 0.97
       },
       {
@@ -75,7 +75,7 @@
         "sequence": 3,
         "text": "Ein lustiger Nebeneffekt ist dabei, dass man, während man auf dem Weg von einer Symbolik zur nächsten ist, eine merkwürdige Art der Schizophrenie erleben kann. Irgendwann ist man zum Beispiel kein richtiger Atheist mehr, aber auch noch kein wirklich religiöser Mensch. Unser Sein kann Unsicherheit, wenn es um sein eigenes Fundament geht, nicht ertragen und so findet man sich dabei zwischen zwei Stühlen sitzend wider an einem Ort, an dem man nicht verharren kann. Vielleicht entdeckt man unterwegs Symboliken, die einem auf einmal viel näher stehen als jene, die man verlassen hat und zu der man reisen wollte.",
         "function": "describes_transitional_instability",
-        "confidence": 0.95
+        "confidence": 0.96
       },
       {
         "segment_id": "Page84_Segment4",
@@ -83,11 +83,11 @@
         "page": 84,
         "sequence": 4,
         "text": "Vielleicht beginnt man auf einmal Worte wie „Agnostiker“ zu verwenden und man findet sich unversehens als Fan von Henry Huxley wieder. Dann ist die Gefahr groß zu vergessen, wo",
-        "function": "introduces_example_and_carries_forward",
-        "confidence": 0.9
+        "function": "introduces_risk_of_losing_direction",
+        "confidence": 0.93
       }
     ],
-    "free_text": "Philosophischer Fließtext über Symbolik, Weltbilder, Atheismus, Religiosität, Agnostiker"
+    "free_text": "Symbolik, Weltbilder, Flacherdler, Atheist, religiös, Agnostiker"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

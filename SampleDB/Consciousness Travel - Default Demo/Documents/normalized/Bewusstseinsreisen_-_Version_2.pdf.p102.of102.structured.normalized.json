@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.98,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:10:12Z",
+    "processed_at": "2026-06-02T19:22:22Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.92,
-    "category": "book_back_matter",
-    "subcategory": "reference_section",
+    "document_type_confidence": 0.95,
+    "category": "chapter_text",
+    "subcategory": "other",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,72 +22,26 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": null,
-    "description": "Reference section titled \"Quellen\" listing the works and authors cited for the book. The entries include psychology, consciousness, philosophy, religion, anthropology, UFOs, nutrition, and critical theory sources, followed by a few general mentions of broader philosophical, popular-science, and academic reading.",
+    "document_title": "Bewusstseinsreisen - Version 2",
+    "description": "Sources section listing books and papers cited for a work about consciousness, perception, psychology, mythology, spirituality, and related critique of science and power. The references include Daniel Kahneman, G.I. Gurdjieff, Mircea Eliade, Joseph Campbell, Stephen Porges, and other authors across psychology, philosophy, esotericism, and political analysis.",
     "tags": [
       "sources",
       "references",
       "bibliography",
-      "psychology",
       "consciousness",
+      "psychology",
       "philosophy",
-      "spirituality",
-      "anthropology",
-      "nutrition"
+      "mythology",
+      "esotericism"
     ],
     "people": [
-      "Timothy D. Wilson",
       "Daniel Kahneman",
-      "David McRaney",
-      "Martha Stout",
-      "Hervey Cleckley",
-      "Andrzej Lobaczewski",
-      "Bob Altemeyer",
-      "Aleta Edwards",
-      "Alice Miller",
-      "Gustave Le Bon",
-      "Laura Knight-Jadczyk",
-      "P.D. Ouspensky",
-      "Boris Mouravieff",
       "G.I. Gurdjieff",
-      "Fulcanelli",
-      "Marc Bloch",
-      "Thomas L. Thompson",
-      "John Keel",
       "Mircea Eliade",
-      "Manly Hall",
-      "Barbara Marciniack",
-      "Carla Rueckert",
-      "Don Elkins",
-      "Jim McCarty",
-      "Rupert Sheldrake",
       "Joseph Campbell",
-      "Alexander Solschenizyn",
-      "Adolf Hitler",
-      "Stephen W. Porges",
-      "Jaak Panksepp",
-      "Lucy Biven",
-      "Warren Farrell",
-      "Andreas Bunkahle",
-      "Umberto Eco",
-      "Morri Jessup",
-      "Robert Monroe",
-      "Nora T. Gedgaudas",
-      "Christian B. Allan",
-      "Wolfgang Lutz",
-      "Catherine Shanahan",
-      "Luke Shanahan",
-      "Mark Hyman",
-      "Stephanie Donaldson-Pressman",
-      "Robert M. Pressman",
-      "Elan Golomb",
-      "Carlos Castaneda",
-      "Erich von Däniken",
-      "Karla Turner",
-      "David Icke",
-      "Stephen Hawking",
-      "Richard Dawkins",
-      "Brian Greene"
+      "Stephen Porges",
+      "Rupert Sheldrake",
+      "Martha Stout"
     ],
     "organizations": [],
     "locations": [],
@@ -97,15 +51,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
       "subcategory": "sources_page"
     },
     "normalization_notes": [
-      "German section heading translated as \"Sources\".",
-      "Source entries normalized as a reference list for the book's back matter."
+      "Translated section title Quellen as Sources.",
+      "Classified as a bibliography-style book page within chapter text."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -114,56 +68,373 @@
     "structure": {
       "type": "list",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
-        "language",
+        "section_heading",
         "page_number",
-        "section_title",
-        "topic_keywords",
-        "work_title"
+        "work_title",
+        "language"
       ]
     },
     "fields": {
-      "language": "de",
+      "section_heading": "Sources",
       "page_number": 102,
-      "section_title": "Sources",
-      "topic_keywords": [
-        "sources",
-        "references",
-        "bibliography",
-        "psychology",
-        "consciousness",
-        "philosophy",
-        "spirituality",
-        "anthropology",
-        "nutrition"
-      ],
-      "work_title": "Bewusstseinsreisen - Version 2"
+      "work_title": "Bewusstseinsreisen - Version 2",
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "table_of_contents_entry",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "Sources list for the book, covering psychology, consciousness, philosophy, religion, anthropology, UFO studies, nutrition, and related academic and popular-science reading."
+        "heading_text": "Sources",
+        "page_number": 102,
+        "text_content": "Sources"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Strangers to Ourselves: Discovering the Adaptive Unconscious — Timothy D. Wilson",
+        "text_content": "Strangers to Ourselves: Discovering the Adaptive Unconscious — Timothy D. Wilson"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Thinking, Fast and Slow — Daniel Kahneman",
+        "text_content": "Thinking, Fast and Slow — Daniel Kahneman"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "You Are Not So Smart — David McRaney",
+        "text_content": "You Are Not So Smart — David McRaney"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The Sociopath Next Door — Martha Stout",
+        "text_content": "The Sociopath Next Door — Martha Stout"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "The Mask of Sanity — Hervey Cleckley",
+        "text_content": "The Mask of Sanity — Hervey Cleckley"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 6,
+        "paragraph_text": "Political Ponerology — Andrzej Lobaczewski",
+        "text_content": "Political Ponerology — Andrzej Lobaczewski"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 7,
+        "paragraph_text": "The Authoritarians — Bob Altemeyer",
+        "text_content": "The Authoritarians — Bob Altemeyer"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 8,
+        "paragraph_text": "Propaganda as an instrument of power — Alexandra Bleyer",
+        "text_content": "Propaganda as an instrument of power — Alexandra Bleyer"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 9,
+        "paragraph_text": "Fear of the Abyss: Healing the Wounds of Shame & Perfectionism — Aleta Edwards",
+        "text_content": "Fear of the Abyss: Healing the Wounds of Shame & Perfectionism — Aleta Edwards"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 10,
+        "paragraph_text": "The Caricature of Love — Hervey Cleckley",
+        "text_content": "The Caricature of Love — Hervey Cleckley"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 11,
+        "paragraph_text": "The Drama of the Gifted Child: The Search for the True Self — Alice Miller",
+        "text_content": "The Drama of the Gifted Child: The Search for the True Self — Alice Miller"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 12,
+        "paragraph_text": "The Crowd: A Study of the Popular Mind — Gustave Le Bon",
+        "text_content": "The Crowd: A Study of the Popular Mind — Gustave Le Bon"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 13,
+        "paragraph_text": "The Wave series — Laura Knight-Jadczyk",
+        "text_content": "The Wave series — Laura Knight-Jadczyk"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 14,
+        "paragraph_text": "In Search of the Miraculous: Fragments of an Unknown Teaching — P.D. Ouspensky",
+        "text_content": "In Search of the Miraculous: Fragments of an Unknown Teaching — P.D. Ouspensky"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 15,
+        "paragraph_text": "Gnosis — Boris Mouravieff",
+        "text_content": "Gnosis — Boris Mouravieff"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 16,
+        "paragraph_text": "Meetings with Remarkable Men — G.I. Gurdjieff",
+        "text_content": "Meetings with Remarkable Men — G.I. Gurdjieff"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 17,
+        "paragraph_text": "Life is Real Only Then, when \"I am\" — G.I. Gurdjieff",
+        "text_content": "Life is Real Only Then, when \"I am\" — G.I. Gurdjieff"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 18,
+        "paragraph_text": "The Fourth Way — P.D. Ouspensky",
+        "text_content": "The Fourth Way — P.D. Ouspensky"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 19,
+        "paragraph_text": "Tertium Organum — P.D. Ouspensky",
+        "text_content": "Tertium Organum — P.D. Ouspensky"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 20,
+        "paragraph_text": "The Mystery of the Cathedrals — Fulcanelli",
+        "text_content": "The Mystery of the Cathedrals — Fulcanelli"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 21,
+        "paragraph_text": "The Dwellings of the Philosophers — Fulcanelli",
+        "text_content": "The Dwellings of the Philosophers — Fulcanelli"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 22,
+        "paragraph_text": "The Historian's Craft — Marc Bloch",
+        "text_content": "The Historian's Craft — Marc Bloch"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 23,
+        "paragraph_text": "The Mythic Past — Thomas L. Thompson",
+        "text_content": "The Mythic Past — Thomas L. Thompson"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 24,
+        "paragraph_text": "Operation Trojan Horse — John Keel",
+        "text_content": "Operation Trojan Horse — John Keel"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 25,
+        "paragraph_text": "Shamanism — Mircea Eliade",
+        "text_content": "Shamanism — Mircea Eliade"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 26,
+        "paragraph_text": "The Sacred and the Profane — Mircea Eliade",
+        "text_content": "The Sacred and the Profane — Mircea Eliade"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 27,
+        "paragraph_text": "The Secret Teachings of All Ages — Manly Hall",
+        "text_content": "The Secret Teachings of All Ages — Manly Hall"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 28,
+        "paragraph_text": "Bringers of the Dawn — Barbara Marciniack",
+        "text_content": "Bringers of the Dawn — Barbara Marciniack"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 29,
+        "paragraph_text": "The Ra Material — Carla Rueckert, Don Elkins, and Jim McCarty",
+        "text_content": "The Ra Material — Carla Rueckert, Don Elkins, and Jim McCarty"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 30,
+        "paragraph_text": "The Science Delusion / Science Set Free — Rupert Sheldrake",
+        "text_content": "The Science Delusion / Science Set Free — Rupert Sheldrake"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 31,
+        "paragraph_text": "The Hero With a Thousand Faces — Joseph Campbell",
+        "text_content": "The Hero With a Thousand Faces — Joseph Campbell"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 32,
+        "paragraph_text": "The Gulag Archipelago — Alexander Solzhenitsyn",
+        "text_content": "The Gulag Archipelago — Alexander Solzhenitsyn"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 33,
+        "paragraph_text": "Mein Kampf — Adolf Hitler",
+        "text_content": "Mein Kampf — Adolf Hitler"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 34,
+        "paragraph_text": "The Polyvagal Theory — Stephen W. Porges",
+        "text_content": "The Polyvagal Theory — Stephen W. Porges"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 35,
+        "paragraph_text": "The Archaeology of Mind — Jaak Panksepp, Lucy Biven",
+        "text_content": "The Archaeology of Mind — Jaak Panksepp, Lucy Biven"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 36,
+        "paragraph_text": "The Myth of Male Power — Warren Farrell",
+        "text_content": "The Myth of Male Power — Warren Farrell"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 37,
+        "paragraph_text": "The Archetypes of Tarot — Andreas Bunkahle",
+        "text_content": "The Archetypes of Tarot — Andreas Bunkahle"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 38,
+        "paragraph_text": "Foucault's Pendulum — Umberto Eco",
+        "text_content": "Foucault's Pendulum — Umberto Eco"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 39,
+        "paragraph_text": "Case for the UFO — Morris Jessup",
+        "text_content": "Case for the UFO — Morris Jessup"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 40,
+        "paragraph_text": "Journeys Out of the Body — Robert Monroe",
+        "text_content": "Journeys Out of the Body — Robert Monroe"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 41,
+        "paragraph_text": "Primal Body, Primal Mind — Nora T. Gedgaudas",
+        "text_content": "Primal Body, Primal Mind — Nora T. Gedgaudas"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 42,
+        "paragraph_text": "Life Without Bread — Christian B. Allan & Wolfgang Lutz",
+        "text_content": "Life Without Bread — Christian B. Allan & Wolfgang Lutz"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 43,
+        "paragraph_text": "Deep Nutrition: Why Your Genes Need Traditional Food — Catherine Shanahan & Luke Shanahan",
+        "text_content": "Deep Nutrition: Why Your Genes Need Traditional Food — Catherine Shanahan & Luke Shanahan"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 44,
+        "paragraph_text": "The UltraMind Solution — Mark Hyman",
+        "text_content": "The UltraMind Solution — Mark Hyman"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 45,
+        "paragraph_text": "The Myth of Sanity: Divided Consciousness and the Promise of Awareness — Martha Stout",
+        "text_content": "The Myth of Sanity: Divided Consciousness and the Promise of Awareness — Martha Stout"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 46,
+        "paragraph_text": "The Narcissistic Family — Stephanie Donaldson-Pressman and Robert M. Pressman",
+        "text_content": "The Narcissistic Family — Stephanie Donaldson-Pressman and Robert M. Pressman"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 47,
+        "paragraph_text": "Trapped in the Mirror: Adult Children of Narcissists in their Struggle for Self — Elan Golomb",
+        "text_content": "Trapped in the Mirror: Adult Children of Narcissists in their Struggle for Self — Elan Golomb"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 48,
+        "paragraph_text": "All works by Carlos Castaneda",
+        "text_content": "All works by Carlos Castaneda"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 49,
+        "paragraph_text": "All works by Erich von Däniken",
+        "text_content": "All works by Erich von Däniken"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 50,
+        "paragraph_text": "All works by Karla Turner",
+        "text_content": "All works by Karla Turner"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 51,
+        "paragraph_text": "A little David Icke",
+        "text_content": "A little David Icke"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 52,
+        "paragraph_text": "Philosophies from Aristotle to Nietzsche, here and there.",
+        "text_content": "Philosophies from Aristotle to Nietzsche, here and there."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 53,
+        "paragraph_text": "Popular science books by Stephen Hawking, Richard Dawkins, Brian Greene, etc.",
+        "text_content": "Popular science books by Stephen Hawking, Richard Dawkins, Brian Greene, etc."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 54,
+        "paragraph_text": "Scientific papers on every topic that interested me",
+        "text_content": "Scientific papers on every topic that interested me"
       }
     ],
-    "free_text": "book_page book_back_matter reference_section Sources section from Bewusstseinsreisen - Version 2, page 102. Reference list of books and authors spanning psychology, consciousness, philosophy, religion, anthropology, UFO studies, nutrition, and academic reading."
+    "free_text": "book_page chapter_text other Sources section listing books and papers cited for a work about consciousness, perception, psychology, mythology, spirituality, and related critique of science and power."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.88,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=11; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=14; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-14."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.9,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.90 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

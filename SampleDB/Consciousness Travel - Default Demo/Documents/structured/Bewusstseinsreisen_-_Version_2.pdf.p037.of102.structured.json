@@ -2,38 +2,38 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.94,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:42:13.439395+00:00",
+    "processed_at": "2026-06-02T18:52:55.746994+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.91,
+    "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "nonfiction_philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.95,
+      "reason": "The visible page is a continuous prose page from a book-like document.",
+      "matched_signals": [
+        "continuous prose",
+        "book page",
+        "long-form narrative text"
+      ]
+    },
     "page_number": 37,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=037-of-102",
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.83,
-      "reason": "A born-digital German nonfiction book page with continuous philosophical/reflective prose is visible.",
-      "matched_signals": [
-        "book page",
-        "continuous prose paragraphs",
-        "philosophical writing"
-      ]
-    },
     "date_range": {
       "from": null,
       "to": null
@@ -57,7 +57,7 @@
         "sequence": 1,
         "text": "und Motivationen.",
         "function": "carryover_fragment",
-        "confidence": 0.76
+        "confidence": 0.88
       },
       {
         "segment_id": "Page37_Segment2",
@@ -75,7 +75,7 @@
         "sequence": 3,
         "text": "Was denkt ihr, wenn ihr dieser junge Mann wärt und ihr würdet all das sehen was er sieht, wie würdet ihr entscheiden? Weitergehen oder den Versuch wagen?",
         "function": "reader_reflection_prompt",
-        "confidence": 0.98
+        "confidence": 0.99
       },
       {
         "segment_id": "Page37_Segment4",
@@ -93,10 +93,10 @@
         "sequence": 5,
         "text": "Zugang zu solcherart Informationen zu haben, ist aus der Sicht des Riesen nutzlos, nicht aber für den Zwerg. Der Zwerg, also ihr, könnt mit diesen Informationen etwas anstellen. Nicht viel, zumindest jetzt noch nicht, aber ihr könntet sie nutzen um euch in der beschriebenen hypothetischen Situation eine neue Handlungsoption zu schaffen, die es vorher für euch nicht gab. Ihr könnt nämlich, dank eures Gewahrseins über die Details der Erscheinung der Frau und was sie alles an sich verändert hat um so zu erscheinen wie sie euch erscheint, diese Dinge im Geiste zum Beispiel rückgängig machen. Ihr könntet alle Signale, die sie durch ihre Erscheinung ausstrahlt, also Makeup, Kleidung, Körperhaltung, subtrahieren und so ein Bild von ihr im Geiste erschaffen, wie sie ohne „Upgrades“ euch erscheinen würde, also so wie sie wirklich ist. Damit reduziert ihr auch eure eigenen instinktiven Reaktionen auf die übersteigert zur Schau gestellten Signale. Damit könnt ihr dann die Erscheinung vor euren Augen mit der Erscheinung vor eurem geistigen Auge vergleichen. Vielleicht fällt euch dabei auf, dass die „zurechtgestutzte“ Version für euch deutlich weniger attraktiv erscheint und sich damit auch eure Einschätzung darüber ändert, ob die Investition den zu erwartenden Mehrwert für euch noch immer rechtfertigt. Vielleicht verschiebt sich dadurch die Gewichtung so sehr, dass ihr auf einmal entscheidet weiterzugehen. Vielleicht aber auch nicht, wer kann das schon sagen.",
         "function": "hypothetical_reasoning",
-        "confidence": 0.98
+        "confidence": 0.99
       }
     ],
-    "free_text": "Philosophische Buchseite über Wahrnehmung, Information, freien Willen und Handlungsoptionen"
+    "free_text": "Essayhafte Buchseite über Wahrnehmung, freie Entscheidung, Riese/Zwerg-Metapher"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

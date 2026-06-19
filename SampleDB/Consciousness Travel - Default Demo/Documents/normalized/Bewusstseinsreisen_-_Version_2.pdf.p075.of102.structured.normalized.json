@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:57:42Z",
+    "processed_at": "2026-06-02T19:08:48Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,14 +22,14 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical book page argues that recurring dream motifs may be explained by shared laws of waking consciousness rather than an unconscious dream mechanism or archetypal field. It compares dream patterns such as adventure, changing settings, and surprise with the way physical laws shape repeated outcomes, then ends with an open question about where the boundary between dream and waking understanding lies.",
+    "document_title": null,
+    "description": "The text argues that recurring dream motifs and archetypes are better understood as shadows of lawful waking consciousness than as hidden dream-specific forces. It contrasts the dream world with the waking world through patterns, rules, and decision-making, then ends by posing an open research question about where consciousness limits are located.",
     "tags": [
       "dreams",
       "archetypes",
       "waking consciousness",
-      "laws",
-      "philosophy"
+      "lawfulness",
+      "philosophy of mind"
     ],
     "people": [],
     "organizations": [],
@@ -40,67 +40,83 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "German prose translated into English control-language summary."
+      "German reflective prose on dreams, archetypes, and waking consciousness."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "mixed",
       "columns": [
-        "paragraph_text"
+        "page_number",
+        "text_content",
+        "paragraph_text",
+        "heading_text"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 75,
-      "topic_keywords": [
-        "dreams",
-        "archetypes",
-        "waking consciousness",
-        "laws",
-        "observation",
-        "comparison"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The text compares recurring dream motifs across dreamers and argues that they reflect shared structures of waking consciousness rather than an unconscious dream mechanism. It questions archetype-based explanations, uses aerodynamics as an analogy for laws that shape repeated outcomes, and asks where the boundary lies between dream understanding and waking understanding."
+        "page_number": 75,
+        "text_content": "Book page 75 of 102 from Bewusstseinsreisen - Version 2.pdf."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The author compares recurring dream elements across dreamers and suggests an unconscious mechanism only appears necessary if one misunderstands waking consciousness.",
+        "text_content": "Recurring dream motifs and archetypes",
+        "heading_text": "Recurring dream motifs and archetypes"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Archetypes are presented as shared structures shaped by the lawful actions, plans, and rules of waking awareness rather than by hidden dream genes or mysterious fields.",
+        "text_content": "Archetypes as shadows of waking consciousness",
+        "heading_text": "Archetypes as shadows of waking consciousness"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 3,
+        "paragraph_text": "The passage compares the gap between dream understanding and waking understanding to aerodynamic laws understood by an external observer, then asks where the limits of consciousness lie.",
+        "text_content": "Open question about the limits of consciousness",
+        "heading_text": "Open question about the limits of consciousness"
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on dreams, archetypes, and the laws of waking consciousness. The argument favors shared lawful structures over a hidden collective dream mechanism and ends with an open inquiry about the limits of dream understanding."
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Dream motifs, archetypes, waking consciousness, lawful patterns, consciousness limits"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.91,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

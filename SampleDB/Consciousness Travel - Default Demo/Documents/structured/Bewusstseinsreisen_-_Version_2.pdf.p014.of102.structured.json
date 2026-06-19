@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:33:01.602403+00:00",
+    "processed_at": "2026-06-02T18:43:18.402568+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "literature",
+    "subcategory": "essay_or_philosophical_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,36 +22,32 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.95,
-      "reason": "A philosophical book page is visible with continuous prose and a section heading.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.9,
+      "reason": "The visible page is a prose book page with a section heading and continuous paragraphs.",
       "matched_signals": [
-        "continuous prose",
+        "book page",
         "section heading",
-        "philosophical writing"
+        "continuous prose paragraphs"
       ]
-    },
-    "date_range": {
-      "from": null,
-      "to": null
     },
     "page_number": 14,
     "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=014-of-102",
+    "date_range": {
+      "from": null,
+      "to": null
+    },
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
-      "columns": [
-        "main_text"
-      ],
+      "type": "single_column_text",
+      "columns": [],
       "form_fields": []
     },
-    "fields": {
-      "section_title": "Das Problem der Selbstdefinition"
-    },
+    "fields": {},
     "rows": [],
     "segments": [
       {
@@ -59,69 +55,57 @@
         "unit_kind": "narrative_paragraph",
         "page": 14,
         "sequence": 1,
-        "section": null,
-        "label": null,
         "text": "eigenen Geistes haben kann. Deine Gedanken und Handlungen werden zu einem überwältigenden Anteil durch Mechanismen bestimmt, die sich außerhalb deiner Selbstwahrnehmung aufhalten, sich in den dunklen Tiefen deines Selbst verbergen und die für dein Bewusstsein in der Nicht-Existenz leben, unbewusst sind. Diese Gedanken und Handlungen werden dann zur Grundlage deines bewussten Selbstbildes, welches dann wiederum auf die dunklen Mechanismen wirkt, die die Selbstwahrnehmung beeinflussen. Ein wahrer Teufelskreis dem du nicht entkommen kannst. Das ist der Kreislauf der dich antreibt, stets Widerspruchsfrei zu bleiben um ihn am Leben zu halten. Ein Perpetuum Mobile des Geistes, welches eines der stärksten Antriebe gebiert, die unsere Zivilisation erschafft und definiert: Eigeninteresse.",
-        "function": "argument_about_unconscious_self_dynamics",
-        "confidence": 0.97
+        "function": "psychological_exposition",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page14_Segment2",
         "unit_kind": "narrative_paragraph",
         "page": 14,
         "sequence": 2,
-        "section": null,
-        "label": null,
         "text": "Diese dunkle Tiefe ist es, die auch der Wanderer aus der Geschichte in sich trägt und die ihn hin und her treibt, vom Zweifel in die Verdrängung, vom Terror in das Vergessen, von einer Welt in die andere. Es ist machtlos, nur eine Marionette seines innersten Wesens und des Stockes, der in immer wieder zu Fall bringt.",
-        "function": "application_to_wanderer_figure",
-        "confidence": 0.92
+        "function": "character_interpretation",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page14_Segment3",
         "unit_kind": "title_line",
         "page": 14,
         "sequence": 3,
-        "section": null,
-        "label": null,
         "text": "Das Problem der Selbstdefinition",
         "function": "section_heading",
         "confidence": 0.99
       },
       {
         "segment_id": "Page14_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 14,
         "sequence": 4,
-        "section": "Das Problem der Selbstdefinition",
-        "label": null,
         "text": "Dieses innerste Wesen, welches vor uns verborgen liegt faszinierte schon viele Gelehrte, von Plato bis Jung, von den alten Göttersagen bis zu den Neurowissenschaften. Auch die moderne Psychologie doktert daran herum im Glauben, sie wisse genug um den Leidenden von den Schmerzen seiner Widersprüche dauerhaft kurieren zu können. Doch ist sie nur ein riesiger dampfender Haufen Gehirndurchfall, erdacht von sich langweilenden Geistern die auf Niederspannung laufend darum bemüht sind, ihre eigene Existenz zu rechtfertigen.",
-        "function": "critique_of_psychology",
-        "confidence": 0.97
+        "function": "critical_argument",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page14_Segment5",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 14,
         "sequence": 5,
-        "section": "Das Problem der Selbstdefinition",
-        "label": null,
         "text": "Da, ich habe es gesagt und ich nehme kein einziges Wort davon zurück. Versteht mich nicht falsch, denn die Psychologie ist sehr gut darin, der gequälten Seele Balsam zu verschaffen, den Schmerz zu lindern, der uns stetig verfolgt. Sie ist wie Morpheus und Asklepios, der Gott des Traumes und jener der Heilkunst, die geschäftig auf der goldenen Straße ihrem Handwerk nachgehen, stets bemüht, des Wanderers brennende Muskeln und schmerzenden Füße zu behandeln, ihnen beruhigende Musik zu spielen und wohlriechende Kräuter und Blumen um den Hals zu hängen. Sie sind diejenigen, die sich der Aufgabe verschrieben haben, Leid zu lindern, unabhängig, woher es rührt.",
-        "function": "qualified_concession_on_psychology",
-        "confidence": 0.97
+        "function": "qualified_concession",
+        "confidence": 0.98
       },
       {
         "segment_id": "Page14_Segment6",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 14,
         "sequence": 6,
-        "section": "Das Problem der Selbstdefinition",
-        "label": null,
         "text": "Aber, dies ist nicht was wir hier wollen, denn sie würden ohne zu zögern selbst jenen",
         "function": "transition_to_next_argument",
         "confidence": 0.93
       }
     ],
-    "free_text": "Philosophische Prosa über unbewusste Mechanismen, Eigeninteresse und Kritik der Psychologie"
+    "free_text": "Selbstdefinition, Psychologiekritik, Wanderer-Metapher"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

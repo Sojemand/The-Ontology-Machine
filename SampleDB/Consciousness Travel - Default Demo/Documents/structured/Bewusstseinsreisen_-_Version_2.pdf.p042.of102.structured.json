@@ -2,51 +2,49 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:44:13.208612+00:00",
+    "processed_at": "2026-06-02T18:55:18.872612+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
+    "document_type_confidence": 0.97,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
+    "page_number": 42,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=042-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.9,
-      "reason": "A continuous nonfiction book page with philosophical/explanatory prose is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.93,
+      "reason": "The page is a continuous prose page from a book-like document.",
       "matched_signals": [
         "continuous prose",
         "book page",
-        "philosophical writing"
+        "multiple narrative paragraphs"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
-    "page_number": 42,
     "document_page_count": 102,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=042-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text",
-      "columns": [
-        "main_text"
-      ],
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -54,7 +52,7 @@
     "segments": [
       {
         "segment_id": "Page42_Segment1",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 42,
         "sequence": 1,
         "text": "An diesem Punkt ist euch auch nicht mehr klar, dass die Veränderungen der Umgebung nicht mehr durch euer Umherlaufen im Dschungel verursacht werden, sondern ihr erlebt diese Veränderungen in einer Art, die euch vorgaukelt, ihr würdet diese selbst durch eure Anstrengungen erst erzeugen, da ihr euch ja stets im Mittelpunkt eurer Welt aufhaltet. Ihr entwickelt also selbst eine Art magisches Denken, welches erklärt, wie die Veränderungen um euch herum zustande kommen. Ihr habt schlussendlich nur noch Rituale, die ihr ausführen müsst um die gewünschten Veränderungen eurer Welt zu bewirken, denn wie gesagt, eure Welt ist immer nur so groß wie eure Augen gerade reichen. Was sich dahinter befindet existiert für euch nicht. Manchmal erzeugen die Rituale das gewünschte Ergebnis, manchmal nicht und dann bist du überzeugt, etwas falsch gemacht zu haben oder jemand oder etwas hat dich aktiv davon abgehalten, das gewünschte Ergebnis zu erzeugen. Vielleicht vermutest du dann böse Mächte, die aktiv gegen dich arbeiten und du beginnst nur umso ausgefeiltere Rituale und stärkere Magie anzurufen um endlich das zu bekommen was du dir so sehnlichst wünscht. Dass du in Wirklichkeit nur in einem Dschungel umherstolperst und dabei lächerliche Bewegungen ausführst, die jeden Beobachter an deinem Verstand zweifeln lassen würden, das erkennst du nicht.",
@@ -63,7 +61,7 @@
       },
       {
         "segment_id": "Page42_Segment2",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 42,
         "sequence": 2,
         "text": "Die Welt, die sich vor deinen Augen aus dem Nichts schält und die sich hinter dir wieder ins Nichts verflüchtigt ist das, worüber du dir in jedem Augenblick gerade gewahr bist. Es gibt keinen Dschungel als unabhängiges, statisches Gebilde mehr und das Konzept des „im Kreis laufen“ kannst du nicht mal mehr verstehen, selbst wenn jemand versuchen würde es dir zu erklären. Der Baum, welcher sich gerade, angetrieben durch deine eigene Magie, an dir vorbei bewegt, war schon immer da und wenn er aus deinen Augen verschwindet, so hat er nie existiert. Stolperst du dann wieder einen Schritt zurück und der gleiche Baum betritt wieder deine Welt, so ist er für dich ein neues Objekt, welches noch nie Teil dein Welt war und er nur deshalb dort erscheint wo er erscheint, weil deine Rituale ihn dort manifestiert haben. Stolperst du nun zwei Schritte nach vorne und versuchst dann einen neuen Baum auf die gleiche Weise zu manifestieren, du also einen Schritt zurück stolperst, wird diesmal kein Baum erscheinen, da er schließlich noch einen weiteren Schritt entfernt liegt. Aber anstatt dies zu verstehen, haben für dich einfach nur deine Rituale versagt, das beabsichtigte Ergebnis hervorzubringen.",
@@ -72,15 +70,15 @@
       },
       {
         "segment_id": "Page42_Segment3",
-        "unit_kind": "narrative_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 42,
         "sequence": 3,
         "text": "Deine Welt ist auf diese Art voll von den kompliziertesten Ritualen, Bewegungsabläufen und Zaubersprüchen, die du während deiner Existenz in diesem Dschungel angehäuft hast, so dass ein externer Beobachter deine Aktionen nur als sinnlos und verrückt bezeichnen kann. Du bist in diesem Dschungel gefangen und niemals wieder kannst aus eigener Kraft einen Weg hinaus",
-        "function": "draws_conclusion_of_entrapment",
-        "confidence": 0.95
+        "function": "concludes_entrapment",
+        "confidence": 0.94
       }
     ],
-    "free_text": "Dschungel-Metapher, magisches Denken, Wahrnehmung, Rituale, Gefangensein"
+    "free_text": "Dschungel-Metapher, magisches Denken, Rituale, Wahrnehmung, Gefangensein"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

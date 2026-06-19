@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:04:50Z",
+    "processed_at": "2026-06-02T19:15:58Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,12 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical discussion asks whether a permanent lucid waking state would overwhelm the brain, and focuses on forgetting as the main barrier to inquiry. It also examines how language limits shared understanding when concepts, labels, or words are missing.",
+    "description": "Philosophical prose on consciousness argues that a permanent lucid waking state could overload the brain and possibly lead to madness. It then asks how forgetting and language barriers prevent people from investigating or communicating altered states of awareness.",
     "tags": [
       "consciousness",
       "forgetting",
-      "language barriers",
-      "philosophy",
-      "memory",
+      "language barrier",
+      "lucid waking",
       "communication"
     ],
     "people": [],
@@ -41,14 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Normalized raw category and subcategory to the closest allowed book body content theoretical discussion."
+      "Source language is German; summary translated into English.",
+      "Page is a prose book extract with reflective argument and section questions."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,52 +57,69 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "section_heading",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 93,
-      "section_heading": "How can we bypass forgetting?",
-      "topic_keywords": [
-        "consciousness",
-        "forgetting",
-        "language barriers",
-        "memory",
-        "communication"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "A philosophical passage questions the mental strain of permanent lucid waking and whether it could lead to madness. It argues that forgetting is the greatest barrier to investigating such experiences, and that communication breaks down when people lack shared terms or categories."
+        "heading_text": "How can we overcome forgetting?",
+        "text_content": "How can we overcome forgetting?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "It asks whether a permanent lucid waking state would be sustainable for the brain and whether such a state would risk madness.",
+        "text_content": "It asks whether a permanent lucid waking state would be sustainable for the brain and whether such a state would risk madness."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 2,
+        "heading_text": "How can we overcome language barriers?",
+        "text_content": "How can we overcome language barriers?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Forgetting is presented as the main barrier to studying elusive experiences, and the text asks whether they can be recorded externally and explained to others who may not recognize them as part of the self.",
+        "text_content": "Forgetting is presented as the main barrier to studying elusive experiences, and the text asks whether they can be recorded externally and explained to others who may not recognize them as part of the self."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "It argues that different words, missing concepts, and the need to create new definitions force speakers into a closed vocabulary that makes communication with outsiders difficult.",
+        "text_content": "It argues that different words, missing concepts, and the need to create new definitions force speakers into a closed vocabulary that makes communication with outsiders difficult."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion book page on consciousness, forgetting, and language barriers in philosophical reflection"
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Philosophical book page on consciousness, forgetting, and language barriers. It questions whether permanent lucid waking is sustainable and whether altered experience can be studied or communicated at all."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.91,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

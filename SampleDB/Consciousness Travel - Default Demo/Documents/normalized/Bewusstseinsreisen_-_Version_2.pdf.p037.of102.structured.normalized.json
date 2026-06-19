@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.94,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:42:22Z",
+    "processed_at": "2026-06-02T18:53:04Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.91,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "consciousness_and_mind",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "German philosophical prose on perception, information, free will, and decision-making. It contrasts the \"giant\" and the \"dwarf\" as perspectives on how added information can change interpretation and action, using a reflective question about whether to continue or try an approach.",
+    "description": "A reflective book passage argues that gaining extra information does not change the rules or increase free will, but can create a new mental option for action. It uses a giant-and-dwarf metaphor to show how stripping away signals like makeup, clothing, and posture may change attraction and decision-making. The visible text ends with a prompt asking whether one would continue or try the experiment.",
     "tags": [
-      "perception",
-      "information",
       "free will",
+      "perception",
       "decision-making",
-      "reflection"
+      "consciousness",
+      "metaphor"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Book title inferred from the source file name.",
-      "Classification normalized from raw 'book' / 'nonfiction_philosophical_writing' to the closest supported body-content theoretical-discussion page type."
+      "Translated German running prose into English control-language summary.",
+      "No chapter heading or title visible on the page."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,55 +57,60 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 37,
-      "topic_keywords": [
-        "perception",
-        "information",
-        "free will",
-        "decision-making",
-        "hypothetical reasoning"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "A reflective passage argues that receiving new information does not change the rules or expand hand options, so the same decision would still be expected under the same conditions."
+        "page_number": 37,
+        "text_content": "Page 37"
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "It explains that the added perspective can still help the reader mentally subtract displayed signals, compare appearances, and judge whether the expected value justifies continuing or trying."
+        "paragraph_text": "Observation and reflection on hidden motivations and visible signals."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 2,
+        "text_content": "Would you keep going or try the experiment?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Additional information does not change the rules or available options, but it can be used to mentally subtract appearance cues and reassess attraction and expected value."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page 37 in Bewusstseinsreisen - Version 2. Philosophical discussion of perception, information, free will, hypothetical reasoning, and decision-making."
+    "free_text": "consciousness_and_mind philosophy_of_consciousness book_page on consciousness and free will; page 37 of Bewusstseinsreisen - Version 2; reflective argument about perception, hidden signals, and decision-making"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.83,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.83 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

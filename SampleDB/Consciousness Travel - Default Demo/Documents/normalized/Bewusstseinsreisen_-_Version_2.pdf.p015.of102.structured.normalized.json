@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:33:40Z",
+    "processed_at": "2026-06-02T18:43:55Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "nonfiction_book_page",
-    "document_type_confidence": 0.96,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type": "book_page",
+    "document_type_confidence": 0.98,
+    "category": "consciousness_and_mind",
+    "subcategory": "neuroscience_reflection",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,15 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction discussion contrasts psychology with neuroscience and introduces research on free will. It cites Libet’s 1970s experiments and Haynes’ later fMRI-based predictions of decisions several seconds before conscious choice.",
+    "description": "A nonfiction book page argues that neuroscience is more useful than psychology for understanding free will. It introduces Benjamin Libet's early decision-making experiments and John-Dylan Haynes's later fMRI findings predicting choices several seconds before conscious awareness. The page frames these results as a major turning point that renewed public and philosophical debate about free will.",
     "tags": [
       "neuroscience",
       "free will",
-      "philosophy",
-      "decision making",
-      "Libet",
-      "Haynes"
+      "Benjamin Libet",
+      "John-Dylan Haynes",
+      "decision-making",
+      "consciousness",
+      "philosophy"
     ],
     "people": [
       "Benjamin Libet",
@@ -45,21 +46,20 @@
       "Leipzig"
     ],
     "date_range": {
-      "from": "1970s",
-      "to": "2008"
+      "from": null,
+      "to": null
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "category": "publication",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "Section heading normalized from German: 'Der Tag an dem der freie Wille starb'.",
-      "Title inferred from source document path.",
-      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
+      "Section heading translated from German.",
+      "Classified as a nonfiction chapter page on neuroscience and free will."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -68,52 +68,71 @@
     "structure": {
       "type": "text",
       "columns": [
+        "page_number",
+        "heading_text",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
         "section_heading",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 15,
       "section_heading": "The Day Free Will Died",
-      "topic_keywords": [
-        "neuroscience",
-        "free will",
-        "decision making",
-        "brain activity",
-        "philosophical discussion"
-      ]
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "page_metadata",
         "_row_index": 0,
-        "paragraph_text": "The page transitions from psychology to neuroscience as the preferred lens for the discussion. It summarizes Libet’s 1970s findings and Haynes’ later brain-imaging results suggesting decisions can be predicted seconds before conscious awareness, framing free will as a major philosophical controversy."
+        "page_number": 15
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "The Day Free Will Died"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The author contrasts psychology with neuroscience and argues that neuroscience offers the more relevant path for the journey ahead."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Benjamin Libet's 1970s experiments suggested measurable neural activity precedes conscious decisions by up to half a second, a claim that remained controversial."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "John-Dylan Haynes later used fMRI at the Max Planck Institute in Leipzig to predict choices up to seven seconds before conscious decision with about 60% accuracy, reviving debate about free will."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "The findings are presented as having energized research and broadened philosophical discussion beyond science."
       }
     ],
-    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Neuroscience and free will discussion. Libet and Haynes are cited to argue that brain activity may precede conscious decision making."
+    "free_text": "book_page consciousness_and_mind neuroscience_reflection Neuroscience and free will; Libet and Haynes experiments; renewed debate on conscious decision-making."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.95,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.88,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.88 => confidence_bonus=2; verified_hint_signals=1/3 [book page]; adjusted_hint_score=9; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
     }
   }
 }

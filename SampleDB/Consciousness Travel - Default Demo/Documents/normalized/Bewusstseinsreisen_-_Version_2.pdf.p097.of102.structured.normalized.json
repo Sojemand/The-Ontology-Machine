@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:06:32Z",
+    "processed_at": "2026-06-02T19:17:35Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "question_section",
+    "document_type_confidence": 0.96,
+    "category": "consciousness_and_mind",
+    "subcategory": "neuroscience_reflection",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,23 +22,20 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction page argues that there are no universally valid academic rules for changed states of awareness and asks whether MRI patterns could be detected across such states. It proposes studying brain activity during altered consciousness and questions why the brain can generate constructs it later does not understand. The page also cites reports from Erowid and mentions DMT and LSD experiences involving geometry and spatial perception.",
+    "document_title": null,
+    "description": "The page reflects on altered consciousness, asking whether MRI patterns can be identified across people and why the brain can generate geometric and spatial constructs it later cannot explain. It cites reports on LSD and DMT experiences, including unusual visual geometry and altered spatial perception.",
     "tags": [
       "consciousness",
       "altered states",
       "MRI",
-      "brain activity",
-      "psychedelics",
-      "geometry",
-      "spatial perception",
-      "Erowid",
+      "LSD",
       "DMT",
-      "LSD"
+      "geometry",
+      "perception"
     ],
     "people": [],
     "organizations": [
-      "Erowid"
+      "Erowid.org"
     ],
     "locations": [],
     "date_range": {
@@ -47,15 +44,14 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "category": "publication",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "German source text normalized into English control-language values.",
-      "Mapped generic raw category to book_body_content and subcategory to question_section based on visible question-led philosophical discussion."
+      "Source language is German; summary translated to English."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -68,53 +64,63 @@
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "section_heading",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 97,
-      "section_heading": "Questions about altered consciousness and brain patterns",
-      "topic_keywords": [
-        "consciousness",
-        "altered states",
-        "MRI",
-        "brain activity",
-        "psychedelics",
-        "geometry",
-        "spatial perception",
-        "Erowid",
-        "DMT",
-        "LSD"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "The text argues that altered states of awareness still lack universally valid academic rules. It asks whether MRI could reveal shared patterns across such states and whether the brain can generate constructs it later cannot explain, citing reports of psychedelic geometry and altered spatial perception."
+        "paragraph_text": "It is completely unclear. Everyone may have their own ideas about it, but there are no correct rules that can be applied universally, written down academically, and referred to."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Could an MRI pattern be identified in all people who change their awareness?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Given a technology that can roughly image brain activity and is used to watch the brain's Christmas-tree-like lighting on LSD, why not apply it to other states as well? Perhaps there are patterns that appear in the same way for everyone when awareness changes."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Why can our brain invent constructs that it cannot later understand itself?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "On certain drugs the brain seems to understand geometry that does not fit our three-dimensional understanding, and ordinary spatial perception can shift so that objects or spaces appear without a back side and in their entirety."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 5,
+        "paragraph_text": "The author argues that these are not isolated cases and points to Erowid.org and user reports on DMT and LSD as evidence of recurring geometric and spatial experiences."
       }
     ],
-    "free_text": "book_page book_body_content question_section Book page from Bewusstseinsreisen - Version 2 in German. Philosophical discussion of altered consciousness, MRI research questions, brain-generated constructs, and reported psychedelic experiences."
+    "free_text": "book_page consciousness_and_mind neuroscience_reflection Book page from Bewusstseinsreisen - Version 2 on altered consciousness, MRI patterns, drug-induced visual geometry, and reports about DMT and LSD experiences."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.9,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.90 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

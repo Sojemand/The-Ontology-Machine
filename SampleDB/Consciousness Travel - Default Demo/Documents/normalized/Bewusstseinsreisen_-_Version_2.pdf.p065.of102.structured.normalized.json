@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.92,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:53:47Z",
+    "processed_at": "2026-06-02T19:04:37Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
-    "document_type": "nonfiction_book_page",
+    "document_type": "book_page",
     "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,15 +22,15 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "The author contrasts ways of approaching mystery through magic, religion, and science, arguing that spiritual traditions fragment into their own terms, rules, and myths. The page emphasizes confusion caused by language barriers and points to shared perceptual constants beyond exclusive claims. A sun example introduces the idea that some realities are universally recognized despite different names and beliefs.",
+    "document_title": null,
+    "description": "Reflective prose on the search for meaning and the limits of language, contrasting magic, religion, and science as ways of approaching mystery. It argues that religions borrow from one another and fragment into distinctive vocabularies, while shared perceptual constants remain available to everyone. A shared example of the sun is introduced to support the claim that universal understanding does not belong exclusively to scientific method.",
     "tags": [
       "mystery",
       "religion",
+      "language",
       "science",
-      "language barriers",
       "universals",
-      "philosophical reflection"
+      "consciousness"
     ],
     "people": [],
     "organizations": [
@@ -43,69 +43,80 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Born-digital German nonfiction prose page with philosophical argumentation.",
-      "Title inferred from source file name.",
-      "Raw document_type 'book_page' normalized to 'nonfiction_book_page'."
+      "Source page is German philosophical prose; translated into English control-language summary.",
+      "Visible text is a continuation fragment without a chapter heading.",
+      "The final sentence is truncated in the source excerpt."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "text",
+      "type": "prose_page",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
-        "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "source_file_name",
+        "language"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 65,
-      "topic_keywords": [
-        "mystery",
-        "magic",
-        "religion",
-        "science",
-        "language",
-        "universality"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf",
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Philosophical reflection on approaches to mystery through magic, religion, and science, and on how spiritual systems develop distinct languages, meanings, rules, and myths. It argues that this fragmentation creates confusion, while shared perceptual constants remain accessible across beliefs and languages."
+        "paragraph_text": "The text contrasts different ways of approaching mystery, including magic, religion, and science, and questions the human drive to impose will on reality.",
+        "text_content": "Approaches to mystery through magic, religion, and science."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "It describes how religions borrow from one another, split into distinct traditions, and develop their own terms, meanings, rules, and myths to assert exclusivity.",
+        "text_content": "Religious traditions fragment into distinct vocabularies and identities."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The author laments linguistic barriers and argues that universal constants of perception are available to everyone, not only through the scientific method.",
+        "text_content": "Universal constants of perception are not exclusive to science."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "A shared example begins with the sun as a universally recognized warm, bright object, introducing a common-perception argument.",
+        "text_content": "The sun as an example of shared perception."
       }
     ],
-    "free_text": "nonfiction_book_page book_body_content theoretical_discussion Philosophical nonfiction page on mystery, religious fragmentation, linguistic confusion, and universal constants. The text contrasts magic, religion, and science and cites the Theosophical Society as an example of failed synthesis."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness German philosophical prose on mystery, religion, language fragmentation, shared perception, and universal constants. Page 65 of Bewusstseinsreisen - Version 2.pdf."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.91,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.91 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

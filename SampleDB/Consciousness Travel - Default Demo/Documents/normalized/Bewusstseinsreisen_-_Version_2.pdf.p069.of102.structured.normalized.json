@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:55:17Z",
+    "processed_at": "2026-06-02T19:06:11Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.98,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.99,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A chapter page from a philosophical book about the symbolic world and how symbols turn specific experiences into universal mental images. It explains symbolic abstraction as a faster way of understanding reality and uses a road-and-cars example to show heuristic danger recognition.",
+    "description": "Chapter 5, \"The Symbolic World,\" explains how symbolization abstracts specific situations into universal images and rules that can be reused across contexts. It uses the street-and-car example to show how people rely on simple heuristics instead of detailed physical reasoning to judge danger. The page argues that this internal symbolic world can feel more real than the external world.",
     "tags": [
+      "symbolic world",
       "symbolism",
-      "abstraction",
       "heuristics",
-      "mental models",
-      "perception"
+      "danger perception",
+      "abstraction"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Translated German headings and prose into English control-language values.",
-      "Classified as theoretical discussion within book body content based on chapter and explanatory prose."
+      "Translated visible headings into English for the normalized surface.",
+      "Chapter and section structure is explicit; page content is prose about symbolic cognition."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,54 +57,79 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
+        "chapter_heading",
+        "chapter_number",
+        "chapter_title",
         "language",
         "page_number",
-        "chapter_title",
-        "section_title",
-        "topic_keywords"
+        "section_heading"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
+      "chapter_heading": "Chapter 5",
+      "chapter_number": "5",
+      "chapter_title": "The Symbolic World",
       "language": "de",
       "page_number": 69,
-      "chapter_title": "Chapter 5 - The Symbolic World",
-      "section_title": "Understanding Symbols",
-      "topic_keywords": [
-        "symbolism",
-        "abstraction",
-        "heuristics",
-        "mental models",
-        "perception"
-      ]
+      "section_heading": "Understanding Symbols"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "chapter_heading",
         "_row_index": 0,
-        "paragraph_text": "Symbols are presented as abstractions of specific circumstances that become universal images for deriving rules and applying them to new situations. The page argues that symbolic thinking bypasses the limits of language and creates an internal world that can feel more real than external reality. A road-and-car example illustrates how people use a simple danger heuristic instead of detailed technical reasoning."
+        "heading_text": "Chapter 5 – The Symbolic World",
+        "page_number": 69,
+        "text_content": "Chapter 5 – The Symbolic World"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "Understanding Symbols",
+        "text_content": "Understanding Symbols"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "Symbolism is presented as abstraction of specific circumstances into universal images and rules that can be applied to other situations. The text argues that the mind builds an internal symbolic world that simplifies reality and can guide faster understanding.",
+        "text_content": "Symbolism is presented as abstraction of specific circumstances into universal images and rules that can be applied to other situations. The text argues that the mind builds an internal symbolic world that simplifies reality and can guide faster understanding."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "A street-and-car example shows that people do not calculate speed, mass, friction, and reaction times in order to avoid danger. Instead, they apply a simple heuristic that treats a moving car as immediate danger and keeps distance.",
+        "text_content": "A street-and-car example shows that people do not calculate speed, mass, friction, and reaction times in order to avoid danger. Instead, they apply a simple heuristic that treats a moving car as immediate danger and keeps distance."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The passage emphasizes that symbolic models can be easier to communicate than detailed physical explanations and can feel more real than the external world.",
+        "text_content": "The passage emphasizes that symbolic models can be easier to communicate than detailed physical explanations and can feel more real than the external world."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Chapter 5 The Symbolic World; Understanding Symbols; symbolism, abstraction, heuristics, mental models, perception; symbolic thinking as abstraction and danger heuristic"
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Book page from Bewusstseinsreisen - Version 2, Chapter 5, The Symbolic World. Section Understanding Symbols; prose explains symbolism, internal symbolic models, and a danger heuristic using a street and car example."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.97,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=13; confidence=0.97 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=16; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-16."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

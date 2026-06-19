@@ -2,50 +2,50 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:46:17.029877+00:00",
+    "processed_at": "2026-06-02T18:57:20.690772+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.92,
-      "reason": "The page is a born-digital nonfiction book page with continuous reflective paragraphs characteristic of philosophical writing.",
-      "matched_signals": [
-        "continuous prose paragraphs",
-        "nonfiction book page",
-        "reflective philosophical writing"
-      ]
-    },
     "page_number": 47,
-    "document_page_count": 102,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=047-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.9,
+      "reason": "The visible page is a continuous prose page from a book-like publication.",
+      "matched_signals": [
+        "continuous prose",
+        "book page",
+        "paragraph-based layout"
+      ]
+    },
     "date_range": {
       "from": null,
       "to": null
     },
+    "document_page_count": 102,
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
-        "single_column"
+        "main_text"
       ],
       "form_fields": []
     },
@@ -54,12 +54,12 @@
     "segments": [
       {
         "segment_id": "Page47_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 47,
         "sequence": 1,
         "text": "Ouspensky hatte für diese Art der Erinnerung eine sehr gute Beschreibung parat als er sagte, dass sich jeder bestimmt an eine Situation erinnern kann, währenddessen er sich selbst hat reden hören. Eine Situation, während einer Konversation, in derer man sich plötzlich bewusst wird, dass man Unsinn redet, aber man sich selbst nicht rechtzeitig stoppen kann. Man ist dann mit einem mal eine Art Beobachter, der sieht und hört was vor sich geht, im Außen wie im Innen. Man sieht sein Gegenüber, wie er auf das Gesagte reagiert und man sieht sich selbst, wie man redet und ist dabei peinlich berührt, weil man weiß, man redet Unsinn, aber der Autopilot plappert es dennoch heraus.",
-        "function": "illustrates_self_observation",
-        "confidence": 0.96
+        "function": "example_of_self_observation",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page47_Segment2",
@@ -67,17 +67,17 @@
         "page": 47,
         "sequence": 2,
         "text": "Alles, was nach solch einem Erlebnis zurück bleibt, ist das merkwürdige Gefühl, sich selbst reden gehört zu haben und ein Gefühl der Beschämung ob des Unsinns, welchen man da von sich gegeben hat. Wo dieses „sich reden hören“ herkam, das vergessen wir wieder sobald der Moment vorüber ist, aber das Gefühl der Beschämung verbleibt aus einem sehr einfachen Grund. Wir fühlen Scham, weil wir unsere innere Widerspruchsfreiheit verletzt haben. Wir haben unser Gewahrsein in diesem Moment nicht absichtlich aufgespalten, das ist zufällig geschehen und wir wurden ungewollt in eine Situation gebracht, in der wir uns nicht mehr vor unseren eigenen Widersprüchen verschließen konnten und sie uns gezwungenermaßen gewahr wurden. Das meine ich wenn ich sage, dass wir freiwillig unser Gewahrsein auf einem für uns angenehmen Maß belassen, denn schon solch kleine ungewollten Ausflüge können uns Schmerzen bereiten, die unsere Funktionsfähigkeit bedrohen. Stellt euch mal vor, ihr wäret spontan mit all euren inneren Widersprüchen konfrontiert. Ihr würdet kein Wort mehr heraus bringen ohne dabei vor Scham im Boden versinken zu wollen oder schlimmer, ihr wäret unfähig noch irgendetwas zu tun.",
-        "function": "explains_shame_and_self_protection",
-        "confidence": 0.97
+        "function": "explains_shame_and_limited_awareness",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page47_Segment3",
-        "unit_kind": "summary_block",
+        "unit_kind": "reflective_passage",
         "page": 47,
         "sequence": 3,
         "text": "Deshalb tun wir das nicht und wer einmal ganz tief in sich hinein hört, der weiß das auch selbst sehr genau.",
-        "function": "concludes_argument",
-        "confidence": 0.95
+        "function": "concluding_assertion",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page47_Segment4",
@@ -85,11 +85,11 @@
         "page": 47,
         "sequence": 4,
         "text": "Aber hey, vielleicht seid ihr ja mutig und schreckt auch nicht vor euren eigenen Abgründen zurück, oder redet euch das zumindest ein, und ihr fragt euch, warum ihr dennoch nicht in der Lage seid, euer Gewahrsein freiwillig zu weiten? Nun, das ist wie Gewicht heben. Niemand wird Weltmeister im Reißen wenn alles was er je getan hat darin bestand, eine Kiste Wasser ins Auto zu heben. Unser Gewahrsein ist wie ein Gummiband, welches immer wieder auf seine Ausgangsposition, auf die angenehme Position, zurück schnellen will, weil wir es so wollen. Aber es hindert euch auch nichts daran es zu tun. Eurer größter Feind ist euer Vergessen. Wir vergessen zu schnell und wenn wir einmal das Band ein wenig geweitet haben und uns in dem",
-        "function": "motivates_practice_and_uses_analogy",
+        "function": "motivational_explanation_with_analogy",
         "confidence": 0.95
       }
     ],
-    "free_text": "Ouspensky, Gewahrsein, Scham, innere Widersprüche, Selbstbeobachtung"
+    "free_text": "Gewahrsein, Selbstbeobachtung, Scham, innere Widersprüche, Gummiband-Metapher"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

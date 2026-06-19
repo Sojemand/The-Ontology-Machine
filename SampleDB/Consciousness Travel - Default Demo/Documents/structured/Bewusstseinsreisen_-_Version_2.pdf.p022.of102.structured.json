@@ -2,38 +2,38 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.95,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:36:08.549901+00:00",
+    "processed_at": "2026-06-02T18:46:41.016238+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.91,
+    "document_type_confidence": 0.96,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "nonfiction_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.8,
-      "reason": "A prose-style nonfiction book page with continuous paragraphs is visible.",
-      "matched_signals": [
-        "continuous paragraphs",
-        "book page layout",
-        "nonfiction prose"
-      ]
-    },
     "page_number": 22,
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=022-of-102",
+    "projection_hint": {
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.89,
+      "reason": "The visible page is a continuous prose page from a book-like document.",
+      "matched_signals": [
+        "continuous prose",
+        "book page",
+        "paragraph-based layout"
+      ]
+    },
     "date_range": {
       "from": null,
       "to": null
@@ -43,7 +43,7 @@
   },
   "content": {
     "structure": {
-      "type": "single_column_text",
+      "type": "single_column_prose",
       "columns": [],
       "form_fields": []
     },
@@ -56,26 +56,26 @@
         "page": 22,
         "sequence": 1,
         "text": "Ort errechnen, an dem sich das Muster befindet, wenn sich meine Augen abschließend auf das Ziel fokussiert haben und dann muss der Bewegungsbefehl ergehen, und das alles während sich alles aneinander vorbei bewegt.",
-        "function": "describes_rapid_perceptual_process",
-        "confidence": 0.97
+        "function": "process_description",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page22_Segment2",
-        "unit_kind": "reflective_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 22,
         "sequence": 2,
         "text": "All das innerhalb einer Sekunde. Ich habe diese Zeitleiste aus zahllosen Einzelvorgängen zusammen gestückelt, da sie meist so schnell erfolgten und ich in den wenigsten Fällen aufmerksam genug war, um neue Einzelheiten daraus zu gewinnen. Richtig beobachten kann man das ja nicht, denn es handelt sich hierbei um ein so flüchtiges Erlebnis, dass schon einige Sekunden danach die Erinnerungen daran nahezu gänzlich verblasst sind.",
-        "function": "reflects_on_limits_of_observation",
-        "confidence": 0.98
+        "function": "limits_of_observation",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page22_Segment3",
-        "unit_kind": "reflective_paragraph",
+        "unit_kind": "reflective_passage",
         "page": 22,
         "sequence": 3,
         "text": "Aber wie gesagt, das muss sich alles vollständig in meiner peripheren Wahrnehmung abgespielt haben. Ich habe selbst versucht, diese Positionen auf einem Parkplatz statisch nachzustellen um herauszufinden, ob ich wirklich ein kleines Nummernschild, welches sich an diesen Positionen aufhält, sehen kann. Wie zu erwarten bestand nicht die geringste Chance. Egal was ich auch versuchte, es gelang mir höchstens die Konturen des Schildes einigermaßen sauber auszumachen und auch erst dann, wenn sich das Schild schon deutlich näher am Fokus befand als es in der echten Situation jemals der Fall war. Und doch muss meine Mustererkennung das irgendwie gesehen haben.",
-        "function": "reports_failed_self_test",
-        "confidence": 0.98
+        "function": "self_experiment_and_inference",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page22_Segment4",
@@ -83,29 +83,38 @@
         "page": 22,
         "sequence": 4,
         "text": "Ihr könnt das ja selbst einmal versuchen. Nehmt eine Zeitung und bewegt sie aus dem Fokus eures Blickes heraus.",
-        "function": "invites_reader_experiment",
-        "confidence": 0.97
+        "function": "reader_experiment_invitation",
+        "confidence": 0.96
       },
       {
         "segment_id": "Page22_Segment5",
         "unit_kind": "descriptive_passage",
         "page": 22,
         "sequence": 5,
-        "text": "Ihr werdet überrascht sein, wie schnell selbst die Überschriften für euch nicht mehr zu entziffern sind, selbst wenn ihr wisst was da geschrieben steht. Jetzt stellt euch mal vor, ihr solltet Nummernschilder erkennen, die sich noch wesentlich weiter außerhalb eures Sichtfeldes befinden, mit deutlich kleineren, perspektivisch verzerrten Ziffern, an einem Objekt, welches sich mit rund 7 bis 9 Metern pro Sekunde bewegt und ihr habt dafür nur eine Sekunde Zeit. Ich glaube, ich lehne mich nicht zu weit aus dem Fenster wenn ich mal behaupte, dass das niemand kann.",
-        "function": "argues_human_limit_of_recognition",
-        "confidence": 0.98
+        "text": "Ihr werdet überrascht sein, wie schnell selbst die Überschriften für euch nicht mehr zu entziffern sind, selbst wenn ihr wisst was da geschrieben steht.",
+        "function": "expected_observation",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page22_Segment6",
-        "unit_kind": "claim_statement",
+        "unit_kind": "reflective_passage",
         "page": 22,
         "sequence": 6,
+        "text": "Jetzt stellt euch mal vor, ihr solltet Nummernschilder erkennen, die sich noch wesentlich weiter außerhalb eures Sichtfeldes befinden, mit deutlich kleineren, perspektivisch verzerrten Ziffern, an einem Objekt, welches sich mit rund 7 bis 9 Metern pro Sekunde bewegt und ihr habt dafür nur eine Sekunde Zeit. Ich glaube, ich lehne mich nicht zu weit aus dem Fenster wenn ich mal behaupte, dass das niemand kann.",
+        "function": "impossibility_claim",
+        "confidence": 0.97
+      },
+      {
+        "segment_id": "Page22_Segment7",
+        "unit_kind": "claim_statement",
+        "page": 22,
+        "sequence": 7,
         "text": "Mir bleibt hier also nur eine Schlussfolgerung übrig. Mein Gehirn „sieht“ sehr viel mehr, sehr viel klarer und sehr viel schneller als alles was meine bewusste Wahrnehmung zustande bringt. Ich habe nicht die geringste Ahnung, wie das von statten gehen soll, denn rein physisch gesehen sollten außerhalb der Fovea Centralis, unserem Seefleck, sich nicht genug Photorezeptoren befinden um dem Gehirn ein klares Bild liefern zu können. Und doch sieht meine Mustererkennung scheinbar kleine Details, wie die eines Nummernschildes in einem Bereich meines Sichtfeldes, in dem mein Bewusstsein nur verschwommenen Kram wahrnimmt. Die Rate der Fehlalarme ist dabei erstaunlich gering. Es wurden rund 95% aller Erkennungen",
-        "function": "states_conclusion_about_subconscious_perception",
-        "confidence": 0.96
+        "function": "conclusion_about_unconscious_perception",
+        "confidence": 0.98
       }
     ],
-    "free_text": "Periphere Wahrnehmung, Mustererkennung, Nummernschilder, Bewusstsein"
+    "free_text": "Periphere Wahrnehmung, Mustererkennung, Nummernschilder, Selbstversuch, Schlussfolgerung"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

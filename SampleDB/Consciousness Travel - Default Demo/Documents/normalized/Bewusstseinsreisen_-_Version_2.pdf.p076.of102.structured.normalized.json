@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.97,
+    "model_confidence": 0.95,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:58:08Z",
+    "processed_at": "2026-06-02T19:09:18Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.97,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,14 +23,14 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "German philosophical book prose about archetypes, the hero’s journey, and how a simple map can structure action more powerfully than elaborate rituals. The section \"Was plant der Held?\" asks how to infer plans from recurring laws and patterns that observers do not understand.",
+    "description": "The text uses the metaphor of a map in the jungle to argue that recognizing a shared law or pattern simplifies reality and changes how people speak, move, and plan. It contrasts this with dream psychologists who would misread the behavior as strange ritual, magic, or mental disorder. The section titled \"Was plant der Held?\" turns to the hero's journey and archetypes as a shadow of deeper motivating structures.",
     "tags": [
-      "philosophy",
-      "archetypes",
       "hero's journey",
-      "analogy",
-      "misunderstanding",
-      "dream psychology"
+      "archetypes",
+      "metaphor",
+      "symbolic interpretation",
+      "misinterpretation",
+      "consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -41,14 +41,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "literature",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "Classified as body content because the page contains continuous argumentative prose and an internal section heading."
+      "Classified as philosophical nonfiction with symbolic and archetypal focus.",
+      "Translated visible German prose into English summary; kept source title in original form."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,57 +58,61 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
         "section_heading",
-        "topic_keywords"
+        "source_file_name",
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 76,
       "section_heading": "Was plant der Held?",
-      "topic_keywords": [
-        "archetypes",
-        "hero's journey",
-        "lawlike patterns",
-        "misunderstanding",
-        "dream psychology"
-      ]
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf",
+      "language": "de"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "An extended analogy compares a simple map to powerful rituals to argue that recognizing a shared law can simplify reality and guide action. It contrasts this practical understanding with outsiders who would misread the resulting behavior as magic or mental disorder."
+        "heading_text": "Was plant the hero?",
+        "text_content": "The text uses the metaphor of a map in the jungle to argue that recognizing a shared law or pattern simplifies reality and changes how people speak, move, and plan."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "The section \"Was plant der Held?\" returns to the hero’s journey and asks how to reconstruct plans from underlying laws that are not yet understood. It suggests that the structure of the journey is already known in broad outline, even if the deeper motivations remain difficult to infer."
+        "paragraph_text": "Dream psychologists would misread the resulting behavior as ritual, magic, or mental disorder, unable to see the shared map behind it.",
+        "text_content": "Dream psychologists would misread the resulting behavior as ritual, magic, or mental disorder, unable to see the shared map behind it."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The discussion then returns to the hero's journey and archetypes as a shadow of deeper motivating laws.",
+        "text_content": "The discussion then returns to the hero's journey and archetypes as a shadow of deeper motivating laws."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion German philosophical book page on archetypes, the hero’s journey, and inference from hidden laws. Section heading: Was plant der Held?"
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes book title Bewusstseinsreisen - Version 2; page 76; section heading Was plant the hero?; hero's journey, archetypes, jungle map metaphor, symbolic interpretation"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.92,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.92 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

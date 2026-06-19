@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.98,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T09:03:52.905337+00:00",
+    "processed_at": "2026-06-02T19:14:58.762123+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "category": "literature",
+    "subcategory": "prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -26,13 +26,13 @@
     "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
     "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=091-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.92,
-      "reason": "The page is a prose-heavy philosophical book page with continuous paragraph structure.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.89,
+      "reason": "The page is a continuous prose page from a book-like document.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "philosophical reflection",
-        "book page layout"
+        "continuous prose",
+        "book page",
+        "paragraph-based layout"
       ]
     },
     "date_range": {
@@ -45,7 +45,7 @@
     "structure": {
       "type": "single_column_text",
       "columns": [
-        "main_text"
+        "main"
       ],
       "form_fields": []
     },
@@ -54,24 +54,20 @@
     "segments": [
       {
         "segment_id": "Page91_Segment1",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 91,
         "sequence": 1,
-        "section": null,
-        "label": null,
         "text": "genetische Mutation durchlaufen, die uns auf unseren gegenwärtigen Pfad geführt hat und die eine weitere Entfaltung dieser Prozesse damit blockierte, sie verstümmelt und nur rudimentär arbeitend zurück ließ, oder es war wirklich der Wille eines übergeordneten Prinzips welches uns aus dem Garten Eden stürzen ließ und uns dadurch mit Blindheit und Taubheit geschlagen im Staub der Erde zurück ließ. Vielleicht auch beides zugleich, oder nichts davon.",
-        "function": "speculating_about_human_origins",
-        "confidence": 0.98
+        "function": "speculative_origin_reflection",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page91_Segment2",
         "unit_kind": "reflective_passage",
         "page": 91,
         "sequence": 2,
-        "section": null,
-        "label": null,
         "text": "Wie dem auch sei, unsere Unwissenheit über die Ursprünge muss uns nicht zur Untätigkeit verdammen. Also, wie ließe sich nun ein für allemal herausfinden, ob dies tatsächlich eine Option ist, die uns offen steht oder ob wir wirklich verdammt sind, auf alle Zeit als Sklave unserem inneren Affen zu dienen, ohne jede Hoffnung, das Tiersein je hinter uns lassen zu können? Gibt es die Karte, die uns den Weg aus dem Dickicht unserer Träume weist? Oder ist die Reise auf der goldenen Straße unser ewiges Los, stets nur von der Hoffnung angetrieben, uns irgendwann durch unser Leid das Himmelreich verdient zu haben?",
-        "function": "posing_existential_questions",
+        "function": "existential_questioning",
         "confidence": 0.98
       },
       {
@@ -79,14 +75,12 @@
         "unit_kind": "speaker_response",
         "page": 91,
         "sequence": 3,
-        "section": null,
-        "label": null,
         "text": "Wenn ihr Antworten such, dann schaut nicht in meine Richtung, denn auch ich weiß nicht mehr als ihr.",
-        "function": "disclaiming_authority",
-        "confidence": 0.97
+        "function": "disclaimer_of_knowledge",
+        "confidence": 0.95
       }
     ],
-    "free_text": "Philosophische Reflexion über Ursprung, Unwissenheit und existenzielle Fragen"
+    "free_text": "Reflexion über Ursprung, Unwissenheit und existenzielle Fragen"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

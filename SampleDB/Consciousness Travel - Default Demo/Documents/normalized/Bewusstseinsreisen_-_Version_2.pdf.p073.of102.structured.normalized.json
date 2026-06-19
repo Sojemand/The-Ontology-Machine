@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:56:56Z",
+    "processed_at": "2026-06-02T19:08:05Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "symbolism_and_archetypes",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction passage discusses the limits of identifying archetypal patterns such as the hero's journey in real life. It shifts toward the theme of human planning as a distinctive trait and introduces a transition into that topic.",
+    "description": "The text reflects on the limits of identifying the hero’s journey and archetypal patterns in real life, stressing how little can be known about their frequency, duration, and conditions. It questions how to escape this uncertainty and turns toward the idea that a plan may be the answer, linking planning to human distinctiveness.",
     "tags": [
       "hero's journey",
-      "archetypal patterns",
-      "pattern recognition",
-      "human planning",
-      "philosophical reflection"
+      "archetypes",
+      "uncertainty",
+      "planning",
+      "symbolic world"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,15 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "nonfiction_philosophical_writing"
+      "category": "publication",
+      "subcategory": "nonfiction_book"
     },
     "normalization_notes": [
-      "Translated German visible text into English control-language summary.",
-      "Book title inferred from source file name."
+      "Source language is German.",
+      "Visible content centers on archetypal symbolism and methodological uncertainty."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,49 +57,69 @@
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content",
+        "heading_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
       "page_number": 73,
-      "topic_keywords": [
-        "hero's journey",
-        "archetypal patterns",
-        "pattern recognition",
-        "human planning"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "Philosophical discussion of the difficulty of diagnosing archetypal journeys in real life, contrasted with their clear recognition in myths. The passage argues that human planning is a defining trait and uses it as a transition into the next theme."
+        "paragraph_text": "It is observed and clearly established that someone is currently on such a journey. For famous historical figures, such a journey can sometimes be reconstructed in hindsight, or inferred from later accounts of their own past, but it is hardly diagnosable as an active pattern in the present.",
+        "text_content": "The text discusses the difficulty of identifying a symbolic journey as an active pattern in real time."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The interplay, sequence, and components of these patterns are not as rigid or fixed as one might think, and sayings about imperfection and compromise are applied to the symbolic world as well.",
+        "text_content": "Symbolic patterns are presented as variable rather than rigid."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "While the hero’s journey is easy to identify in mythic descriptions, its actual occurrence in real life remains largely unknown: how often it appears, over what time spans, under what conditions, and how it is encouraged or inhibited.",
+        "text_content": "The author emphasizes how little is known about the real-world manifestation of the hero’s journey."
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 3,
+        "heading_text": "Methodological problem",
+        "text_content": "How can this dilemma be escaped without putting all of humanity on the couch for psychoanalytic dissection?"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "The answer may lie in the obvious, hidden behind persistent forgetting: a plan. Planning is framed as a distinctly human capacity linked to making good stories and warning of trouble.",
+        "text_content": "A proposed solution connects planning with human uniqueness and narrative structure."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion book page on the limits of recognizing archetypal patterns in real life, the hero's journey, and human planning"
+    "free_text": "book_page nonfiction_philosophy symbolism_and_archetypes Hero’s journey, archetypal patterns, symbolic world, epistemic uncertainty, planning as a human capacity"
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

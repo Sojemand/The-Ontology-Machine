@@ -6,15 +6,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:44:37.492265+00:00",
+    "processed_at": "2026-06-02T18:55:41.643007+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.96,
-    "category": "book",
-    "subcategory": "philosophical_writing",
+    "document_type_confidence": 0.98,
+    "category": "literature",
+    "subcategory": "nonfiction_prose",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,30 +22,28 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.94,
-      "reason": "A continuous nonfiction book page in philosophical writing is visible, with paragraph-based prose discussing Plato, Aristotle, and the cave allegory.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.88,
+      "reason": "The visible page is a prose book page with continuous paragraphs and no transactional or form-like structure.",
       "matched_signals": [
-        "continuous paragraph prose",
-        "nonfiction book page",
-        "philosophical writing",
-        "Plato",
-        "Aristotle"
+        "book page",
+        "continuous prose paragraphs",
+        "essay-like narrative text"
       ]
     },
-    "page_number": 43,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 43,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=043-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
         "main_text"
       ],
@@ -60,8 +58,8 @@
         "page": 43,
         "sequence": 1,
         "text": "finden. Willkommen in deinem Leben. Stell dir vor wie sich all diese Rituale ins Nichts verflüchtigen würden, wenn du auf einmal erkennst, dass du „durch“ einen Dschungel läufst und eine einfache Landkarte dir den Weg zu all deinen Zielen auf kürzestem Weg eröffnet. Anstatt einen überschweren Rucksack voll von Büchern und Zauberutensilien mit dir herum zu schleppen, die dir nur sehr unzuverlässig von Nutzen sind, reicht dir auf einmal ein kleiner Zettel, den du dir bequem in die Hosentasche stecken kannst und der dich zuverlässig und sicher von Ort zu Ort leitet. Welch beschwingtes Wandern dies doch wäre. Aber so leben wir nicht. Wir schleppen unser schweres Bündel mit uns herum, voll unseren eigenen Ritualen, Schätzen und Amuletten, die wir irgendwann am Ende unserer Reise gegen unsere Glücksehelichkeit eintauschen wollen. Das wurde uns schließlich versprochen.",
-        "function": "extended_metaphor",
-        "confidence": 0.96
+        "function": "metaphorical_contrast",
+        "confidence": 0.95
       },
       {
         "segment_id": "Page43_Segment2",
@@ -78,11 +76,11 @@
         "page": 43,
         "sequence": 3,
         "text": "Aber zurück zum Dschungel. Stellt euch vor, jemand tritt in eure Welt und erzählt euch, wie schön der Blick über die Baumwipfel am Morgen doch sei und ihr könntet, wenn ihr denn wolltet den selben Ausblick genießen, wenn ihr dies oder jenes tätet, zum Beispiel wenn ihr diesen besonders hohen Hügel aufsuchen würdet oder eine der Aussichtsplattformen nutzt die die Wildhüter aufgestellt haben. Er könnte euch sogar die Richtung hinaus weisen und ihr müsstet diesem Weg nur folgen um nach einer Tagesreise ans Büro der Parkwächter zu gelangen, an dem zwei mal täglich der Bus Richtung Bahnhof hält. Er würde euch dazu gerne eine Karte des Dschungels anbieten, welche er übrig hat und selbst nicht braucht, weil er diesen Ort wie seine Westentasche kennt und auch ohne Karte jeden Weg finden kann. Würdet ihr verstehen was er meint? Wohl eher nicht, denn ihr habt ja kein Konzept davon, was",
-        "function": "thought_experiment",
-        "confidence": 0.97
+        "function": "illustrative_thought_experiment",
+        "confidence": 0.96
       }
     ],
-    "free_text": "Dschungel-Metapher, Höhlengleichnis, Plato und Aristoteles"
+    "free_text": "Dschungel-Metapher, Höhlengleichnis, Plato und Aristoteles, Erkenntnisweg"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

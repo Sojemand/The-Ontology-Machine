@@ -6,47 +6,45 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:59:55.903649+00:00",
+    "processed_at": "2026-06-02T19:11:01.730730+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.95,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "philosophical_writing",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 81,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=081-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
+      "projection_id": "merged.projection.16c694851387",
       "confidence": 0.93,
-      "reason": "A nonfiction book page with continuous philosophical prose and a section heading is visible.",
+      "reason": "The visible page is a prose book page with continuous paragraphs and a section heading.",
       "matched_signals": [
-        "continuous prose paragraphs",
-        "section heading",
-        "philosophical writing"
+        "book page",
+        "continuous prose",
+        "section heading"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 81,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=081-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
-      "columns": [
-        "single_column"
-      ],
+      "columns": [],
       "form_fields": []
     },
     "fields": {},
@@ -57,6 +55,8 @@
         "unit_kind": "narrative_paragraph",
         "page": 81,
         "sequence": 1,
+        "section": null,
+        "label": null,
         "text": "Der Wissenschaftler lebt womöglich nach dem Bilde Athenes und hat sich ausschließlich dem Streben nach Wissen über ein bestimmtes Gebiet verschrieben. Dabei konkurriert er, wie Athene einst gegen Poseidon, mit seinen Kollegen im Rennen um den Nobelpreis. Er ist scharfsichtig und begabt auf seinem Gebiet und schützt schon fast eifersüchtig die Errungenschaften seines Forschungszweiges. Der Psychologe dagegen lebt wie Demeter und wünscht sich nichts lieber als seine Klienten mit neuer Kraft ausgestattet in die Welt zu entsenden, auf das ihr Leben neue Früchte tragen möge. Wie auch Demeter einst, weiß auch er um den Schmerz, welcher Hades im Stande ist zu verursachen als er Persephone raubte und auch er trägt Wunden des Verlustes in sich, die ihm die Verbindung zu anderen Menschen erleichtert.",
         "function": "comparative_characterization",
         "confidence": 0.98
@@ -66,8 +66,10 @@
         "unit_kind": "reflective_passage",
         "page": 81,
         "sequence": 2,
+        "section": null,
+        "label": null,
         "text": "Diese beiden Personen operieren mit zwei völlig verschiedenen symbolischen Welten. Jeder hat im wahrsten Sinne des Wortes einen anderen Gott und auch andere Monster die er bekämpft. Beide gewichten und filtern ihre Sinneseindrücke nach diesen Welten und bewerten alles Folgende auf diesem Fundament. Dabei sind sie sich nur vage im Klaren darüber, aus welcher Ecke diese Dinge kommen und wer bestimmt, was sie wie betrachten und wahrnehmen, was über den Zeitraum eines Lebens betrachtet zu interessanten Entwicklungen führt, die man gemeinhin als „Entwicklung der Persönlichkeit“ bezeichnet. Es ist interessant, weil solche Entwicklungen ihren Ursprung in eben jener symbolischen Welt haben und von dem Individuum selten bewusst wahrgenommen werden, obwohl sie von Außenstehenden sehr wohl sehr deutlich bemerkt werden. Wenn jemand sagt „Du hast dich verändert“, dann meint derjenige, dass sich dein Fundament, auf welchem sich deine Handlungen in der Vergangenheit gründeten, verändert hat und sich damit auch dein Ausdruck deines Selbst in der Welt. Weil du aber immer konsistent dir selbst gegenüber sein musst, so kannst du diese Veränderungen nur insofern erkennen, wie sie dir wohlgefallen. Die für Außenstehende auffälligsten Veränderungen einer Persönlichkeit sind meist für den Betreffenden völlig unsichtbar.",
-        "function": "interpretation_of_personality_change",
+        "function": "reflection_on_personality_development",
         "confidence": 0.98
       },
       {
@@ -75,6 +77,8 @@
         "unit_kind": "title_line",
         "page": 81,
         "sequence": 3,
+        "section": null,
+        "label": null,
         "text": "Von Wollen und Können",
         "function": "section_heading",
         "confidence": 0.99
@@ -84,12 +88,14 @@
         "unit_kind": "reflective_passage",
         "page": 81,
         "sequence": 4,
+        "section": "Von Wollen und Können",
+        "label": null,
         "text": "Ein Lieblingsspruch von mir lautet „Du kannst zwar tun was du willst, aber nicht wollen was du willst“. Ich finde ihn deshalb so gut, weil er einerseits eine tiefe Wahrheit über unser Selbst verrät, aber andererseits auch nur teilweise stimmt. Normalerweise trifft diese Weisheit auf eine Person während ihres gesamten Lebens zu, da die Veränderungen des Wollens auf Veränderungen in der symbolischen Welt zurückgehen und wir diese Welt in unserem",
-        "function": "introducing_argument_about_will",
+        "function": "introducing_argument",
         "confidence": 0.96
       }
     ],
-    "free_text": "philosophische Prosa, symbolische Welten, Persönlichkeitsentwicklung, Abschnitt „Von Wollen und Können“"
+    "free_text": "Essayistische Buchseite zu symbolischen Welten, Persönlichkeitsentwicklung und Abschnitt „Von Wollen und Können“"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

@@ -2,19 +2,19 @@
   "schema_version": "1.0",
   "processing": {
     "interpreter_profile": "file",
-    "model_confidence": 0.96,
+    "model_confidence": 0.97,
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:32:09.985978+00:00",
+    "processed_at": "2026-06-02T18:42:29.988128+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
+    "document_type_confidence": 0.98,
     "category": "book",
-    "subcategory": "nonfiction_book_page",
+    "subcategory": "nonfiction",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,28 +22,28 @@
   },
   "context": {
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.89,
-      "reason": "A philosophical nonfiction book page with continuous argumentative prose in paragraph form is visible.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.94,
+      "reason": "The page is a prose book page with continuous narrative text.",
       "matched_signals": [
+        "book page",
         "continuous prose",
-        "book page layout",
-        "philosophical writing"
+        "paragraph-based layout"
       ]
     },
-    "page_number": 12,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=012-of-102",
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 12,
     "document_page_count": 102,
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=012-of-102",
     "interpreter_profile": "file"
   },
   "content": {
     "structure": {
-      "type": "single_column_text_page",
+      "type": "single_column_text",
       "columns": [
         "main_text"
       ],
@@ -58,34 +58,34 @@
         "page": 12,
         "sequence": 1,
         "text": "entgehen wo immer es geht. Im Laufe dieses Buches wird diese Eigenschaft unseres Geistes immer wieder auftauchen.",
-        "function": "carry_forward_transition",
-        "confidence": 0.96
-      },
-      {
-        "segment_id": "Page12_Segment2",
-        "unit_kind": "reflective_passage",
-        "page": 12,
-        "sequence": 2,
-        "text": "Jede Aktion, jede Entscheidung und jedes Wort muss immer und unter allen Umständen im Einklang mit deiner eigenen Selbstwahrnehmung stehen. Ist es das nicht, so leiden wir solange mentale (bisweilen auch körperliche) Schmerzen, bis eine neue Absprache, eine neue Widerspruchsfreiheit hergestellt wurde. Das ist eine gar furchtbare Eigenschaft des Geistes, welche ganze Fitnessstudios am Leben hält, obwohl dort nie jemand auftaucht und ein jedes Mitglied fest davon überzeugt ist, eines Tages dort zu erscheinen um sein Leben endlich umzukrempeln. Nur gerade jetzt nicht, wo noch so viel Arbeit auf dem Tisch liegt oder diese Serie läuft die man endlich ansehen will, man gerade zu müde ist, schlechtes Wetter herrscht, es zu heiß oder zu kalt ist. Aber irgendwann, ja, irgendwann ist es soweit und dann kann ich einfach dort hinein marschieren und loslegen, dann steht mir nichts mehr im Weg. Diese Gewissheit aufrecht zu erhalten, das ist mir der monatliche Mitgliedsbeitrag wert. Schon lustig wie das funktioniert. Und ja, dies war eine Parodie.",
-        "function": "illustrates_self_consistency_drive",
+        "function": "transition_statement",
         "confidence": 0.97
       },
       {
+        "segment_id": "Page12_Segment2",
+        "unit_kind": "narrative_paragraph",
+        "page": 12,
+        "sequence": 2,
+        "text": "Jede Aktion, jede Entscheidung und jedes Wort muss immer und unter allen Umständen im Einklang mit deiner eigenen Selbstwahrnehmung stehen. Ist es das nicht, so leiden wir solange mentale (bisweilen auch körperliche) Schmerzen, bis eine neue Absprache, eine neue Widerspruchsfreiheit hergestellt wurde. Das ist eine gar furchtbare Eigenschaft des Geistes, welche ganze Fitnessstudios am Leben hält, obwohl dort nie jemand auftaucht und ein jedes Mitglied fest davon überzeugt ist, eines Tages dort zu erscheinen um sein Leben endlich umzukrempeln. Nur gerade jetzt nicht, wo noch so viel Arbeit auf dem Tisch liegt oder diese Serie läuft die man endlich ansehen will, man gerade zu müde ist, schlechtes Wetter herrscht, es zu heiß oder zu kalt ist. Aber irgendwann, ja, irgendwann ist es soweit und dann kann ich einfach dort hinein marschieren und loslegen, dann steht mir nichts mehr im Weg. Diese Gewissheit aufrecht zu erhalten, das ist mir der monatliche Mitgliedsbeitrag wert. Schon lustig wie das funktioniert. Und ja, dies war eine Parodie.",
+        "function": "illustrative_argument",
+        "confidence": 0.98
+      },
+      {
         "segment_id": "Page12_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 12,
         "sequence": 3,
         "text": "Weniger lustig wird es, wenn es um ernstere Dinge geht. Wenn es darum geht, an einem Investment festzuhalten, welches Stück für Stück die Ersparnisse eines ganzen Lebens zerstört. Wenn man an einem Beruf festhält, der dich innerlich zerfrisst oder eine Ehe führt, die dir dein Leben zur Hölle macht. All das lebt davon, dass wir so verzweifelt daran festhalten müssen, in uns und unserem Handeln keine Widersprüche aufdecken zu müssen die uns zeigen, dass wir es selbst sind die all das herbei geführt haben was uns so schmerzt. Wenn es denn nur dabei bleiben würde, könnte man sich noch damit abfinden und dies als Tragik des Lebens hinnehmen. Tut es aber nicht, denn genau dieses unkontrollierbare Verlangen ist es auch, was unsere Wahrnehmung des Bösen bestimmt.",
-        "function": "extends_argument_to_serious_harm",
+        "function": "warning_argument",
         "confidence": 0.98
       },
       {
         "segment_id": "Page12_Segment4",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 12,
         "sequence": 4,
         "text": "Das Verlangen uns gegenüber Widerspruchsfrei zu sein ist es auch, was andere uns gegenüber als Böse erscheinen lässt. Ich würde all meine Ersparnisse darauf verwetten, dass, wenn ich mir eine zufällige Person von der Straße greifen und sie fragen würde, ob sie glaube sie sei böse, sie mir entrüstet oder verwirrt entgegnete „Natürlich nicht!“. Würde ich die gleiche Person nun fragen, ob sie glaube es gäbe böse Menschen, die Antwort wäre wohl ein überzeugtes „Ja“. Aber wenn jeder denkt er sei kein böser Mensch, wo sind dann all die bösen Menschen? Nun, sie existieren nicht in dem Sinne wie wir es denken. Böse sind stets die Anderen. „Böse“ in diesem Kontext bedeutet, bewusst etwas Falsches zu tun. Allerdings kannst du nichts tun, was in deinen Augen bewusst falsch ist, das können nur Andere.",
-        "function": "argues_evil_is_projected_onto_others",
+        "function": "conceptual_explanation",
         "confidence": 0.98
       }
     ],

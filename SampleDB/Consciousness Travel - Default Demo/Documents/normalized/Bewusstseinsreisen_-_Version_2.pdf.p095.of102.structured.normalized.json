@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.95,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:05:40Z",
+    "processed_at": "2026-06-02T19:16:42Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.94,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -22,16 +22,9 @@
   "context": {
     "company": null,
     "document_date": null,
-    "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical discussion of self-deception, ego, and the limits of self-knowledge. It argues that people often mistake their own assumptions for reality and that mutual understanding requires a shared standard for judging who misunderstands whom.",
-    "tags": [
-      "self-deception",
-      "ego",
-      "self-knowledge",
-      "understanding",
-      "standards of judgment",
-      "philosophical discussion"
-    ],
+    "document_title": null,
+    "description": "Philosophical prose on the limits of self-knowledge, ego, and mutual misunderstanding. It argues that people often project their own assumptions outward and need a shared measure to judge what each side can or cannot understand.",
+    "tags": [],
     "people": [],
     "organizations": [],
     "locations": [],
@@ -41,68 +34,71 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Translated the German prose summary into English.",
-      "Mapped raw category and subcategory to the closest supported nonfiction book body content / theoretical discussion codes."
-    ],
-    "recipient_primary": null,
-    "property_address": null
+      "Continuous prose page from a German book on consciousness and self-reflection.",
+      "Title inferred from source file name: Bewusstseinsreisen."
+    ]
   },
   "content": {
     "structure": {
       "type": "text",
       "columns": [
-        "paragraph_text"
+        "paragraph_text",
+        "text_content"
       ],
       "form_fields": [
         "work_title",
-        "language",
         "page_number",
-        "topic_keywords"
+        "language"
       ]
     },
     "fields": {
-      "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "work_title": "Bewusstseinsreisen",
       "page_number": 95,
-      "topic_keywords": [
-        "self-deception",
-        "ego",
-        "blindness",
-        "understanding",
-        "shared standard",
-        "intelligence"
-      ]
+      "language": "de"
     },
     "rows": [
       {
         "_row_type": "paragraph_block",
         "_row_index": 0,
-        "paragraph_text": "The text argues that people can deceive themselves by overvaluing their own ideas and treating them as more real than they are. It extends this problem to interpersonal disagreement, where a shared standard is needed to judge misunderstanding and avoid circular attempts to prove oneself right. An illustrative example uses differences in intelligence to show how easily a gap visible to one person can be invisible and hurtful to another."
+        "paragraph_text": "People easily deceive, exaggerate, and separate themselves from themselves, mistaking their own ideas for reality.",
+        "text_content": "People easily deceive, exaggerate, and separate themselves from themselves, mistaking their own ideas for reality."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "Without a shared standard, two people cannot know whether the other is speaking nonsense or whether they are simply hearing nonsense because they do not understand.",
+        "text_content": "Without a shared standard, two people cannot know whether the other is speaking nonsense or whether they are simply hearing nonsense because they do not understand."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The text uses IQ comparisons to show how knowledge gaps can be obvious to one person and deeply offensive or invisible to another.",
+        "text_content": "The text uses IQ comparisons to show how knowledge gaps can be obvious to one person and deeply offensive or invisible to another."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Philosophical nonfiction page on self-deception, ego, mutual misunderstanding, and the need for a shared standard of judgment."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Book page from Bewusstseinsreisen, page 95, in German. Philosophical reflection on consciousness, ego, self-deception, and the difficulty of mutual understanding without a shared standard."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.93,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.93 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.95,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.95 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }

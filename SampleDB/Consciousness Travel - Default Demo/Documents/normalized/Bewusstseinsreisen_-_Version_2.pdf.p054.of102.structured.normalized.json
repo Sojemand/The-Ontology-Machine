@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:49:17Z",
+    "processed_at": "2026-06-02T19:00:16Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.99,
-    "category": "book_body_content",
-    "subcategory": "chapter_section",
+    "category": "nonfiction_philosophy",
+    "subcategory": "dreams_and_altered_states",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,14 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophy book chapter section examines dreams as a way to question conventional ideas of consciousness. The author rejects vague esoteric claims and argues that dream experience reveals a discontinuity between waking awareness and what remains outside it.",
+    "description": "Chapter 4, \"When Consciousness Makes Jumps,\" opens a section on dreams and other delusions. The author distances the argument from esoteric claims and presents dreams as a way to examine what consciousness becomes in sleep. The prose argues that dream experience is irrational, rule-free, and often forgettable from waking awareness.",
     "tags": [
+      "chapter 4",
       "consciousness",
       "dreams",
-      "esoteric critique",
-      "dream experience",
-      "waking awareness"
+      "waking awareness",
+      "esotericism",
+      "irrationality"
     ],
     "people": [],
     "organizations": [],
@@ -40,76 +41,100 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Translated German headings into English-controlled semantic summary only; original title retained in source-derived work title.",
-      "Classified as chapter_section because the page contains chapter and section headings plus continuous argumentative prose."
+      "Translated German headings and prose into English control-language summary.",
+      "No exact book work title beyond the visible file-derived title."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "mixed",
+      "type": "text",
       "columns": [
+        "heading_text",
+        "page_number",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
+        "chapter_heading",
+        "chapter_number",
+        "chapter_title",
         "language",
         "page_number",
-        "chapter_title",
-        "section_title",
-        "topic_keywords"
+        "section_heading"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
+      "chapter_heading": "Chapter 4 – When Consciousness Makes Jumps",
+      "chapter_number": "4",
+      "chapter_title": "When Consciousness Makes Jumps",
       "language": "de",
       "page_number": 54,
-      "chapter_title": "Chapter 4 – When Consciousness Makes Jumps",
-      "section_title": "Dreams and Other Delusions",
-      "topic_keywords": [
-        "consciousness",
-        "dreams",
-        "waking and sleeping",
-        "esotericism",
-        "awareness"
-      ]
+      "section_heading": "Dreams and Other Delusions"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "chapter_heading",
         "_row_index": 0,
-        "paragraph_text": "The author positions the discussion against vague modern esoteric claims and says experience must be personal rather than blindly believed. The section introduces dreams as a way to examine what lies beyond the horizon of waking awareness."
+        "heading_text": "Chapter 4 – When Consciousness Makes Jumps",
+        "page_number": 54,
+        "text_content": "Chapter 4 heading"
+      },
+      {
+        "_row_type": "section_block",
+        "_row_index": 1,
+        "heading_text": "Dreams and Other Delusions",
+        "page_number": 54,
+        "text_content": "Section heading"
       },
       {
         "_row_type": "paragraph_block",
-        "_row_index": 1,
-        "paragraph_text": "Dreams are described as fantastic worlds that ignore physical law, causality, and continuity, making them appear grotesque from the standpoint of waking consciousness. The text uses this contrast to argue that dream life exposes how much waking awareness forgets about what falls outside it."
+        "_row_index": 2,
+        "paragraph_text": "The author rejects esoteric explanations and says consciousness can unfold beyond ordinary waking experience.",
+        "page_number": 54,
+        "text_content": "The author rejects esoteric explanations and says consciousness can unfold beyond ordinary waking experience."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "Dreams are presented as a subject that reveals what consciousness becomes in sleep and how waking awareness forgets what falls outside its light.",
+        "page_number": 54,
+        "text_content": "Dreams are presented as a subject that reveals what consciousness becomes in sleep and how waking awareness forgets what falls outside its light."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 4,
+        "paragraph_text": "Dreams are described as fantastical, rule-free worlds in which physics, causality, and continuity break down and thought becomes irrational.",
+        "page_number": 54,
+        "text_content": "Dreams are described as fantastical, rule-free worlds in which physics, causality, and continuity break down and thought becomes irrational."
       }
     ],
-    "free_text": "book_page book_body_content chapter_section Chapter 4: When Consciousness Makes Jumps. Section on dreams and other delusions. Philosophical discussion of consciousness, dream experience, and the limits of waking awareness."
+    "free_text": "book_page nonfiction_philosophy dreams_and_altered_states Book page from Bewusstseinsreisen - Version 2. Chapter 4, \"When Consciousness Makes Jumps,\" section \"Dreams and Other Delusions.\" Discusses dreams, waking awareness, and the rejection of esoteric interpretations."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.97,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=23; confidence=0.97 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=26; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-26."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.97 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

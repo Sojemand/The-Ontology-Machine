@@ -5,15 +5,15 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T08:45:37Z",
+    "processed_at": "2026-06-02T18:56:37Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
     "document_type_confidence": 0.97,
-    "category": "book_body_content",
-    "subcategory": "theoretical_discussion",
+    "category": "nonfiction_philosophy",
+    "subcategory": "philosophy_of_consciousness",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A philosophical nonfiction passage develops the idea of \"two-track awareness\" by distinguishing awareness from attention. It contrasts outward and inward attention and argues that awareness can encompass both the speaker and the surrounding situation at once.",
+    "description": "A philosophical prose passage defines consciousness as distinct from attention and contrasts outward and inward attention with a more universal, non-targeted awareness. It introduces the idea of \"two-track awareness\" and argues that pure awareness can encompass both the speaker and the surrounding context.",
     "tags": [
+      "consciousness",
       "awareness",
       "attention",
-      "consciousness",
-      "philosophy",
-      "reflective questioning"
+      "self-awareness",
+      "philosophy"
     ],
     "people": [],
     "organizations": [],
@@ -40,79 +40,78 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
       "category": "book",
-      "subcategory": "philosophical_writing"
+      "subcategory": "nonfiction"
     },
     "normalization_notes": [
-      "Translated German section heading into English for retrieval text.",
-      "No exact chapter boundary is visible; classified as theoretical discussion within book body content."
+      "Translated German prose and heading into English control-language summary.",
+      "No chapter number or title was explicitly visible beyond the section heading."
     ],
     "recipient_primary": null,
     "property_address": null
   },
   "content": {
     "structure": {
-      "type": "mixed",
+      "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
-        "page_number",
         "section_heading",
-        "topic_keywords"
+        "page_number",
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "section_heading": "Two-Track Awareness",
       "page_number": 45,
-      "section_heading": "Das zweigleisige Gewahrsein",
-      "topic_keywords": [
-        "awareness",
-        "attention",
-        "consciousness",
-        "inner and outer attention",
-        "two-track awareness"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "section_block",
         "_row_index": 0,
-        "paragraph_text": "Reflective questions ask how awareness can expand beyond limited self-awareness and open access to new information and possibilities."
+        "heading_text": "Two-Track Awareness",
+        "text_content": "Defines consciousness as broader than attention and distinguishes outward and inward attention from a more universal awareness."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 1,
-        "paragraph_text": "The section \"Two-track awareness\" distinguishes awareness from attention, arguing that attention can be directed outward or inward while awareness can encompass the whole situation."
+        "paragraph_text": "Awareness can encompass a conversation, the speaker, and the surrounding environment without being narrowed to a single target.",
+        "text_content": "Pure awareness can include the conversation, the speaker, and the surrounding environment."
       },
       {
         "_row_type": "paragraph_block",
         "_row_index": 2,
-        "paragraph_text": "It presents awareness as capable of simultaneously registering the speaker, the conversation, and the surrounding environment without being narrowed by a single aim."
+        "paragraph_text": "Outward attention and inward attention are contrasted, and the text argues that pure awareness is not limited by goals or distracting thoughts.",
+        "text_content": "Outward and inward attention are contrasted with pure awareness that is not limited by goals or distracting thoughts."
       }
     ],
-    "free_text": "book_page book_body_content theoretical_discussion Book page on awareness and attention. Section: Two-track awareness. Topics: awareness, attention, consciousness, inner and outer attention, two-track awareness."
+    "free_text": "book_page nonfiction_philosophy philosophy_of_consciousness Book page from Bewusstseinsreisen - Version 2 on consciousness and awareness. Section heading: Two-Track Awareness. The passage contrasts attention with broader awareness and describes pure awareness as encompassing both the conversation and its context."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
-      "hint_confidence": 0.94,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.94 => confidence_bonus=3; verified_hint_signals=0/3 [none]; adjusted_hint_score=9; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-9."
+      "hint_projection_id": "merged.projection.16c694851387",
+      "hint_confidence": 0.92,
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=8; confidence=0.92 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=12; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-12."
     }
   }
 }

@@ -6,53 +6,53 @@
     "needs_review": false,
     "review_reason": null,
     "vision_used": true,
-    "processed_at": "2026-06-12T08:28:24.209980+00:00",
+    "processed_at": "2026-06-02T18:38:55.905056+00:00",
     "model": "gpt-5.4",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.98,
-    "category": "book",
-    "subcategory": "foreword",
+    "document_type_confidence": 0.99,
+    "category": "publication",
+    "subcategory": "book",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
     "page_count": 102
   },
   "context": {
-    "page_number": 3,
-    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
-    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=003-of-102",
     "projection_hint": {
-      "projection_id": "merged.projection.e06f90b85302",
-      "confidence": 0.97,
-      "reason": "A philosophical book page is visible with a title, the heading “Vorwort”, and continuous prose paragraphs.",
+      "projection_id": "merged.projection.16c694851387",
+      "confidence": 0.96,
+      "reason": "A book page is visible with a title, section heading, and continuous prose.",
       "matched_signals": [
-        "vorwort",
-        "heading",
-        "paragraph"
+        "book page",
+        "title",
+        "section heading",
+        "continuous prose"
       ]
     },
     "date_range": {
       "from": null,
       "to": null
     },
+    "page_number": 3,
     "document_page_count": 102,
-    "interpreter_profile": "file",
-    "document_title": "Die Reise zu den Grenzen des Bewusstseins und zurück"
+    "source_document_path": "Bewusstseinsreisen - Version 2.pdf",
+    "page_source_path": "Bewusstseinsreisen - Version 2.pdf::page=003-of-102",
+    "interpreter_profile": "file"
   },
   "content": {
     "structure": {
       "type": "single_column_text_page",
       "columns": [
-        "main_text"
+        "main"
       ],
       "form_fields": []
     },
     "fields": {
-      "title": "Die Reise zu den Grenzen des Bewusstseins und zurück",
-      "section_heading": "Vorwort"
+      "page_title": "Die Reise zu den Grenzen des Bewusstseins und zurück",
+      "section_title": "Vorwort"
     },
     "rows": [],
     "segments": [
@@ -80,7 +80,7 @@
       },
       {
         "segment_id": "Page3_Segment3",
-        "unit_kind": "reflective_passage",
+        "unit_kind": "narrative_paragraph",
         "page": 3,
         "sequence": 3,
         "section": "Vorwort",
@@ -97,7 +97,7 @@
         "section": "Vorwort",
         "label": null,
         "text": "Stattdessen fiel mir während des Schreibens auf, dass ich dem geneigten Leser so einiges abverlange, nicht nur was den Inhalt betrifft, sondern auch durch die Art, wie ich meine Gedanken auszudrücken pflege. Wer ließt schon gerne verschachtelte Sätze, die meine Obsession zur optimalen Informationsdichte widerspiegeln? Schlimmer wurde es noch, wenn ich die Audio Variante betrachte, denn dort muss der Zuhörer auch noch meine Stimme ertragen. So lasst mich direkt mit einer Entschuldigung beginnen, denn ich bin mir sehr wohl darüber bewusst, dass mein Stil nicht jedem entgegen kommen wird.",
-        "function": "apology_for_style",
+        "function": "apology_and_reader_preparation",
         "confidence": 0.97
       },
       {
@@ -108,7 +108,7 @@
         "section": "Vorwort",
         "label": null,
         "text": "Ich habe mich redlich bemüht, all dies nicht zu sehr ausufern zu lassen. Dieses Buch ist ein Kompromiss aus meinen eigenen Idealen stets nach Perfektion zu streben und der Realität meiner eignen Faulheit. Würde ich es so schreiben, wie ich es mir erträume, ausgeschmückt mit allen möglichen ausschweifenden Zitaten aus allen Quellen die zur Entstehung dieses Werkes beigetragen haben, gespickt mit allen akademischen Stilmitteln, so hätte ich dieses Buch nie geschrieben, weil es wohl nie meinen Ansprüchen gerecht geworden wäre.",
-        "function": "justify_compromise",
+        "function": "justification_of_style",
         "confidence": 0.97
       },
       {
@@ -119,8 +119,8 @@
         "section": "Vorwort",
         "label": null,
         "text": "Da ich es aber doch irgendwie schreiben musste, entschied ich mich, beide Seiten der Medaille gleichermaßen zu enttäuschen. Ich hielt meine Faulheit davon fern sich einzumischen mit dem Versprechen, dass es nur eine Art kurze Geschichte all der Dinge wird die mir während den Jahrzehnten dieser seltsamen Reise begegnet sind und sie sicher nicht sehr lang werden wird. Meine Perfektion knebelte ich mit dem Versprechen, ihr mindestens zu 80% gerecht zu werden. Heraus gekommen ist etwas, was ich dann auch tatsächlich in die Realität umsetzen konnte, ohne zwischen Skylla und Charybtis zerrieben zu werden. Besser als nichts und etwas, mit dem ich gut leben kann.",
-        "function": "explain_writing_approach",
-        "confidence": 0.98
+        "function": "explaining_compromise",
+        "confidence": 0.97
       },
       {
         "segment_id": "Page3_Segment7",
@@ -131,10 +131,10 @@
         "label": null,
         "text": "Da mir jeder nun hoffentlich mein Mea culpa abgekauft hat und weiter ließt, auch wenn ihm zeitweise nicht ganz klar ist worauf ich hinaus will, dem sei mein Dank gewiss, denn es gibt",
         "function": "gratitude_to_reader",
-        "confidence": 0.95
+        "confidence": 0.93
       }
     ],
-    "free_text": "Buchtitel, Vorwort, selbstreflexive Einleitung, Entschuldigung für Stil"
+    "free_text": "Buchtitel, Vorwort, selbstreflexive Einleitung"
   },
   "source": {
     "file_name": "Bewusstseinsreisen - Version 2.pdf",

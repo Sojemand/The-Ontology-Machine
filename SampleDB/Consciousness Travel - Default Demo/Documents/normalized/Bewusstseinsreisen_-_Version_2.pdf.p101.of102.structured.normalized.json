@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "processing": {
-    "model_confidence": 0.98,
+    "model_confidence": 0.96,
     "needs_review": false,
     "review_reason": null,
     "vision_used": false,
-    "processed_at": "2026-06-12T09:08:05Z",
+    "processed_at": "2026-06-02T19:19:08Z",
     "model": "gpt-5.4-mini",
     "provider": "openai_oauth"
   },
   "classification": {
     "document_type": "book_page",
-    "document_type_confidence": 0.97,
-    "category": "book_back_matter",
-    "subcategory": "reference_section",
+    "document_type_confidence": 0.98,
+    "category": "nonfiction_philosophy",
+    "subcategory": "consciousness_essay",
     "language": "de",
     "is_scan": false,
     "has_handwriting": false,
@@ -23,13 +23,13 @@
     "company": null,
     "document_date": null,
     "document_title": "Bewusstseinsreisen - Version 2",
-    "description": "A closing section of a philosophical book titled \"Überlegungen zum Ende\" thanks the reader, reflects on unresolved questions, and ends with a farewell. It then introduces a list of sources and inspirations, noting that the bibliography is incomplete and excludes interviews, podcasts, and personal experiences.",
+    "description": "Closing page from a reflective German book chapter titled \"Überlegungen zum Ende\". It thanks the reader, ends with a philosophical farewell, and introduces a list of sources and inspirations including interviews, podcasts, and personal experiences with psychoactive substances.",
     "tags": [
-      "closing section",
+      "closing reflection",
       "thanks",
-      "unresolved questions",
       "sources",
-      "philosophical reflection"
+      "psychoactive substances",
+      "philosophy of consciousness"
     ],
     "people": [],
     "organizations": [],
@@ -40,15 +40,14 @@
     },
     "currencies": [],
     "total_monetary_value": null,
-    "taxonomy_profile_id": "merged.projection.e06f90b85302",
+    "taxonomy_profile_id": "merged.projection.16c694851387",
     "raw_classification": {
       "document_type": "book_page",
-      "category": "book",
-      "subcategory": "philosophical_writing"
+      "category": "publication",
+      "subcategory": "book"
     },
     "normalization_notes": [
-      "Translated visible German headings and prose into English control-language values.",
-      "Classified as back matter because the page closes the work and introduces sources."
+      "Translated visible headings and prose to English in the summary while keeping the source book title unchanged."
     ],
     "recipient_primary": null,
     "property_address": null
@@ -57,52 +56,64 @@
     "structure": {
       "type": "text",
       "columns": [
+        "heading_text",
+        "text_content",
         "paragraph_text"
       ],
       "form_fields": [
         "work_title",
-        "language",
+        "chapter_heading",
         "page_number",
-        "section_heading",
-        "topic_keywords"
+        "language",
+        "source_file_name"
       ]
     },
     "fields": {
       "work_title": "Bewusstseinsreisen - Version 2",
-      "language": "de",
+      "chapter_heading": "Überlegungen zum Ende",
       "page_number": 101,
-      "section_heading": "Überlegungen zum Ende",
-      "topic_keywords": [
-        "closing reflection",
-        "sources",
-        "gratitude",
-        "unresolved questions",
-        "philosophical writing"
-      ]
+      "language": "de",
+      "source_file_name": "Bewusstseinsreisen - Version 2.pdf"
     },
     "rows": [
       {
-        "_row_type": "paragraph_block",
+        "_row_type": "chapter_heading",
         "_row_index": 0,
-        "paragraph_text": "Closing reflection thanking the reader, expressing unresolved questions, and ending with a farewell. The section then introduces source material and notes that the list is incomplete."
+        "heading_text": "Überlegungen zum Ende",
+        "text_content": "Überlegungen zum Ende"
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 1,
+        "paragraph_text": "The author thanks the reader for reaching this point and adds a final remark of personal significance."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 2,
+        "paragraph_text": "The closing reflection says many of the questions remain unanswered, criticizes futile group attempts and self-defeating patterns, and ends by noting that the book returns to where it began."
+      },
+      {
+        "_row_type": "paragraph_block",
+        "_row_index": 3,
+        "paragraph_text": "It ends with a farewell to the reader and a promise of sources that inspired the work over the years, including books, interviews, podcasts, and the author's own experiences."
       }
     ],
-    "free_text": "book_page book_back_matter reference_section Book page in German from \"Bewusstseinsreisen - Version 2\". Closing reflection, thanks, unresolved questions, farewell, and introduction to an incomplete sources list."
+    "free_text": "book_page nonfiction_philosophy consciousness_essay Closing chapter of Bewusstseinsreisen - Version 2, chapter heading Überlegungen zum Ende, with thanks, philosophical farewell, unresolved questions, and a source list introduction."
   },
   "projection": {
-    "projection_id": "merged.projection.e06f90b85302",
+    "projection_id": "merged.projection.16c694851387",
     "projection_family": "custom",
-    "master_taxonomy_id": "merged.taxonomy.c7da1ee335a1",
+    "master_taxonomy_id": "merged.taxonomy.85e1f714f884",
     "master_taxonomy_version": "merged.v1",
     "projection_version": "merged.v1",
-    "projection_fingerprint": "sha256:cbc5933f987f996410fb950e4d49ccf0845a0d078419803e3b7933061bceacba",
+    "projection_fingerprint": "sha256:fb1b1d7e6cbb681c33b6c40de1d70e5fadd6c54beeb2ef680031d839b7a324d6",
     "materialization_profile_id": "document_entities.v1",
     "selection": {
       "mode": "hint_validated",
-      "hint_projection_id": "merged.projection.e06f90b85302",
+      "hint_projection_id": "merged.projection.16c694851387",
       "hint_confidence": 0.96,
-      "catalog_version": "sha256:d68140e34dc2328b674c7fd8b187584835ca7f2b0bfde2ae5d4c6f5133627da7",
-      "reason": "Interpreter hint merged.projection.e06f90b85302 accepted: hint=merged.projection.e06f90b85302 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.e06f90b85302 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
+      "catalog_version": "sha256:c6bd600d4348b760ba210bd2a893fbcde502620ca53ee7f10c20d33753f5f67a",
+      "reason": "Interpreter hint merged.projection.16c694851387 accepted: hint=merged.projection.16c694851387 local_score=6; confidence=0.96 => confidence_bonus=3; verified_hint_signals=1/3 [book page]; adjusted_hint_score=10; best_challenger=merged.projection.16c694851387 local_score=0 [none]; reject_margin=3; challenger_delta=-10."
     }
   }
 }
