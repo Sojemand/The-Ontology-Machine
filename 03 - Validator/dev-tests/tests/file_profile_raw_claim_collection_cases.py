@@ -108,6 +108,63 @@ def test_file_profile_splits_layout_lines_before_numeric_claim_parsing():
     assert "num:210.8" in claims
 
 
+def test_file_profile_ignores_bracketed_transcript_timecodes():
+    raw_payload = file_raw(
+        content_hash="sha256:file-transcript-timecodes",
+        sections=[
+            (
+                "[00:02:36.520 - 00:02:39.680] Reported 42 people.\n"
+                "[00:02:39.760 -\n00:02:41.640] Confirmed 7 more."
+            )
+        ],
+    )
+
+    claims = collect_raw_claims(raw_payload)
+
+    assert "num:42" in claims
+    assert "num:7" in claims
+    assert "num:0" not in claims
+    assert "num:2" not in claims
+    assert "num:36.52" not in claims
+    assert "num:39.68" not in claims
+    assert "num:39.76" not in claims
+    assert "num:41.64" not in claims
+
+
+def test_file_profile_ignores_vtt_and_srt_cue_timecodes():
+    raw_payload = file_raw(
+        content_hash="sha256:file-vtt-srt-timecodes",
+        sections=[
+            "00:02:36,520 --> 00:02:39,680\nReported 42 people.",
+            "00:03:31.640 --> 00:03:35.160\nConfirmed 7 more.",
+        ],
+    )
+
+    claims = collect_raw_claims(raw_payload)
+
+    assert "num:42" in claims
+    assert "num:7" in claims
+    assert "num:0" not in claims
+    assert "num:2" not in claims
+    assert "num:3" not in claims
+    assert "num:36.52" not in claims
+    assert "num:39.68" not in claims
+    assert "num:31.64" not in claims
+    assert "num:35.16" not in claims
+
+
+def test_file_profile_does_not_mask_ordinary_clock_times():
+    raw_payload = file_raw(
+        content_hash="sha256:file-clock-time",
+        sections=["Die Sendung beginnt um 20:00 Uhr mit 42 Meldungen."],
+    )
+
+    claims = collect_raw_claims(raw_payload)
+
+    assert "num:20" in claims
+    assert "num:42" in claims
+
+
 def test_file_profile_keeps_space_grouped_numbers_inside_one_line():
     raw_payload = file_raw(
         content_hash="sha256:file-space-grouped-number",

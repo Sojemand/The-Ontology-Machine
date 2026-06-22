@@ -11,7 +11,16 @@ from .numeric_claim_types import ClaimEvidence
 
 _HTML_TAG_RE = re.compile(r"<[^<>]+>")
 _LAYOUT_BOUNDARY_RE = re.compile(r"[\t\n\r\f\v]+")
+_LAYOUT_CONTROL_CHARS = {"\t", "\n", "\r", "\f", "\v"}
 _STANDALONE_INT_RE = re.compile(r"^\s*(\d{1,4})\s*$")
+_TIMECODE = r"\d{1,2}:\d{2}(?::\d{2})?(?:[\.,]\d{1,3})?"
+_FULL_TIMECODE = r"\d{1,2}:\d{2}:\d{2}(?:[\.,]\d{1,3})?"
+_TRANSCRIPT_TIMECODE_PATTERNS = (
+    re.compile(rf"\[\s*{_TIMECODE}\s*(?:(?:-->|[-\u2013\u2014])\s*{_TIMECODE}\s*)?\]", re.MULTILINE),
+    re.compile(rf"(?<![A-Za-z0-9]){_TIMECODE}\s*-->\s*{_TIMECODE}(?![A-Za-z0-9])", re.MULTILINE),
+    re.compile(rf"(?<![A-Za-z0-9]){_FULL_TIMECODE}\s*[-\u2013\u2014]\s*{_FULL_TIMECODE}(?![A-Za-z0-9])", re.MULTILINE),
+    re.compile(rf"(?<![A-Za-z0-9]){_FULL_TIMECODE}(?![A-Za-z0-9])", re.MULTILINE),
+)
 _FRONTMATTER_KEY_RE = re.compile(
     r"(?i)\b("
     r"source_url|source_domain|source_name|title|author|published_at|fetched_at|"
@@ -113,7 +122,7 @@ def _collect_scalar_claims(value: Any, field_path: str, claims: dict[str, ClaimE
             )
         return
     if isinstance(value, str):
-        text = _strip_html_markup(value)
+        text = _mask_transcript_timecodes(_strip_html_markup(value))
         for chunk_path, chunk in _iter_layout_chunks(text, field_path):
             _collect_string_claims(chunk, chunk_path, claims)
         return
@@ -169,6 +178,17 @@ def _strip_html_markup(value: str) -> str:
     if stripped == value:
         return value
     return html.unescape(stripped)
+
+
+def _mask_transcript_timecodes(value: str) -> str:
+    text = value
+    for pattern in _TRANSCRIPT_TIMECODE_PATTERNS:
+        text = pattern.sub(_blank_preserving_layout, text)
+    return text
+
+
+def _blank_preserving_layout(match: re.Match[str]) -> str:
+    return "".join(char if char in _LAYOUT_CONTROL_CHARS else " " for char in match.group(0))
 
 
 def _is_edge_page_marker(value: Any, *, index: int, total: int, raw_payload: dict[str, Any]) -> bool:
