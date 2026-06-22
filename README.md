@@ -22,6 +22,13 @@ implementation of a large solo-built research tool. It is not a cloud service,
 not a polished SaaS product, and not a guaranteed field-hardened enterprise
 deployment.
 
+> [!TIP]
+> **New here?** Watch the 4-part Ontology Machine screencast series:
+> [01 Install and Credentials](https://www.youtube.com/watch?v=b25x9byqWwE) ·
+> [02 Query Agent](https://www.youtube.com/watch?v=7yyQ9YJ1cQo) ·
+> [03 Taxonomy Agent](https://www.youtube.com/watch?v=R6yjP_hOvD8) ·
+> [04 Ontology Agent](https://www.youtube.com/watch?v=lx2M67K3n0c)
+
 ## Research Context
 
 The Ontology Machine is the software artifact behind the position paper
