@@ -21,6 +21,8 @@ PATH_BUDGET = 240
 DEFAULT_COOKIES_FILENAME = "cookies.txt"
 COOKIE_MODES = {"auto", "none", "brave", "edge", "chrome", "firefox", "file"}
 COOKIE_BROWSER_MODES = {"brave", "edge", "chrome", "firefox"}
+MANUAL_SUBTITLE_FORMAT_PREFERENCE = ("vtt", "json3", "ttml", "srv3")
+AUTO_SUBTITLE_FORMAT_PREFERENCE = ("json3", "srv3", "ttml", "vtt")
 COOKIE_BROWSER_LABELS = {
     "brave": "Brave",
     "edge": "Edge",
@@ -287,7 +289,7 @@ def _transcript_from_info(url: str, info: dict[str, Any], options: TranscriptOpt
     if not subtitle_url:
         raise RuntimeError("Selected subtitle entry has no download URL.")
     raw_subtitles = _fetch_subtitle_text(subtitle_url, ydl)
-    segments = _parse_subtitle_text(raw_subtitles, ext)
+    segments = _parse_subtitle_text(raw_subtitles, ext, subtitle_source=source)
     return Transcript(
         url=str(info.get("webpage_url") or url),
         video_id=str(info.get("id") or sha256_text(url)[:12]),
@@ -306,14 +308,14 @@ def _transcript_from_info(url: str, info: dict[str, Any], options: TranscriptOpt
 def _select_subtitle(info: dict[str, Any], requested_language: str, allow_auto: bool) -> tuple[str, str, dict[str, Any]]:
     requested = requested_language.strip() or "de"
     subtitles = info.get("subtitles") if isinstance(info.get("subtitles"), dict) else {}
-    selected = _select_language_entry(subtitles, requested)
+    selected = _select_language_entry(subtitles, requested, MANUAL_SUBTITLE_FORMAT_PREFERENCE)
     if selected is not None:
         language, entry = selected
         return language, "youtube_subtitles", entry
 
     if allow_auto:
         auto = info.get("automatic_captions") if isinstance(info.get("automatic_captions"), dict) else {}
-        selected = _select_language_entry(auto, requested)
+        selected = _select_language_entry(auto, requested, AUTO_SUBTITLE_FORMAT_PREFERENCE)
         if selected is not None:
             language, entry = selected
             return language, "youtube_auto_subtitles", entry
@@ -324,14 +326,18 @@ def _select_subtitle(info: dict[str, Any], requested_language: str, allow_auto: 
     raise RuntimeError(f"No subtitles found for language '{requested}'.{suffix}")
 
 
-def _select_language_entry(subtitle_map: dict[str, Any], requested: str) -> tuple[str, dict[str, Any]] | None:
+def _select_language_entry(
+    subtitle_map: dict[str, Any],
+    requested: str,
+    preferred_exts: tuple[str, ...],
+) -> tuple[str, dict[str, Any]] | None:
     language = _find_language_key(subtitle_map, requested)
     if language is None:
         return None
     entries = subtitle_map.get(language)
     if not isinstance(entries, list):
         return None
-    for preferred_ext in ("vtt", "json3", "ttml", "srv3"):
+    for preferred_ext in preferred_exts:
         for entry in entries:
             if isinstance(entry, dict) and str(entry.get("ext") or "").lower() == preferred_ext:
                 return language, entry
@@ -366,10 +372,13 @@ def _fetch_subtitle_text(url: str, ydl: Any) -> str:
     return data.decode("utf-8", errors="replace")
 
 
-def _parse_subtitle_text(payload: str, ext: str) -> list[TranscriptSegment]:
+def _parse_subtitle_text(payload: str, ext: str, *, subtitle_source: str = "") -> list[TranscriptSegment]:
     if ext == "json3":
         return _parse_json3(payload)
-    return _parse_vtt_like(payload)
+    segments = _parse_vtt_like(payload)
+    if subtitle_source == "youtube_auto_subtitles":
+        return _clean_auto_vtt_segments(segments)
+    return segments
 
 
 def _parse_json3(payload: str) -> list[TranscriptSegment]:
@@ -456,6 +465,73 @@ def _append_segment(segments: list[TranscriptSegment], start: str, end: str, tex
     if segments and segments[-1].text == text:
         return
     segments.append(TranscriptSegment(start=start, end=end, text=text))
+
+
+def _clean_auto_vtt_segments(segments: list[TranscriptSegment]) -> list[TranscriptSegment]:
+    cleaned: list[TranscriptSegment] = []
+    texts = [_normalized_caption_text(segment.text) for segment in segments]
+    for index, segment in enumerate(segments):
+        text = clean_text(segment.text)
+        if not text:
+            continue
+        normalized = texts[index]
+        previous_text = texts[index - 1] if index else ""
+        next_text = texts[index + 1] if index + 1 < len(texts) else ""
+        if _is_short_caption_update(segment) and _text_is_contained_in_neighbor(normalized, previous_text, next_text):
+            continue
+        if cleaned:
+            previous_cleaned = cleaned[-1].text
+            if normalized == _normalized_caption_text(previous_cleaned):
+                continue
+            if normalized in _normalized_caption_text(previous_cleaned):
+                continue
+            text = _trim_caption_prefix_overlap(previous_cleaned, text)
+            if not text:
+                continue
+        _append_segment(cleaned, segment.start, segment.end, text)
+    return cleaned
+
+
+def _is_short_caption_update(segment: TranscriptSegment) -> bool:
+    duration = _timestamp_seconds(segment.end) - _timestamp_seconds(segment.start)
+    return 0 <= duration <= 0.021
+
+
+def _timestamp_seconds(value: str) -> float:
+    parts = value.replace(",", ".").split(":")
+    if len(parts) == 2:
+        minutes, seconds = parts
+        return int(minutes) * 60 + float(seconds)
+    if len(parts) == 3:
+        hours, minutes, seconds = parts
+        return int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+    return 0.0
+
+
+def _text_is_contained_in_neighbor(text: str, previous_text: str, next_text: str) -> bool:
+    return bool(
+        text
+        and (
+            (previous_text and text != previous_text and text in previous_text)
+            or (next_text and text != next_text and text in next_text)
+        )
+    )
+
+
+def _trim_caption_prefix_overlap(previous_text: str, current_text: str) -> str:
+    previous_tokens = previous_text.split()
+    current_tokens = current_text.split()
+    max_overlap = min(len(previous_tokens), len(current_tokens))
+    for token_count in range(max_overlap, 1, -1):
+        previous_tail = " ".join(previous_tokens[-token_count:])
+        current_head = " ".join(current_tokens[:token_count])
+        if _normalized_caption_text(previous_tail) == _normalized_caption_text(current_head):
+            return clean_text(" ".join(current_tokens[token_count:]))
+    return current_text
+
+
+def _normalized_caption_text(value: str) -> str:
+    return clean_text(value).casefold()
 
 
 def write_transcript(transcript: Transcript, options: TranscriptOptions) -> Path:
